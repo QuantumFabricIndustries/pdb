@@ -140,22 +140,6 @@
   ]
  },
  {
-  "id": "2026-09-24-openai-agents-accessed-australian-medicare-portal-and-probed-e9da4",
-  "date": "2026-09-24",
-  "section": "threat",
-  "headline": "OpenAI agents accessed Australian Medicare portal and probed other public sites",
-  "label": "Well-sourced",
-  "score": 69,
-  "also_covered_urls": [
-   "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-   "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
-   "https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html",
-   "https://www.engadget.com/2267381/openai-hacked-into-australias-government/",
-   "https://decrypt.co/379134/an-ai-agent-just-hacked-a-government-website-for-the-first-time-australia-pm-says",
-   "https://www.malwarebytes.com/blog/ai/2026/09/openai-agent-breached-medicare-statistics-portal-then-took-months-to-report-it"
-  ]
- },
- {
   "id": "2026-09-24-wordpress-patches-critical-cve-2026-87902-as-attackers-begin-2f292",
   "date": "2026-09-24",
   "section": "threat",
@@ -257,12 +241,140 @@
   ]
  },
  {
+  "id": "2026-09-24-shinyhunters-claims-breach-of-fbi-jobs-site-and-theft-of-emp-d8cb5",
+  "date": "2026-09-24",
+  "section": "threat",
+  "headline": "ShinyHunters claims breach of FBI jobs site and theft of employee data",
+  "label": "Confirmed",
+  "score": 90,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/",
+   "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+   "https://www.malwarebytes.com/blog/news/2026/09/shinyhunters-claims-fbi-breach-was-revenge-for-false-report"
+  ]
+ },
+ {
+  "id": "2026-09-24-openai-agents-accessed-australian-medicare-portal-and-probed-e9da4",
+  "date": "2026-09-24",
+  "section": "threat",
+  "headline": "OpenAI agents accessed Australian Medicare portal and probed other public sites",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+   "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
+   "https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html",
+   "https://www.engadget.com/2267381/openai-hacked-into-australias-government/",
+   "https://decrypt.co/379134/an-ai-agent-just-hacked-a-government-website-for-the-first-time-australia-pm-says",
+   "https://www.malwarebytes.com/blog/ai/2026/09/openai-agent-breached-medicare-statistics-portal-then-took-months-to-report-it"
+  ]
+ },
+ {
+  "id": "2026-09-24-critical-wordpress-cve-2026-87902-exploited-within-hours-of-f2023",
+  "date": "2026-09-24",
+  "section": "threat",
+  "headline": "Critical WordPress CVE-2026-87902 Exploited Within Hours of Patch Release",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+   "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
+   "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html"
+  ]
+ },
+ {
+  "id": "2026-09-24-openai-provides-daybreak-ai-cyber-defence-tool-to-ukraine-89b04",
+  "date": "2026-09-24",
+  "section": "ai",
+  "headline": "OpenAI provides Daybreak AI cyber‑defence tool to Ukraine",
+  "label": "Confirmed",
+  "score": 82,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c90kly26d7pzo?at_medium=RSS&at_campaign=rss",
+   "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "https://decrypt.co/379126/openai-ukraine-access-daybreak-ai-cyber-defense-tool"
+  ]
+ },
+ {
+  "id": "2026-09-24-google-launches-beta-call-for-me-feature-letting-gemini-plac-969ed",
+  "date": "2026-09-24",
+  "section": "ai",
+  "headline": "Google launches beta “Call for Me” feature letting Gemini place business calls on Pixel 11",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
+   "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+   "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+   "https://www.engadget.com/2267120/pixel-11-call-for-me-feature-begins-preliminary-rollout/"
+  ]
+ },
+ {
+  "id": "2026-09-24-alex-gibney-s-four-hour-documentary-musk-trailer-released-am-e2af9",
+  "date": "2026-09-24",
+  "section": "ai",
+  "headline": "Alex Gibney's Four-Hour Documentary 'Musk' Trailer Released Amid Elon Musk Lawsuit Threat",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://arstechnica.com/culture/2026/09/we-have-a-trailer-for-musk-documentary-elon-called-a-hit-piece/",
+   "https://www.engadget.com/2268124/we-finally-have-a-trailer-for-that-four-hour-elon-musk-documentary/"
+  ]
+ },
+ {
+  "id": "2026-09-24-alphafold-database-adds-thousands-of-viral-protein-complexes-ed9fc",
+  "date": "2026-09-24",
+  "section": "science",
+  "headline": "AlphaFold Database adds thousands of viral protein complexes for pandemic preparedness",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03022-1",
+   "https://phys.org/news/2026-09-alphafold-database-viral-protein-complexes.html"
+  ]
+ },
+ {
+  "id": "2026-09-24-nasa-carbon-capture-tech-for-mars-finds-use-in-breweries-a47ae",
+  "date": "2026-09-24",
+  "section": "science",
+  "headline": "NASA carbon‑capture tech for Mars finds use in breweries",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-machines-for-mars-make-beer-bubbly/"
+  ]
+ },
+ {
+  "id": "2026-09-24-solana-foundation-adds-former-binance-cmo-and-polygon-labs-e-2cd22",
+  "date": "2026-09-24",
+  "section": "money",
+  "headline": "Solana Foundation adds former Binance CMO and Polygon Labs exec to drive institutional finance",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/09/24/solana-foundation-hires-binance-polygon-veterans-as-it-ramps-up-tokenized-finance-push",
+   "https://decrypt.co/379179/solana-foundation-hires-binances-former-global-cmo-for-institutional-push"
+  ]
+ },
+ {
+  "id": "2026-09-24-u-s-government-mulls-joint-ventures-to-promote-dollar-backed-1e50d",
+  "date": "2026-09-24",
+  "section": "money",
+  "headline": "U.S. Government Mulls Joint Ventures to Promote Dollar‑Backed Stablecoins Abroad",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/09/24/trump-administration-weighs-a-global-stablecoin-plan-to-cement-dollar-s-dominance",
+   "https://decrypt.co/379219/us-stablecoins-weapon-dollar-dominance"
+  ]
+ },
+ {
   "id": "2026-09-24-brooklyn-man-sentenced-to-up-to-12-years-for-16-million-coin-fbdf5",
   "date": "2026-09-24",
   "section": "scam",
   "headline": "Brooklyn Man Sentenced to Up to 12 Years for $16 Million Coinbase Phishing Scam",
   "label": "Developing",
-  "score": 49,
+  "score": 53,
   "also_covered_urls": [
    "https://www.coindesk.com/business/2026/09/24/brooklyn-man-sent-to-prison-for-12-years-for-stealing-usd16m-in-a-coinbase-phishing-scheme",
    "https://decrypt.co/379153/brooklyn-man-who-bragged-about-16m-coinbase-scam-gets-up-to-12-years"

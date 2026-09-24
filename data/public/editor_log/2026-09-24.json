@@ -1,83 +1,87 @@
 [
  {
   "section": "threat",
-  "title": "ShinyHunters claims breach of FBI jobs website, FBI launches investigation",
+  "title": "ShinyHunters claims breach of FBI jobs site and theft of employee data",
   "verdict": "PUBLISH",
-  "truth": 82,
+  "truth": 90,
   "reasons": [],
   "edits": [],
-  "owners": 4
+  "owners": 3
  },
  {
   "section": "threat",
   "title": "OpenAI agents accessed Australian Medicare portal and probed other public sites",
   "verdict": "PUBLISH",
-  "truth": 69,
+  "truth": 73,
   "reasons": [],
   "edits": [],
   "owners": 6
  },
  {
   "section": "threat",
-  "title": "WordPress patches critical CVE-2026-87902 as attackers begin active exploitation",
+  "title": "Critical WordPress CVE-2026-87902 Exploited Within Hours of Patch Release",
   "verdict": "PUBLISH",
-  "truth": 65,
+  "truth": 68,
   "reasons": [],
   "edits": [],
   "owners": 3
  },
  {
   "section": "ai",
-  "title": "OpenAI provides free Daybreak AI cyber‑defence tool to Ukraine",
+  "title": "OpenAI provides Daybreak AI cyber‑defence tool to Ukraine",
   "verdict": "PUBLISH",
   "truth": 82,
   "reasons": [],
-  "edits": [
-   "editor rewrote so_what",
-   "editor: So_what section includes unsourced speculation and hype about intelligence collection and Western tech trends not directly tied to the core fact, and GPT-5.6 Sol model details need tightening against sources."
-  ],
+  "edits": [],
   "owners": 3
  },
  {
   "section": "ai",
-  "title": "Google launches \"Call for Me\" AI calling feature on Pixel 11 in US",
+  "title": "Google launches beta “Call for Me” feature letting Gemini place business calls on Pixel 11",
   "verdict": "PUBLISH",
-  "truth": 66,
+  "truth": 68,
   "reasons": [],
-  "edits": [
-   "editor rewrote in_brief",
-   "editor rewrote so_what",
-   "editor: So_what contained advisory phrasing ('Observers should watch for...') which violates editorial guidelines."
-  ],
+  "edits": [],
   "owners": 3
  },
  {
   "section": "ai",
-  "title": "Disney+ and Hulu raise subscription prices, streaming revenue up 11%",
+  "title": "Alex Gibney's Four-Hour Documentary 'Musk' Trailer Released Amid Elon Musk Lawsuit Threat",
   "verdict": "PUBLISH",
-  "truth": 35,
+  "truth": 50,
   "reasons": [],
   "edits": [
-   "removed 1 claim(s) that failed fact-checking",
-   "editor rewrote in_brief",
    "editor rewrote so_what",
-   "editor: Included unsupported date 'September 23, 2026' and quarter reference 'Q3 2026' not in sources.",
-   "editor: Included unverified and speculative claims in the so_what section not strictly backed by sources."
+   "editor: so_what contains unverified release dates (October 9/16) and unverified international distribution details not fully supported by sources, and mentions claims about the 2024 election without proper attribution or framing as claims."
   ],
   "owners": 2
  },
  {
   "section": "science",
-  "title": "NASA-ISRO Satellite Tracks Rare Kamchatka Volcano Eruption",
+  "title": "AlphaFold Database adds thousands of viral protein complexes for pandemic preparedness",
   "verdict": "PUBLISH",
-  "truth": 59,
+  "truth": 73,
   "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source regarding the collaboration partners."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA Travel Service Expands Reimbursement Options for Agency Personnel",
+  "verdict": "HOLD",
+  "truth": 59,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
   "edits": [],
   "owners": 1
  },
  {
   "section": "science",
-  "title": "NASA launches health and performance studies on Crew‑13 mission",
+  "title": "NASA carbon‑capture tech for Mars finds use in breweries",
   "verdict": "PUBLISH",
   "truth": 59,
   "reasons": [],
@@ -86,18 +90,31 @@
  },
  {
   "section": "money",
-  "title": "Solana Foundation adds former Binance and Polygon executives as it expands institutional finance push",
+  "title": "Solana Foundation adds former Binance CMO and Polygon Labs exec to drive institutional finance",
   "verdict": "PUBLISH",
-  "truth": 56,
+  "truth": 53,
   "reasons": [],
   "edits": [],
   "owners": 2
  },
  {
   "section": "money",
-  "title": "Traders Expect Four Fed Rate Hikes by Mid‑2027 as Bitcoin Slides Below $83,000",
+  "title": "Traders price in four Fed hikes by mid‑2027 as Bitcoin slips below $83,000",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "U.S. Government Mulls Joint Ventures to Promote Dollar‑Backed Stablecoins Abroad",
   "verdict": "PUBLISH",
-  "truth": 46,
+  "truth": 53,
   "reasons": [],
   "edits": [],
   "owners": 2
@@ -106,7 +123,7 @@
   "section": "scam",
   "title": "Brooklyn Man Sentenced to Up to 12 Years for $16 Million Coinbase Phishing Scam",
   "verdict": "PUBLISH",
-  "truth": 49,
+  "truth": 53,
   "reasons": [],
   "edits": [],
   "owners": 2
@@ -135,7 +152,7 @@
  },
  {
   "section": "myth",
-  "title": "Fact Check: Video Misrepresents Billie Eilish as Receiving $120 Million from Democrats",
+  "title": "Fact Check: Video Mislabels Washington Post, Claims Billie Eilish Received $120 Million",
   "verdict": "HOLD",
   "truth": 33,
   "reasons": [
