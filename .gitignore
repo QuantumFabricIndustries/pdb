@@ -10,3 +10,4 @@ venv/
 data/work/
 data/cache/
 site/
+go-live.log
