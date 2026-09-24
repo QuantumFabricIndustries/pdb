@@ -141,6 +141,11 @@ def validate(provider: ProviderConfig) -> list[str]:
         try:
             chat(provider, m, "Reply with the single word OK.", "ping", max_retries=1)
         except Exception as e:
+            status = getattr(e, "status_code", None)
+            if status in (429, 500, 502, 503, 504) and "quota" not in str(e).lower():
+                log.warning("%s/%s busy at startup (%s) — key accepted; per-story retries/backup will handle it",
+                            provider.name, m, status)
+                continue
             problems.append(f"{provider.name}: model '{m}' unusable ({type(e).__name__}: {str(e)[:120]})")
     return problems
 
