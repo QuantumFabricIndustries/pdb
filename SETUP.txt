@@ -1,0 +1,24 @@
+PDB — Public Daily Brief: going live (about 10 minutes, all free)
+
+1. Create the repo
+   https://github.com/organizations/QuantumFabricIndustries/repositories/new
+   Name: pdb   Visibility: Public   Do NOT add a README, .gitignore or license (leave it empty).
+
+2. Push the code
+   Double-click PUBLISH_TO_GITHUB.bat in this folder.
+
+3. Add the two AI keys as secrets (they stay hidden, never in the code)
+   Repo > Settings > Secrets and variables > Actions > New repository secret
+     GROQ_API_KEY    = (copy from C:\Users\reven\Synthesis\.env)
+     GEMINI_API_KEY  = (copy from C:\Users\reven\Synthesis\.env)
+
+4. Turn on the website
+   Repo > Settings > Pages > Build and deployment > Source: "GitHub Actions"
+
+5. First run
+   Repo > Actions > "Daily brief" > Run workflow
+   Takes ~5 minutes. Your site: https://quantumfabricindustries.github.io/pdb/
+
+After that it runs by itself every morning at 6:17 AM Pacific.
+If a run fails (e.g. an AI service is down), GitHub emails you and yesterday's brief stays up.
+Your house ads: edit data/public/ads.json (label must stay "From the maker of PDB").

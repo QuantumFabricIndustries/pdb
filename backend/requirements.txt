@@ -1,0 +1,7 @@
+# PDB — Public Daily Brief
+httpx>=0.27
+feedparser>=6.0
+openai>=1.40
+trafilatura>=1.8
+lxml_html_clean>=0.1
+pytest>=8.0
