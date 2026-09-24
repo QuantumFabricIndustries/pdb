@@ -169,3 +169,11 @@ def test_restore_lost_apostrophes():
                   text="She set the women’s Rubik's Cube record.", authority=0.8)]
     assert restore_apostrophes("New women s Rubik s Cube standard", src) == "New women's Rubik's Cube standard"
     assert restore_apostrophes("It s fine", src) == "It s fine"   # not in sources: untouched
+
+
+def test_ellipsis_cannot_splice_distant_sentences():
+    far = "Coinbase already offers floating-rate loans to many customers. " + ("Filler sentence here. " * 40) + \
+          "The lending business has more than $1.4 billion in active loans."
+    assert not quote_in_text("Coinbase already offers floating-rate loans ... has more than $1.4 billion in active loans", far)
+    near = "Coinbase already offers floating-rate loans to customers, and the lending business has more than $1.4 billion in active loans."
+    assert quote_in_text("Coinbase already offers floating-rate loans ... has more than $1.4 billion in active loans", near)

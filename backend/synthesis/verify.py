@@ -101,8 +101,29 @@ def quote_in_text(quote: str, text: str) -> bool:
     frags = [f.strip(" .,;:\"'\u201c\u201d") for f in re.split(r"\.\.\.|\u2026|\[\.\.\.\]", quote or "")]
     if len(frags) > 1:                       # quote contains an ellipsis
         long_frags = [f for f in frags if len(f.split()) >= 4]
-        return bool(long_frags) and all(_fragment_in_text(f, text) for f in long_frags)
+        return bool(long_frags) and _fragments_close_in_order(long_frags, text)
     return _fragment_in_text(quote, text)
+
+
+ELLIPSIS_MAX_GAP = 400   # chars; splicing sentences far apart can distort meaning
+
+
+def _fragments_close_in_order(frags: list[str], text: str) -> bool:
+    """Each fragment must appear verbatim (normalized), in order, near the previous one."""
+    t = norm(text)
+    pos = -1
+    for f in frags:
+        fn = norm(f)
+        if pos < 0:
+            i = t.find(fn)
+        else:
+            i = t.find(fn, pos)
+            if i - pos > ELLIPSIS_MAX_GAP:
+                i = -1
+        if i < 0:
+            return False
+        pos = i + len(fn)
+    return True
 
 
 def _fragment_in_text(quote: str, text: str) -> bool:

@@ -1,11 +1,11 @@
 [
  {
-  "id": "2026-09-24-fbi-investigates-shinyhunters-claim-of-data-breach-and-site-287c9",
+  "id": "2026-09-24-shinyhunters-claims-breach-of-fbi-jobs-site-and-data-theft-a3936",
   "date": "2026-09-24",
   "section": "threat",
-  "headline": "FBI investigates ShinyHunters claim of data breach and site defacement",
+  "headline": "ShinyHunters claims breach of FBI jobs site and data theft",
   "label": "Confirmed",
-  "score": 85,
+  "score": 98,
   "also_covered_urls": [
    "https://therecord.media/fbi-investigating-alleged-shinyhunters-job-site-breach",
    "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
@@ -16,12 +16,12 @@
   ]
  },
  {
-  "id": "2026-09-24-openai-ai-agent-accessed-australian-medicare-stats-portal-br-bec0a",
+  "id": "2026-09-24-openai-ai-agent-accessed-australian-medicare-portal-in-june-05bb8",
   "date": "2026-09-24",
   "section": "threat",
-  "headline": "OpenAI AI agent accessed Australian Medicare stats portal, breach disclosed months later",
+  "headline": "OpenAI AI agent accessed Australian Medicare portal in June, breach disclosed in September",
   "label": "Well-sourced",
-  "score": 71,
+  "score": 66,
   "also_covered_urls": [
    "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
    "https://www.npr.org/2026/09/24/g-s1-144835/openai-breach-australia",
@@ -37,10 +37,10 @@
   ]
  },
  {
-  "id": "2026-09-24-f5-releases-patches-for-big-ip-apm-zero-day-exploited-in-rem-86e19",
+  "id": "2026-09-24-f5-releases-patches-for-exploited-big-ip-apm-zero-day-cve-20-4e1cf",
   "date": "2026-09-24",
   "section": "threat",
-  "headline": "F5 releases patches for BIG‑IP APM zero‑day exploited in remote code attacks",
+  "headline": "F5 releases patches for exploited BIG‑IP APM zero‑day (CVE‑2026‑94127)",
   "label": "Confirmed",
   "score": 93,
   "also_covered_urls": [
@@ -51,10 +51,10 @@
   ]
  },
  {
-  "id": "2026-09-24-openai-provides-free-daybreak-ai-cyber-defense-tool-to-ukrai-ebdfb",
+  "id": "2026-09-24-openai-provides-free-daybreak-ai-cyber-defence-tool-to-ukrai-e9f40",
   "date": "2026-09-24",
   "section": "ai",
-  "headline": "OpenAI provides free Daybreak AI cyber-defense tool to Ukraine",
+  "headline": "OpenAI provides free Daybreak AI cyber‑defence tool to Ukraine",
   "label": "Confirmed",
   "score": 82,
   "also_covered_urls": [
@@ -69,19 +69,19 @@
   "section": "ai",
   "headline": "Discord launches AI‑based age‑verification system after privacy backlash",
   "label": "Developing",
-  "score": 48,
+  "score": 37,
   "also_covered_urls": [
    "https://arstechnica.com/tech-policy/2026/09/discord-age-verification-rolls-out-today-with-changes-spurred-by-user-backlash/",
    "https://www.theregister.com/offbeat/2026/09/23/discordians-now-subject-to-whims-of-new-age-verification-technology/5298641"
   ]
  },
  {
-  "id": "2026-09-24-young-speedcuber-establishes-new-women-s-rubik-s-cube-standa-9c3ba",
+  "id": "2026-09-24-six-year-old-competitor-sets-new-women-s-rubik-s-cube-record-a8c2c",
   "date": "2026-09-24",
   "section": "ai",
-  "headline": "Young speedcuber establishes new women's Rubik's Cube standard",
+  "headline": "Six-Year-Old Competitor Sets New Women's Rubik's Cube Record",
   "label": "Developing",
-  "score": 50,
+  "score": 47,
   "also_covered_urls": [
    "https://www.theguardian.com/games/video/2026/sep/22/rubiks-cube-record-six-year-old",
    "https://www.theguardian.com/games/2026/sep/22/six-year-old-chinese-girl-rubiks-cube-world-record-lian-yunzhi",
@@ -89,10 +89,10 @@
   ]
  },
  {
-  "id": "2026-09-24-quadruped-robot-raibo2-runs-marathon-on-a-single-battery-cha-9c6c3",
+  "id": "2026-09-24-quadruped-robot-raibo2-runs-marathon-on-single-battery-charg-59ca8",
   "date": "2026-09-24",
   "section": "science",
-  "headline": "Quadruped robot RAIBO2 runs marathon on a single battery charge",
+  "headline": "Quadruped robot RAIBO2 runs marathon on single battery charge",
   "label": "Well-sourced",
   "score": 73,
   "also_covered_urls": [
@@ -101,10 +101,10 @@
   ]
  },
  {
-  "id": "2026-09-24-uk-banking-data-study-maps-financial-abuse-indicators-over-s-20b5b",
+  "id": "2026-09-24-uk-study-links-banking-data-patterns-to-financial-abuse-vict-ab327",
   "date": "2026-09-24",
   "section": "science",
-  "headline": "UK banking data study maps financial abuse indicators over seven years",
+  "headline": "UK study links banking data patterns to financial abuse victims",
   "label": "Confirmed",
   "score": 80,
   "also_covered_urls": [
@@ -114,12 +114,12 @@
   ]
  },
  {
-  "id": "2026-09-24-blackrock-paper-links-ai-agents-to-future-stablecoin-and-com-e380e",
+  "id": "2026-09-24-blackrock-paper-links-ai-agents-to-stablecoin-and-crypto-dem-36dcf",
   "date": "2026-09-24",
   "section": "money",
-  "headline": "BlackRock paper links AI agents to future stablecoin and compute‑token demand",
+  "headline": "BlackRock paper links AI agents to stablecoin and crypto demand",
   "label": "Developing",
-  "score": 51,
+  "score": 54,
   "also_covered_urls": [
    "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock",
    "https://decrypt.co/379070/blackrock-ai-agents-crypto-next-demand-wave"

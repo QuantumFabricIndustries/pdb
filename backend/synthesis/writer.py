@@ -97,8 +97,15 @@ def parse_json(raw: str) -> dict:
 
 
 def write(provider: ProviderConfig, section: str, sources: list[Source]) -> dict:
-    raw = chat(provider, provider.analysis_model, _SYSTEM, _prompt(section, sources), json_mode=True, max_tokens=4000)
-    draft = parse_json(raw)
+    from openai import BadRequestError
+    try:
+        raw = chat(provider, provider.analysis_model, _SYSTEM, _prompt(section, sources), json_mode=True, max_tokens=4000)
+        draft = parse_json(raw)
+    except (BadRequestError, ValueError):
+        # Strict JSON mode occasionally rejects a valid-looking answer; retry once in plain mode and parse.
+        raw = chat(provider, provider.analysis_model, _SYSTEM + "\nReturn ONLY the JSON object, nothing else.",
+                   _prompt(section, sources), max_tokens=4000)
+        draft = parse_json(raw)
     draft.setdefault("what_to_do", "")
     draft["hype_flag"] = str(draft.get("hype_flag", "low")).lower()
     if draft["hype_flag"] not in ("low", "medium", "high"):

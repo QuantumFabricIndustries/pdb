@@ -1,32 +1,25 @@
 [
  {
   "section": "threat",
-  "title": "FBI investigates ShinyHunters claim of data breach and site defacement",
+  "title": "ShinyHunters claims breach of FBI jobs site and data theft",
   "verdict": "PUBLISH",
-  "truth": 85,
+  "truth": 98,
   "reasons": [],
   "edits": [],
   "owners": 5
  },
  {
   "section": "threat",
-  "title": "OpenAI AI agent accessed Australian Medicare stats portal, breach disclosed months later",
+  "title": "OpenAI AI agent accessed Australian Medicare portal in June, breach disclosed in September",
   "verdict": "PUBLISH",
-  "truth": 71,
+  "truth": 66,
   "reasons": [],
-  "edits": [
-   "editor rewrote in_brief",
-   "editor rewrote so_what",
-   "editor rewrote what_to_do",
-   "editor: Draft states the breach happened in June (Source 1/5) while Source 2 states July 18, making the exact date slightly conflicted, though sources generally state June/July. However, the draft's mention of the portal and dates requires strict alignment with verified facts. Let's ensure dates match sources: June or July depending on source, but June is widely cited by Albanese in Source 1/5. Wait, source 2 says July 18, source 1/5 says June. The draft states June 2026. Let's fix minor date/source phrasing if needed.",
-   "editor: Draft in_brief states the breach was reported to the Australian government on 10 September. Source 1/2/3 state OpenAI emailed a general inbox on 10 September.",
-   "editor: Check for hype/advice: The what_to_do section contains general cybersecurity advice not directly tied to the specific source facts about this unique AI incident, so it should be simplified or tailored strictly to the event."
-  ],
+  "edits": [],
   "owners": 7
  },
  {
   "section": "threat",
-  "title": "F5 releases patches for BIG‑IP APM zero‑day exploited in remote code attacks",
+  "title": "F5 releases patches for exploited BIG‑IP APM zero‑day (CVE‑2026‑94127)",
   "verdict": "PUBLISH",
   "truth": 93,
   "reasons": [],
@@ -35,43 +28,41 @@
  },
  {
   "section": "ai",
-  "title": "OpenAI provides free Daybreak AI cyber-defense tool to Ukraine",
+  "title": "OpenAI provides free Daybreak AI cyber‑defence tool to Ukraine",
   "verdict": "PUBLISH",
   "truth": 82,
   "reasons": [],
-  "edits": [
-   "editor rewrote headline",
-   "editor rewrote in_brief",
-   "editor rewrote so_what",
-   "editor: Headline and text mention GPT-5.6 Sol model, but source 1 and 2 mention it, wait, source 1 and 2 DO mention GPT-5.6 Sol. However, the draft mentions a $1 billion pledge and policy shift regarding military use that contains unverified extrapolation or slightly speculative framing, but sources 2 mentions the $1 billion pledge and the policy shift regarding military use. Let's check source 2: 'Until January 2024, its usage policy flatly banned military and warfare activity...'. Wait, the draft states 'signalling a shift in the company’s policy that previously barred military use.' Sources support this. But wait, what about the automated checks or other issues? Let's check source text vs draft: Source 2 says 'OpenAI will give Ukraine's Ministry of Digital Transformation access to Daybreak', draft says 'OpenAI announced it will give Ukraine free access...'. Source 1 says 'The tech giant OpenAI will share its AI cyber defence system Daybreak for free with the Ukraine government'. Everything looks largely supported, but let's review if any hype language or investment/legal/medical advice exists. 'Future monitoring should track how...' is slightly editorial/hype/meta. Let's rewrite the so_what and fixed fields to be cleaner and strictly factual."
-  ],
+  "edits": [],
   "owners": 3
  },
  {
   "section": "ai",
   "title": "Discord launches AI‑based age‑verification system after privacy backlash",
   "verdict": "PUBLISH",
-  "truth": 48,
+  "truth": 37,
   "reasons": [],
-  "edits": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
   "owners": 2
  },
  {
   "section": "ai",
-  "title": "Young speedcuber establishes new women s Rubik s Cube standard",
+  "title": "Six-Year-Old Competitor Sets New Women's Rubik's Cube Record",
   "verdict": "PUBLISH",
-  "truth": 50,
+  "truth": 47,
   "reasons": [],
   "edits": [
    "editor rewrote headline",
    "editor rewrote in_brief",
-   "editor: Draft copied long word-for-word strings directly from the source."
+   "editor rewrote so_what",
+   "editor: Copied word-for-word phrases from the source need to be rephrased to avoid plagiarism."
   ],
   "owners": 2
  },
  {
   "section": "science",
-  "title": "Quadruped robot RAIBO2 runs marathon on a single battery charge",
+  "title": "Quadruped robot RAIBO2 runs marathon on single battery charge",
   "verdict": "PUBLISH",
   "truth": 73,
   "reasons": [],
@@ -80,7 +71,7 @@
  },
  {
   "section": "science",
-  "title": "UK banking data study maps financial abuse indicators over seven years",
+  "title": "UK study links banking data patterns to financial abuse victims",
   "verdict": "PUBLISH",
   "truth": 80,
   "reasons": [],
@@ -89,9 +80,9 @@
  },
  {
   "section": "money",
-  "title": "BlackRock paper links AI agents to future stablecoin and compute‑token demand",
+  "title": "BlackRock paper links AI agents to stablecoin and crypto demand",
   "verdict": "PUBLISH",
-  "truth": 51,
+  "truth": 54,
   "reasons": [],
   "edits": [],
   "owners": 2
@@ -107,22 +98,25 @@
  },
  {
   "section": "scam",
-  "title": "Southeast Asian cybercrime ring forces engineers into romance scams using fake Fresh Air invitations",
+  "title": "Cyber romance scams exploit victims and trap engineers in Southeast Asia",
   "verdict": "HOLD",
   "truth": 33,
   "reasons": [
    "truth score 33 below publish bar 35"
   ],
-  "edits": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what includes promotional language and a book plug for Andy Greenberg's upcoming book, which violates the no-hype and no-advertising policy."
+  ],
   "owners": 1
  },
  {
   "section": "scam",
-  "title": "Russians impersonating Signal support launch phishing attacks",
+  "title": "No verifiable scam details available in provided sources",
   "verdict": "HOLD",
-  "truth": 33,
+  "truth": 8,
   "reasons": [
-   "only 1 verified claim(s); need 2"
+   "only 0 verified claim(s); need 2"
   ],
   "edits": [],
   "owners": 1
@@ -151,7 +145,7 @@
  },
  {
   "section": "myth",
-  "title": "Video of Greek protests is from 2025, not current events",
+  "title": "Video of Greek protests dates to February 2025, not current events",
   "verdict": "HOLD",
   "truth": 33,
   "reasons": [
@@ -162,11 +156,11 @@
  },
  {
   "section": "myth",
-  "title": "Zoo video of rhino and tiny deer is real, not AI‑generated",
-  "verdict": "HOLD",
-  "truth": 33,
+  "title": "Too cute to be true? Video really shows rhino and tiny deer headbutting",
+  "verdict": "ERROR",
+  "truth": null,
   "reasons": [
-   "truth score 33 below publish bar 35"
+   "Error code: 400 - {'error': {'message': \"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed'"
   ],
   "edits": [],
   "owners": 1
