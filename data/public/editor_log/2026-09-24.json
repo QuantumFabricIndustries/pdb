@@ -1,27 +1,27 @@
 [
  {
   "section": "threat",
-  "title": "ShinyHunters claims breach of FBI jobs site and data theft",
+  "title": "ShinyHunters claims breach of FBI jobs website, FBI launches investigation",
   "verdict": "PUBLISH",
-  "truth": 98,
+  "truth": 82,
   "reasons": [],
   "edits": [],
-  "owners": 5
+  "owners": 4
  },
  {
   "section": "threat",
-  "title": "OpenAI AI agent accessed Australian Medicare portal in June, breach disclosed in September",
+  "title": "OpenAI agents accessed Australian Medicare portal and probed other public sites",
   "verdict": "PUBLISH",
-  "truth": 66,
+  "truth": 69,
   "reasons": [],
   "edits": [],
-  "owners": 7
+  "owners": 6
  },
  {
   "section": "threat",
-  "title": "F5 releases patches for exploited BIG‑IP APM zero‑day (CVE‑2026‑94127)",
+  "title": "WordPress patches critical CVE-2026-87902 as attackers begin active exploitation",
   "verdict": "PUBLISH",
-  "truth": 93,
+  "truth": 65,
   "reasons": [],
   "edits": [],
   "owners": 3
@@ -32,105 +32,84 @@
   "verdict": "PUBLISH",
   "truth": 82,
   "reasons": [],
-  "edits": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section includes unsourced speculation and hype about intelligence collection and Western tech trends not directly tied to the core fact, and GPT-5.6 Sol model details need tightening against sources."
+  ],
   "owners": 3
  },
  {
   "section": "ai",
-  "title": "Discord launches AI‑based age‑verification system after privacy backlash",
+  "title": "Google launches \"Call for Me\" AI calling feature on Pixel 11 in US",
   "verdict": "PUBLISH",
-  "truth": 37,
+  "truth": 66,
   "reasons": [],
   "edits": [
-   "removed 1 claim(s) that failed fact-checking"
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: So_what contained advisory phrasing ('Observers should watch for...') which violates editorial guidelines."
   ],
-  "owners": 2
+  "owners": 3
  },
  {
   "section": "ai",
-  "title": "Six-Year-Old Competitor Sets New Women's Rubik's Cube Record",
+  "title": "Disney+ and Hulu raise subscription prices, streaming revenue up 11%",
   "verdict": "PUBLISH",
-  "truth": 47,
+  "truth": 35,
   "reasons": [],
   "edits": [
-   "editor rewrote headline",
+   "removed 1 claim(s) that failed fact-checking",
    "editor rewrote in_brief",
    "editor rewrote so_what",
-   "editor: Copied word-for-word phrases from the source need to be rephrased to avoid plagiarism."
+   "editor: Included unsupported date 'September 23, 2026' and quarter reference 'Q3 2026' not in sources.",
+   "editor: Included unverified and speculative claims in the so_what section not strictly backed by sources."
   ],
   "owners": 2
  },
  {
   "section": "science",
-  "title": "Quadruped robot RAIBO2 runs marathon on single battery charge",
+  "title": "NASA-ISRO Satellite Tracks Rare Kamchatka Volcano Eruption",
   "verdict": "PUBLISH",
-  "truth": 73,
+  "truth": 59,
   "reasons": [],
   "edits": [],
-  "owners": 2
+  "owners": 1
  },
  {
   "section": "science",
-  "title": "UK study links banking data patterns to financial abuse victims",
+  "title": "NASA launches health and performance studies on Crew‑13 mission",
   "verdict": "PUBLISH",
-  "truth": 80,
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Solana Foundation adds former Binance and Polygon executives as it expands institutional finance push",
+  "verdict": "PUBLISH",
+  "truth": 56,
   "reasons": [],
   "edits": [],
   "owners": 2
  },
  {
   "section": "money",
-  "title": "BlackRock paper links AI agents to stablecoin and crypto demand",
+  "title": "Traders Expect Four Fed Rate Hikes by Mid‑2027 as Bitcoin Slides Below $83,000",
   "verdict": "PUBLISH",
-  "truth": 54,
-  "reasons": [],
-  "edits": [],
-  "owners": 2
- },
- {
-  "section": "money",
-  "title": "Coinbase adds fixed‑rate Bitcoin‑backed USDC loans on Base",
-  "verdict": "PUBLISH",
-  "truth": 53,
+  "truth": 46,
   "reasons": [],
   "edits": [],
   "owners": 2
  },
  {
   "section": "scam",
-  "title": "Cyber romance scams exploit victims and trap engineers in Southeast Asia",
-  "verdict": "HOLD",
-  "truth": 33,
-  "reasons": [
-   "truth score 33 below publish bar 35"
-  ],
-  "edits": [
-   "editor rewrote so_what",
-   "editor: So_what includes promotional language and a book plug for Andy Greenberg's upcoming book, which violates the no-hype and no-advertising policy."
-  ],
-  "owners": 1
- },
- {
-  "section": "scam",
-  "title": "No verifiable scam details available in provided sources",
-  "verdict": "HOLD",
-  "truth": 8,
-  "reasons": [
-   "only 0 verified claim(s); need 2"
-  ],
+  "title": "Brooklyn Man Sentenced to Up to 12 Years for $16 Million Coinbase Phishing Scam",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
   "edits": [],
-  "owners": 1
- },
- {
-  "section": "scam",
-  "title": "DarkMe RAT delivered via phishing email using deceptive .pif file",
-  "verdict": "HOLD",
-  "truth": 32,
-  "reasons": [
-   "truth score 32 below publish bar 35"
-  ],
-  "edits": [],
-  "owners": 1
+  "owners": 2
  },
  {
   "section": "myth",
@@ -145,7 +124,7 @@
  },
  {
   "section": "myth",
-  "title": "Video of Greek protests dates to February 2025, not current events",
+  "title": "Video of Greek protests is from 2025, not current events",
   "verdict": "HOLD",
   "truth": 33,
   "reasons": [
@@ -156,11 +135,11 @@
  },
  {
   "section": "myth",
-  "title": "Too cute to be true? Video really shows rhino and tiny deer headbutting",
-  "verdict": "ERROR",
-  "truth": null,
+  "title": "Fact Check: Video Misrepresents Billie Eilish as Receiving $120 Million from Democrats",
+  "verdict": "HOLD",
+  "truth": 33,
   "reasons": [
-   "Error code: 400 - {'error': {'message': \"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed'"
+   "truth score 33 below publish bar 35"
   ],
   "edits": [],
   "owners": 1
