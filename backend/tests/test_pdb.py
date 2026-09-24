@@ -177,3 +177,31 @@ def test_ellipsis_cannot_splice_distant_sentences():
     assert not quote_in_text("Coinbase already offers floating-rate loans ... has more than $1.4 billion in active loans", far)
     near = "Coinbase already offers floating-rate loans to customers, and the lending business has more than $1.4 billion in active loans."
     assert quote_in_text("Coinbase already offers floating-rate loans ... has more than $1.4 billion in active loans", near)
+
+
+# --- weekly newsletter + sign-up box ---------------------------------------------
+def _st(i, section, score, head, date="2026-09-24", urls=None):
+    return {"id": f"s{i}", "date": date, "section": section, "headline": head, "in_brief": "b", "what_to_do": "",
+            "truth": {"total": score, "label": "Confirmed"}, "sources": [{"owner": "a"}, {"owner": "b"}],
+            "also_covered_urls": urls or [f"https://x.com/{i}"]}
+
+def test_weekly_picks_best_per_section_and_skips_repeats():
+    from synthesis.site import pick_weekly
+    issues = [
+        {"date": "2026-09-10", "stories": [_st(0, "threat", 99, "Too old to include")]},
+        {"date": "2026-09-23", "stories": [_st(1, "threat", 80, "F5 BIG-IP zero-day exploited", urls=["https://a.com/f5"]),
+                                           _st(2, "threat", 70, "WordPress plugin flaw exploited")]},
+        {"date": "2026-09-24", "stories": [_st(3, "threat", 90, "F5 BIG-IP zero-day exploited update", urls=["https://a.com/f5"]),
+                                           _st(4, "threat", 60, "Third threat story"), _st(5, "ai", 50, "AI story")]},
+    ]
+    ids = [s["id"] for s in pick_weekly(issues)]
+    assert "s0" not in ids                      # outside the 7-day window
+    assert "s3" in ids and "s1" not in ids      # same story twice -> keep the better-scored one
+    assert sum(1 for s in pick_weekly(issues) if s["section"] == "threat") == 2
+    assert ids[-1] == "s5"                      # sections in brief order
+
+def test_subscribe_box_only_with_real_url():
+    from synthesis.site import subscribe_box
+    assert subscribe_box({"subscribe_url": ""}) == ""
+    assert subscribe_box({"subscribe_url": "javascript:alert(1)"}) == ""
+    assert "https://pdb.kit.com" in subscribe_box({"subscribe_url": "https://pdb.kit.com"})

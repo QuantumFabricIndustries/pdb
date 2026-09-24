@@ -99,6 +99,10 @@ ol.trail{padding-left:20px;font-size:15px}ol.trail li{margin:6px 0}
 .stat{font-size:13px;color:var(--muted);text-align:center;padding:12px 0}
 footer.foot{margin:48px 0 0;padding:22px 0 40px;border-top:3px double var(--ink);font-size:13px;color:var(--muted);text-align:center}
 footer.foot a{margin:0 7px}
+.sub{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:18px 0;padding:14px 16px;
+border:1px solid var(--ink);border-radius:8px;background:var(--card);font:15px/1.4 -apple-system,"Segoe UI",sans-serif}
+.btn{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;font:700 14px -apple-system,"Segoe UI",sans-serif;
+padding:9px 16px;border-radius:6px;white-space:nowrap}.btn:hover{background:var(--accent)}
 details summary{cursor:pointer;font:600 14px -apple-system,sans-serif}
 @media (max-width:560px){.mast .logo{font-size:48px}h1.head{font-size:27px}.story h3{font-size:20px}
 .bwrap{width:62px}.badge{width:50px;height:50px;border-width:3px}.badge b{font-size:18px}.bwrap small{font-size:8.5px}.lede{font-size:18px}}
@@ -180,13 +184,24 @@ def _ad(ads: list[dict], k: int) -> str:
             f'{e(a.get("title", ""))}</a></h4><p>{e(a.get("text", ""))}</p></aside>')
 
 
-def render_issue(issue: dict, ads: list[dict], rel: str = "") -> str:
+def subscribe_box(cfg: dict) -> str:
+    """Plain link to the newsletter sign-up page (no embedded third-party script = no trackers)."""
+    url = (cfg or {}).get("subscribe_url", "")
+    if urlparse(url).scheme not in ("http", "https"):
+        return ""
+    name = e(cfg.get("newsletter_name", "PDB Weekly"))
+    return (f'<aside class="sub"><div><b>Get {name} in your inbox.</b> The week\'s most important verified stories, '
+            f'once a week. Free.</div><a class="btn" href="{e(url)}" rel="noopener">Subscribe free</a></aside>')
+
+
+def render_issue(issue: dict, ads: list[dict], rel: str = "", cfg: dict | None = None) -> str:
     names = issue["section_names"]
     nav = "".join(f'<a class="chip" href="#{s}">{SECTION_ICONS.get(s, "")} {e(names[s])}</a>' for s in issue["sections"])
     st = issue.get("stats", {})
     out = [f'<div class="dateline"><span>{e(_nice_date(issue["date"]))}</span>'
            f'<span>{st.get("items_scanned", "?")} reports scanned · {st.get("published", len(issue["stories"]))} stories passed the Editor</span></div>',
            f'<nav class="sections">{nav}</nav>']
+    out.append(subscribe_box(cfg or {}))
     if issue.get("editor_note"):
         out.append(f'<p class="note sans">{e(issue["editor_note"])}</p>')
     for i, sec in enumerate(issue["sections"]):
@@ -200,6 +215,7 @@ def render_issue(issue: dict, ads: list[dict], rel: str = "") -> str:
         if i == 1:
             out.append(_ad(ads, hash(issue["date"])))
     out.append(_ad(ads, hash(issue["date"]) + 1))
+    out.append(subscribe_box(cfg or {}))
     return "\n".join(out)
 
 
@@ -340,11 +356,78 @@ def render_email(issue: dict, site_base: str) -> str:
     return f'<div style="max-width:640px;margin:0 auto;padding:16px;color:#111;background:#fff">{"".join(rows)}</div>'
 
 
+def pick_weekly(all_issues: list[dict], days: int = 7, per_section: int = 2, max_total: int = 10) -> list[dict]:
+    """Best verified stories of the last `days` days: highest Truth Score per section, no repeats of the same story."""
+    from datetime import date as _d, timedelta as _td
+    from .verify import _key_words
+    if not all_issues:
+        return []
+    end = _d.fromisoformat(all_issues[-1]["date"])
+    pool = [st for iss in all_issues if end - _d.fromisoformat(iss["date"]) < _td(days=days) for st in iss["stories"]]
+    pool.sort(key=lambda st: (st["truth"]["total"], st["date"]), reverse=True)
+    chosen: list[dict] = []
+    for st in pool:
+        kw = _key_words(st["headline"])
+        dup = any((kw and len(kw & _key_words(c["headline"])) / max(1, min(len(kw), len(_key_words(c["headline"])))) >= 0.6)
+                  or set(st.get("also_covered_urls", [])) & set(c.get("also_covered_urls", [])) for c in chosen)
+        if dup or sum(1 for c in chosen if c["section"] == st["section"]) >= per_section:
+            continue
+        chosen.append(st)
+        if len(chosen) >= max_total:
+            break
+    order = ["threat", "ai", "science", "money", "scam", "myth"]
+    chosen.sort(key=lambda st: (order.index(st["section"]) if st["section"] in order else 99, -st["truth"]["total"]))
+    return chosen
+
+
+def _n_outlets(st: dict) -> str:
+    n = len({x["owner"] for x in st["sources"]})
+    return f"{n} independent outlet{'s' if n != 1 else ''}"
+
+
+def render_weekly(stories: list[dict], names: dict, week_end: str, site_base: str, ads: list[dict]) -> str:
+    """Inline-styled weekly newsletter body to paste into Kit (email clients ignore external CSS)."""
+    base = site_base or "./"
+    label_color = {"Confirmed": "#1f7a4a", "Well-sourced": "#1d6b78", "Developing": "#a4660b", "Disputed": "#b3261e"}
+    rows = [f'<h1 style="font:800 42px Georgia,serif;margin:0;letter-spacing:2px">PDB</h1>'
+            f'<p style="margin:0 0 2px;font:700 12px Arial,sans-serif;letter-spacing:3px">PDB WEEKLY &middot; PUBLIC DAILY BRIEF</p>'
+            f'<p style="font:italic 15px Georgia,serif;color:#555;margin:0 0 18px">Week ending {e(_nice_date(week_end))}. '
+            f'The most important stories of the week, each one checked against its sources.</p>']
+    sec = None
+    for st in stories:
+        if st["section"] != sec:
+            sec = st["section"]
+            rows.append(f'<h2 style="font:700 13px Arial,sans-serif;letter-spacing:2px;color:#8a1c1c;border-bottom:1px solid #111;'
+                        f'padding-bottom:6px;margin:28px 0 4px">{e(names.get(sec, sec).upper())}</h2>')
+        link = f"{base}stories/{st['id']}.html"
+        t = st["truth"]
+        todo = (f'<p style="background:#fff3c4;padding:8px 10px;font:14px/1.5 Georgia,serif;margin:6px 0"><b>What to do:</b> '
+                f'{e(st["what_to_do"])}</p>') if st.get("what_to_do") else ""
+        rows.append(f'<p style="font:700 19px/1.3 Georgia,serif;margin:16px 0 4px"><a href="{e(link)}" style="color:#111;text-decoration:none">'
+                    f'{e(st["headline"])}</a></p>'
+                    f'<p style="font:700 12px Arial,sans-serif;color:{label_color.get(t["label"], "#555")};margin:0">'
+                    f'TRUTH SCORE {t["total"]}/100 &middot; {e(t["label"].upper())} &middot; '
+                    f'{_n_outlets(st)}</p>'
+                    f'<p style="font:16px/1.55 Georgia,serif;margin:6px 0">{e(st["in_brief"])}</p>{todo}'
+                    f'<p style="font:13px Arial,sans-serif;margin:4px 0"><a href="{e(link)}" style="color:#8a1c1c">See the sources and evidence &rarr;</a></p>')
+    if ads:
+        a = ads[hash(week_end) % len(ads)]
+        rows.append(f'<div style="border:1px dashed #888;border-radius:8px;padding:12px 14px;margin:28px 0">'
+                    f'<p style="font:11px Arial,sans-serif;letter-spacing:2px;color:#777;margin:0">{e(a.get("label", "From the maker of PDB").upper())}</p>'
+                    f'<p style="font:700 16px Arial,sans-serif;margin:4px 0"><a href="{_url(a.get("url", ""))}" style="color:#111">{e(a.get("title", ""))}</a></p>'
+                    f'<p style="font:14px Arial,sans-serif;margin:0">{e(a.get("text", ""))}</p></div>')
+    rows.append(f'<p style="font:13px/1.5 Arial,sans-serif;color:#666;margin-top:26px">New stories every day at '
+                f'<a href="{e(base)}" style="color:#111">{e(base)}</a>. Written and checked by AI, with every claim traced to its source. '
+                f'<a href="{e(base)}how-we-score.html" style="color:#111">How we score</a>.</p>')
+    return f'<div style="max-width:640px;margin:0 auto;padding:16px;color:#111;background:#ffffff">{"".join(rows)}</div>'
+
+
 def build_site(public_dir: Path, site_dir: Path, base_url: str = "") -> None:
     issues = sorted((public_dir / "issues").glob("*.json"))
     if not issues:
         raise SystemExit("no issues to publish yet")
     ads = json.loads((public_dir / "ads.json").read_text(encoding="utf-8")) if (public_dir / "ads.json").exists() else []
+    cfg = json.loads((public_dir / "site.json").read_text(encoding="utf-8")) if (public_dir / "site.json").exists() else {}
     index = json.loads((public_dir / "stories.json").read_text(encoding="utf-8")) if (public_dir / "stories.json").exists() else []
     corrections = json.loads((public_dir / "corrections.json").read_text(encoding="utf-8")) if (public_dir / "corrections.json").exists() else []
 
@@ -359,13 +442,22 @@ def build_site(public_dir: Path, site_dir: Path, base_url: str = "") -> None:
     for iss in all_issues:
         names = iss["section_names"]
         (site_dir / "issues" / f"{iss['date']}.html").write_text(
-            _page(f"{TITLE} — {iss['date']}", render_issue(iss, ads, rel="../"), rel="../"), encoding="utf-8")
+            _page(f"{TITLE} — {iss['date']}", render_issue(iss, ads, rel="../", cfg=cfg), rel="../"), encoding="utf-8")
         (site_dir / "issues" / f"{iss['date']}-email.html").write_text(render_email(iss, base_url), encoding="utf-8")
         for st in iss["stories"]:
             (site_dir / "stories" / f"{st['id']}.html").write_text(render_story(st, names), encoding="utf-8")
 
     latest = all_issues[-1]
-    (site_dir / "index.html").write_text(_page(TITLE, render_issue(latest, ads)), encoding="utf-8")
+    (site_dir / "index.html").write_text(_page(TITLE, render_issue(latest, ads, cfg=cfg)), encoding="utf-8")
+
+    # Weekly newsletter: body to paste into Kit + a preview page. Rebuilt every day; send it on Sundays.
+    (site_dir / "weekly").mkdir(exist_ok=True)
+    weekly = render_weekly(pick_weekly(all_issues), latest["section_names"], latest["date"], base_url, ads)
+    (site_dir / "weekly" / "latest-email.html").write_text(weekly, encoding="utf-8")
+    (site_dir / "weekly" / "latest.html").write_text(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+        f'<title>PDB Weekly — {e(latest["date"])}</title><meta name="robots" content="noindex"></head>'
+        f'<body style="margin:0;background:#eee">{weekly}</body></html>', encoding="utf-8")
 
     arch = "".join(f'<tr><td><a href="issues/{i["date"]}.html">{e(_nice_date(i["date"]))}</a></td>'
                    f'<td>{len(i["stories"])} stories</td></tr>' for i in reversed(all_issues))

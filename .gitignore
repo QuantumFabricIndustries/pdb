@@ -11,3 +11,6 @@ data/work/
 data/cache/
 site/
 go-live.log
+GO_LIVE.bat
+GO_LIVE.ps1
+UPDATE_PDB.bat
