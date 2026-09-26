@@ -379,5 +379,136 @@
    "https://www.coindesk.com/business/2026/09/24/brooklyn-man-sent-to-prison-for-12-years-for-stealing-usd16m-in-a-coinbase-phishing-scheme",
    "https://decrypt.co/379153/brooklyn-man-who-bragged-about-16m-coinbase-scam-gets-up-to-12-years"
   ]
+ },
+ {
+  "id": "2026-09-26-kiteworks-advises-six-hour-server-shutdown-over-potential-ze-f4624",
+  "date": "2026-09-26",
+  "section": "threat",
+  "headline": "Kiteworks Advises Six‑Hour Server Shutdown Over Potential Zero‑Day Threat",
+  "label": "Well-sourced",
+  "score": 71,
+  "also_covered_urls": [
+   "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
+   "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+   "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+   "https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/"
+  ]
+ },
+ {
+  "id": "2026-09-26-bitget-reports-351-6-million-theft-from-hot-wallets-suspends-2e660",
+  "date": "2026-09-26",
+  "section": "threat",
+  "headline": "Bitget reports $351.6 million theft from hot wallets, suspends withdrawals",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+   "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
+   "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+   "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe",
+   "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect",
+   "https://decrypt.co/379275/bitget-hack-183-million-crypto-exchange-wallets",
+   "https://www.coindesk.com/markets/2026/09/25/bitget-s-usd351-million-hack-happened-via-spoofed-transfers-not-private-keys-ceo-gray-chen-says"
+  ]
+ },
+ {
+  "id": "2026-09-26-salesforce-agentforce-flaws-enable-zero-click-data-theft-and-994c4",
+  "date": "2026-09-26",
+  "section": "threat",
+  "headline": "Salesforce Agentforce flaws enable zero‑click data theft and Slack phishing",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+   "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
+   "https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
+   "https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958"
+  ]
+ },
+ {
+  "id": "2026-09-26-openai-discloses-ai-agents-interacted-with-u-s-government-si-4354b",
+  "date": "2026-09-26",
+  "section": "ai",
+  "headline": "OpenAI discloses AI agents interacted with U.S. government sites in unexpected ways",
+  "label": "Disputed",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/09/26/nx-s1-5981979/openai-us-government-websites-misbehavior",
+   "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
+   "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites/"
+  ]
+ },
+ {
+  "id": "2026-09-26-tesla-begins-high-volume-production-of-its-electric-semi-tru-04bc4",
+  "date": "2026-09-26",
+  "section": "ai",
+  "headline": "Tesla begins high‑volume production of its electric Semi truck in Nevada",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+   "https://techcrunch.com/2026/09/25/tesla-finally-moves-to-electrify-trucking-after-a-decade-of-work-and-delays/",
+   "https://www.wired.com/story/tesla-semi/"
+  ]
+ },
+ {
+  "id": "2026-09-26-tesla-faces-production-and-labor-challenges-with-optimus-hum-07220",
+  "date": "2026-09-26",
+  "section": "ai",
+  "headline": "Tesla faces production and labor challenges with Optimus humanoid robots",
+  "label": "Developing",
+  "score": 42,
+  "also_covered_urls": [
+   "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+   "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands"
+  ]
+ },
+ {
+  "id": "2026-09-26-nasa-launches-2026-2027-dream-with-us-design-challenge-for-s-21a19",
+  "date": "2026-09-26",
+  "section": "science",
+  "headline": "NASA launches 2026‑2027 Dream with Us Design Challenge for students",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-middle-school-design-challenge/",
+   "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/"
+  ]
+ },
+ {
+  "id": "2026-09-26-nasa-and-boeing-to-provide-update-on-starliner-development-o-2eb4c",
+  "date": "2026-09-26",
+  "section": "science",
+  "headline": "NASA and Boeing to Provide Update on Starliner Development on Sept. 28",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-boeing-to-provide-update-on-starliner-development/"
+  ]
+ },
+ {
+  "id": "2026-09-26-new-york-sues-polymarket-alleging-illegal-gambling-operation-9dc6d",
+  "date": "2026-09-26",
+  "section": "money",
+  "headline": "New York sues Polymarket alleging illegal gambling operation",
+  "label": "Confirmed",
+  "score": 79,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/09/new-york-asks-court-to-shut-down-polymarkets-illegal-gambling-operation/",
+   "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation",
+   "https://decrypt.co/379244/new-york-ban-polymarket-lawsuit"
+  ]
+ },
+ {
+  "id": "2026-09-26-u-s-spot-bitcoin-etfs-record-net-inflows-after-july-deficit-8a4fa",
+  "date": "2026-09-26",
+  "section": "money",
+  "headline": "U.S. Spot Bitcoin ETFs Record Net Inflows After July Deficit",
+  "label": "Disputed",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole",
+   "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green"
+  ]
  }
 ]

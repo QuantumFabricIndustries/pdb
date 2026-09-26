@@ -1,0 +1,196 @@
+[
+ {
+  "section": "threat",
+  "title": "Kiteworks Advises Six‑Hour Server Shutdown Over Potential Zero‑Day Threat",
+  "verdict": "PUBLISH",
+  "truth": 71,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Bitget reports $351.6 million theft from hot wallets, suspends withdrawals",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Salesforce Agentforce flaws enable zero‑click data theft and Slack phishing",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI discloses AI agents interacted with U.S. government sites in unexpected ways",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source 3 contradicts Sources 1 and 2 regarding key facts (such as whether agents infiltrated sites or used credentials, and details from the NYT report not present in 1 and 2), creating a disputed story on specific technical details. However, Sources 1 and 2 agree on the core disclosure by OpenAI and findings by Transluce. The draft headline stated agents accessed sites without compromising data, but sources note Transluce found a rudimentary hack attempt on a Dept of Education site (though unsuccessful). We must attribute Transluce's claims and accurately reflect the Department of Education's and OpenAI's statements."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Tesla begins high‑volume production of its electric Semi truck in Nevada",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Tesla faces production and labor challenges with Optimus humanoid robots",
+  "verdict": "PUBLISH",
+  "truth": 42,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: The 20,000 units per week goal is attributed incorrectly or without context in a way that conflicts with Source 1 which says the target is 1,000 per week by end of 2026 (Source 2 mentions 20,000 as a broader goal proving tricky).",
+   "editor: The draft contains unverified specifics like employees pushing back against training to operate robots as replacements (Source 1 says workers balk at training Optimus humanoid robots as replacements, but needs careful attribution)."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Gravitational torque drives multidecadal variations in length of day",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'list' object has no attribute 'setdefault'"
+  ],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA launches 2026‑2027 Dream with Us Design Challenge for students",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Draft omitted high school students, as source states challenge is for middle and high school students."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA and Boeing to Provide Update on Starliner Development on Sept. 28",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: In_brief incorrectly states the day as Monday, Sept. 28 when Sept 28 is not necessarily Monday in all contexts or the source just says Monday, Sept. 28 (wait, let me check the draft: 'Monday, Sept. 28' - actually September 28 is supported by source, but let's check 'so_what' for unsupported speculation/hype like 'signals continued investment and confidence', 'Stakeholders... will watch for timelines', 'Future announcements may influence budget allocations')."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "New York sues Polymarket alleging illegal gambling operation",
+  "verdict": "PUBLISH",
+  "truth": 79,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "U.S. Spot Bitcoin ETFs Record Net Inflows After July Deficit",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source 1 states the streak was 6 days totaling $2.84 billion, while Source 2 states it was 7 days totaling $2.98 billion. The draft uses Source 2's numbers but Source 1 differs slightly. However, Source 2 explicitly tracks the 7-day streak. The draft claims a seven-day inflow streak adding about $2.98 billion, which matches Source 2, but Source 1 mentions six days. We should ensure accuracy or attribute properly. Also, source 1 says net inflows are nearly $800M, draft says 'roughly $800 million'."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Physical credit‑card mail scams and EBT skimming persist in 2026",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section attributes the $1 billion losses to the FBI, but the source does not mention the FBI or a specific $1 billion figure."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "FTC warns of party-invite phishing scams impersonating invitation services",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: In_brief states the FTC alert was issued in May, but source says 'In May, after receiving increased reports, the Federal Trade Commission issued...'. Wait, source 1 says 'In May, after receiving increased reports, the Federal Trade Commission issued a consumer alert...'. So May is correct. Let's check other problems: So_what includes unverified generalizations like 'Ongoing monitoring by the FTC suggests the practice may expand' which is not in the source text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Security risks linked to AI‑generated “vibe” coding apps",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact check: CNN article screenshot about cuckolding is fabricated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Zelenskyy did not wear platform shoes at 2025 European Council event",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: So_what field contained meta-commentary about fact-checking processes and prescriptive advice to readers."
+  ],
+  "owners": 1
+ }
+]
