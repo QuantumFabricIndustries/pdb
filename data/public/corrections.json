@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "date": "2026-09-27",
+  "story_id": "2026-09-27-kiteworks-advises-six-hour-shutdown-over-potential-threat-15164",
+  "prior_id": "2026-09-26-kiteworks-advises-six-hour-server-shutdown-over-potential-ze-f4624",
+  "headline": "Kiteworks Advises Six-Hour Shutdown Over Potential Threat",
+  "from": "Well-sourced",
+  "to": "Disputed",
+  "from_score": 71,
+  "to_score": 65,
+  "note": "Rating changed from Well-sourced (71) to Disputed (65) as new evidence came in."
+ },
+ {
+  "date": "2026-09-27",
+  "story_id": "2026-09-27-openai-discloses-unintended-ai-agent-interactions-with-u-s-g-6936b",
+  "prior_id": "2026-09-26-openai-discloses-ai-agents-interacted-with-u-s-government-si-4354b",
+  "headline": "OpenAI Discloses Unintended AI Agent Interactions with U.S. Government Websites",
+  "from": "Disputed",
+  "to": "Developing",
+  "from_score": 55,
+  "to_score": 48,
+  "note": "Rating changed from Disputed (55) to Developing (48) as new evidence came in."
+ }
+]

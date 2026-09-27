@@ -510,5 +510,103 @@
    "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole",
    "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green"
   ]
+ },
+ {
+  "id": "2026-09-27-kiteworks-advises-six-hour-shutdown-over-potential-threat-15164",
+  "date": "2026-09-27",
+  "section": "threat",
+  "headline": "Kiteworks Advises Six-Hour Shutdown Over Potential Threat",
+  "label": "Disputed",
+  "score": 65,
+  "also_covered_urls": [
+   "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
+   "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+   "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html"
+  ]
+ },
+ {
+  "id": "2026-09-27-citrix-confirms-active-exploitation-of-two-netscaler-zero-da-abe01",
+  "date": "2026-09-27",
+  "section": "threat",
+  "headline": "Citrix confirms active exploitation of two NetScaler zero‑day RCE flaws",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+   "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html"
+  ]
+ },
+ {
+  "id": "2026-09-27-shinyhunters-bypasses-wafs-to-exploit-oracle-peoplesoft-cve-53bac",
+  "date": "2026-09-27",
+  "section": "threat",
+  "headline": "ShinyHunters bypasses WAFs to exploit Oracle PeopleSoft CVE‑2026‑35273",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+   "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
+  ]
+ },
+ {
+  "id": "2026-09-27-openai-pauses-training-of-new-ai-models-following-unexpected-4138a",
+  "date": "2026-09-27",
+  "section": "ai",
+  "headline": "OpenAI pauses training of new AI models following unexpected agent behavior",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+   "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+   "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents"
+  ]
+ },
+ {
+  "id": "2026-09-27-openai-discloses-unintended-ai-agent-interactions-with-u-s-g-6936b",
+  "date": "2026-09-27",
+  "section": "ai",
+  "headline": "OpenAI Discloses Unintended AI Agent Interactions with U.S. Government Websites",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/09/26/nx-s1-5981979/openai-us-government-websites-misbehavior",
+   "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/"
+  ]
+ },
+ {
+  "id": "2026-09-27-apple-iphone-18-pro-adds-variable-aperture-new-colors-and-a-eea4c",
+  "date": "2026-09-27",
+  "section": "ai",
+  "headline": "Apple iPhone 18 Pro adds variable aperture, new colors and a smaller Dynamic Island",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally/",
+   "https://www.engadget.com/2267863/iphone-18-pro-vs-17-pro-comparison-explained/"
+  ]
+ },
+ {
+  "id": "2026-09-27-gravitational-torque-from-earth-s-inner-core-linked-to-multi-17f3a",
+  "date": "2026-09-27",
+  "section": "science",
+  "headline": "Gravitational torque from Earth’s inner core linked to multidecadal day‑length changes",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/s41586-026-10999-2",
+   "https://www.wired.com/story/gravitational-struggle-deep-in-earth-is-changing-length-of-days/"
+  ]
+ },
+ {
+  "id": "2026-09-27-nasa-apod-updates-andromeda-image-and-announces-website-move-3a596",
+  "date": "2026-09-27",
+  "section": "science",
+  "headline": "NASA APOD updates Andromeda image and announces website move",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/",
+   "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/"
+  ]
  }
 ]

@@ -1,0 +1,158 @@
+[
+ {
+  "section": "threat",
+  "title": "Kiteworks Advises Six-Hour Shutdown Over Potential Threat",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Citrix confirms active exploitation of two NetScaler zero‑day RCE flaws",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "ShinyHunters bypasses WAFs to exploit Oracle PeopleSoft CVE‑2026‑35273",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: Draft mentioned June 11 instead of June 10 for the patch date, or conflated dates from source texts."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI pauses training of new AI models following unexpected agent behavior",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline uses the unquoted term 'rogue agent behavior' which is editorial framing, not direct fact.",
+   "editor: In_brief states as flat fact that agents accessed government websites beyond instructions, but source 1 notes Transluce's hacking claims were unconfirmed by OpenAI, and details are mixed with company disclosures."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI Discloses Unintended AI Agent Interactions with U.S. Government Websites",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Headline states agents accessed sites, but sources clarify they 'interacted with' or engaged with them. Also headline says 'reviews misbehavior' which is vague.",
+   "editor: In_brief and so_what state Transluce found an unsuccessful hack attempt, but sources show Transluce claimed this and Department of Education found no evidence.",
+   "editor: So_what includes unverified details about Justice, Commerce and state sites from Transluce without proper attribution ('Transluce found...').",
+   "editor: So_what contains broad editorial speculation ('raising concerns about unintended data scraping', 'broader industry calls for slower AI development')."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Apple iPhone 18 Pro adds variable aperture, new colors and a smaller Dynamic Island",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Gravitational torque from Earth’s inner core linked to multidecadal day‑length changes",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA APOD updates Andromeda image and announces website move",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Physical credit‑card mail scams and EBT skimmer fraud persist",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Headline refers to 2026, which is not supported by the source text as a stated fact of the current date.",
+   "editor: In brief and so_what state losses exceed $1 billion, but the source does not mention a $1 billion figure."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Children targeted by Roblox phishing scams using fake login pages",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑enhanced image of Fairford suspects debunked as manipulated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: The draft in_brief and so_what misrepresent the satirical nature of the original X post as a serious claim that police released the photo, and miss the context that it was shared as satire."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: CNN Cuckolding Article Image Was Misrepresented",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Zelenskyy was not wearing platform shoes at 2025 European Council press conference",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
