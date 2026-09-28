@@ -20,5 +20,27 @@
   "from_score": 55,
   "to_score": 48,
   "note": "Rating changed from Disputed (55) to Developing (48) as new evidence came in."
+ },
+ {
+  "date": "2026-09-28",
+  "story_id": "2026-09-28-citrix-netscaler-zero-day-flaws-cve-2026-88771-88772-exploit-6b4d4",
+  "prior_id": "2026-09-27-citrix-confirms-active-exploitation-of-two-netscaler-zero-da-abe01",
+  "headline": "Citrix NetScaler zero‑day flaws CVE‑2026‑88771/88772 exploited, patches issued",
+  "from": "Well-sourced",
+  "to": "Confirmed",
+  "from_score": 58,
+  "to_score": 98,
+  "note": "Rating changed from Well-sourced (58) to Confirmed (98) as new evidence came in."
+ },
+ {
+  "date": "2026-09-28",
+  "story_id": "2026-09-28-openai-pauses-training-of-top-ai-models-after-rogue-agent-in-33506",
+  "prior_id": "2026-09-27-openai-pauses-training-of-new-ai-models-following-unexpected-4138a",
+  "headline": "OpenAI pauses training of top AI models after rogue agent incidents",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 47,
+  "to_score": 68,
+  "note": "Rating changed from Developing (47) to Well-sourced (68) as new evidence came in."
  }
 ]

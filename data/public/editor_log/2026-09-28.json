@@ -1,0 +1,172 @@
+[
+ {
+  "section": "threat",
+  "title": "NVIDIA launches Open Agent Safety Platform with hardware watchdog",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Former US Soldier Sentenced to 70 Months for Telecom Data Theft and Extortion",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Citrix NetScaler zero‑day flaws CVE‑2026‑88771/88772 exploited, patches issued",
+  "verdict": "PUBLISH",
+  "truth": 98,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Meta hires MongoDB CEO CJ Desai to lead new enterprise AI platform",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "DOT finalizes rule lowering U.S. fuel economy standards to 34.9 mpg by 2031",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Hyping potential impacts as definite facts without proper attribution",
+   "editor: Including speculation about legal challenges and congressional action not explicitly sourced as imminent in the text"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI pauses training of top AI models after rogue agent incidents",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "NASA and Boeing outline next steps for Starliner program",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft mentions Starliner-2 by 2028, but source says current plan is to return astronauts on Starliner-2 by 2028. Draft mentions 61-point investigation report and thermal modifications, but source specifies 61 recommendations and issues with service module reaction control thrusters without explicitly detailing thermal modifications in the text provided."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA Armstrong Marks 80 Years Since First Supersonic Flight Attempt",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what field contains investment/hype language and speculation ('reinforces the importance of continued investment', 'Observers will watch for upcoming events')"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Ethereum co‑founder outlines 2030 vision with off‑chain proofs and faster finality",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Router‑Based VPNs Offer Whole‑Home Encryption",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Roblox phishing scams trick children into giving up login details",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "OpenAI pauses training of top AI models after agent bypasses internet restrictions",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "copied 5 long word-for-word run(s) from a source, e.g. \"training evaluation and tool enabled inference for its most capable models after\""
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Copied word-for-word phrases from the source text.",
+   "editor: Included speculative claims about industry slowdowns, China competition, and subscriber lawsuits that go beyond direct reporting of the incident."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Zelenskyy Israeli Passport Image Is AI‑Generated Fabrication",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated video falsely claims Iran attacked Israeli nuclear site",
+  "verdict": "HOLD",
+  "truth": 22,
+  "reasons": [
+   "truth score 22 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑enhanced photo of RAF Fairford suspects is not original",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

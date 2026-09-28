@@ -608,5 +608,123 @@
    "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/",
    "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/"
   ]
+ },
+ {
+  "id": "2026-09-28-nvidia-launches-open-agent-safety-platform-with-hardware-wat-659e8",
+  "date": "2026-09-28",
+  "section": "threat",
+  "headline": "NVIDIA launches Open Agent Safety Platform with hardware watchdog",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
+   "https://www.helpnetsecurity.com/2026/09/28/nvidia-open-agent-safety-platform/",
+   "https://www.cnbc.com/2026/09/28/nvidia-releases.html"
+  ]
+ },
+ {
+  "id": "2026-09-28-former-us-soldier-sentenced-to-70-months-for-telecom-data-th-bf436",
+  "date": "2026-09-28",
+  "section": "threat",
+  "headline": "Former US Soldier Sentenced to 70 Months for Telecom Data Theft and Extortion",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://therecord.media/hacker-telecom-army-sentenced",
+   "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+   "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/",
+   "https://www.theregister.com/cyber-crime/2026/09/28/ex-soldiers-telecom-hacking-spree-earns-him-70-months/5299440",
+   "https://www.theregister.com/cyber-crime/2026/09/28/ex-soldiers-telecom-hacking-spree-earns-him-70-months/5299440",
+   "https://www.helpnetsecurity.com/2026/09/28/us-army-soldier-snowflake-breaches-extortion/"
+  ]
+ },
+ {
+  "id": "2026-09-28-citrix-netscaler-zero-day-flaws-cve-2026-88771-88772-exploit-6b4d4",
+  "date": "2026-09-28",
+  "section": "threat",
+  "headline": "Citrix NetScaler zero‑day flaws CVE‑2026‑88771/88772 exploited, patches issued",
+  "label": "Confirmed",
+  "score": 98,
+  "also_covered_urls": [
+   "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
+   "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+   "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+   "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+   "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/"
+  ]
+ },
+ {
+  "id": "2026-09-28-meta-hires-mongodb-ceo-cj-desai-to-lead-new-enterprise-ai-pl-38649",
+  "date": "2026-09-28",
+  "section": "ai",
+  "headline": "Meta hires MongoDB CEO CJ Desai to lead new enterprise AI platform",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/09/28/mongodb-meta-cj-desai.html",
+   "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+   "https://www.reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28/"
+  ]
+ },
+ {
+  "id": "2026-09-28-dot-finalizes-rule-lowering-u-s-fuel-economy-standards-to-34-c7694",
+  "date": "2026-09-28",
+  "section": "ai",
+  "headline": "DOT finalizes rule lowering U.S. fuel economy standards to 34.9 mpg by 2031",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/",
+   "https://www.cnbc.com/2026/09/26/trump-fuel-economy-cafe-standards.html",
+   "https://www.theverge.com/news/1001610/trump-weakens-fuel-efficiency-standards"
+  ]
+ },
+ {
+  "id": "2026-09-28-openai-pauses-training-of-top-ai-models-after-rogue-agent-in-33506",
+  "date": "2026-09-28",
+  "section": "ai",
+  "headline": "OpenAI pauses training of top AI models after rogue agent incidents",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
+   "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+   "https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350",
+   "https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350"
+  ]
+ },
+ {
+  "id": "2026-09-28-nasa-and-boeing-outline-next-steps-for-starliner-program-0e7fa",
+  "date": "2026-09-28",
+  "section": "science",
+  "headline": "NASA and Boeing outline next steps for Starliner program",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/"
+  ]
+ },
+ {
+  "id": "2026-09-28-nasa-armstrong-marks-80-years-since-first-supersonic-flight-df685",
+  "date": "2026-09-28",
+  "section": "science",
+  "headline": "NASA Armstrong Marks 80 Years Since First Supersonic Flight Attempt",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-armstrong-celebrates-80-years-of-flight-innovation/"
+  ]
+ },
+ {
+  "id": "2026-09-28-ethereum-co-founder-outlines-2030-vision-with-off-chain-proo-b8772",
+  "date": "2026-09-28",
+  "section": "money",
+  "headline": "Ethereum co‑founder outlines 2030 vision with off‑chain proofs and faster finality",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
+   "https://decrypt.co/379461/vitalik-buterin-outlines-cryptographic-world-computer-plan-for-ethereum"
+  ]
  }
 ]
