@@ -726,5 +726,140 @@
    "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
    "https://decrypt.co/379461/vitalik-buterin-outlines-cryptographic-world-computer-plan-for-ethereum"
   ]
+ },
+ {
+  "id": "2026-09-30-fbi-urges-shinyhunters-members-to-surrender-following-dutch-cfa64",
+  "date": "2026-09-30",
+  "section": "threat",
+  "headline": "FBI urges ShinyHunters members to surrender following Dutch arrest",
+  "label": "Well-sourced",
+  "score": 66,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+   "https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/",
+   "https://www.theregister.com/security/2026/09/29/fbi-to-shinyhunters-we-know-how-to-find-you/5299901",
+   "https://www.theregister.com/security/2026/09/29/fbi-to-shinyhunters-we-know-how-to-find-you/5299901",
+   "https://www.theregister.com/cyber-crime/2026/09/29/dutch-police-arrest-security-pro-in-shinyhunters-probe/5299715",
+   "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html"
+  ]
+ },
+ {
+  "id": "2026-09-30-citrix-netscaler-zero-day-exploits-deploy-web-shells-and-tun-ec820",
+  "date": "2026-09-30",
+  "section": "threat",
+  "headline": "Citrix NetScaler Zero‑Day Exploits Deploy Web Shells and Tunneler",
+  "label": "Confirmed",
+  "score": 98,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+   "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+   "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+   "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+   "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+   "https://www.helpnetsecurity.com/2026/09/30/cve-2026-88772-netscaler-exploitation-zero-day/"
+  ]
+ },
+ {
+  "id": "2026-09-30-former-air-force-members-sentenced-for-multi-million-dollar-8f83d",
+  "date": "2026-09-30",
+  "section": "threat",
+  "headline": "Former Air Force members sentenced for multi‑million‑dollar BEC scheme",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://therecord.media/us-air-force-members-given-6-year-sentence-cyber",
+   "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+   "https://www.helpnetsecurity.com/2026/09/30/air-force-members-sentenced-bec-phishing/"
+  ]
+ },
+ {
+  "id": "2026-09-30-openai-launches-always-on-ai-agents-called-dots-for-chatgpt-cd39f",
+  "date": "2026-09-30",
+  "section": "ai",
+  "headline": "OpenAI launches always‑on AI agents called Dots for ChatGPT Pro users",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
+   "https://www.theregister.com/ai-and-ml/2026/09/29/openai-tries-disarming-ai-angst-with-cute-graphics-and-always-on-agents/5299915",
+   "https://openai.com/index/introducing-dots/"
+  ]
+ },
+ {
+  "id": "2026-09-30-openai-delays-gpt-6-1-astra-release-over-safety-concerns-90b8a",
+  "date": "2026-09-30",
+  "section": "ai",
+  "headline": "OpenAI delays GPT-6.1 Astra release over safety concerns",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+   "https://www.npr.org/2026/09/29/nx-s1-5984342/openai-delays-latest-model",
+   "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/"
+  ]
+ },
+ {
+  "id": "2026-09-30-anthropic-s-ipo-prospectus-flags-existential-ai-risks-amid-2-c9804",
+  "date": "2026-09-30",
+  "section": "ai",
+  "headline": "Anthropic’s IPO Prospectus Flags Existential AI Risks Amid $2 Trillion Valuation Target",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
+   "https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
+   "https://decrypt.co/379605/anthropic-lost-42-billion-last-year-wants-ipo-2-trillion",
+   "https://www.theregister.com/ai-and-ml/2026/09/29/leaked-ipo-docs-anthropic-tempts-investors-with-existential-risk-warning/5299763"
+  ]
+ },
+ {
+  "id": "2026-09-30-butterfly-wing-patterns-create-visual-illusions-that-confuse-89969",
+  "date": "2026-09-30",
+  "section": "science",
+  "headline": "Butterfly wing patterns create visual illusions that confuse predators, study finds",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03124-w",
+   "https://phys.org/news/2026-09-butterflies-optical-illusions-dodge-predators.html"
+  ]
+ },
+ {
+  "id": "2026-09-30-asgard-archaea-display-actin-driven-crawling-motility-68f2d",
+  "date": "2026-09-30",
+  "section": "science",
+  "headline": "Asgard archaea display actin‑driven crawling motility",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/s41586-026-11063-9",
+   "https://phys.org/news/2026-09-asgard-archaea-motility-older-previously.html"
+  ]
+ },
+ {
+  "id": "2026-09-30-robinhood-adds-weekend-trading-crypto-futures-and-ai-agents-eb82c",
+  "date": "2026-09-30",
+  "section": "money",
+  "headline": "Robinhood adds weekend trading, crypto futures and AI agents for active traders",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/09/30/robinhood-unveils-weekend-hours-ai-agents-to-allow-users-to-trade-nonstop.html",
+   "https://www.coindesk.com/markets/2026/09/29/robinhood-adds-ai-agents-perps-and-weekend-trading-in-push-to-win-active-traders",
+   "https://decrypt.co/379645/morning-minute-robinhood-adds-perps-weekend-stocks-and-ai-traders"
+  ]
+ },
+ {
+  "id": "2026-09-30-uk-prime-minister-andy-burnham-announces-publicly-owned-grea-20bb3",
+  "date": "2026-09-30",
+  "section": "money",
+  "headline": "UK Prime Minister Andy Burnham Announces Publicly Owned Great British Grid",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cqn4k9nypxjro?at_medium=RSS&at_campaign=rss",
+   "https://fullfact.org/politics/andy-burnham-pm-conference-speech-2026/"
+  ]
  }
 ]

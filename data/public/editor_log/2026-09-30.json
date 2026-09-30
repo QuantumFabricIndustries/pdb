@@ -1,0 +1,183 @@
+[
+ {
+  "section": "threat",
+  "title": "FBI urges ShinyHunters members to surrender following Dutch arrest",
+  "verdict": "PUBLISH",
+  "truth": 66,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Copied word-for-word runs from source text need rewriting to avoid plagiarism."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Citrix NetScaler Zero‑Day Exploits Deploy Web Shells and Tunneler",
+  "verdict": "PUBLISH",
+  "truth": 98,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Former Air Force members sentenced for multi‑million‑dollar BEC scheme",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: Number '2.4' does not appear in any source (sources state over $1.68 million and $720,000, totaling over $2.4 million if added, but sources don't explicitly sum it as a single '2.4 million' figure or it's safer to use explicit source figures like 'over $2 million')."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI launches always‑on AI agents called Dots for ChatGPT Pro users",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI delays GPT-6.1 Astra release over safety concerns",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section includes speculative and unsolicited advisory language ('Stakeholders will watch OpenAI’s upcoming DevDay...') and generalized commentary not strictly tied to the verified facts."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Anthropic’s IPO Prospectus Flags Existential AI Risks Amid $2 Trillion Valuation Target",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Butterfly wing patterns create visual illusions that confuse predators, study finds",
+  "verdict": "PUBLISH",
+  "truth": 76,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: copied long phrasing word-for-word from source",
+   "editor: hyped biomimetic designs not in source"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Asgard archaea display actin‑driven crawling motility",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Robinhood adds weekend trading, crypto futures and AI agents for active traders",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "UK Prime Minister Andy Burnham Announces Publicly Owned Great British Grid",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Headline incorrectly calls Andy Burnham UK Prime Minister; he is Labour leader according to sources (though text says PM, source 1 headline says Labour leader, source 2 says Labour Party leader and PM? Wait, source 2 says 'leader of the Labour Party and Prime Minister'. Let's check source 1: 'first party conference speech as Labour leader', but source 2 says 'Prime Minister'. Actually, source 2 says 'Andy Burnham has given his first conference speech as leader of the Labour Party and Prime Minister.' Wait, source 1 says 'Prime Minister' in the intro snippet? Let's check source 1: 'The prime minister told party activists...' Ah, source 1 does call him Prime Minister. But wait, what about the £70 billion figure? The £70 billion figure is not in the provided source text 1 or 2! Let's check verified claims: verified claims mention Ofgem £70 billion, but it's not in the sources provided? Wait, source 1 cuts off at 'Energy r'. Let's check if there are other problems. The draft includes 'Ofgem estimates that £70 billion will be needed...', which is in verified claims. But let's check attribution: Burnham announced Great British Grid. Source 2 says Burnham announced VAT disappearing. The draft so_what mentions National Audit Office which is not in the sources. Let's remove National Audit Office and £70 billion if not supported by the full text, but verified claims says Ofgem estimates £70 billion. However, I must use only facts from sources. Let's clean up unsupported mentions like National Audit Office."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Timeshare exit scams target owners with upfront fees and false promises",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "",
+  "verdict": "HOLD",
+  "truth": 6,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Apple adds Impersonation Risk Detection to iOS 27 and iPadOS 27",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: NATO Video Is Not a New Promotional Clip",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Old Sheffield protest video miscaptioned as 2026 event",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact‑check: Crying Ukrainian soldier video is AI‑generated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
