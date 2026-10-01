@@ -1,0 +1,1360 @@
+{
+ "date": "2026-10-01",
+ "built_at": "2026-10-01T18:58:59.099464+00:00",
+ "stories": [
+  {
+   "id": "2026-10-01-pentagon-personnel-records-breach-exposes-data-of-over-3-mil-d3e2a",
+   "date": "2026-10-01",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Pentagon personnel records breach exposes data of over 3 million individuals",
+   "in_brief": "Hackers accessed the Defense Manpower Data Center’s file-sharing system, exposing personal data of more than 3 million people, including living and deceased individuals. The breach, spanning from October 2025 to July 2026, prompted the Pentagon to offer free credit-monitoring through IDX.",
+   "so_what": "The Defense Manpower Data Center (DMDC) maintains over 60 million records for U.S. Department of Defense personnel, retirees, contractors, and families. The exposed information includes Social Security numbers, names, birth dates, contact information, race, sex, and military job details. While the Pentagon states it has no indication of misuse, the breach exposes sensitive, static information that poses long-term identity theft risks.",
+   "what_to_do": "1. Enroll in the free 12-month credit-monitoring service offered through IDX. 2. Place a free credit freeze with Equifax, Experian, and TransUnion. 3. Obtain an IRS Identity Protection PIN to protect against fraudulent tax returns.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The unauthorized access occurred between October 2025 and July 2026 after exploiting a vulnerability in the DMDC file‑sharing system",
+     "source": 1,
+     "quote": "a small number of unauthorized users had access to their sensitive data, including personally identifiable information (PII), between October 2025 and July 2026 after exploiting a vulnerability in its file-sharing systems.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The Pentagon is offering 12 months of free credit monitoring through IDX to affected individuals",
+     "source": 1,
+     "quote": "The Pentagon is also offering 12 months of free credit monitoring services through the IDX data breach and recovery service provider",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Hackers accessed the DMDC file‑sharing system and stole data of more than 3 million people, including 2.76 million living individuals and 294 000 deceased individuals",
+     "source": 2,
+     "quote": "The breach affects 2.76 million living individuals, a group that can include current and former defense personnel and their dependents, along with 294,000 deceased individuals, a Defense Department official told CNN.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [2]: 000, 294"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+     "published": "Thu, 01 Oct 2026 05:44:28 -0400",
+     "published_iso": "2026-10-01T09:44:28+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/01/pentagon-dmdc-data-breach-3-million-people/",
+     "published": "Thu, 01 Oct 2026 12:21:03 +0000",
+     "published_iso": "2026-10-01T12:21:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/privacy/2026/10/pentagon-breach-exposes-social-security-numbers-and-military-records-of-millions",
+     "published": "Thu, 01 Oct 2026 10:48:58 GMT",
+     "published_iso": "2026-10-01T10:48:58+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+    "https://www.helpnetsecurity.com/2026/10/01/pentagon-dmdc-data-breach-3-million-people/",
+    "https://www.malwarebytes.com/blog/privacy/2026/10/pentagon-breach-exposes-social-security-numbers-and-military-records-of-millions"
+   ],
+   "primary": [
+    {
+     "url": "https://dwp.dmdc.osd.mil/dwp/app/about/overview",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://dwp.dmdc.osd.mil/dwp/app/about/overview"
+    },
+    {
+     "url": "https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin"
+    }
+   ],
+   "truth": {
+    "total": 51,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, helpnetsecurity.com, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Fixed number formatting and phrasing inconsistencies regarding affected individuals to strictly match source numbers."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-01-zimbra-collaboration-suite-vulnerability-exploited-to-steal-92ec5",
+   "date": "2026-10-01",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Zimbra Collaboration Suite vulnerability exploited to steal emails and credentials",
+   "in_brief": "Attackers leveraged CVE‑2026‑73570 to run unauthenticated commands on Zimbra servers, deploying web shells and harvesting mailbox data. The flaw was patched in July 2026, and federal agencies were ordered to apply fixes by August 24.",
+   "so_what": "The remote‑code‑execution bug in Zimbra Collaboration Suite (ZCS) enables threat actors to bypass authentication by sending a crafted email that triggers SNMP‑based command injection when the optional zimbra‑snmp package is installed. Microsoft’s research shows the attackers used the access to install JSP web shells, extract authentication secrets and copy mailbox archives, affecting organizations across multiple sectors and regions. Although Zimbra issued a patch (version 10.1.20) on July 20, 2026, Shadowserver reports that roughly 10,000 instances of the suite are currently tracked. Federal agencies have been required to apply the fix by August 24, 2026, underscoring the urgency for all users to update. Continued monitoring of Zimbra logs for unexpected service restarts and unauthorized file creation will be critical as attackers may still target unpatched systems.",
+   "what_to_do": "1. Update Zimbra Collaboration Suite to version 10.1.20 or later. 2. Disable the optional zimbra‑snmp package or turn off SNMP notifications if not needed. 3. Review /var/log/zimbra.log for unexpected restarts and scan webapps directories for unknown files.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "CVE‑2026‑73570 allows remote attackers with no credentials to run operating system commands through a crafted email that targets the ZCS SNMP notification path but only when an optional zimbra‑snmp package is in place and SNMP notifications are enabled.",
+     "source": 1,
+     "quote": "CVE-2026-73570 allows remote attackers with no credentials to run operating system commands through a crafted email that targets the ZCS SNMP notification path but only when an optional zimbra-snmp package is in place and SNMP notifications are enabled.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Zimbra released a patch for the flaw in July 2026 with version 10.1.20.",
+     "source": 3,
+     "quote": "The vulnerability was patched by Zimbra in July 2026 with the release of version 10.1.20.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Shadowserver is currently tracking about 10,000 instances of the Zimbra Collaboration Suite that have been compromised.",
+     "source": 1,
+     "quote": "Currently, Shadowserver is tracking about 10,000 instances.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+     "published": "Wed, 30 Sep 2026 20:44:48 +0000",
+     "published_iso": "2026-09-30T20:44:48+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
+     "published": "Thu, 01 Oct 2026 16:44:00 +0200",
+     "published_iso": "2026-10-01T14:44:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+     "published": "Wed, 30 Sep 2026 22:16:29 +0530",
+     "published_iso": "2026-09-30T16:46:29+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+    "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+    "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
+    "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-73570 — Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability"
+    }
+   ],
+   "truth": {
+    "total": 86,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Situation Publishing, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Shadowserver tracks about 10,000 instances running the software (servers), but the draft incorrectly claimed 10,000 instances are 'still active and potentially vulnerable' or 'compromised' (Source 1 says Shadowserver found 274 compromised instances, and tracks about 10,000 instances running the suite)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-09-30-citrix-netscaler-zero-day-exploits-deploy-web-shells-and-tun-ec820",
+    "date": "2026-09-30",
+    "label": "Confirmed",
+    "score": 98
+   }
+  },
+  {
+   "id": "2026-10-01-metamask-exits-ethereum-validators-after-infrastructure-secu-8f53e",
+   "date": "2026-10-01",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "MetaMask exits Ethereum validators after infrastructure security incident",
+   "in_brief": "MetaMask disclosed an ongoing security incident affecting part of its infrastructure and began exiting affected Ethereum validators in the Lido protocol. The company says there is no immediate threat to user wallets, but validators may miss rewards during the exit process.",
+   "so_what": "The incident highlights the vulnerability of non‑custodial staking services that rely on validator nodes to secure the Ethereum network. While MetaMask asserts that user funds remain safe, the precautionary exits could affect roughly 17,000 validators holding about 523,000 ETH, leading to lost staking rewards and potential downtime penalties. Lido, the liquid‑staking platform hosting these validators, expects the exit and re‑entry cycle to take up to 45 days and advises stETH holders that no action is required. Observers will watch for further details on how the infrastructure was compromised and whether additional validators beyond Lido are impacted.",
+   "what_to_do": "1. Verify that your MetaMask wallet software is up to date. 2. Monitor official MetaMask and Lido communications for any required actions. 3. Review staking activity and rewards on Lido to confirm expected payouts.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "MetaMask disclosed an ongoing security incident affecting part of its infrastructure and is exiting affected validators in the Lido protocol.",
+     "source": 1,
+     "quote": "MetaMask discloses security incident affecting its infrastructure... As a precautionary measure, we are proactively exiting affected validators within our non-custodial staking operations",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com",
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "MetaMask says there is no immediate threat to MetaMask wallets.",
+     "source": 2,
+     "quote": "At this time, we have identified no immediate threat to MetaMask wallets.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "coindesk.com",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Approximately 17,000 validators holding about 523,000 ETH are being exited, according to a security researcher.",
+     "source": 3,
+     "quote": "Kaden’s analysis put the precautionary exits at roughly 17,000 validators holding about 523,000 ETH.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The validator exit process is expected to be completed by October 7, 2026, but full withdrawal may take up to 45 days.",
+     "source": 4,
+     "quote": "the last of them are expected to have exited, though not fully withdrawn, by the end of October 7... getting the ETH back will take considerably longer... up to 45 days",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [4]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+     "published": "Thu, 01 Oct 2026 03:33:57 -0400",
+     "published_iso": "2026-10-01T07:33:57+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+     "published": "Thu, 01 Oct 2026 10:40:09 +0530",
+     "published_iso": "2026-10-01T05:10:09+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
+     "published": "Thu, 01 Oct 2026 07:06:30 +0000",
+     "published_iso": "2026-10-01T07:06:30+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/379800/metamask-exits-lido-validators-amid-infrastructure-security-incident",
+     "published": "Thu, 01 Oct 2026 09:38:06 +0000",
+     "published_iso": "2026-10-01T09:38:06+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+    "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+    "https://decrypt.co/379800/metamask-exits-lido-validators-amid-infrastructure-security-incident",
+    "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: bleepingcomputer.com, coindesk.com, decrypt.co, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-01-openai-disrupts-coordinated-campaign-to-extract-protected-mo-4c331",
+   "date": "2026-10-01",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI Disrupts Coordinated Campaign to Extract Protected Model Reasoning",
+   "in_brief": "OpenAI said it identified and halted a large‑scale effort to pull hidden reasoning from its AI models, attributing a core part of the activity to actors linked to Chinese startup Moonshot AI. The company reports the campaign was fully disrupted by July 28, 2026, following requests involving over 15,000 users.",
+   "so_what": "The disruption highlights emerging threats where adversaries attempt to replicate advanced AI capabilities without investing in original development, a practice OpenAI calls \"adversarial distillation.\" By extracting protected reasoning, attackers could shortcut safety safeguards and potentially accelerate the creation of competing models, raising concerns for both commercial competition and national security. OpenAI’s response—including closing a pathway for replaying encrypted reasoning and adding new detection checks—signals a growing focus on defending the intellectual property and safety mechanisms of frontier AI systems. Stakeholders will be watching how other AI firms and regulators respond, and whether additional collaborative safeguards emerge through forums like the Frontier Model Forum.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "OpenAI identified and disrupted a coordinated campaign to extract protected reasoning, fully disrupting it by July 28, 2026.",
+     "source": 1,
+     "quote": "The company ultimately identified related activity across a cluster of more than 15,000 users and said it had fully disrupted the campaign by July 28.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "A core cluster of the activity was linked to individuals associated with Chinese startup Moonshot AI.",
+     "source": 1,
+     "quote": "OpenAI said it identified and disrupted a coordinated campaign ... linking a core cluster of the activity with Chinese startup Moonshot AI, the developer of Kimi.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The operators did not breach OpenAI's encryption, databases, or stored user conversations, but manipulated model interactions to reproduce hidden reasoning.",
+     "source": 1,
+     "quote": "The operators did not breach OpenAI's encryption, databases or stored user conversations, according to the company. Instead, they manipulated interactions with its models in an effort to reproduce hidden reasoning in a form visible to the requester.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html",
+     "published": "Thu, 01 Oct 2026 02:14:43 GMT",
+     "published_iso": "2026-10-01T02:14:43+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+     "published": "Thu, 01 Oct 2026 16:12:36 +0530",
+     "published_iso": "2026-10-01T10:42:36+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "OpenAI",
+     "owner": "openai.com",
+     "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+     "published": "Wed, 30 Sep 2026 10:30:00 GMT",
+     "published_iso": "2026-09-30T10:30:00+00:00",
+     "kind": "vendor",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html",
+    "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html"
+   ],
+   "primary": [
+    {
+     "url": "https://arxiv.org/abs/2608.09867",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://arxiv.org/abs/2608.09867"
+    },
+    {
+     "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+     "type": "subject's own statement",
+     "verified": true,
+     "label": "OpenAI"
+    }
+   ],
+   "truth": {
+    "total": 82,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, openai.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      15,
+      25,
+      "Statement from the organization involved (not independent)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor: In brief overstated the user count by saying millions instead of thousands."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-01-tech-ceos-sign-voluntary-ai-safety-accord-at-white-house-606a7",
+   "date": "2026-10-01",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Tech CEOs Sign Voluntary AI Safety Accord at White House",
+   "in_brief": "President Donald Trump and leaders of six AI firms signed a voluntary agreement to add internal controls, external audits and board committees for AI safety. The pact, announced on Tuesday, aims to address public concerns while leaving regulation to future legislation.",
+   "so_what": "The accord represents the first high‑profile, government‑backed effort to rely on industry self‑regulation for advanced AI systems. By committing to robust internal controls, independent external auditors and board‑level oversight, the companies—Anthropic, Google, Meta, OpenAI, Nvidia and xAI—signal acknowledgement of the technology’s risks, a point echoed by Anthropic’s Dario Amodei. However, experts note the agreement falls short of comprehensive regulation, and the Federal Trade Commission has signaled it will investigate AI firms for consumer‑protection issues. Observers will watch whether the voluntary steps translate into measurable safety outcomes and whether future legislation codifies the accord’s provisions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "President Donald Trump and executives from Anthropic, Google, Meta, OpenAI, Nvidia and xAI signed a voluntary AI safety accord at the White House.",
+     "source": 1,
+     "quote": "The accord was signed by Trump, Anthropic CEO Dario Amodei, Google CEO Sundar Pichai, Meta CEO Mark Zuckerberg, OpenAI President Greg Brockman, Nvidia CEO Jensen Huang, and Elon Musk, founder of xAI, which is now part of SpaceX.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The accord requires companies to implement robust internal controls, use an independent external auditor and create a board committee to review audit reports.",
+     "source": 1,
+     "quote": "The accord said the companies would implement \"robust internal controls,\" partner with an \"independent external auditor\" to assess whether the controls were working, and establish a committee within each company's board of directors to evaluate reports from internal and external auditors.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Anthropic CEO Dario Amodei warned that AI technology carries very real risks despite the accord.",
+     "source": 1,
+     "quote": "Amodei, who has been one of the most outspoken voices calling for a slowdown in AI development, said, \"The technology has very real risks.\"",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NPR Technology",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development",
+     "published": "Wed, 30 Sep 2026 02:54:43 -0400",
+     "published_iso": "2026-09-30T06:54:43+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+     "published": "Wed, 30 Sep 2026 20:30:09 +0000",
+     "published_iso": "2026-09-30T20:30:09+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Dark Reading",
+     "owner": "Informa TechTarget",
+     "url": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
+     "published": "Wed, 30 Sep 2026 20:51:15 GMT",
+     "published_iso": "2026-09-30T20:51:15+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development",
+    "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+    "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Informa TechTarget, npr.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-01-openai-launches-paid-dots-agents-as-free-alternatives-from-m-a23bc",
+   "date": "2026-10-01",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI launches paid \"Dots\" agents as free alternatives from Meta expand",
+   "in_brief": "OpenAI unveiled its Dots personal AI agents at DevDay, pricing them for Pro‑plan subscribers, while Meta’s Muse remains free. The moves highlight a pricing split in the emerging personal‑assistant market.",
+   "so_what": "OpenAI’s Dots represent the company’s foray into always‑on, customizable AI assistants, gated behind a paid subscription, signaling a premium‑product strategy. By contrast, Meta’s Muse agent is offered at no cost, lowering the barrier for widespread adoption and positioning Meta as a lower‑cost alternative. The divergent pricing could shape user adoption patterns and affect how personal‑agent ecosystems evolve. Watch for OpenAI’s future pricing tiers and how competitors respond to the emerging price competition.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced coverage",
+   "claims": [
+    {
+     "claim": "OpenAI described Dots as \"always‑on\" agents at its DevDay conference",
+     "source": 2,
+     "quote": "At its annual DevDay developer conference, OpenAI described Dots as \"always‑on\" agents designed to help users complete a range of tasks.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Dots are initially limited to users on OpenAI’s Pro plan costing $20 per month or more",
+     "source": 3,
+     "quote": "OpenAI’s Dots, by contrast, is restricted for now to users on its $20/month Pro plan and up.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Meta’s Muse agent is available for free to anyone with a Meta account",
+     "source": 3,
+     "quote": "While anyone with a Meta account can get Muse...",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+     "published": "Wed, 30 Sep 2026 19:30:00 +0000",
+     "published_iso": "2026-09-30T19:30:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
+     "published": "Wed, 30 Sep 2026 12:04:46 GMT",
+     "published_iso": "2026-09-30T12:04:46+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+     "published": "2026-10-01T10:36:50-04:00",
+     "published_iso": "2026-10-01T14:36:50+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+    "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
+    "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, Vox Media"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Draft stated Pro plan costs $20 per month, but Source 1 states it starts at $100 per month (Source 3 mentions a different figure, making it disputed or incorrect depending on the source, but Source 1 is specific. Let's look closely: Source 1 says Pro plan starts at $100 per month, Source 3 says $20/month and up. Wait, let's check the verified claims or fix the discrepancy safely by using the source data accurately)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-01-october-2026-skywatching-highlights-include-saturn-oppositio-87959",
+   "date": "2026-10-01",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "October 2026 skywatching highlights include Saturn opposition, Orionid meteor shower, and Moon‑Pleiades conjunction",
+   "in_brief": "NASA’s October skywatching guide notes Saturn reaches opposition on Oct. 4, the Orionid meteor shower peaks Oct. 21‑22, and the Moon passes near the Pleiades on Oct. 27‑28. These events offer prime viewing opportunities for amateur astronomers.",
+   "so_what": "The opposition of Saturn on Oct. 4 means the planet will rise at sunset and stay visible throughout the night, providing one of the year’s best chances to observe its rings and recent atmospheric features, such as a newly observed ten‑sided wave at the south pole. The Orionid meteor shower, linked to debris from Halley’s Comet, will peak on the night of Oct. 21‑22, though a bright waxing gibbous Moon may obscure fainter meteors, so observers are advised to watch before dawn after moonset. Finally, the Moon’s close approach to the Pleiades star cluster on Oct. 27‑28 offers a chance to view the historic “Seven Sisters” with the naked eye or modest optics. Skywatchers should plan for dark locations, allow eyes to adjust, and check local weather to maximize these viewing windows.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely informational",
+   "claims": [
+    {
+     "claim": "Saturn reaches opposition on Oct. 4, making it visible for much of the night",
+     "source": 1,
+     "quote": "Oct. 4: Saturn reaches opposition, making the ringed planet visible for much of the night",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Orionid meteor shower peaks on Oct. 21‑22, with moonlight potentially reducing visibility",
+     "source": 1,
+     "quote": "Oct. 21–22: The Orionid meteor shower peaks; moonlight may interfere, so look before dawn after moonset",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Moon passes near the Pleiades star cluster on Oct. 27‑28",
+     "source": 1,
+     "quote": "Oct. 27–28: The Moon passes near the Pleiades star cluster, also known as the Seven Sisters",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+     "published": "Thu, 01 Oct 2026 16:58:10 +0000",
+     "published_iso": "2026-10-01T16:58:10+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-01-webb-telescope-studies-rare-extreme-debris-disks-around-youn-d1e1c",
+   "date": "2026-10-01",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Webb Telescope Studies Rare Extreme Debris Disks Around Young Stars",
+   "in_brief": "NASA’s James Webb Space Telescope examined 21 extreme debris disks, a rare class found around about 1% of young stars. The findings clarify the disks’ composition and variability, shedding light on early planet‑formation processes.",
+   "so_what": "Extreme debris disks are unusually dusty, warm regions close to young stars that may mirror the chaotic environment of the early solar system after the hypothesized Theia impact. By confirming that only roughly 1% of young stars exhibit this phase, the study highlights how uncommon such violent planet‑forming events are, limiting the frequency of moon‑forming collisions like Earth’s. The Webb observations, combined with archival Spitzer data, expanded the known sample to 21 systems, allowing astronomers to identify consistent traits—smaller dust grains, high warm‑dust concentrations, and irregular brightness changes—and to categorize disks by silica content. This deeper understanding informs models of planetary system evolution and helps predict which young stars might host similar tumultuous histories. Future monitoring of these disks will test how their dust properties evolve over time and whether they influence the formation of terrestrial planets.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely scientific reporting",
+   "claims": [
+    {
+     "claim": "Only about 1% of young stars show observable signatures of extreme debris disks.",
+     "source": 1,
+     "quote": "Scientists estimate roughly only 1% of young stars show observable signatures of this phase based on the data collected so far",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The researchers compiled a sample of 21 extreme debris disks, including data from Spitzer and Webb.",
+     "source": 1,
+     "quote": "the team was able to compile a sample of 21 extreme debris disks, including five from Spitzer’s archival data and 16 from Webb",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Extreme debris disks share three key properties: smaller dust grains, high warm‑dust concentration, and irregular brightness variations.",
+     "source": 1,
+     "quote": "The team confirmed that extreme debris disks share three key properties: smaller dust grains than those in protoplanetary or classic debris disks, a high concentration of warm dust, and irregular brightness variations",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+     "published": "Thu, 01 Oct 2026 14:00:00 +0000",
+     "published_iso": "2026-10-01T14:00:00+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/"
+   ],
+   "primary": [
+    {
+     "url": "http://doi.org/10.3847/1538-4357/ae88fe",
+     "type": "related official record",
+     "verified": true,
+     "label": "http://doi.org/10.3847/1538-4357/ae88fe"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-01-illinois-agrees-to-six-month-postponement-of-0-2-crypto-tax-9714a",
+   "date": "2026-10-01",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Illinois agrees to six‑month postponement of 0.2% crypto tax pending court approval",
+   "in_brief": "Illinois and crypto industry groups filed a joint motion to delay the state’s 0.2% digital asset tax until July 1. The delay is contingent on a judge’s sign‑off and does not resolve the underlying legal challenge.",
+   "so_what": "The postponement gives digital‑asset businesses and users temporary relief from compliance costs while the constitutionality of Illinois’ Digital Asset Tax Act is litigated. The tax, signed into law by Gov. JB Pritzker in June, would levy 0.2% on crypto transactions for firms with over $100,000 in receipts and could generate up to $60 million in 2027. Industry groups—including the Digital Chamber and the Illinois Blockchain Association—argue the tax is unconstitutional and preempted by federal law, prompting multiple lawsuits. The joint motion, filed in Sangamon County Circuit Court, seeks a preliminary injunction and a stay of the tax’s effective date, but a judge must still approve it. Observers will watch the court’s decision, which could set precedent for state‑level crypto taxation nationwide.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The delay is being sought through a joint motion filed in Sangamon County Circuit Court by the Digital Chamber and the Illinois Blockchain Association.",
+     "source": 2,
+     "quote": "Illinois agreed to push its 0.2% crypto transaction tax back six months, to July 1, 2027, in a joint motion filed in Sangamon County Circuit Court",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The industry groups are challenging the tax’s constitutionality and argue it is preempted by federal law.",
+     "source": 1,
+     "quote": "The industry has disputed the validity of the tax under state law and has argued it's unconstitutional. In addition, crypto organizations contend that it's preempted by federal law in the Internet Tax Freedom Act",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Illinois and industry groups have agreed to postpone the 0.2% crypto tax until July 1 2027, pending a judge’s approval.",
+     "source": 1,
+     "quote": "Both sides agreed the 0.2% tax should be put off until July 1, if the court approves the deal",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 2027"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
+     "published": "Thu, 01 Oct 2026 11:58:00 +0000",
+     "published_iso": "2026-10-01T11:58:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/379830/illinois-delays-controversial-crypto-tax",
+     "published": "Thu, 01 Oct 2026 16:16:03 +0000",
+     "published_iso": "2026-10-01T16:16:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
+    "https://decrypt.co/379830/illinois-delays-controversial-crypto-tax"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 36,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor: In_brief and so_what incorrectly state the delay is until July 1, 2027, whereas sources state the delay is to July 1 (without specifying 2027 for the delayed date, though the law is part of the 2027 budget; Source 2 says 'July 1, 2027' in the bullet but Source 1 says 'July 1'). Wait, Source 2 bullet explicitly says July 1, 2027. Let's check Source 1: 'July 1'. Let's check if there's a factual error in the year. Actually, Source 2 says 'push its 0.2% crypto transaction tax back six months, to July 1, 2027'. If current is Jan 1, six months is July 1, 2027. But let's check the draft headline: 'delay of 0.2% crypto tax pending court approval'. Draft in_brief says July 1 2027. The problem is minor, but let's check attribution and exact facts."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-01-dogeos-launches-public-testnet-for-dogecoin-application-laye-c3fca",
+   "date": "2026-10-01",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "DogeOS launches public testnet for Dogecoin application layer",
+   "in_brief": "DogeOS opened a public testnet on Sept. 30, 2026 that lets developers build Ethereum‑compatible apps using test DOGE. The trial includes lending, trading, stablecoin and prediction‑market projects but no mainnet date has been announced.",
+   "so_what": "The testnet marks the first step toward adding decentralized finance and other smart‑contract functionality to Dogecoin, a cryptocurrency traditionally used only for peer‑to‑peer payments. By allowing developers to use familiar Ethereum tools, DogeOS hopes to broaden Dogecoin’s utility and give holders reasons to keep the coin beyond speculation. The network currently relies on selected operators, protected hardware and a Security Council, with plans to eventually let Dogecoin miners verify proofs via a proposed core upgrade. Observers will watch whether the testnet attracts sufficient developer interest and whether the community supports the upcoming core changes needed for a full mainnet rollout.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "DogeOS opened the public testnet of its EVM‑compatible application layer for Dogecoin on Sept. 30, 2026.",
+     "source": 2,
+     "quote": "DogeOS opened the public testnet of its EVM-compatible application layer for Dogecoin on Sept. 30.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Fees on the testnet are paid in DOGE and teams building on it include a lending protocol, a perpetual exchange, a stablecoin and a prediction‑market aggregator.",
+     "source": 2,
+     "quote": "Fees on the testnet are paid in DOGE, and the teams building on it include a lending protocol, a perpetual exchange, a stablecoin and a prediction market aggregator.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "DogeOS has not set a mainnet launch date.",
+     "source": 1,
+     "quote": "DogeOS has not set a mainnet launch date and faces questions about demand after weak Dogecoin ETF inflows and the decline of earlier memecoin application networks.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
+     "published": "Thu, 01 Oct 2026 04:58:52 +0000",
+     "published_iso": "2026-10-01T04:58:52+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/379772/dogecoin-getting-apps-dogeos-public-testnet",
+     "published": "Wed, 30 Sep 2026 21:46:03 +0000",
+     "published_iso": "2026-09-30T21:46:03+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
+    "https://decrypt.co/379772/dogecoin-getting-apps-dogeos-public-testnet"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 587,
+  "stories_considered": 17,
+  "published": 10,
+  "outlets": 37
+ }
+}

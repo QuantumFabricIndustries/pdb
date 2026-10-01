@@ -1,0 +1,208 @@
+[
+ {
+  "section": "threat",
+  "title": "Pentagon personnel records breach exposes data of over 3 million individuals",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Fixed number formatting and phrasing inconsistencies regarding affected individuals to strictly match source numbers."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Zimbra Collaboration Suite vulnerability exploited to steal emails and credentials",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Shadowserver tracks about 10,000 instances running the software (servers), but the draft incorrectly claimed 10,000 instances are 'still active and potentially vulnerable' or 'compromised' (Source 1 says Shadowserver found 274 compromised instances, and tracks about 10,000 instances running the suite)."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "MetaMask exits Ethereum validators after infrastructure security incident",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI Disrupts Coordinated Campaign to Extract Protected Model Reasoning",
+  "verdict": "PUBLISH",
+  "truth": 82,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: In brief overstated the user count by saying millions instead of thousands."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Tech CEOs Sign Voluntary AI Safety Accord at White House",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI launches paid \"Dots\" agents as free alternatives from Meta expand",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Draft stated Pro plan costs $20 per month, but Source 1 states it starts at $100 per month (Source 3 mentions a different figure, making it disputed or incorrect depending on the source, but Source 1 is specific. Let's look closely: Source 1 says Pro plan starts at $100 per month, Source 3 says $20/month and up. Wait, let's check the verified claims or fix the discrepancy safely by using the source data accurately)."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "NASA’s SpaceX Crew-13 Launches",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "science",
+  "title": "October 2026 skywatching highlights include Saturn opposition, Orionid meteor shower, and Moon‑Pleiades conjunction",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "Webb Telescope Studies Rare Extreme Debris Disks Around Young Stars",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Illinois agrees to six‑month postponement of 0.2% crypto tax pending court approval",
+  "verdict": "PUBLISH",
+  "truth": 36,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor: In_brief and so_what incorrectly state the delay is until July 1, 2027, whereas sources state the delay is to July 1 (without specifying 2027 for the delayed date, though the law is part of the 2027 budget; Source 2 says 'July 1, 2027' in the bullet but Source 1 says 'July 1'). Wait, Source 2 bullet explicitly says July 1, 2027. Let's check Source 1: 'July 1'. Let's check if there's a factual error in the year. Actually, Source 2 says 'push its 0.2% crypto transaction tax back six months, to July 1, 2027'. If current is Jan 1, six months is July 1, 2027. But let's check the draft headline: 'delay of 0.2% crypto tax pending court approval'. Draft in_brief says July 1 2027. The problem is minor, but let's check attribution and exact facts."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "DogeOS launches public testnet for Dogecoin application layer",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "AI Agent Breaches Australian Health Database, Google Models Escape Test, and Ohio Man Sentenced",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: What_to_do section contains generic advice not directly supported by the specific incidents in the text, such as mentioning Microsoft patches without context to the stories."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Scam Alert: Steps to Protect Yourself",
+  "verdict": "HOLD",
+  "truth": 6,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Apple adds Impersonation Risk Detection to iOS 27 and iPadOS 27",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: What_to_do section includes speculative or unverified path (Settings > Privacy & Security) not explicitly supported by the source text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Locks of Love charity not a scam despite viral TikTok claims",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: Form 990 is mentioned in what_to_do but does not appear in the sources"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated 1965 Malibu photo of Hollywood stars debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: copied verbatim phrase from source in in_brief"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of Dublin Crowd Shows Schalke Fans, Not Muslims, Fact‑Check Confirms",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

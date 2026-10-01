@@ -861,5 +861,131 @@
    "https://www.bbc.co.uk/news/articles/cqn4k9nypxjro?at_medium=RSS&at_campaign=rss",
    "https://fullfact.org/politics/andy-burnham-pm-conference-speech-2026/"
   ]
+ },
+ {
+  "id": "2026-10-01-pentagon-personnel-records-breach-exposes-data-of-over-3-mil-d3e2a",
+  "date": "2026-10-01",
+  "section": "threat",
+  "headline": "Pentagon personnel records breach exposes data of over 3 million individuals",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+   "https://www.helpnetsecurity.com/2026/10/01/pentagon-dmdc-data-breach-3-million-people/",
+   "https://www.malwarebytes.com/blog/privacy/2026/10/pentagon-breach-exposes-social-security-numbers-and-military-records-of-millions"
+  ]
+ },
+ {
+  "id": "2026-10-01-zimbra-collaboration-suite-vulnerability-exploited-to-steal-92ec5",
+  "date": "2026-10-01",
+  "section": "threat",
+  "headline": "Zimbra Collaboration Suite vulnerability exploited to steal emails and credentials",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+   "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+   "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
+   "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543"
+  ]
+ },
+ {
+  "id": "2026-10-01-metamask-exits-ethereum-validators-after-infrastructure-secu-8f53e",
+  "date": "2026-10-01",
+  "section": "threat",
+  "headline": "MetaMask exits Ethereum validators after infrastructure security incident",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+   "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+   "https://decrypt.co/379800/metamask-exits-lido-validators-amid-infrastructure-security-incident",
+   "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards"
+  ]
+ },
+ {
+  "id": "2026-10-01-openai-disrupts-coordinated-campaign-to-extract-protected-mo-4c331",
+  "date": "2026-10-01",
+  "section": "ai",
+  "headline": "OpenAI Disrupts Coordinated Campaign to Extract Protected Model Reasoning",
+  "label": "Confirmed",
+  "score": 82,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html",
+   "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html"
+  ]
+ },
+ {
+  "id": "2026-10-01-tech-ceos-sign-voluntary-ai-safety-accord-at-white-house-606a7",
+  "date": "2026-10-01",
+  "section": "ai",
+  "headline": "Tech CEOs Sign Voluntary AI Safety Accord at White House",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development",
+   "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+   "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord"
+  ]
+ },
+ {
+  "id": "2026-10-01-openai-launches-paid-dots-agents-as-free-alternatives-from-m-a23bc",
+  "date": "2026-10-01",
+  "section": "ai",
+  "headline": "OpenAI launches paid \"Dots\" agents as free alternatives from Meta expand",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+   "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
+   "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+  ]
+ },
+ {
+  "id": "2026-10-01-october-2026-skywatching-highlights-include-saturn-oppositio-87959",
+  "date": "2026-10-01",
+  "section": "science",
+  "headline": "October 2026 skywatching highlights include Saturn opposition, Orionid meteor shower, and Moon‑Pleiades conjunction",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/"
+  ]
+ },
+ {
+  "id": "2026-10-01-webb-telescope-studies-rare-extreme-debris-disks-around-youn-d1e1c",
+  "date": "2026-10-01",
+  "section": "science",
+  "headline": "Webb Telescope Studies Rare Extreme Debris Disks Around Young Stars",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/"
+  ]
+ },
+ {
+  "id": "2026-10-01-illinois-agrees-to-six-month-postponement-of-0-2-crypto-tax-9714a",
+  "date": "2026-10-01",
+  "section": "money",
+  "headline": "Illinois agrees to six‑month postponement of 0.2% crypto tax pending court approval",
+  "label": "Developing",
+  "score": 36,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
+   "https://decrypt.co/379830/illinois-delays-controversial-crypto-tax"
+  ]
+ },
+ {
+  "id": "2026-10-01-dogeos-launches-public-testnet-for-dogecoin-application-laye-c3fca",
+  "date": "2026-10-01",
+  "section": "money",
+  "headline": "DogeOS launches public testnet for Dogecoin application layer",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
+   "https://decrypt.co/379772/dogecoin-getting-apps-dogeos-public-testnet"
+  ]
  }
 ]
