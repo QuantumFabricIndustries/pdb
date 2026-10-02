@@ -987,5 +987,151 @@
    "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
    "https://decrypt.co/379772/dogecoin-getting-apps-dogeos-public-testnet"
   ]
+ },
+ {
+  "id": "2026-10-02-fortinet-warns-of-actively-exploited-fortimail-zero-day-cve-78a52",
+  "date": "2026-10-02",
+  "section": "threat",
+  "headline": "Fortinet warns of actively exploited FortiMail zero‑day (CVE‑2026‑104286)",
+  "label": "Confirmed",
+  "score": 98,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+   "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
+   "https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803",
+   "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+   "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/"
+  ]
+ },
+ {
+  "id": "2026-10-02-metamask-reports-infrastructure-security-incident-and-exits-f8a79",
+  "date": "2026-10-02",
+  "section": "threat",
+  "headline": "MetaMask reports infrastructure security incident and exits Ethereum validators",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+   "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+   "https://decrypt.co/379800/metamask-exits-lido-validators-amid-infrastructure-security-incident",
+   "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards"
+  ]
+ },
+ {
+  "id": "2026-10-02-police-arrest-16-year-old-suspected-leader-of-killsec-ransom-210c5",
+  "date": "2026-10-02",
+  "section": "threat",
+  "headline": "Police Arrest 16-Year-Old Suspected Leader of KillSec Ransomware Group",
+  "label": "Confirmed",
+  "score": 84,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+   "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
+   "https://www.theregister.com/cyber-crime/2026/10/02/teen-suspected-of-running-killsec-ransomware-group-as-cops-seize-servers-arrest-three/5300784",
+   "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+   "https://www.helpnetsecurity.com/2026/10/01/killsec-ransomware-16-year-old-main-operator-arrested/",
+   "https://decrypt.co/379913/spanish-police-arrest-16-year-old-accused-of-running-killsec-ransomware-group"
+  ]
+ },
+ {
+  "id": "2026-10-02-openai-dismisses-three-safety-researchers-over-alleged-data-9a913",
+  "date": "2026-10-02",
+  "section": "ai",
+  "headline": "OpenAI dismisses three safety researchers over alleged data leak",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+   "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+   "https://www.engadget.com/2275278/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/",
+   "https://decrypt.co/379857/openai-fires-researchers-alledged-leak-safety-group"
+  ]
+ },
+ {
+  "id": "2026-10-02-white-house-secures-tech-ceos-signature-on-voluntary-ai-safe-24899",
+  "date": "2026-10-02",
+  "section": "ai",
+  "headline": "White House Secures Tech CEOs’ Signature on Voluntary AI Safety Accord",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.wired.com/story/uncanny-valley-podcast-trumps-pinky-swear-ai-safety-accord-an-ai-agent-worth-the-risk/",
+   "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
+   "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/"
+  ]
+ },
+ {
+  "id": "2026-10-02-trump-s-executive-order-spurs-surge-in-slovenia-si-domain-re-6e662",
+  "date": "2026-10-02",
+  "section": "ai",
+  "headline": "Trump's executive order spurs surge in Slovenia .si domain registrations",
+  "label": "Developing",
+  "score": 45,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss",
+   "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
+   "https://www.snopes.com/news/2026/10/01/trump-super-intelligence-order-domain-names/"
+  ]
+ },
+ {
+  "id": "2026-10-02-nasa-opens-applications-for-flight-director-positions-with-o-5af55",
+  "date": "2026-10-02",
+  "section": "science",
+  "headline": "NASA Opens Applications for Flight Director Positions with Oct. 12 Deadline",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/la-nasa-abre-solicitudes-para-proxima-promocion-de-directores-de-vuelo/"
+  ]
+ },
+ {
+  "id": "2026-10-02-nasa-study-documents-wildfire-generated-pyrocumulonimbus-clo-faa6f",
+  "date": "2026-10-02",
+  "section": "science",
+  "headline": "NASA study documents wildfire‑generated pyrocumulonimbus clouds over Idaho",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/earth/natural-disasters/wildfires/nasa-campaign-explores-clouds-spawned-by-wildfires/"
+  ]
+ },
+ {
+  "id": "2026-10-02-us-september-jobs-report-shows-29-000-hires-unemployment-at-c7a99",
+  "date": "2026-10-02",
+  "section": "money",
+  "headline": "US September jobs report shows 29,000 hires, unemployment at 4.2%",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
+   "https://www.coindesk.com/markets/2026/10/02/u-s-added-just-29-000-jobs-in-september-with-unemployment-rate-rising-to-4-2"
+  ]
+ },
+ {
+  "id": "2026-10-02-ethereum-layer-2-blast-announces-shutdown-as-activity-and-re-de525",
+  "date": "2026-10-02",
+  "section": "money",
+  "headline": "Ethereum Layer‑2 Blast Announces Shutdown as Activity and Revenue Plummet",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
+   "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down"
+  ]
+ },
+ {
+  "id": "2026-10-02-microsoft-x-account-hijacked-to-promote-unauthorised-crypto-efca3",
+  "date": "2026-10-02",
+  "section": "scam",
+  "headline": "Microsoft X account hijacked to promote unauthorised crypto token",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+   "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/"
+  ]
  }
 ]

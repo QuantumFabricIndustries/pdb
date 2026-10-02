@@ -1,0 +1,152 @@
+[
+ {
+  "section": "threat",
+  "title": "Fortinet warns of actively exploited FortiMail zero‑day (CVE‑2026‑104286)",
+  "verdict": "PUBLISH",
+  "truth": 98,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "MetaMask reports infrastructure security incident and exits Ethereum validators",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Police Arrest 16-Year-Old Suspected Leader of KillSec Ransomware Group",
+  "verdict": "PUBLISH",
+  "truth": 84,
+  "reasons": [],
+  "edits": [],
+  "owners": 6
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI dismisses three safety researchers over alleged data leak",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "White House Secures Tech CEOs’ Signature on Voluntary AI Safety Accord",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Trump's executive order spurs surge in Slovenia .si domain registrations",
+  "verdict": "PUBLISH",
+  "truth": 45,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Nature publishes speculative fiction piece titled “Von Neumann’s party”",
+  "verdict": "HOLD",
+  "truth": 38,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA Opens Applications for Flight Director Positions with Oct. 12 Deadline",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA study documents wildfire‑generated pyrocumulonimbus clouds over Idaho",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "US September jobs report shows 29,000 hires, unemployment at 4.2%",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section claims economists expected 70,000 to 90,000, but source 3 mentions forecasts for 90,000 and source 2 mentions under half of 70,000. Also, source 1 mentions rate hikes reduced, whereas draft mentions 'raise interest rates further', but source 2 mentions Fed raised rates last month. Actually, source 1 says 'reduced the likelihood of a series of further interest rate hikes', draft said 'reduce pressure on the Federal Reserve to raise interest rates further', which is mostly fine, but let's check expectations: Source 2 says 'under half of economists’ expectations of just under 70,000 new jobs' while Source 3 says 'missing forecasts for 90,000'. Let's tighten expectations to match sources."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Ethereum Layer‑2 Blast Announces Shutdown as Activity and Revenue Plummet",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Microsoft X account hijacked to promote unauthorised crypto token",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "BBC Deepfake Video Misidentifies Passenger in Flydubai Incident",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "FlyDubai pilot argument video is AI‑generated, not real footage",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated 1965 Malibu photo of Hollywood stars debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

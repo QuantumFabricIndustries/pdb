@@ -42,5 +42,16 @@
   "from_score": 47,
   "to_score": 68,
   "note": "Rating changed from Developing (47) to Well-sourced (68) as new evidence came in."
+ },
+ {
+  "date": "2026-10-02",
+  "story_id": "2026-10-02-white-house-secures-tech-ceos-signature-on-voluntary-ai-safe-24899",
+  "prior_id": "2026-10-01-tech-ceos-sign-voluntary-ai-safety-accord-at-white-house-606a7",
+  "headline": "White House Secures Tech CEOs’ Signature on Voluntary AI Safety Accord",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 52,
+  "to_score": 68,
+  "note": "Rating changed from Developing (52) to Well-sourced (68) as new evidence came in."
  }
 ]
