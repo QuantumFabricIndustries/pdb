@@ -53,5 +53,16 @@
   "from_score": 52,
   "to_score": 68,
   "note": "Rating changed from Developing (52) to Well-sourced (68) as new evidence came in."
+ },
+ {
+  "date": "2026-10-03",
+  "story_id": "2026-10-03-nasa-s-crew-12-returns-to-earth-as-crew-13-launches-to-iss-a6af1",
+  "prior_id": "2026-09-24-nasa-launches-health-and-performance-studies-on-crew-13-miss-3d6be",
+  "headline": "NASA’s Crew-12 Returns to Earth as Crew-13 Launches to ISS",
+  "from": "Well-sourced",
+  "to": "Confirmed",
+  "from_score": 59,
+  "to_score": 76,
+  "note": "Rating changed from Well-sourced (59) to Confirmed (76) as new evidence came in."
  }
 ]

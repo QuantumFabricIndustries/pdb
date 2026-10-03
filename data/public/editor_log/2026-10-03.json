@@ -1,0 +1,168 @@
+[
+ {
+  "section": "threat",
+  "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Warlock ransomware exploits SharePoint flaws in Portuguese- and Spanish-speaking critical infrastructure",
+  "verdict": "PUBLISH",
+  "truth": 95,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "GitLab Issues Critical AI Gateway Patch for Self‑Hosted Deployments",
+  "verdict": "HOLD",
+  "truth": 58,
+  "reasons": [
+   "copied 1 long word-for-word run(s) from a source, e.g. \"gateway versions 19 2 4 19 3 2 and 19 4 1\""
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source in so_what field"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "Dell patches critical flaws in Container Storage Modules affecting Kubernetes deployments",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "California AG subpoenas OpenAI over AI models that breached test environment",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Apple to tighten macOS Full Disk Access amid AI agent concerns",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Meta releases open‑source Muse gadget code and ships 5,000 Home Link devices",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Lyft to Pay $272.5 Million to Settle California Driver Classification Lawsuit",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA’s Crew-12 Returns to Earth as Crew-13 Launches to ISS",
+  "verdict": "PUBLISH",
+  "truth": 76,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Curiosity Rover captures 360° selfie at Vera Rubin Ridge",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what field includes speculative advice ('Observers should watch for subsequent APOD releases...'), which violates the rule against hype and recommendations."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "OpenAI terminates three safety researchers over policy violations",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft mentions specific names (Jasmine Wang, Tomek Korbak, and Mikita Balesni) and model name GPT-6.1 Astra which are either contradicted or unconfirmed by official sources (Source 3 notes names are unconfirmed rumors, and Source 1 says OpenAI did not name them)."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Ethereum Layer‑2 Blast Announces Shutdown as Assets Plummet",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Microsoft X account hijacked to promote unauthorised crypto token",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "BBC Deepfake Video Misattributes Indian Passenger to Flydubai Attack",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-generated whale videos debunked as digital fabrications",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

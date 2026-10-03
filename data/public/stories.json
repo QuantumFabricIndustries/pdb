@@ -1133,5 +1133,145 @@
    "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
    "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/"
   ]
+ },
+ {
+  "id": "2026-10-03-warlock-ransomware-exploits-sharepoint-flaws-in-portuguese-a-e5032",
+  "date": "2026-10-03",
+  "section": "threat",
+  "headline": "Warlock ransomware exploits SharePoint flaws in Portuguese- and Spanish-speaking critical infrastructure",
+  "label": "Confirmed",
+  "score": 95,
+  "also_covered_urls": [
+   "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks",
+   "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
+   "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+   "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/"
+  ]
+ },
+ {
+  "id": "2026-10-03-dell-patches-critical-flaws-in-container-storage-modules-aff-ef32a",
+  "date": "2026-10-03",
+  "section": "threat",
+  "headline": "Dell patches critical flaws in Container Storage Modules affecting Kubernetes deployments",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+   "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html"
+  ]
+ },
+ {
+  "id": "2026-10-03-california-ag-subpoenas-openai-over-ai-models-that-breached-62c1b",
+  "date": "2026-10-03",
+  "section": "threat",
+  "headline": "California AG subpoenas OpenAI over AI models that breached test environment",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
+   "https://decrypt.co/379998/california-subpoena-openai-ai-models-hack"
+  ]
+ },
+ {
+  "id": "2026-10-03-apple-to-tighten-macos-full-disk-access-amid-ai-agent-concer-5952d",
+  "date": "2026-10-03",
+  "section": "ai",
+  "headline": "Apple to tighten macOS Full Disk Access amid AI agent concerns",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+   "https://developer.apple.com/news/?id=p6zjojqw",
+   "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+   "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+  ]
+ },
+ {
+  "id": "2026-10-03-meta-releases-open-source-muse-gadget-code-and-ships-5-000-h-3dc74",
+  "date": "2026-10-03",
+  "section": "ai",
+  "headline": "Meta releases open‑source Muse gadget code and ships 5,000 Home Link devices",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+   "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+   "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/",
+   "https://gadgets.muse.ai",
+   "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html"
+  ]
+ },
+ {
+  "id": "2026-10-03-lyft-to-pay-272-5-million-to-settle-california-driver-classi-96436",
+  "date": "2026-10-03",
+  "section": "ai",
+  "headline": "Lyft to Pay $272.5 Million to Settle California Driver Classification Lawsuit",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/",
+   "https://www.engadget.com/2276430/lyft-agrees-to-pay-272-5-million-to-settle-worker-classification-lawsuit/"
+  ]
+ },
+ {
+  "id": "2026-10-03-nasa-s-crew-12-returns-to-earth-as-crew-13-launches-to-iss-a6af1",
+  "date": "2026-10-03",
+  "section": "science",
+  "headline": "NASA’s Crew-12 Returns to Earth as Crew-13 Launches to ISS",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+   "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/"
+  ]
+ },
+ {
+  "id": "2026-10-03-curiosity-rover-captures-360-selfie-at-vera-rubin-ridge-7994a",
+  "date": "2026-10-03",
+  "section": "science",
+  "headline": "Curiosity Rover captures 360° selfie at Vera Rubin Ridge",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/"
+  ]
+ },
+ {
+  "id": "2026-10-03-openai-terminates-three-safety-researchers-over-policy-viola-a27c2",
+  "date": "2026-10-03",
+  "section": "money",
+  "headline": "OpenAI terminates three safety researchers over policy violations",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+   "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+   "https://decrypt.co/379857/openai-fires-researchers-alledged-leak-safety-group"
+  ]
+ },
+ {
+  "id": "2026-10-03-ethereum-layer-2-blast-announces-shutdown-as-assets-plummet-c55c9",
+  "date": "2026-10-03",
+  "section": "money",
+  "headline": "Ethereum Layer‑2 Blast Announces Shutdown as Assets Plummet",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
+   "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down"
+  ]
+ },
+ {
+  "id": "2026-10-03-microsoft-x-account-hijacked-to-promote-unauthorised-crypto-efca3",
+  "date": "2026-10-03",
+  "section": "scam",
+  "headline": "Microsoft X account hijacked to promote unauthorised crypto token",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+   "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/"
+  ]
  }
 ]
