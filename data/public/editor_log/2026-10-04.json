@@ -1,0 +1,160 @@
+[
+ {
+  "section": "threat",
+  "title": "Suspected ShinyHunters Member Detained in Jordan and Assisting FBI",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "Warlock ransomware group exploits SharePoint flaws to disable security tools and deploy ransomware",
+  "verdict": "PUBLISH",
+  "truth": 81,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Used the number '30-plus' and '30' which is not supported by the sources (source 1 and 2 state 'at least 33 hosts')."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Meta launches Muse shopping agent and open‑source hardware kit",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Trump appoints intelligence chief Jay Clayton to lead new Super Intelligence Force",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Amazon pledges $1 billion for data‑center neighbors and ends NDAs amid backlash",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Curiosity rover captures 360° selfie at Vera Rubin Ridge on Mars",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA astronaut Christina Koch to appear at Philadelphia NFL game",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Community banking group sues OCC over crypto trust charters",
+  "verdict": "HOLD",
+  "truth": 53,
+  "reasons": [
+   "copied 7 long word-for-word run(s) from a source, e.g. \"crypto trust charters the independent community bankers of america sued the office\""
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: copied long word-for-word runs from source text"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "G7 agrees to release up to 100 million barrels of oil and diesel following US pressure",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft states Trump's export ban was a real threat, but sources note Trump later said it was 'never really on the table' and there is an agreement that no export bans will occur.",
+   "editor: Draft mentions supply disruptions in the Middle East and China, and reduced Russian output as the cause; sources mention Middle East and China disruptions, but Russian output is not explicitly cited in the provided text."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "",
+  "verdict": "HOLD",
+  "truth": 8,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "New ChatGPT-linked scam uses sponsored Google ads to deliver malware via custom GPT",
+  "verdict": "HOLD",
+  "truth": 18,
+  "reasons": [
+   "truth score 18 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft mentions 'Plus' upgrade and official OpenAI domain impersonation, but source states it is a custom GPT on the actual ChatGPT domain with a fake Cloudflare verification and a Google Sites link, not a PowerShell command directly from the fake page without the intermediate link."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Viral image of bison protecting hiker from wildfire is AI-generated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: So_what field contained advice and speculation not directly attributed or verified beyond the basic fact-check.",
+   "editor: What_to_do field contained generic instructions not strictly derived from the single source text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated whale videos debunked as digital fabrications",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: The so_what field contains extraneous paragraphs and future forecasting text that belongs in what_to_do or should be removed to keep it concise."
+  ],
+  "owners": 1
+ }
+]

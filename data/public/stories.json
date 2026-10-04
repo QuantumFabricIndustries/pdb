@@ -1273,5 +1273,104 @@
    "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
    "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/"
   ]
+ },
+ {
+  "id": "2026-10-04-suspected-shinyhunters-member-detained-in-jordan-and-assisti-15461",
+  "date": "2026-10-04",
+  "section": "threat",
+  "headline": "Suspected ShinyHunters Member Detained in Jordan and Assisting FBI",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+   "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html"
+  ]
+ },
+ {
+  "id": "2026-10-04-warlock-ransomware-group-exploits-sharepoint-flaws-to-disabl-34c7e",
+  "date": "2026-10-04",
+  "section": "threat",
+  "headline": "Warlock ransomware group exploits SharePoint flaws to disable security tools and deploy ransomware",
+  "label": "Confirmed",
+  "score": 81,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+   "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
+  ]
+ },
+ {
+  "id": "2026-10-04-meta-launches-muse-shopping-agent-and-open-source-hardware-k-5515d",
+  "date": "2026-10-04",
+  "section": "ai",
+  "headline": "Meta launches Muse shopping agent and open‑source hardware kit",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html",
+   "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+   "https://metedata.substack.com/p/what-meta-got-right-with-muse"
+  ]
+ },
+ {
+  "id": "2026-10-04-trump-appoints-intelligence-chief-jay-clayton-to-lead-new-su-1145a",
+  "date": "2026-10-04",
+  "section": "ai",
+  "headline": "Trump appoints intelligence chief Jay Clayton to lead new Super Intelligence Force",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
+   "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar",
+   "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+   "https://decrypt.co/380019/trump-jay-clayton-sec-ripple-ai-push-super-intelligence",
+   "https://www.engadget.com/2276762/trump-announces-an-ai-czar-for-his-newly-created-super-intelligence-force/"
+  ]
+ },
+ {
+  "id": "2026-10-04-amazon-pledges-1-billion-for-data-center-neighbors-and-ends-84ec7",
+  "date": "2026-10-04",
+  "section": "ai",
+  "headline": "Amazon pledges $1 billion for data‑center neighbors and ends NDAs amid backlash",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+   "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
+  ]
+ },
+ {
+  "id": "2026-10-04-curiosity-rover-captures-360-selfie-at-vera-rubin-ridge-on-m-007cb",
+  "date": "2026-10-04",
+  "section": "science",
+  "headline": "Curiosity rover captures 360° selfie at Vera Rubin Ridge on Mars",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
+   "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/"
+  ]
+ },
+ {
+  "id": "2026-10-04-nasa-astronaut-christina-koch-to-appear-at-philadelphia-nfl-e467b",
+  "date": "2026-10-04",
+  "section": "science",
+  "headline": "NASA astronaut Christina Koch to appear at Philadelphia NFL game",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia/"
+  ]
+ },
+ {
+  "id": "2026-10-04-g7-agrees-to-release-up-to-100-million-barrels-of-oil-and-di-39b2c",
+  "date": "2026-10-04",
+  "section": "money",
+  "headline": "G7 agrees to release up to 100 million barrels of oil and diesel following US pressure",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency"
+  ]
  }
 ]
