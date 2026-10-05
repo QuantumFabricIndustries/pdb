@@ -1372,5 +1372,137 @@
    "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
    "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency"
   ]
+ },
+ {
+  "id": "2026-10-05-google-pauses-open-source-bug-bounty-program-amid-surge-of-a-e252d",
+  "date": "2026-10-05",
+  "section": "threat",
+  "headline": "Google pauses open‑source bug bounty program amid surge of AI‑generated reports",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
+   "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
+   "https://www.malwarebytes.com/blog/news/2026/10/google-pauses-open-source-bug-bounty-program-after-rise-in-ai-submissions",
+   "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+  ]
+ },
+ {
+  "id": "2026-10-05-citrix-releases-patches-for-netscaler-cve-2026-88779-after-z-f193c",
+  "date": "2026-10-05",
+  "section": "threat",
+  "headline": "Citrix releases patches for NetScaler CVE‑2026‑88779 after zero‑day attacks",
+  "label": "Confirmed",
+  "score": 98,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+   "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+   "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+   "https://www.helpnetsecurity.com/2026/10/05/cisa-flags-new-exploited-netscaler-flaw-as-attackers-crash-appliances-cve-2026-88779/"
+  ]
+ },
+ {
+  "id": "2026-10-05-active-scans-target-rejetto-hfs-flaw-cve-2026-61500-bc5eb",
+  "date": "2026-10-05",
+  "section": "threat",
+  "headline": "Active scans target Rejetto HFS flaw CVE-2026-61500",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+   "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+   "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+  ]
+ },
+ {
+  "id": "2026-10-05-wikimedia-reports-unauthorized-activity-by-openai-agents-on-1b5d3",
+  "date": "2026-10-05",
+  "section": "ai",
+  "headline": "Wikimedia reports unauthorized activity by OpenAI agents on its platforms",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+   "https://www.engadget.com/2278051/wikimedia-links-openai-agents-to-an-outage-and-unauthorized-activity/",
+   "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/"
+  ]
+ },
+ {
+  "id": "2026-10-05-openai-rolls-out-invisible-text-watermarking-for-chatgpt-and-12c63",
+  "date": "2026-10-05",
+  "section": "ai",
+  "headline": "OpenAI rolls out invisible text watermarking for ChatGPT and Codex in EU",
+  "label": "Confirmed",
+  "score": 79,
+  "also_covered_urls": [
+   "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+   "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+   "https://openai.com/index/eu-text-provenance",
+   "https://www.engadget.com/2277866/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu/"
+  ]
+ },
+ {
+  "id": "2026-10-05-president-trump-appoints-dni-jay-clayton-as-white-house-ai-c-94aa9",
+  "date": "2026-10-05",
+  "section": "ai",
+  "headline": "President Trump appoints DNI Jay Clayton as White House AI czar",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
+   "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
+   "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar",
+   "https://decrypt.co/380019/trump-jay-clayton-sec-ripple-ai-push-super-intelligence"
+  ]
+ },
+ {
+  "id": "2026-10-05-2026-nobel-prize-awarded-for-optogenetics-the-light-controll-fba78",
+  "date": "2026-10-05",
+  "section": "science",
+  "headline": "2026 Nobel Prize awarded for optogenetics, the light‑controlled brain switch",
+  "label": "Confirmed",
+  "score": 90,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03091-2",
+   "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
+   "https://www.nobelprize.org/prizes/medicine/2026/summary/",
+   "https://www.nature.com/articles/d41586-026-03164-2",
+   "https://www.nature.com/articles/d41586-026-03133-9"
+  ]
+ },
+ {
+  "id": "2026-10-05-nasa-astronaut-christina-koch-sings-at-nfl-game-as-part-of-i-3f20f",
+  "date": "2026-10-05",
+  "section": "science",
+  "headline": "NASA astronaut Christina Koch sings at NFL game as part of Inspiration Tour",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/nasa-astronaut-christina-koch-at-eagles-vs-rams/"
+  ]
+ },
+ {
+  "id": "2026-10-05-okx-and-ice-file-to-launch-24-7-tokenized-u-s-stock-venue-70925",
+  "date": "2026-10-05",
+  "section": "money",
+  "headline": "OKX and ICE file to launch 24/7 tokenized U.S. stock venue",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/05/okx-and-nyse-s-owner-file-for-round-the-clock-tokenized-trading-in-u-s-stocks",
+   "https://decrypt.co/380032/okx-and-nyse-owner-ice-plan-24-7-tokenized-stock-trading-under-sec-exemption"
+  ]
+ },
+ {
+  "id": "2026-10-05-mark-thompson-to-stay-ceo-of-cnn-as-paramount-acquisition-of-2cae4",
+  "date": "2026-10-05",
+  "section": "money",
+  "headline": "Mark Thompson to stay CEO of CNN as Paramount acquisition of Warner Bros. Discovery forms Skydance",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.theguardian.com/media/2026/oct/05/mark-thompson-cnn-chief-paramount-sale",
+   "https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros"
+  ]
  }
 ]

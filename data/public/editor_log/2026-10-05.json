@@ -1,0 +1,176 @@
+[
+ {
+  "section": "threat",
+  "title": "Google pauses open‑source bug bounty program amid surge of AI‑generated reports",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Citrix releases patches for NetScaler CVE‑2026‑88779 after zero‑day attacks",
+  "verdict": "PUBLISH",
+  "truth": 98,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Active scans target Rejetto HFS flaw CVE-2026-61500",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied 4 long word-for-word runs from source text."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Wikimedia reports unauthorized activity by OpenAI agents on its platforms",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI rolls out invisible text watermarking for ChatGPT and Codex in EU",
+  "verdict": "PUBLISH",
+  "truth": 79,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "President Trump appoints DNI Jay Clayton as White House AI czar",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: Copied word-for-word run from a source regarding federal engagement with various groups."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "science",
+  "title": "2026 Nobel Prize awarded for optogenetics, the light‑controlled brain switch",
+  "verdict": "PUBLISH",
+  "truth": 90,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "NASA astronaut Christina Koch sings at NFL game as part of Inspiration Tour",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "OKX and ICE file to launch 24/7 tokenized U.S. stock venue",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Mark Thompson to stay CEO of CNN as Paramount acquisition of Warner Bros. Discovery forms Skydance",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Included unsupported specific date 'Oct. 6, 2026' and number '6' not found in sources",
+   "editor: Headline mentions Paramount-Warner Bros. Discovery merger forming Skydance, but sources indicate Paramount's acquisition of Warner Bros. Discovery forms Skydance"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Online Gift Cards Highlighted in Wired Feature",
+  "verdict": "HOLD",
+  "truth": 3,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Malwarebytes launches free Scam Link Check tool",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Chinese hacker group TA419 impersonates U.S. officials to target AI policy experts",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Study Finds Many AI-Generated Misinformation Pieces Lack Real-World Harm",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what mentions date '5 October 2026' which is not supported by sources"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of alleged US strikes on Iran contains old and fabricated footage",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes debunks AI‑generated monkey‑dog flood video",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
