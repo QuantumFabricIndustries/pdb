@@ -1504,5 +1504,129 @@
    "https://www.theguardian.com/media/2026/oct/05/mark-thompson-cnn-chief-paramount-sale",
    "https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros"
   ]
+ },
+ {
+  "id": "2026-10-06-google-temporarily-halts-product-vulnerability-submissions-t-dbcd7",
+  "date": "2026-10-06",
+  "section": "threat",
+  "headline": "Google temporarily halts product vulnerability submissions to OSS bug bounty program",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
+   "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+   "https://www.malwarebytes.com/blog/news/2026/10/google-pauses-open-source-bug-bounty-program-after-rise-in-ai-submissions"
+  ]
+ },
+ {
+  "id": "2026-10-06-wikimedia-reveals-rogue-openai-agents-made-unauthorized-edit-9d692",
+  "date": "2026-10-06",
+  "section": "threat",
+  "headline": "Wikimedia reveals rogue OpenAI agents made unauthorized edits and heavy API traffic",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+   "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+   "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+   "https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/"
+  ]
+ },
+ {
+  "id": "2026-10-06-denmark-s-central-person-register-breach-exposes-data-of-8-8-1f411",
+  "date": "2026-10-06",
+  "section": "threat",
+  "headline": "Denmark's Central Person Register breach exposes data of 8.8 million people",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+   "https://www.securityweek.com/8-8-million-impacted-by-data-breach-at-denmarks-central-person-register/",
+   "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+   "https://www.theregister.com/security/2026/10/06/denmarks-id-register-spills-more-peoples-details-than-the-country-has-residents/5301307",
+   "https://www.theregister.com/security/2026/10/06/denmarks-id-register-spills-more-peoples-details-than-the-country-has-residents/5301307"
+  ]
+ },
+ {
+  "id": "2026-10-06-openai-to-add-invisible-watermarks-to-eu-chatgpt-and-codex-o-3bcbb",
+  "date": "2026-10-06",
+  "section": "ai",
+  "headline": "OpenAI to add invisible watermarks to EU ChatGPT and Codex outputs",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
+   "https://www.theregister.com/ai-and-ml/2026/10/06/openai-rolls-out-weak-sauce-watermarking-for-ai-text/5301257",
+   "https://openai.com/index/eu-text-provenance"
+  ]
+ },
+ {
+  "id": "2026-10-06-mistral-releases-1-trillion-parameter-ai-model-le-chonk-in-p-b6d50",
+  "date": "2026-10-06",
+  "section": "ai",
+  "headline": "Mistral releases 1‑trillion‑parameter AI model Le Chonk in preview",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+   "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
+   "https://www.zdnet.com/innovation/mistral-le-chonk-ai-cybersecurity-business/",
+   "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+   "https://mistral.ai/news/mistral-large-4/\\"
+  ]
+ },
+ {
+  "id": "2026-10-06-open-source-tool-lets-macos-27-users-disable-apple-intellige-c87af",
+  "date": "2026-10-06",
+  "section": "ai",
+  "headline": "Open-source tool lets macOS 27 users disable Apple Intelligence",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+   "https://www.theregister.com/ai-and-ml/2026/10/05/get-rid-of-apples-ai-bloatware-and-reclaim-12-gb-of-storage-with-this-open-source-tool/5301213"
+  ]
+ },
+ {
+  "id": "2026-10-06-physicist-francis-halzen-awarded-2026-nobel-prize-in-physics-8f3cb",
+  "date": "2026-10-06",
+  "section": "science",
+  "headline": "Physicist Francis Halzen awarded 2026 Nobel Prize in Physics for IceCube work",
+  "label": "Confirmed",
+  "score": 90,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03095-y",
+   "https://www.nature.com/articles/d41586-026-03092-1",
+   "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+   "https://www.nature.com/articles/d41586-026-03094-z",
+   "https://www.nature.com/articles/d41586-026-03185-x",
+   "https://www.nature.com/articles/d41586-026-03164-2",
+   "https://www.nature.com/articles/d41586-026-03133-9",
+   "https://www.nobelprize.org/prizes/physics/2026/"
+  ]
+ },
+ {
+  "id": "2026-10-06-2026-nobel-prize-awarded-for-optogenetics-the-light-controll-fba78",
+  "date": "2026-10-06",
+  "section": "science",
+  "headline": "2026 Nobel Prize awarded for optogenetics, the light‑controlled brain switch",
+  "label": "Confirmed",
+  "score": 77,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03091-2",
+   "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/"
+  ]
+ },
+ {
+  "id": "2026-10-06-solana-foundation-launches-open-source-dvp-program-for-insti-9a0d2",
+  "date": "2026-10-06",
+  "section": "money",
+  "headline": "Solana Foundation launches open‑source DvP program for institutional trade settlement",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs",
+   "https://decrypt.co/380126/solana-institutional-settlement-standard-jp-morgan"
+  ]
  }
 ]

@@ -64,5 +64,27 @@
   "from_score": 59,
   "to_score": 76,
   "note": "Rating changed from Well-sourced (59) to Confirmed (76) as new evidence came in."
+ },
+ {
+  "date": "2026-10-06",
+  "story_id": "2026-10-06-denmark-s-central-person-register-breach-exposes-data-of-8-8-1f411",
+  "prior_id": "2026-10-01-pentagon-personnel-records-breach-exposes-data-of-over-3-mil-d3e2a",
+  "headline": "Denmark's Central Person Register breach exposes data of 8.8 million people",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 51,
+  "to_score": 70,
+  "note": "Rating changed from Developing (51) to Well-sourced (70) as new evidence came in."
+ },
+ {
+  "date": "2026-10-06",
+  "story_id": "2026-10-06-openai-to-add-invisible-watermarks-to-eu-chatgpt-and-codex-o-3bcbb",
+  "prior_id": "2026-10-05-openai-rolls-out-invisible-text-watermarking-for-chatgpt-and-12c63",
+  "headline": "OpenAI to add invisible watermarks to EU ChatGPT and Codex outputs",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 79,
+  "to_score": 73,
+  "note": "Rating changed from Confirmed (79) to Well-sourced (73) as new evidence came in."
  }
 ]

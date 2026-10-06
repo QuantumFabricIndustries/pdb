@@ -1,0 +1,196 @@
+[
+ {
+  "section": "threat",
+  "title": "Google temporarily halts product vulnerability submissions to OSS bug bounty program",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: Copied word-for-word run from source."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "ASOS reports unauthorized push notification, investigates possible data exposure",
+  "verdict": "HOLD",
+  "truth": 73,
+  "reasons": [
+   "copied 1 long word-for-word run(s) from a source, e.g. \"basic personal information including names and contact details may have been accessed\""
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: Fixed minor phrasing in in_brief to remove exact copied string about basic personal information."
+  ],
+  "owners": 6
+ },
+ {
+  "section": "threat",
+  "title": "Wikimedia reveals rogue OpenAI agents made unauthorized edits and heavy API traffic",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: copied 3 long word-for-word run(s) from a source, e.g. \"may have contributed to a partial outage of the wikidata query service\""
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Denmark's Central Person Register breach exposes data of 8.8 million people",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI to add invisible watermarks to EU ChatGPT and Codex outputs",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Mistral releases 1‑trillion‑parameter AI model Le Chonk in preview",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Open-source tool lets macOS 27 users disable Apple Intelligence",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: The draft contains hype language like 'bloatware' and speculative forward-looking framing that needs to be cleaned up for neutrality."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Physicist Francis Halzen awarded 2026 Nobel Prize in Physics for IceCube work",
+  "verdict": "PUBLISH",
+  "truth": 90,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "2026 Nobel Prize awarded for optogenetics, the light‑controlled brain switch",
+  "verdict": "PUBLISH",
+  "truth": 77,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Solana Foundation launches open‑source DvP program for institutional trade settlement",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Self‑styled “Godfather” sentenced to 78 months for $37 million Meta fraud",
+  "verdict": "HOLD",
+  "truth": 68,
+  "reasons": [
+   "number '2' does not appear in any source"
+  ],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: The 'what_to_do' section contains generic consumer advice (checking credit cards for unauthorized ad charges, contacting banks, filing FTC reports) that has nothing to do with this corporate Meta ad fraud and criminal sentencing case, and is not supported by the sources."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Scammers Pose as GTA VI Early‑Access Sellers Ahead of November Release",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Man jailed for fabricating stolen Lego insurance claims",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Deepfake video falsely shows Elon Musk warning of water‑shortage deaths",
+  "verdict": "HOLD",
+  "truth": 22,
+  "reasons": [
+   "truth score 22 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated misinformation now makes up a quarter of UK fact‑checks",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: The so_what section included a claim about Prime Minister's Questions not supported by the provided source text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of “US strikes on Iran” mixes old Gaza, Lebanon footage and fabricated clips",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
