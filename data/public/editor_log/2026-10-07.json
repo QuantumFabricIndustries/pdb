@@ -1,0 +1,187 @@
+[
+ {
+  "section": "threat",
+  "title": "Suspected ShinyHunters Members Arrested in Jordan and the Netherlands",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft mentions arrests in Jordan and the Netherlands, but source 1 notes Khader was detained in Jordan while source 2 notes Reuters said he was in FBI custody; source 1 clarifies Khader was detained by Jordanian authorities and is cooperating. Wait, the main issue is that source 1 states Rey assumed control *after* Van Der Stap's arrest on Sept 15, and Khader was detained later (as ShinyHunters was extorting a Boeing spin-off). The draft implies simultaneous or recent arrests of both leading to disruption, but needs to accurately reflect the timeline from the sources."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "ASOS reports unauthorized push notifications and possible data exposure",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Removed unsupported date '6 Oct 2026' and fixed exact-match phrasing from source text."
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Hackers hijack three ccTLD registries to obtain counterfeit TLS certificates for Google domains",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI launches Interactive “Intelligent UI” for ChatGPT with GPT‑6",
+  "verdict": "HOLD",
+  "truth": 51,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "ICANN opens 2026 round for new generic top‑level domains",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Microsoft unveils Surface Laptop Ultra with Nvidia RTX Spark chip",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Aaron Sorkin’s “The Social Reckoning” revisits Facebook whistleblower saga",
+  "verdict": "PUBLISH",
+  "truth": 63,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Colonial land-use change linked to heightened wildfire risk in southeastern Australia",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Curiosity captures sunrise over wind‑carved yardangs on Mars",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Number '2012' does not appear in source (source says since 2014)"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Paramount completes $111 billion merger with Warner Bros, forming Skydance",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Europol warns crypto wallets are primary target for future quantum attacks",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included unsupported percentage '30%' in the so_what field.",
+   "editor: Contained word-for-word copied phrases from the source."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Self‑styled “Godfather” sentenced to 78 months for $37 M Meta fraud",
+  "verdict": "HOLD",
+  "truth": 68,
+  "reasons": [
+   "number '3' does not appear in any source"
+  ],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: Number '3' does not appear in any source (mentioned in automated checks)"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "North Carolina musician sentenced for $10 million AI streaming fraud",
+  "verdict": "PUBLISH",
+  "truth": 45,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Deepfake video misquotes Elon Musk on water shortage deaths",
+  "verdict": "HOLD",
+  "truth": 0,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated images of Egyptian cats debunked as modern memes",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what includes unsourced claims about OpenAI's detection tool, which is not mentioned in the source text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Buzz Aldrin never said “The moon is not what you think,” despite viral videos",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

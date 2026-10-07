@@ -1628,5 +1628,151 @@
    "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs",
    "https://decrypt.co/380126/solana-institutional-settlement-standard-jp-morgan"
   ]
+ },
+ {
+  "id": "2026-10-07-suspected-shinyhunters-members-arrested-in-jordan-and-the-ne-725be",
+  "date": "2026-10-07",
+  "section": "threat",
+  "headline": "Suspected ShinyHunters Members Arrested in Jordan and the Netherlands",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+   "https://www.malwarebytes.com/blog/news/2026/10/another-shinyhunters-suspect-arrested",
+   "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/"
+  ]
+ },
+ {
+  "id": "2026-10-07-asos-reports-unauthorized-push-notifications-and-possible-da-5d00d",
+  "date": "2026-10-07",
+  "section": "threat",
+  "headline": "ASOS reports unauthorized push notifications and possible data exposure",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cj62ylzpr6d3o?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cj62ylzpr6d3o?at_medium=RSS&at_campaign=rss",
+   "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+   "https://www.securityweek.com/asos-confirms-cyberattack-data-breach/",
+   "https://www.malwarebytes.com/blog/news/2026/10/asos-hackers-send-push-notifications-to-customers",
+   "https://www.bbc.co.uk/news/articles/ck1l3g8097rzo?at_medium=RSS&at_campaign=rss",
+   "https://www.theregister.com/security/2026/10/06/asos-app-delivers-a-data-leak-threat-instead-of-fast-fashion/5301332",
+   "https://www.theregister.com/security/2026/10/06/asos-app-delivers-a-data-leak-threat-instead-of-fast-fashion/5301332"
+  ]
+ },
+ {
+  "id": "2026-10-07-hackers-hijack-three-cctld-registries-to-obtain-counterfeit-cc07a",
+  "date": "2026-10-07",
+  "section": "threat",
+  "headline": "Hackers hijack three ccTLD registries to obtain counterfeit TLS certificates for Google domains",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+   "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+   "https://www.helpnetsecurity.com/2026/10/07/google-unauthorized-https-certificates-cctld-hijacks/"
+  ]
+ },
+ {
+  "id": "2026-10-07-icann-opens-2026-round-for-new-generic-top-level-domains-f8399",
+  "date": "2026-10-07",
+  "section": "ai",
+  "headline": "ICANN opens 2026 round for new generic top‑level domains",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
+   "https://www.icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en"
+  ]
+ },
+ {
+  "id": "2026-10-07-microsoft-unveils-surface-laptop-ultra-with-nvidia-rtx-spark-d47f4",
+  "date": "2026-10-07",
+  "section": "ai",
+  "headline": "Microsoft unveils Surface Laptop Ultra with Nvidia RTX Spark chip",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
+   "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+   "https://www.theverge.com/news/1006378/microsoft-surface-laptop-ultra-pricing-release-date",
+   "https://www.engadget.com/2280417/surface-laptop-ultra-hands-on-a-beautiful-beast-powered-by-nvidias-rtx-spark/",
+   "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
+   "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
+   "https://www.engadget.com/2280302/microsoft-surface-laptop-ultra-specs/"
+  ]
+ },
+ {
+  "id": "2026-10-07-aaron-sorkin-s-the-social-reckoning-revisits-facebook-whistl-fc859",
+  "date": "2026-10-07",
+  "section": "ai",
+  "headline": "Aaron Sorkin’s “The Social Reckoning” revisits Facebook whistleblower saga",
+  "label": "Well-sourced",
+  "score": 63,
+  "also_covered_urls": [
+   "https://www.wired.com/story/the-social-reckoning-movie-review/",
+   "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-review-aaron-sorkin-jeremy-strong-mikey-madison",
+   "https://www.engadget.com/2279767/the-social-reckoning-is-a-timely-reminder-that-we-shouldnt-trust-meta/"
+  ]
+ },
+ {
+  "id": "2026-10-07-colonial-land-use-change-linked-to-heightened-wildfire-risk-9f22b",
+  "date": "2026-10-07",
+  "section": "science",
+  "headline": "Colonial land-use change linked to heightened wildfire risk in southeastern Australia",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/s41586-026-11097-z",
+   "https://phys.org/news/2026-10-australia-wildfire-crisis-linked-colonial.html"
+  ]
+ },
+ {
+  "id": "2026-10-07-curiosity-captures-sunrise-over-wind-carved-yardangs-on-mars-55e46",
+  "date": "2026-10-07",
+  "section": "science",
+  "headline": "Curiosity captures sunrise over wind‑carved yardangs on Mars",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+   "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/"
+  ]
+ },
+ {
+  "id": "2026-10-07-paramount-completes-111-billion-merger-with-warner-bros-form-dc9ff",
+  "date": "2026-10-07",
+  "section": "money",
+  "headline": "Paramount completes $111 billion merger with Warner Bros, forming Skydance",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+   "https://www.bbc.co.uk/news/articles/cxj0604d33qzo?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/business/2026/oct/06/paramount-warner-bros-skydance-merger"
+  ]
+ },
+ {
+  "id": "2026-10-07-europol-warns-crypto-wallets-are-primary-target-for-future-q-41c34",
+  "date": "2026-10-07",
+  "section": "money",
+  "headline": "Europol warns crypto wallets are primary target for future quantum attacks",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/07/quantum-computers-threaten-exposed-private-keys-rather-than-blockchains-europol-warns",
+   "https://decrypt.co/380268/europol-warns-crypto-wallets-are-primary-risk-for-quantum-attacks"
+  ]
+ },
+ {
+  "id": "2026-10-07-north-carolina-musician-sentenced-for-10-million-ai-streamin-922bb",
+  "date": "2026-10-07",
+  "section": "scam",
+  "headline": "North Carolina musician sentenced for $10 million AI streaming fraud",
+  "label": "Developing",
+  "score": 45,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/"
+  ]
  }
 ]

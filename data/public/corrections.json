@@ -86,5 +86,16 @@
   "from_score": 79,
   "to_score": 73,
   "note": "Rating changed from Confirmed (79) to Well-sourced (73) as new evidence came in."
+ },
+ {
+  "date": "2026-10-07",
+  "story_id": "2026-10-07-suspected-shinyhunters-members-arrested-in-jordan-and-the-ne-725be",
+  "prior_id": "2026-10-04-suspected-shinyhunters-member-detained-in-jordan-and-assisti-15461",
+  "headline": "Suspected ShinyHunters Members Arrested in Jordan and the Netherlands",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 48,
+  "to_score": 73,
+  "note": "Rating changed from Developing (48) to Well-sourced (73) as new evidence came in."
  }
 ]
