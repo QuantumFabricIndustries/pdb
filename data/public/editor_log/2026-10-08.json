@@ -1,0 +1,151 @@
+[
+ {
+  "section": "threat",
+  "title": "PoeLLM malware compromises 3,400+ exposed AI servers using GitHub‑hosted poem",
+  "verdict": "PUBLISH",
+  "truth": 97,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "FBI warns ongoing FortiBleed attacks locking out FortiGate VPN administrators",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Unauthenticated attackers exploit Atlassian Data Center file‑access flaw CVE‑2026‑21589",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "White House suspends Microsoft and peers from PERM green‑card program",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 7
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI reports $50 billion annualized revenue, $20 billion below earlier estimates",
+  "verdict": "PUBLISH",
+  "truth": 44,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: Valuation of $852 billion is not supported by the sources.",
+   "editor: Mentioning Anthropic's partner sales in the so_what section without proper attribution as reported by sources needs tightening to strictly match text."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Amazon launches Alexa-branded tablets, replacing Fire line",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: In-brief pricing is inaccurate based on sources (range is $230 to $550, but source 2 says models start at $230 and run up to $550, while source 1 says 12 Pro starts at $500/499 and source 3 says $549 for the variant)."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Nobel Chemistry Prize awarded to Kagan and Soai for explaining molecular handedness",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Study links faster epigenetic aging to larger dog breeds",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Bitcoin dips below $83,000 as Ethereum researcher warns of AI-driven cryptography risk",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Securitize launches tokenized shares of 12 U.S. stocks on Solana platform",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Headline omits key details or mentions OKXICE which isn't launched yet, but main issue is so_what mentions SEC innovation exemption as a fact when source says SEC is exploring/weighing it and rolled it out/explores it loosely, wait source 1 says SEC rolled out an innovation exemption last month. Let's check attribution and facts."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Hackers hijack .gh, .sl, .as domains to obtain fraudulent Google certificates",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "myth",
+  "title": "Old video of Israeli basketball player misrepresented as Flydubai attack aftermath",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Sam Altman’s “accept some bad things” Quote Is Accurate but Context Misread",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated images of Egyptian cats debunked as modern memes",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

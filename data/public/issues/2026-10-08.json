@@ -1,0 +1,1541 @@
+{
+ "date": "2026-10-08",
+ "built_at": "2026-10-08T19:22:11.890985+00:00",
+ "stories": [
+  {
+   "id": "2026-10-08-poellm-malware-compromises-3-400-exposed-ai-servers-using-gi-78b1d",
+   "date": "2026-10-08",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "PoeLLM malware compromises 3,400+ exposed AI servers using GitHub‑hosted poem",
+   "in_brief": "Researchers report that PoeLLM malware has infected over 3,400 internet‑exposed AI services, extracting its command‑and‑control address from a poem on GitHub. The campaign targets popular open‑source tools, turning compromised hosts into cryptomining bots and scanners.",
+   "so_what": "The discovery highlights a novel technique for hiding C2 infrastructure, making detection harder for defenders. By abusing poorly configured AI/LLM deployments such as LiteLLM, Ollama, Gotenberg and Gitea, attackers can leverage powerful GPU clusters for illicit cryptocurrency mining and further spread the botnet. Organizations running these services should review exposure, apply relevant patches (e.g., for CVE‑2026‑42271 and CVE‑2026‑48710), and monitor network traffic for unusual outbound connections to GitHub or unknown IPs. Continued observation of the botnet’s activity will be needed, as the threat actor appears to update the poem to change C2 addresses and may expand to brute‑force attacks. Awareness of this vector is essential for both IT admins and security teams protecting AI infrastructure.",
+   "what_to_do": "1. Restrict public access to AI/LLM services or place them behind authentication firewalls. 2. Apply available patches for identified vulnerabilities such as CVE‑2026‑42271 and CVE‑2026‑48710. 3. Monitor outbound traffic for connections to unknown GitHub repositories or suspicious IP addresses used as C2.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "PoeLLM malware has compromised more than 3,400 servers",
+     "source": 1,
+     "quote": "Researchers at Lumen's Black Lotus Labs (BLL) tracking the botnet malware say it has compromised more than 3,400 servers",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The malware retrieves C2 addresses by extracting keywords in a poem hosted on GitHub",
+     "source": 1,
+     "quote": "The malware features an uncommon method to retrieve command-and-control (C2) addresses by extracting keywords in a poem hosted on GitHub.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Victims include exposed AI tools such as LiteLLM, Ollama, Gotenberg and Gitea",
+     "source": 1,
+     "quote": "Many of those victims run exposed AI tools such as LiteLLM and Ollama, the Gotenberg PDF converter, and the Gitea development toolkit",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+     "published": "Wed, 07 Oct 2026 11:04:08 -0400",
+     "published_iso": "2026-10-07T15:04:08+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
+     "published": "Wed, 07 Oct 2026 18:01:08 +0200",
+     "published_iso": "2026-10-07T16:01:08+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+     "published": "Wed, 07 Oct 2026 21:03:51 +0530",
+     "published_iso": "2026-10-07T15:33:51+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/08/poellm-malware-github-poem-ai-servers/",
+     "published": "Thu, 08 Oct 2026 10:24:57 +0000",
+     "published_iso": "2026-10-08T10:24:57+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+    "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
+    "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
+    "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+    "https://www.helpnetsecurity.com/2026/10/08/poellm-malware-github-poem-ai-servers/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42271",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-42271 — BerriAI LiteLLM Command Injection Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-48710 — Kludex Starlette HTTP Request/Response Smuggling Vulnerability"
+    },
+    {
+     "url": "https://arxiv.org/abs/2511.15304",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://arxiv.org/abs/2511.15304"
+    }
+   ],
+   "truth": {
+    "total": 97,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-08-fbi-warns-ongoing-fortibleed-attacks-locking-out-fortigate-v-0d8d5",
+   "date": "2026-10-08",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "FBI warns ongoing FortiBleed attacks locking out FortiGate VPN administrators",
+   "in_brief": "The FBI has confirmed that FortiBleed attacks continue to target exposed Fortinet FortiGate firewalls and SSL VPN gateways, locking out legitimate administrators. The threat involves credential theft, offline password cracking and creation of rogue admin accounts.",
+   "so_what": "FortiBleed represents a large‑scale credential leak affecting tens of thousands of FortiGate devices worldwide. By exploiting exposed VPN portals and using GPU clusters to crack stolen password hashes, attackers can gain privileged access, delete or change existing admin credentials, and establish persistence. This enables ransomware affiliates such as INC/Lynx to use compromised firewalls as an entry point for further infection. Organizations should not rely solely on patching; they must also restrict external VPN access, terminate active sessions, enforce multi‑factor authentication, and review logs for unauthorized changes. Strengthening password storage with PBKDF2 is recommended to make offline cracking impractical. Continued monitoring of Fortinet advisories and FBI guidance will be essential as the campaign evolves.",
+   "what_to_do": "1. Apply the latest FortiGate firmware patches. 2. Reset all administrator passwords and enforce MFA for VPN access. 3. Disable unnecessary external VPN exposure and terminate active VPN sessions.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators.",
+     "source": 1,
+     "quote": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Attackers gain access using leaked credentials and then crack password hashes with a distributed GPU cluster running Hashcat and Hashtopolis.",
+     "source": 1,
+     "quote": "Hackers gain access to exposed endpoints by using previously leaked credentials... and use a distributed GPU cluster running Hashcat and Hashtopolis to crack offline the stolen password hashes.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Threat actors create administrator accounts and delete or change existing admin passwords to deny victims access.",
+     "source": 1,
+     "quote": "The FBI says that in some incidents, the threat actor creates administrator accounts and uses their privileges to delete existing admin accounts or change their passwords, denying victims access to their devices.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+     "published": "Wed, 07 Oct 2026 17:28:54 -0400",
+     "published_iso": "2026-10-07T21:28:54+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/07/fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-attacks/5301585",
+     "published": "Wed, 07 Oct 2026 12:52:09 +0200",
+     "published_iso": "2026-10-07T10:52:09+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/",
+     "published": "Thu, 08 Oct 2026 07:52:33 +0000",
+     "published_iso": "2026-10-08T07:52:33+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+    "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/",
+    "https://www.theregister.com/security/2026/10/07/fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-attacks/5301585",
+    "https://www.theregister.com/security/2026/10/07/fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-attacks/5301585"
+   ],
+   "primary": [
+    {
+     "url": "https://www.ic3.gov/CSA/2026/261006.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.ic3.gov/CSA/2026/261006.pdf"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-08-unauthenticated-attackers-exploit-atlassian-data-center-file-e18c2",
+   "date": "2026-10-08",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Unauthenticated attackers exploit Atlassian Data Center file‑access flaw CVE‑2026‑21589",
+   "in_brief": "Hackers are exploiting a critical unauthenticated file‑access vulnerability (CVE‑2026‑21589) in self‑hosted Atlassian Data Center products, with attempts detected within hours of a public proof‑of‑concept release. Atlassian has issued patches and mitigation guidance for the affected products.",
+   "so_what": "The vulnerability allows attackers who know the exact name and path of a file to read arbitrary files from the web‑root of eight Atlassian Data Center applications, including Jira, Confluence, Bitbucket, Bamboo, Crowd, Crucible and Fisheye. In Crowd‑integrated deployments, reading the crowd.properties file can expose plaintext credentials, enabling creation of new admin accounts via Crowd’s API. Exploitation attempts were observed within two hours of the technical report’s release, highlighting the rapid weaponisation of publicly disclosed flaws. Organizations running self‑hosted instances must apply the released security updates immediately, restrict internet exposure, and consider web‑application firewall rules to block the crafted resource requests. Monitoring for unusual file‑read requests and reviewing access logs for the listed IP addresses can help detect ongoing attempts.",
+   "what_to_do": "1. Apply the latest Atlassian security patches for the affected Data Center products. 2. Remove public internet access or enforce strict IP allow‑lists for the instances. 3. Deploy a WAF rule or Tomcat RewriteValve to block crafted resource‑path requests.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "A critical unauthenticated file‑access vulnerability (CVE‑2026‑21589) affecting eight self‑hosted Atlassian Data Center products is being exploited within hours of a public PoC release",
+     "source": 1,
+     "quote": "Hackers exploit critical Atlassian flaw after public PoC release... attacks that do not require authentication.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Exploitation allows reading specific files such as WEB‑INF/classes/crowd.properties, enabling creation of admin accounts via Crowd’s API",
+     "source": 1,
+     "quote": "In Crowd‑integrated Jira deployments, attackers could read plaintext application credentials from WEB‑INF/classes/crowd.properties and use them to create a Jira administrator account through Crowd’s API.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Atlassian has released patches for the affected Data Center products and recommends temporary mitigations such as removing instances from the public internet and applying WAF rules",
+     "source": 2,
+     "quote": "Atlassian said impacted Atlassian Cloud products have been patched, adding that fixes are available for the following products... As temporary mitigation, Atlassian is recommending that customers remove their instance from the public internet, apply a Web Application Firewall (WAF) rule...",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+     "published": "Wed, 07 Oct 2026 08:49:01 -0400",
+     "published_iso": "2026-10-07T12:49:01+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+     "published": "Wed, 07 Oct 2026 17:19:26 +0530",
+     "published_iso": "2026-10-07T11:49:26+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
+     "published": "Thu, 08 Oct 2026 14:04:44 +0000",
+     "published_iso": "2026-10-08T14:04:44+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+    "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
+    "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-08-white-house-suspends-microsoft-and-peers-from-perm-green-car-367dc",
+   "date": "2026-10-08",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "White House suspends Microsoft and peers from PERM green‑card program",
+   "in_brief": "The U.S. administration barred Microsoft and several other tech firms from filing new Permanent Labor Certification (PERM) applications. The move follows accusations that the companies abused the H‑1B visa system to replace American workers.",
+   "so_what": "The suspension signals a heightened federal crackdown on the H‑1B and PERM programs, which are central to how tech firms staff specialized roles. Vice President JD Vance and Labor Secretary Keith Sonderling allege fraud and wage undercutting, claiming the firms have flooded the labor market with foreign workers. Microsoft counters that most of its H‑1B filings are for existing staff and that its foreign hires receive comparable pay to U.S. employees. The dispute highlights broader political pressures ahead of the November midterm elections and could reshape immigration‑based hiring practices in the tech sector. Watch for further investigations, potential legal challenges, and any policy adjustments to the visa caps or certification processes.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of statements from officials and company",
+   "claims": [
+    {
+     "claim": "The White House blocked Microsoft and several other technology firms from hiring skilled international workers on a permanent basis through the PERM program",
+     "source": 1,
+     "quote": "Microsoft and several other technology firms have been barred by the White House from hiring skilled international workers on a permanent basis through a widely used visa program.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Microsoft says 80% of its H‑1B filings in the last fiscal year were to extend or change the status of existing employees",
+     "source": 3,
+     "quote": "Microsoft said ... 80% of the H-1B applications it filed in the last year were for extensions or status changes for people who already worked for the company.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Comcast",
+      "Condé Nast",
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Labor Secretary Keith Sonderling said the suspended companies have requested almost 3 million foreign workers, received over 230,000 H‑1B approvals and over 100,000 permanent labor certifications since 2009",
+     "source": 5,
+     "quote": "Since 2009, just these companies alone have requested almost 3 million foreign workers. They've received over 230,000 H‑1B visas approvals and over 100,000 permanent labor certifications.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+     "published": "Thu, 08 Oct 2026 18:56:46 GMT",
+     "published_iso": "2026-10-08T18:56:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/trump-administration-crackdown-microsoft-adobe-immigration/",
+     "published": "Thu, 08 Oct 2026 19:11:45 +0000",
+     "published_iso": "2026-10-08T19:11:45+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension",
+     "published": "Thu, 08 Oct 2026 18:23:47 GMT",
+     "published_iso": "2026-10-08T18:23:47+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/policy/1008115/trump-microsoft-worker-visa-program-vance",
+     "published": "2026-10-08T12:57:27-04:00",
+     "published_iso": "2026-10-08T16:57:27+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+     "published": "Thu, 08 Oct 2026 18:52:59 GMT",
+     "published_iso": "2026-10-08T18:52:59+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+    "https://www.wired.com/story/trump-administration-crackdown-microsoft-adobe-immigration/",
+    "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension",
+    "https://www.theverge.com/policy/1008115/trump-microsoft-worker-visa-program-vance",
+    "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+    "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+    "https://www.engadget.com/2281503/us-suspends-permanent-residency-program-for-microsoft-adobe-and-other-tech-companies/",
+    "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period"
+    },
+    {
+     "url": "https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/PERM_Selected_Statistics_FY2025_Q4.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/PERM_Selected_Statistics_FY2025_Q4.pdf"
+    }
+   ],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Condé Nast, Guardian Media Group, Vox Media"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 7
+  },
+  {
+   "id": "2026-10-08-openai-reports-50-billion-annualized-revenue-20-billion-belo-a0b07",
+   "date": "2026-10-08",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI reports $50 billion annualized revenue, $20 billion below earlier estimates",
+   "in_brief": "OpenAI disclosed that its annualized revenue reached roughly $50 billion at the end of September, about $20 billion less than the $68‑$70 billion previously cited. The revision comes as the company prepares for a 2027 IPO and explores a new funding round.",
+   "so_what": "The updated revenue figure reshapes investors’ view of OpenAI’s growth trajectory ahead of a planned IPO in early 2027. A lower revenue base highlights the challenges of comparing revenue metrics across AI firms that use different accounting methods, such as Anthropic including partner sales in its figures. Stakeholders will watch how the revised numbers affect demand for OpenAI's shares, a potential new funding round, and the company's efforts to justify massive investments.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, lower than the $68 billion figure widely reported earlier.",
+     "source": 1,
+     "quote": "OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the the $68 billion figure that was widely reported late last month.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "OpenAI filed a confidential prospectus in June and is targeting an IPO in early 2027.",
+     "source": 1,
+     "quote": "OpenAI confidentially filed its prospectus with regulators in June, and executives have signaled that the company is eyeing a 2027 debut.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The revenue figure is about $20 billion less than the previously projected $68‑$70 billion.",
+     "source": 2,
+     "quote": "OpenAI’s revenue is reportedly $20 billion less than previously projected.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [2]: 68"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+     "published": "Thu, 08 Oct 2026 18:18:31 GMT",
+     "published_iso": "2026-10-08T18:18:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+     "published": "Thu, 08 Oct 2026 18:19:42 +0000",
+     "published_iso": "2026-10-08T18:19:42+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "ft.com",
+     "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a",
+     "published": "Thu, 08 Oct 2026 16:45:58 +0000",
+     "published_iso": "2026-10-08T16:45:58+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+    "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+    "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 44,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Yahoo, ft.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: Valuation of $852 billion is not supported by the sources.",
+     "editor: Mentioning Anthropic's partner sales in the so_what section without proper attribution as reported by sources needs tightening to strictly match text."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-08-amazon-launches-alexa-branded-tablets-replacing-fire-line-2c5d6",
+   "date": "2026-10-08",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Amazon launches Alexa-branded tablets, replacing Fire line",
+   "in_brief": "Amazon introduced a new Alexa Tablet lineup, dropping the Fire brand and offering Android devices with Google Play. The devices start shipping on Oct. 14 and are priced from $230 up to $550.",
+   "so_what": "The rebranding marks Amazon's shift from its proprietary Fire OS to a standard Android platform, potentially expanding app availability and attracting users who prefer Google services. By pricing the tablets higher than previous Fire models, Amazon aims to capture a more premium market segment while still undercutting rivals like Apple's iPad. The move also reflects broader industry pressures from rising memory costs, prompting manufacturers to adjust pricing and specifications. Observers will watch how consumers respond to the higher price points and whether the Android integration boosts sales against entrenched competitors such as Apple, Samsung, and Microsoft.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Amazon has dropped the Fire branding in favor of Alexa",
+     "source": 1,
+     "quote": "Amazon has dropped the Fire branding in favor of Alexa",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The new Alexa Tablets are now Google-certified Android devices",
+     "source": 1,
+     "quote": "the new Alexa Tablets are now Google-certified Android devices",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The Alexa Tablet 8 starts at $230, the Tablet 11 jumps to $330, and the Alexa Tablet 12 Pro starts at $500",
+     "source": 1,
+     "quote": "The Alexa Tablet 8 starts at $230, and the Tablet 11 jumps to $330...Starting at $500, the Alexa Tablet 12 Pro",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "All devices will begin shipping on Oct. 14",
+     "source": 2,
+     "quote": "will begin shipping Oct. 14",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
+     "published": "Thu, 08 Oct 2026 16:32:46 +0000",
+     "published_iso": "2026-10-08T16:32:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+     "published": "Thu, 08 Oct 2026 14:51:27 GMT",
+     "published_iso": "2026-10-08T14:51:27+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2280787/amazon-alexa-tablet-12-pro-hands-on/",
+     "published": "Thu, 08 Oct 2026 13:00:00 +0000",
+     "published_iso": "2026-10-08T13:00:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
+    "https://www.wired.com/story/amazon-alexa-tablets-2026/",
+    "https://www.engadget.com/2280791/amazon-alexa-tablet-12-pro-vs-fire-hd-10-what-changed/",
+    "https://www.engadget.com/2280936/amazon-alexa-tablets-access-google-play/",
+    "https://www.wired.com/story/alexa-tablets-blueprint-for-upcoming-amazon-phone/",
+    "https://www.engadget.com/2280917/amazon-alexa-tablets-october-2026/",
+    "https://www.engadget.com/2280730/amazon-is-releasing-kids-versions-of-its-new-alexa-tablets/",
+    "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+    "https://www.engadget.com/2280787/amazon-alexa-tablet-12-pro-hands-on/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      2,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor: In-brief pricing is inaccurate based on sources (range is $230 to $550, but source 2 says models start at $230 and run up to $550, while source 1 says 12 Pro starts at $500/499 and source 3 says $549 for the variant)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-08-nobel-chemistry-prize-awarded-to-kagan-and-soai-for-explaini-e4811",
+   "date": "2026-10-08",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Nobel Chemistry Prize awarded to Kagan and Soai for explaining molecular handedness",
+   "in_brief": "The Royal Swedish Academy of Sciences announced on 7 October 2026 that Henri Kagan and Kenso Soai received the 2026 Nobel Prize in Chemistry for work on the emergence of homochirality. The award highlights research that may guide the design of chiral drugs and materials.",
+   "so_what": "The prize recognizes breakthroughs that address a century‑old question: why biological molecules exist predominantly in one chiral form. Kagan demonstrated that a slight asymmetry in a catalyst can be amplified, while Soai showed that a chiral product can act as its own catalyst, creating a self‑reinforcing loop. Understanding these mechanisms could improve the synthesis of enantiomer‑pure pharmaceuticals, reducing side‑effects linked to unwanted mirror‑image compounds, and inform the creation of advanced materials and fragrances. Future research will likely explore how to harness autocatalytic processes for scalable, selective production, and monitor any regulatory implications for drug manufacturing.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Their discoveries explain how chemical asymmetry (homochirality) can arise spontaneously",
+     "source": 1,
+     "quote": "“Henri Kagan and Kenso Soai have provided a solution to a chemical mystery that is over a century old: how homochirality can emerge spontaneously,” said Heiner Linke, chair of the Nobel Committee for Chemistry, in a statement.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The prize‑winning work is relevant for designing chiral drugs and materials",
+     "source": 2,
+     "quote": "The 2026 Nobel Prize in Chemistry was awarded to Henri Kagan and Kensō Soai for discovering a solution to the enigma of nature’s chemical asymmetry, a finding that opened up new avenues for manipulating the reactions used in manufacturing pharmaceuticals and other materials.",
+     "status": "verified",
+     "corroborated_by": [
+      "nature.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Henri Kagan and Kenso Soai were awarded the 2026 Nobel Prize in Chemistry",
+     "source": 1,
+     "quote": "Henri Kagan, at the University of Paris‑Sud in Orsay, France, and Kenso Soai, at Tokyo University, share the 12‑million Swedish kronor (US$1.2‑million) prize, announced by the Royal Swedish Academy of Sciences in Stockholm on 7 October.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03093-0",
+     "published": "2026-10-07",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/life-is-asymmetric-the-scientists-who-figured-out-why-won-the-2026-nobel-prize-in-chemistry/",
+     "published": "Thu, 08 Oct 2026 10:30:00 +0000",
+     "published_iso": "2026-10-08T10:30:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03208-7",
+    "https://www.nature.com/articles/d41586-026-03212-x",
+    "https://www.nature.com/articles/d41586-026-03093-0",
+    "https://www.wired.com/story/life-is-asymmetric-the-scientists-who-figured-out-why-won-the-2026-nobel-prize-in-chemistry/"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.3847/2041-8213/aea290",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://doi.org/10.3847/2041-8213/aea290"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03093-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-08-study-links-faster-epigenetic-aging-to-larger-dog-breeds-237aa",
+   "date": "2026-10-08",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Study links faster epigenetic aging to larger dog breeds",
+   "in_brief": "Researchers found that big dogs accumulate DNA methylation changes more quickly than small dogs, and that this accelerated epigenetic aging predicts higher short‑term mortality. The work suggests loss of control over transposable elements may underlie the size‑related lifespan gap.",
+   "so_what": "The findings provide a molecular explanation for why larger dog breeds tend to die younger, a pattern long observed by owners and veterinarians. By mapping methylation patterns in nearly 900 dogs, scientists identified that the rapid loss of epigenetic marks—especially at LINE1 transposable elements—correlates with faster biological aging. Dogs whose epigenetic age exceeds their calendar age faced a greater chance of dying within two years, highlighting a potential biomarker for health monitoring. Because dogs share environments with humans, the results could inform broader aging research and eventually guide interventions to slow age‑related decline in both pets and people. Future work will likely explore whether modifying methylation patterns can extend healthspan in large breeds.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of peer‑reviewed research",
+   "claims": [
+    {
+     "claim": "Big dogs tend to accumulate epigenetic changes at a faster rate than small dogs.",
+     "source": 1,
+     "quote": "Big dogs tended to accumulate epigenetic changes at a faster rate than small dogs, the study found.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Aging in dogs is linked to loss of DNA methylation marks at transposable elements, particularly LINE1s.",
+     "source": 2,
+     "quote": "Their findings reveal that aging is associated with the widespread loss of these regulatory marks over time, particularly in regions of the genome known as \"jumping genes\" or transposable elements. A class of these jumping genes called LINE1s was found to be a key component of biological aging differences.",
+     "status": "verified",
+     "corroborated_by": [
+      "nature.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Dogs whose epigenetic age exceeds their chronological age have a higher risk of dying within two years.",
+     "source": 1,
+     "quote": "Those dogs whose epigenetic age was older than their chronological age also had a higher risk of dying in the next two years.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03199-5",
+     "published": "2026-10-08",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-10-genes-big-dogs-age-faster.html",
+     "published": "Thu, 08 Oct 2026 14:00:48 EDT",
+     "published_iso": "2026-10-08T18:00:48+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03199-5",
+    "https://phys.org/news/2026-10-genes-big-dogs-age-faster.html"
+   ],
+   "primary": [
+    {
+     "url": "http://www.asu.edu/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://www.asu.edu/"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03199-5",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 80,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-08-bitcoin-dips-below-83-000-as-ethereum-researcher-warns-of-ai-77f7f",
+   "date": "2026-10-08",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Bitcoin dips below $83,000 as Ethereum researcher warns of AI-driven cryptography risk",
+   "in_brief": "Bitcoin fell to about $82,300 before recovering to $82,800, while Ethereum Foundation researcher Justin Drake urged the industry to prepare for a potential AI break of wallet cryptography. The comments sparked mixed reactions from other crypto leaders.",
+   "so_what": "The price dip underscores market sensitivity to security concerns in the crypto sector. Drake’s call for a \"bunker mode\"—moving funds to fresh addresses whose public keys have never been exposed—reflects growing anxiety that advances in artificial intelligence could compromise the elliptic-curve signatures that protect Bitcoin and Ethereum wallets, potentially within months. While Ethereum co‑founder Vitalik Buterin acknowledged the risk, he cautioned holders against panic‑driven moves, and Bitcoin technology CEO Samson Mow dismissed the warning as alarmist. Investors and developers will be watching for any concrete steps by exchanges or custodians to harden cold storage, as well as further commentary from regulators and the broader research community on the plausibility of AI‑based attacks.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting with multiple viewpoints",
+   "claims": [
+    {
+     "claim": "Bitcoin dipped to about $82,300 before recovering to around $82,800, roughly 4% below Tuesday's high near $86,600.",
+     "source": 1,
+     "quote": "Bitcoin dipped to about $82,300 before recovering to around $82,800, roughly 4% below Tuesday's high near $86,600.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Ethereum Foundation researcher Justin Drake urged the industry to begin planning for \"bunker mode\" in case AI-driven math breaks wallet cryptography.",
+     "source": 1,
+     "quote": "Ethereum Foundation researcher Justin Drake used a post on X, viewed almost 4 million times, to urge the industry to begin planning for what he called \"bunker mode.\"",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Vitalik Buterin said the risk from AI‑accelerated math should be taken seriously, but advised holders against scrambling to move funds.",
+     "source": 1,
+     "quote": "Ethereum co‑founder Vitalik Buterin said the risk from AI‑accelerated math should be taken seriously, but advised holders against scrambling to move funds.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
+     "published": "Thu, 08 Oct 2026 10:30:41 +0000",
+     "published_iso": "2026-10-08T10:30:41+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380402/morning-minute-ethereum-researcher-says-ai-may-break-crypto-encryption-before-quantum",
+     "published": "Thu, 08 Oct 2026 11:48:13 +0000",
+     "published_iso": "2026-10-08T11:48:13+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
+    "https://decrypt.co/380503/ai-break-crypto-encryption-ethereum-vitalik-buterin-bunker-mode",
+    "https://decrypt.co/380402/morning-minute-ethereum-researcher-says-ai-may-break-crypto-encryption-before-quantum"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-08-securitize-launches-tokenized-shares-of-12-u-s-stocks-on-sol-72aa2",
+   "date": "2026-10-08",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Securitize launches tokenized shares of 12 U.S. stocks on Solana platform",
+   "in_brief": "Securitize introduced tokenized versions of 12 major U.S. equities, including Apple, Nvidia and Tesla, on its Solana‑based platform. The firm says the tokens are backed one‑for‑one by underlying shares and will later be offered on NYSE and OKXICE venues.",
+   "so_what": "The launch marks a significant step in bringing traditional equities onto blockchain networks, offering investors the ability to trade stocks on a decentralized infrastructure while preserving shareholder rights such as dividends and voting. By using the Solana blockchain and settling trades in USDC, Securitize aims to provide faster settlement and extended trading hours, potentially expanding access to on-chain lending and collateral markets. The rollout aligns with recent regulatory developments, as the SEC explores pathways for tokenized securities and ventures like NYSE's planned digital platform and the OKX-ICE joint venture prepare for entry. Observers will watch whether the planned expansions materialize and how regulators respond as tokenized equities gain traction.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Securitize is bringing 12 U.S. stocks, including Apple, Nvidia, Tesla and Microsoft, onto Solana as tokenized shares backed one‑for‑one by underlying shares.",
+     "source": 1,
+     "quote": "Securitize is bringing 12 U.S. stocks, including Apple, Nvidia, Tesla and Microsoft, onto Solana, with tokens backed one-for-one by underlying shares and designed to preserve shareholder rights.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Trading of the tokenized stocks will start on Securitize's Solana‑based platform with Jump Trading providing liquidity and settlement in USDC.",
+     "source": 1,
+     "quote": "Trading will start on Securitize's PropAMM platform, with Jump Trading providing liquidity and transactions settling in USDC stablecoin.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Securitize expects the tokens to later trade on NYSE's planned 24/7 digital platform and the OKX‑ICE tokenized‑securities venue, pending launch and regulatory approval.",
+     "source": 1,
+     "quote": "The stocks are also expected to trade on the New York Stock Exchange's planned 24/7 digital trading platform and the upcoming OKXICE Tokenized Securities Venue... Both expansions remain subject to the venues launching and meeting regulatory requirements.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
+     "published": "Thu, 08 Oct 2026 13:06:24 +0000",
+     "published_iso": "2026-10-08T13:06:24+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380458/securitize-nvidia-apple-amazon-tokenized-stocks-solana",
+     "published": "Thu, 08 Oct 2026 15:10:49 +0000",
+     "published_iso": "2026-10-08T15:10:49+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
+    "https://decrypt.co/380458/securitize-nvidia-apple-amazon-tokenized-stocks-solana"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Headline omits key details or mentions OKXICE which isn't launched yet, but main issue is so_what mentions SEC innovation exemption as a fact when source says SEC is exploring/weighing it and rolled it out/explores it loosely, wait source 1 says SEC rolled out an innovation exemption last month. Let's check attribution and facts."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-08-hackers-hijack-gh-sl-as-domains-to-obtain-fraudulent-google-e52e4",
+   "date": "2026-10-08",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Hackers hijack .gh, .sl, .as domains to obtain fraudulent Google certificates",
+   "in_brief": "Attackers compromised the DNS infrastructure of three country‑code top‑level domains and used it to obtain unauthorized HTTPS certificates for Google sites. Google blocked the certificates in Chrome and worked with CAs to revoke them, but warned protection may be incomplete.",
+   "so_what": "The breach did not involve Google’s own systems, but by altering authoritative DNS records the attackers could convince certificate authorities that they controlled Google‑related domains in the .gh, .sl and .as namespaces. This allowed the issuance of valid TLS certificates, enabling impersonation of Google and other brands and the potential interception of encrypted traffic. Google responded by using Chrome’s emergency CRLSets mechanism to block the certificates and by coordinating revocations with the issuing CAs, yet it cautioned that not all affected domains may have been identified and that users of non‑Chrome browsers might remain exposed. Organizations should monitor Certificate Transparency logs and consider restrictive CAA records, while users should remain vigilant for spoofed sites, especially those ending in the compromised ccTLDs.",
+   "what_to_do": "1. Keep your browser and operating system up to date with the latest security patches.\n2. Do not ignore certificate warnings; stop loading a page if the browser flags a problem.\n3. If you use services with .gh, .sl, or .as addresses, verify any login or payment requests through a trusted channel before proceeding.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Attackers compromised the DNS infrastructure of the .gh, .sl and .as country‑code top‑level domains and obtained unauthorized HTTPS certificates for Google domains.",
+     "source": 1,
+     "quote": "Hackers hijack Google domains after breaching ccTLD registries. Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Google blocked the unauthorized certificates in Chrome using the CRLSets mechanism and worked with issuing authorities to revoke them.",
+     "source": 1,
+     "quote": "Google immediately blocked the unauthorized certificates for its properties in Chrome through CRLSets and worked with the issuing authorities to revoke them, extending protection to other clients.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attackers' certificates were recorded in Certificate Transparency logs between September 22 and September 27 and later revoked.",
+     "source": 3,
+     "quote": "The 12 certificates are for seven domains. ... The certificates were recorded in the logs on three days, one ccTLD at a time: .gh on September 22, .sl on September 25, and .as on September 27.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+     "published": "Wed, 07 Oct 2026 16:50:13 -0400",
+     "published_iso": "2026-10-07T20:50:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+     "published": "Wed, 07 Oct 2026 21:38:06 +0200",
+     "published_iso": "2026-10-07T19:38:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+     "published": "Thu, 08 Oct 2026 00:18:17 +0530",
+     "published_iso": "2026-10-07T18:48:17+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services",
+     "published": "Thu, 08 Oct 2026 15:53:18 GMT",
+     "published_iso": "2026-10-08T15:53:18+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+    "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+    "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+    "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+    "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 69,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, bleepingcomputer.com, malwarebytes.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4,
+   "previously": {
+    "id": "2026-10-07-hackers-hijack-three-cctld-registries-to-obtain-counterfeit-cc07a",
+    "date": "2026-10-07",
+    "label": "Well-sourced",
+    "score": 65
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 576,
+  "stories_considered": 14,
+  "published": 11,
+  "outlets": 40
+ }
+}

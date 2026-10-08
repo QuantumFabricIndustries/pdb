@@ -1774,5 +1774,163 @@
   "also_covered_urls": [
    "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/"
   ]
+ },
+ {
+  "id": "2026-10-08-poellm-malware-compromises-3-400-exposed-ai-servers-using-gi-78b1d",
+  "date": "2026-10-08",
+  "section": "threat",
+  "headline": "PoeLLM malware compromises 3,400+ exposed AI servers using GitHub‑hosted poem",
+  "label": "Confirmed",
+  "score": 97,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+   "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
+   "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
+   "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+   "https://www.helpnetsecurity.com/2026/10/08/poellm-malware-github-poem-ai-servers/"
+  ]
+ },
+ {
+  "id": "2026-10-08-fbi-warns-ongoing-fortibleed-attacks-locking-out-fortigate-v-0d8d5",
+  "date": "2026-10-08",
+  "section": "threat",
+  "headline": "FBI warns ongoing FortiBleed attacks locking out FortiGate VPN administrators",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+   "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/",
+   "https://www.theregister.com/security/2026/10/07/fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-attacks/5301585",
+   "https://www.theregister.com/security/2026/10/07/fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-attacks/5301585"
+  ]
+ },
+ {
+  "id": "2026-10-08-unauthenticated-attackers-exploit-atlassian-data-center-file-e18c2",
+  "date": "2026-10-08",
+  "section": "threat",
+  "headline": "Unauthenticated attackers exploit Atlassian Data Center file‑access flaw CVE‑2026‑21589",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+   "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
+   "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
+  ]
+ },
+ {
+  "id": "2026-10-08-white-house-suspends-microsoft-and-peers-from-perm-green-car-367dc",
+  "date": "2026-10-08",
+  "section": "ai",
+  "headline": "White House suspends Microsoft and peers from PERM green‑card program",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+   "https://www.wired.com/story/trump-administration-crackdown-microsoft-adobe-immigration/",
+   "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension",
+   "https://www.theverge.com/policy/1008115/trump-microsoft-worker-visa-program-vance",
+   "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+   "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+   "https://www.engadget.com/2281503/us-suspends-permanent-residency-program-for-microsoft-adobe-and-other-tech-companies/",
+   "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea"
+  ]
+ },
+ {
+  "id": "2026-10-08-openai-reports-50-billion-annualized-revenue-20-billion-belo-a0b07",
+  "date": "2026-10-08",
+  "section": "ai",
+  "headline": "OpenAI reports $50 billion annualized revenue, $20 billion below earlier estimates",
+  "label": "Developing",
+  "score": 44,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+   "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+   "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
+  ]
+ },
+ {
+  "id": "2026-10-08-amazon-launches-alexa-branded-tablets-replacing-fire-line-2c5d6",
+  "date": "2026-10-08",
+  "section": "ai",
+  "headline": "Amazon launches Alexa-branded tablets, replacing Fire line",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
+   "https://www.wired.com/story/amazon-alexa-tablets-2026/",
+   "https://www.engadget.com/2280791/amazon-alexa-tablet-12-pro-vs-fire-hd-10-what-changed/",
+   "https://www.engadget.com/2280936/amazon-alexa-tablets-access-google-play/",
+   "https://www.wired.com/story/alexa-tablets-blueprint-for-upcoming-amazon-phone/",
+   "https://www.engadget.com/2280917/amazon-alexa-tablets-october-2026/",
+   "https://www.engadget.com/2280730/amazon-is-releasing-kids-versions-of-its-new-alexa-tablets/",
+   "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+   "https://www.engadget.com/2280787/amazon-alexa-tablet-12-pro-hands-on/"
+  ]
+ },
+ {
+  "id": "2026-10-08-nobel-chemistry-prize-awarded-to-kagan-and-soai-for-explaini-e4811",
+  "date": "2026-10-08",
+  "section": "science",
+  "headline": "Nobel Chemistry Prize awarded to Kagan and Soai for explaining molecular handedness",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03208-7",
+   "https://www.nature.com/articles/d41586-026-03212-x",
+   "https://www.nature.com/articles/d41586-026-03093-0",
+   "https://www.wired.com/story/life-is-asymmetric-the-scientists-who-figured-out-why-won-the-2026-nobel-prize-in-chemistry/"
+  ]
+ },
+ {
+  "id": "2026-10-08-study-links-faster-epigenetic-aging-to-larger-dog-breeds-237aa",
+  "date": "2026-10-08",
+  "section": "science",
+  "headline": "Study links faster epigenetic aging to larger dog breeds",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03199-5",
+   "https://phys.org/news/2026-10-genes-big-dogs-age-faster.html"
+  ]
+ },
+ {
+  "id": "2026-10-08-bitcoin-dips-below-83-000-as-ethereum-researcher-warns-of-ai-77f7f",
+  "date": "2026-10-08",
+  "section": "money",
+  "headline": "Bitcoin dips below $83,000 as Ethereum researcher warns of AI-driven cryptography risk",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
+   "https://decrypt.co/380503/ai-break-crypto-encryption-ethereum-vitalik-buterin-bunker-mode",
+   "https://decrypt.co/380402/morning-minute-ethereum-researcher-says-ai-may-break-crypto-encryption-before-quantum"
+  ]
+ },
+ {
+  "id": "2026-10-08-securitize-launches-tokenized-shares-of-12-u-s-stocks-on-sol-72aa2",
+  "date": "2026-10-08",
+  "section": "money",
+  "headline": "Securitize launches tokenized shares of 12 U.S. stocks on Solana platform",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
+   "https://decrypt.co/380458/securitize-nvidia-apple-amazon-tokenized-stocks-solana"
+  ]
+ },
+ {
+  "id": "2026-10-08-hackers-hijack-gh-sl-as-domains-to-obtain-fraudulent-google-e52e4",
+  "date": "2026-10-08",
+  "section": "scam",
+  "headline": "Hackers hijack .gh, .sl, .as domains to obtain fraudulent Google certificates",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+   "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+   "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+   "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+   "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services"
+  ]
  }
 ]
