@@ -1932,5 +1932,159 @@
    "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
    "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services"
   ]
+ },
+ {
+  "id": "2026-10-09-fbi-seizes-domains-used-by-chinese-flax-typhoon-hacking-tool-01c7a",
+  "date": "2026-10-09",
+  "section": "threat",
+  "headline": "FBI Seizes Domains Used by Chinese Flax Typhoon Hacking Tools",
+  "label": "Confirmed",
+  "score": 85,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+   "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
+   "https://www.theregister.com/security/2026/10/08/us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spies-stealing-sensitive-data-worldwide/5302107",
+   "https://www.theregister.com/security/2026/10/08/us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spies-stealing-sensitive-data-worldwide/5302107",
+   "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+   "https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains/"
+  ]
+ },
+ {
+  "id": "2026-10-09-citrix-urges-immediate-patching-of-netscaler-adc-and-gateway-19d0f",
+  "date": "2026-10-09",
+  "section": "threat",
+  "headline": "Citrix urges immediate patching of NetScaler ADC and Gateway for critical CVE‑2026‑107406",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+   "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+   "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+   "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+   "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+  ]
+ },
+ {
+  "id": "2026-10-09-ahsaycbs-backup-platform-exploited-via-two-unpatched-vulnera-94bdb",
+  "date": "2026-10-09",
+  "section": "threat",
+  "headline": "AhsayCBS backup platform exploited via two unpatched vulnerabilities",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+   "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+   "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"
+  ]
+ },
+ {
+  "id": "2026-10-09-amazon-launches-alexa-branded-tablets-running-full-android-91392",
+  "date": "2026-10-09",
+  "section": "ai",
+  "headline": "Amazon launches Alexa-branded tablets running full Android",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
+   "https://www.wired.com/story/alexa-tablets-blueprint-for-upcoming-amazon-phone/",
+   "https://www.wired.com/story/amazon-alexa-tablets-2026/",
+   "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+   "https://www.engadget.com/2281782/alexa-tablet-vs-ipad-pro-amazon-apple-tablet-comparison/"
+  ]
+ },
+ {
+  "id": "2026-10-09-openai-dismisses-three-safety-researchers-amid-dispute-over-c7e9e",
+  "date": "2026-10-09",
+  "section": "ai",
+  "headline": "OpenAI dismisses three safety researchers amid dispute over alleged data breach",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+   "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+   "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/",
+   "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+  ]
+ },
+ {
+  "id": "2026-10-09-us-suspends-microsoft-and-adobe-from-permanent-labor-certifi-c585d",
+  "date": "2026-10-09",
+  "section": "ai",
+  "headline": "US suspends Microsoft and Adobe from permanent labor certification program",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/trump-administration-targets-microsoft-in-new-immigration-crackdown/",
+   "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+   "https://www.wired.com/story/trump-administration-crackdown-microsoft-adobe-immigration/",
+   "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension",
+   "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+   "https://www.engadget.com/2281503/us-suspends-permanent-residency-program-for-microsoft-adobe-and-other-tech-companies/"
+  ]
+ },
+ {
+  "id": "2026-10-09-nasa-releases-800-gb-of-artemis-ii-lunar-data-for-public-use-96fcd",
+  "date": "2026-10-09",
+  "section": "science",
+  "headline": "NASA releases 800 GB of Artemis II lunar data for public use",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03197-7",
+   "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/"
+  ]
+ },
+ {
+  "id": "2026-10-09-2026-nobel-chemistry-prize-awarded-for-explaining-molecular-b96af",
+  "date": "2026-10-09",
+  "section": "science",
+  "headline": "2026 Nobel Chemistry Prize awarded for explaining molecular handedness",
+  "label": "Confirmed",
+  "score": 79,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03208-7",
+   "https://www.nature.com/articles/d41586-026-03212-x",
+   "https://www.nature.com/articles/d41586-026-03093-0",
+   "https://www.wired.com/story/life-is-asymmetric-the-scientists-who-figured-out-why-won-the-2026-nobel-prize-in-chemistry/"
+  ]
+ },
+ {
+  "id": "2026-10-09-ny-attorney-general-secures-up-to-35-million-and-lifetime-ba-38eef",
+  "date": "2026-10-09",
+  "section": "money",
+  "headline": "NY Attorney General Secures Up to $35 Million and Lifetime Ban from Former Celsius CEO",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
+   "https://decrypt.co/380592/new-york-ag-secures-up-to-35m-and-industry-ban-from-ex-celsius-ceo-alex-mashinsky"
+  ]
+ },
+ {
+  "id": "2026-10-09-ledger-investigates-reports-of-over-86-million-stolen-from-w-3b12c",
+  "date": "2026-10-09",
+  "section": "money",
+  "headline": "Ledger investigates reports of over $86 million stolen from wallets sold by Southeast Asian reseller",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
+   "https://decrypt.co/380582/ledger-probes-87m-theft-crypto-wallet-reseller"
+  ]
+ },
+ {
+  "id": "2026-10-09-attackers-hijack-country-code-domains-to-obtain-fake-google-feeed",
+  "date": "2026-10-09",
+  "section": "scam",
+  "headline": "Attackers Hijack Country-Code Domains to Obtain Fake Google HTTPS Certificates",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/",
+   "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+   "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services"
+  ]
  }
 ]

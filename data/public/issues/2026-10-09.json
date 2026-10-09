@@ -1,0 +1,1578 @@
+{
+ "date": "2026-10-09",
+ "built_at": "2026-10-09T18:54:56.291710+00:00",
+ "stories": [
+  {
+   "id": "2026-10-09-fbi-seizes-domains-used-by-chinese-flax-typhoon-hacking-tool-01c7a",
+   "date": "2026-10-09",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "FBI Seizes Domains Used by Chinese Flax Typhoon Hacking Tools",
+   "in_brief": "The FBI seized seven domains that hosted the MicroScan and FishHub tools used by the China‑linked Flax Typhoon group. The operation aims to disrupt the group’s ability to scan and infiltrate critical infrastructure worldwide.",
+   "so_what": "Disrupting the domains that supported MicroScan and FishHub hampers a supply chain used by the Chinese state-sponsored hacking group Flax Typhoon, also known as Ethereal Panda. The tools were employed to scan a South Carolina power utility, airports in Japan and Poland, Taiwanese natural‑gas and electricity providers, and to breach two Taiwanese universities. The underlying capability was a Mirai‑variant IoT botnet built by Integrity Technology Group, a Beijing‑based contractor with Chinese government ties. By taking down the command‑and‑control infrastructure, U.S. authorities aim to make it harder for the group to conduct large‑scale vulnerability scanning and spear‑phishing attacks against critical sectors. Organizations should review exposure to IoT botnets, ensure patching of known vulnerabilities, and enforce multi‑factor authentication to reduce the risk of similar intrusions.",
+   "what_to_do": "1. Apply the latest security patches to all networked devices, especially IoT equipment. 2. Enable multi‑factor authentication on privileged accounts. 3. Conduct vulnerability scans to detect and remediate exposed services.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "The FBI seized seven domains used to operate the MicroScan and FishHub hacking tools.",
+     "source": 1,
+     "quote": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "MicroScan was used to scan a South Carolina power company, airports in Japan and Poland, and Taiwanese energy firms, leading to breaches at two Taiwanese universities.",
+     "source": 4,
+     "quote": "Between April and December 2022, Microscan was used to scan a power company in South Carolina, a multinational non-governmental organization, airports in Japan and Poland, and Taiwanese natural gas and power companies.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Integrity Technology Group built an IoT botnet using a variant of Mirai malware to support the scanning tool.",
+     "source": 4,
+     "quote": "Prosecutors say Integrity Tech built a botnet of internet-of-things devices infected with a variant of the Mirai malware.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+     "published": "Thu, 08 Oct 2026 17:42:51 -0400",
+     "published_iso": "2026-10-08T21:42:51+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/08/us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spies-stealing-sensitive-data-worldwide/5302107",
+     "published": "Thu, 08 Oct 2026 23:59:00 +0200",
+     "published_iso": "2026-10-08T21:59:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+     "published": "Fri, 09 Oct 2026 12:09:29 +0530",
+     "published_iso": "2026-10-09T06:39:29+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains/",
+     "published": "Fri, 09 Oct 2026 09:44:44 +0000",
+     "published_iso": "2026-10-09T09:44:44+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
+     "published": "Fri, 09 Oct 2026 08:36:37 +0000",
+     "published_iso": "2026-10-09T08:36:37+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+    "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
+    "https://www.theregister.com/security/2026/10/08/us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spies-stealing-sensitive-data-worldwide/5302107",
+    "https://www.theregister.com/security/2026/10/08/us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spies-stealing-sensitive-data-worldwide/5302107",
+    "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+    "https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated"
+    },
+    {
+     "url": "https://www.justice.gov/usao-wdpa/media/1464921/dl?inline=",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/usao-wdpa/media/1464921/dl?inline="
+    }
+   ],
+   "truth": {
+    "total": 85,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-10-09-citrix-urges-immediate-patching-of-netscaler-adc-and-gateway-19d0f",
+   "date": "2026-10-09",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Citrix urges immediate patching of NetScaler ADC and Gateway for critical CVE‑2026‑107406",
+   "in_brief": "Citrix announced that a newly disclosed memory‑overflow flaw (CVE‑2026‑107406) can enable remote code execution or denial‑of‑service on NetScaler ADC and Gateway devices configured as SAML IdP or SP. The company is urging administrators to apply the recommended updates without delay.",
+   "so_what": "The vulnerability carries a CVSS score of 9.5, indicating a high likelihood of severe impact if exploited, yet Citrix has not observed any active exploitation in the wild. Over 21,000 Internet‑exposed NetScaler instances have been identified, including roughly 1,500 Gateway units, meaning a large attack surface exists. Because the flaw only affects devices operating as SAML identity or service providers, organizations using NetScaler for single‑sign‑on should verify their configurations and upgrade promptly. Applying the patches eliminates the risk and aligns with broader Citrix advisories that have previously seen rapid abuse of unpatched flaws. Administrators should also monitor for related Citrix vulnerabilities, several of which are already being exploited, to maintain a robust security posture.",
+   "what_to_do": "1. Verify whether your NetScaler ADC or Gateway is configured as a SAML IdP or SP. 2. Upgrade to the patched versions (e.g., 14.1‑73.46 or later, 13.1‑64.29 or later, and the corresponding FIPS releases). 3. Review Citrix’s advisory for any additional hardening steps and monitor for future updates.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual advisory",
+   "claims": [
+    {
+     "claim": "Citrix warned IT administrators to patch NetScaler ADC and Gateway immediately against a new critical vulnerability (CVE‑2026‑107406).",
+     "source": 1,
+     "quote": "Citrix warns admins to patch new NetScaler RCE flaw immediately.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw is a memory overflow that may lead to remote code execution or denial‑of‑service and has a CVSS score of 9.5, with no evidence of wild exploitation.",
+     "source": 3,
+     "quote": "CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions,\" Citrix said.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Citrix recommends upgrading to NetScaler ADC and Gateway 14.1‑73.46 or later, 13.1‑64.29 or later, and the respective FIPS releases.",
+     "source": 1,
+     "quote": "Citrix advised customers to upgrade vulnerable NetScaler ADC and NetScaler Gateway appliances to: - NetScaler ADC and NetScaler Gateway 14.1-73.46 and later, - NetScaler ADC and NetScaler Gateway 13.1-64.29 and later releases of 13.1",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+     "published": "Fri, 09 Oct 2026 04:27:42 -0400",
+     "published_iso": "2026-10-09T08:27:42+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+     "published": "Fri, 09 Oct 2026 13:43:00 +0200",
+     "published_iso": "2026-10-09T11:43:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+     "published": "Fri, 09 Oct 2026 13:41:33 +0530",
+     "published_iso": "2026-10-09T08:11:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+     "published": "Fri, 09 Oct 2026 06:53:53 +0000",
+     "published_iso": "2026-10-09T06:53:53+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+    "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+    "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+    "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+    "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-09-ahsaycbs-backup-platform-exploited-via-two-unpatched-vulnera-94bdb",
+   "date": "2026-10-09",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "AhsayCBS backup platform exploited via two unpatched vulnerabilities",
+   "in_brief": "Threat actors leveraged CVE-2026-105133 and CVE-2026-105134 in AhsayCBS to install webshells and XMRig cryptocurrency miners. The attacks, observed from October 7, affected at least five organizations and persist despite a vendor‑released fix.",
+   "so_what": "The exploitation demonstrates how quickly newly disclosed flaws can be weaponized, especially when the vendor’s patch does not fully remediate all affected versions. AhsayCBS is widely used by managed service providers and system integrators, so compromise can cascade to multiple client environments. Attackers chain an authentication bypass with an OS command injection to gain remote code execution, then deploy Java Server Page webshells and a modified XMRig miner disguised as Microsoft Edge. Persistence mechanisms include a renamed service (MicrosoftEdgeUpdateSvc) and an AI‑assisted PowerShell script that disables Task Manager to evade detection. Organizations should treat these incidents as a reminder to enforce strict network segmentation, monitor for unusual process behavior, and verify that backups are clean before restoration. Future vigilance will focus on detecting similar chain‑exploitation techniques and ensuring that all versions, including 10.3.4, are fully patched or mitigated.",
+   "what_to_do": "1. Limit management interface access for AhsayCBS to trusted IP addresses exclusively. 2. Verify whether the 10.3.4 update properly addresses both CVE-2026-105133 and CVE-2026-105134. 3. Check systems for the 'edge.exe' miner, the 'MicrosoftEdgeUpdateSvc' service, and the Taskgmr.ps1 script, then clean up and restore from verified backups if compromised.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Threat actors exploited CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute OS commands on AhsayCBS.",
+     "source": 1,
+     "quote": "The two security issues exploited in attacks are tracked as CVE-2026-105133, an authentication bypass vulnerability... and CVE-2026-105134, which can be leveraged for OS command injection.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attacks began on October 7, 2026 and targeted at least five organizations.",
+     "source": 2,
+     "quote": "Exploitation efforts aimed at the two flaws began on October 7, 2026... As of October 8, 2026, five organizations targeted are estimated to have been affected.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Attackers deployed XMRig miners disguised as edge.exe and used a PowerShell script that stops mining when Task Manager is opened.",
+     "source": 2,
+     "quote": "The cryptocurrency miners have been found to impersonate the Microsoft Edge browser by using the name \"edge.exe\"... the PowerShell script ... stops the mining activity as soon as a victim opens the Windows Task Manager app.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+     "published": "Fri, 09 Oct 2026 13:17:23 -0400",
+     "published_iso": "2026-10-09T17:17:23+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+     "published": "Fri, 09 Oct 2026 18:17:26 +0530",
+     "published_iso": "2026-10-09T12:47:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+     "published": "Fri, 09 Oct 2026 10:23:42 +0000",
+     "published_iso": "2026-10-09T10:23:42+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+    "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+    "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-105133",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-105133"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-105134",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-105134"
+    }
+   ],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote what_to_do",
+     "editor: Copied word-for-word run from source in what_to_do: 'restrict access to the ahsaycbs management interface to trusted ip addresses only'."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-09-amazon-launches-alexa-branded-tablets-running-full-android-91392",
+   "date": "2026-10-09",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Amazon launches Alexa-branded tablets running full Android",
+   "in_brief": "Amazon introduced a new line of Alexa Tablets, replacing its Fire tablets and switching to Google‑certified Android with the Play Store. The devices start at $230 and feature upgraded hardware and aluminum designs.",
+   "so_what": "The rebranding marks Amazon's biggest shift away from its proprietary Fire OS, giving users access to the full Google Play ecosystem and potentially widening the tablet's appeal beyond Amazon’s own services. Higher prices—up to $550 for the 12‑inch model—place the tablets in direct competition with Apple’s iPad range, reflecting a broader industry trend of premium pricing amid rising component costs. Consumers and developers will watch how Amazon’s Android tablets perform in terms of app availability, performance, and integration with Amazon services, while competitors assess whether the move pressures other budget tablet makers to adopt similar strategies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Amazon dropped the Fire branding and the new tablets run Google‑certified Android",
+     "source": 1,
+     "quote": "Amazon has dropped the Fire branding in favor of Alexa, and the new Alexa Tablets are now Google-certified Android devices.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The Alexa Tablet lineup includes 8‑inch, 11‑inch and 12‑inch models priced from $230 to $550",
+     "source": 2,
+     "quote": "The company unveiled 8-inch, 11-inch and 12-inch models, which start at $230 and run up to $550.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The 12‑inch Alexa Tablet 12 Pro uses a MediaTek Dimensity 8400 CPU, 8 GB RAM, 128 GB storage and a 2800×1840, 120 Hz, 500‑nit display",
+     "source": 1,
+     "quote": "The Alexa Tablet 12 Pro ... runs on a more powerful MediaTek Dimensity 8400 processor with 8GB of RAM and 128GB of storage. The display clocks in at an impressive 2800×1840 with a 120 Hz refresh rate and 500 nits of peak brightness.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
+     "published": "Thu, 08 Oct 2026 16:32:46 +0000",
+     "published_iso": "2026-10-08T16:32:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+     "published": "Thu, 08 Oct 2026 14:51:27 GMT",
+     "published_iso": "2026-10-08T14:51:27+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2281782/alexa-tablet-vs-ipad-pro-amazon-apple-tablet-comparison/",
+     "published": "Thu, 08 Oct 2026 21:40:59 +0000",
+     "published_iso": "2026-10-08T21:40:59+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
+    "https://www.wired.com/story/alexa-tablets-blueprint-for-upcoming-amazon-phone/",
+    "https://www.wired.com/story/amazon-alexa-tablets-2026/",
+    "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
+    "https://www.engadget.com/2281782/alexa-tablet-vs-ipad-pro-amazon-apple-tablet-comparison/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-08-amazon-launches-alexa-branded-tablets-replacing-fire-line-2c5d6",
+    "date": "2026-10-08",
+    "label": "Well-sourced",
+    "score": 60
+   }
+  },
+  {
+   "id": "2026-10-09-openai-dismisses-three-safety-researchers-amid-dispute-over-c7e9e",
+   "date": "2026-10-09",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI dismisses three safety researchers amid dispute over alleged data breach",
+   "in_brief": "OpenAI terminated three safety staff members after an internal investigation said they mishandled sensitive information. The researchers say they were fired for raising safety concerns, not for misconduct.",
+   "so_what": "The firings highlight a growing tension within AI firms between rapid product development and internal safety oversight. OpenAI’s claim of a breach of trust contrasts with the researchers’ assertion that their dismissal suppresses safety advocacy, a dynamic that could affect how other companies handle whistle‑blowing on AI risks. Stakeholders will watch OpenAI’s upcoming partnership with third‑party safety assessors and any further legal or regulatory scrutiny of its internal controls. The episode may also influence employee morale and the broader industry’s approach to external collaboration on AI safety.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "OpenAI terminated three safety researchers after an internal investigation said they mishandled sensitive information.",
+     "source": 1,
+     "quote": "Three former OpenAI researchers sacked for allegedly mishandling information claim they were instead let go because they raised safety concerns at the tech firm.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "OpenAI said its investigation confirmed the employees mishandled sensitive information outside established procedures.",
+     "source": 1,
+     "quote": "On 2 October, a spokesperson for the AI firm told the BBC its investigation \"confirmed that these individuals mishandled sensitive information outside established company procedures\".",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The dismissed researchers denied the misconduct allegations and said they were fired for raising safety concerns.",
+     "source": 2,
+     "quote": "In the letter, the three denied involvement in a leak to The Information about less monitorable architectures in OpenAI’s newest models... They also denied engaging with external parties outside the mandates of their jobs.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+     "published": "Fri, 09 Oct 2026 09:30:49 GMT",
+     "published_iso": "2026-10-09T09:30:49+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+     "published": "Thu, 08 Oct 2026 20:04:26 +0000",
+     "published_iso": "2026-10-08T20:04:26+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+    "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+    "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/",
+    "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: BBC, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-02-openai-dismisses-three-safety-researchers-over-alleged-data-9a913",
+    "date": "2026-10-02",
+    "label": "Well-sourced",
+    "score": 65
+   }
+  },
+  {
+   "id": "2026-10-09-us-suspends-microsoft-and-adobe-from-permanent-labor-certifi-c585d",
+   "date": "2026-10-09",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "US suspends Microsoft and Adobe from permanent labor certification program",
+   "in_brief": "The U.S. Labor Department announced that Microsoft and Adobe are barred from filing new or pending PERM applications for foreign workers. The move follows Vice President JD Vance’s accusations that the companies abused the H‑1B system to replace American employees.",
+   "so_what": "The suspension marks a significant escalation in the Trump administration’s crackdown on immigration programs used by tech firms, targeting the pathway that lets H‑1B visa holders apply for green cards. Officials claim the companies have misused the system, while Microsoft contends most of its filings are for existing staff and that the majority of its U.S. workforce is American. The action affects thousands of pending green‑card cases and could pressure firms to alter hiring practices. Watch for legal challenges from the companies, further statements from the Labor Department, and any congressional response as the midterm election cycle approaches.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of government action and company response",
+   "claims": [
+    {
+     "claim": "The U.S. Department of Labor announced it would suspend Microsoft and Adobe from its Permanent Labor Certification program",
+     "source": 4,
+     "quote": "U.S. Department of Labor announced it would suspend Microsoft and Adobe from its Permanent Labor Certification program",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Condé Nast",
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Vice President JD Vance said no company in the US has abused the H‑1B system more than Microsoft",
+     "source": 1,
+     "quote": "He added that “no company in the US” had “abused this system” more than Microsoft.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Comcast",
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Microsoft says 80% of its H‑1B filings were extensions or status changes for existing employees",
+     "source": 2,
+     "quote": "80% of the H-1B visa filings the company has submitted over the last fiscal year were related to employees already working at Microsoft, not new hires.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Since 2009 the companies have received over 230,000 H‑1B approvals and over 100,000 permanent labor certifications",
+     "source": 4,
+     "quote": "Since 2009, just these companies alone have requested almost 3 million foreign workers. They've received over 230,000 H-1B visas approvals and over 100,000 permanent labor certifications.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/tech-policy/2026/10/trump-administration-targets-microsoft-in-new-immigration-crackdown/",
+     "published": "Fri, 09 Oct 2026 13:14:33 +0000",
+     "published_iso": "2026-10-09T13:14:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+     "published": "Thu, 08 Oct 2026 21:37:35 GMT",
+     "published_iso": "2026-10-08T21:37:35+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension",
+     "published": "Thu, 08 Oct 2026 18:23:47 GMT",
+     "published_iso": "2026-10-08T18:23:47+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+     "published": "Thu, 08 Oct 2026 18:52:59 GMT",
+     "published_iso": "2026-10-08T18:52:59+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2281503/us-suspends-permanent-residency-program-for-microsoft-adobe-and-other-tech-companies/",
+     "published": "Thu, 08 Oct 2026 18:23:00 +0000",
+     "published_iso": "2026-10-08T18:23:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/tech-policy/2026/10/trump-administration-targets-microsoft-in-new-immigration-crackdown/",
+    "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+    "https://www.wired.com/story/trump-administration-crackdown-microsoft-adobe-immigration/",
+    "https://www.theguardian.com/technology/2026/oct/08/jd-vance-microsoft-visa-workers-green-card-suspension",
+    "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+    "https://www.engadget.com/2281503/us-suspends-permanent-residency-program-for-microsoft-adobe-and-other-tech-companies/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period"
+    },
+    {
+     "url": "https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/PERM_Selected_Statistics_FY2025_Q4.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/PERM_Selected_Statistics_FY2025_Q4.pdf"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Condé Nast, Guardian Media Group, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5,
+   "previously": {
+    "id": "2026-10-08-white-house-suspends-microsoft-and-peers-from-perm-green-car-367dc",
+    "date": "2026-10-08",
+    "label": "Well-sourced",
+    "score": 70
+   }
+  },
+  {
+   "id": "2026-10-09-nasa-releases-800-gb-of-artemis-ii-lunar-data-for-public-use-96fcd",
+   "date": "2026-10-09",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA releases 800 GB of Artemis II lunar data for public use",
+   "in_brief": "NASA made more than 800 gigabytes of images, audio, notes and other observations from the Artemis II crewed lunar flyby available on 7 October 2026. The archive provides scientists with human‑collected data to improve understanding of lunar terrain, lighting and meteoroid impacts.",
+   "so_what": "The public release of the Artemis II dataset marks the first extensive planetary‑science collection gathered directly by astronauts since the Apollo era, offering researchers unprecedented insight into how humans perceive the Moon’s surface under varying lighting conditions. By comparing these human observations with decades of robotic data, scientists can refine models of lunar terrain hazards, such as craters and boulders, which is critical for upcoming crewed missions by the United States and China. Early analysis of the data has already identified five small meteoroid impacts captured during a 54‑minute eclipse, improving estimates of impact frequency that affect the design of future lunar bases, vehicles and protective systems. The archive is hosted on NASA’s Planetary Data System and is accessible to anyone, though its primary value lies with planetary geologists, flight engineers and other specialists who will mine the raw files for new discoveries.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Artemis II traveled up to 406,771 kilometres from Earth, the farthest humans have ever travelled",
+     "source": 1,
+     "quote": "The journey took the crew as much as 406,771 kilometres from Earth — the farthest that humans have ever travelled from their home planet",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Analysis of the released data identified five small meteoroid impacts during a 54‑minute lunar eclipse",
+     "source": 2,
+     "quote": "The most clear-cut finding is the detection of five small meteoroid impacts on the lunar surface during the 54-minute eclipse observed by the Orion crew",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "NASA released more than 800 gigabytes of Artemis II data on 7 October 2026",
+     "source": 1,
+     "quote": "On 7 October, NASA released more than 800 gigabytes of images, audio recordings, written notes and other data gathered by the Artemis II astronauts",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03197-7",
+     "published": "2026-10-07",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/",
+     "published": "Fri, 09 Oct 2026 18:30:00 +0000",
+     "published_iso": "2026-10-09T18:30:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03197-7",
+    "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/"
+   ],
+   "primary": [
+    {
+     "url": "https://pds-geosciences.wustl.edu/missions/artemis2/index.htm",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://pds-geosciences.wustl.edu/missions/artemis2/index.htm"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03197-7",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-09-2026-nobel-chemistry-prize-awarded-for-explaining-molecular-b96af",
+   "date": "2026-10-09",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "2026 Nobel Chemistry Prize awarded for explaining molecular handedness",
+   "in_brief": "Henri Kagan and Kenso Soai received the 2026 Nobel Prize in Chemistry for work that clarifies how homochirality can arise in nature. Their discoveries could improve the design of chiral drugs and materials.",
+   "so_what": "The award highlights a century‑old puzzle about why biological molecules exist predominantly in one mirror‑image form. Kagan’s early work showed that a slight bias in a catalyst’s handedness can be amplified, and Soai later demonstrated that the chiral product can act as its own catalyst, creating an autocatalytic feedback loop. Together, these mechanisms provide a plausible route for the spontaneous emergence of homochirality, a principle that underpins the safety and efficacy of many pharmaceuticals, as well as the synthesis of advanced materials. Future research will likely explore how to harness these principles for more efficient, selective manufacturing processes, potentially reducing side‑effects of drugs and enabling new chiral technologies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Henri Kagan and Kenso Soai were awarded the 2026 Nobel Prize in Chemistry.",
+     "source": 2,
+     "quote": "The 2026 Nobel Prize in Chemistry was awarded to Henri Kagan and Kensō Soai for discovering a solution to the enigma of nature’s chemical asymmetry.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "They share a prize of 12 million Swedish kronor.",
+     "source": 1,
+     "quote": "Henri Kagan, at the University of Paris‑Sud in Orsay, France, and Kenso Soai, at Tokyo University, share the 12‑million Swedish kronor (US$1.2‑million) prize, announced by the Royal Swedish Academy of Sciences in Stockholm on 7 October.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Kagan demonstrated that a small catalyst asymmetry can be amplified in reaction products.",
+     "source": 1,
+     "quote": "In experiments conducted in the 1980s, Kagan showed how a small asymmetry in the handedness of a catalyst can be amplified in the reaction products.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Soai’s work introduced autocatalysis, allowing a chiral product to drive its own formation and dominate the reaction.",
+     "source": 2,
+     "quote": "This last characteristic is called autocatalysis and generates a kind of positive feedback loop, in which a small initial advantage can cause one of the variants to assemble at an ever‑faster rate until it dominates the reaction.",
+     "status": "verified",
+     "corroborated_by": [
+      "nature.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03093-0",
+     "published": "2026-10-07",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/life-is-asymmetric-the-scientists-who-figured-out-why-won-the-2026-nobel-prize-in-chemistry/",
+     "published": "Thu, 08 Oct 2026 10:30:00 +0000",
+     "published_iso": "2026-10-08T10:30:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03208-7",
+    "https://www.nature.com/articles/d41586-026-03212-x",
+    "https://www.nature.com/articles/d41586-026-03093-0",
+    "https://www.wired.com/story/life-is-asymmetric-the-scientists-who-figured-out-why-won-the-2026-nobel-prize-in-chemistry/"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.3847/2041-8213/aea290",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://doi.org/10.3847/2041-8213/aea290"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03093-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 79,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-08-nobel-chemistry-prize-awarded-to-kagan-and-soai-for-explaini-e4811",
+    "date": "2026-10-08",
+    "label": "Well-sourced",
+    "score": 68
+   }
+  },
+  {
+   "id": "2026-10-09-ny-attorney-general-secures-up-to-35-million-and-lifetime-ba-38eef",
+   "date": "2026-10-09",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "NY Attorney General Secures Up to $35 Million and Lifetime Ban from Former Celsius CEO",
+   "in_brief": "New York Attorney General Letitia James announced a settlement that could collect up to $35 million from ex‑Celsius CEO Alex Mashinsky and permanently bars him from the securities, commodities and cryptocurrency industries. The action follows Mashinsky’s 12‑year federal prison sentence for fraud related to the collapsed lender.",
+   "so_what": "The settlement underscores the heightened regulatory scrutiny of crypto‑related fraud and the willingness of state officials to pursue financial penalties against former industry leaders. By tying the $35 million payment to Mashinsky’s compliance—requiring forfeiture of $10 million and full service of his sentence—the state aims to recover funds for victims while deterring similar misconduct. The permanent industry ban prevents Mashinsky from influencing future crypto or securities markets, signaling a broader effort to protect investors after the Celsius collapse, which left customers with over $3.4 billion in bankruptcy recoveries. Observers will watch how the conditional payment structure is enforced and whether other crypto executives face comparable actions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "The settlement could collect up to $35 million from Alex Mashinsky.",
+     "source": 1,
+     "quote": "New York Attorney General Letitia James said Friday she secured up to $35 million from former Celsius CEO Alex Mashinsky and permanently barred him from the securities, commodities and cryptocurrency industries.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Mashinsky is permanently barred from the securities, commodities and crypto industries.",
+     "source": 2,
+     "quote": "New York Attorney General Letitia James has permanently barred former Celsius CEO Alex Mashinsky from the securities, commodities and crypto industries.",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Mashinsky is serving a 12‑year federal prison sentence after pleading guilty to fraud.",
+     "source": 1,
+     "quote": "Mashinsky, who is serving a 12-year federal prison sentence for securities and commodities fraud, was accused of misleading hundreds of thousands of investors about the safety of Celsius deposits.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
+     "published": "Fri, 09 Oct 2026 14:55:23 +0000",
+     "published_iso": "2026-10-09T14:55:23+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380592/new-york-ag-secures-up-to-35m-and-industry-ban-from-ex-celsius-ceo-alex-mashinsky",
+     "published": "Fri, 09 Oct 2026 16:07:07 +0000",
+     "published_iso": "2026-10-09T16:07:07+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
+    "https://decrypt.co/380592/new-york-ag-secures-up-to-35m-and-industry-ban-from-ex-celsius-ceo-alex-mashinsky"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-09-ledger-investigates-reports-of-over-86-million-stolen-from-w-3b12c",
+   "date": "2026-10-09",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Ledger investigates reports of over $86 million stolen from wallets sold by Southeast Asian reseller",
+   "in_brief": "Ledger said it is probing alleged theft of more than $86 million from cryptocurrency wallets linked to devices sold by reseller CryptoBilis, and has asked the reseller to halt sales. The company advises recent buyers not to set up the devices and to move assets to a new Ledger device if they have already activated them.",
+   "so_what": "The investigation highlights the ongoing risk of supply‑chain attacks on hardware wallets, which are widely used to keep private keys offline. While Ledger has not confirmed the cause or the exact number of affected users, the reported losses could add significantly to a year already marked by large crypto exploits, such as the $350 million Bitget breach. Investors and users should monitor Ledger’s updates for any confirmation of tampering or broader impact, and watch for further guidance on securing their assets. The situation also underscores the importance of purchasing hardware wallets from trusted channels to mitigate potential pre‑delivery compromises.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Ledger is investigating reports that more than $86 million in cryptocurrency may have been stolen from wallets linked to devices sold by CryptoBilis.",
+     "source": 1,
+     "quote": "Ledger is investigating reports that more than $86 million in cryptocurrency may have been stolen from hundreds of wallets linked to devices sold by CryptoBilis, a Southeast Asian reseller, though the losses and connection have not been independently verified.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Ledger asked CryptoBilis to pause all sales and shipments and advised recent buyers not to set up their devices.",
+     "source": 1,
+     "quote": "Ledger asked CryptoBilis to halt sales and shipments and advised recent buyers not to set up their devices, while customers who already activated wallets should consider transferring their assets to a new device with a newly generated recovery phrase.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Specter traced suspected theft addresses across Bitcoin, Ethereum and Tron, estimating losses of about $86 million.",
+     "source": 2,
+     "quote": "Onchain investigator Specter traced more than $86 million in suspected thefts across Ethereum, Tron and Bitcoin.",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
+     "published": "Fri, 09 Oct 2026 14:47:27 +0000",
+     "published_iso": "2026-10-09T14:47:27+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380582/ledger-probes-87m-theft-crypto-wallet-reseller",
+     "published": "Fri, 09 Oct 2026 15:30:36 +0000",
+     "published_iso": "2026-10-09T15:30:36+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
+    "https://decrypt.co/380582/ledger-probes-87m-theft-crypto-wallet-reseller"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-09-attackers-hijack-country-code-domains-to-obtain-fake-google-feeed",
+   "date": "2026-10-09",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Attackers Hijack Country-Code Domains to Obtain Fake Google HTTPS Certificates",
+   "in_brief": "Attackers compromised the .gh, .sl and .as country-code top‑level domains and used the control to obtain legitimate‑looking HTTPS certificates for Google services. The fraud could let users be redirected to malicious sites that appear authentic, prompting security warnings and mitigation steps.",
+   "so_what": "The compromise of the Ghana (.gh), Sierra Leone (.sl) and American Samoa (.as) domain namespaces shows how attackers can exploit the DNS infrastructure to pass certificate‑authority checks and obtain valid SSL certificates for high‑profile targets such as Google. While the certificates are technically valid, they enable convincing phishing and man‑in‑the‑middle attacks because browsers trust the cryptographic seal. Google responded by blocking the unauthorized certificates in Chrome and working with the issuing authorities to revoke them, but it cautioned that the measures do not guarantee protection for all users or browsers. Organizations and individuals should treat HTTPS as one layer of security, not a guarantee of legitimacy, and remain vigilant for unexpected requests even when a site appears properly encrypted. Future monitoring of DNS integrity and rapid revocation processes will be critical to limit the impact of similar supply‑chain attacks.",
+   "what_to_do": "1. Keep your browser and operating system up to date to receive the latest security patches. 2. Never ignore certificate warnings; if a browser flags a problem, stop and verify the site through a trusted channel. 3. If you use services with .gh, .sl or .as addresses, check the provider’s security notices before logging in or sharing sensitive data.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Attackers hijacked the .gh, .sl and .as country-code top‑level domains and used them to obtain unauthorized HTTPS certificates for Google domains",
+     "source": 2,
+     "quote": "Attackers hijack country-code domains to impersonate Google and other services. According to Google, attackers compromised infrastructure behind three country-code domain namespaces—.gh (Ghana), .sl (Sierra Leone), and .as (American Samoa)—and used it to obtain unauthorized HTTPS certificates for Google domains and other organizations.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Google blocked the unauthorized certificates in Chrome and worked with certificate authorities to revoke them",
+     "source": 2,
+     "quote": "Google initially blocked unauthorized certificates for its own properties in Chrome and worked with the issuing certificate authorities to revoke them.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "SecurityWeek reported that hackers obtained HTTPS certificates for several Google domains after hijacking the ccTLDs",
+     "source": 3,
+     "quote": "Hackers hijacked the .gh, .sl, and .as ccTLDs and obtained HTTPS certificates for several Google domains.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+     "published": "Wed, 07 Oct 2026 21:38:06 +0200",
+     "published_iso": "2026-10-07T19:38:06+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services",
+     "published": "Thu, 08 Oct 2026 15:53:18 GMT",
+     "published_iso": "2026-10-08T15:53:18+00:00",
+     "kind": "vendor",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/",
+     "published": "Fri, 09 Oct 2026 11:43:14 +0000",
+     "published_iso": "2026-10-09T11:43:14+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/",
+    "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+    "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, malwarebytes.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-08-hackers-hijack-gh-sl-as-domains-to-obtain-fraudulent-google-e52e4",
+    "date": "2026-10-08",
+    "label": "Well-sourced",
+    "score": 69
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 583,
+  "stories_considered": 14,
+  "published": 11,
+  "outlets": 38
+ }
+}

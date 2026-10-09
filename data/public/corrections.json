@@ -97,5 +97,16 @@
   "from_score": 48,
   "to_score": 73,
   "note": "Rating changed from Developing (48) to Well-sourced (73) as new evidence came in."
+ },
+ {
+  "date": "2026-10-09",
+  "story_id": "2026-10-09-2026-nobel-chemistry-prize-awarded-for-explaining-molecular-b96af",
+  "prior_id": "2026-10-08-nobel-chemistry-prize-awarded-to-kagan-and-soai-for-explaini-e4811",
+  "headline": "2026 Nobel Chemistry Prize awarded for explaining molecular handedness",
+  "from": "Well-sourced",
+  "to": "Confirmed",
+  "from_score": 68,
+  "to_score": 79,
+  "note": "Rating changed from Well-sourced (68) to Confirmed (79) as new evidence came in."
  }
 ]

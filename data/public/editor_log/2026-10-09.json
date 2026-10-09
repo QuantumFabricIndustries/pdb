@@ -1,0 +1,143 @@
+[
+ {
+  "section": "threat",
+  "title": "FBI Seizes Domains Used by Chinese Flax Typhoon Hacking Tools",
+  "verdict": "PUBLISH",
+  "truth": 85,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Citrix urges immediate patching of NetScaler ADC and Gateway for critical CVE‑2026‑107406",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "AhsayCBS backup platform exploited via two unpatched vulnerabilities",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote what_to_do",
+   "editor: Copied word-for-word run from source in what_to_do: 'restrict access to the ahsaycbs management interface to trusted ip addresses only'."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Amazon launches Alexa-branded tablets running full Android",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI dismisses three safety researchers amid dispute over alleged data breach",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "US suspends Microsoft and Adobe from permanent labor certification program",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "science",
+  "title": "NASA releases 800 GB of Artemis II lunar data for public use",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "2026 Nobel Chemistry Prize awarded for explaining molecular handedness",
+  "verdict": "PUBLISH",
+  "truth": 79,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "NY Attorney General Secures Up to $35 Million and Lifetime Ban from Former Celsius CEO",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Ledger investigates reports of over $86 million stolen from wallets sold by Southeast Asian reseller",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Attackers Hijack Country-Code Domains to Obtain Fake Google HTTPS Certificates",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "myth",
+  "title": "Old Israeli basketball video misrepresented as Flydubai attack aftermath",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes finds Arkansas farmer prayer video audio was edited",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-Generated Video of Woman Rescuing White Baby Reindeer Debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what field contains extraneous speculation and unverified details not in the source text (e.g., SynthID specifics, future monitoring)."
+  ],
+  "owners": 1
+ }
+]
