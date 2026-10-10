@@ -108,5 +108,16 @@
   "from_score": 68,
   "to_score": 79,
   "note": "Rating changed from Well-sourced (68) to Confirmed (79) as new evidence came in."
+ },
+ {
+  "date": "2026-10-10",
+  "story_id": "2026-10-10-ahsaycbs-backup-platform-exploited-via-unpatched-vulnerabili-2ea6b",
+  "prior_id": "2026-10-09-ahsaycbs-backup-platform-exploited-via-two-unpatched-vulnera-94bdb",
+  "headline": "AhsayCBS Backup Platform Exploited via Unpatched Vulnerabilities",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 52,
+  "to_score": 68,
+  "note": "Rating changed from Developing (52) to Well-sourced (68) as new evidence came in."
  }
 ]

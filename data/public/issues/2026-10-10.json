@@ -1,0 +1,1379 @@
+{
+ "date": "2026-10-10",
+ "built_at": "2026-10-10T17:57:09.652725+00:00",
+ "stories": [
+  {
+   "id": "2026-10-10-citrix-urges-immediate-patching-of-netscaler-adc-and-gateway-19d0f",
+   "date": "2026-10-10",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Citrix urges immediate patching of NetScaler ADC and Gateway for critical CVE‑2026‑107406",
+   "in_brief": "Citrix announced a critical memory‑overflow flaw (CVE‑2026‑107406) that can enable remote code execution or denial‑of‑service on NetScaler ADC and Gateway devices configured as SAML IdP or SP. The company is urging administrators to apply the recommended updates without delay.",
+   "so_what": "The vulnerability scores 9.5 on the CVSS scale, indicating a high likelihood of severe impact if exploited. Although Citrix reports no known active exploitation, the flaw affects widely deployed NetScaler appliances, many of which are exposed on the Internet according to threat‑monitoring data. Exploitation could allow attackers to execute arbitrary code or crash services, potentially compromising corporate networks that rely on these devices for secure remote access. Organizations should prioritize updating to the fixed releases, verify that their deployments are not using vulnerable SAML configurations, and stay alert for any emerging threat intelligence. Future monitoring will focus on whether threat actors begin targeting this flaw in the wild, as similar NetScaler issues have been actively exploited earlier this year.",
+   "what_to_do": "1. Apply the Citrix‑provided patches to upgrade NetScaler ADC and Gateway to version 14.1‑73.46 or later (or 13.1‑64.29 or later for 13.1 series). 2. Verify that the appliance is not configured as a SAML IdP or SP with vulnerable settings, or update the configuration if it is. 3. Monitor vendor advisories and threat feeds for any signs of exploitation.",
+   "hype_flag": "low",
+   "hype_reason": "pure vendor advisory with factual details",
+   "claims": [
+    {
+     "claim": "Citrix warned administrators to patch a new critical NetScaler remote‑code‑execution flaw immediately.",
+     "source": 1,
+     "quote": "Citrix warns admins to patch new NetScaler RCE flaw immediately.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw (CVE‑2026‑107406) is a memory overflow that may lead to remote code execution or denial‑of‑service under specific configuration conditions.",
+     "source": 3,
+     "quote": "CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Citrix advises upgrading NetScaler ADC and Gateway to version 14.1‑73.46 or later (and 13.1‑64.29 or later for the 13.1 line) to remediate the issue.",
+     "source": 1,
+     "quote": "Citrix advised customers to upgrade vulnerable NetScaler ADC and NetScaler Gateway appliances to: - NetScaler ADC and NetScaler Gateway 14.1-73.46 and later, - NetScaler ADC and NetScaler Gateway 13.1-64.29 and later releases of 13.1",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+     "published": "Fri, 09 Oct 2026 04:27:42 -0400",
+     "published_iso": "2026-10-09T08:27:42+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+     "published": "Fri, 09 Oct 2026 13:43:00 +0200",
+     "published_iso": "2026-10-09T11:43:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+     "published": "Fri, 09 Oct 2026 13:41:33 +0530",
+     "published_iso": "2026-10-09T08:11:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+     "published": "Fri, 09 Oct 2026 06:53:53 +0000",
+     "published_iso": "2026-10-09T06:53:53+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+    "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+    "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+    "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+    "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4,
+   "previously": {
+    "id": "2026-10-09-citrix-urges-immediate-patching-of-netscaler-adc-and-gateway-19d0f",
+    "date": "2026-10-09",
+    "label": "Well-sourced",
+    "score": 70
+   }
+  },
+  {
+   "id": "2026-10-10-ahsaycbs-backup-platform-exploited-via-unpatched-vulnerabili-2ea6b",
+   "date": "2026-10-10",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "AhsayCBS Backup Platform Exploited via Unpatched Vulnerabilities",
+   "in_brief": "Threat actors leveraged two unpatched flaws in AhsayCBS to install webshells and XMRig cryptocurrency miners. The attacks, observed beginning October 7, affect versions up to 10.3.4, which remain vulnerable despite a fix being released for 10.3.2.",
+   "so_what": "The exploitation of CVE-2026-105133 (authentication bypass) and CVE-2026-105134 (OS command injection) demonstrates how quickly zero‑day chains can be weaponized against backup management tools that many managed service providers rely on. By chaining the vulnerabilities, attackers gain administrative access, deploy JSP webshells, and run XMRig miners disguised as Microsoft Edge, persisting via a modified NSSM service and an AI‑assisted PowerShell script that evades detection by monitoring Task Manager. The presence of a vulnerable driver (WinRing0x64.sys) suggests attempts to obtain kernel‑level control, further increasing the risk of data compromise and resource abuse. Organizations using AhsayCBS should treat these incidents as a reminder to enforce strict network segmentation, monitor for unusual process behavior, and verify the integrity of backup restores. Future watch points include any official patch releases for version 10.3.4 and updates from Huntress on detection signatures.",
+   "what_to_do": "1. Limit management interface access for AhsayCBS to trusted IPs. 2. Verify software version status and watch for vendor mitigation advice beyond version 10.3.2 and 10.3.4. 3. Review systems for Huntress indicators of compromise, such as the Taskgmr.ps1 script and the MicrosoftEdgeUpdateSvc service, and restore compromised hosts from clean backups.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Threat actors exploited two unpatched vulnerabilities in AhsayCBS to deploy webshells and cryptocurrency miners.",
+     "source": 1,
+     "quote": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attacks began on October 7 and targeted at least five organizations.",
+     "source": 2,
+     "quote": "According to Huntress, exploitation efforts aimed at the two flaws began on October 7, 2026, at 11:20 p.m. UTC, ... As of October 8, 2026, five organizations targeted are estimated to have been affected by these flaws.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Both CVE‑2026‑105133 and CVE‑2026‑105134 affect AhsayCBS versions up to 10.3.4, despite a fix being released for 10.3.2.",
+     "source": 1,
+     "quote": "Both vulnerabilities are reported as fixed in AhsayCBS 10.3.2, but researchers ... found that they also affect Ahsay 10.3.4, currently the latest version.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+     "published": "Fri, 09 Oct 2026 13:17:23 -0400",
+     "published_iso": "2026-10-09T17:17:23+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+     "published": "Fri, 09 Oct 2026 18:17:26 +0530",
+     "published_iso": "2026-10-09T12:47:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+     "published": "Fri, 09 Oct 2026 10:23:42 +0000",
+     "published_iso": "2026-10-09T10:23:42+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+    "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+    "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-105133",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-105133"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-105134",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-105134"
+    }
+   ],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote what_to_do",
+     "editor: copied 1 long word-for-word run(s) from a source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-09-ahsaycbs-backup-platform-exploited-via-two-unpatched-vulnera-94bdb",
+    "date": "2026-10-09",
+    "label": "Developing",
+    "score": 52
+   }
+  },
+  {
+   "id": "2026-10-10-hackers-earn-1-262-000-at-pwn2own-ireland-including-remote-h-f8cc7",
+   "date": "2026-10-10",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Hackers Earn $1,262,000 at Pwn2Own Ireland, Including Remote Hacks of Fully Patched Pixel 10",
+   "in_brief": "Researchers demonstrated 98 zero‑day exploits at the Pwn2Own Ireland 2026 contest, earning $1,262,000 in rewards. Three teams remotely compromised fully patched Google Pixel 10 devices, highlighting that even up‑to‑date phones can contain exploitable flaws.",
+   "so_what": "The payouts underscore the scale of undisclosed vulnerabilities in consumer devices and AI‑related products. Pwn2Own’s rule that all targets run the latest firmware means the flaws were present in devices already shipped to users, raising concerns for both consumers and enterprises that rely on these platforms. Under the competition’s process, the discovered bugs are handed to vendors, who then have 90 days to release patches before the details become public. Organizations should monitor vendor advisories for the affected products—Samsung Galaxy S26, Google Pixel 10, OpenAI Codex, and Oracle Autonomous AI Database—and apply updates promptly. The contest also demonstrates the growing focus on AI‑driven attack surfaces, suggesting future security strategies will need to address both traditional hardware and emerging software ecosystems.",
+   "what_to_do": "1. Verify that your Google Pixel 10, Samsung Galaxy S26, or other affected devices are running the latest firmware and apply any available updates. 2. Review security bulletins from Google, Samsung, OpenAI, and Oracle for patches released within the next 90 days. 3. Enable automatic updates and consider mobile device management (MDM) solutions to enforce timely patching.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Hackers collected $1,262,000 in rewards after exploiting 98 zero‑day flaws at Pwn2Own Ireland 2026.",
+     "source": 1,
+     "quote": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Three research teams remotely hacked fully patched Google Pixel 10 devices during the contest.",
+     "source": 2,
+     "quote": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Vendors have 90 days to release patches for disclosed bugs before ZDI publishes technical details.",
+     "source": 2,
+     "quote": "Vendors then have 90 days to release patches before ZDI publishes the full technical details.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+     "published": "Fri, 09 Oct 2026 01:41:04 -0400",
+     "published_iso": "2026-10-09T05:41:04+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+     "published": "Fri, 09 Oct 2026 13:56:17 +0530",
+     "published_iso": "2026-10-09T08:26:17+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+     "published": "Fri, 09 Oct 2026 06:39:55 +0000",
+     "published_iso": "2026-10-09T06:39:55+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+    "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+    "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor: headline used '$1.26 M' which was flagged by automated checks as not verbatim in source; changed to '$1,262,000' to match source [1]"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-10-tesla-renames-full-self-driving-to-assisted-driving-in-europ-792bc",
+   "date": "2026-10-10",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Tesla renames Full Self-Driving to Assisted Driving in Europe",
+   "in_brief": "Tesla changed the name of its Full Self-Driving (Supervised) system to Tesla Assisted Driving for European customers. The rebranding follows criticism from German officials that the original name was misleading.",
+   "so_what": "The name change reflects ongoing regulatory pressure on Tesla to clarify that its driver‑assistance technology still requires active driver supervision. German Transport Minister Steffen Bilger described the \"Full Self‑Driving\" label as \"somewhat misleading,\" prompting the company to adopt a less ambiguous term. While the European Union is expected to vote on formal approval of the system by the end of the year, Tesla continues to market the same technology in the United States under the original branding, charging $99 per month for a subscription. The move may ease European regulators’ concerns but does not alter the system’s functional limitations, keeping scrutiny from safety agencies in both regions alive. Observers will watch the EU vote outcome and any further regulatory actions in the U.S. as investigations into safety and marketing practices proceed.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Tesla renamed Full Self-Driving to Assisted Driving in Europe",
+     "source": 1,
+     "quote": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "German Transport Minister Steffen Bilger said the FSD name was somewhat misleading",
+     "source": 1,
+     "quote": "German Transport Minister Steffen Bilger found the “FSD” name “somewhat misleading.”",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The EU will likely vote on approval of the system by the end of the year",
+     "source": 1,
+     "quote": "The EU will likely vote on its approval by the end of the year.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Tesla still sells the system in the U.S. as a $99 per month subscription",
+     "source": 2,
+     "quote": "The package is still sold under the Full Self-Driving (Supervised) branding in the U.S. as a $99 per month subscription for Tesla owners.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/",
+     "published": "Fri, 09 Oct 2026 20:18:15 +0000",
+     "published_iso": "2026-10-09T20:18:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html",
+     "published": "Fri, 09 Oct 2026 19:21:14 GMT",
+     "published_iso": "2026-10-09T19:21:14+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+     "published": "Fri, 09 Oct 2026 16:07:26 +0000",
+     "published_iso": "2026-10-09T16:07:26+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/",
+    "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html",
+    "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+    "https://www.engadget.com/2283007/tesla-full-self-driving-assisted-driving-europe/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.dmv.ca.gov/portal/news-and-media/news-releases/dmv-finds-tesla-violated-california-state-law/",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.dmv.ca.gov/portal/news-and-media/news-releases/dmv-finds-tesla-violated-california-state-law/"
+    }
+   ],
+   "truth": {
+    "total": 80,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-10-ukrainian-drones-damage-yandex-data-centers-in-russia-be2b1",
+   "date": "2026-10-10",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Ukrainian drones damage Yandex data centers in Russia",
+   "in_brief": "Ukrainian drone strikes hit facilities operated by tech firm Yandex in the Sasovo and Kaluga areas on Oct. 8 and 9, resulting in a fire and a full suspension of activity at the Sasovo site.",
+   "so_what": "Yandex, Russia's leading internet company often dubbed \"Russia's Google,\" relies on its data centers to power services such as its search engine and the YandexGPT AI model. Disruption of the Sasovo facility, which houses two of Yandex's three supercomputers, could affect access to popular platforms like Ivi video streaming, T‑Bank, and Russian Railways, as reported by independent media. The strikes illustrate the expanding cyber‑physical conflict between Ukraine and Russia, where each side targets the other's digital infrastructure to pressure wartime logistics and finance. Observers will watch whether Yandex can restore the affected services, how Ukraine's drone campaign evolves, and what broader implications this tit‑for‑tat escalation has for regional internet stability and AI development.\n",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Ukrainian drones struck Yandex data centers in the Sasovo and Kaluga regions of Russia on October 8 and October 9, according to Reuters.",
+     "source": 1,
+     "quote": "Ukrainian drones struck Yandex data centers in the Sasovo and Kaluga regions of Russia on October 8 and October 9, according to Reuters.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Yandex suspended operations at its Sasovo data center after a fire caused by the drone strike and reported no casualties.",
+     "source": 3,
+     "quote": "The attack caused a fire at the company's data center in Sasovo, Ryazan, in western Russia, and affected part of its infrastructure, Yandex said... It confirmed that there are no casualties and emergency services are on site dealing with the aftermath.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The strikes were presented as a direct response to a Russian drone strike campaign targeting Ukraine’s data centers.",
+     "source": 1,
+     "quote": "Those actions came as a direct response to a Russian drone strike campaign targeting Ukraine’s data centers, which has disrupted mobile phone and Internet services for thousands of Ukrainians since late September.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+     "published": "Fri, 09 Oct 2026 22:04:07 +0000",
+     "published_iso": "2026-10-09T22:04:07+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
+     "published": "Fri, 09 Oct 2026 02:08:52 +0200",
+     "published_iso": "2026-10-09T00:08:52+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+     "published": "Fri, 09 Oct 2026 06:24:08 GMT",
+     "published_iso": "2026-10-09T06:24:08+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+    "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
+    "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, Situation Publishing"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor: Copied word-for-word string from source 1 regarding the locations of the drone strikes."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-10-cloudflare-to-acquire-deno-runtime-startup-e3ad2",
+   "date": "2026-10-10",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Cloudflare to acquire Deno runtime startup",
+   "in_brief": "Cloudflare announced it is acquiring Deno, the company behind the Deno JavaScript runtime. The deal, whose financial terms were not disclosed, aims to integrate Deno’s technology into Cloudflare Workers and will see the Deno runtime supported for a year before development ends.",
+   "so_what": "The acquisition brings together two prominent players in the edge‑computing ecosystem. Cloudflare’s Workers platform lets developers run code at the network edge, while Deno provides a modern, secure JavaScript/TypeScript runtime that emphasizes module safety and native tooling. By folding Deno’s team and its recent celld project into its own engineering groups, Cloudflare hopes to streamline the programming model for serverless applications and make it a default way to build services, whether on Cloudflare’s network or elsewhere. Developers who have built on Deno will see the runtime receive monthly updates for a year, after which official development will cease, though the open‑source code will remain available for community continuation. The move also signals a broader industry trend toward consolidating runtimes and platforms to reduce complexity for developers and could influence the future direction of edge‑focused serverless offerings.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward acquisition report",
+   "claims": [
+    {
+     "claim": "Cloudflare announced it is acquiring Deno, the startup behind the programming runtime of the same name.",
+     "source": 1,
+     "quote": "Cloudflare announced Friday that it’s acquiring Deno, the startup behind the programming runtime of the same name.",
+     "status": "verified",
+     "corroborated_by": [
+      "deno.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Deno had raised a total of $26 million, including a Series A led by Sequoia.",
+     "source": 1,
+     "quote": "Deno had raised a total of $26 million, including a Series A led by Sequoia.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Cloudflare will support the Deno runtime for another year with monthly releases before ending its development.",
+     "source": 2,
+     "quote": "We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+     "published": "Sat, 10 Oct 2026 16:25:42 +0000",
+     "published_iso": "2026-10-10T16:25:42+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "deno.com",
+     "url": "https://deno.com/blog/cloudflare",
+     "published": "Fri, 09 Oct 2026 13:03:48 +0000",
+     "published_iso": "2026-10-09T13:03:48+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+    "https://deno.com/blog/cloudflare"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Yahoo, deno.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-10-nasa-releases-800-gb-of-artemis-ii-lunar-data-to-public-5b5c0",
+   "date": "2026-10-10",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA releases 800 GB of Artemis II lunar data to public",
+   "in_brief": "NASA made more than 800 GB of images, audio, notes and other observations from the Artemis II crewed lunar flyby available online. The archive includes thousands of high‑resolution images and the first human‑recorded meteoroid impacts on the Moon.",
+   "so_what": "The public release provides researchers worldwide with unprecedented, human‑collected data from the Moon, complementing decades of robotic observations. With 11,000 full‑resolution images, 8.5 hours of spoken notes and detailed transcripts, scientists can refine lunar surface models, improve hazard assessments for future habitats, and better understand meteoroid impact rates that affect spacecraft safety. The dataset also captures astronauts’ visual perceptions of lunar colour and brightness, offering a rare human perspective that can aid in interpreting remote‑sensing data. As the Artemis program moves toward landing humans again, these insights will help engineers design navigation systems and protective measures for upcoming missions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "NASA released more than 800 GB of Artemis II data on 7 October.",
+     "source": 1,
+     "quote": "On 7 October, NASA released more than 800 gigabytes of images, audio recordings, written notes and other data gathered by the Artemis II astronauts on their historic flight past the Moon in April.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The archive contains 11,000 full‑resolution images and videos plus 8.5 hours of spoken observations.",
+     "source": 2,
+     "quote": "The archive documenting the astronauts’ return to the far side of the moon includes 11,000 full-resolution images and videos, 8.5 hours of spoken observations, notes taken by the astronauts, transcripts, and photographs from the cameras aboard the Orion capsule.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Scientists identified five small meteoroid impacts during a 54‑minute lunar eclipse observed by the crew.",
+     "source": 2,
+     "quote": "The most clear-cut finding is the detection of five small meteoroid impacts on the lunar surface during the 54‑minute eclipse observed by the Orion crew.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Artemis II launched on 1 April, returned on 10 April and traveled up to 406,771 km from Earth.",
+     "source": 1,
+     "quote": "Artemis II, which launched on 1 April and returned to Earth on 10 April, ... the journey took the crew as much as 406,771 kilometres from Earth — the farthest that humans have ever travelled from their home planet.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03197-7",
+     "published": "2026-10-07",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/",
+     "published": "Fri, 09 Oct 2026 18:30:00 +0000",
+     "published_iso": "2026-10-09T18:30:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03197-7",
+    "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/"
+   ],
+   "primary": [
+    {
+     "url": "https://pds-geosciences.wustl.edu/missions/artemis2/index.htm",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://pds-geosciences.wustl.edu/missions/artemis2/index.htm"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03197-7",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 74,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-09-nasa-releases-800-gb-of-artemis-ii-lunar-data-for-public-use-96fcd",
+    "date": "2026-10-09",
+    "label": "Well-sourced",
+    "score": 61
+   }
+  },
+  {
+   "id": "2026-10-10-nasa-issues-final-request-for-proposals-to-build-commercial-8d8b9",
+   "date": "2026-10-10",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA Issues Final Request for Proposals to Build Commercial Low‑Earth‑Orbit Stations",
+   "in_brief": "NASA released its final RFP inviting U.S. firms to submit designs for commercial space stations, with proposals due Dec. 8, 2026. The agency says the effort will sustain a U.S. presence in low‑Earth orbit after the ISS retires.",
+   "so_what": "The solicitation marks a concrete step toward transitioning low‑Earth‑orbit operations from the aging International Space Station to privately built habitats. By inviting multiple contractors, NASA hopes to foster competition, lower costs, and create new markets for American industry while preserving a platform for research, technology development, crew training, and lunar‑Mars mission preparation. Contract awards are slated for spring 2027, and the selected firms will receive firm‑fixed‑price, indefinite‑delivery contracts that could include at least $100 million in Phase 1 funding. Observers will watch which companies secure the first contracts and how quickly they can demonstrate the safety and capability needed for crewed missions, shaping the future of U.S. space infrastructure.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual agency announcement",
+   "claims": [
+    {
+     "claim": "NASA released its final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations, with proposals due Dec. 8, 2026.",
+     "source": 1,
+     "quote": "Proposals are due Tuesday, Dec. 8, with contract awards expected in spring 2027.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA says it will maintain a sustained American presence in low Earth orbit after the International Space Station retires.",
+     "source": 1,
+     "quote": "“In alignment with the President’s National Space Policy, NASA is committed to maintaining a sustained American presence in low Earth orbit long after the International Space Station retires,” said NASA Administrator Jared Isaacman.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "NASA intends to award contracts to two or more contractors in this phase of the competition.",
+     "source": 1,
+     "quote": "This will allow NASA to select two or more contractors through early development, followed by a competitive task order for final design, test, and evaluation.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Phase 1 winners are guaranteed at least $100 million in funding.",
+     "source": 2,
+     "quote": "Phase 1 winners will be guaranteed at least $100 million.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+     "published": "Fri, 09 Oct 2026 18:11:44 +0000",
+     "published_iso": "2026-10-09T18:11:44+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
+     "published": "Fri, 09 Oct 2026 21:34:09 +0000",
+     "published_iso": "2026-10-09T21:34:09+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+    "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/"
+   ],
+   "primary": [
+    {
+     "url": "https://sam.gov/workspace/contract/opp/aee4374189ab4118b3ec0dcb00ae8408/view",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://sam.gov/workspace/contract/opp/aee4374189ab4118b3ec0dcb00ae8408/view"
+    },
+    {
+     "url": "https://sam.gov/workspace/contract/opp/5bb2245324a943a0b3c0be628179f3c5/view",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://sam.gov/workspace/contract/opp/5bb2245324a943a0b3c0be628179f3c5/view"
+    },
+    {
+     "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 79,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-10-ledger-investigates-possible-supply-chain-hack-affecting-sou-21604",
+   "date": "2026-10-10",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Ledger investigates possible supply‑chain hack affecting Southeast Asian reseller devices",
+   "in_brief": "Ledger is probing reports that hardware wallets sold by reseller CryptoBilis may have been tampered with, potentially resulting in the theft of over $86 million in cryptocurrency. The company has asked the reseller to pause sales and advises affected users to move funds to a new device.",
+   "so_what": "The alleged tampering, described as a hardware implant that could capture seed phrases, highlights a rare supply‑chain vulnerability in a product designed to keep private keys offline. If confirmed, the incident could undermine confidence in hardware wallets, a cornerstone of crypto security, and may prompt broader scrutiny of third‑party distributors. Ledger’s precautionary steps—halting sales, urging users not to set up affected devices, and recommending migration to new wallets—aim to contain potential losses while the investigation continues. Observers will watch for independent verification of the claimed $86 million theft, any technical details about the implant, and whether other resellers or regions are impacted. The outcome could influence industry standards for hardware integrity and supply‑chain oversight.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Ledger has asked reseller CryptoBilis to pause all sales and shipments while it investigates the issue.",
+     "source": 2,
+     "quote": "As a precaution, the company said it asked CryptoBilis to pause all sales and shipments while its investigation continues.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Reports suggest more than $86 million in cryptocurrency may have been stolen from wallets linked to the tampered devices.",
+     "source": 2,
+     "quote": "Pseudonymous blockchain investigator Specter said on X that more than $86 million in crypto may have been stolen from hundreds of wallets.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Ledger confirmed that one impacted device contained an unauthorized hardware implant.",
+     "source": 1,
+     "quote": "Ledger has confirmed that “one of the impacted users’ devices contained an unauthorized hardware implant.”",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+     "published": "2026-10-10T12:36:44-04:00",
+     "published_iso": "2026-10-10T16:36:44+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
+     "published": "Fri, 09 Oct 2026 14:47:27 +0000",
+     "published_iso": "2026-10-09T14:47:27+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380582/ledger-probes-87m-theft-crypto-wallet-reseller",
+     "published": "Fri, 09 Oct 2026 15:30:36 +0000",
+     "published_iso": "2026-10-09T15:30:36+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+    "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
+    "https://decrypt.co/380582/ledger-probes-87m-theft-crypto-wallet-reseller"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Vox Media, coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-09-ledger-investigates-reports-of-over-86-million-stolen-from-w-3b12c",
+    "date": "2026-10-09",
+    "label": "Well-sourced",
+    "score": 56
+   }
+  },
+  {
+   "id": "2026-10-10-ny-attorney-general-secures-up-to-35-million-and-lifetime-ba-38eef",
+   "date": "2026-10-10",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "NY Attorney General Secures Up to $35 Million and Lifetime Ban from Former Celsius CEO",
+   "in_brief": "New York Attorney General Letitia James announced a settlement that could require Alex Mashinsky to pay up to $35 million and permanently bars him from the securities, commodities and cryptocurrency industries. The action follows his 12‑year federal prison sentence for fraud related to the collapsed Celsius lending platform.",
+   "so_what": "The settlement underscores the state’s aggressive stance on crypto‑related fraud and signals that regulators will continue to pursue civil penalties against former executives who misled investors. By tying the payment to Mashinsky’s compliance—requiring forfeiture of additional funds and full service of his sentence—the AG’s office aims to deter similar conduct and protect consumers. The permanent industry ban further limits Mashinsky’s ability to influence the market, reinforcing broader efforts by U.S. regulators, including the CFTC, to police the crypto sector. Observers will watch whether the conditional payments are enforced and how the ban influences future enforcement actions against crypto firms.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "The settlement could require Mashinsky to pay up to $35 million to New York.",
+     "source": 1,
+     "quote": "New York Attorney General Letitia James said Friday she secured up to $35 million from former Celsius CEO Alex Mashinsky and permanently barred him from the securities, commodities and cryptocurrency industries.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Mashinsky is permanently barred from the securities, commodities and crypto industries.",
+     "source": 2,
+     "quote": "New York Attorney General Letitia James has permanently barred former Celsius CEO Alex Mashinsky from the securities, commodities and crypto industries.",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Mashinsky is serving a 12‑year federal prison sentence after pleading guilty to fraud.",
+     "source": 1,
+     "quote": "Mashinsky, who is serving a 12-year federal prison sentence for securities and commodities fraud, was accused of misleading hundreds of thousands of investors about the safety of Celsius deposits.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
+     "published": "Fri, 09 Oct 2026 14:55:23 +0000",
+     "published_iso": "2026-10-09T14:55:23+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380592/new-york-ag-secures-up-to-35m-and-industry-ban-from-ex-celsius-ceo-alex-mashinsky",
+     "published": "Fri, 09 Oct 2026 16:07:07 +0000",
+     "published_iso": "2026-10-09T16:07:07+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
+    "https://decrypt.co/380592/new-york-ag-secures-up-to-35m-and-industry-ban-from-ex-celsius-ceo-alex-mashinsky"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-09-ny-attorney-general-secures-up-to-35-million-and-lifetime-ba-38eef",
+    "date": "2026-10-09",
+    "label": "Well-sourced",
+    "score": 56
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 492,
+  "stories_considered": 16,
+  "published": 10,
+  "outlets": 38
+ }
+}

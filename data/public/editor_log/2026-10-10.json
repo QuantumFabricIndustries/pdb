@@ -1,0 +1,184 @@
+[
+ {
+  "section": "threat",
+  "title": "Citrix urges immediate patching of NetScaler ADC and Gateway for critical CVE‑2026‑107406",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "AhsayCBS Backup Platform Exploited via Unpatched Vulnerabilities",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: copied 1 long word-for-word run(s) from a source"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Hackers Earn $1,262,000 at Pwn2Own Ireland, Including Remote Hacks of Fully Patched Pixel 10",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor: headline used '$1.26 M' which was flagged by automated checks as not verbatim in source; changed to '$1,262,000' to match source [1]"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Tesla renames Full Self-Driving to Assisted Driving in Europe",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Ukrainian drones damage Yandex data centers in Russia",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: Copied word-for-word string from source 1 regarding the locations of the drone strikes."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Cloudflare to acquire Deno runtime startup",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA releases 800 GB of Artemis II lunar data to public",
+  "verdict": "PUBLISH",
+  "truth": 74,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA Issues Final Request for Proposals to Build Commercial Low‑Earth‑Orbit Stations",
+  "verdict": "PUBLISH",
+  "truth": 79,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Ledger investigates possible supply‑chain hack affecting Southeast Asian reseller devices",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "NY Attorney General Secures Up to $35 Million and Lifetime Ban from Former Celsius CEO",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Reviewer shelves $350 AI bird feeder after pigeons and mice take over",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Headline is slightly editorialized and negative compared to source tone ('consumer disappointment').",
+   "editor: So_what includes advice and speculative points not directly supported by the source, such as return policy details not fully specified beyond the author's remark, and investment/cost warnings.",
+   "editor: What_to_do gives direct product recommendations and DIY advice that veer into actionable consumer guidance."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "ICE explores Palantir-backed tool for voter‑fraud investigations",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "London man jailed for 2½ years after SIM‑swap theft of £200,000 in crypto",
+  "verdict": "HOLD",
+  "truth": 18,
+  "reasons": [
+   "number '21' does not appear in any source"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: Included unsupported statistic about Cifas and 2026 year-on-year rise which was not in the source texts."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of Missile Hitting Saudia Plane in Riyadh Is Fabricated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote so_what",
+   "editor: Headline uses meta-language 'Fact Check:', which violates PDB style.",
+   "editor: So_what section includes excessive technical detail about AI detection tools and comparative analysis rather than focusing on the broader geopolitical or informational impact."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated video misrepresents Princess Leonor’s outfit",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of Arkansas farmers’ prayer edited to add false “more Mexicans” request",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

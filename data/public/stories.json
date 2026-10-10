@@ -2086,5 +2086,134 @@
    "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
    "https://www.malwarebytes.com/blog/news/2026/10/attackers-hijack-country-code-domains-to-impersonate-google-and-other-services"
   ]
+ },
+ {
+  "id": "2026-10-10-citrix-urges-immediate-patching-of-netscaler-adc-and-gateway-19d0f",
+  "date": "2026-10-10",
+  "section": "threat",
+  "headline": "Citrix urges immediate patching of NetScaler ADC and Gateway for critical CVE‑2026‑107406",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+   "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+   "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+   "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+   "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+  ]
+ },
+ {
+  "id": "2026-10-10-ahsaycbs-backup-platform-exploited-via-unpatched-vulnerabili-2ea6b",
+  "date": "2026-10-10",
+  "section": "threat",
+  "headline": "AhsayCBS Backup Platform Exploited via Unpatched Vulnerabilities",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+   "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+   "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"
+  ]
+ },
+ {
+  "id": "2026-10-10-hackers-earn-1-262-000-at-pwn2own-ireland-including-remote-h-f8cc7",
+  "date": "2026-10-10",
+  "section": "threat",
+  "headline": "Hackers Earn $1,262,000 at Pwn2Own Ireland, Including Remote Hacks of Fully Patched Pixel 10",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+   "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+   "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html"
+  ]
+ },
+ {
+  "id": "2026-10-10-tesla-renames-full-self-driving-to-assisted-driving-in-europ-792bc",
+  "date": "2026-10-10",
+  "section": "ai",
+  "headline": "Tesla renames Full Self-Driving to Assisted Driving in Europe",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/",
+   "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html",
+   "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+   "https://www.engadget.com/2283007/tesla-full-self-driving-assisted-driving-europe/"
+  ]
+ },
+ {
+  "id": "2026-10-10-ukrainian-drones-damage-yandex-data-centers-in-russia-be2b1",
+  "date": "2026-10-10",
+  "section": "ai",
+  "headline": "Ukrainian drones damage Yandex data centers in Russia",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+   "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
+   "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html"
+  ]
+ },
+ {
+  "id": "2026-10-10-cloudflare-to-acquire-deno-runtime-startup-e3ad2",
+  "date": "2026-10-10",
+  "section": "ai",
+  "headline": "Cloudflare to acquire Deno runtime startup",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+   "https://deno.com/blog/cloudflare"
+  ]
+ },
+ {
+  "id": "2026-10-10-nasa-releases-800-gb-of-artemis-ii-lunar-data-to-public-5b5c0",
+  "date": "2026-10-10",
+  "section": "science",
+  "headline": "NASA releases 800 GB of Artemis II lunar data to public",
+  "label": "Well-sourced",
+  "score": 74,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03197-7",
+   "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/"
+  ]
+ },
+ {
+  "id": "2026-10-10-nasa-issues-final-request-for-proposals-to-build-commercial-8d8b9",
+  "date": "2026-10-10",
+  "section": "science",
+  "headline": "NASA Issues Final Request for Proposals to Build Commercial Low‑Earth‑Orbit Stations",
+  "label": "Confirmed",
+  "score": 79,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+   "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/"
+  ]
+ },
+ {
+  "id": "2026-10-10-ledger-investigates-possible-supply-chain-hack-affecting-sou-21604",
+  "date": "2026-10-10",
+  "section": "money",
+  "headline": "Ledger investigates possible supply‑chain hack affecting Southeast Asian reseller devices",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+   "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
+   "https://decrypt.co/380582/ledger-probes-87m-theft-crypto-wallet-reseller"
+  ]
+ },
+ {
+  "id": "2026-10-10-ny-attorney-general-secures-up-to-35-million-and-lifetime-ba-38eef",
+  "date": "2026-10-10",
+  "section": "money",
+  "headline": "NY Attorney General Secures Up to $35 Million and Lifetime Ban from Former Celsius CEO",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
+   "https://decrypt.co/380592/new-york-ag-secures-up-to-35m-and-industry-ban-from-ex-celsius-ceo-alex-mashinsky"
+  ]
  }
 ]
