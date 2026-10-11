@@ -1,0 +1,944 @@
+{
+ "date": "2026-10-11",
+ "built_at": "2026-10-11T18:10:00.325443+00:00",
+ "stories": [
+  {
+   "id": "2026-10-11-fbi-arrests-canadian-cyber-security-executive-in-case-report-6dc51",
+   "date": "2026-10-11",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "FBI arrests Canadian cyber‑security executive in case reportedly tied to ShinyHunters",
+   "in_brief": "Federal agents detained Edward Dubrovsky, a 54‑year‑old Canadian cyber‑security executive, in Pennsylvania on extortion‑related charges. The arrest is linked to the FBI’s ongoing probe of the ShinyHunters hacking group.",
+   "so_what": "The detention of Dubrovsky, who has held senior roles at firms that negotiate ransomware payments, underscores law‑enforcement focus on the financial infrastructure supporting extortion groups. ShinyHunters, known for stealing data from web applications and SaaS platforms, relies on intermediaries to collect ransom, and disrupting those channels can hinder the group’s operations. The case also highlights the risk that individuals and organizations may inadvertently engage with negotiators who are themselves under investigation. Stakeholders should scrutinize any third‑party services used for ransomware response, monitor for updates from the FBI and courts, and be prepared for potential legal or reputational fallout if associated parties are implicated.",
+   "what_to_do": "1. Review and verify the legitimacy of any ransomware‑negotiation or extortion‑response service you use. 2. Ensure all systems are patched and employ multi‑factor authentication to reduce breach risk. 3. Monitor for any communications from law‑enforcement or the service provider regarding ongoing investigations.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Dubrovsky has held senior roles at firms that negotiate ransomware extortion payments, including Cypfer and CyberSteward.",
+     "source": 2,
+     "quote": "Dubrovsky, 54, has had senior roles at cybersecurity firms that help data breach and ransomware victims negotiate extortion payments with cybercriminals.",
+     "status": "verified",
+     "corroborated_by": [
+      "krebsonsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The sealed complaint charges him with conspiracy to threaten to impair the confidentiality of information to extort money and interference with commerce by threats.",
+     "source": 2,
+     "quote": "\"18:371 AND 1030(a)(7)(B) - CONSPIRACY TO THREATEN TO IMPAIR THE CONFIDENTIALITY OF INFORMATION WITH THE INTENT TO EXTORT MONEY; 18:1951(a) AND (b)(2) - INTERFERENCE WITH COMMERCE BY THREATS (HOBBS ACT EXTORTION AND CONSPIRACY TO COMMIT HOBBS ACT EXTORTION),\" reads the case docket.",
+     "status": "verified",
+     "corroborated_by": [
+      "krebsonsecurity.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "FBI agents arrested Edward Dubrovsky, a Canadian cybersecurity executive, in Pennsylvania on extortion‑related charges.",
+     "source": 1,
+     "quote": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested an executive at a Canadian cybersecurity firm... The inmate locator ... reports that a 54‑year‑old Edward Dubrovsky is currently being held at a federal facility in Philadelphia.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Krebs on Security",
+     "owner": "krebsonsecurity.com",
+     "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+     "published": "Sat, 10 Oct 2026 00:17:42 +0000",
+     "published_iso": "2026-10-10T00:17:42+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+     "published": "Sat, 10 Oct 2026 11:07:54 -0400",
+     "published_iso": "2026-10-10T15:07:54+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.courtlistener.com/docket/74942095/united-states-v-dobrovsky/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.courtlistener.com/docket/74942095/united-states-v-dobrovsky/"
+    },
+    {
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.663480/gov.uscourts.paed.663480.3.0.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://storage.courtlistener.com/recap/gov.uscourts.paed.663480/gov.uscourts.paed.663480.3.0.pdf"
+    }
+   ],
+   "truth": {
+    "total": 42,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, krebsonsecurity.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor: Headline states as fact that Dubrovsky is tied to ShinyHunters investigation, but sources note the FBI has not publicly confirmed this and it is reported via sources/multiple reports."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-11-nasa-releases-800-gb-of-artemis-ii-lunar-data-to-public-b33c5",
+   "date": "2026-10-11",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "NASA releases 800 GB of Artemis II lunar data to public",
+   "in_brief": "NASA made more than 800 gigabytes of images, audio recordings and mission notes from the Artemis II flight available on 7 October. The archive, which contains thousands of photos and hours of audio, is intended to support scientific research and future lunar missions.",
+   "so_what": "The public release of the Artemis II dataset provides planetary-science data collected directly by humans in deep space. With over 11,000 high-resolution images, 8.5 hours of spoken observations and detailed notes, researchers can compare human perception of the lunar surface with robotic data, improving models of terrain, lighting and hazard identification. Early analysis has already identified five small meteoroid impacts, data that will refine impact-frequency estimates critical for the safety of future bases and vehicles. By hosting the files in the Planetary Data System, NASA ensures open access for planetary geologists, engineers and enthusiasts, potentially accelerating discoveries about lunar composition, surface processes and the challenges of crewed exploration.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual data release",
+   "claims": [
+    {
+     "claim": "The archive contains 11,000 full‑resolution images and 8.5 hours of spoken observations",
+     "source": 2,
+     "quote": "includes 11,000 full-resolution images and videos, 8.5 hours of spoken observations",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Scientists detected five small meteoroid impacts on the lunar surface during the mission",
+     "source": 2,
+     "quote": "The most clear-cut finding is the detection of five small meteoroid impacts on the lunar surface during the 54-minute eclipse observed by the Orion crew",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Artemis II traveled up to 406,771 km from Earth, the farthest distance humans have ever been from the planet",
+     "source": 1,
+     "quote": "The journey took the crew as much as 406,771 kilometres from Earth — the farthest that humans have ever travelled from their home planet",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "NASA released more than 800 GB of Artemis II data on 7 October 2026",
+     "source": 1,
+     "quote": "On 7 October, NASA released more than 800 gigabytes of images, audio recordings, written notes and other data gathered by the Artemis II astronauts",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03197-7",
+     "published": "2026-10-07",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/",
+     "published": "Fri, 09 Oct 2026 18:30:00 +0000",
+     "published_iso": "2026-10-09T18:30:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
+     "published": "2026-10-11T11:34:40-04:00",
+     "published_iso": "2026-10-11T15:34:40+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03197-7",
+    "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/",
+    "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data"
+   ],
+   "primary": [
+    {
+     "url": "https://pds-geosciences.wustl.edu/missions/artemis2/index.htm",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://pds-geosciences.wustl.edu/missions/artemis2/index.htm"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03197-7",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Vox Media, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Included unsupported year 2026 in date",
+     "editor: Included unsupported mention of a lunar eclipse"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-10-nasa-releases-800-gb-of-artemis-ii-lunar-data-to-public-5b5c0",
+    "date": "2026-10-10",
+    "label": "Well-sourced",
+    "score": 74
+   }
+  },
+  {
+   "id": "2026-10-11-microsoft-ceo-calls-for-ai-emergency-brake-and-assumes-model-2a23c",
+   "date": "2026-10-11",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Microsoft CEO calls for AI 'emergency brake' and assumes models are compromised",
+   "in_brief": "Satya Nadella said AI systems should be built with containment and an emergency brake that lets authorized people pause or shut them down. He argues this is needed because models must be treated as potentially compromised.",
+   "so_what": "Nadella’s remarks add to growing calls from industry leaders for stronger safeguards around advanced AI. By framing models as possibly compromised, he pushes for transparent, auditable systems and human‑controlled shutdown mechanisms, concepts that could shape future regulatory standards and industry best practices. Companies may need to adopt new containment technologies and develop procedures for incident disclosure and independent audits. Watch for how other firms and standards bodies respond, and whether policymakers incorporate these ideas into emerging AI governance frameworks.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Nadella said we must assume a model is compromised and contain it from the start, likening it to an emergency brake.",
+     "source": 1,
+     "quote": "We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "He called for an authorized person to always be able to pause or shut down a model mid‑task.",
+     "source": 1,
+     "quote": "An authorized person should always be able to pause or shut down a model mid-task.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nadella advocated for an ‘emergency brake’ that humans control over AI systems.",
+     "source": 2,
+     "quote": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "His comments come amid warnings from other top tech executives about insufficient AI safety protocols.",
+     "source": 2,
+     "quote": "Nadella's comments come amid warnings from top tech executives and researchers — including Microsoft co-founder Bill Gates, Anthropic CEO Dario Amodei, OpenAI CEO Sam Altman and SpaceX CEO Elon Musk — about insufficient AI safety protocols.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+     "published": "2026-10-10T18:10:17-04:00",
+     "published_iso": "2026-10-10T22:10:17+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
+     "published": "Sat, 10 Oct 2026 20:59:28 GMT",
+     "published_iso": "2026-10-10T20:59:28+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+     "published": "Sat, 10 Oct 2026 21:47:51 +0000",
+     "published_iso": "2026-10-10T21:47:51+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+    "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
+    "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-11-apple-expected-to-unveil-homeview-smart-home-hub-at-welcome-68f48",
+   "date": "2026-10-11",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple expected to unveil HomeView smart‑home hub at Welcome Home event",
+   "in_brief": "Apple’s “Welcome Home” event is set for October 13 in New York, where the company is expected to introduce a new smart‑home hub reportedly called HomeView. A refreshed HomePod mini and Apple TV are slated for release later in the fall.",
+   "so_what": "Apple’s entry into the smart‑home hub space with HomeView could reshape how consumers control connected devices, leveraging Siri and a new homeOS platform. By limiting the hub to a curated set of Apple apps and third‑party accessories, Apple aims to maintain a controlled ecosystem while expanding partnerships with firms like LG and Schneider Electric. The timing—an event on October 13 followed by shipments in late October for the HomePod mini and Apple TV and a November launch for HomeView—positions Apple to compete directly with established hubs from Amazon and Google. Observers will watch how developers and accessory makers respond to the restricted App Store access and whether the hub gains traction in the broader smart‑home market.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcement",
+   "claims": [
+    {
+     "claim": "Apple’s “Welcome Home” event will officially kick off in New York on October 13 at 9 AM ET.",
+     "source": 1,
+     "quote": "“Welcome Home” will officially kick off in New York on October 13th at 9AM ET.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The new smart‑home hub is expected to be called HomeView.",
+     "source": 2,
+     "quote": "Apple's smart home hub will reportedly be called HomeView.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "HomeView is slated to begin shipping in November.",
+     "source": 2,
+     "quote": "Bloomberg reported that the HomeView device will start shipping in November.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A refreshed HomePod mini with an S10 chip and a new Apple TV with an A19 chip are expected to ship on October 30.",
+     "source": 2,
+     "quote": "While the new HomePod mini and Apple TV are expected to start shipping and be available in Apple stores on October 30, the HomeView will release a few weeks later in mid‑November",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
+     "published": "2026-10-11T09:00:00-04:00",
+     "published_iso": "2026-10-11T13:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview/",
+     "published": "Sun, 11 Oct 2026 16:28:47 +0000",
+     "published_iso": "2026-10-11T16:28:47+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
+    "https://www.engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      2,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor: Headline states Apple will unveil HomeView as a fact, but sources report it as expected/reported by Mark Gurman.",
+     "editor: In_brief states Apple plans to introduce HomeView as a definite fact, rather than expected/reported."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-11-jurassic-mammaliaform-shows-early-suckling-adaptations-9e522",
+   "date": "2026-10-11",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Jurassic mammaliaform shows early suckling adaptations",
+   "in_brief": "Researchers described a Middle Jurassic fossil, Megacauda sungei, that possessed skull features linked to milk feeding. The find pushes the origin of mammalian suckling structures back about 165 million years.",
+   "so_what": "The discovery of Megacauda sungei provides the earliest known evidence of anatomical traits used for suckling, swallowing and protecting the airway in mammals. By identifying bony projections on the roof of the mouth and specialized hyoid bones, the study shows that the coordinated muscular system for milk feeding was already emerging in the Middle Jurassic, far earlier than the appearance of true mammals. This reshapes understanding of how and when key mammalian reproductive traits evolved, suggesting that semiaquatic mammaliaforms may have played a role in the development of complex feeding mechanisms. Future fossil finds and comparative studies of early mammaliaform anatomy will be watched to trace the stepwise evolution of these structures.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely scientific reporting",
+   "claims": [
+    {
+     "claim": "The fossil species Megacauda sungei lived during the Middle Jurassic, about 165 million years ago.",
+     "source": 2,
+     "quote": "their findings, published in Nature, suggest that key anatomical structures required for mammalian suckling, swallowing and breastfeeding behaviors evolved nearly 165 million years ago",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Megacauda possessed small bony projections on the roof of the mouth that resemble those of living therian mammals and support suckling and swallowing.",
+     "source": 2,
+     "quote": "the researchers identified a pair of small bony projections on the roof of the mouth that closely resemble features found in living therian mammals",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The study describing Megacauda was published in the journal Nature.",
+     "source": 2,
+     "quote": "their findings, published in Nature, suggest",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03069-0",
+     "published": "2026-10-07",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-10-jurassic-fossil-reveals-ancient-mammals.html",
+     "published": "Sun, 11 Oct 2026 12:00:04 EDT",
+     "published_iso": "2026-10-11T16:00:04+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03069-0",
+    "https://phys.org/news/2026-10-jurassic-fossil-reveals-ancient-mammals.html"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.1016%2Fj.isci.2021.102744",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://doi.org/10.1016%2Fj.isci.2021.102744"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03069-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-11-nasa-to-flyover-metlife-stadium-and-host-fan-experience-ahea-a76a6",
+   "date": "2026-10-11",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA to Flyover MetLife Stadium and Host Fan Experience Ahead of NFL Game",
+   "in_brief": "NASA will conduct a flyover and operate an Experience Zone at MetLife Stadium on Oct. 11 during the Jets‑Browns game. The agency’s Inspiration Tour will later conclude with the MAX POWER exposition at Kennedy Space Center on Nov. 7‑8.",
+   "so_what": "The event links a major national sports audience with NASA’s Artemis lunar program and broader space initiatives, aiming to broaden public awareness and support for U.S. space leadership. By positioning a fighter jet flyover and a hands‑on fan zone at a high‑visibility NFL game, NASA seeks to reach diverse demographics that might not otherwise engage with space activities. The subsequent MAX POWER exposition will showcase next‑generation air and space technologies, reinforcing the agency’s role in fostering innovation across industry, academia, and government. Observers should watch for media coverage of the flyover, attendance figures at the Experience Zone, and announcements from MAX POWER that could signal new partnerships or technology demonstrations ahead of the agency’s 250th‑anniversary celebrations.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual announcement",
+   "claims": [
+    {
+     "claim": "NASA will pilot a fighter jet flyover at the Jets‑Browns game on Oct. 11",
+     "source": 1,
+     "quote": "NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA will host an Experience Zone for fans from 10 a.m. to 1 p.m. EDT at MetLife Stadium",
+     "source": 1,
+     "quote": "NASA team members will engage with fans at the agency’s Experience Zone, located at the Jets Tailgate Zone outside the stadium, from 10 a.m. to 1 p.m. EDT before the game.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Inspiration Tour will culminate with the MAX POWER exposition on Nov. 7‑8 at Kennedy Space Center",
+     "source": 1,
+     "quote": "The tour will culminate in MAX POWER, a public exposition of American air and space innovation, Saturday, Nov. 7, and Sunday, Nov. 8, on and near the agency’s Kennedy Space Center in Florida.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+     "published": "Sat, 10 Oct 2026 14:18:59 +0000",
+     "published_iso": "2026-10-10T14:18:59+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-11-imf-reports-tokenized-u-s-stocks-trade-mostly-off-hours-are-e7382",
+   "date": "2026-10-11",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "IMF reports tokenized U.S. stocks trade mostly off‑hours, are fractional and more volatile",
+   "in_brief": "The International Monetary Fund found that over half of tokenized stock trades happen outside regular U.S. market hours and most involve fractions of a share. It also noted that these digital equities are considerably more volatile and less liquid than their traditional counterparts.",
+   "so_what": "The IMF’s Global Financial Stability Report highlights a growing niche where investors use blockchain‑based tokens to buy fractional shares and trade around the clock. While the market is small—about $2.3 billion—and fragmented, the demand for 24/7 access and lower entry points is evident. However, the heightened volatility and limited liquidity raise concerns for market stability, prompting the IMF to advise regulators to consider safeguards such as circuit breakers. Observers will watch how exchanges and crypto platforms expand tokenized offerings and whether regulatory measures evolve to address the unique risks of continuous trading.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "More than half of tokenized stock trading occurs outside regular U.S. market hours",
+     "source": 1,
+     "quote": "More than half of trading took place outside regular U.S. market hours, the IMF found.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "About 80% of tokenized stock trades involve less than one share",
+     "source": 1,
+     "quote": "About 80% of trades were for less than one share.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Tokenized equities are roughly 1.5 times more volatile and less liquid than the underlying stocks",
+     "source": 2,
+     "quote": "Tokenized equities were roughly 1.5 times more volatile than the underlying stocks and far less liquid",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+     "published": "Sun, 11 Oct 2026 13:00:00 +0000",
+     "published_iso": "2026-10-11T13:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds",
+     "published": "Sun, 11 Oct 2026 17:11:03 +0000",
+     "published_iso": "2026-10-11T17:11:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+    "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 290,
+  "stories_considered": 12,
+  "published": 7,
+  "outlets": 32
+ }
+}

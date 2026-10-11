@@ -1,0 +1,141 @@
+[
+ {
+  "section": "threat",
+  "title": "FBI arrests Canadian cyber‑security executive in case reportedly tied to ShinyHunters",
+  "verdict": "PUBLISH",
+  "truth": 42,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor: Headline states as fact that Dubrovsky is tied to ShinyHunters investigation, but sources note the FBI has not publicly confirmed this and it is reported via sources/multiple reports."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "NASA releases 800 GB of Artemis II lunar data to public",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included unsupported year 2026 in date",
+   "editor: Included unsupported mention of a lunar eclipse"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Microsoft CEO calls for AI 'emergency brake' and assumes models are compromised",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple expected to unveil HomeView smart‑home hub at Welcome Home event",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline states Apple will unveil HomeView as a fact, but sources report it as expected/reported by Mark Gurman.",
+   "editor: In_brief states Apple plans to introduce HomeView as a definite fact, rather than expected/reported."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Jurassic mammaliaform shows early suckling adaptations",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA Issues Final Request for Proposals for Commercial Low‑Earth‑Orbit Stations",
+  "verdict": "HOLD",
+  "truth": 50,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA to Flyover MetLife Stadium and Host Fan Experience Ahead of NFL Game",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "IMF reports tokenized U.S. stocks trade mostly off‑hours, are fractional and more volatile",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Calendar phishing scams surge as fake meeting invites harvest credentials",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Video of Missile Hitting Saudia Plane at Riyadh Airport Is Fabricated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Draft mentioned 'visual glitches typical of AI-generated media' which contradicts the source stating detection tools did not detect a strong signal of AI origin."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated video of Princess Leonor in yellow dress debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

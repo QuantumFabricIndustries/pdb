@@ -2215,5 +2215,90 @@
    "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
    "https://decrypt.co/380592/new-york-ag-secures-up-to-35m-and-industry-ban-from-ex-celsius-ceo-alex-mashinsky"
   ]
+ },
+ {
+  "id": "2026-10-11-fbi-arrests-canadian-cyber-security-executive-in-case-report-6dc51",
+  "date": "2026-10-11",
+  "section": "threat",
+  "headline": "FBI arrests Canadian cyber‑security executive in case reportedly tied to ShinyHunters",
+  "label": "Developing",
+  "score": 42,
+  "also_covered_urls": [
+   "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+   "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/"
+  ]
+ },
+ {
+  "id": "2026-10-11-nasa-releases-800-gb-of-artemis-ii-lunar-data-to-public-b33c5",
+  "date": "2026-10-11",
+  "section": "ai",
+  "headline": "NASA releases 800 GB of Artemis II lunar data to public",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03197-7",
+   "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/",
+   "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data"
+  ]
+ },
+ {
+  "id": "2026-10-11-microsoft-ceo-calls-for-ai-emergency-brake-and-assumes-model-2a23c",
+  "date": "2026-10-11",
+  "section": "ai",
+  "headline": "Microsoft CEO calls for AI 'emergency brake' and assumes models are compromised",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+   "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
+   "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+  ]
+ },
+ {
+  "id": "2026-10-11-apple-expected-to-unveil-homeview-smart-home-hub-at-welcome-68f48",
+  "date": "2026-10-11",
+  "section": "ai",
+  "headline": "Apple expected to unveil HomeView smart‑home hub at Welcome Home event",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
+   "https://www.engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview/"
+  ]
+ },
+ {
+  "id": "2026-10-11-jurassic-mammaliaform-shows-early-suckling-adaptations-9e522",
+  "date": "2026-10-11",
+  "section": "science",
+  "headline": "Jurassic mammaliaform shows early suckling adaptations",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03069-0",
+   "https://phys.org/news/2026-10-jurassic-fossil-reveals-ancient-mammals.html"
+  ]
+ },
+ {
+  "id": "2026-10-11-nasa-to-flyover-metlife-stadium-and-host-fan-experience-ahea-a76a6",
+  "date": "2026-10-11",
+  "section": "science",
+  "headline": "NASA to Flyover MetLife Stadium and Host Fan Experience Ahead of NFL Game",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/"
+  ]
+ },
+ {
+  "id": "2026-10-11-imf-reports-tokenized-u-s-stocks-trade-mostly-off-hours-are-e7382",
+  "date": "2026-10-11",
+  "section": "money",
+  "headline": "IMF reports tokenized U.S. stocks trade mostly off‑hours, are fractional and more volatile",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+   "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds"
+  ]
  }
 ]
