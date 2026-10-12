@@ -119,5 +119,16 @@
   "from_score": 52,
   "to_score": 68,
   "note": "Rating changed from Developing (52) to Well-sourced (68) as new evidence came in."
+ },
+ {
+  "date": "2026-10-12",
+  "story_id": "2026-10-12-imf-reports-tokenized-us-stocks-trade-mostly-off-hours-are-f-b2956",
+  "prior_id": "2026-10-11-imf-reports-tokenized-u-s-stocks-trade-mostly-off-hours-are-e7382",
+  "headline": "IMF reports tokenized US stocks trade mostly off‑hours, are fractional and more volatile",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 56,
+  "to_score": 40,
+  "note": "Rating changed from Well-sourced (56) to Developing (40) as new evidence came in."
  }
 ]

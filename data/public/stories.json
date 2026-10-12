@@ -2300,5 +2300,141 @@
    "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
    "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds"
   ]
+ },
+ {
+  "id": "2026-10-12-ledger-confirms-hardware-implant-in-cryptobilis-sold-wallets-c8649",
+  "date": "2026-10-12",
+  "section": "threat",
+  "headline": "Ledger confirms hardware implant in CryptoBilis‑sold wallets, urges users to secure assets",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+   "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+   "https://www.helpnetsecurity.com/2026/10/12/ledger-wallets-compromised-via-hardware-implant/",
+   "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
+   "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis"
+  ]
+ },
+ {
+  "id": "2026-10-12-ukrainian-drone-strikes-shut-down-three-yandex-data-centres-ad1c5",
+  "date": "2026-10-12",
+  "section": "threat",
+  "headline": "Ukrainian drone strikes shut down three Yandex data centres in Russia",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://therecord.media/ukraine-strikes-third-yandex-data-center",
+   "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+   "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+   "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
+   "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
+   "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk"
+  ]
+ },
+ {
+  "id": "2026-10-12-cyberattack-forces-defrost-of-refrigeration-systems-in-frenc-bcfde",
+  "date": "2026-10-12",
+  "section": "threat",
+  "headline": "Cyberattack forces defrost of refrigeration systems in French supermarkets",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
+   "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+   "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+   "https://www.helpnetsecurity.com/2026/10/12/france-cyberattack-supermarket-freezers/"
+  ]
+ },
+ {
+  "id": "2026-10-12-epic-reportedly-shifts-disney-shooter-to-ai-first-model-dela-50c21",
+  "date": "2026-10-12",
+  "section": "ai",
+  "headline": "Epic reportedly shifts Disney shooter to AI-first model, delaying release",
+  "label": "Disputed",
+  "score": 60,
+  "also_covered_urls": [
+   "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+   "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
+   "https://www.avclub.com/epic-games-disney-ai-delay"
+  ]
+ },
+ {
+  "id": "2026-10-12-meta-launches-muse-wonder-and-wonder-full-frontier-ai-models-d7a50",
+  "date": "2026-10-12",
+  "section": "ai",
+  "headline": "Meta launches Muse Wonder and Wonder Full frontier AI models",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+   "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+   "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
+   "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+   "https://research.meta.ai/blog/muse-wonder",
+   "https://decrypt.co/380768/meta-muse-wonder-zuckerberg-frontier-ai-race",
+   "https://www.engadget.com/2284478/meta-says-its-caught-up-to-the-frontier-with-its-latest-wonder-ai-models/"
+  ]
+ },
+ {
+  "id": "2026-10-12-no-man-s-sky-launches-on-iphone-and-ipad-with-full-content-b-0d340",
+  "date": "2026-10-12",
+  "section": "ai",
+  "headline": "No Man’s Sky launches on iPhone and iPad with full content but limited features",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/",
+   "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
+   "https://www.engadget.com/2283704/no-mans-sky-is-coming-to-iphone-and-ipad-as-the-app-store-celebrates-indie-games-week/"
+  ]
+ },
+ {
+  "id": "2026-10-12-hall-and-woodford-awarded-2026-nobel-in-economic-sciences-fo-3ff38",
+  "date": "2026-10-12",
+  "section": "science",
+  "headline": "Hall and Woodford awarded 2026 Nobel in Economic Sciences for stabilisation research",
+  "label": "Confirmed",
+  "score": 81,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03251-4",
+   "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models"
+  ]
+ },
+ {
+  "id": "2026-10-12-nasa-launches-health-research-aboard-spacex-crs-35-mission-t-605e2",
+  "date": "2026-10-12",
+  "section": "science",
+  "headline": "NASA launches health research aboard SpaceX CRS-35 mission to ISS",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/"
+  ]
+ },
+ {
+  "id": "2026-10-12-standard-chartered-rolls-out-rlusd-institutional-custody-in-48ecf",
+  "date": "2026-10-12",
+  "section": "money",
+  "headline": "Standard Chartered rolls out RLUSD institutional custody in Dubai",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
+   "https://decrypt.co/380776/standard-chartered-hold-ripple-rlusd-stablecoin-dubai"
+  ]
+ },
+ {
+  "id": "2026-10-12-imf-reports-tokenized-us-stocks-trade-mostly-off-hours-are-f-b2956",
+  "date": "2026-10-12",
+  "section": "money",
+  "headline": "IMF reports tokenized US stocks trade mostly off‑hours, are fractional and more volatile",
+  "label": "Developing",
+  "score": 40,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+   "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds"
+  ]
  }
 ]

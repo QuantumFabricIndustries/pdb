@@ -1,0 +1,183 @@
+[
+ {
+  "section": "threat",
+  "title": "Ledger confirms hardware implant in CryptoBilis‑sold wallets, urges users to secure assets",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Ukrainian drone strikes shut down three Yandex data centres in Russia",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 6
+ },
+ {
+  "section": "threat",
+  "title": "Cyberattack forces defrost of refrigeration systems in French supermarkets",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Epic reportedly shifts Disney shooter to AI-first model, delaying release",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft states as absolute fact that Epic announced the pivot and delay, whereas sources state it was reported by Bloomberg based on anonymous sources and internal messages.",
+   "editor: Draft sets a specific March 2027 date, but sources note the date was actually March 2025 or delayed indefinitely, and sources conflict on the timeline details.",
+   "editor: Draft includes speculative or generalized commentary not strictly anchored to the immediate reporting."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Meta launches Muse Wonder and Wonder Full frontier AI models",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: Draft included specific API token pricing ($4/$20) and subscription pricing ($50/$200) not supported by the provided sources.",
+   "editor: Draft mentioned 'Active Memory' and 'Active Focus' features, but sources only mention 'Active Memory' and 'active focus' is not clearly detailed or supported as a feature name in the exact terms used.",
+   "editor: Draft cited specific pricing for subscriptions ($20 or $100) from CNBC that conflicted or lacked full context across other sources, and API pricing details were mismatched with TechCrunch's comparison to GPT-6 Sol."
+  ],
+  "owners": 6
+ },
+ {
+  "section": "ai",
+  "title": "No Man’s Sky launches on iPhone and iPad with full content but limited features",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft includes a specific launch date of Oct. 28, 2026, but the sources state the launch date is October 28 (without specifying the year 2026, or referencing pre-orders starting today with launch on Oct 28). Let's fix the date to remove the unfounded year 2026.",
+   "editor: Draft states settlements are omitted at launch, but Source 1 notes settlements are limited to iPhone 15 Pro and later, not entirely omitted for all iOS devices."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Hall and Woodford awarded 2026 Nobel in Economic Sciences for stabilisation research",
+  "verdict": "PUBLISH",
+  "truth": 81,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA launches health research aboard SpaceX CRS-35 mission to ISS",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Standard Chartered rolls out RLUSD institutional custody in Dubai",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Copied word-for-word runs from source text."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "IMF reports tokenized US stocks trade mostly off‑hours, are fractional and more volatile",
+  "verdict": "PUBLISH",
+  "truth": 40,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Roofing scams leave UK homeowners thousands out of pocket",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Calendar phishing scams surge as fraudulent invites auto‑add to users’ schedules",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Weak password breach exposes nearly 9 million Danish personal records",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Bill Gates water‑shortage warning video identified as deepfake",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact‑Check: Hitler Photo Shows Him Inspecting Model of Unbuilt Berlin Arch",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated images of AOC in bunny costume and dress debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

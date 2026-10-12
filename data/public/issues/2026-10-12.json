@@ -1,0 +1,1405 @@
+{
+ "date": "2026-10-12",
+ "built_at": "2026-10-12T21:49:41.749018+00:00",
+ "stories": [
+  {
+   "id": "2026-10-12-ledger-confirms-hardware-implant-in-cryptobilis-sold-wallets-c8649",
+   "date": "2026-10-12",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Ledger confirms hardware implant in CryptoBilis‑sold wallets, urges users to secure assets",
+   "in_brief": "Ledger identified an unauthorized hardware implant in at least one wallet sold by Southeast Asian reseller CryptoBilis, linking the device to multi‑million‑dollar crypto thefts. The company has paused sales through the reseller and advised users to avoid initializing affected devices and to move funds to new wallets.",
+   "so_what": "The discovery of a physical implant in Ledger hardware wallets marks the first concrete evidence of a supply‑chain attack on a major cryptocurrency security product. On‑chain analysts estimate losses between $86 million and $93 million across more than 300 wallets, highlighting the scale of the breach. Ledger says its internal systems and direct sales channels remain uncompromised, but the incident underscores the risks of purchasing hardware wallets from unauthorized distributors. Users who bought devices from CryptoBilis in the last 90 days should treat those wallets as unsafe, refrain from setting them up, and transfer any assets to a new Ledger device obtained directly from the manufacturer. The company is cooperating with authorities and has instructed resellers to source only from authorized channels, aiming to prevent further tampering.",
+   "what_to_do": "1. Do not initialize any Ledger device purchased from CryptoBilis. 2. If you have already set up such a device, transfer all crypto to a new Ledger wallet bought directly from Ledger. 3. Verify that any new device passes Ledger’s Genuine Check before use.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Ledger confirmed an unauthorized hardware implant in at least one device sold by CryptoBilis",
+     "source": 4,
+     "quote": "Ledger confirmed an unauthorized hardware implant in a device linked to crypto losses at CryptoBilis",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "decrypt.co",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "All confirmed cases involve wallets sold through CryptoBilis and the number of affected devices is limited",
+     "source": 5,
+     "quote": "Ledger said every confirmed case in last week's wallet-draining incident involves devices sold by Southeast Asian reseller CryptoBilis",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "coindesk.com",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "On‑chain researchers estimate the thefts total between $86 million and $93 million from over 300 wallets",
+     "source": 4,
+     "quote": "On-chain researchers estimate that $86 million to $93 million was stolen from more than 300 wallets",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+     "published": "Mon, 12 Oct 2026 12:27:23 -0400",
+     "published_iso": "2026-10-12T16:27:23+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+     "published": "Mon, 12 Oct 2026 16:51:48 +0530",
+     "published_iso": "2026-10-12T11:21:48+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/12/ledger-wallets-compromised-via-hardware-implant/",
+     "published": "Mon, 12 Oct 2026 09:46:53 +0000",
+     "published_iso": "2026-10-12T09:46:53+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
+     "published": "Mon, 12 Oct 2026 07:49:40 +0000",
+     "published_iso": "2026-10-12T07:49:40+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis",
+     "published": "Mon, 12 Oct 2026 16:32:17 +0000",
+     "published_iso": "2026-10-12T16:32:17+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+    "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+    "https://www.helpnetsecurity.com/2026/10/12/ledger-wallets-compromised-via-hardware-implant/",
+    "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
+    "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 69,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: bleepingcomputer.com, coindesk.com, decrypt.co, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-10-12-ukrainian-drone-strikes-shut-down-three-yandex-data-centres-ad1c5",
+   "date": "2026-10-12",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Ukrainian drone strikes shut down three Yandex data centres in Russia",
+   "in_brief": "Ukrainian drones hit Yandex data centres in Sasovo, Kaluga and Vladimir, forcing two to shut down completely and degrading the third. The attacks disrupted Yandex Cloud and consumer services, prompting the company to urge customers to use alternative recovery options.",
+   "so_what": "The strikes represent a new phase in the Russia‑Ukraine conflict, targeting the digital infrastructure that underpins many Russian businesses and government services. Yandex, often described as \"Russia's Google,\" provides cloud hosting, payment processing, ride‑hailing, food delivery and AI tools to tens of millions of users; its outage therefore hampers everyday online activities and could pressure the Russian economy. The damage to facilities that host Yandex's supercomputers also raises concerns about the resilience of AI training workloads that rely on Nvidia A100 GPUs. As Yandex cannot give a clear restoration timeline, organisations that depend on its cloud must reassess continuity plans. Watch for further statements from Yandex on service restoration, any escalation in drone activity, and potential shifts by Russian firms toward alternative cloud providers.",
+   "what_to_do": "• Switch critical workloads to an alternative cloud or on‑premise backup environment.\n• Verify and update disaster‑recovery and failover procedures for services hosted on Yandex Cloud.\n• Monitor Yandex status pages for updates and test access to essential applications regularly.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Ukrainian drones struck three Yandex data centres in Russia, forcing two to shut down completely and damaging the third",
+     "source": 1,
+     "quote": "Over the past week, Ukrainian drones targeted three of Yandex's six data centers in Russia, forcing two facilities to shut down completely and damaging infrastructure at the third.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attacks disrupted Yandex Cloud and user services such as email, taxi booking, food ordering and payments",
+     "source": 1,
+     "quote": "The attacks have disrupted Yandex Cloud, which provides computing infrastructure to thousands of businesses, as well as some of the company's own services and third‑party platforms that depend on its servers.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Yandex advised customers to use alternative disaster‑recovery plans rather than relying solely on its own infrastructure",
+     "source": 4,
+     "quote": "For this reason, Yandex urged customers to use alternative infrastructure for disaster recovery.",
+     "status": "verified",
+     "corroborated_by": [
+      "Recorded Future"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
+     "published": "Mon, 12 Oct 2026 12:00:00 GMT",
+     "published_iso": "2026-10-12T12:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+     "published": "Mon, 12 Oct 2026 17:52:36 +0000",
+     "published_iso": "2026-10-12T17:52:36+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+     "published": "Sun, 11 Oct 2026 14:38:10 GMT",
+     "published_iso": "2026-10-11T14:38:10+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+     "published": "Mon, 12 Oct 2026 15:23:01 -0400",
+     "published_iso": "2026-10-12T19:23:01+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
+     "published": "Mon, 12 Oct 2026 15:45:00 +0200",
+     "published_iso": "2026-10-12T13:45:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/ukraine-strikes-third-yandex-data-center",
+    "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+    "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+    "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+    "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
+    "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
+    "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Condé Nast, Recorded Future, Situation Publishing, bleepingcomputer.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6
+  },
+  {
+   "id": "2026-10-12-cyberattack-forces-defrost-of-refrigeration-systems-in-frenc-bcfde",
+   "date": "2026-10-12",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Cyberattack forces defrost of refrigeration systems in French supermarkets",
+   "in_brief": "Attackers remotely triggered defrost functions on Danfoss refrigeration controllers, causing fridges in hundreds of stores to overheat and spoil food. The incident highlights risks of outdated control software in critical retail infrastructure.",
+   "so_what": "The breach demonstrates how vulnerable legacy industrial control systems can be exploited to disrupt essential services, in this case the cold chain for food retail. Older Danfoss controllers lacking recent security updates were the vector, allowing attackers to raise temperatures to as high as 50 °C and force the disposal of perishable goods, with losses estimated in the millions of euros. Regulators and retailers are now urged to assess the firmware versions of their refrigeration equipment and apply patches for known flaws, such as CVE‑2025‑41450 and CVE‑2025‑41451, which were disclosed by U.S. authorities. Ongoing investigations by French prosecutors and the national cybersecurity agency ANSSI aim to identify the perpetrators and prevent future incidents. Stakeholders should monitor announcements from Danfoss and industry bodies for remediation guidance and consider network segmentation of control systems to limit remote access.",
+   "what_to_do": "1. Verify that refrigeration controllers are running the latest Danfoss firmware and apply any available patches. 2. Disable unnecessary internet connectivity for control devices or place them on isolated network segments. 3. Review and update vendor‑provided security advisories for older controller models.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "A cyberattack overnight Sunday disrupted refrigerators at hundreds of French supermarkets",
+     "source": 1,
+     "quote": "A cyberattack overnight Sunday disrupted refrigerators at hundreds of French supermarkets, according to retailers and French media.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "bleepingcomputer.com",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attackers targeted older versions of Danfoss refrigeration control software",
+     "source": 1,
+     "quote": "BFMTV reported that the affected systems are refrigeration controllers made by Danish manufacturer Danfoss, and that the attackers targeted older versions of its software.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Hackers forced some units to heat up to 50 °C, spoiling food",
+     "source": 2,
+     "quote": "Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Known Danfoss vulnerabilities CVE‑2025‑41450 and CVE‑2025‑41451 were disclosed earlier",
+     "source": 3,
+     "quote": "While no information is available on how the Danfoss refrigeration controllers were compromised, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned in May 2025 of an authentication bypass vulnerability (CVE-2025-41450) and in August 2025 of a command injection flaw (CVE-2025-41451) in the Danfoss AK-SM 8xxA Series hardware platform",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
+     "published": "Sun, 11 Oct 2026 23:00:00 GMT",
+     "published_iso": "2026-10-11T23:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 12 Oct 2026 18:31:32 GMT",
+     "published_iso": "2026-10-12T18:31:32+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+     "published": "Mon, 12 Oct 2026 11:23:34 -0400",
+     "published_iso": "2026-10-12T15:23:34+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/12/france-cyberattack-supermarket-freezers/",
+     "published": "Mon, 12 Oct 2026 16:07:33 +0000",
+     "published_iso": "2026-10-12T16:07:33+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
+    "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+    "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "https://www.helpnetsecurity.com/2026/10/12/france-cyberattack-supermarket-freezers/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: BBC, Recorded Future, bleepingcomputer.com, helpnetsecurity.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-12-epic-reportedly-shifts-disney-shooter-to-ai-first-model-dela-50c21",
+   "date": "2026-10-12",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Epic reportedly shifts Disney shooter to AI-first model, delaying release",
+   "in_brief": "Epic Games is reportedly pivoting to an \"AI first\" development strategy for its upcoming Disney-Marvel-Star Wars shooter, utilizing AI models for code and art. According to a Bloomberg report citing internal messages and anonymous sources, the project has been delayed indefinitely amid the strategic shift.",
+   "so_what": "The reported shift highlights how major studios are experimenting with generative AI workflows for large-scale projects. While an Epic spokesperson stated the company is embracing AI-accelerated development to empower creators, the pivot has reportedly drawn mixed reactions internally and reflects ongoing industry discussions surrounding the use of AI in game development.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "Epic Games is shifting to an “AI first” development strategy for its collaboration with Disney.",
+     "source": 1,
+     "quote": "Epic Games is shifting to an “AI first” development strategy for its collaboration with the Walt Disney Company, letting AI models write all the code and guide all the artwork for an upcoming shooter.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "avclub.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The $1.5 billion collaboration between Epic and Disney, announced in early 2024, was slated to release a Marvel‑ and Star Wars‑themed shooter in March 2027, but the project has now been delayed indefinitely.",
+     "source": 1,
+     "quote": "The $1.5 billion collaboration between Epic and Disney, announced in early 2024, was slated to release a Marvel- and Star Wars-themed shooter in March 2027. That project has now been delayed indefinitely amid the AI-related shakeup and understaffed, slower-than-expected development thus far, according to the report.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Human developers will manage and guide code and art assets generated by AI models such as Anthropic’s Claude, meaning “no more hand‑written code.”",
+     "source": 1,
+     "quote": "Human developers will be tasked with managing and guiding code and art assets generated by models such as Anthropic’s Claude, according to internal Epic employee messages viewed by Bloomberg. That means “no more hand-written code” and art assets “generated with full AI workflows,” according to the report.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+     "published": "Mon, 12 Oct 2026 20:59:50 +0000",
+     "published_iso": "2026-10-12T20:59:50+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
+     "published": "Mon, 12 Oct 2026 20:48:19 +0000",
+     "published_iso": "2026-10-12T20:48:19+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "avclub.com",
+     "url": "https://www.avclub.com/epic-games-disney-ai-delay",
+     "published": "Mon, 12 Oct 2026 20:07:42 +0000",
+     "published_iso": "2026-10-12T20:07:42+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+    "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
+    "https://www.avclub.com/epic-games-disney-ai-delay"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 60,
+    "label": "Disputed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Yahoo, avclub.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft states as absolute fact that Epic announced the pivot and delay, whereas sources state it was reported by Bloomberg based on anonymous sources and internal messages.",
+     "editor: Draft sets a specific March 2027 date, but sources note the date was actually March 2025 or delayed indefinitely, and sources conflict on the timeline details.",
+     "editor: Draft includes speculative or generalized commentary not strictly anchored to the immediate reporting."
+    ],
+    "disputed": true,
+    "dispute_note": "Sources differ slightly on the original release timeline details (Source 1 mentions a March 2027 date from an earlier plan, while Source 2 mentions a March or November date depending on the specific project milestone).",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-12-meta-launches-muse-wonder-and-wonder-full-frontier-ai-models-d7a50",
+   "date": "2026-10-12",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Meta launches Muse Wonder and Wonder Full frontier AI models",
+   "in_brief": "Meta released two new AI models, Muse Wonder and Muse Wonder Full, available via its Model API and Muse Code subscription service. The company says the models aim to compete with leading offerings from OpenAI and Anthropic.",
+   "so_what": "The launch marks Meta's first foray into frontier-level AI models, a step the company says is intended to re-establish its position in the competitive generative-AI market. Meta claims the models outperform Anthropic’s Claude Fable 5.1 and rank just below Claude Opus 5.5 on the Artificial Analysis Intelligence Index, and that they beat OpenAI’s GPT-6 Astra on certain specialized benchmarks. The models incorporate features like active memory to improve task continuity, which Meta promotes as safeguards for personal and professional agents. Observers will watch how the pricing and performance compare with rival models from OpenAI, Anthropic, and Google as developers and enterprises evaluate adoption.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcement",
+   "claims": [
+    {
+     "claim": "Meta released Muse Wonder and Muse Wonder Full, making them available through its Model API and Muse Code subscription.",
+     "source": 5,
+     "quote": "Muse Wonder is available today through the Meta Model API and Muse Code, and Muse Wonder Full is available today for Muse Code subscribers.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Condé Nast",
+      "Vox Media",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Meta says the new models outperform Anthropic’s Claude Fable 5.1 and rank just below Claude Opus 5.5 on the Artificial Analysis Intelligence Index.",
+     "source": 1,
+     "quote": "Meta says the largest version of the new model outperforms Anthropic’s second-best model, Claude Fable 5.1, and ranks just below its best, Claude Opus 5.5, on the Artificial Analysis Intelligence Index",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Pricing for Muse Wonder is $4 per million input tokens and $20 per million output tokens; Muse Wonder Full is limited to Muse Code subscribers with $50 or $200 monthly plans.",
+     "source": 4,
+     "quote": "Accessed through the Meta Model API, Wonder will cost $4 per million input tokens and $20 per million output tokens... an even more powerful variant of Meta's latest model, dubbed Muse Wonder Full, will only be available to developers who sign up to the company's software engineering focused Muse Code AI agent under a $50 or $200 a month subscription plan.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [4]",
+      "not in source [4]: 200, 50"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+     "published": "Mon, 12 Oct 2026 17:00:27 +0000",
+     "published_iso": "2026-10-12T17:00:27+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+     "published": "2026-10-12T13:00:00-04:00",
+     "published_iso": "2026-10-12T17:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
+     "published": "Mon, 12 Oct 2026 17:34:35 GMT",
+     "published_iso": "2026-10-12T17:34:35+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+     "published": "Mon, 12 Oct 2026 17:56:56 +0000",
+     "published_iso": "2026-10-12T17:56:56+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Hacker News",
+     "owner": "meta.ai",
+     "url": "https://research.meta.ai/blog/muse-wonder",
+     "published": "Mon, 12 Oct 2026 16:48:01 +0000",
+     "published_iso": "2026-10-12T16:48:01+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+    "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+    "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
+    "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+    "https://research.meta.ai/blog/muse-wonder",
+    "https://decrypt.co/380768/meta-muse-wonder-zuckerberg-frontier-ai-race",
+    "https://www.engadget.com/2284478/meta-says-its-caught-up-to-the-frontier-with-its-latest-wonder-ai-models/"
+   ],
+   "primary": [
+    {
+     "url": "https://arxiv.org/abs/2510.17281",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://arxiv.org/abs/2510.17281"
+    }
+   ],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Condé Nast, Vox Media, Yahoo, meta.ai"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: Draft included specific API token pricing ($4/$20) and subscription pricing ($50/$200) not supported by the provided sources.",
+     "editor: Draft mentioned 'Active Memory' and 'Active Focus' features, but sources only mention 'Active Memory' and 'active focus' is not clearly detailed or supported as a feature name in the exact terms used.",
+     "editor: Draft cited specific pricing for subscriptions ($20 or $100) from CNBC that conflicted or lacked full context across other sources, and API pricing details were mismatched with TechCrunch's comparison to GPT-6 Sol."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6
+  },
+  {
+   "id": "2026-10-12-no-man-s-sky-launches-on-iphone-and-ipad-with-full-content-b-0d340",
+   "date": "2026-10-12",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "No Man’s Sky launches on iPhone and iPad with full content but limited features",
+   "in_brief": "Hello Games announced that No Man’s Sky will be available for iPhone 11 and third‑generation iPad Air and newer on Oct. 28. The mobile version includes every update from the past decade, though multiplayer is not supported on iOS and planetary settlements are limited to iPhone 15 Pro and later.",
+   "so_what": "The arrival of No Man’s Sky on iOS expands the game’s reach to a mobile audience, marking the latest step in its long-running evolution. By supporting devices as old as the iPhone 11, the port demonstrates that large, procedurally generated worlds can run on mainstream smartphones. However, the absence of multiplayer mirrors earlier console ports and may affect player expectations. Hello Games has indicated that future support for iOS could depend on adoption rates and player feedback. The launch also coincides with Apple’s Indie Games Week.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual announcement",
+   "claims": [
+    {
+     "claim": "The iOS version will run on iPhone 11 and third‑generation iPad Air and newer.",
+     "source": 2,
+     "quote": "The game will be playable on the iPhone 11 and 3rd generation iPad Air and above",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Multiplayer and player‑made planetary settlements are not supported at launch on iOS.",
+     "source": 1,
+     "quote": "multiplayer is not supported on any iOS device",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The mobile version includes all content and system updates released over the past ten years.",
+     "source": 1,
+     "quote": "This version of the game includes all of the content and systems updates to the game that have been added over the years",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/",
+     "published": "Mon, 12 Oct 2026 20:26:14 +0000",
+     "published_iso": "2026-10-12T20:26:14+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
+     "published": "2026-10-12T10:00:00-04:00",
+     "published_iso": "2026-10-12T14:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2283704/no-mans-sky-is-coming-to-iphone-and-ipad-as-the-app-store-celebrates-indie-games-week/",
+     "published": "Mon, 12 Oct 2026 14:00:00 +0000",
+     "published_iso": "2026-10-12T14:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/",
+    "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
+    "https://www.engadget.com/2283704/no-mans-sky-is-coming-to-iphone-and-ipad-as-the-app-store-celebrates-indie-games-week/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft includes a specific launch date of Oct. 28, 2026, but the sources state the launch date is October 28 (without specifying the year 2026, or referencing pre-orders starting today with launch on Oct 28). Let's fix the date to remove the unfounded year 2026.",
+     "editor: Draft states settlements are omitted at launch, but Source 1 notes settlements are limited to iPhone 15 Pro and later, not entirely omitted for all iOS devices."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-12-hall-and-woodford-awarded-2026-nobel-in-economic-sciences-fo-3ff38",
+   "date": "2026-10-12",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Hall and Woodford awarded 2026 Nobel in Economic Sciences for stabilisation research",
+   "in_brief": "Robert E. Hall and Michael Woodford received the 2026 Sveriges Riksbank Prize in Economic Sciences for their work on macroeconomic stabilisation. The award recognises models that central banks and finance ministries now use to smooth economic cycles.",
+   "so_what": "The prize highlights a shift in how policymakers address economic volatility, moving from traditional Keynesian tools to models that incorporate forward‑looking consumer behaviour and micro‑foundations of macro policy. By providing a clearer theoretical basis, these models have informed actions during crises such as the 2008 financial collapse, the COVID‑19 pandemic, and recent energy shocks. The recognition may encourage further research into stabilisation mechanisms and could influence future policy design, especially as governments confront inflationary pressures and growth uncertainties. Observers will watch how central banks integrate these frameworks in upcoming monetary decisions and whether the debate over tools like forward guidance intensifies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Robert E. Hall and Michael Woodford were awarded the 2026 Nobel prize in Economic Sciences",
+     "source": 1,
+     "quote": "The 2026 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel has been awarded to economists Robert E. Hall and Michael Woodford",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The prize carries a cash award of 12 million Swedish kronor (about $1.2 million)",
+     "source": 1,
+     "quote": "The work of the two laureates, who share the prize of 12 million Swedish kronor (around $1.2 million)",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Their research generated a paradigm shift in stabilisation policy and is used by central banks worldwide",
+     "source": 2,
+     "quote": "The Royal Swedish Academy of Sciences said it was recognising the pair for generating “a paradigm shift in stabilisation policy”, awarding them the prize worth a combined $1.2m",
+     "status": "verified",
+     "corroborated_by": [
+      "nature.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03251-4",
+     "published": "2026-10-12",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+     "published": "Mon, 12 Oct 2026 14:20:53 GMT",
+     "published_iso": "2026-10-12T14:20:53+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03251-4",
+    "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models"
+   ],
+   "primary": [
+    {
+     "url": "https://web.stanford.edu/~rehall/Stochastic-JPE-Dec-1978.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://web.stanford.edu/~rehall/Stochastic-JPE-Dec-1978.pdf"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03251-4",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 81,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Guardian Media Group, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-12-nasa-launches-health-research-aboard-spacex-crs-35-mission-t-605e2",
+   "date": "2026-10-12",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA launches health research aboard SpaceX CRS-35 mission to ISS",
+   "in_brief": "NASA’s SpaceX CRS-35 resupply flight is carrying four health‑related investigations to the International Space Station, including brain organoid, crop disease, rapid diagnostics and antibiotic‑resistance studies. The work aims to improve astronaut health and inform Earth‑based science.",
+   "so_what": "The suite of experiments aboard the CRS-35 mission represents a coordinated effort to understand how microgravity impacts human biology and agriculture. By sending lab‑grown brain models for a five‑week flight, researchers can compare cellular changes with Earth controls, potentially revealing how space stress affects neural health and guiding countermeasures for long‑duration missions. The crop disease study examines whether fungi cause faster or more severe infections in microgravity, information that could help breed disease‑resistant plants for both space habitats and Earth agriculture. A compact microplate reader will enable rapid on‑site detection of biomarkers, reducing reliance on Earth‑based analysis and supporting timely medical decisions. Finally, tracking antibiotic‑resistant bacteria aboard the station informs infection control for crews on future Moon or Mars outposts. Together, these investigations aim to safeguard crew health, enhance food security, and expand scientific capability in remote environments.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "NASA’s SpaceX CRS-35 Mission will launch health research to the International Space Station.",
+     "source": 1,
+     "quote": "NASA’s SpaceX CRS-35 Mission to Launch Health Research.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The brain experiment sends small, lab‑grown models of the human brain to the ISS for five weeks.",
+     "source": 1,
+     "quote": "The experiment sends small, lab-grown models of the human brain to the orbiting laboratory for five weeks.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A space crops investigation tests whether crop diseases develop faster and more severely in microgravity.",
+     "source": 1,
+     "quote": "A space crops investigation tests whether crop diseases develop faster and more severely in microgravity.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+     "published": "Mon, 12 Oct 2026 17:45:27 +0000",
+     "published_iso": "2026-10-12T17:45:27+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-12-standard-chartered-rolls-out-rlusd-institutional-custody-in-48ecf",
+   "date": "2026-10-12",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Standard Chartered rolls out RLUSD institutional custody in Dubai",
+   "in_brief": "The Dubai branch of Standard Chartered provides regulated custody for Ripple's RLUSD stablecoin. Additionally, the institution intends to integrate with LMAX to enable clients to utilize the token as margin collateral without transferring it offsite.",
+   "so_what": "Providing a regulated environment for a dollar-pegged stablecoin addresses institutional demand for secure asset safeguarding. By maintaining the tokens on the bank's ledger while reflecting their value for margin purposes on LMAX, the setup decouples custody from trading execution, mitigating counterparty risks. With a market capitalization near $2.45 billion, adoption remains early relative to the broader $306 billion stablecoin sector. This initiative could pave the way for similar bank offerings. Observers should monitor regulatory milestones, testing progress, and formal deployment announcements.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Standard Chartered’s Dubai branch now offers regulated institutional custody of Ripple’s RLUSD stablecoin on the XRP Ledger.",
+     "source": 1,
+     "quote": "Standard Chartered’s Dubai branch now offers regulated institutional custody of Ripple’s dollar-pegged RLUSD stablecoin on the XRP Ledger.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "A planned integration with LMAX Group would let clients use RLUSD as trading collateral while the tokens remain at the bank.",
+     "source": 2,
+     "quote": "A planned integration with LMAX Group would let clients use RLUSD as trading collateral through collateral mirroring, meaning the tokens stay at the bank while LMAX credits their value.",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "RLUSD’s market cap is about $2.45 billion, under 1% of the roughly $306 billion stablecoin market.",
+     "source": 2,
+     "quote": "RLUSD has grown to roughly $2.45 billion in market cap, still under 1% of a stablecoin market worth about $306 billion.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
+     "published": "Mon, 12 Oct 2026 12:09:09 +0000",
+     "published_iso": "2026-10-12T12:09:09+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380776/standard-chartered-hold-ripple-rlusd-stablecoin-dubai",
+     "published": "Mon, 12 Oct 2026 21:16:03 +0000",
+     "published_iso": "2026-10-12T21:16:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
+    "https://decrypt.co/380776/standard-chartered-hold-ripple-rlusd-stablecoin-dubai"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Copied word-for-word runs from source text."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-12-imf-reports-tokenized-us-stocks-trade-mostly-off-hours-are-f-b2956",
+   "date": "2026-10-12",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "IMF reports tokenized US stocks trade mostly off‑hours, are fractional and more volatile",
+   "in_brief": "The International Monetary Fund found that over half of tokenized US equity trades happen outside regular market hours and most involve fractions of a share. It also noted that these tokens are considerably more volatile and less liquid than the underlying stocks.",
+   "so_what": "The IMF’s analysis highlights a growing niche where investors use blockchain‑based tokens to access US equities around the clock and with lower capital requirements. While the market remains small—about $2.3 billion—and fragmented, the high share of off‑hours and sub‑share trades signals demand for 24/7, fractional ownership. However, the increased volatility and liquidity gaps raise concerns for market stability, prompting the IMF to advise regulators to consider safeguards such as circuit breakers. Stakeholders will be watching how exchanges and crypto platforms respond, and whether regulatory frameworks evolve to address the unique risks of continuous, tokenized trading.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "About 80% of tokenized trades involve less than one share",
+     "source": 1,
+     "quote": "About 80% of trades were for less than one share.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Tokenized equities are roughly 1.5 times more volatile and less liquid than the underlying stocks",
+     "source": 2,
+     "quote": "Tokenized equities were roughly 1.5 times more volatile than the underlying stocks and far less liquid",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "More than 50% of tokenized stock trading occurs outside regular U.S. market hours",
+     "source": 1,
+     "quote": "More than half of trading took place outside regular U.S. market hours, the IMF found.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 50"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+     "published": "Sun, 11 Oct 2026 13:00:00 +0000",
+     "published_iso": "2026-10-11T13:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds",
+     "published": "Sun, 11 Oct 2026 17:11:03 +0000",
+     "published_iso": "2026-10-11T17:11:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+    "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 40,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-11-imf-reports-tokenized-u-s-stocks-trade-mostly-off-hours-are-e7382",
+    "date": "2026-10-11",
+    "label": "Well-sourced",
+    "score": 56
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 359,
+  "stories_considered": 16,
+  "published": 10,
+  "outlets": 34
+ }
+}
