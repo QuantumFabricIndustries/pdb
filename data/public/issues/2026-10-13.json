@@ -1,0 +1,1584 @@
+{
+ "date": "2026-10-13",
+ "built_at": "2026-10-13T19:57:14.280735+00:00",
+ "stories": [
+  {
+   "id": "2026-10-13-norwegian-regulator-fines-microsoft-owned-xandr-9-6-million-4b94e",
+   "date": "2026-10-13",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Norwegian regulator fines Microsoft-owned Xandr $9.6 million for unlawful Grindr data sharing",
+   "in_brief": "Norway’s Data Protection Authority fined Xandr 92 million NOK for processing Grindr users’ sensitive data without valid consent. The penalty highlights privacy risks in real‑time advertising auctions that linked user profiles to thousands of advertisers.",
+   "so_what": "The fine, the largest ever issued by Datatilsynet, underscores that ad‑tech firms can be held accountable for sharing personal information without explicit user consent, even when the data passes through multiple parties. Xandr, now operating under Microsoft Advertising, acted as a joint controller with Grindr from July 2018 to April 2020, relaying details that could reveal sexual orientation to advertisers in real‑time bidding auctions. Regulators determined Xandr failed to verify that Grindr had obtained proper consent, violating EU‑type data‑protection rules. The case may prompt tighter scrutiny of ad‑tech practices worldwide and could lead to more enforcement actions against companies that process sensitive data without clear legal bases. Watch for any appeal by Xandr and potential policy changes by Microsoft regarding ad‑tech compliance.",
+   "what_to_do": "- Review and restrict location and advertising permissions in dating apps.\n- Limit optional profile fields that disclose personal details.\n- Avoid using dating apps on company‑issued devices.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual regulatory action",
+   "claims": [
+    {
+     "claim": "Norway’s Data Protection Authority fined Xandr 92 million NOK ($9.6 million) for unlawful processing of Grindr users’ data",
+     "source": 1,
+     "quote": "Norway’s Data Protection Authority (Datatilsynet) has fined Xandr, a Microsoft-owned advertising company, $9.6M (NOK 92 million) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The violations occurred between July 2018 and April 2020 through real‑time advertising auctions that exposed sensitive data",
+     "source": 1,
+     "quote": "According to the authority’s findings, between July 2018 and April 2020, Xandr managed real-time advertising auctions inside Grindr that potentially exposed users’ data, including sensitive sexual orientation information, to thousands of companies.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Xandr, as a joint controller, failed to verify that Grindr had obtained valid user consent",
+     "source": 1,
+     "quote": "“Xandr omitted to verify that the consents from Grindr were valid, and did not do anything to ensure they had a legal basis for their own processing,” Coll stated.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+     "published": "Mon, 12 Oct 2026 16:13:52 -0400",
+     "published_iso": "2026-10-12T20:13:52+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+     "published": "Tue, 13 Oct 2026 18:42:32 +0530",
+     "published_iso": "2026-10-13T13:12:32+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/10/grindr-users-sensitive-data-shared-through-ad-auctions-without-valid-consent",
+     "published": "Tue, 13 Oct 2026 13:00:27 GMT",
+     "published_iso": "2026-10-13T13:00:27+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+    "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+    "https://www.malwarebytes.com/blog/news/2026/10/grindr-users-sensitive-data-shared-through-ad-auctions-without-valid-consent"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, malwarebytes.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-13-french-supermarkets-hit-by-cyberattack-that-heated-refrigera-314e6",
+   "date": "2026-10-13",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "French supermarkets hit by cyberattack that heated refrigeration units",
+   "in_brief": "Hundreds of French supermarkets experienced a cyberattack that forced fridges and freezers to heat up, spoiling food. The attack targeted Danfoss refrigeration controllers, primarily older models that no longer receive security updates.",
+   "so_what": "The incident highlights the vulnerabilities of legacy industrial control systems. Danfoss confirmed that compromised units were older models whose software could not be updated. French authorities, including CERT-FR and ANSSI, urged operators to disconnect or filter internet access to affected controllers. Retailers such as Intermarché, Coopérative U, Carrefour, Monoprix, and E. Leclerc reported significant food waste and financial losses, with some locations experiencing equipment smoke. Investigations by authorities are ongoing to identify the perpetrators and methods used.",
+   "what_to_do": "1. Disconnect Danfoss refrigeration controllers from the internet or tightly filter access until security is verified. 2. Inventory perishable goods and discard any items exposed to unsafe temperatures.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Hackers forced supermarket fridges and freezers to heat up to 50 °C, spoiling food.",
+     "source": 1,
+     "quote": "Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Guardian Media Group",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attack targeted Danfoss refrigeration controllers, mainly older models that no longer receive security updates.",
+     "source": 1,
+     "quote": "Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Some locations experienced smoke or small fires as a result of the overheating equipment.",
+     "source": 1,
+     "quote": "In some places there were even small fires",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Between 250 and 400 stores were affected across major French supermarket chains.",
+     "source": 3,
+     "quote": "victims include Intermarché, Coopérative U, Carrefour Market, Monoprix, Leclerc, and Super U, with French outlets reporting that the attack affected 250 to 350 stores",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [3]: 400"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 12 Oct 2026 18:31:32 GMT",
+     "published_iso": "2026-10-12T18:31:32+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/video/2026/oct/13/french-supermarket-director-apologises-after-cyber-attack-spoils-fresh-and-frozen-food-video",
+     "published": "Tue, 13 Oct 2026 02:57:06 GMT",
+     "published_iso": "2026-10-13T02:57:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+     "published": "Mon, 12 Oct 2026 11:23:34 -0400",
+     "published_iso": "2026-10-12T15:23:34+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+     "published": "Tue, 13 Oct 2026 12:22:59 GMT",
+     "published_iso": "2026-10-13T12:22:59+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+     "published": "Tue, 13 Oct 2026 14:18:41 +0530",
+     "published_iso": "2026-10-13T08:48:41+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/video/2026/oct/13/french-supermarket-director-apologises-after-cyber-attack-spoils-fresh-and-frozen-food-video",
+    "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
+    "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+    "https://www.malwarebytes.com/blog/news/2026/10/hackers-heat-up-supermarket-fridges-spoiling-food-across-france"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Guardian Media Group, bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Draft mentioned specific CERT-FR advice about AK-SM and AK-SC controllers, but sources [5] mention CERT-FR warning about them without quoting explicit instructions to disconnect (though ANSSI head mentioned taking them off the internet). Wait, source [5] says: 'CERT-FR, the French government's computer emergency response team, said in an alert published in French on October 12 that it is aware of numerous compromises affecting two Danfoss controller series, the AK-SM and the AK-SC. It told operators to disconnect the controllers or filter access to them.' Actually, that IS in the source. Let me check the what_to_do and other fields.",
+     "editor: Draft so_what mentions 'Retailers such as Intermarché, Coopérative U, Carrefour, Monoprix and Leclerc reported losses ranging from tens of millions of euros to food waste worth millions, and some locations saw smoke or small fires.' Source [4] says 'some stores, the overheating of equipment resulted in smoke, but no fires have been reported.' Source [3] mentions Paris prosecutor opening investigation into 'outbreak of fires.' The draft states 'some locations saw smoke or small fires' as fact, whereas source [4] explicitly says 'no fires have been reported' for Les Mousquetaires, and prosecutors are investigating. Let's fix the fire claim to match sources accurately."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 7,
+   "previously": {
+    "id": "2026-10-12-cyberattack-forces-defrost-of-refrigeration-systems-in-frenc-bcfde",
+    "date": "2026-10-12",
+    "label": "Well-sourced",
+    "score": 68
+   }
+  },
+  {
+   "id": "2026-10-13-ledger-confirms-hardware-implant-in-cryptobilis-sold-wallets-82780",
+   "date": "2026-10-13",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Ledger confirms hardware implant in CryptoBilis‑sold wallets stole recovery phrases",
+   "in_brief": "Ledger said devices sold through Southeast Asian reseller CryptoBilis contained unauthorized hardware that captured users' 24‑word recovery phrases and transmitted them via LTE. The company urged users to avoid setting up such devices and to move assets to a new wallet.",
+   "so_what": "The discovery reveals a physical supply‑chain attack on cryptocurrency hardware wallets, bypassing Ledger's secure element and software protections. By reading the recovery phrase displayed during setup and sending it over a mobile network, the implant allowed attackers to drain wallets, with reported losses exceeding $86 million. Ledger has paused sales through CryptoBilis, warned customers not to initialize affected units, and is working with authorities to trace the tampering. The incident underscores the risk of purchasing hardware wallets from unauthorized resellers and highlights the need for robust anti‑tamper controls in the crypto ecosystem. Watch for further updates on the investigation, potential recalls, and any broader impact on other wallet models or supply‑chain partners.",
+   "what_to_do": "1. If you bought a Ledger device from CryptoBilis and have not set it up, do not initialize it and contact Ledger Support. 2. If the device is already set up, transfer all assets to a new Ledger (or other reputable hardware wallet) with a newly generated recovery phrase. 3. Verify that any hardware wallet you purchase comes from an authorized reseller or directly from the manufacturer.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "Ledger found unauthorized hardware implants in devices sold by CryptoBilis that captured recovery phrases and transmitted them over LTE.",
+     "source": 1,
+     "quote": "During setup, the implants detect users’ 24-word recovery phrase and transmit it over an LTE connection using an embedded eSIM.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "coindesk.com",
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The incident resulted in losses totaling more than $86 million according to blockchain investigator Specter.",
+     "source": 3,
+     "quote": "the incident is said to have resulted in losses totaling more than $86 million, according to pseudonymous blockchain investigator Specter.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Ledger advised users not to set up affected devices and to move assets to a new signer with a new seed.",
+     "source": 2,
+     "quote": "Ledger recommends users who purchased a Ledger device from this reseller to not initiate set up if they have not yet done so. If you have set up your Ledger device, consider moving assets to a new Ledger signer (with a new seed).",
+     "status": "verified",
+     "corroborated_by": [
+      "Recorded Future",
+      "coindesk.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/ledger-cryptocurrency-wallet-implant-theft",
+     "published": "Tue, 13 Oct 2026 13:18:00 GMT",
+     "published_iso": "2026-10-13T13:18:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+     "published": "Mon, 12 Oct 2026 12:27:23 -0400",
+     "published_iso": "2026-10-12T16:27:23+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+     "published": "Mon, 12 Oct 2026 16:51:48 +0530",
+     "published_iso": "2026-10-12T11:21:48+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+     "published": "Tue, 13 Oct 2026 09:27:47 +0000",
+     "published_iso": "2026-10-13T09:27:47+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380848/trezor-cuts-resellers-ledger-finds-spy-implant-crypto-wallets",
+     "published": "Tue, 13 Oct 2026 16:14:50 +0000",
+     "published_iso": "2026-10-13T16:14:50+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/ledger-cryptocurrency-wallet-implant-theft",
+    "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+    "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+    "https://decrypt.co/380848/trezor-cuts-resellers-ledger-finds-spy-implant-crypto-wallets",
+    "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+    "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+    "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 69,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Recorded Future, bleepingcomputer.com, coindesk.com, decrypt.co, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6,
+   "previously": {
+    "id": "2026-10-12-ledger-confirms-hardware-implant-in-cryptobilis-sold-wallets-c8649",
+    "date": "2026-10-12",
+    "label": "Well-sourced",
+    "score": 69
+   }
+  },
+  {
+   "id": "2026-10-13-google-rolls-out-gemini-4-argon-to-paying-subscribers-4876d",
+   "date": "2026-10-13",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google rolls out Gemini 4 Argon to paying subscribers",
+   "in_brief": "Google launched a wide rollout of its Gemini 4 Argon model, limiting initial access to paying customers. The release features an introductory rate for developers and enterprises.",
+   "so_what": "The release represents Google's commercial rollout of its latest AI model following earlier previews. By restricting access to subscribers, Google is managing potential safety concerns while testing market demand. Internal reports indicate the model has already helped improve efficiency, such as reducing YouTube comment-system server load and identifying code bugs.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "multiple independent sources, factual reporting",
+   "claims": [
+    {
+     "claim": "The model’s introductory price is $2 per million input tokens and $10 per million output tokens, with cached input tokens at 95% off",
+     "source": 2,
+     "quote": "The model launches today at an introductory price 1 of $2 per million input tokens and $10 per million output tokens (with cached input tokens at 95% off).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Argon helped reduce YouTube’s comment‑system server load by 45% and identified long‑standing bugs in Project Wing’s code",
+     "source": 1,
+     "quote": "Argon identified redundant emoji rendering that, when eliminated, dropped server load by 45 percent.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Gemini 4 Argon began a wide rollout on Oct. 13, 2026, limited to paying users",
+     "source": 1,
+     "quote": "Argon is beginning its wide rollout today, but it’s only coming to paying users at this time, and even those on lower-tier plans won’t have full access.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 13"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+     "published": "Tue, 13 Oct 2026 16:00:02 +0000",
+     "published_iso": "2026-10-13T16:00:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Google AI Blog",
+     "owner": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "published": "Tue, 13 Oct 2026 16:00:00 +0000",
+     "published_iso": "2026-10-13T16:00:00+00:00",
+     "kind": "vendor",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
+     "published": "Tue, 13 Oct 2026 16:00:00 +0000",
+     "published_iso": "2026-10-13T16:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+    "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "https://deepmind.google/models/gemini/"
+   ],
+   "primary": [
+    {
+     "url": "https://arxiv.org/abs/2610.07304",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://arxiv.org/abs/2610.07304"
+    },
+    {
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "type": "subject's own statement",
+     "verified": true,
+     "label": "Google AI Blog"
+    }
+   ],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Google, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      15,
+      25,
+      "Statement from the organization involved (not independent)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Included unsupported date 'Oct. 13, 2026'",
+     "editor: Used word-for-word copied phrasing from sources regarding pricing"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-13-apple-launches-299-homeview-smart-display-with-siri-ai-f7017",
+   "date": "2026-10-13",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple launches $299 HomeView smart display with Siri AI",
+   "in_brief": "Apple opened pre‑orders on Oct. 13 for its new 7‑inch HomeView smart display hub, priced at $299. The device adds face‑recognition, multi‑user profiles and Siri AI, but will not be sold in the EU.",
+   "so_what": "Apple’s HomeView is the company’s first dedicated smart‑home hub, aiming to bring its upgraded generative‑AI Siri into the connected‑home market and compete with Amazon Echo Show and Google Nest Hub. By supporting up to six personalized user profiles and integrating with Apple’s ecosystem—Messages, Calendar, FaceTime and HomeKit—the product seeks to deepen user lock‑in and showcase Apple Intelligence. However, the launch excludes the European Union because Siri AI cannot be offered there under current regulations, limiting the device’s global reach. Analysts will watch whether HomeView drives broader adoption of Apple’s HomeKit accessories and how it impacts Apple’s wearables‑home‑accessories revenue segment, which accounted for $7.88 billion in the last quarter.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "Straightforward product announcement with multiple independent sources",
+   "claims": [
+    {
+     "claim": "Apple opened pre‑orders for the HomeView smart home hub today and priced it at $299.",
+     "source": 1,
+     "quote": "Apple’s first smart display is the 7-inch HomeView for $299. Apple opened preorders for the HomeView smart home hub today.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Ziff Davis"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The HomeView device will not be sold in the European Union because Siri AI is unavailable there due to EU regulations.",
+     "source": 2,
+     "quote": "The HomeView device will not be sold in the European Union, because Siri AI remains unavailable there due to EU regulations, Apple said.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "HomeView can recognize faces, supports up to six users, and shows personalized information.",
+     "source": 3,
+     "quote": "It’s designed for multiple people in a household, and will recognize the user by their face to display pertinent information. ... It supports up to six users.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [3]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+     "published": "Tue, 13 Oct 2026 15:29:17 +0000",
+     "published_iso": "2026-10-13T15:29:17+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+     "published": "Tue, 13 Oct 2026 16:25:22 GMT",
+     "published_iso": "2026-10-13T16:25:22+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
+     "published": "Tue, 13 Oct 2026 19:23:39 GMT",
+     "published_iso": "2026-10-13T19:23:39+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/13/apples-new-smart-home-line-up-includes-a-smart-lock-thermostat-and-video-doorbells/",
+     "published": "Tue, 13 Oct 2026 13:37:19 +0000",
+     "published_iso": "2026-10-13T13:37:19+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/home-and-office/apple-homeview-smart-home-hub-features-price/",
+     "published": "2026-10-13T14:31:03Z",
+     "published_iso": "2026-10-13T14:31:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+    "https://www.wired.com/story/apple-homeview-smart-display/",
+    "https://www.apple.com/apple-homeview/",
+    "https://www.wired.com/story/apple-overhauls-its-smart-home-play-with-new-hardware-and-a-home-collection/",
+    "https://www.zdnet.com/uncategorized/apple-smart-home-event-homeview-homepod-mini-new-apple-tv/",
+    "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+    "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
+    "https://techcrunch.com/2026/10/13/apples-new-smart-home-line-up-includes-a-smart-lock-thermostat-and-video-doorbells/",
+    "https://www.zdnet.com/home-and-office/apple-homeview-smart-home-hub-features-price/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Condé Nast, Guardian Media Group, Yahoo, Ziff Davis"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6
+  },
+  {
+   "id": "2026-10-13-google-adds-free-personal-app-publishing-and-ai-game-discove-164d5",
+   "date": "2026-10-13",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google adds free personal app publishing and AI game discovery to Play Store",
+   "in_brief": "Google announced that users can now publish AI‑generated “vibe‑coded” apps to a private section of the Play Store, and it launched the Game Finder feature that uses Gamer DNA to recommend games. Both changes roll out in the United States today.",
+   "so_what": "The updates lower the barrier for individuals to create and run custom Android apps without a paid developer account, expanding Google’s AI Studio ecosystem and keeping the apps isolated from the public catalog. By keeping the apps in a personal library, Google emphasizes privacy and security while still offering a path to graduate to a professional developer account. The Game Finder tool leverages usage data from 1.2 billion Android gamers to build a Gamer DNA profile, aiming to improve discovery for casual and niche players. Watch for expansion to additional markets, the introduction of sharing features, and how the recommendation engine evolves as more users adopt the AI‑driven publishing flow.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcement",
+   "claims": [
+    {
+     "claim": "Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store.",
+     "source": 2,
+     "quote": "Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo",
+      "Ziff Davis"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The personal apps are placed in a private “personal library” section and are not listed in the public Play Store catalog.",
+     "source": 3,
+     "quote": "Your app will only be available on your own devices to start (including tablets and computers with access to the Play Store) in a new \"personal library\" section",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Game Finder and Gamer DNA are rolling out in the US today, with other markets following “soon.”",
+     "source": 1,
+     "quote": "Game Finder and Gamer DNA are rolling out in the US today, with other markets following “soon.”",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+     "published": "Tue, 13 Oct 2026 17:00:39 +0000",
+     "published_iso": "2026-10-13T17:00:39+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+     "published": "2026-10-13T13:00:00-04:00",
+     "published_iso": "2026-10-13T17:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+     "published": "Tue, 13 Oct 2026 17:00:00 +0000",
+     "published_iso": "2026-10-13T17:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/tech/custom-android-apps-google-ai-studio/",
+     "published": "2026-10-13T17:00:00Z",
+     "published_iso": "2026-10-13T17:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+    "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+    "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+    "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+    "https://www.zdnet.com/tech/custom-android-apps-google-ai-studio/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Condé Nast, Vox Media, Yahoo, Ziff Davis"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-13-economists-hall-and-woodford-win-2026-nobel-for-stabilisatio-3044e",
+   "date": "2026-10-13",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Economists Hall and Woodford Win 2026 Nobel for Stabilisation Research",
+   "in_brief": "Robert E. Hall and Michael Woodford were awarded the 2026 Sveriges Riksbank Prize in Economic Sciences for their work on macroeconomic stabilisation. Their models are now used by central banks and finance ministries worldwide to smooth economic fluctuations.",
+   "so_what": "The award recognises a shift in how policymakers address recessions, inflation and employment shocks. Hall’s focus on forward‑looking consumer behaviour and Woodford’s development of the New Keynesian framework provide a theoretical foundation that underpins tools such as forward guidance, which central banks have relied on since the 2008 financial crisis and the Covid‑19 pandemic. By formalising the microeconomic foundations of macro policy, their research helps governments design interventions that can mitigate the social and economic damage of crises. Observers will watch how the laureates’ ideas influence future monetary policy, especially as economies confront energy price spikes and other emerging shocks. The prize also highlights the continued relevance of Keynesian thinking, updated for modern data and modelling techniques.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Robert E. Hall and Michael Woodford received the 2026 Nobel economics prize for their research on stabilising economies",
+     "source": 1,
+     "quote": "The 2026 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel has been awarded to economists Robert E. Hall and Michael Woodford for their research on how to stabilize an economy to avoid socially and economically damaging fluctuations in inflation, growth and employment.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The prize carries a cash award of 12 million Swedish kronor (about US$1.2 million)",
+     "source": 1,
+     "quote": "The work of the two laureates, who share the prize of 12 million Swedish kronor (around US$1.2 million), builds on the ideas of the twentieth‑century British economist John Maynard Keynes.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Their models are described as a paradigm shift and are used by central banks and finance ministries worldwide",
+     "source": 2,
+     "quote": "The Royal Swedish Academy of Sciences said it was recognising the pair for generating “a paradigm shift in stabilisation policy”, awarding them the prize worth a combined $1.2m (£900,000).",
+     "status": "verified",
+     "corroborated_by": [
+      "nature.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03251-4",
+     "published": "2026-10-12",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+     "published": "Mon, 12 Oct 2026 14:20:53 GMT",
+     "published_iso": "2026-10-12T14:20:53+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03251-4",
+    "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models"
+   ],
+   "primary": [
+    {
+     "url": "https://web.stanford.edu/~rehall/Stochastic-JPE-Dec-1978.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://web.stanford.edu/~rehall/Stochastic-JPE-Dec-1978.pdf"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03251-4",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 81,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Guardian Media Group, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-12-hall-and-woodford-awarded-2026-nobel-in-economic-sciences-fo-3ff38",
+    "date": "2026-10-12",
+    "label": "Confirmed",
+    "score": 81
+   }
+  },
+  {
+   "id": "2026-10-13-voyager-technologies-griffin-1-lander-completes-critical-nas-016fa",
+   "date": "2026-10-13",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Voyager Technologies’ Griffin-1 Lander Completes Critical NASA JPL Tests",
+   "in_brief": "NASA’s Jet Propulsion Laboratory confirmed that the Griffin-1 lander has passed environmental, vibration and electromagnetic tests, clearing it for a planned launch later this year. The mission will deliver over 1,100 pounds of cargo to the Moon’s South Pole as part of the agency’s Commercial Lunar Payload Services program.",
+   "so_what": "The successful testing of Griffin-1 demonstrates that a commercial, infrastructure‑class lander is ready to support NASA’s Moon Base Program, marking a shift toward greater private‑sector involvement in lunar exploration. By carrying ten science and technology demonstrations from six nations, the mission will provide data on lunar surface operations and validate new hardware, including the largest commercial payload ever sent to the Moon, the FLIP rover. The launch, slated for later in 2026 aboard a SpaceX Falcon Heavy, will place the lander in Nobile Crater near the lunar south pole, a region of interest for future habitats and resource utilization. Observers will watch for the launch schedule, integration with the Falcon Heavy, and the performance of the onboard experiments once the lander touches down.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Griffin-1 has passed a series of critical environmental, vibration and electromagnetic tests at JPL.",
+     "source": 1,
+     "quote": "Results show that Voyager Technologies’ Griffin Mission One (Griffin-1) spacecraft is ready to survive the rigors of space exploration.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The lander is scheduled to launch later this year on a SpaceX Falcon Heavy rocket.",
+     "source": 1,
+     "quote": "Griffin-1 is expected to launch later this year aboard a SpaceX Falcon Heavy rocket.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Griffin-1 will deliver more than 1,100 pounds of cargo to Nobile Crater near the lunar South Pole, including the largest commercial payload ever delivered to the Moon.",
+     "source": 1,
+     "quote": "It will deliver more than 1,100 pounds (455 kilograms) of cargo to Nobile Crater near the lunar South Pole, which categorizes it as an infrastructure-class lander...including the largest commercial payload ever delivered to the Moon, Astrolab’s FLIP (FLEX Lunar Innovation Platform) rover.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+     "published": "Tue, 13 Oct 2026 13:00:00 +0000",
+     "published_iso": "2026-10-13T13:00:00+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-10-nasa-jpl-readies-voyager-technologies.html",
+     "published": "Tue, 13 Oct 2026 15:00:19 EDT",
+     "published_iso": "2026-10-13T19:00:19+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
+    "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+    "https://phys.org/news/2026-10-nasa-jpl-readies-voyager-technologies.html"
+   ],
+   "primary": [
+    {
+     "url": "https://catalog.archives.gov/id/123857948",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://catalog.archives.gov/id/123857948"
+    },
+    {
+     "url": "http://www.jpl.nasa.gov",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://www.jpl.nasa.gov"
+    },
+    {
+     "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 83,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-13-uk-high-court-rules-chinese-law-governs-claims-to-seized-61-9db00",
+   "date": "2026-10-13",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "UK High Court rules Chinese law governs claims to seized 61,000 Bitcoin",
+   "in_brief": "A London High Court decided that Chinese law, not English law, applies to victims' claims over 61,000 BTC seized from fraudster Zhimin Qian. The ruling narrows the path for victims and improves the UK government's chances of retaining the roughly $5 billion asset.",
+   "so_what": "The decision clarifies the legal framework for one of the largest crypto seizures, affecting how victims of cross‑border fraud can seek restitution. By applying Chinese law, the court limits the ability of thousands of Chinese investors to claim ownership under English property rules, potentially leaving the seized Bitcoin under government control. The outcome will influence future international fraud cases involving digital assets and may set precedent for how jurisdictions handle crypto linked to foreign crimes. Watch for the upcoming appeal by victims' lawyers and subsequent hearings that will interpret the content of Chinese law and determine any possible compensation scheme.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "A London court ruled that Chinese law governs fraud victims’ claims to 61,000 bitcoin, worth about £3.8 billion",
+     "source": 1,
+     "quote": "A London court ruled that Chinese law governs fraud victims’ claims to 61,000 bitcoin, worth about £3.8 billion",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The High Court in London ruled that Chinese law applies to victims' claims on 61,000 BTC seized",
+     "source": 2,
+     "quote": "The High Court in London ruled that Chinese law applies to victims' claims on 61,000 BTC seized",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Zhimin Qian pleaded guilty to defrauding more than 128,000 investors through a Ponzi scheme",
+     "source": 1,
+     "quote": "Zhimin Qian pleaded guilty to defrauding more than 128,000 investors through a Ponzi scheme",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/13/u-k-court-ruling-boosts-government-s-chances-of-keeping-gbp3-8-billion-seized-bitcoin",
+     "published": "Tue, 13 Oct 2026 09:25:03 +0000",
+     "published_iso": "2026-10-13T09:25:03+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling",
+     "published": "Tue, 13 Oct 2026 10:51:33 +0000",
+     "published_iso": "2026-10-13T10:51:33+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/10/13/u-k-court-ruling-boosts-government-s-chances-of-keeping-gbp3-8-billion-seized-bitcoin",
+    "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling"
+   ],
+   "primary": [
+    {
+     "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/2509",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/2509"
+    }
+   ],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-13-blur-to-shut-down-website-on-nov-12-as-nft-trading-volume-pl-0601d",
+   "date": "2026-10-13",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Blur to Shut Down Website on Nov. 12 as NFT Trading Volume Plummets",
+   "in_brief": "Blur announced it will deprecate its front‑end marketplace on Nov. 12, while its on‑chain contracts stay active. The move follows a collapse of monthly NFT trading volume by more than 99% since its 2023 peak.",
+   "so_what": "Blur was once the leading Ethereum NFT marketplace, capturing over 70% of trading volume in March 2023. Over the next three years, its fee‑free model generated virtually no protocol revenue, and activity fell from roughly $1.43 billion to under $7 million per month by March 2026 – a drop of more than 99.5%. The shutdown of the website marks the second consecutive closure of a project built by the same founder after the Blast layer‑2 network also announced its wind‑down. While the front‑end will disappear, the underlying smart contracts remain on Ethereum, and BLUR token holders will still control the fee‑switch mechanism. Observers will watch how users withdraw assets from the Blend lending service and whether the protocol continues to see any on‑chain activity despite the loss of its user‑facing interface.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Blur will close its NFT marketplace website on Nov. 12, 2026.",
+     "source": 1,
+     "quote": "Blur will close its website on Nov. 12 after monthly trading fell from about $1.43 billion at its 2023 peak to under $7 million",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The Blur protocol’s smart contracts will remain operational on Ethereum after the frontend shutdown.",
+     "source": 1,
+     "quote": "Blur’s underlying smart contracts will remain operational on Ethereum, meaning the shutdown does not eliminate the blockchain-based trading system",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Monthly trading volume fell more than 99.5% from about $1.43 billion in March 2023 to less than $7 million in March 2026.",
+     "source": 1,
+     "quote": "Monthly trading volume plunged more than 99.5%, from about $1.43 billion in March 2023 to less than $7 million in March 2026",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
+     "published": "Tue, 13 Oct 2026 04:43:18 +0000",
+     "published_iso": "2026-10-13T04:43:18+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/380802/nft-marketplace-blur-to-shut-down-website-stop-new-blend-loans-next-month",
+     "published": "Tue, 13 Oct 2026 09:12:45 +0000",
+     "published_iso": "2026-10-13T09:12:45+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
+    "https://decrypt.co/380802/nft-marketplace-blur-to-shut-down-website-stop-new-blend-loans-next-month"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-13-docker-hub-critical-token-flaw-fixed-after-two-years-of-expo-57bd7",
+   "date": "2026-10-13",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Docker Hub critical token flaw fixed after two years of exposure",
+   "in_brief": "A vulnerability in Docker Hub allowed attackers to reuse personal access tokens to impersonate other users and modify container images. Docker patched the issue on September 30, 2026 and reported no evidence of exploitation.",
+   "so_what": "The flaw, tracked as CVE-2026-105445, stemmed from Docker Hub reassigning personal access tokens (PATs) to a new organization owner without changing the secret or obtaining consent, effectively letting an attacker act as the target user at the registry level. Because container images are a core component of software supply chains, the ability to push, pull, or delete images under a legitimate name posed a significant risk to downstream users and organizations. Docker identified the issue after a report on September 30, deployed a fix within four hours, and deactivated transferred tokens by October 8. While Docker found no signs of abuse after reviewing 304,000 pushes, the incident highlights the importance of token management and consent mechanisms in cloud services. Users should verify that their PATs are not unintentionally shared and monitor for unexpected image activity.",
+   "what_to_do": "1. Review any recent notifications from Docker about transferred personal access tokens and revoke any you did not authorize.\n2. Rotate all personal access tokens used with Docker Hub and update any automation scripts or CI pipelines.\n3. Monitor your Docker Hub repositories for unexpected image pushes, deletions, or modifications and report suspicious activity to Docker support.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Docker Hub reassigned personal access tokens to a designated organization owner without changing the secret or obtaining consent, allowing attackers to authenticate as the target user.",
+     "source": 1,
+     "quote": "The CVE-2026-105445 flaw stems from Docker Hub reassigning a personal access token (PAT) to a designated organization owner without changing its secret or obtaining the target's consent.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Docker deployed a fix to production less than four hours after receiving a vulnerability report on September 30, 2026.",
+     "source": 1,
+     "quote": "On September 30, 2026, Docker received a vulnerability report describing the issue, confirmed it, and deployed a fix to production less than four hours later.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Docker found no evidence of exploitation after examining 304,000 pushes made with transferred tokens.",
+     "source": 1,
+     "quote": "Docker says it found no evidence of exploitation after examining 304,000 pushes made with transferred tokens and analyzing high-risk public images.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+     "published": "Tue, 13 Oct 2026 11:20:20 -0400",
+     "published_iso": "2026-10-13T15:20:20+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+     "published": "Tue, 13 Oct 2026 23:33:18 +0530",
+     "published_iso": "2026-10-13T18:03:18+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+    "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 466,
+  "stories_considered": 15,
+  "published": 11,
+  "outlets": 36
+ }
+}

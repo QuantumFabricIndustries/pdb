@@ -1,0 +1,163 @@
+[
+ {
+  "section": "threat",
+  "title": "Norwegian regulator fines Microsoft-owned Xandr $9.6 million for unlawful Grindr data sharing",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "French supermarkets hit by cyberattack that heated refrigeration units",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft mentioned specific CERT-FR advice about AK-SM and AK-SC controllers, but sources [5] mention CERT-FR warning about them without quoting explicit instructions to disconnect (though ANSSI head mentioned taking them off the internet). Wait, source [5] says: 'CERT-FR, the French government's computer emergency response team, said in an alert published in French on October 12 that it is aware of numerous compromises affecting two Danfoss controller series, the AK-SM and the AK-SC. It told operators to disconnect the controllers or filter access to them.' Actually, that IS in the source. Let me check the what_to_do and other fields.",
+   "editor: Draft so_what mentions 'Retailers such as Intermarché, Coopérative U, Carrefour, Monoprix and Leclerc reported losses ranging from tens of millions of euros to food waste worth millions, and some locations saw smoke or small fires.' Source [4] says 'some stores, the overheating of equipment resulted in smoke, but no fires have been reported.' Source [3] mentions Paris prosecutor opening investigation into 'outbreak of fires.' The draft states 'some locations saw smoke or small fires' as fact, whereas source [4] explicitly says 'no fires have been reported' for Les Mousquetaires, and prosecutors are investigating. Let's fix the fire claim to match sources accurately."
+  ],
+  "owners": 7
+ },
+ {
+  "section": "threat",
+  "title": "Ledger confirms hardware implant in CryptoBilis‑sold wallets stole recovery phrases",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [],
+  "owners": 6
+ },
+ {
+  "section": "ai",
+  "title": "Google rolls out Gemini 4 Argon to paying subscribers",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included unsupported date 'Oct. 13, 2026'",
+   "editor: Used word-for-word copied phrasing from sources regarding pricing"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple launches $299 HomeView smart display with Siri AI",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 6
+ },
+ {
+  "section": "ai",
+  "title": "Google adds free personal app publishing and AI game discovery to Play Store",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "science",
+  "title": "Economists Hall and Woodford Win 2026 Nobel for Stabilisation Research",
+  "verdict": "PUBLISH",
+  "truth": 81,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Voyager Technologies’ Griffin-1 Lander Completes Critical NASA JPL Tests",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "UK High Court rules Chinese law governs claims to seized 61,000 Bitcoin",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Bitcoin whale moves $377 million after four years of inactivity",
+  "verdict": "HOLD",
+  "truth": 22,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Blur to Shut Down Website on Nov. 12 as NFT Trading Volume Plummets",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Docker Hub critical token flaw fixed after two years of exposure",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Bill Gates water‑shortage warning video is a deepfake",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact‑Check Confirms Hitler Photo Is Authentic, Not a Modern Hoax",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-generated image of alleged surveillance footage debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

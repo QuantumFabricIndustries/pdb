@@ -2436,5 +2436,162 @@
    "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
    "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds"
   ]
+ },
+ {
+  "id": "2026-10-13-norwegian-regulator-fines-microsoft-owned-xandr-9-6-million-4b94e",
+  "date": "2026-10-13",
+  "section": "threat",
+  "headline": "Norwegian regulator fines Microsoft-owned Xandr $9.6 million for unlawful Grindr data sharing",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+   "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+   "https://www.malwarebytes.com/blog/news/2026/10/grindr-users-sensitive-data-shared-through-ad-auctions-without-valid-consent"
+  ]
+ },
+ {
+  "id": "2026-10-13-french-supermarkets-hit-by-cyberattack-that-heated-refrigera-314e6",
+  "date": "2026-10-13",
+  "section": "threat",
+  "headline": "French supermarkets hit by cyberattack that heated refrigeration units",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/technology/video/2026/oct/13/french-supermarket-director-apologises-after-cyber-attack-spoils-fresh-and-frozen-food-video",
+   "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+   "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+   "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
+   "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+   "https://www.malwarebytes.com/blog/news/2026/10/hackers-heat-up-supermarket-fridges-spoiling-food-across-france"
+  ]
+ },
+ {
+  "id": "2026-10-13-ledger-confirms-hardware-implant-in-cryptobilis-sold-wallets-82780",
+  "date": "2026-10-13",
+  "section": "threat",
+  "headline": "Ledger confirms hardware implant in CryptoBilis‑sold wallets stole recovery phrases",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://therecord.media/ledger-cryptocurrency-wallet-implant-theft",
+   "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+   "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+   "https://decrypt.co/380848/trezor-cuts-resellers-ledger-finds-spy-implant-crypto-wallets",
+   "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+   "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+   "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network"
+  ]
+ },
+ {
+  "id": "2026-10-13-google-rolls-out-gemini-4-argon-to-paying-subscribers-4876d",
+  "date": "2026-10-13",
+  "section": "ai",
+  "headline": "Google rolls out Gemini 4 Argon to paying subscribers",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+   "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
+   "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+   "https://deepmind.google/models/gemini/"
+  ]
+ },
+ {
+  "id": "2026-10-13-apple-launches-299-homeview-smart-display-with-siri-ai-f7017",
+  "date": "2026-10-13",
+  "section": "ai",
+  "headline": "Apple launches $299 HomeView smart display with Siri AI",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+   "https://www.wired.com/story/apple-homeview-smart-display/",
+   "https://www.apple.com/apple-homeview/",
+   "https://www.wired.com/story/apple-overhauls-its-smart-home-play-with-new-hardware-and-a-home-collection/",
+   "https://www.zdnet.com/uncategorized/apple-smart-home-event-homeview-homepod-mini-new-apple-tv/",
+   "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+   "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
+   "https://techcrunch.com/2026/10/13/apples-new-smart-home-line-up-includes-a-smart-lock-thermostat-and-video-doorbells/",
+   "https://www.zdnet.com/home-and-office/apple-homeview-smart-home-hub-features-price/"
+  ]
+ },
+ {
+  "id": "2026-10-13-google-adds-free-personal-app-publishing-and-ai-game-discove-164d5",
+  "date": "2026-10-13",
+  "section": "ai",
+  "headline": "Google adds free personal app publishing and AI game discovery to Play Store",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+   "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+   "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+   "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+   "https://www.zdnet.com/tech/custom-android-apps-google-ai-studio/"
+  ]
+ },
+ {
+  "id": "2026-10-13-economists-hall-and-woodford-win-2026-nobel-for-stabilisatio-3044e",
+  "date": "2026-10-13",
+  "section": "science",
+  "headline": "Economists Hall and Woodford Win 2026 Nobel for Stabilisation Research",
+  "label": "Confirmed",
+  "score": 81,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03251-4",
+   "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models"
+  ]
+ },
+ {
+  "id": "2026-10-13-voyager-technologies-griffin-1-lander-completes-critical-nas-016fa",
+  "date": "2026-10-13",
+  "section": "science",
+  "headline": "Voyager Technologies’ Griffin-1 Lander Completes Critical NASA JPL Tests",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
+   "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+   "https://phys.org/news/2026-10-nasa-jpl-readies-voyager-technologies.html"
+  ]
+ },
+ {
+  "id": "2026-10-13-uk-high-court-rules-chinese-law-governs-claims-to-seized-61-9db00",
+  "date": "2026-10-13",
+  "section": "money",
+  "headline": "UK High Court rules Chinese law governs claims to seized 61,000 Bitcoin",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/10/13/u-k-court-ruling-boosts-government-s-chances-of-keeping-gbp3-8-billion-seized-bitcoin",
+   "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling"
+  ]
+ },
+ {
+  "id": "2026-10-13-blur-to-shut-down-website-on-nov-12-as-nft-trading-volume-pl-0601d",
+  "date": "2026-10-13",
+  "section": "money",
+  "headline": "Blur to Shut Down Website on Nov. 12 as NFT Trading Volume Plummets",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
+   "https://decrypt.co/380802/nft-marketplace-blur-to-shut-down-website-stop-new-blend-loans-next-month"
+  ]
+ },
+ {
+  "id": "2026-10-13-docker-hub-critical-token-flaw-fixed-after-two-years-of-expo-57bd7",
+  "date": "2026-10-13",
+  "section": "scam",
+  "headline": "Docker Hub critical token flaw fixed after two years of exposure",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+   "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
+  ]
  }
 ]
