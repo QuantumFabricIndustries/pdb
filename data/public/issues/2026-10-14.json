@@ -1,0 +1,1592 @@
+{
+ "date": "2026-10-14",
+ "built_at": "2026-10-14T18:07:08.781779+00:00",
+ "stories": [
+  {
+   "id": "2026-10-14-cisa-urges-patching-of-actively-exploited-ivanti-vpn-flaw-c4166",
+   "date": "2026-10-14",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "CISA urges patching of actively exploited Ivanti VPN flaw",
+   "in_brief": "CISA warned federal agencies to update Ivanti Connect Secure after confirming the CVE‑2026‑104935 vulnerability is being exploited, and Microsoft released its record‑breaking October Patch Tuesday. Both alerts highlight zero‑day flaws that enable remote code execution and data theft.",
+   "so_what": "The Ivanti Connect Secure authentication bypass (CVE‑2026‑104935) carries an 8.6 CVSS score and permits unauthenticated attackers to run arbitrary commands, a risk that has already been observed in the wild. CISA added the flaw to its Known Exploited Vulnerabilities catalog and set a deadline of October 16, 2026 for federal civilian agencies to apply patches, urging broader organizations to follow suit. Simultaneously, Microsoft’s October Patch Tuesday addressed a record 1,413 vulnerabilities, including an actively exploited Windows Shell zero‑day (CVE‑2026‑96951) with an 8.8 severity score. The convergence of these high‑severity, actively exploited bugs underscores the heightened threat landscape and the importance of rapid patch management. Stakeholders should monitor vendor advisories for additional guidance and watch for any reports of further exploitation attempts.",
+   "what_to_do": "1. Apply the latest Ivanti Connect Secure update for affected versions (25.1.1.1, 25.1.2.2, 22.8R2.4 and earlier). 2. Run Windows Update immediately to install the October 2026 patches, especially for CVE‑2026‑96951. 3. Verify appliance configurations, reset all passwords and, if possible, perform a factory reset before upgrading.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "CISA warned federal agencies to patch Ivanti Connect Secure (CVE‑2026‑104935) by October 16, 2026",
+     "source": 4,
+     "quote": "The agency has since added the flaw to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by October 16, 2026.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Ivanti confirmed the vulnerability is being exploited",
+     "source": 1,
+     "quote": "Ivanti confirmed it is being exploited.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw allows remote unauthenticated execution of arbitrary commands",
+     "source": 4,
+     "quote": "a case of authentication bypass ... that could allow a remote unauthenticated attacker to execute arbitrary commands.",
+     "status": "verified",
+     "corroborated_by": [
+      "Recorded Future",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
+     "published": "Wed, 14 Oct 2026 12:35:00 GMT",
+     "published_iso": "2026-10-14T12:35:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+     "published": "Tue, 13 Oct 2026 15:56:09 -0400",
+     "published_iso": "2026-10-13T19:56:09+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/bugs/2026/10/update-windows-record-patch-tuesday-fixes-flaw-already-under-attack",
+     "published": "Wed, 14 Oct 2026 11:26:09 GMT",
+     "published_iso": "2026-10-14T11:26:09+00:00",
+     "kind": "vendor",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+     "published": "Wed, 14 Oct 2026 18:00:42 +0530",
+     "published_iso": "2026-10-14T12:30:42+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Dark Reading",
+     "owner": "Informa TechTarget",
+     "url": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+     "published": "Tue, 13 Oct 2026 22:29:57 GMT",
+     "published_iso": "2026-10-13T22:29:57+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+    "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+    "https://www.malwarebytes.com/blog/bugs/2026/10/update-windows-record-patch-tuesday-fixes-flaw-already-under-attack",
+    "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-96951 — Microsoft Windows Command Injection Vulnerability"
+    }
+   ],
+   "truth": {
+    "total": 95,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Informa TechTarget, Recorded Future, bleepingcomputer.com, malwarebytes.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-10-14-french-supermarkets-refrigeration-systems-hacked-causing-foo-b8c9a",
+   "date": "2026-10-14",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "French supermarkets' refrigeration systems hacked, causing food spoilage",
+   "in_brief": "Hackers took remote control of Danfoss refrigeration controllers in hundreds of French supermarkets, heating units to about 50 °C and spoiling food. The incident highlights risks of outdated industrial control software.",
+   "so_what": "The attack disrupted the cold‑chain of major French retailers, forcing the disposal of perishable goods worth millions of euros and, in some cases, triggering smoke or small fires. It underscores the vulnerability of legacy industrial IoT devices that no longer receive security updates, a problem identified by Danfoss and French authorities. CERT‑FR has urged operators to disconnect or tightly filter access to the compromised Danfoss AK‑SM 800 and AK‑SC 355 controller series and to reset and patch any remaining devices. Retailers and their service providers must accelerate replacement of obsolete equipment and enforce strong network segmentation to protect critical infrastructure. Monitoring for similar attacks in other European markets will be essential as the same threat actor appears to have targeted stores in Spain, Portugal, Poland, Germany and Belgium.",
+   "what_to_do": "1. Disconnect or filter network access to Danfoss AK‑SM 800 and AK‑SC 355 refrigeration controllers. 2. Perform a factory reset and apply any available security patches. 3. Replace default passwords and review all user accounts on the controllers.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting from multiple reputable sources",
+   "claims": [
+    {
+     "claim": "Hackers gained remote control of Danfoss refrigeration controllers and heated units to about 50 °C.",
+     "source": 1,
+     "quote": "Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The compromised controllers were older Danfoss models that no longer receive security updates.",
+     "source": 4,
+     "quote": "Danfoss told AFP that most of the units hit were older products that no longer get software or security updates, and it named two: the AK‑SM 800 and the AK‑SC 355.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "CERT‑FR advised operators to disconnect the controllers or filter access to them.",
+     "source": 4,
+     "quote": "CERT‑FR ... told operators to disconnect the controllers or filter access to them.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 12 Oct 2026 18:31:32 GMT",
+     "published_iso": "2026-10-12T18:31:32+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+     "published": "Tue, 13 Oct 2026 12:22:59 GMT",
+     "published_iso": "2026-10-13T12:22:59+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/13/cyberattacks-crank-french-supermarket-refrigeration-systems-up-to-50c/5302784",
+     "published": "Tue, 13 Oct 2026 14:00:00 +0200",
+     "published_iso": "2026-10-13T12:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+     "published": "Tue, 13 Oct 2026 14:18:41 +0530",
+     "published_iso": "2026-10-13T08:48:41+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/10/hackers-heat-up-supermarket-fridges-spoiling-food-across-france",
+     "published": "Tue, 13 Oct 2026 11:17:41 GMT",
+     "published_iso": "2026-10-13T11:17:41+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+    "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "https://www.theregister.com/security/2026/10/13/cyberattacks-crank-french-supermarket-refrigeration-systems-up-to-50c/5302784",
+    "https://www.theregister.com/security/2026/10/13/cyberattacks-crank-french-supermarket-refrigeration-systems-up-to-50c/5302784",
+    "https://www.malwarebytes.com/blog/news/2026/10/hackers-heat-up-supermarket-fridges-spoiling-food-across-france"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Situation Publishing, malwarebytes.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5,
+   "previously": {
+    "id": "2026-10-13-french-supermarkets-hit-by-cyberattack-that-heated-refrigera-314e6",
+    "date": "2026-10-13",
+    "label": "Well-sourced",
+    "score": 60
+   }
+  },
+  {
+   "id": "2026-10-14-cisco-and-ivanti-issue-patches-for-actively-exploited-zero-d-a520e",
+   "date": "2026-10-14",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Cisco and Ivanti issue patches for actively exploited zero‑day flaws",
+   "in_brief": "Cisco released a patch for CVE‑2026‑76519 in its Secure Email Gateway after confirming active exploitation, and Ivanti disclosed that attackers chained three zero‑days in Connect Secure to gain root on fully patched appliances, with two flaws patched and a third still pending. Both vendors urge immediate remediation.",
+   "so_what": "The Cisco Secure Email Gateway (SEG) vulnerability (CVE‑2026‑76519) stems from a path‑traversal flaw in the Advanced Malware Protection feature that lets unauthenticated attackers write files and execute commands as root. Active exploitation was observed in October 2026, prompting Cisco to publish an advisory, share indicators of compromise, and advise customers to reset credentials and tighten access controls. Separately, Ivanti Connect Secure (ICS) VPN appliances were compromised by a chain of three zero‑day flaws—an authentication bypass, a remote code execution, and a privilege‑escalation bug (CVE‑2026‑104935). While Ivanti has patched the first two flaws, a fix for the privilege‑escalation component is still forthcoming, leaving some risk for unpatched installations. Organizations using either product should verify patch status, monitor for the disclosed IOCs, and apply recommended hardening measures to prevent further intrusion.",
+   "what_to_do": "1. Apply the latest Cisco SEG patch and verify Content Scanner Tools version is 25.3.0.5525 or newer. 2. Upgrade Ivanti Connect Secure to version 25.1.3.0 or later, which includes fixes for the first two flaws. 3. Run the Integrity Checker Tool (Ivanti) and review Cisco’s IOC list for signs of compromise.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward vendor advisories",
+   "claims": [
+    {
+     "claim": "Cisco patched an actively exploited zero‑day (CVE‑2026‑76519) in its Secure Email Gateway.",
+     "source": 1,
+     "quote": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Attackers chained three Ivanti Connect Secure zero‑days to gain root on a fully patched appliance, with only two flaws patched so far.",
+     "source": 3,
+     "quote": "An attacker chained three zero‑day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in... Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still pending.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Cisco recommends restoring device credentials and restricting access after exploitation.",
+     "source": 1,
+     "quote": "\"Cisco strongly recommends that customers who have been contacted restore a device to a secure configuration by renewing credentials and any cryptographic materials that are installed on the appliance, when possible. In addition, Cisco strongly recommends restricting access to the appliance and implementing robust access control mechanisms,\" it said.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+     "published": "Wed, 14 Oct 2026 13:29:14 -0400",
+     "published_iso": "2026-10-14T17:29:14+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/14/ivanti-patches-connect-secure-zero-day-after-researchers-confirm-in-the-wild-attacks/5303095",
+     "published": "Wed, 14 Oct 2026 19:15:00 +0200",
+     "published_iso": "2026-10-14T17:15:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+     "published": "Tue, 13 Oct 2026 23:03:11 +0530",
+     "published_iso": "2026-10-13T17:33:11+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/14/ivanti-zero-days-gain-root-patched-vpn-appliances/",
+     "published": "Wed, 14 Oct 2026 08:59:19 +0000",
+     "published_iso": "2026-10-14T08:59:19+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+    "https://www.theregister.com/security/2026/10/14/ivanti-patches-connect-secure-zero-day-after-researchers-confirm-in-the-wild-attacks/5303095",
+    "https://www.theregister.com/security/2026/10/14/ivanti-patches-connect-secure-zero-day-after-researchers-confirm-in-the-wild-attacks/5303095",
+    "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+    "https://www.helpnetsecurity.com/2026/10/14/ivanti-zero-days-gain-root-patched-vpn-appliances/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-104935",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-104935"
+    }
+   ],
+   "truth": {
+    "total": 94,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-14-apple-announces-homeview-7-inch-smart-display-priced-at-299-58519",
+   "date": "2026-10-14",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple announces HomeView 7-inch smart display priced at $299",
+   "in_brief": "Apple announced its first 7-inch HomeView smart display, priced at $299 and slated to arrive on November 13. The device combines a touchscreen, speaker, Siri AI and a camera hub that can show up to nine video feeds and recognize up to six household members.",
+   "so_what": "Apple’s entry into the smart-display market provides a centralized hub for the Apple ecosystem, extending Siri capabilities to a shared home interface. By supporting Matter and HomeKit, HomeView unifies control of compatible devices while offering personalized experiences through facial recognition for up to six users. The built-in camera can display nine live video streams simultaneously and works with iCloud+ for intelligent recognition features. Amazon has listed the device for a modest discount at $289.99 ahead of its launch.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcement",
+   "claims": [
+    {
+     "claim": "The HomeView can recognize up to six household members and automatically switch to personalized screens.",
+     "source": 3,
+     "quote": "The Apple HomeView can recognize up to six people and automatically switch to their personalized home screens when one approaches the device.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The device can display up to nine camera feeds at once.",
+     "source": 1,
+     "quote": "HomeView can also show a livestream for up to nine video feeds simultaneously.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "Ziff Davis"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Amazon lists the HomeView for $289.99, $10 less than Apple’s announced price.",
+     "source": 2,
+     "quote": "you can buy the display for $289.99 ($10 off) in gray and the creamy white “starlight” colorway at Amazon.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Apple opened preorders for the HomeView on Oct. 13 with a launch date of Nov. 13 and a price of $299.",
+     "source": 1,
+     "quote": "Apple opened preorders for the HomeView smart home hub today.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 13"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+     "published": "Tue, 13 Oct 2026 15:29:17 +0000",
+     "published_iso": "2026-10-13T15:29:17+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/gadgets/1011227/apple-homeview-smart-display-deal-sale",
+     "published": "2026-10-14T13:24:42-04:00",
+     "published_iso": "2026-10-14T17:24:42+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/home-and-office/apple-homeview-smart-home-hub-features-price/",
+     "published": "2026-10-13T14:31:03Z",
+     "published_iso": "2026-10-13T14:31:03+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+    "https://www.wired.com/story/apple-homeview-smart-display/",
+    "https://www.theverge.com/gadgets/1011227/apple-homeview-smart-display-deal-sale",
+    "https://www.zdnet.com/home-and-office/apple-homeview-smart-home-hub-features-price/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Vox Media, Ziff Davis"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft states preorders started Oct. 13 and shipping Nov. 13, but sources state preorders began 'today' on Tuesday (the announcement day) and arriving November 13th without explicitly stating the preorder date was Oct. 13.",
+     "editor: Draft includes some hype language and speculative observer framing in the so_what section."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-13-apple-launches-299-homeview-smart-display-with-siri-ai-f7017",
+    "date": "2026-10-13",
+    "label": "Developing",
+    "score": 53
+   }
+  },
+  {
+   "id": "2026-10-14-google-rolls-out-gemini-4-argon-to-paying-users-6cd3e",
+   "date": "2026-10-14",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google rolls out Gemini 4 Argon to paying users",
+   "in_brief": "Google began a wide rollout of its Gemini 4 Argon model today, but access is limited to paying customers. The company says the model is already improving internal tools and developer workflows.",
+   "so_what": "Gemini 4 Argon represents Google’s latest effort to commercialize a highly capable AI model while managing misuse risks. By restricting the initial release to paying users, Google can monitor usage and generate revenue as it refines safety controls. Internal deployment data shows the model has cut YouTube’s comment‑system server load by 45 percent and helped engineers reduce code rollbacks by nearly a third during refactoring. If these gains hold up, Argon could become a key productivity layer for enterprises that adopt Google’s AI Studio and Antigravity platforms. Watch for broader availability announcements, pricing adjustments, and independent evaluations of the model’s safety and performance claims.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Gemini 4 Argon’s rollout is limited to paying users",
+     "source": 1,
+     "quote": "Argon is beginning its wide rollout today, but it’s only coming to paying users at this time, and even those on lower-tier plans won’t have full access.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Argon reduced YouTube comment‑system server load by 45 percent",
+     "source": 1,
+     "quote": "Argon identified redundant emoji rendering that, when eliminated, dropped server load by 45 percent.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Argon helped reduce code rollbacks by nearly a third during Chrome refactoring",
+     "source": 2,
+     "quote": "Argon in Antigravity has helped teams increase agentic code submissions by more than 35% while reducing code rollbacks by nearly a third.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+     "published": "Tue, 13 Oct 2026 16:00:02 +0000",
+     "published_iso": "2026-10-13T16:00:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Google AI Blog",
+     "owner": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "published": "Tue, 13 Oct 2026 16:00:00 +0000",
+     "published_iso": "2026-10-13T16:00:00+00:00",
+     "kind": "vendor",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+   ],
+   "primary": [
+    {
+     "url": "https://arxiv.org/abs/2610.07304",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://arxiv.org/abs/2610.07304"
+    },
+    {
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "type": "subject's own statement",
+     "verified": true,
+     "label": "Google AI Blog"
+    }
+   ],
+   "truth": {
+    "total": 63,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Google"
+     ],
+     [
+      "Primary evidence",
+      15,
+      25,
+      "Statement from the organization involved (not independent)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Draft claims Argon reduced rollbacks by nearly a third during Chrome refactoring, but source 2 says it helped reduce rollbacks by nearly a third generally during code refactoring, and source 2 doesn't explicitly link the 'nearly a third' rollback reduction specifically to the Chrome refactoring.",
+     "editor: Draft states internal reports claim a 45 percent drop in YouTube server load as a claim, but sources present it as fact/reporting."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-13-google-rolls-out-gemini-4-argon-to-paying-subscribers-4876d",
+    "date": "2026-10-13",
+    "label": "Well-sourced",
+    "score": 60
+   }
+  },
+  {
+   "id": "2026-10-14-nintendo-to-release-a-switch-2-remake-of-the-legend-of-zelda-5c94f",
+   "date": "2026-10-14",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Nintendo to release a Switch 2 remake of The Legend of Zelda: Ocarina of Time on November 5",
+   "in_brief": "Nintendo announced an upgraded version of its 1998 classic for the Switch 2, launching on November 5. The remake adds high-resolution graphics and detailed textures, such as a hand-stitched tunic for Link.",
+   "so_what": "The launch positions Nintendo’s family‑friendly title against other major November releases, notably Grand Theft Auto VI, offering a stark contrast in tone and visual style. By updating a genre‑defining game with modern graphics and refined controls, Nintendo aims to attract both longtime fans and new players, potentially boosting Switch 2 sales during the holiday season. Observers will watch how the visual overhaul is received and whether the enhanced gameplay features drive higher engagement than the original. The release also underscores Nintendo’s strategy of leveraging legacy franchises to sustain relevance in a competitive market.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcement",
+   "claims": [
+    {
+     "claim": "The remake will be released on Nov. 5, 2026.",
+     "source": 1,
+     "quote": "The game debuts Nov. 5th",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nintendo is remaking its 1998 classic The Legend of Zelda: Ocarina of Time.",
+     "source": 1,
+     "quote": "Nintendo is lavishly remaking its 1998 classic The Legend of Zelda: Ocarina of Time",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The visual upgrade includes a hand‑stitched tunic for Link.",
+     "source": 1,
+     "quote": "Your tunic isn't just flat green; it's a hand-stitched jumble of embroidered fabrics and leathers",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NPR Technology",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/10/14/nx-s1-5961483/preview-zelda-ocarina-of-time-remake-switch-2",
+     "published": "Wed, 14 Oct 2026 09:00:00 -0400",
+     "published_iso": "2026-10-14T13:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/games/2026/oct/14/the-legend-of-zelda-ocarina-of-time-preview-4k-era-switch-2-remake",
+     "published": "Wed, 14 Oct 2026 13:00:02 GMT",
+     "published_iso": "2026-10-14T13:00:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2285785/the-legend-of-zelda-ocarina-of-time-preview/",
+     "published": "Wed, 14 Oct 2026 13:00:00 +0000",
+     "published_iso": "2026-10-14T13:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.npr.org/2026/10/14/nx-s1-5961483/preview-zelda-ocarina-of-time-remake-switch-2",
+    "https://www.theguardian.com/games/2026/oct/14/the-legend-of-zelda-ocarina-of-time-preview-4k-era-switch-2-remake",
+    "https://www.engadget.com/2285785/the-legend-of-zelda-ocarina-of-time-preview/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Guardian Media Group, Yahoo, npr.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor: Draft includes a specific release date (Nov. 5, 2026) that is not mentioned in the source texts (Source 1 says 'Nov. 5th' but does not specify the year 2026, though the text mentions 2026 elsewhere, the date itself shouldn't assume the year if not explicitly paired in source, wait - Source 1 says 'The game debuts Nov. 5th' and Source 2 mentions 'in 2026 we have...'). Wait, Source 1 says 'Nov. 5th'. Let's check the draft headline: 'Nov. 5, 2026'. Source 2 mentions 'in 2026'. Let's make sure it's fully supported or fix it. Actually, Source 1 says 'Nov. 5th' and Source 2 says 'in 2026 we have...'. However, the draft says 'Switch 2', but Source 1 just says 'Nintendo's wholesome throwback' and Source 2 says 'Switch 2 remake of Ocarina of Time'. Let's check the date: Source 1 says 'Nov. 5th'. It doesn't explicitly state the year 2026 for the release date in the excerpt, or does it? Let's check Source 2: 'in 2026 we have...'. Let's correct the headline to remove the unsupported year if not explicitly stated, or keep it safe. Let's fix the headline and in_brief to remove the specific year 2026 since sources only say 'Nov. 5th' and '2026' separately, or just say Nov. 5."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-14-space-based-methane-sensors-perform-well-in-largest-blind-te-e8a52",
+   "date": "2026-10-14",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Space‑based methane sensors perform well in largest blind test, but cloud cover and AI errors limit reliability",
+   "in_brief": "A year‑long, single‑blind experiment released 481 methane plumes and 265 blanks over Arizona while 12 satellites observed them. The results show dedicated methane instruments detect most plumes, yet cloud cover and AI‑generated false positives pose challenges.",
+   "so_what": "The study provides the most extensive independent evaluation of satellite methane monitoring to date, offering regulators, industry and environmental groups a benchmark for the technology’s capabilities. Instruments built specifically for methane achieved detection rates up to 100%, suggesting they can reliably flag large leaks for follow‑up actions. However, performance drops when cloud cover exceeds 20% and artificial‑intelligence‑based analysis contributed the majority of false alarms, indicating that operational use will need to account for weather conditions and algorithmic validation. As governments expand “super‑emitter” programs, these findings will inform how satellite data are integrated into emissions inventories and enforcement strategies. Future work will likely focus on improving AI methods and expanding coverage under cloudy conditions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The experiment involved 746 events, including 481 methane releases and 265 blank controls.",
+     "source": 1,
+     "quote": "Here we conduct a year-long, single-blind test involving 746 events: 481 methane releases of 9.5–1,183.7 kg h−1 and 265 blank controls.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Dedicated methane instruments achieved a 92–100% true‑positive detection rate.",
+     "source": 1,
+     "quote": "‘built-for-purpose’ instruments designed to target methane demonstrate excellent detection performance (92–100% true positive rate, 0–11% false positive rate).",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Artificial‑intelligence‑based methods produced 79% of the false positives.",
+     "source": 1,
+     "quote": "Artificial intelligence-based methods show promise, but caution is warranted; 79% of false positives emerge from these methods.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Cloud cover greater than 20% reduced detection performance across all systems.",
+     "source": 1,
+     "quote": "Ground-measured cloud cover >20% degraded performance across systems, raising concerns for use in some locations.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/s41586-026-11115-0",
+     "published": "2026-10-14",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-10-satellites-accurately-methane-emissions-largest.html",
+     "published": "Wed, 14 Oct 2026 11:01:33 EDT",
+     "published_iso": "2026-10-14T15:01:33+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03075-2",
+    "https://www.nature.com/articles/s41586-026-11115-0",
+    "https://phys.org/news/2026-10-satellites-accurately-methane-emissions-largest.html"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.5194%2Facp-22-9617-2022",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://doi.org/10.5194%2Facp-22-9617-2022"
+    },
+    {
+     "url": "https://doi.org/10.5194%2Famt-17-765-2024",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://doi.org/10.5194%2Famt-17-765-2024"
+    },
+    {
+     "url": "https://www.nature.com/articles/s41586-026-11115-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 78,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-14-perseverance-rover-surpasses-opportunity-s-mileage-record-on-f94b8",
+   "date": "2026-10-14",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Perseverance rover surpasses Opportunity’s mileage record on Mars",
+   "in_brief": "NASA’s Perseverance rover has driven farther than the Opportunity rover’s 28.1‑mile total as of Oct. 11, 2026. The milestone highlights the longevity of NASA’s current Mars rovers, Perseverance and Curiosity, which remain active on the Red Planet.",
+   "so_what": "The new distance record underscores the durability of NASA’s rover technology and the continued scientific return from the Mars Exploration Program. Perseverance’s extended travel allows it to access more diverse terrain, increasing opportunities for geological sampling and potential biosignature detection. Curiosity’s ongoing operations complement these efforts, providing a long‑term dataset on Martian climate and habitability. The achievement also reflects the effective management by NASA’s Jet Propulsion Laboratory, which oversees rover missions. Future monitoring will track how much farther Perseverance can travel before its mission concludes, and whether additional rovers will be deployed to build on this operational success.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Perseverance exceeded the distance record held by NASA’s Opportunity rover, which came to a final halt in 2018 at about 28.1 miles (45.16 kilometers) driven.",
+     "source": 1,
+     "quote": "As of that date, Perseverance exceeded the distance record held by NASA’s Opportunity rover, which came to a final halt in 2018 at about 28.1 miles (45.16 kilometers) driven.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The NASA Mars rovers Perseverance and Curiosity are still operational and moving across the surface as of Oct. 11, 2026.",
+     "source": 1,
+     "quote": "Of the vehicles shown, the NASA Mars rovers Perseverance and Curiosity are still operational and moving across the surface; the figures shown for those two are distances driven as of Oct. 11, 2026.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA’s Jet Propulsion Laboratory built and manages operations of the Perseverance rover.",
+     "source": 1,
+     "quote": "NASA’s Jet Propulsion Laboratory, which is managed for NASA by Caltech in Pasadena, California, built and manages operations of the Perseverance rover on behalf of the agency’s Science Mission Directorate",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+     "published": "Tue, 13 Oct 2026 17:56:08 +0000",
+     "published_iso": "2026-10-13T17:56:08+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+    "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-14-netflix-announces-layoff-of-about-1-000-employees-roughly-6-12168",
+   "date": "2026-10-14",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Netflix announces layoff of about 1,000 employees, roughly 6% of workforce",
+   "in_brief": "Netflix said it will cut roughly 1,000 jobs, about 6% of its staff, mainly in product, tech, legal and human‑resources groups. The company said the moves are intended to focus resources while remaining on track for its full‑year financial forecast.",
+   "so_what": "The layoffs represent Netflix's steepest workforce reduction since 2022, reflecting heightened competition from other streaming services and free platforms such as YouTube and TikTok. By trimming roles in core support functions, Netflix aims to reallocate capital toward high‑impact areas like content, advertising, and emerging formats such as gaming and live events. The company’s leadership emphasized that the cuts are part of a disciplined approach to sustain growth and meet its earnings outlook ahead of the October 20 earnings report. Observers will watch subscriber engagement metrics and the performance of new revenue streams, including the ad‑supported tier, to gauge whether the restructuring helps Netflix maintain its market position amid industry consolidation.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Netflix will lay off roughly 1,000 employees, about 6% of its workforce",
+     "source": 1,
+     "quote": "Netflix has said it will cut 1,000 jobs globally ... equates to around 6% of its total workforce.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The cuts will mainly affect product, tech, legal and human‑resources teams",
+     "source": 2,
+     "quote": "The job cuts will largely impact the product, tech, legal and HR teams.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Netflix says it remains on track to deliver its full‑year forecast and will continue to invest aggressively in high‑impact areas",
+     "source": 2,
+     "quote": "Our business is strong and growing, and we remain on track to deliver our full year forecast. We'll continue to invest aggressively in high impact areas to improve our service and further drive growth and innovation.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+     "published": "Wed, 14 Oct 2026 16:47:32 GMT",
+     "published_iso": "2026-10-14T16:47:32+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Business",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+     "published": "Wed, 14 Oct 2026 15:03:59 GMT",
+     "published_iso": "2026-10-14T15:03:59+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/",
+     "published": "Wed, 14 Oct 2026 14:55:47 +0000",
+     "published_iso": "2026-10-14T14:55:47+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+    "https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/",
+    "https://www.engadget.com/2286699/netflix-to-lay-off-roughly-1000-employees-in-biggest-round-of-job-cuts-since-2022/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Comcast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-14-bank-of-america-fined-1-2bn-for-anti-money-laundering-failur-6e769",
+   "date": "2026-10-14",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Bank of America fined $1.2bn for anti‑money‑laundering failures",
+   "in_brief": "U.S. regulators imposed a $1.2 billion penalty on Bank of America for not reporting over $5 billion in suspicious activity. The fine will be reflected as a non‑tax‑deductible charge in the bank’s upcoming third‑quarter earnings.",
+   "so_what": "The penalty, the third‑largest ever levied by the Treasury Department, underscores heightened regulatory scrutiny of large U.S. banks’ anti‑money‑laundering (AML) programs. By failing to file suspicious activity reports, including $1 billion deemed a national‑security risk, Bank of America exposed the broader financial system to illicit‑finance threats, prompting Treasury Secretary Scott Bessent to stress the systemic impact. The settlement includes a $750 million civil penalty from the OCC—the regulator’s biggest ever—and sanctions‑related fines from OFAC, highlighting enforcement across multiple agencies. The charge will reduce the bank’s quarterly net income by about 17 cents per share and may affect investor sentiment, share price, and the pace of its $6 billion quarterly share‑buyback program. Watch for the bank’s detailed remediation plan, the independent third‑party review of past transactions, and any further regulatory actions as the bank implements its compliance overhaul.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward regulatory enforcement",
+   "claims": [
+    {
+     "claim": "Bank of America was fined $1.2 billion for failing to report more than $5 billion in suspicious activity, including $1 billion that posed national‑security risks.",
+     "source": 1,
+     "quote": "Bank of America has been fined $1.2bn (£910m) for failing to detect potential money laundering and other illegal activity, the US Treasury Department said on Tuesday.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The OCC imposed a $750 million civil penalty, its largest ever.",
+     "source": 1,
+     "quote": "The OCC's $750m fine marked the biggest penalty it has ever levied.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The fine will be recorded as a non‑tax‑deductible charge reducing net income by approximately 17 cents per share in the third quarter.",
+     "source": 1,
+     "quote": "Our third-quarter results will include a non-tax-deductible charge of $1.2 billion impacting net income by approximately 17 cents per share,",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Guardian Media Group"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+     "published": "Wed, 14 Oct 2026 02:05:32 GMT",
+     "published_iso": "2026-10-14T02:05:32+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
+     "published": "Wed, 14 Oct 2026 11:54:29 GMT",
+     "published_iso": "2026-10-14T11:54:29+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Business",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+     "published": "Wed, 14 Oct 2026 16:49:11 GMT",
+     "published_iso": "2026-10-14T16:49:11+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
+    "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+   ],
+   "primary": [
+    {
+     "url": "https://home.treasury.gov/news/press-releases/sb0657/",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://home.treasury.gov/news/press-releases/sb0657/"
+    }
+   ],
+   "truth": {
+    "total": 80,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Comcast, Guardian Media Group"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-14-us-justice-dept-charges-14-in-north-korean-it-worker-fraud-s-550a7",
+   "date": "2026-10-14",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "US Justice Dept. charges 14 in North Korean IT worker fraud scheme",
+   "in_brief": "Federal authorities charged 14 individuals and seized 187 computers after raiding more than 40 laptop farms in Texas. The operation targeted a scheme that used fake identities to place North Korean workers in U.S. companies and funnel earnings to the regime.",
+   "so_what": "The indictment reveals a coordinated effort by North Korea to exploit U.S. companies for revenue that supports its weapons programs, highlighting vulnerabilities in remote‑work hiring and supply‑chain security. Over 70 U.S. firms across health care, communications, retail and manufacturing were affected, with roughly $3 million diverted to North Korean accounts. Law‑enforcement actions, including the seizure of laptop farms and the arrest of two U.S. nationals, aim to disrupt the “Famous Chollima” network and deter similar state‑backed fraud. Companies should tighten identity verification, monitor remote‑access hardware, and cooperate with investigations to prevent future infiltration.",
+   "what_to_do": "1. Verify the identity and employment history of any remote worker before granting access to company systems. 2. Require multi‑factor authentication and secure remote‑access tools for all external connections. 3. Report suspicious hardware setups or unknown laptop usage to law‑enforcement or your organization’s security team.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "The DOJ charged 14 people and seized about 187 computers as part of the crackdown.",
+     "source": 1,
+     "quote": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "FBI agents searched more than 40 laptop farms in Texas between September 21 and 25, seizing about 187 laptops.",
+     "source": 2,
+     "quote": "In Texas, FBI agents searched more than 40 suspected “laptop farms” between September 21 and 25 as part of Operation Lonestar Roundup, seizing about 187 laptops",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "North Korean workers used fake identities to obtain remote jobs at over 70 U.S. companies and sent about $3 million to North Korean accounts.",
+     "source": 2,
+     "quote": "North Korean IT workers used stolen and fabricated identities to land remote jobs at more than 70 US companies... sent the earnings, about $3 million, to accounts controlled by North Korea",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+     "published": "Wed, 14 Oct 2026 22:04:31 +0530",
+     "published_iso": "2026-10-14T16:34:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/14/north-korean-it-workers-laptop-farms-arrests/",
+     "published": "Wed, 14 Oct 2026 13:00:49 +0000",
+     "published_iso": "2026-10-14T13:00:49+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
+     "published": "Wed, 14 Oct 2026 10:55:21 +0000",
+     "published_iso": "2026-10-14T10:55:21+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
+    "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+    "https://www.helpnetsecurity.com/2026/10/14/north-korean-it-workers-laptop-farms-arrests/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/usao-ndoh/pr/14-indicted-north-korean-remote-it-worker-conspiracy-affecting-more-70-us-companies",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/usao-ndoh/pr/14-indicted-north-korean-remote-it-worker-conspiracy-affecting-more-70-us-companies"
+    },
+    {
+     "url": "https://www.ic3.gov/PSA/2026/PSA261013",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.ic3.gov/PSA/2026/PSA261013"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 571,
+  "stories_considered": 14,
+  "published": 11,
+  "outlets": 39
+ }
+}

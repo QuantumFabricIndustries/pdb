@@ -2593,5 +2593,156 @@
    "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
    "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
   ]
+ },
+ {
+  "id": "2026-10-14-cisa-urges-patching-of-actively-exploited-ivanti-vpn-flaw-c4166",
+  "date": "2026-10-14",
+  "section": "threat",
+  "headline": "CISA urges patching of actively exploited Ivanti VPN flaw",
+  "label": "Confirmed",
+  "score": 95,
+  "also_covered_urls": [
+   "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
+   "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+   "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+   "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+   "https://www.malwarebytes.com/blog/bugs/2026/10/update-windows-record-patch-tuesday-fixes-flaw-already-under-attack",
+   "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html"
+  ]
+ },
+ {
+  "id": "2026-10-14-french-supermarkets-refrigeration-systems-hacked-causing-foo-b8c9a",
+  "date": "2026-10-14",
+  "section": "threat",
+  "headline": "French supermarkets' refrigeration systems hacked, causing food spoilage",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+   "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+   "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+   "https://www.theregister.com/security/2026/10/13/cyberattacks-crank-french-supermarket-refrigeration-systems-up-to-50c/5302784",
+   "https://www.theregister.com/security/2026/10/13/cyberattacks-crank-french-supermarket-refrigeration-systems-up-to-50c/5302784",
+   "https://www.malwarebytes.com/blog/news/2026/10/hackers-heat-up-supermarket-fridges-spoiling-food-across-france"
+  ]
+ },
+ {
+  "id": "2026-10-14-cisco-and-ivanti-issue-patches-for-actively-exploited-zero-d-a520e",
+  "date": "2026-10-14",
+  "section": "threat",
+  "headline": "Cisco and Ivanti issue patches for actively exploited zero‑day flaws",
+  "label": "Confirmed",
+  "score": 94,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+   "https://www.theregister.com/security/2026/10/14/ivanti-patches-connect-secure-zero-day-after-researchers-confirm-in-the-wild-attacks/5303095",
+   "https://www.theregister.com/security/2026/10/14/ivanti-patches-connect-secure-zero-day-after-researchers-confirm-in-the-wild-attacks/5303095",
+   "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+   "https://www.helpnetsecurity.com/2026/10/14/ivanti-zero-days-gain-root-patched-vpn-appliances/"
+  ]
+ },
+ {
+  "id": "2026-10-14-apple-announces-homeview-7-inch-smart-display-priced-at-299-58519",
+  "date": "2026-10-14",
+  "section": "ai",
+  "headline": "Apple announces HomeView 7-inch smart display priced at $299",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+   "https://www.wired.com/story/apple-homeview-smart-display/",
+   "https://www.theverge.com/gadgets/1011227/apple-homeview-smart-display-deal-sale",
+   "https://www.zdnet.com/home-and-office/apple-homeview-smart-home-hub-features-price/"
+  ]
+ },
+ {
+  "id": "2026-10-14-google-rolls-out-gemini-4-argon-to-paying-users-6cd3e",
+  "date": "2026-10-14",
+  "section": "ai",
+  "headline": "Google rolls out Gemini 4 Argon to paying users",
+  "label": "Well-sourced",
+  "score": 63,
+  "also_covered_urls": [
+   "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+   "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+  ]
+ },
+ {
+  "id": "2026-10-14-nintendo-to-release-a-switch-2-remake-of-the-legend-of-zelda-5c94f",
+  "date": "2026-10-14",
+  "section": "ai",
+  "headline": "Nintendo to release a Switch 2 remake of The Legend of Zelda: Ocarina of Time on November 5",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/10/14/nx-s1-5961483/preview-zelda-ocarina-of-time-remake-switch-2",
+   "https://www.theguardian.com/games/2026/oct/14/the-legend-of-zelda-ocarina-of-time-preview-4k-era-switch-2-remake",
+   "https://www.engadget.com/2285785/the-legend-of-zelda-ocarina-of-time-preview/"
+  ]
+ },
+ {
+  "id": "2026-10-14-space-based-methane-sensors-perform-well-in-largest-blind-te-e8a52",
+  "date": "2026-10-14",
+  "section": "science",
+  "headline": "Space‑based methane sensors perform well in largest blind test, but cloud cover and AI errors limit reliability",
+  "label": "Confirmed",
+  "score": 78,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03075-2",
+   "https://www.nature.com/articles/s41586-026-11115-0",
+   "https://phys.org/news/2026-10-satellites-accurately-methane-emissions-largest.html"
+  ]
+ },
+ {
+  "id": "2026-10-14-perseverance-rover-surpasses-opportunity-s-mileage-record-on-f94b8",
+  "date": "2026-10-14",
+  "section": "science",
+  "headline": "Perseverance rover surpasses Opportunity’s mileage record on Mars",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+   "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/"
+  ]
+ },
+ {
+  "id": "2026-10-14-netflix-announces-layoff-of-about-1-000-employees-roughly-6-12168",
+  "date": "2026-10-14",
+  "section": "money",
+  "headline": "Netflix announces layoff of about 1,000 employees, roughly 6% of workforce",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+   "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+   "https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/",
+   "https://www.engadget.com/2286699/netflix-to-lay-off-roughly-1000-employees-in-biggest-round-of-job-cuts-since-2022/"
+  ]
+ },
+ {
+  "id": "2026-10-14-bank-of-america-fined-1-2bn-for-anti-money-laundering-failur-6e769",
+  "date": "2026-10-14",
+  "section": "money",
+  "headline": "Bank of America fined $1.2bn for anti‑money‑laundering failures",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
+   "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+  ]
+ },
+ {
+  "id": "2026-10-14-us-justice-dept-charges-14-in-north-korean-it-worker-fraud-s-550a7",
+  "date": "2026-10-14",
+  "section": "scam",
+  "headline": "US Justice Dept. charges 14 in North Korean IT worker fraud scheme",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
+   "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+   "https://www.helpnetsecurity.com/2026/10/14/north-korean-it-workers-laptop-farms-arrests/"
+  ]
  }
 ]

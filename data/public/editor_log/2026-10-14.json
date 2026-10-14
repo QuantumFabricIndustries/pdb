@@ -1,0 +1,151 @@
+[
+ {
+  "section": "threat",
+  "title": "CISA urges patching of actively exploited Ivanti VPN flaw",
+  "verdict": "PUBLISH",
+  "truth": 95,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "French supermarkets' refrigeration systems hacked, causing food spoilage",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Cisco and Ivanti issue patches for actively exploited zero‑day flaws",
+  "verdict": "PUBLISH",
+  "truth": 94,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Apple announces HomeView 7-inch smart display priced at $299",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft states preorders started Oct. 13 and shipping Nov. 13, but sources state preorders began 'today' on Tuesday (the announcement day) and arriving November 13th without explicitly stating the preorder date was Oct. 13.",
+   "editor: Draft includes some hype language and speculative observer framing in the so_what section."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google rolls out Gemini 4 Argon to paying users",
+  "verdict": "PUBLISH",
+  "truth": 63,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Draft claims Argon reduced rollbacks by nearly a third during Chrome refactoring, but source 2 says it helped reduce rollbacks by nearly a third generally during code refactoring, and source 2 doesn't explicitly link the 'nearly a third' rollback reduction specifically to the Chrome refactoring.",
+   "editor: Draft states internal reports claim a 45 percent drop in YouTube server load as a claim, but sources present it as fact/reporting."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Nintendo to release a Switch 2 remake of The Legend of Zelda: Ocarina of Time on November 5",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Draft includes a specific release date (Nov. 5, 2026) that is not mentioned in the source texts (Source 1 says 'Nov. 5th' but does not specify the year 2026, though the text mentions 2026 elsewhere, the date itself shouldn't assume the year if not explicitly paired in source, wait - Source 1 says 'The game debuts Nov. 5th' and Source 2 mentions 'in 2026 we have...'). Wait, Source 1 says 'Nov. 5th'. Let's check the draft headline: 'Nov. 5, 2026'. Source 2 mentions 'in 2026'. Let's make sure it's fully supported or fix it. Actually, Source 1 says 'Nov. 5th' and Source 2 says 'in 2026 we have...'. However, the draft says 'Switch 2', but Source 1 just says 'Nintendo's wholesome throwback' and Source 2 says 'Switch 2 remake of Ocarina of Time'. Let's check the date: Source 1 says 'Nov. 5th'. It doesn't explicitly state the year 2026 for the release date in the excerpt, or does it? Let's check Source 2: 'in 2026 we have...'. Let's correct the headline to remove the unsupported year if not explicitly stated, or keep it safe. Let's fix the headline and in_brief to remove the specific year 2026 since sources only say 'Nov. 5th' and '2026' separately, or just say Nov. 5."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Space‑based methane sensors perform well in largest blind test, but cloud cover and AI errors limit reliability",
+  "verdict": "PUBLISH",
+  "truth": 78,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Perseverance rover surpasses Opportunity’s mileage record on Mars",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Netflix announces layoff of about 1,000 employees, roughly 6% of workforce",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Bank of America fined $1.2bn for anti‑money‑laundering failures",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "scam",
+  "title": "US Justice Dept. charges 14 in North Korean IT worker fraud scheme",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Edited Photo Does Not Show Bush, Cheney, Rumsfeld With Bin Laden",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated image of alleged surveillance footage at James Talarico’s house debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes Confirms Authentic WWII Photo of Hitler Inspecting Arch Model",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
