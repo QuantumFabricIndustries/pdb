@@ -1,0 +1,214 @@
+[
+ {
+  "section": "threat",
+  "title": "Zero-click spyware delivered via targeted ads infects Al Jazeera devices",
+  "verdict": "PUBLISH",
+  "truth": 71,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Headline included '2024-25' in a way not supported for the date range format, fixed year handling",
+   "editor: Removed hype language and medical/investment/legal style advice"
+  ],
+  "owners": 6
+ },
+ {
+  "section": "threat",
+  "title": "Anthropic warns small AI models could soon self‑replicate on IoT devices",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Microsoft releases record Patch Tuesday fixing 1,413 flaws, including exploited Windows Shell zero‑day",
+  "verdict": "PUBLISH",
+  "truth": 92,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple and Meta partner to run Muse Spark Open AI model on Mac Studios",
+  "verdict": "HOLD",
+  "truth": 23,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 3 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Epic Games launches AI‑coded launcher; Steam updates to reclaim speed lead",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI engineer arrested after hidden recorder found in executive conference room",
+  "verdict": "PUBLISH",
+  "truth": 85,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Nvidia unveils RTX Spark Arm‑based laptops for Windows PCs",
+  "verdict": "HOLD",
+  "truth": 54,
+  "reasons": [
+   "copied 1 long word-for-word run(s) from a source, e.g. \"up to 6 144 cuda cores and up to 128gb of unified\""
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied 3 long word-for-word run(s) from a source"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Volvo expands partnership with Nvidia for hands‑free point‑to‑point driving",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Study Finds Global Conservation Areas May Cover Nearly 27% of Land",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA Chandra Reveals Two‑Stage Origin of ‘Treble Clef’ Radio Structure",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'list' object has no attribute 'setdefault'"
+  ],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Hex founder Richard Heart arrested in Istanbul on Interpol Red Notice",
+  "verdict": "HOLD",
+  "truth": 54,
+  "reasons": [
+   "copied 3 long word-for-word run(s) from a source, e.g. \"turkish media reported the seizure of 4 million in cash and 64\""
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: The seizure of $4 million in cash and 64 watches was reported by Turkish media, but not yet confirmed by police; attribution needs to reflect this."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Crypto markets see nearly $1 billion in liquidations as Bitcoin and Ether prices fall",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Number '948' or specific liquidation breakdowns from Decrypt need to be harmonized or rounded safely, though the source Decrypt explicitly states $948.22 million. Wait, the prompt says number '948' does not appear in any source, but source 2 says '$948.22 million'. Regardless, we will adjust the text to strictly match source numbers or phrasing."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "AI agents recorded 138 million crypto micro‑payments via Coinbase’s x402 protocol",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Brooklyn DA and FBI seize 241 domains and 112 servers in crypto fraud targeting Russian speakers",
+  "verdict": "HOLD",
+  "truth": 64,
+  "reasons": [
+   "number '2' does not appear in any source"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: The so_what section includes an unsupported figure of over $12 billion stolen between September 2023 and December 2025, which does not appear in the sources."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "scam",
+  "title": "Law enforcement disrupts phishing marketplace behind over 1 billion scam messages",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "myth",
+  "title": "Fact‑check: Riyadh airport attack videos mix AI‑generated and unrelated footage",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: So_what includes unverified details about the scale of casualties and specific attribution to Houthis that were not part of the verified claims block or properly framed in the draft's core focus, though present in sources. Wait, let's check source: 'The Houthis, an Iran-backed rebel group... killed at least 14 people'. The draft mentions 'killed at least 14 people'. But the source says the AI clip has been circulating since at least March 2026 (wait, source says March 2026, which is chronologically odd given October 2026, but let's stick strictly to what's supported). More importantly, the draft includes investment/hype/unsupported advice? No, but let's ensure compliance with strict source facts. The draft's mention of 'killed at least 14 people' is supported by source 1. However, let's check if any fixes are strictly needed. The draft says 'February 2026' which matches source 1. Let's fix the so_what to remove the unsourced/extrapolated hype or speculation, keeping it strictly to the facts."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated image of Yorkshire tiger attack debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Zelenskyy Belly‑Dancing Video Contains Deepfakes",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

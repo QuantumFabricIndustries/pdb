@@ -2744,5 +2744,154 @@
    "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
    "https://www.helpnetsecurity.com/2026/10/14/north-korean-it-workers-laptop-farms-arrests/"
   ]
+ },
+ {
+  "id": "2026-10-15-zero-click-spyware-delivered-via-targeted-ads-infects-al-jaz-40979",
+  "date": "2026-10-15",
+  "section": "threat",
+  "headline": "Zero-click spyware delivered via targeted ads infects Al Jazeera devices",
+  "label": "Well-sourced",
+  "score": 71,
+  "also_covered_urls": [
+   "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/",
+   "https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
+   "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+   "https://techcrunch.com/2026/10/15/citizen-lab-says-governments-are-abusing-online-ads-to-hack-people-with-zero-click-spyware/",
+   "https://www.engadget.com/2287417/citizenlab-details-new-spyware-triggered-by-online-advertising/",
+   "https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware",
+   "https://www.theregister.com/security/2026/10/15/spyware-vendors-found-a-way-to-make-targeted-ads-even-worse/5303334",
+   "https://www.theregister.com/security/2026/10/15/spyware-vendors-found-a-way-to-make-targeted-ads-even-worse/5303334"
+  ]
+ },
+ {
+  "id": "2026-10-15-anthropic-warns-small-ai-models-could-soon-self-replicate-on-e3514",
+  "date": "2026-10-15",
+  "section": "threat",
+  "headline": "Anthropic warns small AI models could soon self‑replicate on IoT devices",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+   "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+   "https://www.malwarebytes.com/blog/ai/2026/10/ai-worms-could-spread-across-your-smart-devices-anthropic-warns"
+  ]
+ },
+ {
+  "id": "2026-10-15-microsoft-releases-record-patch-tuesday-fixing-1-413-flaws-i-74d72",
+  "date": "2026-10-15",
+  "section": "threat",
+  "headline": "Microsoft releases record Patch Tuesday fixing 1,413 flaws, including exploited Windows Shell zero‑day",
+  "label": "Confirmed",
+  "score": 92,
+  "also_covered_urls": [
+   "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+   "https://www.malwarebytes.com/blog/bugs/2026/10/update-windows-record-patch-tuesday-fixes-flaw-already-under-attack",
+   "https://www.zdnet.com/tech/windows-october-update-patches-file-explorer-bluetooth/"
+  ]
+ },
+ {
+  "id": "2026-10-15-epic-games-launches-ai-coded-launcher-steam-updates-to-recla-d68d1",
+  "date": "2026-10-15",
+  "section": "ai",
+  "headline": "Epic Games launches AI‑coded launcher; Steam updates to reclaim speed lead",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+   "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/"
+  ]
+ },
+ {
+  "id": "2026-10-15-openai-engineer-arrested-after-hidden-recorder-found-in-exec-4dca8",
+  "date": "2026-10-15",
+  "section": "ai",
+  "headline": "OpenAI engineer arrested after hidden recorder found in executive conference room",
+  "label": "Confirmed",
+  "score": 85,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+   "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+   "https://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000",
+   "https://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000",
+   "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+   "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html"
+  ]
+ },
+ {
+  "id": "2026-10-15-volvo-expands-partnership-with-nvidia-for-hands-free-point-t-093bb",
+  "date": "2026-10-15",
+  "section": "ai",
+  "headline": "Volvo expands partnership with Nvidia for hands‑free point‑to‑point driving",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
+   "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/"
+  ]
+ },
+ {
+  "id": "2026-10-15-study-finds-global-conservation-areas-may-cover-nearly-27-of-b7dac",
+  "date": "2026-10-15",
+  "section": "science",
+  "headline": "Study Finds Global Conservation Areas May Cover Nearly 27% of Land",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03307-5",
+   "https://www.nature.com/articles/d41586-026-03081-4",
+   "https://www.nature.com/articles/s41586-026-11157-4",
+   "https://phys.org/news/2026-10-world.html"
+  ]
+ },
+ {
+  "id": "2026-10-15-nasa-chandra-reveals-two-stage-origin-of-treble-clef-radio-s-70b34",
+  "date": "2026-10-15",
+  "section": "science",
+  "headline": "NASA Chandra Reveals Two‑Stage Origin of ‘Treble Clef’ Radio Structure",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/chandra-finds-possible-origin-of-treble-clef-waves/",
+   "https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/",
+   "https://phys.org/news/2026-10-chandra-treble-clef-galaxy-cluster.html"
+  ]
+ },
+ {
+  "id": "2026-10-15-crypto-markets-see-nearly-1-billion-in-liquidations-as-bitco-2fb68",
+  "date": "2026-10-15",
+  "section": "money",
+  "headline": "Crypto markets see nearly $1 billion in liquidations as Bitcoin and Ether prices fall",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+   "https://decrypt.co/381044/bitcoin-whipsaws-crypto-liquidations-near-1-billion"
+  ]
+ },
+ {
+  "id": "2026-10-15-ai-agents-recorded-138-million-crypto-micro-payments-via-coi-60db5",
+  "date": "2026-10-15",
+  "section": "money",
+  "headline": "AI agents recorded 138 million crypto micro‑payments via Coinbase’s x402 protocol",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
+   "https://decrypt.co/380989/ai-agents-138-million-crypto-payments-one-year"
+  ]
+ },
+ {
+  "id": "2026-10-15-law-enforcement-disrupts-phishing-marketplace-behind-over-1-b7128",
+  "date": "2026-10-15",
+  "section": "scam",
+  "headline": "Law enforcement disrupts phishing marketplace behind over 1 billion scam messages",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+   "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
+   "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html"
+  ]
  }
 ]
