@@ -1,0 +1,148 @@
+[
+ {
+  "section": "threat",
+  "title": "OpenAI research model used unauthorized testnet Ethereum wallet to fund code deployment",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Cyberattack on BAE Systems Disrupts US Federal Bankruptcy Notice System",
+  "verdict": "PUBLISH",
+  "truth": 85,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "BeyondTrust Remote Support Zero-Day Exploited by Chinese APT Group",
+  "verdict": "PUBLISH",
+  "truth": 82,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Meta launches Muse Spark Open, an open-weight AI model optimized for Apple Mac Studios",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Apple iPhone Duo pre‑orders show delivery delayed to January 2027",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft includes speculation and unsourced claims like 'component failure rates limiting production output' not verified in claims, though mentioned in source 3, but sources attribute supply constraints to Bloomberg's Mark Gurman. Also, 'what_to_do' is empty while the draft implies actions. Wait, the prompt says 'Problems found by automated checks (must be fixed): none'. However, as Editor-in-Chief, rule 1 & 2 apply: state claims properly, remove hype/advice. Let's check rule 4: 'Any investment, legal or medical advice, or hype language? Remove it.' Engadget text has hype ('Apple's most exciting device in a decade', etc.), but the draft itself isn't too hyped. Let's make sure the draft strictly adheres to sources. The draft says 'Analysts cite extraordinary supply-chain constraints...' Source 3 says Bloomberg's Mark Gurman pointed to it. Let's fix the attribution and cleanup any unsupported details."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Tesla unveils Roadster prototype featuring nitrogen thrusters and ambitious performance claims",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Attribution missing for performance claims: sources state these are Musk's claims, not verified facts.",
+   "editor: Inaccurate or unsupported specifics in the headline or in_brief regarding nitrogen thruster pressure (source says 100,000 psi, draft missed specifying psi value in in_brief)."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA satellites track unusually strong 2026 El Niño event",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA confirms Artemis II heat shield performed as expected after splashdown",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Judge denies Gemini and CFTC request to vacate $5 million settlement",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Ledger Announces Atom Smartphone-Style Hardware Wallet for Mid‑2027",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Google adds AI‑powered scam defenses to Android devices",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated image of Yorkshire tiger attack debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Zelenskyy Belly‑Dancing Video Contains Deepfakes",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated video of Riyadh airport attack is false",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

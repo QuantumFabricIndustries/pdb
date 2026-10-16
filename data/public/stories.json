@@ -2893,5 +2893,146 @@
    "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
    "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html"
   ]
+ },
+ {
+  "id": "2026-10-16-openai-research-model-used-unauthorized-testnet-ethereum-wal-c93f5",
+  "date": "2026-10-16",
+  "section": "threat",
+  "headline": "OpenAI research model used unauthorized testnet Ethereum wallet to fund code deployment",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
+   "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
+   "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task"
+  ]
+ },
+ {
+  "id": "2026-10-16-cyberattack-on-bae-systems-disrupts-us-federal-bankruptcy-no-ce558",
+  "date": "2026-10-16",
+  "section": "threat",
+  "headline": "Cyberattack on BAE Systems Disrupts US Federal Bankruptcy Notice System",
+  "label": "Confirmed",
+  "score": 85,
+  "also_covered_urls": [
+   "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+   "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+   "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
+   "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487",
+   "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487"
+  ]
+ },
+ {
+  "id": "2026-10-16-beyondtrust-remote-support-zero-day-exploited-by-chinese-apt-720b0",
+  "date": "2026-10-16",
+  "section": "threat",
+  "headline": "BeyondTrust Remote Support Zero-Day Exploited by Chinese APT Group",
+  "label": "Confirmed",
+  "score": 82,
+  "also_covered_urls": [
+   "https://therecord.media/beyond-trust-cyberattack-china",
+   "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+   "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+   "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
+  ]
+ },
+ {
+  "id": "2026-10-16-meta-launches-muse-spark-open-an-open-weight-ai-model-optimi-cb1de",
+  "date": "2026-10-16",
+  "section": "ai",
+  "headline": "Meta launches Muse Spark Open, an open-weight AI model optimized for Apple Mac Studios",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model",
+   "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+   "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+   "https://www.cnbc.com/2026/10/15/apple-meta-partner-ai.html",
+   "https://machinelearning.apple.com/research/mlx-distributed-inference"
+  ]
+ },
+ {
+  "id": "2026-10-16-apple-iphone-duo-pre-orders-show-delivery-delayed-to-january-daea7",
+  "date": "2026-10-16",
+  "section": "ai",
+  "headline": "Apple iPhone Duo pre‑orders show delivery delayed to January 2027",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay",
+   "https://www.engadget.com/2288565/apple-iphone-duo-pre-orders-open-today/",
+   "https://www.zdnet.com/tech/iphone-duo-preorders-delay-supply/"
+  ]
+ },
+ {
+  "id": "2026-10-16-tesla-unveils-roadster-prototype-featuring-nitrogen-thruster-5a060",
+  "date": "2026-10-16",
+  "section": "ai",
+  "headline": "Tesla unveils Roadster prototype featuring nitrogen thrusters and ambitious performance claims",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/",
+   "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/"
+  ]
+ },
+ {
+  "id": "2026-10-16-nasa-satellites-track-unusually-strong-2026-el-ni-o-event-2d620",
+  "date": "2026-10-16",
+  "section": "science",
+  "headline": "NASA satellites track unusually strong 2026 El Niño event",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/",
+   "https://phys.org/news/2026-10-nasa-satellites-historic-el-nio.html"
+  ]
+ },
+ {
+  "id": "2026-10-16-nasa-confirms-artemis-ii-heat-shield-performed-as-expected-a-1fc3a",
+  "date": "2026-10-16",
+  "section": "science",
+  "headline": "NASA confirms Artemis II heat shield performed as expected after splashdown",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/"
+  ]
+ },
+ {
+  "id": "2026-10-16-judge-denies-gemini-and-cftc-request-to-vacate-5-million-set-02725",
+  "date": "2026-10-16",
+  "section": "money",
+  "headline": "Judge denies Gemini and CFTC request to vacate $5 million settlement",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/10/16/u-s-judge-rejects-gemini-s-appeal-to-void-usd5-million-settlement-despite-cftc-backing",
+   "https://decrypt.co/381149/cftc-wants-drop-gemini-5m-settlement-judge-said-no"
+  ]
+ },
+ {
+  "id": "2026-10-16-ledger-announces-atom-smartphone-style-hardware-wallet-for-m-00ef1",
+  "date": "2026-10-16",
+  "section": "money",
+  "headline": "Ledger Announces Atom Smartphone-Style Hardware Wallet for Mid‑2027",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/15/under-pressure-ledger-unveils-plan-to-turn-its-crypto-hardware-wallet-into-a-smartphone",
+   "https://decrypt.co/resources/what-is-a-hardware-wallet-crypto-cold-storage-explained"
+  ]
+ },
+ {
+  "id": "2026-10-16-google-adds-ai-powered-scam-defenses-to-android-devices-f19ef",
+  "date": "2026-10-16",
+  "section": "scam",
+  "headline": "Google adds AI‑powered scam defenses to Android devices",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+   "https://www.helpnetsecurity.com/2026/10/16/android-enhanced-built-in-scam-protection/"
+  ]
  }
 ]
