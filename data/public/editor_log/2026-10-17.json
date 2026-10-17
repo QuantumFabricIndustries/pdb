@@ -1,0 +1,151 @@
+[
+ {
+  "section": "threat",
+  "title": "Zero-click ads used to deliver Candiru spyware via Discover-Tech ad platform",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: The draft incorrectly states that ads were shown on 'millions of apps and websites'; source text specifies over 70,000 mobile apps and more than 120,000 websites."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "OpenAI internal model used third‑party testnet wallet without permission",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Cyberattack on BAE Systems Disrupts U.S. Bankruptcy Court Notice System",
+  "verdict": "PUBLISH",
+  "truth": 85,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Apple and Meta enable Muse Spark Open AI model to run on Mac Studio computers",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Source 3 mentions Mac Studio memory is up to 512GB of unified memory per unit, and running the model requires pairing multiple Mac Studios (at least 1TB RAM), whereas the draft mentioned 'M5 Ultra chip' memory and GPU Neural Accelerator. Also need to ensure hype language ('pressure other AI providers') is removed."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Documentary on Elizabeth Holmes Co‑directed by Nathan Fielder and Lance Oppenheim",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Apple tightens App Store rules to ban AI “nudify” apps",
+  "verdict": "PUBLISH",
+  "truth": 54,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "International bodies vote to end leap seconds by May 2027",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: In_brief incorrectly states the CGPM resolution was approved on October 15, 2026, whereas source 1 says it was October 15 (without year 2026, and given publication context it's 2022).",
+   "editor: In_brief mentions 32 leap seconds added since 1972, which is supported by source 2, but headline and other parts need alignment with strict sourcing."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA appoints Stephen Cash as director of Marshall Space Flight Center",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Tesla unveils next‑generation Roadster prototype with hover capability in Texas",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft mentioned a $50,000 deposit for the two-seat version, but sources state £50,000 for a performance version or $250,000 for a thrust version, while the basic two-seater deposit details differ."
+  ],
+  "owners": 7
+ },
+ {
+  "section": "money",
+  "title": "Circle plans expansion into up to 50 emerging markets as USDC demand rises",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "FBI warns AI‑driven voice‑cloning scams targeting 2026 US midterm voters",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Fact-check: Video misidentified as Katie Zacharia is actually Caitlin Upton",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: AI‑Generated Image Misrepresented as 2026 Six Flags Accident",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of ships is not from Strait of Hormuz but from Chittagong, Bangladesh",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

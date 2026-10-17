@@ -3034,5 +3034,149 @@
    "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
    "https://www.helpnetsecurity.com/2026/10/16/android-enhanced-built-in-scam-protection/"
   ]
+ },
+ {
+  "id": "2026-10-17-zero-click-ads-used-to-deliver-candiru-spyware-via-discover-fbb42",
+  "date": "2026-10-17",
+  "section": "threat",
+  "headline": "Zero-click ads used to deliver Candiru spyware via Discover-Tech ad platform",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
+   "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+   "https://pluralistic.net/2026/10/17/mercenary-spyware/#discover-tech",
+   "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/"
+  ]
+ },
+ {
+  "id": "2026-10-17-openai-internal-model-used-third-party-testnet-wallet-withou-c547a",
+  "date": "2026-10-17",
+  "section": "threat",
+  "headline": "OpenAI internal model used third‑party testnet wallet without permission",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
+   "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+   "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task"
+  ]
+ },
+ {
+  "id": "2026-10-17-cyberattack-on-bae-systems-disrupts-u-s-bankruptcy-court-not-19eea",
+  "date": "2026-10-17",
+  "section": "threat",
+  "headline": "Cyberattack on BAE Systems Disrupts U.S. Bankruptcy Court Notice System",
+  "label": "Confirmed",
+  "score": 85,
+  "also_covered_urls": [
+   "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+   "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+   "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
+   "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487",
+   "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487"
+  ]
+ },
+ {
+  "id": "2026-10-17-apple-and-meta-enable-muse-spark-open-ai-model-to-run-on-mac-b75c5",
+  "date": "2026-10-17",
+  "section": "ai",
+  "headline": "Apple and Meta enable Muse Spark Open AI model to run on Mac Studio computers",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/15/apple-meta-partner-ai.html",
+   "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+   "https://machinelearning.apple.com/research/mlx-distributed-inference"
+  ]
+ },
+ {
+  "id": "2026-10-17-documentary-on-elizabeth-holmes-co-directed-by-nathan-fielde-ee99e",
+  "date": "2026-10-17",
+  "section": "ai",
+  "headline": "Documentary on Elizabeth Holmes Co‑directed by Nathan Fielder and Lance Oppenheim",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://www.wired.com/story/the-new-fans-guide-to-the-unreal-world-of-nathan-fielder/",
+   "https://techcrunch.com/2026/10/16/in-you-can-see-everything-elizabeth-holmes-meets-her-equal-in-comedian-nathan-fielder/"
+  ]
+ },
+ {
+  "id": "2026-10-17-apple-tightens-app-store-rules-to-ban-ai-nudify-apps-6b5fa",
+  "date": "2026-10-17",
+  "section": "ai",
+  "headline": "Apple tightens App Store rules to ban AI “nudify” apps",
+  "label": "Developing",
+  "score": 54,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
+   "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/"
+  ]
+ },
+ {
+  "id": "2026-10-17-international-bodies-vote-to-end-leap-seconds-by-may-2027-c9200",
+  "date": "2026-10-17",
+  "section": "science",
+  "headline": "International bodies vote to end leap seconds by May 2027",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03329-z",
+   "https://www.wired.com/story/leap-second-is-abolished-bipm-says/"
+  ]
+ },
+ {
+  "id": "2026-10-17-nasa-appoints-stephen-cash-as-director-of-marshall-space-fli-8343b",
+  "date": "2026-10-17",
+  "section": "science",
+  "headline": "NASA appoints Stephen Cash as director of Marshall Space Flight Center",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/"
+  ]
+ },
+ {
+  "id": "2026-10-17-tesla-unveils-next-generation-roadster-prototype-with-hover-cb05c",
+  "date": "2026-10-17",
+  "section": "money",
+  "headline": "Tesla unveils next‑generation Roadster prototype with hover capability in Texas",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex",
+   "https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed",
+   "https://www.wired.com/story/tesla-flying-car-faa/",
+   "https://www.snopes.com/fact-check/tesla-flying-roadster-car-real/",
+   "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+   "https://decrypt.co/381184/tesla-roadster-rocket-cool-flying-car-you-cant-have"
+  ]
+ },
+ {
+  "id": "2026-10-17-circle-plans-expansion-into-up-to-50-emerging-markets-as-usd-627fa",
+  "date": "2026-10-17",
+  "section": "money",
+  "headline": "Circle plans expansion into up to 50 emerging markets as USDC demand rises",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+   "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream"
+  ]
+ },
+ {
+  "id": "2026-10-17-fbi-warns-ai-driven-voice-cloning-scams-targeting-2026-us-mi-7b932",
+  "date": "2026-10-17",
+  "section": "scam",
+  "headline": "FBI warns AI‑driven voice‑cloning scams targeting 2026 US midterm voters",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.theregister.com/cyber-crime/2026/10/16/uncle-scam-wants-you-to-cough-up-your-cash-and-personal-data-fbi-warns-ahead-of-midterms/5303512",
+   "https://www.helpnetsecurity.com/2026/10/16/usa-2026-midterm-election-scams/"
+  ]
  }
 ]
