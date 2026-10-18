@@ -130,5 +130,27 @@
   "from_score": 56,
   "to_score": 40,
   "note": "Rating changed from Well-sourced (56) to Developing (40) as new evidence came in."
+ },
+ {
+  "date": "2026-10-18",
+  "story_id": "2026-10-18-candiru-spyware-delivered-through-zero-click-ads-targeting-a-3e42c",
+  "prior_id": "2026-10-17-zero-click-ads-used-to-deliver-candiru-spyware-via-discover-fbb42",
+  "headline": "Candiru spyware delivered through zero‑click ads targeting Al Jazeera devices",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 70,
+  "to_score": 48,
+  "note": "Rating changed from Well-sourced (70) to Developing (48) as new evidence came in."
+ },
+ {
+  "date": "2026-10-18",
+  "story_id": "2026-10-18-tesla-showcases-prototype-roadster-performing-mid-air-stunts-46712",
+  "prior_id": "2026-10-17-tesla-unveils-next-generation-roadster-prototype-with-hover-cb05c",
+  "headline": "Tesla showcases prototype Roadster performing mid‑air stunts at Oct. 15 demo",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 73,
+  "to_score": 41,
+  "note": "Rating changed from Well-sourced (73) to Developing (41) as new evidence came in."
  }
 ]

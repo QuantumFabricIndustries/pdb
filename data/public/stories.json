@@ -3178,5 +3178,116 @@
    "https://www.theregister.com/cyber-crime/2026/10/16/uncle-scam-wants-you-to-cough-up-your-cash-and-personal-data-fbi-warns-ahead-of-midterms/5303512",
    "https://www.helpnetsecurity.com/2026/10/16/usa-2026-midterm-election-scams/"
   ]
+ },
+ {
+  "id": "2026-10-18-connectwise-cloud-backup-breach-leads-to-unauthorized-access-5d2e3",
+  "date": "2026-10-18",
+  "section": "threat",
+  "headline": "ConnectWise Cloud Backup breach leads to unauthorized access of Microsoft 365 tenants",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+   "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+   "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
+  ]
+ },
+ {
+  "id": "2026-10-18-candiru-spyware-delivered-through-zero-click-ads-targeting-a-3e42c",
+  "date": "2026-10-18",
+  "section": "threat",
+  "headline": "Candiru spyware delivered through zero‑click ads targeting Al Jazeera devices",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+   "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/"
+  ]
+ },
+ {
+  "id": "2026-10-18-tesla-showcases-prototype-roadster-performing-mid-air-stunts-46712",
+  "date": "2026-10-18",
+  "section": "ai",
+  "headline": "Tesla showcases prototype Roadster performing mid‑air stunts at Oct. 15 demo",
+  "label": "Developing",
+  "score": 41,
+  "also_covered_urls": [
+   "https://www.snopes.com/fact-check/tesla-flying-roadster-car-real/",
+   "https://decrypt.co/381184/tesla-roadster-rocket-cool-flying-car-you-cant-have",
+   "https://www.engadget.com/2289646/tesla-roadster-not-first-car-use-fans-for-downforce/",
+   "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car"
+  ]
+ },
+ {
+  "id": "2026-10-18-elizabeth-holmes-documentary-released-as-she-begins-prison-s-c4dbd",
+  "date": "2026-10-18",
+  "section": "ai",
+  "headline": "Elizabeth Holmes documentary released as she begins prison sentence",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.theguardian.com/film/2026/oct/17/elizabeth-holmes-documentary-why-we-care",
+   "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything"
+  ]
+ },
+ {
+  "id": "2026-10-18-meta-business-suite-terms-grant-web-scraping-rights-to-publi-52a83",
+  "date": "2026-10-18",
+  "section": "ai",
+  "headline": "Meta Business Suite terms grant web‑scraping rights to publishers’ sites",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.zdnet.com/uncategorized/meta-business-account-data-ai-scraping-terms/",
+   "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/"
+  ]
+ },
+ {
+  "id": "2026-10-18-international-bodies-vote-to-end-leap-seconds-bipm-to-cease-9f19c",
+  "date": "2026-10-18",
+  "section": "science",
+  "headline": "International bodies vote to end leap seconds, BIPM to cease additions in 2027",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03329-z",
+   "https://www.wired.com/story/leap-second-is-abolished-bipm-says/"
+  ]
+ },
+ {
+  "id": "2026-10-18-lab-study-shows-bleached-coral-can-fully-recover-through-bri-aa36f",
+  "date": "2026-10-18",
+  "section": "science",
+  "headline": "Lab study shows bleached coral can fully recover through brief contact with healthy fragment",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03336-0",
+   "https://www.nature.com/articles/d41586-026-03266-x",
+   "https://phys.org/news/2026-10-scientists-reverse-coral.html"
+  ]
+ },
+ {
+  "id": "2026-10-18-higher-u-s-bank-deposit-rates-linked-to-slower-stablecoin-ma-8f7c7",
+  "date": "2026-10-18",
+  "section": "money",
+  "headline": "Higher U.S. bank deposit rates linked to slower stablecoin market growth, study finds",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
+   "https://decrypt.co/381253/banks-hold-a-lever-over-stablecoin-adoption-bis-economists-say"
+  ]
+ },
+ {
+  "id": "2026-10-18-west-african-crypto-scam-crackdown-sees-arrests-and-fund-fre-9e489",
+  "date": "2026-10-18",
+  "section": "scam",
+  "headline": "West African crypto scam crackdown sees arrests and fund freezes",
+  "label": "Developing",
+  "score": 43,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million"
+  ]
  }
 ]

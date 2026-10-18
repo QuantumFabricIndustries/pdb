@@ -1,0 +1,115 @@
+[
+ {
+  "section": "threat",
+  "title": "ConnectWise Cloud Backup breach leads to unauthorized access of Microsoft 365 tenants",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "Candiru spyware delivered through zero‑click ads targeting Al Jazeera devices",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Tesla showcases prototype Roadster performing mid‑air stunts at Oct. 15 demo",
+  "verdict": "PUBLISH",
+  "truth": 41,
+  "reasons": [],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Elizabeth Holmes documentary released as she begins prison sentence",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Meta Business Suite terms grant web‑scraping rights to publishers’ sites",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "International bodies vote to end leap seconds, BIPM to cease additions in 2027",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Lab study shows bleached coral can fully recover through brief contact with healthy fragment",
+  "verdict": "PUBLISH",
+  "truth": 76,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Higher U.S. bank deposit rates linked to slower stablecoin market growth, study finds",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source regarding banks retaining influence through deposit pricing."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "West African crypto scam crackdown sees arrests and fund freezes",
+  "verdict": "PUBLISH",
+  "truth": 43,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated Walmart receipt images do not reflect real price changes",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Image of Man Midair on Six Flags Goliath Is AI‑Generated, Not Real",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "copied 3 long word-for-word run(s) from a source, e.g. \"thrown from the goliath roller coaster at six flags over georgia in\""
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied word-for-word phrases from the source text in so_what"
+  ],
+  "owners": 1
+ }
+]

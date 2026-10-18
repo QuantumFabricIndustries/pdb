@@ -1,0 +1,1167 @@
+{
+ "date": "2026-10-18",
+ "built_at": "2026-10-18T16:36:58.886548+00:00",
+ "stories": [
+  {
+   "id": "2026-10-18-connectwise-cloud-backup-breach-leads-to-unauthorized-access-5d2e3",
+   "date": "2026-10-18",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "ConnectWise Cloud Backup breach leads to unauthorized access of Microsoft 365 tenants",
+   "in_brief": "Hackers exploited compromised credentials of ConnectWise Cloud Backup to sign into dozens of Microsoft 365 tenants, starting on Oct. 15, 2026. The breach affects organizations that have the backup app installed and could expose email, files and directory data.",
+   "so_what": "The incident shows how supply‑chain attacks on backup services can give threat actors broad, pre‑approved access to cloud environments. Because the compromised application already held extensive permissions, multi‑factor authentication could not stop the automated sign‑ins. Microsoft 365 administrators should audit service‑principal permissions, revoke any unknown or unnecessary app grants, and monitor for unusual authentication patterns. ConnectWise has shut down access to its Cloud Backup service and is investigating, while researchers have observed the attackers moving through tenants in rapid succession. Ongoing monitoring of token usage and rapid credential rotation are essential to limit further exposure.",
+   "what_to_do": "1. Revoke and re‑issue the ConnectWise Cloud Backup application credentials in Azure AD. 2. Review and remove unnecessary service‑principal permissions for the backup app. 3. Enable conditional access policies and monitor sign‑in logs for anomalous activity.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Hackers accessed application identities within the ConnectWise Cloud Backup environment and compromised Microsoft 365 tenants",
+     "source": 1,
+     "quote": "ConnectWise ... identified unauthorized access to application identities within the ConnectWise Cloud Backup environment",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "At least 173 partner/customer tenants showed confirmed unauthorized sign‑ins using the compromised vendor credential",
+     "source": 2,
+     "quote": "Huntress said it has observed confirmed unauthorized sign‑ins within 173 partner/customer tenants using the compromised vendor credential",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The malicious activity originated from IP address 144.172.64.128 on October 15, 2026",
+     "source": 1,
+     "quote": "Based on reports ... the malicious activity started at least on October 15 from a single IP address: 144.172.64[.]128",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+     "published": "Sat, 17 Oct 2026 11:18:51 -0400",
+     "published_iso": "2026-10-17T15:18:51+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+     "published": "Sat, 17 Oct 2026 11:46:46 +0530",
+     "published_iso": "2026-10-17T06:16:46+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+    "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 55,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-18-candiru-spyware-delivered-through-zero-click-ads-targeting-a-3e42c",
+   "date": "2026-10-18",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Candiru spyware delivered through zero‑click ads targeting Al Jazeera devices",
+   "in_brief": "Researchers confirmed that Candiru malware was installed on Al Jazeera systems via malicious online ads that required no user interaction. The campaign, dubbed “AdFection,” used Israeli firm Discover‑Tech’s ad platform to select and infect targets.",
+   "so_what": "The discovery shows that commercial advertising networks can be weaponized to distribute state‑linked surveillance tools without any click, expanding the attack surface for journalists and other high‑profile users. By embedding JavaScript in ads and using a server‑side decision process, attackers can silently profile devices and deliver payloads only to chosen victims, making detection difficult. This underscores the need for organizations to scrutinize ad‑delivery pipelines, apply strict network segmentation, and monitor for unusual outbound connections to unknown ad‑related domains. Future monitoring should focus on ad‑tech infrastructure abuse and potential updates to the Candiru toolkit that may exploit new vulnerabilities.",
+   "what_to_do": "1. Ensure all operating systems and browsers are patched to the latest security updates. 2. Deploy network‑level filtering to block unknown ad‑tech domains and suspicious JavaScript payloads. 3. Conduct regular endpoint scans for unknown DLLs or spyware signatures like Candiru.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Candiru spyware was delivered to Al Jazeera devices via targeted online advertisements in a zero‑click attack that required only rendering the malicious ads on the victim's device.",
+     "source": 1,
+     "quote": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The technique was named AdFection and is the first public technical confirmation of mercenary spyware delivered through targeted ads.",
+     "source": 1,
+     "quote": "Researchers at Citizen Labs investigating the attacks referred to this technique as AdFection, noting that their report is the first public technical confirmation of mercenary spyware delivered through targeted ads.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Discover‑Tech acted as a bridge between mercenary spyware companies and the advertising ecosystem, enabling the delivery of Candiru via its ad platform.",
+     "source": 1,
+     "quote": "Discover-Tech appears to work with multiple mercenary spyware, hacking, and advertising vendors, connecting the spyware industry to the online advertising ecosystem.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+     "published": "Fri, 16 Oct 2026 13:20:03 -0400",
+     "published_iso": "2026-10-16T17:20:03+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+     "published": "Sat, 17 Oct 2026 11:00:00 +0000",
+     "published_iso": "2026-10-17T11:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+    "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-17-zero-click-ads-used-to-deliver-candiru-spyware-via-discover-fbb42",
+    "date": "2026-10-17",
+    "label": "Well-sourced",
+    "score": 70
+   }
+  },
+  {
+   "id": "2026-10-18-tesla-showcases-prototype-roadster-performing-mid-air-stunts-46712",
+   "date": "2026-10-18",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Tesla showcases prototype Roadster performing mid‑air stunts at Oct. 15 demo",
+   "in_brief": "Tesla livestreamed a prototype of its new Roadster on Oct. 15, showing it drive up an inverted ramp, flip and land on its wheels. The event highlights the car’s fan‑based downforce system and cold‑gas thrusters, while reservations remain non‑guaranteed and production is slated for 2028.",
+   "so_what": "The demonstration confirms Tesla’s claim that its next‑generation Roadster can generate enough downforce to appear to ‘fly’ using a multi‑mode fan and ground‑sealing system, a technology previously seen only on niche racing cars. However, the prototype is not street‑legal, lacks FAA approval, and the company’s reservation agreement makes clear that delivery dates and final specifications are uncertain. With reservations costing $50,000 for the two‑seat Performance model and $250,000 for the Thrust version, consumers are committing significant funds to a vehicle still under development, and Tesla has warned it cannot guarantee when—or if—a car will be delivered. Observers should watch for updates on regulatory clearance, production timelines, and any changes to pricing or features as Tesla moves toward a 2028 launch.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Tesla livestreamed a prototype Roadster on Oct. 15 that drove up an upside‑down ramp, flipped in midair and landed on its wheels",
+     "source": 1,
+     "quote": "Tesla livestreamed the footage on YouTube on Oct. 15. The event showcased the company's new Roadster model and was conducted in front of a live audience.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Tesla’s reservation agreement states it cannot guarantee delivery of the Roadster",
+     "source": 4,
+     "quote": "Roadster is still under development and so we cannot guarantee when your vehicle will actually be delivered or if it will be delivered.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The prototype uses cold‑gas thrusters and a fan‑based downforce system to achieve the stunts",
+     "source": 3,
+     "quote": "The trick that makes this car fly is cold-gas thrusters, which are basically compressed air blasted out of nozzles... Tesla's website says the flying version is not approved for public road use",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [3]"
+     ]
+    },
+    {
+     "claim": "Reservations cost $50,000 for the Performance model and $250,000 for the Thrust model, with production expected to start in 2028",
+     "source": 3,
+     "quote": "Tesla's reservation page asks $50,000 for the two-seat Performance and $250,000 for the Thrust, with $5,000 due up front... Musk said production begins in 2028.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [3]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Snopes",
+     "owner": "snopes.com",
+     "url": "https://www.snopes.com/fact-check/tesla-flying-roadster-car-real/",
+     "published": "Fri, 16 Oct 2026 20:28:00 +0000",
+     "published_iso": "2026-10-16T20:28:00+00:00",
+     "kind": "factcheck",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2289646/tesla-roadster-not-first-car-use-fans-for-downforce/",
+     "published": "Sat, 17 Oct 2026 21:20:21 +0000",
+     "published_iso": "2026-10-17T21:20:21+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381184/tesla-roadster-rocket-cool-flying-car-you-cant-have",
+     "published": "Fri, 16 Oct 2026 20:16:04 +0000",
+     "published_iso": "2026-10-16T20:16:04+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Hacker News",
+     "owner": "thedrive.com",
+     "url": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
+     "published": "Sun, 18 Oct 2026 14:16:41 +0000",
+     "published_iso": "2026-10-18T14:16:41+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.snopes.com/fact-check/tesla-flying-roadster-car-real/",
+    "https://decrypt.co/381184/tesla-roadster-rocket-cool-flying-car-you-cant-have",
+    "https://www.engadget.com/2289646/tesla-roadster-not-first-car-use-fans-for-downforce/",
+    "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car"
+   ],
+   "primary": [
+    {
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/"
+    },
+    {
+     "url": "https://www.federalregister.gov/documents/2020/12/21/2020-28107/notice-regarding-the-applicability-of-nhtsa-fmvss-test-procedures-to-certifying-manufacturers",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.federalregister.gov/documents/2020/12/21/2020-28107/notice-regarding-the-applicability-of-nhtsa-fmvss-test-procedures-to-certifying-manufacturers"
+    }
+   ],
+   "truth": {
+    "total": 41,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Yahoo, decrypt.co, snopes.com, thedrive.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      12,
+      25,
+      "2 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      2,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -10,
+      0,
+      "2 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 2 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4,
+   "previously": {
+    "id": "2026-10-17-tesla-unveils-next-generation-roadster-prototype-with-hover-cb05c",
+    "date": "2026-10-17",
+    "label": "Well-sourced",
+    "score": 73
+   }
+  },
+  {
+   "id": "2026-10-18-elizabeth-holmes-documentary-released-as-she-begins-prison-s-c4dbd",
+   "date": "2026-10-18",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Elizabeth Holmes documentary released as she begins prison sentence",
+   "in_brief": "The reality‑bending film “You Can See Everything” debuted in the United States on Friday, just days before Elizabeth Holmes reported to a federal prison camp in Texas to start an 11‑year term. The release coincides with ongoing public debate over her criminal convictions and acquittals.",
+   "so_what": "The timing of the documentary’s U.S. release highlights the continued public fascination with Holmes’s rise and fall, juxtaposing her personal narrative with the legal outcomes of her case. While Holmes was sentenced to 11 years for wire fraud and conspiracy, a separate trial acquitted her of four patient‑fraud charges, leaving her incarcerated for misleading investors who contributed over $700 million. The film’s launch may shape public perception of Holmes, especially as it presents her story through a stylized lens that some viewers find compelling. Observers will watch how the documentary influences discourse on corporate fraud, media framing, and the legacy of high‑profile tech scandals.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The documentary “You Can See Everything” was released in the US on Friday.",
+     "source": 1,
+     "quote": "Perhaps the answer lies in You Can See Everything, a reality-bending documentary, released in the US on Friday",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Holmes was due to report to federal prison camp Bryan in Texas to begin an 11‑year sentence for wire fraud and conspiracy.",
+     "source": 1,
+     "quote": "It was filmed in the 34 days before she was due to report to federal prison camp Bryan in Texas to begin her 11-year sentence for wire fraud and conspiracy",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Holmes was acquitted of four charges related to defrauding patients and is in prison because a jury found she knowingly misled investors who poured more than $700 million into Theranos.",
+     "source": 2,
+     "quote": "Holmes was actually acquitted of all four charges related to defrauding patients. She’s in prison because a jury found that she knowingly misled investors who poured more than $700 million into the startup",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/film/2026/oct/17/elizabeth-holmes-documentary-why-we-care",
+     "published": "Sat, 17 Oct 2026 09:00:28 GMT",
+     "published_iso": "2026-10-17T09:00:28+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "readtheprofile.com",
+     "url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+     "published": "Sun, 18 Oct 2026 03:19:49 +0000",
+     "published_iso": "2026-10-18T03:19:49+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theguardian.com/film/2026/oct/17/elizabeth-holmes-documentary-why-we-care",
+    "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything"
+   ],
+   "primary": [
+    {
+     "url": "https://history.washington.edu/people/margaret-omara",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://history.washington.edu/people/margaret-omara"
+    }
+   ],
+   "truth": {
+    "total": 47,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Guardian Media Group, readtheprofile.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-18-meta-business-suite-terms-grant-web-scraping-rights-to-publi-52a83",
+   "date": "2026-10-18",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Meta Business Suite terms grant web‑scraping rights to publishers’ sites",
+   "in_brief": "Meta’s updated commercial terms let its bots crawl websites linked to Business Suite accounts, taking effect on Oct. 30. The change means publishers must consent or lose access to the platform.",
+   "so_what": "The new terms expand Meta’s ability to collect content from news sites and other publishers for AI training and product development. Legal analysts say the language gives Meta broad permission to scrape without an opt‑out, potentially sidestepping licensing negotiations that many news outlets have pursued with AI firms. Publishers could see more of their material used in AI models, raising concerns about copyright and revenue, especially as news organizations have recently sued AI companies over unlicensed use. The policy shift also highlights the growing tension between large tech platforms that need high‑quality data and media companies protecting their content. Stakeholders will be watching for any regulatory response or further legal challenges as the October 30 start date approaches.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Meta Business Suite’s new terms allow web‑crawling on publication sites",
+     "source": 1,
+     "quote": "Meta Business Suite’s new terms allow web‑crawling on publication sites, legal experts say.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The changes go into effect on Oct. 30 and there is no opt‑out for publishers",
+     "source": 1,
+     "quote": "The changes go into effect on Oct. 30, and Meta will not provide an opt-out, meaning publishers will either agree to the web-scraping or be booted from the platform.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Legal experts warn the terms grant broad scraping permissions",
+     "source": 2,
+     "quote": "Legal experts warn Meta's new terms still grant broad scraping permissions.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/uncategorized/meta-business-account-data-ai-scraping-terms/",
+     "published": "2026-10-16T19:36:02Z",
+     "published_iso": "2026-10-16T19:36:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "niemanlab.org",
+     "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+     "published": "Sun, 18 Oct 2026 10:21:51 +0000",
+     "published_iso": "2026-10-18T10:21:51+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.zdnet.com/uncategorized/meta-business-account-data-ai-scraping-terms/",
+    "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Ziff Davis, niemanlab.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-18-international-bodies-vote-to-end-leap-seconds-bipm-to-cease-9f19c",
+   "date": "2026-10-18",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "International bodies vote to end leap seconds, BIPM to cease additions in 2027",
+   "in_brief": "Member states of the CGPM approved a resolution on 15 October 2026 to discontinue leap seconds, and the BIPM announced it will stop issuing them from May 2027. The change removes a century‑old time‑keeping adjustment and eliminates the risk of a future negative leap second.",
+   "so_what": "Leap seconds have been inserted since 1972 to keep atomic time (UTC) aligned with Earth’s irregular rotation. Their occasional insertion has caused disruptions in computing, navigation and financial systems, prompting many tech firms to adopt work‑arounds such as time‑smearing. By ending the practice, the international metrology community aims to provide a continuously monotonic time scale, simplifying system design and avoiding the logistical challenge of a potential negative leap second that some studies suggested could be needed by 2029. Stakeholders will need to update software and protocols that currently account for leap‑second events, but the move is expected to improve long‑term stability of global timekeeping. Watch for guidance from standards bodies and industry groups on transitioning to the new UTC definition.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "The BIPM will stop issuing leap seconds starting in May 2027, after having added 32 leap seconds since 1972.",
+     "source": 2,
+     "quote": "The International Bureau of Weights and Measurements (known by its French acronym BIPM) on Thursday said that in May 2027 it would stop issuing leap seconds, 32 of which have been added since 1972 to adjust what’s known as Coordinated Universal Time (UTC).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Scientists warned that a negative leap second could have been required as early as 2029 due to changes in Earth’s rotation.",
+     "source": 2,
+     "quote": "the odds of having to add a negative leap second have been rising ... may have been required as soon as 2029, according to a 2024 Nature study.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "CGPM member states voted to pass a resolution ending leap seconds on 15 October 2026.",
+     "source": 1,
+     "quote": "Member states of the General Conference on Weights and Measures (CGPM) voted to pass the resolution at their 28th meeting, outside Paris, on 15 October.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03329-z",
+     "published": "2026-10-15",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/leap-second-is-abolished-bipm-says/",
+     "published": "Fri, 16 Oct 2026 21:31:35 +0000",
+     "published_iso": "2026-10-16T21:31:35+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03329-z",
+    "https://www.wired.com/story/leap-second-is-abolished-bipm-says/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/s41586-024-07170-0",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/s41586-024-07170-0"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03329-z",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-17-international-bodies-vote-to-end-leap-seconds-by-may-2027-c9200",
+    "date": "2026-10-17",
+    "label": "Well-sourced",
+    "score": 61
+   }
+  },
+  {
+   "id": "2026-10-18-lab-study-shows-bleached-coral-can-fully-recover-through-bri-aa36f",
+   "date": "2026-10-18",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Lab study shows bleached coral can fully recover through brief contact with healthy fragment",
+   "in_brief": "Scientists restored bleached coral in a laboratory by placing it next to a healthy piece, achieving full recovery in seven to eight weeks. The finding suggests a potential new approach for reef restoration as bleaching threatens coral ecosystems.",
+   "so_what": "Coral bleaching, driven by rising ocean temperatures, has left many reefs near collapse, with some projections indicating large-scale loss within decades. The laboratory experiments reported by Nature and Phys.org demonstrate that physical contact between genetically identical coral fragments can transmit beneficial algae, reversing bleaching much faster than natural recovery, which can take months to years. If scalable, this method could complement existing restoration techniques, offering a quicker way to bolster reef resilience. Researchers will need to test the approach in field conditions, assess long‑term survival, and determine how to apply it across diverse coral species and reef settings. Monitoring the method’s effectiveness and any ecological side effects will be crucial as climate pressures intensify.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual scientific report",
+   "claims": [
+    {
+     "claim": "Bleached coral fragments fully recovered when placed in contact with a healthy fragment in the lab",
+     "source": 1,
+     "quote": "Researchers found that when a healthy piece of Pocillopora damicornis coral rested against a bleached piece, the two fused together to create a bridge across which algal symbionts can spread. This transfer fully restored the bleached coral within eight weeks",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The recovery occurred within seven weeks, the fastest documented to date",
+     "source": 2,
+     "quote": "Ghostly white corals returned to full health in a laboratory setting within seven weeks, the fastest documented recovery to date",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The experiment used genetically identical coral fragments from the same colony",
+     "source": 2,
+     "quote": "Two coral fragments—one bleached, one healthy—sampled from the same colony had tipped over in a tank and were now touching",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03336-0",
+     "published": "2026-10-15",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-10-scientists-reverse-coral.html",
+     "published": "Sun, 18 Oct 2026 12:00:01 EDT",
+     "published_iso": "2026-10-18T16:00:01+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03336-0",
+    "https://www.nature.com/articles/d41586-026-03266-x",
+    "https://phys.org/news/2026-10-scientists-reverse-coral.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03336-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 76,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-18-higher-u-s-bank-deposit-rates-linked-to-slower-stablecoin-ma-8f7c7",
+   "date": "2026-10-18",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Higher U.S. bank deposit rates linked to slower stablecoin market growth, study finds",
+   "in_brief": "A Bank for International Settlements working paper reports that a one‑basis‑point increase in U.S. bank deposit rates is associated with a reduction in ten‑week stablecoin market‑cap growth. The effect is most pronounced for Circle’s USDC compared with Tether’s USDT, suggesting banks can influence stablecoin adoption through deposit pricing.",
+   "so_what": "The analysis offers quantitative backing to concerns that traditional banks can moderate the expansion of digital currencies by increasing savings rates. By dampening capital inflows into stablecoins, lenders can protect their deposit bases and mitigate potential constraints on lending capacity. Regulators are monitoring these dynamics as they evaluate policies related to stablecoin yields and reserve requirements, with the BIS study noting that institutions maintain some ability to affect adoption speeds through their deposit rates. Stakeholders should track upcoming regulatory decisions and changes in bank deposit pricing strategies, which could influence the future growth of major stablecoins like USDC and USDT.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral academic findings",
+   "claims": [
+    {
+     "claim": "A one‑basis‑point rise in U.S. bank deposit rates predicted slower stablecoin growth, cutting ten‑week growth from 15% to 12%",
+     "source": 1,
+     "quote": "A BIS working paper found a 1 basis point rise in U.S. bank deposit rates predicted slower stablecoin growth, cutting ten-week growth from 15% to 12%.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The relationship was stronger for Circle’s USDC than Tether’s USDT",
+     "source": 1,
+     "quote": "The relationship was stronger for Circle’s USDC than Tether’s USDT, a pattern the authors said was consistent with USDC’s closer ties to U.S. users.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Banks retain some influence over stablecoin adoption through deposit pricing",
+     "source": 2,
+     "quote": "The paper concludes that banks “retain some influence over the pace of that adoption through deposit pricing.”",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
+     "published": "Sat, 17 Oct 2026 12:00:00 +0000",
+     "published_iso": "2026-10-17T12:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381253/banks-hold-a-lever-over-stablecoin-adoption-bis-economists-say",
+     "published": "Sun, 18 Oct 2026 13:01:04 +0000",
+     "published_iso": "2026-10-18T13:01:04+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
+    "https://decrypt.co/381253/banks-hold-a-lever-over-stablecoin-adoption-bis-economists-say"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html"
+    }
+   ],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Copied word-for-word run from source regarding banks retaining influence through deposit pricing."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-18-west-african-crypto-scam-crackdown-sees-arrests-and-fund-fre-9e489",
+   "date": "2026-10-18",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "West African crypto scam crackdown sees arrests and fund freezes",
+   "in_brief": "Authorities in Ghana and Nigeria arrested 28 people and flagged $11 million in crypto‑related funds for possible freezing. The operation also saw Meta remove millions of fraudulent social‑media accounts.",
+   "so_what": "The coordinated effort, led by the U.K.’s National Crime Agency and supported by the U.S. Department of Justice, marks the first joint operation focused on West African cryptocurrency fraud. By involving major exchanges such as Binance and Coinbase, as well as blockchain analytics firms, investigators gained access to transaction data that helped identify victims, seize electronic devices, and target over 30 suspected scam centers. The flagged $11 million represents potential assets that could be frozen, though the exact value of seized cryptocurrencies was not disclosed. The removal of more than 3.7 million fraudulent social‑media profiles by Meta aims to curb impersonation schemes that target users in the U.S., U.K., and elsewhere. Continued monitoring of frozen assets and cooperation between tech firms and law‑enforcement will be critical to dismantling the laundering networks and protecting investors.",
+   "what_to_do": "1. Verify the legitimacy of any crypto investment offer by checking official exchange listings and avoiding unsolicited messages. 2. Report suspicious accounts or messages to the platform (e.g., Facebook, Instagram) and to local law‑enforcement. 3. If you suspect you have been scammed, contact your exchange’s support team to freeze the account and seek guidance on recovery steps.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Authorities arrested 28 people in Ghana and Nigeria in a crackdown on scam networks linked to cryptocurrency investment fraud.",
+     "source": 1,
+     "quote": "Authorities arrested 28 people in Ghana and Nigeria in a crackdown on West African scam networks that included cryptocurrency investment fraud, the U.S. Department of Justice said in a statement.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Private‑sector partners flagged $11 million in funds that could be frozen.",
+     "source": 1,
+     "quote": "Private-sector partners flagged $11 million in funds that could be frozen, while officials reported cryptocurrency seizures without disclosing their value.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Meta removed more than 3.7 million Facebook and Instagram accounts, pages and groups tied to the scams.",
+     "source": 1,
+     "quote": "Meta removed more than 3.7 million Facebook and Instagram accounts, pages and groups, while investigators received leads on over 30 suspected scam centers.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million",
+     "published": "Sun, 18 Oct 2026 12:00:00 +0000",
+     "published_iso": "2026-10-18T12:00:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/opa/pr/department-justice-announces-results-law-enforcement-and-private-industry-joint-disruption",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/opa/pr/department-justice-announces-results-law-enforcement-and-private-industry-joint-disruption"
+    },
+    {
+     "url": "https://www.nationalcrimeagency.gov.uk/news/nca-hosts-international-law-enforcement-and-tech-industry-crackdown-on-fraud-and-scams",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.nationalcrimeagency.gov.uk/news/nca-hosts-international-law-enforcement-and-tech-industry-crackdown-on-fraud-and-scams"
+    }
+   ],
+   "truth": {
+    "total": 43,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 288,
+  "stories_considered": 11,
+  "published": 9,
+  "outlets": 32
+ }
+}
