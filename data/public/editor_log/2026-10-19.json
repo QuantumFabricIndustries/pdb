@@ -1,0 +1,121 @@
+[
+ {
+  "section": "threat",
+  "title": "ConnectWise suspends cloud services after credential compromise enables access to Microsoft 365 tenants",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "ETS SFTP breach exposes data of millions of California public‑school students",
+  "verdict": "PUBLISH",
+  "truth": 35,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "OpenCode Console breach exposes API keys for 1.4% of users",
+  "verdict": "PUBLISH",
+  "truth": 35,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "US Homeland Security bans DeepSeek AI in civilian government agencies",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Elon Musk Announces Plan to Gift One SpaceX Share to Each U.S. Child Next Year",
+  "verdict": "PUBLISH",
+  "truth": 62,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft headline states the plan starts in 2027, but sources 1 and 2 state it starts 'next year' (2026 based on 2025/2026 context).",
+   "editor: So_what section includes unverified or speculative claims about past foundation investigations not detailed adequately in sources.",
+   "editor: Draft headline and text incorrectly reference 2027 for the start date when sources explicitly say next year."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Anthropic to allocate 5% of shares to public‑benefit fund as Musk vows share giveaway to U.S. children",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Lab experiments show bleached corals can fully recover after brief contact with healthy fragments",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA releases jet-noise prediction software for aircraft engine design",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "JPMorgan launches JPM Coin on Ethereum for institutional use",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Zcash developers propose per-swap viewing keys to mitigate future quantum threats",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "West African crypto scam crackdown sees arrests and fund freezes",
+  "verdict": "PUBLISH",
+  "truth": 43,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated images of Eiffel Tower protests debunked",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ }
+]

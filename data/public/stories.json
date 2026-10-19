@@ -3289,5 +3289,153 @@
   "also_covered_urls": [
    "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million"
   ]
+ },
+ {
+  "id": "2026-10-19-connectwise-suspends-cloud-services-after-credential-comprom-83ae4",
+  "date": "2026-10-19",
+  "section": "threat",
+  "headline": "ConnectWise suspends cloud services after credential compromise enables access to Microsoft 365 tenants",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
+   "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+   "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/"
+  ]
+ },
+ {
+  "id": "2026-10-19-ets-sftp-breach-exposes-data-of-millions-of-california-publi-ee76a",
+  "date": "2026-10-19",
+  "section": "threat",
+  "headline": "ETS SFTP breach exposes data of millions of California public‑school students",
+  "label": "Developing",
+  "score": 35,
+  "also_covered_urls": [
+   "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+   "https://www.malwarebytes.com/blog/data-breaches/2026/10/millions-of-california-students-sensitive-data-stolen-in-breach"
+  ]
+ },
+ {
+  "id": "2026-10-19-opencode-console-breach-exposes-api-keys-for-1-4-of-users-9c860",
+  "date": "2026-10-19",
+  "section": "threat",
+  "headline": "OpenCode Console breach exposes API keys for 1.4% of users",
+  "label": "Developing",
+  "score": 35,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+   "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
+  ]
+ },
+ {
+  "id": "2026-10-19-us-homeland-security-bans-deepseek-ai-in-civilian-government-0ee68",
+  "date": "2026-10-19",
+  "section": "ai",
+  "headline": "US Homeland Security bans DeepSeek AI in civilian government agencies",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
+   "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+   "https://decrypt.co/381347/us-orders-civilian-agencies-rip-deepseek-out-government-systems"
+  ]
+ },
+ {
+  "id": "2026-10-19-elon-musk-announces-plan-to-gift-one-spacex-share-to-each-u-6f368",
+  "date": "2026-10-19",
+  "section": "ai",
+  "headline": "Elon Musk Announces Plan to Gift One SpaceX Share to Each U.S. Child Next Year",
+  "label": "Well-sourced",
+  "score": 62,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1013667/elon-musk-space-x-shares-us-children",
+   "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
+   "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/"
+  ]
+ },
+ {
+  "id": "2026-10-19-anthropic-to-allocate-5-of-shares-to-public-benefit-fund-as-554a5",
+  "date": "2026-10-19",
+  "section": "ai",
+  "headline": "Anthropic to allocate 5% of shares to public‑benefit fund as Musk vows share giveaway to U.S. children",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+   "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+   "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+  ]
+ },
+ {
+  "id": "2026-10-19-lab-experiments-show-bleached-corals-can-fully-recover-after-eb9c8",
+  "date": "2026-10-19",
+  "section": "science",
+  "headline": "Lab experiments show bleached corals can fully recover after brief contact with healthy fragments",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03336-0",
+   "https://www.sciencedaily.com/releases/2026/10/261017230025.htm"
+  ]
+ },
+ {
+  "id": "2026-10-19-nasa-releases-jet-noise-prediction-software-for-aircraft-eng-9e81c",
+  "date": "2026-10-19",
+  "section": "science",
+  "headline": "NASA releases jet-noise prediction software for aircraft engine design",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/"
+  ]
+ },
+ {
+  "id": "2026-10-19-jpmorgan-launches-jpm-coin-on-ethereum-for-institutional-use-27ffd",
+  "date": "2026-10-19",
+  "section": "money",
+  "headline": "JPMorgan launches JPM Coin on Ethereum for institutional use",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
+   "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars"
+  ]
+ },
+ {
+  "id": "2026-10-19-zcash-developers-propose-per-swap-viewing-keys-to-mitigate-f-67b4b",
+  "date": "2026-10-19",
+  "section": "money",
+  "headline": "Zcash developers propose per-swap viewing keys to mitigate future quantum threats",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/19/zcash-developers-plan-a-fix-to-keep-zec-swaps-private-from-future-quantum-computers",
+   "https://decrypt.co/381257/zcash-developer-zakura-proposes-fix-to-stop-quantum-computers-linking-shielded-swaps"
+  ]
+ },
+ {
+  "id": "2026-10-19-west-african-crypto-scam-crackdown-sees-arrests-and-fund-fre-9e489",
+  "date": "2026-10-19",
+  "section": "scam",
+  "headline": "West African crypto scam crackdown sees arrests and fund freezes",
+  "label": "Developing",
+  "score": 43,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million"
+  ]
+ },
+ {
+  "id": "2026-10-19-ai-generated-images-of-eiffel-tower-protests-debunked-cfc61",
+  "date": "2026-10-19",
+  "section": "myth",
+  "headline": "AI‑generated images of Eiffel Tower protests debunked",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://fullfact.org/world/viral-image-protesters-palestinian-flag-eiffel-tower-ai-generated/",
+   "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-palestinian-and-jordanian-flags-on-top-of-the-eiffel-tower-in-paris-it-is-digitally-fabricated.html"
+  ]
  }
 ]

@@ -1,0 +1,1530 @@
+{
+ "date": "2026-10-19",
+ "built_at": "2026-10-19T19:24:40.753202+00:00",
+ "stories": [
+  {
+   "id": "2026-10-19-connectwise-suspends-cloud-services-after-credential-comprom-83ae4",
+   "date": "2026-10-19",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "ConnectWise suspends cloud services after credential compromise enables access to Microsoft 365 tenants",
+   "in_brief": "ConnectWise disabled its Cloud Backup, SaaS Security and Cloud Management services after attackers used a stolen application credential to sign into at least 162 Microsoft 365 tenants. The breach is being investigated as a supply‑chain attack affecting many managed‑service‑provider customers.",
+   "so_what": "The incident shows how a single compromised service‑principal credential can give threat actors broad access across multiple organizations that have granted the ConnectWise Cloud Backup app permissions in Microsoft Entra ID. Because the credential works in every tenant where the app is installed, attackers were able to move quickly through a list of targets, potentially exposing email, OneDrive, SharePoint and Teams data. Microsoft has labeled the event a supply‑chain attack, highlighting the risk of third‑party integrations. Organizations should audit third‑party app permissions, enforce conditional access policies, and monitor for anomalous sign‑ins from non‑Microsoft IP ranges. Ongoing remediation by ConnectWise and third‑party experts will determine the full scope and any further impact.",
+   "what_to_do": "1. Revoke and re‑issue the ConnectWise Cloud Backup application credential in Microsoft Entra ID. 2. Review and limit the permissions granted to third‑party service principals, applying least‑privilege and conditional‑access policies. 3. Enable multi‑factor authentication and monitor sign‑in logs for unusual IP addresses or timing patterns.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Attackers used a compromised credential belonging to the ConnectWise Cloud Backup application to access Microsoft 365 accounts",
+     "source": 1,
+     "quote": "The intruders used a compromised credential belonging to the ConnectWise Cloud Backup application, formerly known as SkyKick.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Huntress confirmed unauthorized access to at least 162 Microsoft 365 tenants on October 15",
+     "source": 1,
+     "quote": "Huntress ... confirmed unauthorized access to at least 162 Microsoft 365 tenants.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "ConnectWise temporarily suspended its Cloud Backup, SaaS Security and Cloud Management services",
+     "source": 1,
+     "quote": "This spurred the company to temporarily suspend the backup service, as well as its SaaS Security (monitoring and alerting) and Cloud Management (user and license management) services.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/",
+     "published": "Mon, 19 Oct 2026 13:33:57 +0000",
+     "published_iso": "2026-10-19T13:33:57+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
+     "published": "Mon, 19 Oct 2026 13:16:20 +0000",
+     "published_iso": "2026-10-19T13:16:20+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+     "published": "Sun, 18 Oct 2026 13:53:02 +0530",
+     "published_iso": "2026-10-18T08:23:02+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
+    "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+    "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-18-connectwise-cloud-backup-breach-leads-to-unauthorized-access-5d2e3",
+    "date": "2026-10-18",
+    "label": "Well-sourced",
+    "score": 55
+   }
+  },
+  {
+   "id": "2026-10-19-ets-sftp-breach-exposes-data-of-millions-of-california-publi-ee76a",
+   "date": "2026-10-19",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "ETS SFTP breach exposes data of millions of California public‑school students",
+   "in_brief": "An unauthorized party accessed an ETS‑operated SFTP site using compromised login credentials and copied files containing personal information of millions of California public‑school students. The breach, affecting records from May 22 to September 18, raises concerns about student privacy and identity‑theft risk.",
+   "so_what": "The breach involves a nonprofit testing organization that processes statewide assessments for California, meaning a large portion of the state’s student population may have personal details such as names, birth dates, home addresses, demographic data, disability information and test scores exposed. While Social Security numbers and financial data were not compromised, the depth of educational and personal data could be leveraged for phishing or social engineering attacks against students and families. The incident underscores the importance of securing credential access to critical data repositories and the need for robust monitoring of privileged accounts. Regulators and school districts are likely to scrutinize data‑handling practices, and affected families are being offered free identity‑protection services for two years. Future oversight may include stricter authentication requirements for education‑sector data transfers.",
+   "what_to_do": "1. Verify any breach notifications through official school or district channels. 2. Enroll eligible students and adults in the offered free identity‑protection service. 3. Remain vigilant for phishing attempts that reference the disclosed personal details.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "An unauthorized party used compromised login details to access the ETS SFTP site and copy files containing student information between May 22 and September 18.",
+     "source": 1,
+     "quote": "An investigation determined that an unauthorized party used compromised login details to access the site and copy files containing California student information at various times between May 22 and September 18.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Social Security numbers, financial account information, passwords, and parent or guardian information were not involved.",
+     "source": 1,
+     "quote": "CDE says Social Security numbers, financial account information, passwords, and parent or guardian information were not involved.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The breach includes personal data such as names, dates of birth, home addresses, demographic information, disability details and test scores.",
+     "source": 1,
+     "quote": "The information involved varies by individual but may include: Student names... Dates of birth... Home addresses... Demographic information... Disability and program participation information... Statewide assessment information, including test scores.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/data-breaches/2026/10/millions-of-california-students-sensitive-data-stolen-in-breach",
+     "published": "Mon, 19 Oct 2026 11:10:14 GMT",
+     "published_iso": "2026-10-19T11:10:14+00:00",
+     "kind": "vendor",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+     "published": "Mon, 19 Oct 2026 11:55:50 +0000",
+     "published_iso": "2026-10-19T11:55:50+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+    "https://www.malwarebytes.com/blog/data-breaches/2026/10/millions-of-california-students-sensitive-data-stolen-in-breach"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 35,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: malwarebytes.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-19-opencode-console-breach-exposes-api-keys-for-1-4-of-users-9c860",
+   "date": "2026-10-19",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "OpenCode Console breach exposes API keys for 1.4% of users",
+   "in_brief": "OpenCode reported that a distillation‑style attack on Oct 16‑17 compromised API keys of a subset of Console users, leading to unauthorized cloud charges. The incident highlights risks of storing third‑party credentials in development tools.",
+   "so_what": "The breach shows that even open‑source AI coding platforms can become vectors for credential theft when they integrate external AI services. Affected users saw unauthorized charges, some exceeding $1,700, and Google suspended projects after detecting suspicious activity. OpenCode’s response included notifying impacted users, working with Google, OpenAI and Anthropic, and deploying OpenAI’s Daybreak AI security model. Organizations and developers should reassess how they store and protect API keys, especially in shared or hosted environments, and monitor for anomalous usage. Future scrutiny will focus on whether similar attacks target other AI‑enabled development tools and how quickly providers can remediate credential exposure.",
+   "what_to_do": "1. Rotate any API keys stored in OpenCode Console or similar tools. 2. Review cloud‑provider billing for unexpected charges and set alerts. 3. Enable multi‑factor authentication and least‑privilege access for all AI service accounts.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "The breach affected 1.4% of OpenCode Console users",
+     "source": 1,
+     "quote": "We had a security breach last night related to a large-scale distillation attack that impacted 1.4% of OpenCode Console users",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Unauthorized API charges of up to $1,700 were reported",
+     "source": 1,
+     "quote": "with some reporting more than $1,700 in unauthorized charges overnight",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The attack occurred on the night of October 16‑17, 2026",
+     "source": 2,
+     "quote": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third‑party AI provider keys",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [2]: 17"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+     "published": "Mon, 19 Oct 2026 13:27:15 -0400",
+     "published_iso": "2026-10-19T17:27:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+     "published": "Mon, 19 Oct 2026 11:37:08 +0530",
+     "published_iso": "2026-10-19T06:07:08+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+    "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 35,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-19-us-homeland-security-bans-deepseek-ai-in-civilian-government-0ee68",
+   "date": "2026-10-19",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "US Homeland Security bans DeepSeek AI in civilian government agencies",
+   "in_brief": "The Department of Homeland Security ordered all civilian U.S. government agencies to remove DeepSeek AI products and stop new purchases. The ban, effective since July, targets potential data‑security risks tied to the Chinese‑origin model.",
+   "so_what": "The ban reflects growing U.S. concerns that open‑source AI models from China could expose sensitive government information. By restricting DeepSeek, the DHS aims to prevent possible transfer of data to the People’s Republic of China and mitigate threat vectors such as malware or intelligence gathering. The restriction applies to civilian agencies—including Treasury, State and Justice—while Defense‑related entities are exempt, highlighting a selective approach. The move follows earlier state‑level bans and congressional proposals, underscoring a broader trend of tightening controls on foreign AI technology. Observers will watch how other agencies implement the removal, whether additional federal contracts are barred, and if similar actions extend to other Chinese AI firms.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The Department of Homeland Security ordered civilian government agencies to remove DeepSeek products and stop new purchases.",
+     "source": 3,
+     "quote": "DHS directed U.S. civilian agencies on Monday to remove DeepSeek products and third‑party services built on the model from their IT systems, and barred new purchases.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The ban excludes agencies within the Department of Defense.",
+     "source": 1,
+     "quote": "However, agencies within the Department of Defense are excluded.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The DHS said DeepSeek use may result in the transfer of sensitive data to the PRC.",
+     "source": 2,
+     "quote": "DHS characterized the risks of DeepSeek use as potentially resulting in the \"transfer of sensitive data\" of US government employees and vendors to the Chinese government.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 19 Oct 2026 18:21:54 GMT",
+     "published_iso": "2026-10-19T18:21:54+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+     "published": "Mon, 19 Oct 2026 16:59:28 +0000",
+     "published_iso": "2026-10-19T16:59:28+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381347/us-orders-civilian-agencies-rip-deepseek-out-government-systems",
+     "published": "Mon, 19 Oct 2026 18:16:04 +0000",
+     "published_iso": "2026-10-19T18:16:04+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
+    "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+    "https://decrypt.co/381347/us-orders-civilian-agencies-rip-deepseek-out-government-systems"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information"
+    },
+    {
+     "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://public-inspection.federalregister.gov/2026-21447.pdf"
+    }
+   ],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-19-elon-musk-announces-plan-to-gift-one-spacex-share-to-each-u-6f368",
+   "date": "2026-10-19",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Elon Musk Announces Plan to Gift One SpaceX Share to Each U.S. Child Next Year",
+   "in_brief": "Elon Musk said he will give one SpaceX share to every child in the United States starting next year, a move that could total about $10.5 billion in value. The pledge follows recent political donations and comes as Musk promotes the use of Trump Accounts for the distribution.",
+   "so_what": "Musk’s announcement represents a massive potential philanthropic pledge, affecting roughly 72 million minors and linking personal wealth distribution to tax-advantaged accounts. While the exact mechanism remains to be detailed, Musk referenced distributing shares directly and responded to figures involved with Trump Accounts. Observers are watching for implementation details, regulatory reviews of stock transfers to minors, and impacts on SpaceX's shareholder structure.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Musk announced he will give one SpaceX share to every child in the United States starting next year",
+     "source": 1,
+     "quote": "Elon Musk says he plans to give one of his SpaceX shares to every child in the US starting next year.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "There were about 72 million children under 18 in the U.S. as of July 2025",
+     "source": 2,
+     "quote": "There were 72 million children under 18 in the U.S. as of July 1, 2025, according to official census data.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The giveaway would be worth roughly $10.5 billion based on SpaceX’s closing price of $146.03",
+     "source": 2,
+     "quote": "That would amount to the CEO giving away about $10.5 billion worth of shares, taking into account SpaceX's closing stock price of $146.03 as of Friday.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Musk said the share giveaway will be \"the first of many\"",
+     "source": 2,
+     "quote": "\"This will be the first of many,\" Musk said in a post on X",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1013667/elon-musk-space-x-shares-us-children",
+     "published": "2026-10-19T10:20:11-04:00",
+     "published_iso": "2026-10-19T14:20:11+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
+     "published": "Mon, 19 Oct 2026 16:58:20 GMT",
+     "published_iso": "2026-10-19T16:58:20+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
+     "published": "Mon, 19 Oct 2026 12:42:55 +0000",
+     "published_iso": "2026-10-19T12:42:55+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/tech/1013667/elon-musk-space-x-shares-us-children",
+    "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
+    "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.childstats.gov/americaschildren/highlights.asp",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.childstats.gov/americaschildren/highlights.asp"
+    }
+   ],
+   "truth": {
+    "total": 62,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft headline states the plan starts in 2027, but sources 1 and 2 state it starts 'next year' (2026 based on 2025/2026 context).",
+     "editor: So_what section includes unverified or speculative claims about past foundation investigations not detailed adequately in sources.",
+     "editor: Draft headline and text incorrectly reference 2027 for the start date when sources explicitly say next year."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-19-anthropic-to-allocate-5-of-shares-to-public-benefit-fund-as-554a5",
+   "date": "2026-10-19",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Anthropic to allocate 5% of shares to public‑benefit fund as Musk vows share giveaway to U.S. children",
+   "in_brief": "Anthropic announced it will commit five percent of its stock to a public‑benefit fund, while Elon Musk said he will give one SpaceX share to every child in America next year. Both moves come amid heightened scrutiny of AI’s societal impact and calls for greater corporate responsibility.",
+   "so_what": "The commitments signal a shift toward public‑oriented financing in the fast‑growing AI sector, where firms face pressure over safety, labor displacement and environmental concerns. Anthropic’s fund, valued at roughly $48 billion based on its May valuation, is designed to support large donations to nonprofits or direct distributions to specific groups, and may expand by an additional two percent of shares for each 50 percent rise in the company’s market value. Musk’s pledge to distribute SpaceX shares to U.S. children mirrors Anthropic’s approach, highlighting a broader trend of high‑profile tech leaders using equity as a tool for public outreach. Observers will watch how the funds are governed, the timing of Anthropic’s planned November IPO, and whether similar equity‑based public‑good initiatives emerge from other AI firms.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Anthropic will commit 5% of its shares to a public‑benefit fund",
+     "source": 2,
+     "quote": "Anthropic has said it will commit 5% of its shares to a fund for the “public good”",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Elon Musk announced he will give one SpaceX share to every child in America next year",
+     "source": 1,
+     "quote": "Musk said on Monday that he would give one of his shares at his rocket company, which owns xAI, to every child in America next year",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The fund may receive an additional 2% of Anthropic’s stock for each 50% increase in its valuation",
+     "source": 2,
+     "quote": "It will add a further 2% of its stock to the fund for every 50% increase in its value above an undisclosed baseline",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 19 Oct 2026 09:38:25 GMT",
+     "published_iso": "2026-10-19T09:38:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+     "published": "Mon, 19 Oct 2026 12:51:04 GMT",
+     "published_iso": "2026-10-19T12:51:04+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+     "published": "Sun, 18 Oct 2026 20:37:40 +0000",
+     "published_iso": "2026-10-18T20:37:40+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+    "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+    "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Guardian Media Group, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-19-lab-experiments-show-bleached-corals-can-fully-recover-after-eb9c8",
+   "date": "2026-10-19",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Lab experiments show bleached corals can fully recover after brief contact with healthy fragments",
+   "in_brief": "Scientists restored bleached coral in the laboratory by placing it against a healthy piece, achieving full recovery in seven to eight weeks. The finding suggests a potential new method for reef restoration as bleaching threatens reefs worldwide.",
+   "so_what": "Coral bleaching, driven by rising ocean temperatures, has left many reefs near collapse, with recovery often taking months or years. The recent laboratory work demonstrates that direct contact between a bleached fragment and a healthy clone can transfer algal symbionts, enabling the bleached coral to regain its color and health within a short period—seven weeks in one study and eight weeks in another. If scalable, this approach could complement existing restoration techniques, offering a faster route to revive degraded reefs before they disappear under climate stress. Researchers will need to test the method in field conditions and assess its practicality for large‑scale applications, while monitoring any ecological impacts of moving healthy fragments onto damaged colonies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Bleached coral was restored in the lab by placing it in contact with a healthy fragment",
+     "source": 1,
+     "quote": "Scientists have successfully restored bleached coral in the lab by placing it in contact with a healthy fragment.",
+     "status": "verified",
+     "corroborated_by": [
+      "sciencedaily.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Algal symbionts transferred across a bridge formed by the two fragments, fully restoring the bleached coral within eight weeks",
+     "source": 1,
+     "quote": "The two fused together to create a bridge across which algal symbionts can spread. This transfer fully restored the bleached coral within eight weeks, even if the healthy piece was removed after a week.",
+     "status": "verified",
+     "corroborated_by": [
+      "sciencedaily.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "In laboratory experiments, dying corals fully recovered within seven weeks after brief contact with healthy clones",
+     "source": 2,
+     "quote": "dying corals regained their color and fully recovered within seven weeks, with as little as five days of contact sometimes enough to start the healing process.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03336-0",
+     "published": "2026-10-15",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "ScienceDaily",
+     "owner": "sciencedaily.com",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230025.htm",
+     "published": "Mon, 19 Oct 2026 07:05:52 EDT",
+     "published_iso": "2026-10-19T11:05:52+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03336-0",
+    "https://www.sciencedaily.com/releases/2026/10/261017230025.htm"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03336-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 80,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, sciencedaily.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-18-lab-study-shows-bleached-coral-can-fully-recover-through-bri-aa36f",
+    "date": "2026-10-18",
+    "label": "Confirmed",
+    "score": 76
+   }
+  },
+  {
+   "id": "2026-10-19-nasa-releases-jet-noise-prediction-software-for-aircraft-eng-9e81c",
+   "date": "2026-10-19",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA releases jet-noise prediction software for aircraft engine design",
+   "in_brief": "NASA’s Glenn Research Center announced the availability of its JeNo jet‑noise prediction code, which estimates far‑field sound from axisymmetric jets. The software, along with other tools like MGBK, V072, TFaNS and Linflux, can be requested from NASA’s Software Catalog to aid low‑noise aircraft propulsion design.",
+   "so_what": "Accurate prediction of aircraft engine noise is critical for meeting increasingly stringent regulatory limits and for reducing community impact around airports. NASA’s JeNo code uses Lilley’s Acoustic Analogy combined with Reynolds‑Averaged Navier‑Stokes solutions to provide relatively quick acoustic estimates compared with more computationally intensive methods such as Large‑Eddy Simulations. The code has been validated for subsonic and low‑supersonic, unheated axisymmetric jets, making it a practical tool for early‑stage design work. Alongside JeNo, NASA offers additional codes—MGBK for chevron‑related noise reduction studies, V072 and TFaNS for rotor‑stator interaction tones, and Linflux for detailed 3‑D flow analysis—expanding the suite of resources available to engineers seeking to design quieter propulsion systems. Researchers and industry partners can request these tools from NASA’s Software Catalog, potentially accelerating the development of next‑generation low‑noise aircraft.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual announcement",
+   "claims": [
+    {
+     "claim": "NASA’s JeNo code predicts far‑field sound spectral density from axisymmetric jets and has been validated for subsonic and low‑supersonic, unheated jets",
+     "source": 1,
+     "quote": "The JeNo jet noise prediction code calculates the far-field sound spectral density produced by axisymmetric jets at a user-specified observer location and frequency range. Currently, JeNo has been validated for subsonic and low supersonic, unheated axisymmetric jets.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "JeNo uses Lilley’s Acoustic Analogy and RANS‑based flow solutions to provide quicker predictions than LES or DNS",
+     "source": 1,
+     "quote": "Since JeNo predicts jet noise using Lilley’s Acoustic Analogy and the mean flow solutions from a Reynolds-Averaged Navier-Stokes (RANS) code, accurate acoustic predictions hinge on accurate aerodynamic predictions.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Copies of JeNo and other NASA noise‑prediction codes can be requested from NASA’s Software Catalog",
+     "source": 1,
+     "quote": "Copies of our software can be requested from NASA’s Software Catalog.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
+     "published": "Mon, 19 Oct 2026 18:11:40 +0000",
+     "published_iso": "2026-10-19T18:11:40+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-19-jpmorgan-launches-jpm-coin-on-ethereum-for-institutional-use-27ffd",
+   "date": "2026-10-19",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "JPMorgan launches JPM Coin on Ethereum for institutional use",
+   "in_brief": "JPMorgan deployed its dollar‑backed JPM Coin on the Ethereum mainnet, making it available to vetted institutional clients. The move expands the bank’s blockchain offerings beyond its private Kinexys network and Coinbase’s Base layer‑2.",
+   "so_what": "By placing JPM Coin on Ethereum, JPMorgan gives large clients a public‑blockchain option to move dollar‑denominated value quickly, potentially reducing reliance on traditional wire systems that operate only during business hours. The token’s redeemability for actual dollars and restriction to approved counterparties aim to combine the speed of blockchain with the security of bank‑backed deposits. JPMorgan’s Kinexys network already processes over $7 billion daily, a fraction of its $12 trillion daily payments volume, indicating the bank’s broader interest in tokenized finance. Observers will watch whether other financial institutions adopt similar public‑chain tokens and how regulators respond to the blending of traditional banking with decentralized infrastructure.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "JPMorgan deployed JPM Coin on Ethereum for institutional clients",
+     "source": 1,
+     "quote": "JPM Coin, which represents dollar deposits at the bank, was technically deployed on the Ethereum mainnet on Monday and is available for institutional clients’ use, the bank said in an emailed statement.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The token can be redeemed for dollars at any time and is limited to vetted counterparties",
+     "source": 2,
+     "quote": "The token is a deposit token, so each unit stands for a dollar already sitting in a JPMorgan account, and the bank's site says clients can redeem it for dollars at any time with no lock-up.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "JPMorgan’s Kinexys network handles over $7 billion daily, part of a $12 trillion daily payments business",
+     "source": 1,
+     "quote": "JPMorgan’s private blockchain network, Kinexys, already handles more than $7 billion a day, a small piece in the bank’s $12 trillion a day payments business.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
+     "published": "Mon, 19 Oct 2026 10:03:47 +0000",
+     "published_iso": "2026-10-19T10:03:47+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars",
+     "published": "Mon, 19 Oct 2026 17:31:04 +0000",
+     "published_iso": "2026-10-19T17:31:04+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
+    "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-19-zcash-developers-propose-per-swap-viewing-keys-to-mitigate-f-67b4b",
+   "date": "2026-10-19",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Zcash developers propose per-swap viewing keys to mitigate future quantum threats",
+   "in_brief": "Zcash developer team Zakura announced a plan to give each ZEC swap through NEAR Intents its own viewing key, aiming to block a potential quantum computer from linking transactions. The proposal requires no network upgrade and could be implemented in compatible wallets within weeks.",
+   "so_what": "If a sufficiently powerful quantum computer were built, it could reverse‑engineer the public keys used in Zcash shielded addresses and expose users' transaction histories. By assigning a unique incoming viewing key to each swap address posted on NEAR’s public chain, the proposed change would ensure that compromising one address would not reveal other payments, preserving privacy even in a post‑quantum scenario. The fix can be added to open‑source wallets quickly, without waiting for a hard fork, and hardware wallets are expected to follow. Monitoring adoption by wallet developers and any further quantum‑resistance research will indicate how effectively the Zcash ecosystem can safeguard its privacy guarantees.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Zakura wants to assign a separate viewing key to every ZEC swap made through NEAR Intents, limiting the payment history that a future quantum computer could uncover from a publicly posted refund address.",
+     "source": 1,
+     "quote": "Zakura wants to assign a separate viewing key to every ZEC swap made through NEAR Intents, limiting the payment history that a future quantum computer could uncover from a publicly posted refund address.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The approach needs no network upgrade, Zakura said in a tweet introducing what it called \"post-quantum unlinkable swaps for Zcash.\"",
+     "source": 2,
+     "quote": "The approach needs no network upgrade, Zakura said in a tweet introducing what it called \"post-quantum unlinkable swaps for Zcash.\"",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Around $600 million to $700 million had flowed through Zcash's NEAR Intents route by May.",
+     "source": 2,
+     "quote": "Around $600 million to $700 million had flowed through Zcash's NEAR Intents route by May, Zcash Open Development Lab CEO Josh Swihart said at the time.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/19/zcash-developers-plan-a-fix-to-keep-zec-swaps-private-from-future-quantum-computers",
+     "published": "Mon, 19 Oct 2026 05:23:02 +0000",
+     "published_iso": "2026-10-19T05:23:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381257/zcash-developer-zakura-proposes-fix-to-stop-quantum-computers-linking-shielded-swaps",
+     "published": "Mon, 19 Oct 2026 10:11:21 +0000",
+     "published_iso": "2026-10-19T10:11:21+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/tech/2026/10/19/zcash-developers-plan-a-fix-to-keep-zec-swaps-private-from-future-quantum-computers",
+    "https://decrypt.co/381257/zcash-developer-zakura-proposes-fix-to-stop-quantum-computers-linking-shielded-swaps"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-19-west-african-crypto-scam-crackdown-sees-arrests-and-fund-fre-9e489",
+   "date": "2026-10-19",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "West African crypto scam crackdown sees arrests and fund freezes",
+   "in_brief": "Authorities in Ghana and Nigeria arrested 28 people and flagged $11 million in crypto funds for possible freeze. The operation involved major exchanges and tech firms and led to the removal of millions of fraudulent social‑media accounts.",
+   "so_what": "The coordinated effort, led by the U.K.’s National Crime Agency and supported by the U.S. Department of Justice, demonstrates growing international collaboration against cryptocurrency‑based fraud. By targeting networks that lure victims in the United States, United Kingdom and elsewhere, the operation aims to disrupt illicit financing and protect investors. Crypto exchanges Binance and Coinbase participated, providing tracing and intelligence that helped identify over 65 active scam victims and avert more than $415,000 in losses. Meta’s removal of over 3.7 million related Facebook and Instagram accounts further curbed the scammers’ outreach. The flagged $11 million represents potential assets that could be frozen, though the exact value of seized cryptocurrencies was not disclosed. Ongoing monitoring will focus on whether the frozen funds are recovered and how the crackdown impacts future scam operations in the region.",
+   "what_to_do": "1. Verify any investment opportunity by checking official exchange listings and avoiding unsolicited offers on social media.\n2. Report suspicious crypto solicitations to local law enforcement or the platform where they appear.\n3. If you suspect you have been scammed, contact your exchange’s support and consider freezing your accounts.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Authorities arrested 28 people in Ghana and Nigeria in a crackdown on West African scam networks linked to cryptocurrency investment fraud.",
+     "source": 1,
+     "quote": "Authorities arrested 28 people in Ghana and Nigeria in a crackdown on scam networks linked to cryptocurrency investment fraud.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Private‑sector partners flagged $11 million in funds that could be frozen.",
+     "source": 1,
+     "quote": "Private-sector partners flagged $11 million in funds that could be frozen",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Meta removed more than 3.7 million Facebook and Instagram accounts, pages and groups tied to the scams.",
+     "source": 1,
+     "quote": "Meta removed more than 3.7 million Facebook and Instagram accounts, pages and groups",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million",
+     "published": "Sun, 18 Oct 2026 12:00:00 +0000",
+     "published_iso": "2026-10-18T12:00:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/opa/pr/department-justice-announces-results-law-enforcement-and-private-industry-joint-disruption",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/opa/pr/department-justice-announces-results-law-enforcement-and-private-industry-joint-disruption"
+    },
+    {
+     "url": "https://www.nationalcrimeagency.gov.uk/news/nca-hosts-international-law-enforcement-and-tech-industry-crackdown-on-fraud-and-scams",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.nationalcrimeagency.gov.uk/news/nca-hosts-international-law-enforcement-and-tech-industry-crackdown-on-fraud-and-scams"
+    }
+   ],
+   "truth": {
+    "total": 43,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1,
+   "previously": {
+    "id": "2026-10-18-west-african-crypto-scam-crackdown-sees-arrests-and-fund-fre-9e489",
+    "date": "2026-10-18",
+    "label": "Developing",
+    "score": 43
+   }
+  },
+  {
+   "id": "2026-10-19-ai-generated-images-of-eiffel-tower-protests-debunked-cfc61",
+   "date": "2026-10-19",
+   "section": "myth",
+   "verdict": "PUBLISH",
+   "headline": "AI‑generated images of Eiffel Tower protests debunked",
+   "in_brief": "A viral photo of protesters with Palestinian flags at the Eiffel Tower and a video showing flags on the tower were both found to be AI‑fabricated. Fact‑checkers identified digital watermarks and analysis tools that proved the media were not real.",
+   "so_what": "The false visuals spread online suggested that France was on the brink of civil war and that the Eiffel Tower had been overtaken by protesters, amplifying tensions amid genuine unrest across the country. Full Fact detected an invisible SynthID watermark linking the photo to OpenAI tools and traced it to a satirical article published on 6 October, while Lead Stories used AI‑detection software that rated the video 99.1% likely AI‑generated and noted proportional inconsistencies. By clarifying that the images are fabricated, these checks help prevent misinformation from inflaming public sentiment during real protests, which have involved student groups, unions and the Yellow Vests movement since late September. Observers should monitor official news outlets for verified footage and be wary of content that lacks corroboration from established media.",
+   "what_to_do": "Check for watermarks, use AI‑detection tools, and verify with reputable news sources before sharing viral images or videos.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual debunking",
+   "claims": [
+    {
+     "claim": "The Eiffel Tower protest photo is AI‑generated and contains a SynthID watermark",
+     "source": 1,
+     "quote": "The image circulating online contains an invisible SynthID watermark, indicating it was made or edited with OpenAI tools such as ChatGPT, the OpenAI API or Codex.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The video of Palestinian and Jordanian flags on the Eiffel Tower is digitally fabricated",
+     "source": 2,
+     "quote": "An online tool concluded that the video was 99.1% likely to be AI-generated and a visual inspection showed people in the video appear out of proportion to the tower's actual size.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The fake photo originated from a satirical article published on 6 October",
+     "source": 1,
+     "quote": "We also traced the image to a satirical article published on 6 October, claiming that Palestinians have been given their own country within the borders of France.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Full Fact",
+     "owner": "fullfact.org",
+     "url": "https://fullfact.org/world/viral-image-protesters-palestinian-flag-eiffel-tower-ai-generated/",
+     "published": "Mon, 19 Oct 2026 14:06:02 +0000",
+     "published_iso": "2026-10-19T14:06:02+00:00",
+     "kind": "factcheck",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Lead Stories",
+     "owner": "leadstories.com",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-palestinian-and-jordanian-flags-on-top-of-the-eiffel-tower-in-paris-it-is-digitally-fabricated.html",
+     "published": "2026-10-19T17:30:27Z",
+     "published_iso": "2026-10-19T17:30:27+00:00",
+     "kind": "factcheck",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://fullfact.org/world/viral-image-protesters-palestinian-flag-eiffel-tower-ai-generated/",
+    "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-palestinian-and-jordanian-flags-on-top-of-the-eiffel-tower-in-paris-it-is-digitally-fabricated.html"
+   ],
+   "primary": [
+    {
+     "url": "https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1158683&subId=0",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1158683&subId=0"
+    },
+    {
+     "url": "https://find-and-update.company-information.service.gov.uk/company/06975984",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://find-and-update.company-information.service.gov.uk/company/06975984"
+    }
+   ],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: fullfact.org, leadstories.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam",
+  "myth"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 369,
+  "stories_considered": 12,
+  "published": 12,
+  "outlets": 34
+ }
+}
