@@ -1,0 +1,198 @@
+[
+ {
+  "section": "threat",
+  "title": "Critical PHP “PHP2Shell” flaws patched; admins urged to update immediately",
+  "verdict": "HOLD",
+  "truth": 94,
+  "reasons": [
+   "copied 4 long word-for-word run(s) from a source, e.g. \"including php fpm apache with mod php php cgi frankenphp and litespeed\""
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft copied long word-for-word run from sources (version numbers)."
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "eMudhra intermediate CA keys found weak, browsers and Go patch the flaw",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [],
+  "owners": 8
+ },
+ {
+  "section": "threat",
+  "title": "PHP to Release Emergency Patches for Two Critical RCE Flaws",
+  "verdict": "HOLD",
+  "truth": 58,
+  "reasons": [
+   "copied 2 long word-for-word run(s) from a source, e.g. \"8 5 12 8 4 27 8 3 36 and 8 2\""
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source regarding version numbers"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Ransomware groups exploit Palo Alto VPN flaw to bypass MFA",
+  "verdict": "PUBLISH",
+  "truth": 92,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "OpenAI agents disabled safety monitoring and misrepresented actions in internal tasks",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [],
+  "owners": 6
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI acquires AI biotech startup Orchestra Bio",
+  "verdict": "PUBLISH",
+  "truth": 82,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what mentions Anthropic's $400 million purchase of Coefficient Bio, which is not supported by the provided sources (Source 2 mentions Anthropic's purchase of Coefficient Bio but does not state the $400 million figure)."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI to Offer Models on Google Cloud Marketplace",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section includes speculation and unverified details about a planned public offering and valuation near $1.4 trillion not directly supported by the sources as a confirmed fact of an IPO.",
+   "editor: Mention of Codex and specific tooling or integration details needs alignment with sources."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Apple iPhone Duo launches with limited in‑store stock and supply constraints",
+  "verdict": "PUBLISH",
+  "truth": 63,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "science",
+  "title": "NASA advances Space Reactor-1 Freedom nuclear-powered spacecraft toward 2028 launch",
+  "verdict": "PUBLISH",
+  "truth": 81,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Draft mentions the spacecraft will carry three Mars helicopters, but the source text says the SkyFall science mission will deliver 'a team of three Mars helicopters evolved from the Ingenuity design'.",
+   "editor: Headline uses 'SR-1 Freedom' while source [1] uses 'Space Reactor-1 (SR-1) Freedom'."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA to Conduct Flyover at University of Alabama Game and Host Public Experience Zone",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft mentions Starship in the so_what section without proper context, and includes speculation about recruitment and public perception not explicitly supported by the source text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Companies Object to Tokenized Stock Trading on OKXICE Platform",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: The so_what section mentions the SEC Innovation Exemption and a sandbox allowing companies to opt in or out, but Source 3 notes the SEC Innovation Exemption context and details differently, and some elements in the draft mix up overseas trading (Robinhood Chain) with the U.S. OKXICE venue under the SEC framework. Let's clean up the so_what to strictly adhere to the provided sources without hallucinating extra details about sandbox parameters."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Dogecoin Labs formed with Dogecoin Foundation to consolidate wallet, app platform and merchant tools",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor: Headline missed the crucial partnership with the Dogecoin Foundation."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "EU targets Booking.com over scams, while Russians impersonate Signal support",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline incorrectly links the EU urging Booking.com to phishing scams posing as Signal support, whereas the source titles are two separate news items ('EU wants Booking.com to check out of its scam problem' and 'Russians are posing as Signal support to launch phishing attacks').",
+   "editor: In_brief combines the two unrelated stories into a single narrative not supported by the text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "FTC probes platform responsibility as scam ads surge globally",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "AI tools on imageboards enable large‑scale deanonymisation of users",
+  "verdict": "HOLD",
+  "truth": 18,
+  "reasons": [
+   "truth score 18 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: The in_brief incorrectly states that researchers tested the Soyjak.party tools on Hacker News posts; the source attributes the Hacker News test to different researchers in February 2026, separate from the Open Measures report on Soyjak.party."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated image of French couple falsely claimed as riot victim",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ }
+]

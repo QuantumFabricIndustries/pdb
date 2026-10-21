@@ -3437,5 +3437,158 @@
    "https://fullfact.org/world/viral-image-protesters-palestinian-flag-eiffel-tower-ai-generated/",
    "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-palestinian-and-jordanian-flags-on-top-of-the-eiffel-tower-in-paris-it-is-digitally-fabricated.html"
   ]
+ },
+ {
+  "id": "2026-10-21-emudhra-intermediate-ca-keys-found-weak-browsers-and-go-patc-ef100",
+  "date": "2026-10-21",
+  "section": "threat",
+  "headline": "eMudhra intermediate CA keys found weak, browsers and Go patch the flaw",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+   "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
+   "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+   "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+   "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+   "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+   "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/",
+   "https://danielmangum.com/posts/mcu-emudhra-intermediate-ca-compromise/",
+   "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
+  ]
+ },
+ {
+  "id": "2026-10-21-ransomware-groups-exploit-palo-alto-vpn-flaw-to-bypass-mfa-b7e7d",
+  "date": "2026-10-21",
+  "section": "threat",
+  "headline": "Ransomware groups exploit Palo Alto VPN flaw to bypass MFA",
+  "label": "Confirmed",
+  "score": 92,
+  "also_covered_urls": [
+   "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+   "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+   "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+   "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/"
+  ]
+ },
+ {
+  "id": "2026-10-21-openai-agents-disabled-safety-monitoring-and-misrepresented-844a8",
+  "date": "2026-10-21",
+  "section": "threat",
+  "headline": "OpenAI agents disabled safety monitoring and misrepresented actions in internal tasks",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+   "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
+   "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+   "https://www.cnbc.com/2026/10/21/openai-ai-models-safety-monitoring.html",
+   "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+   "https://www.engadget.com/2292644/openai-agents-disabled-own-safety-monitoring-systems/"
+  ]
+ },
+ {
+  "id": "2026-10-21-openai-acquires-ai-biotech-startup-orchestra-bio-e00f6",
+  "date": "2026-10-21",
+  "section": "ai",
+  "headline": "OpenAI acquires AI biotech startup Orchestra Bio",
+  "label": "Confirmed",
+  "score": 82,
+  "also_covered_urls": [
+   "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+   "https://decrypt.co/381467/openai-buys-orchestra-bio-ai-agents-drug-development"
+  ]
+ },
+ {
+  "id": "2026-10-21-openai-to-offer-models-on-google-cloud-marketplace-fb028",
+  "date": "2026-10-21",
+  "section": "ai",
+  "headline": "OpenAI to Offer Models on Google Cloud Marketplace",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html",
+   "https://openai.com/index/openai-models-google-cloud",
+   "https://openai.com/index/openai-models-google-cloud/"
+  ]
+ },
+ {
+  "id": "2026-10-21-apple-iphone-duo-launches-with-limited-in-store-stock-and-su-01cbf",
+  "date": "2026-10-21",
+  "section": "ai",
+  "headline": "Apple iPhone Duo launches with limited in‑store stock and supply constraints",
+  "label": "Well-sourced",
+  "score": 63,
+  "also_covered_urls": [
+   "https://www.wired.com/review/apple-iphone-duo/",
+   "https://www.engadget.com/2292333/apple-iphone-duo-review/",
+   "https://www.theverge.com/tech/1015372/apple-says-it-only-has-limited-iphone-duo-units-for-in-store-sales",
+   "https://www.theverge.com/tech/1014316/iphone-duo-review-ama",
+   "https://www.cnbc.com/2026/10/20/apple-adds-us-titanium-supplier-for-iphone-duo.html"
+  ]
+ },
+ {
+  "id": "2026-10-21-nasa-advances-space-reactor-1-freedom-nuclear-powered-spacec-a8882",
+  "date": "2026-10-21",
+  "section": "science",
+  "headline": "NASA advances Space Reactor-1 Freedom nuclear-powered spacecraft toward 2028 launch",
+  "label": "Confirmed",
+  "score": 81,
+  "also_covered_urls": [
+   "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+   "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/"
+  ]
+ },
+ {
+  "id": "2026-10-21-nasa-to-conduct-flyover-at-university-of-alabama-game-and-ho-89816",
+  "date": "2026-10-21",
+  "section": "science",
+  "headline": "NASA to Conduct Flyover at University of Alabama Game and Host Public Experience Zone",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-to-conduct-ncaa-flyover-engage-fans-at-university-of-alabama/"
+  ]
+ },
+ {
+  "id": "2026-10-21-companies-object-to-tokenized-stock-trading-on-okxice-platfo-e7813",
+  "date": "2026-10-21",
+  "section": "money",
+  "headline": "Companies Object to Tokenized Stock Trading on OKXICE Platform",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/21/tokenized-stocks-us-companies-object.html",
+   "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading",
+   "https://decrypt.co/381448/microsoft-alphabet-goldman-sachs-growing-list-objecting-tokenized-stocks",
+   "https://www.coindesk.com/business/2026/10/20/okx-ice-s-andrew-cuomo-calls-issuer-objections-a-natural-response-to-tokenized-stock-plans",
+   "https://decrypt.co/381399/morning-minute-nine-blue-chip-companies-say-no-to-tokenized-stocks",
+   "https://decrypt.co/381349/why-some-america-biggest-companies-objecting-tokenized-shares"
+  ]
+ },
+ {
+  "id": "2026-10-21-dogecoin-labs-formed-with-dogecoin-foundation-to-consolidate-ed313",
+  "date": "2026-10-21",
+  "section": "money",
+  "headline": "Dogecoin Labs formed with Dogecoin Foundation to consolidate wallet, app platform and merchant tools",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/21/dogecoin-wallet-app-teams-unite-in-push-to-give-doge-more-everyday-uses",
+   "https://decrypt.co/381541/dogecoin-gets-dedicated-company-build-ecosystem"
+  ]
+ },
+ {
+  "id": "2026-10-21-ai-generated-image-of-french-couple-falsely-claimed-as-riot-b8f40",
+  "date": "2026-10-21",
+  "section": "myth",
+  "headline": "AI‑generated image of French couple falsely claimed as riot victim",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://fullfact.org/world/photo-elderly-french-couple-stripped-ai/",
+   "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-image-of-elderly-french-couple-robbed-of-clothing-during-oct-17-riots.html"
+  ]
  }
 ]
