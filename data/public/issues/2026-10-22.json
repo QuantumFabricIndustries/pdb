@@ -1,0 +1,1640 @@
+{
+ "date": "2026-10-22",
+ "built_at": "2026-10-22T18:06:15.355756+00:00",
+ "stories": [
+  {
+   "id": "2026-10-22-new-mexico-judge-orders-meta-to-pay-25-b-for-data-privacy-vi-2f89a",
+   "date": "2026-10-22",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "New Mexico Judge Orders Meta to Pay $25 B for Data‑Privacy Violations",
+   "in_brief": "A New Mexico district court reduced a $219 billion award to a $25 billion penalty after a jury found Meta violated the state’s unfair‑practice law over 43 million privacy violations. The fine targets misleading statements about Facebook’s data handling and content‑moderation practices.",
+   "so_what": "The ruling marks one of the largest state‑level penalties ever imposed on a technology company and underscores growing regulatory scrutiny of social‑media platforms’ data‑privacy claims. While Meta has appealed the decision, the judgment obligates the company to pay $25 billion, with 15 percent annual interest, to New Mexico’s school system. The case follows earlier settlements, including a $17 billion nationwide child‑safety deal that excluded New Mexico, and a $725 million class‑action settlement for the same Cambridge Analytica scandal. The outcome may prompt other states to pursue similar actions, pressuring tech firms to improve transparency around data access, third‑party apps, and content‑moderation policies. Stakeholders will watch for Meta’s appellate strategy, potential further fines, and any legislative moves to tighten privacy enforcement nationwide.",
+   "what_to_do": "1. Monitor Meta's upcoming appeals process in the New Mexico courts. 2. Watch for potential similar enforcement actions or privacy lawsuits by other state attorneys general. 3. Track any legislative developments regarding state-level data privacy enforcement.",
+   "hype_flag": "low",
+   "hype_reason": "Straightforward legal ruling with multiple independent sources",
+   "claims": [
+    {
+     "claim": "A New Mexico judge ordered Meta to pay $25 billion in penalties after a jury found the company violated the state’s unfair‑practice law over more than 43 million violations.",
+     "source": 3,
+     "quote": "Meta was ordered to pay $25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy case... the jury concluded that Meta had more than 43 million violations of the state's unfair practices act",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Recorded Future",
+      "Yahoo",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The penalty will accrue interest at 15 percent per year until fully paid.",
+     "source": 3,
+     "quote": "The judge added that interest on the penalty shall accrue at the rate of 15% each year until the fine is paid off in full.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Each violation carries a civil penalty of up to $5,000, which the judge reduced from an initial $219 billion award.",
+     "source": 1,
+     "quote": "Each violation carried civil penalties of as much as $5,000... The state was initially awarded $220 billion, but state District Court Judge Francis Mathew reduced the penalty to $25 billion",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 219"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+     "published": "Wed, 21 Oct 2026 20:25:00 GMT",
+     "published_iso": "2026-10-21T20:25:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
+     "published": "Wed, 21 Oct 2026 23:33:34 GMT",
+     "published_iso": "2026-10-21T23:33:34+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+     "published": "Wed, 21 Oct 2026 20:04:07 GMT",
+     "published_iso": "2026-10-21T20:04:07+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+     "published": "Thu, 22 Oct 2026 21:42:31 +0530",
+     "published_iso": "2026-10-22T16:12:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2293597/new-mexico-court-order-meta-pay-25-billion-privacy-case/",
+     "published": "Wed, 21 Oct 2026 20:43:17 +0000",
+     "published_iso": "2026-10-21T20:43:17+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+    "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
+    "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
+    "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+    "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+    "https://www.engadget.com/2293597/new-mexico-court-order-meta-pay-25-billion-privacy-case/",
+    "https://www.malwarebytes.com/blog/news/2026/10/facebooks-misleading-privacy-claims-land-meta-a-25-billion-penalty"
+   ],
+   "primary": [
+    {
+     "url": "https://nmdoj.gov/wp-content/uploads/Facebook-Judgement.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nmdoj.gov/wp-content/uploads/Facebook-Judgement.pdf"
+    }
+   ],
+   "truth": {
+    "total": 57,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Guardian Media Group, Recorded Future, Yahoo, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote what_to_do",
+     "editor: The what_to_do section offers personal advice for individual users, which should be replaced with macro-level industry or regulatory outlooks."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 7
+  },
+  {
+   "id": "2026-10-22-gitlab-patches-critical-regular-expression-compiler-flaw-cve-b0a0e",
+   "date": "2026-10-22",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "GitLab patches critical regular expression compiler flaw (CVE‑2026‑110264)",
+   "in_brief": "GitLab has issued security patches for a maximum-severity integer overflow flaw that could permit remote code execution by unauthenticated attackers. The updates cover multiple Community and Enterprise editions, prompting an urgent upgrade recommendation.",
+   "so_what": "Tracked as CVE-2026-110264, the vulnerability stems from an integer overflow within GitLab's Regular Expression Compiler—a background engine responsible for parsing configuration files. An unauthenticated attacker could potentially exploit this by supplying a crafted regular expression to execute arbitrary code. GitLab has rolled out fixes across various releases spanning version 18.11 up to 19.5, urging administrators to update immediately. While GitLab.com and certain Dedicated tenants are already protected, threat monitor Shadowserver notes that thousands of public Community Edition instances remain exposed.",
+   "what_to_do": "1. Verify your GitLab instance version to see if it runs an affected release. 2. Apply the latest available security updates provided by GitLab as soon as possible. 3. Monitor access logs and maintain strong credential hygiene.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual security advisory",
+   "claims": [
+    {
+     "claim": "GitLab released security patches for a maximum‑severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers.",
+     "source": 1,
+     "quote": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The issue is tracked as CVE‑2026‑110264 and stems from an integer overflow weakness in GitLab's Regular Expression Compiler.",
+     "source": 1,
+     "quote": "CVE-2026-110264 stems from an integer overflow weakness in GitLab's Regular Expression Compiler, a background engine that parses and validates regular expressions in configuration files.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "GitLab fixed the vulnerability in CE and EE versions 19.5.1, 19.4.3, 19.3.6, 19.2.9, 19.1.9, 19.0.10, and 18.11.13 and recommends immediate patching.",
+     "source": 1,
+     "quote": "GitLab has fixed the vulnerability in GitLab Community Edition (CE) and Enterprise Edition (EE) versions 19.5.1, 19.4.3, 19.3.6, 19.2.9, 19.1.9, 19.0.10, and 18.11.13, and warned users to patch their instances immediately.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+     "published": "Thu, 22 Oct 2026 07:41:48 -0400",
+     "published_iso": "2026-10-22T11:41:48+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+     "published": "Thu, 22 Oct 2026 19:36:30 +0200",
+     "published_iso": "2026-10-22T17:36:30+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+     "published": "Thu, 22 Oct 2026 13:17:22 +0530",
+     "published_iso": "2026-10-22T07:47:22+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+    "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+    "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
+   ],
+   "primary": [
+    {
+     "url": "https://cwe.mitre.org/data/definitions/190.html",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://cwe.mitre.org/data/definitions/190.html"
+    }
+   ],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Copied word-for-word version strings from source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-22-nintendo-switch-2-software-only-tethered-jailbreak-released-2c132",
+   "date": "2026-10-22",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Nintendo Switch 2 software‑only tethered jailbreak released",
+   "in_brief": "A modder has published a software‑only, tethered jailbreak for the Nintendo Switch 2 called ns2jb. The exploit, which runs from the game SmileBASIC 4, lets the console execute arbitrary native code and access its peripherals.",
+   "so_what": "The new ns2jb jailbreak marks the first publicly known exploit for the Switch 2, potentially opening the device to homebrew development, game modification, and save-file extraction. While the method is complex and requires running the exploit each time the console powers on, its existence signals that the Switch 2’s security can be bypassed, which may encourage further research and additional exploits.",
+   "what_to_do": "1. Keep the Switch 2 firmware updated to the latest version. 2. Avoid launching SmileBASIC 4 if you do not intend to use the jailbreak. 3. Refrain from installing or running unverified homebrew software.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting of a technical exploit",
+   "claims": [
+    {
+     "claim": "A software‑only, tethered jailbreak for the Switch 2 called ns2jb was released",
+     "source": 2,
+     "quote": "ns2jb is a software-only, tethered jailbreak for the Switch 2.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The exploit requires the game SmileBASIC 4, though some say it is not strictly needed",
+     "source": 1,
+     "quote": "This exploit requires the game SmileBASIC 4, which lets users program and play games (though another modder claims that the title is “not strictly needed”).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The jailbreak allows running arbitrary native code as any ordinary sysmodule and accessing most peripherals",
+     "source": 2,
+     "quote": "It allows running arbitrary native code as any ordinary sysmodule, and as the built-in fs sysmodule. This lets us run homebrew, reverse engineer and mod Switch 2 games, back up save files off the Switch, and access most of the Switch 2’s peripherals through MMIO.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+     "published": "2026-10-22T13:21:31-04:00",
+     "published_iso": "2026-10-22T17:21:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "pepsipu.com",
+     "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+     "published": "Thu, 22 Oct 2026 08:01:52 +0000",
+     "published_iso": "2026-10-22T08:01:52+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+    "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/"
+   ],
+   "primary": [
+    {
+     "url": "https://dabney.caltech.edu/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://dabney.caltech.edu/"
+    }
+   ],
+   "truth": {
+    "total": 50,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, pepsipu.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: So_what section contained advice ('Users should be aware...', 'Nintendo may issue...', 'monitoring official announcements is advisable', 'owners should consider...') which violates the rule against investment, legal, or medical advice and general hype/instructional padding."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-22-airbnb-bans-hosts-from-requiring-guests-to-do-cleaning-chore-7a28e",
+   "date": "2026-10-22",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Airbnb bans hosts from requiring guests to do cleaning chores",
+   "in_brief": "Airbnb announced that, starting 20 November 2026, hosts may no longer ask guests to strip beds, wash dishes or perform other tasks normally done by cleaners. The change aims to make house‑rules clearer and limit unreasonable guest requests.",
+   "so_what": "The policy addresses long-standing complaints from travelers who have paid cleaning fees only to be asked to perform extensive checkout chores before leaving. By prohibiting demands that demand heavy effort or resemble professional cleaning duties, Airbnb aims to improve guest satisfaction and reduce disputes over rules. Hosts can still set standard rules and make limited, reasonable requests, such as limiting shower time during droughts or using bear-proof trash containers. Observers will watch whether the restriction deters hosts from listing properties or encourages more travelers to choose Airbnb over hotels.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of policy change",
+   "claims": [
+    {
+     "claim": "Airbnb’s new policy bars hosts from asking guests to perform chores that would normally be done by a cleaner, such as stripping beds or washing dishes",
+     "source": 1,
+     "quote": "According to the new requirements on the Airbnb website, hosts are generally not allowed to ask guests to complete tasks that \"require significant effort or time, or would typically be performed by a cleaner, including stripping the bed, taking trash offsite, or washing and putting away dishes\".",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The rules apply to all reservations booked on or after 20 November 2026",
+     "source": 1,
+     "quote": "The new rules will apply to all reservations booked on or after 20 November on the accommodation marketplace.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Hosts may still ask guests to limit shower time when local drought restrictions apply",
+     "source": 1,
+     "quote": "For example, guests can be asked to limit shower time if there are local drought-related water restrictions.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Airbnb is also banning hosts from requiring guests to sign separate contracts starting 20 November",
+     "source": 2,
+     "quote": "Hosts also can’t circumvent the new policy by giving guests a printed list of rules and asking them to sign it when they check in. On November 20, Airbnb is also banning hosts from requiring guests to sign separate contracts",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss",
+     "published": "Wed, 21 Oct 2026 22:54:58 GMT",
+     "published_iso": "2026-10-21T22:54:58+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/",
+     "published": "Wed, 21 Oct 2026 21:57:22 +0000",
+     "published_iso": "2026-10-21T21:57:22+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/21/airbnb-limits-chores-for-guests-sparking-backlash-from-hosts/",
+     "published": "Wed, 21 Oct 2026 22:16:05 +0000",
+     "published_iso": "2026-10-21T22:16:05+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss",
+    "https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/",
+    "https://techcrunch.com/2026/10/21/airbnb-limits-chores-for-guests-sparking-backlash-from-hosts/",
+    "https://www.engadget.com/2293690/airbnb-bans-hosts-from-making-you-do-the-dishes/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 66,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Copied word-for-word run from source text in the so_what section."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-22-the-browser-company-to-sunset-arc-browser-by-december-22-202-38915",
+   "date": "2026-10-22",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "The Browser Company to Sunset Arc Browser by December 22, 2026",
+   "in_brief": "The Browser Company announced that its Arc browser will be discontinued, with the final shutdown slated for December 22, 2026. Users are being urged to migrate to the company’s new Dia browser, which will inherit their data.",
+   "so_what": "Arc was positioned as an innovative web browser that introduced several features later adopted by competitors. Its retirement marks a shift in the company's strategy toward an AI‑focused product, Dia, which the firm says offers improved security, speed and stability. Existing Arc users must export their data before the phased shutdown—new accounts stopped on October 22, AI features on iOS and Android will be disabled on November 23, and the desktop app will cease functioning on December 22. The transition highlights broader industry trends where browsers are integrating AI capabilities and consolidating resources behind a single platform. Watch for user migration metrics and any impact on the broader browser market as Dia rolls out.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual announcement",
+   "claims": [
+    {
+     "claim": "The Browser Company plans to “sunset” its Arc browser on December 22nd, 2026.",
+     "source": 1,
+     "quote": "The Browser Company plans to “sunset” its Arc browser on December 22nd, according to a post on the Arc website.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "New Arc accounts can no longer be created as of October 22, 2026.",
+     "source": 1,
+     "quote": "Starting today, you can’t make new Arc accounts.",
+     "status": "verified",
+     "corroborated_by": [
+      "arc.net"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "On November 23, 2026, Browse for Me and other AI features will be disabled on iOS and Android, and users will no longer be able to sign in or sync tabs.",
+     "source": 1,
+     "quote": "On November 23rd, on iOS and Android, the Browse for Me and “other AI features” will be disabled and “you will no longer be able to sign in or sync your tabs.”",
+     "status": "verified",
+     "corroborated_by": [
+      "arc.net"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Dia is the replacement for Arc and users can import their passwords, bookmarks, extensions and history seamlessly.",
+     "source": 2,
+     "quote": "Your passwords, bookmarks, extensions and history come over to Dia seamlessly.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1016832/arc-browser-shutting-down",
+     "published": "2026-10-22T13:03:37-04:00",
+     "published_iso": "2026-10-22T17:03:37+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "arc.net",
+     "url": "https://arc.net/",
+     "published": "Thu, 22 Oct 2026 16:27:47 +0000",
+     "published_iso": "2026-10-22T16:27:47+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/tech/1016832/arc-browser-shutting-down",
+    "https://arc.net/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, arc.net"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-22-spacex-ceo-elon-musk-ordered-starlink-speed-limits-in-ukrain-196e1",
+   "date": "2026-10-22",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "SpaceX CEO Elon Musk ordered Starlink speed limits in Ukraine, officials say",
+   "in_brief": "SpaceX imposed speed caps on its Starlink/Starshield service used by Ukraine, slowing drones that travel over 100 mph. The move has sparked denial from Musk and President Trump and prompted calls for a U.S. investigation.",
+   "so_what": "The speed restrictions limited the flight speed of Ukrainian drones, forcing them to fly slower and making them more vulnerable to Russian fire. Ukrainian officials say the disruption cost a unit over $1 million and delayed missions by three days, highlighting the strategic reliance on a single satellite provider. While Musk and Trump each deny responsibility, lawmakers from both parties are urging a congressional probe into the decision‑making process and the broader security implications of one private company controlling critical communications in a war zone. Future monitoring will focus on any formal investigations, testimony from SpaceX executives, and whether alternative satellite services are developed to reduce dependence on Starlink.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "multiple independent reports, no single self‑interested source",
+   "claims": [
+    {
+     "claim": "Elon Musk ordered the slowdown of the military‑grade Starlink service used by Ukraine",
+     "source": 1,
+     "quote": "Elon Musk ordered the slowdown of a military-grade version of Starlink relied on by Ukraine",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "snopes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The cap cuts the connection when a terminal moves faster than 160 kph (100 mph), affecting drone speeds",
+     "source": 1,
+     "quote": "The cap, imposed without warning early Thursday, cuts the Internet data connection when a communication terminal moves faster than 160 kph (100 mph)",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Ukrainian officials say the restrictions disrupted missions and cost over $1 million",
+     "source": 3,
+     "quote": "A Ukrainian senior commander ... the Starlink restrictions cost his unit more than $1 million and delayed missions by three days",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "President Trump publicly denied ordering the slowdown",
+     "source": 2,
+     "quote": "Trump ... publicly and repeatedly denied having given the order to slow down Starlink or Starshield in Ukraine",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Sen. John Cornyn said Musk likely acted with White House acquiescence and called the throttling shameful",
+     "source": 3,
+     "quote": "Sen. John Cornyn ... doesn't believe Musk would have acted \"without at least the acquiescence of the White House,\" and called attempts to throttle Starlink service in Ukraine \"frankly shameful\"",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
+     "published": "Wed, 21 Oct 2026 18:35:38 +0000",
+     "published_iso": "2026-10-21T18:35:38+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Snopes",
+     "owner": "snopes.com",
+     "url": "https://www.snopes.com/news/2026/10/21/starlink-starshield-slowdown-ukraine/",
+     "published": "Wed, 21 Oct 2026 11:00:00 +0000",
+     "published_iso": "2026-10-21T11:00:00+00:00",
+     "kind": "factcheck",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html",
+     "published": "Thu, 22 Oct 2026 16:54:26 GMT",
+     "published_iso": "2026-10-22T16:54:26+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
+    "https://www.snopes.com/news/2026/10/21/starlink-starshield-slowdown-ukraine/",
+    "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-of-state-marco-rubio-remarks-to-the-press-18",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-of-state-marco-rubio-remarks-to-the-press-18"
+    },
+    {
+     "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-of-state-marco-rubio-remarks-to-the-press-20",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-of-state-marco-rubio-remarks-to-the-press-20"
+    }
+   ],
+   "truth": {
+    "total": 74,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, snopes.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      4,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-22-researchers-3d-print-metal-single-crystals-crystal-language-4af0a",
+   "date": "2026-10-22",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Researchers 3D‑print metal single crystals; Crystal language releases version 1.22.0",
+   "in_brief": "Scientists have demonstrated a way to produce single‑crystal metal parts of complex shapes using a 3D‑printing‑like process. The Crystal programming language also launched version 1.22.0 with several new features and bug fixes.",
+   "so_what": "Fabricating single-crystal metals in complex geometries could expand their use in high-performance applications like microprocessors and turbine components where crystal uniformity is critical. Using standard additive manufacturing equipment may lower production costs. Additionally, the Crystal 1.22.0 update brings features like type-declared constants, improved DWARF parsing, and changes to pipe error handling to enhance developer productivity and runtime performance.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The authors have discovered a way to produce single crystals of metals in a wide range of shapes and sizes, including complex geometries that cannot be achieved by established crystal‑growth methods",
+     "source": 1,
+     "quote": "the authors have discovered a way to produce single crystals of metals in a wide range of shapes and sizes, including complex geometries that cannot be achieved by established crystal-growth methods",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The method they used is a type of additive manufacturing — which means that it works like a 3D printer and has the advantage of being implemented using readily available equipment",
+     "source": 1,
+     "quote": "The method they used is a type of additive manufacturing — which means that it works like a 3D printer2 — and has the advantage of being implemented using readily available equipment.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Crystal 1.22.0 is released with several new features and bug fixes",
+     "source": 2,
+     "quote": "Crystal 1.22.0 is released! Highlights ... This release includes 251 changes since 1.21.1 by 33 contributors.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03257-y",
+     "published": "2026-10-21",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "crystal-lang.org",
+     "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
+     "published": "Thu, 22 Oct 2026 13:20:13 +0000",
+     "published_iso": "2026-10-22T13:20:13+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03257-y",
+    "https://crystal-lang.org/2026/10/12/1.22.0-released/"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.1038%2Fs41586-026-11185-0",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://doi.org/10.1038%2Fs41586-026-11185-0"
+    },
+    {
+     "url": "https://doi.org/10.1016%2Fj.nxmate.2026.103676",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://doi.org/10.1016%2Fj.nxmate.2026.103676"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03257-y",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: crystal-lang.org, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: Included speculative or fluff language ('Observers should watch for...') in the so_what section."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-22-hubble-captures-gravitational-lens-to-aid-roman-telescope-pr-b89ed",
+   "date": "2026-10-22",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Hubble captures gravitational lens to aid Roman telescope preparations",
+   "in_brief": "NASA’s Hubble Space Telescope photographed a barred spiral galaxy with a foreground elliptical galaxy acting as a gravitational lens, magnifying a more distant galaxy. The image demonstrates how Hubble and the upcoming Roman Space Telescope will complement each other in studying dark matter.",
+   "so_what": "The Hubble image showcases a foreground elliptical galaxy about 4.5 billion light‑years away lensing a background galaxy roughly eight billion light‑years distant, creating an arc‑counterarc pair. By analyzing how the foreground galaxy bends the background light, astronomers can estimate its total mass, including the invisible dark matter that dominates cosmic structures. This observation serves as a test case for the collaborative use of Hubble’s high‑resolution visible/ultraviolet view and Roman’s wide‑field infrared capabilities, helping scientists refine techniques before Roman begins full‑scale surveys. Future observations will expand the sample of lensing systems, improving dark‑matter maps and informing models of galaxy formation and evolution.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific reporting",
+   "claims": [
+    {
+     "claim": "The foreground elliptical galaxy acting as the gravitational lens is about 4.5 billion light‑years away",
+     "source": 1,
+     "quote": "In this image, the gravitational lens features a foreground elliptical galaxy that is about 4.5 billion light-years away.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Studying the lens distortion allows researchers to calculate the mass of the foreground galaxy and its dark‑matter content",
+     "source": 1,
+     "quote": "By studying the distortion of the background galaxy, researchers can determine how much mass the foreground galaxy contains... which allows researchers to calculate both the mass of the foreground galaxy and how much dark matter it contains.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The background galaxy being lensed is about 8 billion light‑years away",
+     "source": 1,
+     "quote": "The background galaxy is about eight billion light-years away, almost twice as far.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 8"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+     "published": "Thu, 22 Oct 2026 16:20:37 +0000",
+     "published_iso": "2026-10-22T16:20:37+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: so_what mentions '8 billion light-years' which uses the digit '8', flagged by automated checks as not appearing as the digit in the source text (source spells it 'eight')"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-22-solana-launches-alpenglow-upgrade-cutting-finality-to-150-ms-3db5a",
+   "date": "2026-10-22",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Solana launches Alpenglow upgrade, cutting finality to ~150 ms",
+   "in_brief": "Solana activated its Alpenglow consensus upgrade on Wednesday, reducing transaction finality to about 150 milliseconds. The change replaces the TowerBFT protocol and aims to speed settlement for users and applications.",
+   "so_what": "The Alpenglow upgrade represents Solana's most significant network change since its 2020 launch, moving finality from roughly 12.8 seconds to a target of 150 milliseconds. By allowing validators to exchange votes directly and combine them into certificates, blocks can become final after one or two voting rounds, which could let exchanges, banks and merchants credit deposits more quickly. Existing wallets, fees and applications remain unchanged, though network dashboards may show fewer recorded transactions because validator votes are no longer logged as blockchain transactions. The upgrade was coordinated by the core engineering team Anza and involved extensive testing, including red‑team and penetration assessments. While the 150‑ms figure is a target under normal conditions, it signals a substantial improvement in settlement speed for the Solana ecosystem.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Solana activated its Alpenglow upgrade on Wednesday, targeting transaction finality of about 150 milliseconds under normal conditions",
+     "source": 1,
+     "quote": "Solana activated its Alpenglow upgrade Wednesday, targeting transaction finality in about 150 milliseconds under normal network conditions",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The upgrade replaces the TowerBFT consensus protocol at slot 459,653,000",
+     "source": 2,
+     "quote": "Solana's new Alpenglow consensus protocol has gone live on mainnet-beta, replacing TowerBFT at slot 459,653,000",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Finality time dropped from roughly 12.8 seconds to about 150 milliseconds",
+     "source": 2,
+     "quote": "Transactions now become irreversible in about 150 milliseconds, down from 12.8 seconds",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users",
+     "published": "Thu, 22 Oct 2026 05:24:58 +0000",
+     "published_iso": "2026-10-22T05:24:58+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge",
+     "published": "Wed, 21 Oct 2026 14:24:25 +0000",
+     "published_iso": "2026-10-21T14:24:25+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users",
+    "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-22-u-s-spot-bitcoin-etfs-pull-over-1-billion-in-week-as-inflows-58d06",
+   "date": "2026-10-22",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "U.S. Spot Bitcoin ETFs Pull Over $1 Billion in Week as Inflows Slow",
+   "in_brief": "U.S.-listed spot Bitcoin exchange‑traded funds recorded more than $1 billion in net inflows over three days, bringing weekly totals above the $1 billion mark. Analysts note that current inflow rates are well below the $200 million‑plus daily averages that historically preceded steep price rallies.",
+   "so_what": "The recent surge in Bitcoin ETF inflows points to returning institutional interest, though the current pace lags behind levels seen during past periods of sharp price gains. Historical figures indicate that three major Bitcoin rallies since January 2024 featured average daily ETF inflows exceeding $200 million, whereas current daily averages sit around $86 million. This gap suggests that stronger, more consistent inflows may be necessary to fuel a sustained upward trend, despite other market drivers like direct purchases and futures trading. Meanwhile, Bitcoin's price dropped 2.4% to approximately $81,470, showing that the recent inflow boost has not immediately lifted market prices. Investors continue to monitor upcoming Federal Reserve policy decisions and ongoing ETF flows for direction.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "U.S.-listed spot Bitcoin ETFs attracted more than $1 billion this week",
+     "source": 1,
+     "quote": "U.S.-listed spot bitcoin exchange-traded funds attracted more than $1 billion this week, signaling renewed but still tentative institutional demand.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Steep rallies historically coincided with average daily ETF inflows above $200 million, while the current average is about $86 million a day",
+     "source": 1,
+     "quote": "Bitcoin’s three steep rallies since January 2024 coincided with average daily ETF inflows above $200 million, compared with about $86 million a day since July 1.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Bitcoin fell 2.4% to about $81,470 on Thursday",
+     "source": 2,
+     "quote": "Bitcoin fell 2.4% to about $81,470, and Myriad traders give it only a 20% chance of topping $87,500 in October.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
+     "published": "Thu, 22 Oct 2026 04:41:59 +0000",
+     "published_iso": "2026-10-22T04:41:59+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381611/bitcoin-etfs-erase-october-losses-1-billion-three-days",
+     "published": "Thu, 22 Oct 2026 16:31:07 +0000",
+     "published_iso": "2026-10-22T16:31:07+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
+    "https://decrypt.co/381611/bitcoin-etfs-erase-october-losses-1-billion-three-days"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: copied 2 long word-for-word run(s) from a source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-22-google-chrome-adds-gemini-powered-warnings-for-clickfix-and-83e80",
+   "date": "2026-10-22",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Google Chrome adds Gemini‑powered warnings for ClickFix and suspicious sites",
+   "in_brief": "Google Chrome is rolling out new scam protections that use its Gemini AI to detect ClickFix attacks and flag deceptive webpages. The features, available to users with Enhanced Protection, aim to warn users before they copy or run malicious commands.",
+   "so_what": "The updates expand Chrome’s Safe Browsing suite by moving Gemini’s AI model to server‑side analysis and introducing a “suspicious site” warning tier. By examining page text, brand cues and domain reputation, the browser can alert users to sites that exhibit deceptive patterns even if they haven’t been classified as fully malicious. For ClickFix attacks, Chrome now removes personal data from copied commands, sends the payload to Safe Browsing for analysis, and displays a warning if the command is deemed dangerous. These measures are intended to reduce the success rate of social‑engineering techniques that bypass traditional download protections, offering users ten‑times better protection than standard Safe Browsing, according to Google. Watch for broader adoption of Enhanced Protection and any refinements to the server‑side Gemini model that could further tighten web‑based scam defenses.",
+   "what_to_do": "1. Keep Chrome updated and enable Enhanced Protection in Safe Browsing settings. 2. If you see a \"suspicious site\" or clipboard warning, close the page or do not paste the command. 3. Report the site to Google via the browser’s built‑in \"Report phishing\" feature.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward security update",
+   "claims": [
+    {
+     "claim": "Chrome is adding Gemini‑powered scam detection that warns users of ClickFix attacks.",
+     "source": 1,
+     "quote": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks.",
+     "status": "verified",
+     "corroborated_by": [
+      "Ziff Davis",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Chrome now shows a \"suspicious site\" warning for pages that exhibit deceptive patterns.",
+     "source": 1,
+     "quote": "Chrome is also adding a new \"suspicious site\" warning for pages that show deceptive patterns but haven't reached the confidence level required for its existing full-page red warning.",
+     "status": "verified",
+     "corroborated_by": [
+      "Ziff Davis",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "When a user copies a potential ClickFix script, Chrome scrubs personal data and warns if the command is dangerous.",
+     "source": 2,
+     "quote": "If a user copies a potential ClickFix script, the clipboard payload is scrubbed of any personal information it may contain and sent to Safe Browsing for further analysis. If the security system determines the command is dangerous, Chrome displays a warning.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+     "published": "Wed, 21 Oct 2026 18:16:26 -0400",
+     "published_iso": "2026-10-21T22:16:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+     "published": "Wed, 21 Oct 2026 18:45:09 +0530",
+     "published_iso": "2026-10-21T13:15:09+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/business/chrome-browser-warns-suspicious-websites-scam-protection/",
+     "published": "2026-10-21T16:43:12Z",
+     "published_iso": "2026-10-21T16:43:12+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+     "published": "Wed, 21 Oct 2026 17:00:00 +0000",
+     "published_iso": "2026-10-21T17:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+    "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+    "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+    "https://www.zdnet.com/business/chrome-browser-warns-suspicious-websites-scam-protection/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Ziff Davis, bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-22-fact-check-misleading-videos-of-strait-of-hormuz-and-fake-ip-d4960",
+   "date": "2026-10-22",
+   "section": "myth",
+   "verdict": "PUBLISH",
+   "headline": "Fact Check: Misleading Videos of Strait of Hormuz and Fake iPhone Recovery",
+   "in_brief": "A viral aerial clip was shared as showing ships stuck in the Strait of Hormuz, but it was filmed near Chittagong, Bangladesh. A separate video claiming people were fishing iPhones from the water after a missile strike was found to be AI‑generated.",
+   "so_what": "Both videos circulated during heightened tensions in the Middle East, where misinformation can amplify fears and influence public opinion. The first clip leveraged a recognizable geographic conflict to suggest a massive maritime blockage, yet geolocation analysis matched the shoreline to Bangladesh’s Karnaphuli River near Chittagong airport. The second clip tapped into rumors about valuable cargo, but AI detection tools (Hive Moderation and Sightengine) identified it as synthetic, and reputable outlets such as The Guardian and Reuters reported no iPhones aboard the vessels hit on Oct. 14, 2026. Audiences should verify visual media with independent tools and cross‑check claims against trusted news sources before sharing.",
+   "what_to_do": "Check the origin of videos with geolocation or AI‑detection tools and compare with reputable news reports before sharing.",
+   "hype_flag": "low",
+   "hype_reason": "neutral fact‑checking",
+   "claims": [
+    {
+     "claim": "The aerial video does not show the Strait of Hormuz but was filmed near Chittagong airport in Bangladesh",
+     "source": 1,
+     "quote": "False. This video does not show the Strait of Hormuz. It was actually filmed from a plane near Chittagong airport in Bangladesh.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The video of people retrieving iPhones after a missile attack was generated by artificial intelligence",
+     "source": 2,
+     "quote": "Online AI detection tool Hive Moderation found that the video is 100% likely to have been generated by AI:",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Two ships were hit by projectiles near the Strait of Hormuz on Oct. 14, 2026, but no iPhones were reported on board",
+     "source": 2,
+     "quote": "Two ships were hit by projectiles in separate incidents near the Strait of Hormuz on Oct. 14, 2026. A container ship and a dry bulk carrier were hit, spilling debris into the water.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Full Fact",
+     "owner": "fullfact.org",
+     "url": "https://fullfact.org/world/viral-clip-ships-hormuz-false/",
+     "published": "Thu, 22 Oct 2026 08:12:38 +0000",
+     "published_iso": "2026-10-22T08:12:38+00:00",
+     "kind": "factcheck",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Lead Stories",
+     "owner": "leadstories.com",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-people-fishing-iphones-out-of-water-after-missile-attack-on-ship-in-strait-of-hormuz-it-is-ai.html",
+     "published": "2026-10-20T22:43:30Z",
+     "published_iso": "2026-10-20T22:43:30+00:00",
+     "kind": "factcheck",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://fullfact.org/world/viral-clip-ships-hormuz-false/",
+    "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-people-fishing-iphones-out-of-water-after-missile-attack-on-ship-in-strait-of-hormuz-it-is-ai.html"
+   ],
+   "primary": [
+    {
+     "url": "https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1158683&subId=0",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1158683&subId=0"
+    },
+    {
+     "url": "https://find-and-update.company-information.service.gov.uk/company/06975984",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://find-and-update.company-information.service.gov.uk/company/06975984"
+    }
+   ],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: fullfact.org, leadstories.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam",
+  "myth"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 620,
+  "stories_considered": 15,
+  "published": 12,
+  "outlets": 39
+ }
+}

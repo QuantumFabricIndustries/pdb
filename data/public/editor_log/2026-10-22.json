@@ -1,0 +1,174 @@
+[
+ {
+  "section": "threat",
+  "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 7
+ },
+ {
+  "section": "threat",
+  "title": "PHP releases emergency patches for critical PHP2Shell vulnerabilities",
+  "verdict": "HOLD",
+  "truth": 90,
+  "reasons": [
+   "copied 2 long word-for-word run(s) from a source, e.g. \"8 5 12 8 4 27 8 3 36 or 8 2\""
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source regarding mod_php exploit behavior."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "New Mexico Judge Orders Meta to Pay $25 B for Data‑Privacy Violations",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote what_to_do",
+   "editor: The what_to_do section offers personal advice for individual users, which should be replaced with macro-level industry or regulatory outlooks."
+  ],
+  "owners": 7
+ },
+ {
+  "section": "threat",
+  "title": "GitLab patches critical regular expression compiler flaw (CVE‑2026‑110264)",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Copied word-for-word version strings from source"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Nintendo Switch 2 software‑only tethered jailbreak released",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section contained advice ('Users should be aware...', 'Nintendo may issue...', 'monitoring official announcements is advisable', 'owners should consider...') which violates the rule against investment, legal, or medical advice and general hype/instructional padding."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI models to be offered on Google Cloud’s Model Garden",
+  "verdict": "HOLD",
+  "truth": 46,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Airbnb bans hosts from requiring guests to do cleaning chores",
+  "verdict": "PUBLISH",
+  "truth": 66,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source text in the so_what section."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "The Browser Company to Sunset Arc Browser by December 22, 2026",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "SpaceX CEO Elon Musk ordered Starlink speed limits in Ukraine, officials say",
+  "verdict": "PUBLISH",
+  "truth": 74,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Researchers 3D‑print metal single crystals; Crystal language releases version 1.22.0",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: Included speculative or fluff language ('Observers should watch for...') in the so_what section."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Hubble captures gravitational lens to aid Roman telescope preparations",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: so_what mentions '8 billion light-years' which uses the digit '8', flagged by automated checks as not appearing as the digit in the source text (source spells it 'eight')"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Solana launches Alpenglow upgrade, cutting finality to ~150 ms",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "U.S. Spot Bitcoin ETFs Pull Over $1 Billion in Week as Inflows Slow",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied 2 long word-for-word run(s) from a source"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Google Chrome adds Gemini‑powered warnings for ClickFix and suspicious sites",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Misleading Videos of Strait of Hormuz and Fake iPhone Recovery",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ }
+]

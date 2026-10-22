@@ -3590,5 +3590,160 @@
    "https://fullfact.org/world/photo-elderly-french-couple-stripped-ai/",
    "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-image-of-elderly-french-couple-robbed-of-clothing-during-oct-17-riots.html"
   ]
+ },
+ {
+  "id": "2026-10-22-new-mexico-judge-orders-meta-to-pay-25-b-for-data-privacy-vi-2f89a",
+  "date": "2026-10-22",
+  "section": "threat",
+  "headline": "New Mexico Judge Orders Meta to Pay $25 B for Data‑Privacy Violations",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+   "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
+   "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
+   "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+   "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+   "https://www.engadget.com/2293597/new-mexico-court-order-meta-pay-25-billion-privacy-case/",
+   "https://www.malwarebytes.com/blog/news/2026/10/facebooks-misleading-privacy-claims-land-meta-a-25-billion-penalty"
+  ]
+ },
+ {
+  "id": "2026-10-22-gitlab-patches-critical-regular-expression-compiler-flaw-cve-b0a0e",
+  "date": "2026-10-22",
+  "section": "threat",
+  "headline": "GitLab patches critical regular expression compiler flaw (CVE‑2026‑110264)",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+   "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+   "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+   "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
+  ]
+ },
+ {
+  "id": "2026-10-22-nintendo-switch-2-software-only-tethered-jailbreak-released-2c132",
+  "date": "2026-10-22",
+  "section": "threat",
+  "headline": "Nintendo Switch 2 software‑only tethered jailbreak released",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+   "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/"
+  ]
+ },
+ {
+  "id": "2026-10-22-airbnb-bans-hosts-from-requiring-guests-to-do-cleaning-chore-7a28e",
+  "date": "2026-10-22",
+  "section": "ai",
+  "headline": "Airbnb bans hosts from requiring guests to do cleaning chores",
+  "label": "Well-sourced",
+  "score": 66,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss",
+   "https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/",
+   "https://techcrunch.com/2026/10/21/airbnb-limits-chores-for-guests-sparking-backlash-from-hosts/",
+   "https://www.engadget.com/2293690/airbnb-bans-hosts-from-making-you-do-the-dishes/"
+  ]
+ },
+ {
+  "id": "2026-10-22-the-browser-company-to-sunset-arc-browser-by-december-22-202-38915",
+  "date": "2026-10-22",
+  "section": "ai",
+  "headline": "The Browser Company to Sunset Arc Browser by December 22, 2026",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1016832/arc-browser-shutting-down",
+   "https://arc.net/"
+  ]
+ },
+ {
+  "id": "2026-10-22-spacex-ceo-elon-musk-ordered-starlink-speed-limits-in-ukrain-196e1",
+  "date": "2026-10-22",
+  "section": "ai",
+  "headline": "SpaceX CEO Elon Musk ordered Starlink speed limits in Ukraine, officials say",
+  "label": "Well-sourced",
+  "score": 74,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
+   "https://www.snopes.com/news/2026/10/21/starlink-starshield-slowdown-ukraine/",
+   "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html"
+  ]
+ },
+ {
+  "id": "2026-10-22-researchers-3d-print-metal-single-crystals-crystal-language-4af0a",
+  "date": "2026-10-22",
+  "section": "science",
+  "headline": "Researchers 3D‑print metal single crystals; Crystal language releases version 1.22.0",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03257-y",
+   "https://crystal-lang.org/2026/10/12/1.22.0-released/"
+  ]
+ },
+ {
+  "id": "2026-10-22-hubble-captures-gravitational-lens-to-aid-roman-telescope-pr-b89ed",
+  "date": "2026-10-22",
+  "section": "science",
+  "headline": "Hubble captures gravitational lens to aid Roman telescope preparations",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/"
+  ]
+ },
+ {
+  "id": "2026-10-22-solana-launches-alpenglow-upgrade-cutting-finality-to-150-ms-3db5a",
+  "date": "2026-10-22",
+  "section": "money",
+  "headline": "Solana launches Alpenglow upgrade, cutting finality to ~150 ms",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users",
+   "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge"
+  ]
+ },
+ {
+  "id": "2026-10-22-u-s-spot-bitcoin-etfs-pull-over-1-billion-in-week-as-inflows-58d06",
+  "date": "2026-10-22",
+  "section": "money",
+  "headline": "U.S. Spot Bitcoin ETFs Pull Over $1 Billion in Week as Inflows Slow",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
+   "https://decrypt.co/381611/bitcoin-etfs-erase-october-losses-1-billion-three-days"
+  ]
+ },
+ {
+  "id": "2026-10-22-google-chrome-adds-gemini-powered-warnings-for-clickfix-and-83e80",
+  "date": "2026-10-22",
+  "section": "scam",
+  "headline": "Google Chrome adds Gemini‑powered warnings for ClickFix and suspicious sites",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+   "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+   "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+   "https://www.zdnet.com/business/chrome-browser-warns-suspicious-websites-scam-protection/"
+  ]
+ },
+ {
+  "id": "2026-10-22-fact-check-misleading-videos-of-strait-of-hormuz-and-fake-ip-d4960",
+  "date": "2026-10-22",
+  "section": "myth",
+  "headline": "Fact Check: Misleading Videos of Strait of Hormuz and Fake iPhone Recovery",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://fullfact.org/world/viral-clip-ships-hormuz-false/",
+   "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-people-fishing-iphones-out-of-water-after-missile-attack-on-ship-in-strait-of-hormuz-it-is-ai.html"
+  ]
  }
 ]
