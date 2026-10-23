@@ -152,5 +152,16 @@
   "from_score": 73,
   "to_score": 41,
   "note": "Rating changed from Well-sourced (73) to Developing (41) as new evidence came in."
+ },
+ {
+  "date": "2026-10-23",
+  "story_id": "2026-10-23-hubble-captures-gravitational-lens-to-aid-upcoming-roman-tel-0fe28",
+  "prior_id": "2026-10-22-hubble-captures-gravitational-lens-to-aid-roman-telescope-pr-b89ed",
+  "headline": "Hubble captures gravitational lens to aid upcoming Roman telescope studies",
+  "from": "Developing",
+  "to": "Confirmed",
+  "from_score": 46,
+  "to_score": 80,
+  "note": "Rating changed from Developing (46) to Confirmed (80) as new evidence came in."
  }
 ]

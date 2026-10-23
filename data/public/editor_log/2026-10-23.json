@@ -1,0 +1,150 @@
+[
+ {
+  "section": "threat",
+  "title": "Capcom confirms breach of over 11.7 million CAPCOM ID accounts",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "China-linked Storm-0940 leverages AI tool ARTEX in ConnectWise supply chain breach",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "GitLab patches critical regex compiler flaw affecting multiple versions",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: Copied word-for-word version numbers from source, violating policy against long word-for-word runs."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "First Human Death Linked to Shamonda Virus Reported in France",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple Music adds original iPod easter egg on 404 pages",
+  "verdict": "PUBLISH",
+  "truth": 44,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: So_what section includes speculative analysis ('serves as a subtle marketing tool', 'potentially increasing engagement', 'Observers may watch whether Apple expands') not present in sources."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "New Mexico Court Orders Meta to Pay $25 Billion Penalty for Data‑Privacy Violations",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Moderna-Merck mRNA vaccine cuts melanoma recurrence risk by 42% in Phase 3 trial",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Hubble captures gravitational lens to aid upcoming Roman telescope studies",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Elon Musk invests roughly $1 billion in newly formed Skydance media group",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Source 1 states Musk 'reportedly' invests and the deal comes 'according to Semafor', but draft stated it as absolute fact without attribution, though verified claims confirm it. However, source 1 uses attribution 'reportedly' and 'Semafor first reported'. Let's adjust in_brief to reflect the reporting/source properly."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Andreessen Horowitz Rebrands Crypto Fund as a16z Frontier, Expands Mandate",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source in so_what field"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Rhode Island Attorney General Sues Meta Over Handling of Scam Ads",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Google Chrome adds Gemini-powered detection for ClickFix scams",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Kaspersky outlines tech that blocks bulk spam from algorithm‑generated domains",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated Pink Panther images misrepresented as France protest footage",
+  "verdict": "PUBLISH",
+  "truth": 38,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ }
+]

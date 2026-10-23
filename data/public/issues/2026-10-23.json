@@ -1,0 +1,1619 @@
+{
+ "date": "2026-10-23",
+ "built_at": "2026-10-23T17:57:08.276398+00:00",
+ "stories": [
+  {
+   "id": "2026-10-23-capcom-confirms-breach-of-over-11-7-million-capcom-id-accoun-ea5a5",
+   "date": "2026-10-23",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Capcom confirms breach of over 11.7 million CAPCOM ID accounts",
+   "in_brief": "Capcom disclosed that a third‑party intrusion exposed email addresses and account activity data for more than 11.7 million users, and passwords on 196 accounts were changed without authorization. The company says services remain online and urges users to watch for phishing attempts.",
+   "so_what": "The breach affects a large portion of Capcom's global player base, exposing personal identifiers such as email addresses, account creation dates, last‑login timestamps and IP addresses. While credit‑card data and most passwords appear untouched, the unauthorized password changes on 196 accounts demonstrate that attackers had valid credentials, raising the risk of credential‑stuffing and targeted phishing campaigns. Capcom has reset the altered passwords, set up regional support channels, and claims to have addressed the attack method, but it has not disclosed technical details. Users should remain vigilant for fraudulent communications that reference the breach, as the stolen data can be used to craft convincing scams. Observers will watch for any further disclosures about the intrusion vector and whether additional accounts are compromised.",
+   "what_to_do": "1. Enable two‑factor authentication on your CAPCOM ID account. 2. Review your account details and linked platform accounts for any unauthorized changes. 3. Treat any email claiming to be from Capcom with suspicion; verify by visiting cid.capcom.com directly and avoid clicking links or opening attachments.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward breach reporting",
+   "claims": [
+    {
+     "claim": "Passwords on 196 accounts were changed without authorization and have been reset by Capcom",
+     "source": 2,
+     "quote": "The attackers did, however, change the passwords on 196 accounts without authorization, and the company has since reset them.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Capcom says credit‑card information was not among the affected data",
+     "source": 1,
+     "quote": "In an alert today, the gaming company says that passwords for all other registered members have not been exposed and that credit card information remained unaffected.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Capcom confirmed that a breach exposed email addresses and account activity data for 11,774,247 records worldwide",
+     "source": 1,
+     "quote": "Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 11774247"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+     "published": "Thu, 22 Oct 2026 16:22:45 -0400",
+     "published_iso": "2026-10-22T20:22:45+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
+     "published": "Fri, 23 Oct 2026 09:07:31 +0000",
+     "published_iso": "2026-10-23T09:07:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/data-breaches/2026/10/resident-evil-maker-capcom-warns-of-phishing-after-11-7-million-records-exposed",
+     "published": "Fri, 23 Oct 2026 13:07:52 GMT",
+     "published_iso": "2026-10-23T13:07:52+00:00",
+     "kind": "vendor",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+     "published": "Fri, 23 Oct 2026 08:34:14 +0000",
+     "published_iso": "2026-10-23T08:34:14+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+    "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+    "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
+    "https://www.malwarebytes.com/blog/data-breaches/2026/10/resident-evil-maker-capcom-warns-of-phishing-after-11-7-million-records-exposed"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 57,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: bleepingcomputer.com, helpnetsecurity.com, malwarebytes.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-23-china-linked-storm-0940-leverages-ai-tool-artex-in-connectwi-e5361",
+   "date": "2026-10-23",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "China-linked Storm-0940 leverages AI tool ARTEX in ConnectWise supply chain breach",
+   "in_brief": "Microsoft says the state‑aligned group Storm-0940 used the AI penetration‑testing framework ARTEX to automate attacks on the ConnectWise Cloud Backup service. The campaign targeted thousands of tenants worldwide, accelerating credential abuse and privilege escalation.",
+   "so_what": "The use of an AI‑driven tool marks a shift in how nation‑state actors conduct supply‑chain attacks, allowing them to scan, spray passwords and abuse OAuth applications at machine speed. By automating reconnaissance and credential‑spraying, the threat actor reduced the window for detection to minutes, with some privileged access achieved in under three hours. Organizations using ConnectWise services, especially those with integrated Microsoft 365 environments, should anticipate faster, larger‑scale intrusion attempts and reassess their detection and response capabilities. Watch for further disclosures from Microsoft on remediation guidance and for any indicators of compromise related to the ARTEX framework or the Quad7 botnet.",
+   "what_to_do": "1. Apply any available patches or updates to ConnectWise Cloud Backup. 2. Review and tighten OAuth application permissions in Microsoft 365 and Exchange Online. 3. Enable multi‑factor authentication and monitor for abnormal sign‑in patterns, especially rapid failed login bursts.",
+   "hype_flag": "low",
+   "hype_reason": "facts reported by Microsoft and multiple news outlets",
+   "claims": [
+    {
+     "claim": "Storm-0940 used the AI penetration‑testing framework ARTEX to automate the ConnectWise supply‑chain attack.",
+     "source": 1,
+     "quote": "Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework ... to speed up scanning and reconnaissance, password spraying, and OAuth application abuse at downstream victims.",
+     "status": "verified",
+     "corroborated_by": [
+      "Informa TechTarget"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The campaign attempted sign‑ins to more than 2,250 tenants at a rate of 2,900 attempts per minute.",
+     "source": 1,
+     "quote": "In the case of the ConnectWise incident, Storm-0940 has been observed using ARTEX to attempt to sign in to more than 2,250 tenants at 2,900 sign-in attempts per minute.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The attacks spanned September to October 2026 and targeted hundreds of organizations across multiple sectors.",
+     "source": 1,
+     "quote": "The tech giant said the threat actor used the AI tool at \"machine speed\" to automate attacks targeting hundreds of organizations across the world spanning a broad range of sectors since September 2026.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+     "published": "Thu, 22 Oct 2026 09:51:26 +0530",
+     "published_iso": "2026-10-22T04:21:26+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "write.as",
+     "url": "https://write.as/4tezac6y61b78",
+     "published": "Fri, 23 Oct 2026 16:59:46 +0000",
+     "published_iso": "2026-10-23T16:59:46+00:00",
+     "kind": "community",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+     "published": "Fri, 23 Oct 2026 10:31:16 +0000",
+     "published_iso": "2026-10-23T10:31:16+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Dark Reading",
+     "owner": "Informa TechTarget",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+     "published": "Thu, 22 Oct 2026 20:42:17 GMT",
+     "published_iso": "2026-10-22T20:42:17+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+    "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+    "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "https://write.as/4tezac6y61b78"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Informa TechTarget, securityweek.com, thehackernews.com, write.as"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-23-gitlab-patches-critical-regex-compiler-flaw-affecting-multip-512e4",
+   "date": "2026-10-23",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "GitLab patches critical regex compiler flaw affecting multiple versions",
+   "in_brief": "GitLab released security updates for CVE‑2026‑110264, a maximum‑severity integer‑overflow bug in its Regular Expression Compiler that could let unauthenticated attackers execute code. The company urges users of affected Community and Enterprise editions to upgrade immediately.",
+   "so_what": "The flaw resides in a core component that parses configuration files, meaning any vulnerable GitLab server could be compromised without credentials. With Shadowserver reporting more than 2,700 exposed GitLab Community Edition instances online, the risk extends to a large portion of the self‑hosted market. Organizations that run GitLab on‑premises or in private clouds must apply the patches to avoid potential ransomware or data‑theft incidents, especially since the same researcher previously disclosed other actively exploited GitLab flaws. Administrators should verify their version numbers, confirm the patch status, and monitor for any unusual activity while the broader ecosystem updates related tooling such as CI/CD pipelines.",
+   "what_to_do": "1. Upgrade GitLab Community Edition and Enterprise Edition to the latest patched versions released by the company. 2. Verify the running version and confirm the patch is applied properly. 3. For hosted GitLab.com or Dedicated tenants, verify they are running the updated internal versions that already include the fix.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "GitLab has released security patches for a maximum‑severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers.",
+     "source": 1,
+     "quote": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The issue stems from an integer overflow weakness in GitLab's Regular Expression Compiler, allowing unauthenticated code execution.",
+     "source": 1,
+     "quote": "GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Shadowserver now tracks over 2,700 GitLab Community Edition instances exposed online.",
+     "source": 1,
+     "quote": "Internet threat watchdog Shadowserver now tracks over 2,700 GitLab Community Edition instances exposed online",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+     "published": "Thu, 22 Oct 2026 07:41:48 -0400",
+     "published_iso": "2026-10-22T11:41:48+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+     "published": "Thu, 22 Oct 2026 19:36:30 +0200",
+     "published_iso": "2026-10-22T17:36:30+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+     "published": "Thu, 22 Oct 2026 13:17:22 +0530",
+     "published_iso": "2026-10-22T07:47:22+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+    "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+    "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+    "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+    "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote what_to_do",
+     "editor: Copied word-for-word version numbers from source, violating policy against long word-for-word runs."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-22-gitlab-patches-critical-regular-expression-compiler-flaw-cve-b0a0e",
+    "date": "2026-10-22",
+    "label": "Well-sourced",
+    "score": 61
+   }
+  },
+  {
+   "id": "2026-10-23-first-human-death-linked-to-shamonda-virus-reported-in-franc-14e6e",
+   "date": "2026-10-23",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "First Human Death Linked to Shamonda Virus Reported in France",
+   "in_brief": "A man in his sixties with severe immunosuppression died on 9 October after becoming the first known person infected with the Shamonda virus. Health authorities say the case is exceptional and the risk to the public remains low.",
+   "so_what": "The confirmed human infection marks the first documented case of a virus previously thought to affect only livestock. Researchers note that the patient likely contracted the virus from a biting midge, a common vector for orthobunyaviruses that circulate among cattle and other animals. While no human‑to‑human transmission has been recorded for orthobunyaviruses, the incident highlights the potential for zoonotic spillover, especially among immunocompromised individuals. Public health agencies in several European countries are monitoring the situation, but both French officials and the French government assert that there is no immediate risk to the general population. Ongoing investigations aim to confirm the transmission route and assess whether broader surveillance or preventive measures, such as insect control, are needed as the virus spreads in European livestock.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The French patient, a man in his sixties with leukaemia, died on 9 October, 16 days after symptom onset",
+     "source": 1,
+     "quote": "The man, aged in his sixties, died on 9 October, 16 days after he started showing neurological symptoms",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "He is the first known human case of Shamonda virus infection",
+     "source": 2,
+     "quote": "The case documented in France constitutes the first known infection in a person",
+     "status": "verified",
+     "corroborated_by": [
+      "nature.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Investigators believe the infection was acquired from a biting midge bite",
+     "source": 2,
+     "quote": "According to preliminary evidence, the patient contracted Shamonda virus from an insect bite. A tiny gnat known as the biting midge is known to be the primary route of transfer between animals",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03416-1",
+     "published": "2026-10-23",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
+     "published": "Thu, 22 Oct 2026 22:26:57 +0000",
+     "published_iso": "2026-10-22T22:26:57+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874",
+     "published": "Thu, 22 Oct 2026 20:31:39 +0000",
+     "published_iso": "2026-10-22T20:31:39+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03416-1",
+    "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
+    "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03416-1",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 86,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Situation Publishing, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-23-apple-music-adds-original-ipod-easter-egg-on-404-pages-74253",
+   "date": "2026-10-23",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple Music adds original iPod easter egg on 404 pages",
+   "in_brief": "Apple’s streaming service now displays a virtual recreation of the first‑generation iPod on its 404 error page, letting users browse a short playlist of early‑2000s tracks. The feature commemorates the iPod’s 25th anniversary since its 2001 launch.",
+   "so_what": "The hidden iPod offers a nostalgic tribute to the iconic device, featuring 1,029 playable songs capped at 90 seconds each, an interactive click wheel, and even the classic Brick game. Accessible without an active Apple Music subscription, the feature gives users a fully functional virtual replica of the 2001 music player on broken links.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Apple Music shows a virtual version of the original iPod on its 404 error page as an easter egg",
+     "source": 1,
+     "quote": "If you’ve been feeling nostalgic for your old iPod, you can head over to Apple Music’s 404 page to listen to music on a virtual re-creation of the first-generation iPod.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The easter egg marks the 25th anniversary of the original iPod, announced on October 23, 2001",
+     "source": 1,
+     "quote": "The iPod is likely an easter egg for the device’s 25th anniversary. Apple announced the original iPod on October 23rd, 2001, for $399.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The virtual iPod plays a library of early‑2000s songs, each limited to about 90 seconds, and does not require an Apple Music account",
+     "source": 2,
+     "quote": "you’ll be met with a fully interactive virtual version of the OG iPod... you can navigate a library of 1,029 playable songs... you don’t get more than 90 seconds of any included track... the virtual iPod doesn't seem to require you to have an active Apple Music account to work.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/entertainment/1017413/apple-music-ipod-404-page",
+     "published": "2026-10-23T09:58:43-04:00",
+     "published_iso": "2026-10-23T13:58:43+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2295392/apple-music-has-a-fun-easter-egg-for-the-ipods-25th-anniversary/",
+     "published": "Fri, 23 Oct 2026 15:47:03 +0000",
+     "published_iso": "2026-10-23T15:47:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "henrikkarlsson.xyz",
+     "url": "https://www.henrikkarlsson.xyz/p/music",
+     "published": "Fri, 23 Oct 2026 16:38:17 +0000",
+     "published_iso": "2026-10-23T16:38:17+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/entertainment/1017413/apple-music-ipod-404-page",
+    "https://www.engadget.com/2295392/apple-music-has-a-fun-easter-egg-for-the-ipods-25th-anniversary/",
+    "https://www.henrikkarlsson.xyz/p/music"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 44,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Vox Media, Yahoo, henrikkarlsson.xyz"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: So_what section includes speculative analysis ('serves as a subtle marketing tool', 'potentially increasing engagement', 'Observers may watch whether Apple expands') not present in sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-23-new-mexico-court-orders-meta-to-pay-25-billion-penalty-for-d-47ec2",
+   "date": "2026-10-23",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "New Mexico Court Orders Meta to Pay $25 Billion Penalty for Data‑Privacy Violations",
+   "in_brief": "A New Mexico district court reduced a $219.5 billion award to a $25 billion civil penalty after a jury found Meta liable for more than 43 million privacy violations. The ruling underscores state enforcement of consumer‑protection laws against major tech firms.",
+   "so_what": "The penalty stems from a data‑privacy lawsuit tied to Meta’s 2018 Cambridge Analytica scandal. A Santa Fe jury concluded Meta made thousands of misleading statements about how it safeguards user data, violating New Mexico’s Unfair Practices Act. While the $25 billion fine does not go directly to users, state law directs the money to New Mexico’s school system, highlighting how consumer‑protection penalties can fund public services. The case also reflects ongoing tension between state regulators and large technology companies over data‑privacy accountability. Meta’s chief legal officer has said the company will appeal, so the final financial impact remains uncertain. Observers will watch appellate courts for precedent‑setting decisions that could affect future state‑level enforcement actions against tech firms nationwide.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "A New Mexico district court ordered Meta to pay a $25 billion civil penalty.",
+     "source": 1,
+     "quote": "Meta was ordered to pay $25 billion in penalties by a New Mexico court on Wednesday",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "A jury found more than 43 million violations of the state’s unfair practices act.",
+     "source": 1,
+     "quote": "the jury concluded that Meta had more than 43 million violations of the state's unfair practices act",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Meta says it is confident it will prevail on appeal.",
+     "source": 1,
+     "quote": "Meta chief legal officer C.J. Mahoney criticized the penalty, saying in a statement that the company is \"confident\" that it will \"prevail on appeal.\"",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+     "published": "Wed, 21 Oct 2026 20:04:07 GMT",
+     "published_iso": "2026-10-21T20:04:07+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+     "published": "Thu, 22 Oct 2026 21:42:31 +0530",
+     "published_iso": "2026-10-22T16:12:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/10/facebooks-misleading-privacy-claims-land-meta-a-25-billion-penalty",
+     "published": "Thu, 22 Oct 2026 16:59:22 GMT",
+     "published_iso": "2026-10-22T16:59:22+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+    "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+    "https://www.malwarebytes.com/blog/news/2026/10/facebooks-misleading-privacy-claims-land-meta-a-25-billion-penalty"
+   ],
+   "primary": [
+    {
+     "url": "https://nmcourts.gov/wp-content/uploads/2026/09/Jury-Verdict-Form.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nmcourts.gov/wp-content/uploads/2026/09/Jury-Verdict-Form.pdf"
+    }
+   ],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, malwarebytes.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-22-new-mexico-judge-orders-meta-to-pay-25-b-for-data-privacy-vi-2f89a",
+    "date": "2026-10-22",
+    "label": "Well-sourced",
+    "score": 57
+   }
+  },
+  {
+   "id": "2026-10-23-moderna-merck-mrna-vaccine-cuts-melanoma-recurrence-risk-by-6f157",
+   "date": "2026-10-23",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Moderna-Merck mRNA vaccine cuts melanoma recurrence risk by 42% in Phase 3 trial",
+   "in_brief": "A personalized mRNA vaccine combined with Merck's Keytruda reduced melanoma recurrence or death by 42% in a late‑stage study. The result, presented after a data leak, could shape future cancer‑treatment strategies.",
+   "so_what": "The trial enrolled 1,137 patients with surgically removed stage IIB‑IV melanoma and compared the vaccine‑plus‑Keytruda regimen to Keytruda alone. A 42% relative reduction in recurrence or death represents a substantial improvement over existing immunotherapy, which already cures about 55% of advanced cases. Analysts note that the market reaction—Moderna’s share drop of roughly 25%—reflects inflated expectations rather than doubts about efficacy. Regulators will now review the data, and the companies plan to seek approval while expanding trials to other tumor types such as lung, bladder and kidney cancers. Stakeholders will watch the European Society for Medical Oncology conference presentations and subsequent regulatory filings for confirmation of benefit and safety across broader patient groups.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced factual reporting",
+   "claims": [
+    {
+     "claim": "The vaccine plus Keytruda reduced the risk of recurrence or death by 42% compared with Keytruda alone",
+     "source": 2,
+     "quote": "Personalized mRNA vaccines against melanoma… reduced the risk of death or recurrence by 42 percent compared to standard treatment in a late-stage trial",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The Phase 3 trial enrolled 1,137 patients with stage IIB‑IV melanoma that had been surgically removed",
+     "source": 2,
+     "quote": "Phase 3 trial included 1,137 patients who had stage IIB–IV melanoma that had been surgically removed prior to entering the trial",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Moderna shares fell about 25% after the partial data leak despite the positive results",
+     "source": 3,
+     "quote": "Moderna shares dropped as much as 25% on Thursday following the leak of partial data on its closely watched cancer vaccine",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03417-0",
+     "published": "2026-10-23",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+     "published": "Thu, 22 Oct 2026 22:12:19 +0000",
+     "published_iso": "2026-10-22T22:12:19+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Business",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+     "published": "Fri, 23 Oct 2026 14:36:34 GMT",
+     "published_iso": "2026-10-23T14:36:34+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03417-0",
+    "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+    "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03417-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 86,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-23-hubble-captures-gravitational-lens-to-aid-upcoming-roman-tel-0fe28",
+   "date": "2026-10-23",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Hubble captures gravitational lens to aid upcoming Roman telescope studies",
+   "in_brief": "NASA’s Hubble Space Telescope photographed a foreground galaxy 4.5 billion light‑years away lensing a background galaxy 8 billion light‑years distant. The image demonstrates how Hubble’s detail and Roman’s wide‑field infrared will together probe galaxy mass and dark matter.",
+   "so_what": "The Hubble image provides a concrete example of the synergy between the aging observatory and the soon‑to‑launch Nancy Grace Roman Space Telescope. By resolving the arc‑counterarc lens configuration, scientists can measure how much mass—including invisible dark matter—lies in the foreground galaxy. These measurements will calibrate Roman’s broader surveys, improving estimates of dark‑matter distribution across the universe. As Roman begins operations, similar lensing observations will expand from case studies to statistical samples, refining cosmological models and informing theories of galaxy formation. Observers should watch for Roman’s first data releases later this decade, which will build on the techniques demonstrated by Hubble today.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "The foreground elliptical galaxy acting as the lens is about 4.5 billion light‑years away.",
+     "source": 1,
+     "quote": "In this image, the gravitational lens features a foreground elliptical galaxy that is about 4.5 billion light-years away.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The background galaxy lies roughly 8 billion light‑years away and appears as an arc‑counterarc pair.",
+     "source": 2,
+     "quote": "The background galaxy is about 8 billion light-years away, almost twice as far. It appears as a pair of arcs, one large and very noticeable to the upper left of the foreground galaxy, the other a much smaller, flipped image of the same background galaxy to the lower right. This configuration is called an arc-counterarc pair.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Analyzing the lens distortion lets researchers calculate the foreground galaxy’s mass and its dark‑matter content.",
+     "source": 1,
+     "quote": "By studying the distortion of the background galaxy, researchers can determine how much mass the foreground galaxy contains. This plays a huge role in the study of dark matter, the mysterious, invisible substance that makes up the majority of mass in the universe.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+     "published": "Thu, 22 Oct 2026 16:20:37 +0000",
+     "published_iso": "2026-10-22T16:20:37+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-10-nasa-hubble-path-roman-gravitational.html",
+     "published": "Fri, 23 Oct 2026 10:50:01 EDT",
+     "published_iso": "2026-10-23T14:50:01+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+    "https://phys.org/news/2026-10-nasa-hubble-path-roman-gravitational.html"
+   ],
+   "primary": [
+    {
+     "url": "http://www.nasa.gov/home/index.html",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://www.nasa.gov/home/index.html"
+    },
+    {
+     "url": "https://science.nasa.gov/mission/hubble/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://science.nasa.gov/mission/hubble/"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 80,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-22-hubble-captures-gravitational-lens-to-aid-roman-telescope-pr-b89ed",
+    "date": "2026-10-22",
+    "label": "Developing",
+    "score": 46
+   }
+  },
+  {
+   "id": "2026-10-23-elon-musk-invests-roughly-1-billion-in-newly-formed-skydance-4b895",
+   "date": "2026-10-23",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Elon Musk invests roughly $1 billion in newly formed Skydance media group",
+   "in_brief": "Elon Musk has reportedly invested about $1 billion into Skydance, the media company created after Paramount’s merger with Warner Bros Discovery, according to reports. The funding arrives as the firm targets $6 billion in cost savings over the next three years.",
+   "so_what": "Musk’s investment adds significant capital to Skydance at a pivotal moment when the combined Paramount‑Warner Bros Discovery entity is integrating two major studios and streaming platforms. The $6 billion cost‑saving plan, announced by co‑CEOs David Ellison and Ynon Kreiz, aims to streamline operations but could affect thousands of jobs, with local officials estimating up to 4,500 layoffs in Los Angeles. The deal also deepens ties between Musk and the Ellison family, whose patriarch Larry Ellison previously backed Musk’s 2022 acquisition of X. Observers will watch how the capital infusion influences Skydance’s restructuring timeline, its ability to meet cost‑saving targets, and any regulatory scrutiny stemming from prior antitrust concerns about the merger.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward reporting",
+   "claims": [
+    {
+     "claim": "Elon Musk has invested approximately $1 billion in Skydance.",
+     "source": 1,
+     "quote": "Elon Musk has reportedly invested approximately $1bn in Skydance, the new media empire led by David Ellison.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Skydance aims to achieve more than $6 billion in cost savings over the next three years.",
+     "source": 2,
+     "quote": "Skydance has said it expects to see $6 billion in cost savings over three years",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The integration could lead to the loss of about 4,500 film and television jobs in Los Angeles.",
+     "source": 1,
+     "quote": "a goal that Los Angeles county officials estimate could lead to the loss of 4,500 film and television jobs in Los Angeles alone",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment",
+     "published": "Thu, 22 Oct 2026 21:23:39 GMT",
+     "published_iso": "2026-10-22T21:23:39+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Business",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html",
+     "published": "Thu, 22 Oct 2026 19:34:46 GMT",
+     "published_iso": "2026-10-22T19:34:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/22/elon-musk-made-a-1-billion-investment-in-skydance-report-says/",
+     "published": "Thu, 22 Oct 2026 17:36:38 +0000",
+     "published_iso": "2026-10-22T17:36:38+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment",
+    "https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html",
+    "https://techcrunch.com/2026/10/22/elon-musk-made-a-1-billion-investment-in-skydance-report-says/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Guardian Media Group, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor: Source 1 states Musk 'reportedly' invests and the deal comes 'according to Semafor', but draft stated it as absolute fact without attribution, though verified claims confirm it. However, source 1 uses attribution 'reportedly' and 'Semafor first reported'. Let's adjust in_brief to reflect the reporting/source properly."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-23-andreessen-horowitz-rebrands-crypto-fund-as-a16z-frontier-ex-ec230",
+   "date": "2026-10-23",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Andreessen Horowitz Rebrands Crypto Fund as a16z Frontier, Expands Mandate",
+   "in_brief": "Andreessen Horowitz announced Thursday that its digital‑asset unit a16z Crypto is now called a16z Frontier and will target emerging technologies such as AI and robotics. The change signals a shift away from a sole focus on crypto while retaining blockchain investments.",
+   "so_what": "The rebranding reflects a broader shift as venture firms diversify beyond pure cryptocurrency investments. Led by Chris Dixon, the team has raised nearly $10 billion across five funds since 2018, most recently disclosing a $2.2 billion fund size. By expanding its focus to include artificial intelligence, robotics, and biology, the unit aims to support infrastructure that integrates blockchain as a foundational utility rather than a standalone product. Observers will monitor how the updated mandate impacts deal flow amid evolving market conditions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Andreessen Horowitz renamed its crypto fund to a16z Frontier and broadened its investment focus to AI, robotics and new networks",
+     "source": 1,
+     "quote": "Andreessen Horowitz announced Thursday that it is renaming its digital asset unit from a16z Crypto to a16z Frontier... Under the new name, the team is broadening its mandate to focus on emerging technologies, be it AI, robotics, or “new kinds of networks” connecting humans and machines.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The fund has raised nearly $10 billion across five funds since 2018",
+     "source": 1,
+     "quote": "The practice, helmed by Chris Dixon, has raised nearly $10 billion across five funds since launching in 2018, backing some of the sector’s biggest wins, including Coinbase.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The most recent fund size on record is $2.2 billion, announced in May",
+     "source": 2,
+     "quote": "The most recent fund size on record is $2.2 billion, announced in May.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
+     "published": "Thu, 22 Oct 2026 22:34:54 +0000",
+     "published_iso": "2026-10-22T22:34:54+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381691/morning-minute-a16z-drops-crypto-from-its-fund",
+     "published": "Fri, 23 Oct 2026 13:29:21 +0000",
+     "published_iso": "2026-10-23T13:29:21+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
+    "https://decrypt.co/381691/morning-minute-a16z-drops-crypto-from-its-fund",
+    "https://decrypt.co/381642/a16z-drops-crypto-widens-bets-ai-frontier-tech"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Copied word-for-word run from source in so_what field"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-23-kaspersky-outlines-tech-that-blocks-bulk-spam-from-algorithm-e24e5",
+   "date": "2026-10-23",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Kaspersky outlines tech that blocks bulk spam from algorithm‑generated domains",
+   "in_brief": "Kaspersky explains how its email security tools detect and block domains created by domain‑generation algorithms (DGAs). The approach lets a single rule stop thousands of look‑alike spam domains.",
+   "so_what": "Spam continues to dominate email traffic, accounting for nearly half of all messages, which burdens employees and can deliver phishing or malware. By identifying the pattern of DGA‑generated domains, Kaspersky’s system can add a concise rule that blocks an entire cluster, even before any of the domains have been used in an attack. This reduces the load on deny‑lists and speeds up protection for corporate inboxes. Organizations that rely on traditional blocklists may miss newly generated domains, leaving a gap that attackers exploit. Watching how quickly Kaspersky updates its classifiers and how other vendors adopt similar bulk‑blocking methods will indicate the broader industry response to automated spam campaigns.",
+   "what_to_do": "1. Keep your email security software up to date so it receives the latest DGA‑blocking rules. 2. Enable automatic updates for spam‑filter definitions and deny‑lists. 3. Educate users to report suspicious messages, especially those from unfamiliar domains, to help improve detection.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual technical description",
+   "claims": [
+    {
+     "claim": "Kaspersky’s email solutions can detect domains generated by DGAs and block an entire batch with a single rule.",
+     "source": 1,
+     "quote": "our email solutions have included a technology that detects domains generated by DGAs, and shuts down entire batch with a single rule.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Spammers register hundreds of near‑identical domains automatically to evade security solutions.",
+     "source": 1,
+     "quote": "Spammers automatically register hundreds of near‑identical domains to fool security solutions.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "44.9% of emails sent last year were spam, according to Kaspersky’s analysis.",
+     "source": 1,
+     "quote": "According to our analysis, 44.9% of emails sent last year were spam.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Kaspersky Daily",
+     "owner": "kaspersky.com",
+     "url": "https://www.kaspersky.com/blog/dga-algorithm-detection-technology/56597/",
+     "published": "Fri, 23 Oct 2026 14:32:02 +0000",
+     "published_iso": "2026-10-23T14:32:02+00:00",
+     "kind": "vendor",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.kaspersky.com/blog/dga-algorithm-detection-technology/56597/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.kaspersky.com/blog/dga-algorithm-detection-technology/56597/",
+     "type": "subject's own statement",
+     "verified": true,
+     "label": "Kaspersky Daily"
+    }
+   ],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: kaspersky.com"
+     ],
+     [
+      "Primary evidence",
+      15,
+      25,
+      "Statement from the organization involved (not independent)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-23-ai-generated-pink-panther-images-misrepresented-as-france-pr-698b7",
+   "date": "2026-10-23",
+   "section": "myth",
+   "verdict": "PUBLISH",
+   "headline": "AI‑generated Pink Panther images misrepresented as France protest footage",
+   "in_brief": "Viral posts claimed a person in a Pink Panther costume was taking part in the October 2026 French protests. Fact‑checkers found the images and videos were created with artificial‑intelligence tools and repurposed older photos.",
+   "so_what": "The false Pink Panther content spread widely on social media, giving the impression of a whimsical yet confrontational mascot amid civil unrest in France. By identifying invisible SynthID watermarks and other AI signatures, researchers showed the material was fabricated using Google, OpenAI and Meta tools. Reverse‑image searches linked the visuals to unrelated protests in Armenia (2015), Greece (2010) and Kenya (2025), demonstrating how AI can recycle historic footage to fabricate current events. This case highlights the growing risk that AI‑generated media can be weaponised to distort public perception of political demonstrations, potentially inflaming tensions or undermining trust in legitimate reporting. Monitoring tools and transparent verification processes will be essential as similar deep‑fake claims emerge in future protests worldwide.",
+   "what_to_do": "Check for AI watermarks, use reverse‑image search, and consult reputable fact‑checkers before sharing viral protest media.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual verification",
+   "claims": [
+    {
+     "claim": "The Pink Panther images and videos were generated using artificial intelligence and contain AI watermarks.",
+     "source": 1,
+     "quote": "These particular images and videos have been generated using artificial intelligence. They all contain an AI watermark",
+     "status": "verified",
+     "corroborated_by": [
+      "leadstories.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Online AI detection tools (Hive Moderation, Sightengine, SynthID) flagged the content as AI‑generated with near‑100% certainty.",
+     "source": 2,
+     "quote": "Two online AI detection tools, Hive Moderation and Sightengine, placed the odds of the video and pictures from the post being AI close to 100% in most cases",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The visuals reuse older photos from protests in Armenia (2015), Greece (2010) and Kenya (2025).",
+     "source": 1,
+     "quote": "One of the images ... can actually be traced back to an original photo from protests in Armenia in 2015... An old photo of protests in Greece was also used... it appears to match very closely with a genuine photo of people running away ... in Kenya in 2025",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Full Fact",
+     "owner": "fullfact.org",
+     "url": "https://fullfact.org/world/pink-panther-french-protests-ai-generated/",
+     "published": "Fri, 23 Oct 2026 09:54:42 +0000",
+     "published_iso": "2026-10-23T09:54:42+00:00",
+     "kind": "factcheck",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Lead Stories",
+     "owner": "leadstories.com",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-images-videos-show-pink-panther-at-paris-protests.html",
+     "published": "2026-10-21T21:43:04Z",
+     "published_iso": "2026-10-21T21:43:04+00:00",
+     "kind": "factcheck",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://fullfact.org/world/pink-panther-french-protests-ai-generated/",
+    "https://fullfact.org/world/france-unrest-protests-fact-checks/",
+    "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-images-videos-show-pink-panther-at-paris-protests.html"
+   ],
+   "primary": [
+    {
+     "url": "https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1158683&subId=0",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1158683&subId=0"
+    },
+    {
+     "url": "https://find-and-update.company-information.service.gov.uk/company/06975984",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://find-and-update.company-information.service.gov.uk/company/06975984"
+    }
+   ],
+   "truth": {
+    "total": 38,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: fullfact.org, leadstories.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam",
+  "myth"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 595,
+  "stories_considered": 14,
+  "published": 12,
+  "outlets": 38
+ }
+}

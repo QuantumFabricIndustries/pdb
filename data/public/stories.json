@@ -3745,5 +3745,162 @@
    "https://fullfact.org/world/viral-clip-ships-hormuz-false/",
    "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-people-fishing-iphones-out-of-water-after-missile-attack-on-ship-in-strait-of-hormuz-it-is-ai.html"
   ]
+ },
+ {
+  "id": "2026-10-23-capcom-confirms-breach-of-over-11-7-million-capcom-id-accoun-ea5a5",
+  "date": "2026-10-23",
+  "section": "threat",
+  "headline": "Capcom confirms breach of over 11.7 million CAPCOM ID accounts",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+   "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+   "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
+   "https://www.malwarebytes.com/blog/data-breaches/2026/10/resident-evil-maker-capcom-warns-of-phishing-after-11-7-million-records-exposed"
+  ]
+ },
+ {
+  "id": "2026-10-23-china-linked-storm-0940-leverages-ai-tool-artex-in-connectwi-e5361",
+  "date": "2026-10-23",
+  "section": "threat",
+  "headline": "China-linked Storm-0940 leverages AI tool ARTEX in ConnectWise supply chain breach",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+   "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+   "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+   "https://write.as/4tezac6y61b78"
+  ]
+ },
+ {
+  "id": "2026-10-23-gitlab-patches-critical-regex-compiler-flaw-affecting-multip-512e4",
+  "date": "2026-10-23",
+  "section": "threat",
+  "headline": "GitLab patches critical regex compiler flaw affecting multiple versions",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+   "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+   "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+   "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+   "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
+  ]
+ },
+ {
+  "id": "2026-10-23-first-human-death-linked-to-shamonda-virus-reported-in-franc-14e6e",
+  "date": "2026-10-23",
+  "section": "ai",
+  "headline": "First Human Death Linked to Shamonda Virus Reported in France",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03416-1",
+   "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
+   "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874"
+  ]
+ },
+ {
+  "id": "2026-10-23-apple-music-adds-original-ipod-easter-egg-on-404-pages-74253",
+  "date": "2026-10-23",
+  "section": "ai",
+  "headline": "Apple Music adds original iPod easter egg on 404 pages",
+  "label": "Developing",
+  "score": 44,
+  "also_covered_urls": [
+   "https://www.theverge.com/entertainment/1017413/apple-music-ipod-404-page",
+   "https://www.engadget.com/2295392/apple-music-has-a-fun-easter-egg-for-the-ipods-25th-anniversary/",
+   "https://www.henrikkarlsson.xyz/p/music"
+  ]
+ },
+ {
+  "id": "2026-10-23-new-mexico-court-orders-meta-to-pay-25-billion-penalty-for-d-47ec2",
+  "date": "2026-10-23",
+  "section": "ai",
+  "headline": "New Mexico Court Orders Meta to Pay $25 Billion Penalty for Data‑Privacy Violations",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+   "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+   "https://www.malwarebytes.com/blog/news/2026/10/facebooks-misleading-privacy-claims-land-meta-a-25-billion-penalty"
+  ]
+ },
+ {
+  "id": "2026-10-23-moderna-merck-mrna-vaccine-cuts-melanoma-recurrence-risk-by-6f157",
+  "date": "2026-10-23",
+  "section": "science",
+  "headline": "Moderna-Merck mRNA vaccine cuts melanoma recurrence risk by 42% in Phase 3 trial",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03417-0",
+   "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+   "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html"
+  ]
+ },
+ {
+  "id": "2026-10-23-hubble-captures-gravitational-lens-to-aid-upcoming-roman-tel-0fe28",
+  "date": "2026-10-23",
+  "section": "science",
+  "headline": "Hubble captures gravitational lens to aid upcoming Roman telescope studies",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+   "https://phys.org/news/2026-10-nasa-hubble-path-roman-gravitational.html"
+  ]
+ },
+ {
+  "id": "2026-10-23-elon-musk-invests-roughly-1-billion-in-newly-formed-skydance-4b895",
+  "date": "2026-10-23",
+  "section": "money",
+  "headline": "Elon Musk invests roughly $1 billion in newly formed Skydance media group",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment",
+   "https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html",
+   "https://techcrunch.com/2026/10/22/elon-musk-made-a-1-billion-investment-in-skydance-report-says/"
+  ]
+ },
+ {
+  "id": "2026-10-23-andreessen-horowitz-rebrands-crypto-fund-as-a16z-frontier-ex-ec230",
+  "date": "2026-10-23",
+  "section": "money",
+  "headline": "Andreessen Horowitz Rebrands Crypto Fund as a16z Frontier, Expands Mandate",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
+   "https://decrypt.co/381691/morning-minute-a16z-drops-crypto-from-its-fund",
+   "https://decrypt.co/381642/a16z-drops-crypto-widens-bets-ai-frontier-tech"
+  ]
+ },
+ {
+  "id": "2026-10-23-kaspersky-outlines-tech-that-blocks-bulk-spam-from-algorithm-e24e5",
+  "date": "2026-10-23",
+  "section": "scam",
+  "headline": "Kaspersky outlines tech that blocks bulk spam from algorithm‑generated domains",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.kaspersky.com/blog/dga-algorithm-detection-technology/56597/"
+  ]
+ },
+ {
+  "id": "2026-10-23-ai-generated-pink-panther-images-misrepresented-as-france-pr-698b7",
+  "date": "2026-10-23",
+  "section": "myth",
+  "headline": "AI‑generated Pink Panther images misrepresented as France protest footage",
+  "label": "Developing",
+  "score": 38,
+  "also_covered_urls": [
+   "https://fullfact.org/world/pink-panther-french-protests-ai-generated/",
+   "https://fullfact.org/world/france-unrest-protests-fact-checks/",
+   "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-images-videos-show-pink-panther-at-paris-protests.html"
+  ]
  }
 ]
