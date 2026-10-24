@@ -1,0 +1,160 @@
+[
+ {
+  "section": "threat",
+  "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Capcom breach exposes 11.7 million CAPCOM ID records",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Researchers disable vulnerable Time4Popcorn updater affecting millions of PCs and Macs",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Quest Diagnostics reports unauthorized access to Quanum Lab Services Manager",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI shifts to offline training for frontier AI models",
+  "verdict": "PUBLISH",
+  "truth": 77,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Google updates privacy policy to allow Gmail and Photos data use in AI‑driven ad targeting",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Apple launches iPhone Duo, its first folding smartphone priced near $2,000",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Included investment/consumer hype language ('Consumers should expect a short-term period of limited app compatibility, but the Duo’s unique form factor could inspire new interaction patterns and drive competition in the premium foldable space') in the so_what section that goes beyond factual reporting of the sources."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "First Human Death from Shamonda Virus Reported in France",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Peruvian stalagmites extend South American monsoon record to 450,000 years",
+  "verdict": "PUBLISH",
+  "truth": 76,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Ethereum postpones Glamsterdam upgrade on Hoodi testnet over gas accounting concerns",
+  "verdict": "PUBLISH",
+  "truth": 54,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Senate Democrat Requests Tether Records on Payments to Ex‑White House Adviser’s Firm",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: In_brief states Bo Hines was shaping stable-coin policy in the White House, but sources report he was a White House crypto adviser (executive director of the Presidential Council of Advisers for Digital Assets) and helped craft the GENIUS Act. Also need to attribute the denial/defense from Nxum/Tether regarding wrongdoing."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Block unveils Dessa, a locally‑run voice AI that sounds human",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Fact‑check: Viral image of French woman with “refugees welcome here” sign was altered",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated Pink Panther images falsely linked to French protests",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of Swedish king in Ukraine does not prove handshake refusal",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ }
+]

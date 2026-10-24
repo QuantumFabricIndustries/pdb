@@ -3902,5 +3902,146 @@
    "https://fullfact.org/world/france-unrest-protests-fact-checks/",
    "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-images-videos-show-pink-panther-at-paris-protests.html"
   ]
+ },
+ {
+  "id": "2026-10-24-capcom-breach-exposes-11-7-million-capcom-id-records-8e53d",
+  "date": "2026-10-24",
+  "section": "threat",
+  "headline": "Capcom breach exposes 11.7 million CAPCOM ID records",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+   "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+   "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
+   "https://www.malwarebytes.com/blog/data-breaches/2026/10/resident-evil-maker-capcom-warns-of-phishing-after-11-7-million-records-exposed"
+  ]
+ },
+ {
+  "id": "2026-10-24-researchers-disable-vulnerable-time4popcorn-updater-affectin-73413",
+  "date": "2026-10-24",
+  "section": "threat",
+  "headline": "Researchers disable vulnerable Time4Popcorn updater affecting millions of PCs and Macs",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
+   "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
+  ]
+ },
+ {
+  "id": "2026-10-24-quest-diagnostics-reports-unauthorized-access-to-quanum-lab-0eb96",
+  "date": "2026-10-24",
+  "section": "threat",
+  "headline": "Quest Diagnostics reports unauthorized access to Quanum Lab Services Manager",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://therecord.media/quest-diagnostics-network-intrusion",
+   "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+   "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
+   "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/"
+  ]
+ },
+ {
+  "id": "2026-10-24-openai-shifts-to-offline-training-for-frontier-ai-models-6d213",
+  "date": "2026-10-24",
+  "section": "ai",
+  "headline": "OpenAI shifts to offline training for frontier AI models",
+  "label": "Confirmed",
+  "score": 77,
+  "also_covered_urls": [
+   "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+   "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238",
+   "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+  ]
+ },
+ {
+  "id": "2026-10-24-google-updates-privacy-policy-to-allow-gmail-and-photos-data-afe0d",
+  "date": "2026-10-24",
+  "section": "ai",
+  "headline": "Google updates privacy policy to allow Gmail and Photos data use in AI‑driven ad targeting",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+   "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
+  ]
+ },
+ {
+  "id": "2026-10-24-apple-launches-iphone-duo-its-first-folding-smartphone-price-8968e",
+  "date": "2026-10-24",
+  "section": "ai",
+  "headline": "Apple launches iPhone Duo, its first folding smartphone priced near $2,000",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+   "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
+   "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/"
+  ]
+ },
+ {
+  "id": "2026-10-24-first-human-death-from-shamonda-virus-reported-in-france-86323",
+  "date": "2026-10-24",
+  "section": "science",
+  "headline": "First Human Death from Shamonda Virus Reported in France",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03416-1",
+   "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/"
+  ]
+ },
+ {
+  "id": "2026-10-24-peruvian-stalagmites-extend-south-american-monsoon-record-to-fe048",
+  "date": "2026-10-24",
+  "section": "science",
+  "headline": "Peruvian stalagmites extend South American monsoon record to 450,000 years",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03285-8",
+   "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html"
+  ]
+ },
+ {
+  "id": "2026-10-24-ethereum-postpones-glamsterdam-upgrade-on-hoodi-testnet-over-b6ff5",
+  "date": "2026-10-24",
+  "section": "money",
+  "headline": "Ethereum postpones Glamsterdam upgrade on Hoodi testnet over gas accounting concerns",
+  "label": "Developing",
+  "score": 54,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/10/23/ethereum-delays-glamsterdam-test-after-security-devs-flag-risk-to-existing-contracts",
+   "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws"
+  ]
+ },
+ {
+  "id": "2026-10-24-senate-democrat-requests-tether-records-on-payments-to-ex-wh-a14bc",
+  "date": "2026-10-24",
+  "section": "money",
+  "headline": "Senate Democrat Requests Tether Records on Payments to Ex‑White House Adviser’s Firm",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm",
+   "https://decrypt.co/381755/senate-democrat-tether-payments-ex-white-house-crypto-adviser"
+  ]
+ },
+ {
+  "id": "2026-10-24-block-unveils-dessa-a-locally-run-voice-ai-that-sounds-human-b7606",
+  "date": "2026-10-24",
+  "section": "scam",
+  "headline": "Block unveils Dessa, a locally‑run voice AI that sounds human",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears"
+  ]
  }
 ]

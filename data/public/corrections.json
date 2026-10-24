@@ -163,5 +163,16 @@
   "from_score": 46,
   "to_score": 80,
   "note": "Rating changed from Developing (46) to Confirmed (80) as new evidence came in."
+ },
+ {
+  "date": "2026-10-24",
+  "story_id": "2026-10-24-first-human-death-from-shamonda-virus-reported-in-france-86323",
+  "prior_id": "2026-10-23-first-human-death-linked-to-shamonda-virus-reported-in-franc-14e6e",
+  "headline": "First Human Death from Shamonda Virus Reported in France",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 86,
+  "to_score": 64,
+  "note": "Rating changed from Confirmed (86) to Well-sourced (64) as new evidence came in."
  }
 ]
