@@ -4043,5 +4043,126 @@
    "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
    "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears"
   ]
+ },
+ {
+  "id": "2026-10-25-php-foundation-releases-patches-for-critical-php2shell-vulne-95eda",
+  "date": "2026-10-25",
+  "section": "threat",
+  "headline": "PHP Foundation releases patches for critical PHP2Shell vulnerabilities",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+   "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/"
+  ]
+ },
+ {
+  "id": "2026-10-25-researchers-disable-vulnerable-time4popcorn-updater-affectin-d6018",
+  "date": "2026-10-25",
+  "section": "threat",
+  "headline": "Researchers Disable Vulnerable Time4Popcorn Updater Affecting Millions of Devices",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
+  ]
+ },
+ {
+  "id": "2026-10-25-blackx-uefi-bootkit-bypasses-secure-boot-on-patched-windows-2204d",
+  "date": "2026-10-25",
+  "section": "threat",
+  "headline": "BlackX UEFI bootkit bypasses Secure Boot on patched Windows systems",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+   "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
+  ]
+ },
+ {
+  "id": "2026-10-25-google-privacy-policy-update-links-gmail-and-photos-data-to-dbc4c",
+  "date": "2026-10-25",
+  "section": "ai",
+  "headline": "Google privacy policy update links Gmail and Photos data to ad personalization via AI features",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+   "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+   "https://decrypt.co/381775/google-quietly-updates-privacy-policy-gmail-photos-ads"
+  ]
+ },
+ {
+  "id": "2026-10-25-apple-iphone-duo-inspires-new-foldable-optimized-apps-e7201",
+  "date": "2026-10-25",
+  "section": "ai",
+  "headline": "Apple iPhone Duo inspires new foldable‑optimized apps",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+   "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/"
+  ]
+ },
+ {
+  "id": "2026-10-25-bbc-s-blue-planet-iii-uses-cloudier-footage-to-emphasise-aut-9cb70",
+  "date": "2026-10-25",
+  "section": "ai",
+  "headline": "BBC’s Blue Planet III Uses Cloudier Footage to Emphasise Authenticity Amid AI Concerns",
+  "label": "Developing",
+  "score": 38,
+  "also_covered_urls": [
+   "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+   "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+  ]
+ },
+ {
+  "id": "2026-10-25-personalized-mrna-vaccine-cuts-melanoma-recurrence-risk-by-4-26e2d",
+  "date": "2026-10-25",
+  "section": "science",
+  "headline": "Personalized mRNA vaccine cuts melanoma recurrence risk by 42%",
+  "label": "Confirmed",
+  "score": 84,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03417-0",
+   "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/"
+  ]
+ },
+ {
+  "id": "2026-10-25-peruvian-stalagmites-extend-south-american-monsoon-record-to-fe048",
+  "date": "2026-10-25",
+  "section": "science",
+  "headline": "Peruvian stalagmites extend South American monsoon record to 450,000 years",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03285-8",
+   "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html"
+  ]
+ },
+ {
+  "id": "2026-10-25-six-more-companies-object-to-okxice-tokenized-stock-plan-tot-81aca",
+  "date": "2026-10-25",
+  "section": "money",
+  "headline": "Six More Companies Object to OKXICE Tokenized Stock Plan, Total Objections Reach 22",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+   "https://decrypt.co/381784/wells-fargo-cisco-intuit-more-companies-object-tokenized-stocks"
+  ]
+ },
+ {
+  "id": "2026-10-25-block-unveils-human-like-voice-ai-model-dessa-prompting-scam-6dadb",
+  "date": "2026-10-25",
+  "section": "scam",
+  "headline": "Block unveils human‑like voice AI model Dessa, prompting scam concerns",
+  "label": "Developing",
+  "score": 37,
+  "also_covered_urls": [
+   "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears"
+  ]
  }
 ]

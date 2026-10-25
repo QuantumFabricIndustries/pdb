@@ -1,0 +1,152 @@
+[
+ {
+  "section": "threat",
+  "title": "PHP Foundation releases patches for critical PHP2Shell vulnerabilities",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "Researchers Disable Vulnerable Time4Popcorn Updater Affecting Millions of Devices",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Fixed number formatting for thousands separators to align with source text (removed non-standard spacing/characters causing automated check failures)."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "BlackX UEFI bootkit bypasses Secure Boot on patched Windows systems",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Google privacy policy update links Gmail and Photos data to ad personalization via AI features",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple iPhone Duo inspires new foldable‑optimized apps",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Draft includes an unsupported claim that RectoVerso leverages Apple Intelligence, which is not mentioned in the sources."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Meta releases camera‑free Ray‑Ban Audio glasses amid ongoing privacy concerns",
+  "verdict": "HOLD",
+  "truth": 51,
+  "reasons": [
+   "copied 7 long word-for-word run(s) from a source, e.g. \"us users can no longer prevent meta from storing recordings of their\""
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what includes speculation and unsolicited advice/future predictions ('Future developments may include...', 'Consumers and privacy advocates will likely monitor...') which violates PDB style and instructions."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "BBC’s Blue Planet III Uses Cloudier Footage to Emphasise Authenticity Amid AI Concerns",
+  "verdict": "PUBLISH",
+  "truth": 38,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Personalized mRNA vaccine cuts melanoma recurrence risk by 42%",
+  "verdict": "PUBLISH",
+  "truth": 84,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Peruvian stalagmites extend South American monsoon record to 450,000 years",
+  "verdict": "PUBLISH",
+  "truth": 76,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Six More Companies Object to OKXICE Tokenized Stock Plan, Total Objections Reach 22",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section claims companies signaled concerns about market structure and regulatory clarity, but source 2 explicitly states 'none of the notices explain the companies’ reasons'. Must remove unverified psychological attributions."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Block unveils human‑like voice AI model Dessa, prompting scam concerns",
+  "verdict": "PUBLISH",
+  "truth": 37,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Viral CVE-2026-42069 'HTML2Shell' claim debunked as programmer joke",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video Clip Misleadingly Suggests Swedish King Refused Zelenskyy Handshake",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact check shows viral Tesla Roadster bridge video is AI‑generated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

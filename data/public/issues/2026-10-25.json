@@ -1,0 +1,1303 @@
+{
+ "date": "2026-10-25",
+ "built_at": "2026-10-25T17:08:08.023598+00:00",
+ "stories": [
+  {
+   "id": "2026-10-25-php-foundation-releases-patches-for-critical-php2shell-vulne-95eda",
+   "date": "2026-10-25",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "PHP Foundation releases patches for critical PHP2Shell vulnerabilities",
+   "in_brief": "Two long‑standing PHP bugs (CVE‑2026‑109618 and CVE‑2026‑109619) were publicly disclosed and patched this week. The rapid patching effort aims to stop the millions of exploitation attempts that surfaced shortly after the flaws were revealed.",
+   "so_what": "The PHP2Shell flaws, present in every version of the popular web language for over a decade, could let attackers gain unauthenticated access to web‑facing servers. Their disclosure triggered a surge of exploitation attempts, with Cloudflare reporting millions of attempts within hours, highlighting how quickly threat actors can act when AI‑assisted tools lower the barrier to exploit development. Although the PHP Foundation says it has not observed successful compromises, many organizations remain exposed because patches have not yet been applied. The episode underscores the growing influence of AI in both discovering and weaponising vulnerabilities, putting additional pressure on under‑resourced IT teams to keep software up to date. Stakeholders should monitor patch adoption rates and watch for any emerging exploits that may target unpatched installations.",
+   "what_to_do": "1. Apply the PHP Foundation’s patches for CVE‑2026‑109618 and CVE‑2026‑109619 immediately. 2. Verify that your web servers are running the updated PHP version. 3. Review logs for any suspicious activity from the recent exploitation surge.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Two critical PHP vulnerabilities, designated CVE‑2026‑109618 and CVE‑2026‑109619, were publicly disclosed and dubbed PHP2Shell.",
+     "source": 2,
+     "quote": "The bugs are dubbed PHP2Shell, officially designated as CVE-2026-109618 and CVE-2026-109619.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The PHP Foundation released patches on Wednesday that fix the bugs and prevent attacks on web‑facing servers.",
+     "source": 2,
+     "quote": "The PHP Foundation, which maintains the PHP web software, publicly released patches on Wednesday that fixed the bugs, which when installed prevent web‑facing servers from being attacked.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Millions of exploitation attempts were observed within hours of the vulnerabilities being published, according to Cloudflare analysis.",
+     "source": 1,
+     "quote": "Millions of exploitation attempts hit within hours of the vulnerabilities being published, according to analysis from Cloudflare",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+     "published": "Sat, 24 Oct 2026 12:00:00 +0000",
+     "published_iso": "2026-10-24T12:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+     "published": "Sat, 24 Oct 2026 15:30:00 +0000",
+     "published_iso": "2026-10-24T15:30:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+    "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 51,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-25-researchers-disable-vulnerable-time4popcorn-updater-affectin-d6018",
+   "date": "2026-10-25",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Researchers Disable Vulnerable Time4Popcorn Updater Affecting Millions of Devices",
+   "in_brief": "Eye Security remotely disabled the updater in the abandoned Time4Popcorn app, which could have let attackers execute code with SYSTEM or root privileges. The action mitigates a flaw tracked as CVE‑2026‑30612 that impacted Windows, macOS and Android versions of the software.",
+   "so_what": "The Time4Popcorn updater communicated over unencrypted HTTP and accepted unsigned executables, creating a pathway for remote code execution on an estimated 2.5 to 3 million Windows PCs and up to 350,000 Macs. Because the original developers abandoned the project, no official patches were forthcoming, leaving users exposed to potential ransomware, credential theft, or botnet recruitment. Eye Security’s operation, which delivered more than two million remediation updates between November 2025 and March 2026, dramatically reduced traffic to the malicious domain by 98%, but the risk remains for Android users and for systems where the outdated Chrome engine could be exploited. Stakeholders should monitor for any resurgence of the domain and consider removing the software entirely.",
+   "what_to_do": "1. Uninstall the Time4Popcorn/Popcorn Time application from all devices. 2. Block outbound traffic to popcorntimeupd.xyz and related domains at the firewall. 3. Ensure systems are running updated software and apply any available OS patches.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "The Time4Popcorn updater could execute code with SYSTEM privileges on Windows and root on macOS.",
+     "source": 1,
+     "quote": "Anyone controlling the update domain could manipulate HTTP traffic and execute code as SYSTEM on Windows and as root on macOS.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Eye Security pushed more than 2 million updates to disable the vulnerable updater between November 2025 and March 2026.",
+     "source": 2,
+     "quote": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "CVE‑2026‑30612 affects Windows up to version 6.2.1.18, macOS up to 6.2.1.17, and Android up to 3.5.0.173.",
+     "source": 2,
+     "quote": "It affects three versions of the Time4Popcorn software: - Windows, up to and including 6.2.1.18 - Mac, up to and including 6.2.1.17 - Android, up to and including 3.5.0.173",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+     "published": "Fri, 23 Oct 2026 16:55:05 -0400",
+     "published_iso": "2026-10-23T20:55:05+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+     "published": "Sat, 24 Oct 2026 14:34:24 +0530",
+     "published_iso": "2026-10-24T09:04:24+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+    "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-30612",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-30612"
+    }
+   ],
+   "truth": {
+    "total": 55,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Fixed number formatting for thousands separators to align with source text (removed non-standard spacing/characters causing automated check failures)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-24-researchers-disable-vulnerable-time4popcorn-updater-affectin-73413",
+    "date": "2026-10-24",
+    "label": "Well-sourced",
+    "score": 68
+   }
+  },
+  {
+   "id": "2026-10-25-blackx-uefi-bootkit-bypasses-secure-boot-on-patched-windows-2204d",
+   "date": "2026-10-25",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "BlackX UEFI bootkit bypasses Secure Boot on patched Windows systems",
+   "in_brief": "A new UEFI bootkit called BlackX exploited the Baton Drop (CVE‑2022‑21894) vulnerability to bypass Secure Boot on Windows machines, targeting diplomatic agencies in Central Asia. The campaign is linked to the Chinese state‑sponsored group APT41 and evades security products such as Kaspersky and Avast.",
+   "so_what": "BlackX demonstrates that even fully patched Windows 11 systems can be compromised when organizations omit manual Secure Boot revocation steps. The bootkit loads a malicious driver signed with a now‑revoked certificate, disables security processes, and deploys espionage payloads, posing a persistent threat to diplomatic networks in Tajikistan, Uzbekistan and Turkmenistan. The incident underscores the importance of not only applying Microsoft updates but also completing the recommended manual revocation of the “Windows Production PCA 2011” certificate in the Secure Boot DBX. Administrators should verify that the revocation list is up‑to‑date and monitor for the presence of the bootkit’s installer files (inst.exe, PVMDIJGKAX2). Future attacks may leverage similar tactics, making thorough firmware security hygiene essential.",
+   "what_to_do": "1. Apply Microsoft’s Secure Boot revocation mitigation by adding the \"Windows Production PCA 2011\" certificate to the DBX list. 2. Verify that the DBX list includes the revoked certificate and update firmware/UEFI firmware to the latest version. 3. Scan for and remove the bootkit files inst.exe and PVMDIJGKAX2, and monitor for unsigned kernel drivers.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "BlackX UEFI bootkit exploited the Baton Drop vulnerability (CVE‑2022‑21894) to bypass Secure Boot and load a malicious driver.",
+     "source": 1,
+     "quote": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The campaign has been attributed with medium confidence to the Chinese state‑sponsored group APT41.",
+     "source": 1,
+     "quote": "The operation has been attributed with medium confidence to APT41, a Chinese state-sponsored threat group.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Targets included diplomatic agencies in Tajikistan, Uzbekistan and Turkmenistan.",
+     "source": 1,
+     "quote": "It was discovered in early 2026 and targeted diplomatic agencies in Central Asia, particularly in Tajikistan, Uzbekistan, and Turkmenistan.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The bootkit uses a driver signed with a now‑revoked certificate, requiring manual DBX updates to block it.",
+     "source": 2,
+     "quote": "completely addressing the threat requires additional actions beyond installing the latest update, including running manual steps to apply Microsoft's Secure Boot revocation mitigations, such as adding the \"Windows Production PCA 2011\" certificate to the Secure Boot UEFI Forbidden List (DBX).",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The certificate expired on October 19, 2026, but binaries remain loadable unless blocklisted.",
+     "source": 2,
+     "quote": "On October 19, 2026, this certificate expired, but this does not prevent the vulnerable binaries from loading unless the certificate is blocklisted.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+     "published": "Sat, 24 Oct 2026 10:17:32 -0400",
+     "published_iso": "2026-10-24T14:17:32+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+     "published": "Sat, 24 Oct 2026 00:20:13 +0530",
+     "published_iso": "2026-10-23T18:50:13+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+    "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "5 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-25-google-privacy-policy-update-links-gmail-and-photos-data-to-dbc4c",
+   "date": "2026-10-25",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google privacy policy update links Gmail and Photos data to ad personalization via AI features",
+   "in_brief": "Google revised its privacy policy on Oct. 16, 2026 to permit data from Gmail, Drive and Photos to be used for ad personalization when users opt into the Personal Intelligence feature. The change matters because it links personal content to advertising in Google’s AI‑driven search and Gemini tools.",
+   "so_what": "The amendment modifies a long‑standing promise that Google would not use content from its core productivity apps for advertising. By tying ad targeting to the Personal Intelligence feature, the company can leverage the context of a user’s emails, photos or files to refine the ads shown in AI Mode, Search and Gemini, but only if the user explicitly enables the connection. This shift arrives as Google expands AI integration across its suite, raising privacy concerns for users who value the separation of personal data from ad ecosystems. Regulators and privacy advocates are likely to scrutinize whether the opt‑in mechanism provides sufficient transparency and control. Observers will watch how many users enable Personal Intelligence, how Google enforces the “off‑by‑default” setting, and whether similar policies appear in other AI‑driven services.",
+   "what_to_do": "To prevent personal content from influencing ads, users can disconnect Gmail, Drive or Photos from Personal Intelligence in the Connected Content apps settings or turn off Personalized Recommendations in the Search Services Personalization settings.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Google updated its privacy policy on Oct 16, 2026 to allow data from Gmail, Drive and Photos to be used for ad personalization when users opt in via Personal Intelligence.",
+     "source": 2,
+     "quote": "You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use, such as Google Photos and Workspace apps like Gmail and Drive, in order to provide you with a more personalized experience, subject to the policies and settings of the accessing service,\" reads a policy update effective October 16, 2026.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The policy states Google does not show personalized ads based on content from those services unless the user chooses to share it with other Google services that support personalized ads.",
+     "source": 3,
+     "quote": "the updated policy now reads that Google doesn’t show personalized ads based on content from Drive, Gmail, or Google Photos “unless you choose to make data from these services available to other Google services that support personalized ads.”",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Personal Intelligence, launched in early 2026, is rolling out as a beta to users over 18 worldwide, except in the EEA, Switzerland, the UK and Nigeria.",
+     "source": 2,
+     "quote": "The feature is currently rolling out as a beta to eligible users over the age of 18 globally, except in the European Economic Area, Switzerland, the U.K., and Nigeria.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+     "published": "Fri, 23 Oct 2026 20:19:55 +0000",
+     "published_iso": "2026-10-23T20:19:55+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+     "published": "Sat, 24 Oct 2026 16:06:33 +0530",
+     "published_iso": "2026-10-24T10:36:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381775/google-quietly-updates-privacy-policy-gmail-photos-ads",
+     "published": "Sat, 24 Oct 2026 17:01:02 +0000",
+     "published_iso": "2026-10-24T17:01:02+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+    "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+    "https://decrypt.co/381775/google-quietly-updates-privacy-policy-gmail-photos-ads"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, decrypt.co, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-24-google-updates-privacy-policy-to-allow-gmail-and-photos-data-afe0d",
+    "date": "2026-10-24",
+    "label": "Well-sourced",
+    "score": 55
+   }
+  },
+  {
+   "id": "2026-10-25-apple-iphone-duo-inspires-new-foldable-optimized-apps-e7201",
+   "date": "2026-10-25",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple iPhone Duo inspires new foldable‑optimized apps",
+   "in_brief": "Developers have released several apps that exploit the iPhone Duo’s dual‑screen design, including games and productivity tools. The launch highlights Apple’s entry into the foldable market and early app support such as a Duo‑optimized Netflix client.",
+   "so_what": "Apple’s first foldable phone, the iPhone Duo, is prompting developers to create experiences that go beyond simple screen scaling. Apps like Battlefleet Duo use the larger 7.6‑inch canvas for multiplayer board games, while Flipcorder turns the hinge into a camcorder “cap” and RectoVerso offers a physical flashcard-flipping experience as the device opens. The device’s starting price of $2,000 and limited mainstream app readiness mean early adopters will primarily see niche, developer‑driven experiences. However, the presence of a Duo‑optimized Netflix app signals that major services are beginning to invest in the form factor. Watch for additional mainstream apps adding Duo support and for pricing or hardware revisions that could broaden appeal.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward reporting of product launch and app features",
+   "claims": [
+    {
+     "claim": "Developers have released apps that specifically use the iPhone Duo’s hinge and dual displays, such as Battlefleet Duo, Flipcorder, and RectoVerso.",
+     "source": 1,
+     "quote": "Some of these apps aren't necessarily new but use the phone's hinge to offer fresh experiences.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The iPhone Duo starts at $2,000.",
+     "source": 2,
+     "quote": "(The Duo starts at $2,000).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Netflix released a Duo‑optimized version of its streaming app at launch.",
+     "source": 2,
+     "quote": "Netflix is one of Apple’s hand‑picked partners for the Duo launch, and had its streaming app Duo‑optimized by the time the device shipped",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+     "published": "Sat, 24 Oct 2026 10:45:00 +0000",
+     "published_iso": "2026-10-24T10:45:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
+     "published": "Sat, 24 Oct 2026 15:00:00 +0000",
+     "published_iso": "2026-10-24T15:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+    "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 51,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Draft includes an unsupported claim that RectoVerso leverages Apple Intelligence, which is not mentioned in the sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-24-apple-launches-iphone-duo-its-first-folding-smartphone-price-8968e",
+    "date": "2026-10-24",
+    "label": "Developing",
+    "score": 48
+   }
+  },
+  {
+   "id": "2026-10-25-bbc-s-blue-planet-iii-uses-cloudier-footage-to-emphasise-aut-9cb70",
+   "date": "2026-10-25",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "BBC’s Blue Planet III Uses Cloudier Footage to Emphasise Authenticity Amid AI Concerns",
+   "in_brief": "The new BBC series Blue Planet III deliberately includes cloudier, less‑polished shots to demonstrate that its images are real, not generated by AI. Producers say the approach counters viewer doubts in an era of increasingly convincing artificial‑intelligence imagery.",
+   "so_what": "Blue Planet III’s decision to retain imperfect footage reflects growing audience skepticism about the authenticity of high‑definition nature documentaries, which can be mimicked by generative AI. By publicly confirming that no AI was used in any frame, the BBC aims to preserve trust in its natural‑history brand and set a precedent for transparency in documentary filmmaking. The series also showcases unprecedented marine behaviour—dolphins using sea sponges to trap fish, inter‑species fish communication, and massive crab feeding formations—highlighting both scientific discovery and the value of unedited, real‑world observation. Viewers and industry observers will watch how this authenticity strategy influences future productions and whether other broadcasters adopt similar policies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Blue Planet III deliberately includes cloudier, less‑polished footage to prove authenticity",
+     "source": 1,
+     "quote": "Blue Planet III features cloudier footage to prove authenticity amid AI boom.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "No generative AI was used in any frame of the series",
+     "source": 1,
+     "quote": "“No gen AI was used in this series. Not a single frame. It’s all real photography.”",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The series captures novel animal behaviour such as dolphins using sea sponges and 200,000 crabs feeding in formation",
+     "source": 1,
+     "quote": "That includes never‑before‑seen action of dolphins using sea sponges to block holes in coral to trap fish... 200,000 crabs lining up in formation to feed",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+     "published": "Sat, 24 Oct 2026 08:32:56 GMT",
+     "published_iso": "2026-10-24T08:32:56+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+     "published": "2026-10-24T17:29:12-04:00",
+     "published_iso": "2026-10-24T21:29:12+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+    "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 38,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Guardian Media Group, Vox Media"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-25-personalized-mrna-vaccine-cuts-melanoma-recurrence-risk-by-4-26e2d",
+   "date": "2026-10-25",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Personalized mRNA vaccine cuts melanoma recurrence risk by 42%",
+   "in_brief": "A Phase III trial of Moderna and Merck’s personalized mRNA vaccine, intismeran, combined with pembrolizumab lowered the risk of melanoma recurrence or death by 42% compared with pembrolizumab alone. The result, presented after data leaked in October, could influence future treatment of high‑risk melanoma.",
+   "so_what": "The trial, involving 1,137 patients with high‑risk melanoma who had surgery to remove their tumors, provides the first Phase III evidence that a patient‑specific mRNA vaccine can substantially improve outcomes when added to an established immunotherapy. A 42% reduction in recurrence or death is well above the 10% risk reduction oncologists typically deem meaningful, suggesting a potential new standard of care for earlier‑stage disease. The vaccine, intismeran, is designed to teach the immune system to recognize tumor‑specific mutations, a strategy that may be adaptable to other cancers. Regulatory review and broader market approval will determine how quickly the therapy becomes available, while ongoing monitoring will assess long‑term survival and safety. Stakeholders will watch for FDA decisions, pricing discussions, and further data on durability of response.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "The vaccine reduced the risk of melanoma recurrence or death by 42% compared with pembrolizumab alone.",
+     "source": 2,
+     "quote": "reduced the risk of disease recurrence or death by 42 percent compared to Pembrolizumab alone.",
+     "status": "verified",
+     "corroborated_by": [
+      "nature.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The trial enrolled 1,137 participants with high‑risk melanoma.",
+     "source": 1,
+     "quote": "The intismeran trial enrolled 1,137 people with moderate to advanced melanoma across 157 centres.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Participants received either the vaccine with pembrolizumab or pembrolizumab alone.",
+     "source": 1,
+     "quote": "receive either a tailor-made vaccine (intismeran) alongside the immunotherapy drug pembrolizumab ... or pembrolizumab plus an inactive placebo.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03417-0",
+     "published": "2026-10-23",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
+     "published": "Sat, 24 Oct 2026 11:30:00 +0000",
+     "published_iso": "2026-10-24T11:30:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03417-0",
+    "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03417-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 84,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-23-moderna-merck-mrna-vaccine-cuts-melanoma-recurrence-risk-by-6f157",
+    "date": "2026-10-23",
+    "label": "Confirmed",
+    "score": 86
+   }
+  },
+  {
+   "id": "2026-10-25-peruvian-stalagmites-extend-south-american-monsoon-record-to-fe048",
+   "date": "2026-10-25",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Peruvian stalagmites extend South American monsoon record to 450,000 years",
+   "in_brief": "Researchers analyzed 30 stalagmites from three Peruvian caves, producing a 450,000‑year record of monsoon rainfall. The findings show notable departures from the expected Asia–South America monsoon seesaw.",
+   "so_what": "The new long‑term South American record fills a gap in the global monsoon archive, which previously relied on shorter Southern Hemisphere data. By confirming that the monsoon seesaw—where stronger rains in one hemisphere correspond to weaker rains in the other—can be interrupted, the study refines our understanding of how orbital variations and the position of the Intertropical Convergence Zone drive regional climate. This insight helps climate models better simulate past and future rainfall patterns that affect water supplies, agriculture, and hydropower for billions of people. Future work will compare these cave records with other proxy data and model simulations to pinpoint the mechanisms behind the observed exceptions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Cave stalagmites document global patterns in monsoon rainfall over the past 450,000 years.",
+     "source": 1,
+     "quote": "Cave stalagmites document global patterns in monsoon rainfall over the past 450,000 years.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years.",
+     "source": 2,
+     "quote": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The study used oxygen‑isotope measurements from 30 stalagmites in three Peruvian caves, dated with radioactive methods, to span roughly 450,000 years of summer monsoon variability.",
+     "source": 2,
+     "quote": "In an effort to map out monsoon activity over a longer timescale in South America, the team combined oxygen‑isotope measurements from 30 stalagmites in three Peruvian caves near the Andes Mountains, using radioactive dating to establish their ages.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03285-8",
+     "published": "2026-10-21",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html",
+     "published": "Sat, 24 Oct 2026 09:00:01 EDT",
+     "published_iso": "2026-10-24T13:00:01+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03285-8",
+    "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.1038%2Fnature18591",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://doi.org/10.1038%2Fnature18591"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03285-8",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 76,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-24-peruvian-stalagmites-extend-south-american-monsoon-record-to-fe048",
+    "date": "2026-10-24",
+    "label": "Confirmed",
+    "score": 76
+   }
+  },
+  {
+   "id": "2026-10-25-six-more-companies-object-to-okxice-tokenized-stock-plan-tot-81aca",
+   "date": "2026-10-25",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Six More Companies Object to OKXICE Tokenized Stock Plan, Total Objections Reach 22",
+   "in_brief": "Six additional issuers, including Wells Fargo and Cisco, filed objections to OKXICE’s tokenized stock venue, bringing the total number of objecting companies to 22. The growing list highlights challenges for the joint venture’s effort to launch blockchain‑based trading of U.S. equities under the SEC’s innovation exemption.",
+   "so_what": "The growing roster of objectors includes major corporations such as Wells Fargo, Cisco, Marvell, Arm, Intuit, and Moderna, adding to earlier dissenters like Microsoft, Alphabet, and Goldman Sachs. While the SEC's framework gives issuers a window to block their shares from being listed on a tokenized securities venue (TSV), public notices do not detail the specific reasons behind the companies' decisions to opt out. The expanding opposition may pose challenges to the rollout of OKXICE’s 24/7 blockchain trading platform, which plans to utilize Uniswap v4 liquidity pools on the XLayer blockchain and settle trades in stablecoins.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Six more companies objected to OKXICE’s tokenized stock plan, bringing the total number of objections to 22.",
+     "source": 1,
+     "quote": "Six more companies have objected to listing tokenized versions of their stock on the venue, Reuters reported, bringing the total to 22.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The companies that added their objections include Wells Fargo, Cisco, Marvell, Arm, Intuit and Moderna.",
+     "source": 1,
+     "quote": "Cisco, Wells Fargo, Marvell, Arm, Intuit and Moderna opted out of OKXICE’s plans to offer blockchain-based trading of their tokenized shares, bringing the total number of objections to 22.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Under the SEC’s framework, issuers have 30 days to object before their shares can be offered on a tokenized securities venue.",
+     "source": 1,
+     "quote": "Venues must notify issuers and give them 30 days to object before offering tokenized versions of their shares.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+     "published": "Sat, 24 Oct 2026 14:06:24 +0000",
+     "published_iso": "2026-10-24T14:06:24+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381784/wells-fargo-cisco-intuit-more-companies-object-tokenized-stocks",
+     "published": "Sun, 25 Oct 2026 16:01:03 +0000",
+     "published_iso": "2026-10-25T16:01:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+    "https://decrypt.co/381784/wells-fargo-cisco-intuit-more-companies-object-tokenized-stocks"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: So_what section claims companies signaled concerns about market structure and regulatory clarity, but source 2 explicitly states 'none of the notices explain the companies’ reasons'. Must remove unverified psychological attributions."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-21-companies-object-to-tokenized-stock-trading-on-okxice-platfo-e7813",
+    "date": "2026-10-21",
+    "label": "Well-sourced",
+    "score": 64
+   }
+  },
+  {
+   "id": "2026-10-25-block-unveils-human-like-voice-ai-model-dessa-prompting-scam-6dadb",
+   "date": "2026-10-25",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Block unveils human‑like voice AI model Dessa, prompting scam concerns",
+   "in_brief": "Block released a new voice AI model called Dessa that can run locally on a MacBook with an M4 Max chip and sounds remarkably human. The technology has sparked both admiration and warnings that its realism could make phone scams harder to detect.",
+   "so_what": "Dessa represents a shift in voice AI by processing audio directly without converting speech to text first, allowing it to handle interruptions, laughter and emotional cues. Block says the model runs on a consumer‑grade computer and is being offered to a limited group of AI safety researchers for testing. While the company highlights potential benefits for business and education, commentators have warned that the lifelike quality could be exploited by fraudsters to deceive callers, complicating existing scam‑detection methods. Observers will watch how Block balances safety research with any future commercial rollout, and whether regulators or industry groups develop guidelines for such highly realistic voice agents.",
+   "what_to_do": "1. Verify the identity of callers by asking for information only you can confirm through a separate channel. 2. Be cautious of unexpected voice messages that request personal or financial details, even if they sound natural. 3. Report suspicious voice calls to your phone provider or relevant consumer‑protection agency promptly.",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "Block unveiled a voice AI model called Dessa that can run locally on a MacBook Pro with an M4 Max chip",
+     "source": 2,
+     "quote": "Block unveiled Dessa, a voice AI trained only on human speech that talks without text and runs locally on a MacBook Pro with an M4 Max chip.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Dessa processes audio directly without converting speech to text first",
+     "source": 2,
+     "quote": "Unlike systems that first convert speech into text before generating a spoken response, Dessa processes audio directly.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The realistic voice could make phone scams harder to detect",
+     "source": 2,
+     "quote": "the technology could make phone scams harder to detect.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+     "published": "Sat, 24 Oct 2026 16:00:00 +0000",
+     "published_iso": "2026-10-24T16:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
+     "published": "Sat, 24 Oct 2026 15:21:06 +0000",
+     "published_iso": "2026-10-24T15:21:06+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+    "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 37,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Yahoo, coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-24-block-unveils-dessa-a-locally-run-voice-ai-that-sounds-human-b7606",
+    "date": "2026-10-24",
+    "label": "Developing",
+    "score": 50
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 298,
+  "stories_considered": 14,
+  "published": 10,
+  "outlets": 31
+ }
+}

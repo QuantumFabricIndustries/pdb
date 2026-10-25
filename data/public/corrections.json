@@ -174,5 +174,16 @@
   "from_score": 86,
   "to_score": 64,
   "note": "Rating changed from Confirmed (86) to Well-sourced (64) as new evidence came in."
+ },
+ {
+  "date": "2026-10-25",
+  "story_id": "2026-10-25-six-more-companies-object-to-okxice-tokenized-stock-plan-tot-81aca",
+  "prior_id": "2026-10-21-companies-object-to-tokenized-stock-trading-on-okxice-platfo-e7813",
+  "headline": "Six More Companies Object to OKXICE Tokenized Stock Plan, Total Objections Reach 22",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 64,
+  "to_score": 53,
+  "note": "Rating changed from Well-sourced (64) to Developing (53) as new evidence came in."
  }
 ]
