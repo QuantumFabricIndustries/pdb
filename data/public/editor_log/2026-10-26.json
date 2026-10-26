@@ -1,0 +1,160 @@
+[
+ {
+  "section": "threat",
+  "title": "Critical Brotli decoder flaw triggers emergency updates across platforms",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Included numbers and specific version strings not fully supported by source text.",
+   "editor: Copied phrasing directly from sources."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Malicious AGENTS.md File Can Hijack AI Coding Agents via Downloads Folder",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Kali Linux 2026.3 released with kernel upgrade, new tools and smartwatch support",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Anthropic files S‑1 for IPO, targeting valuation up to $2 trillion",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Number '132' does not appear in any source (cash pile is $112.4 billion + $19.3 billion = $131.7 billion, but draft said 'roughly $132 billion', let's use exact or sum safely based on sources: cash and equivalents of $112.4 billion and short-term investments of $19.3 billion).",
+   "editor: Net loss of 'about $80 billion' should be 'nearly $81 billion' or '$80.7 billion' per sources."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "iPhone Duo users report inner-screen cracks and bright lines shortly after launch",
+  "verdict": "HOLD",
+  "truth": 73,
+  "reasons": [
+   "copied 2 long word-for-word run(s) from a source, e.g. \"aware of an issue impacting the inner display on a small number\""
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Included specific launch date (October 23, 2026) not found in sources",
+   "editor: Out-of-warranty repair price of $999 was not explicitly verified in the allowed verified claims or universally supported without context, though present in CNBC text, but need to stick strictly to verified facts and avoid hallucinated details."
+  ],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Starlink and Starshield connectivity restored in Ukraine following Musk dispute",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline states Ukraine restored connectivity, but sources indicate SpaceX/Musk lifted the restrictions.",
+   "editor: In_brief incorrectly says Ukraine announced the restoration; Defense Minister Khmara and President Zelensky announced it."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Microsoft launches voluntary exit offer for up to 60,000 staff",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Brown Student Launches Interactive Map of Global AI Data‑Labeling Labor",
+  "verdict": "PUBLISH",
+  "truth": 78,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA’s APOD Highlights Dark Matter Simulation on Oct 25, 2026",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Over Half of Bitcoin Supply Held in Unattributed Addresses, Research Shows",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Bitmine resumes share buybacks, adds 10,452 ETH amid market pullback",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Chinese national extradited for laundering $36.9 million from U.S. investment scam",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Greta Thunberg Was Not Arrested in Rome for Confetti Incident",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Viral CVE-2026-42069 'HTML2Shell' Claim Debunked as Joke",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

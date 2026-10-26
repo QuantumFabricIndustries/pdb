@@ -4164,5 +4164,146 @@
    "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
    "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears"
   ]
+ },
+ {
+  "id": "2026-10-26-critical-brotli-decoder-flaw-triggers-emergency-updates-acro-e3c65",
+  "date": "2026-10-26",
+  "section": "threat",
+  "headline": "Critical Brotli decoder flaw triggers emergency updates across platforms",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+   "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+   "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+   "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515",
+   "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515"
+  ]
+ },
+ {
+  "id": "2026-10-26-malicious-agents-md-file-can-hijack-ai-coding-agents-via-dow-dfefa",
+  "date": "2026-10-26",
+  "section": "threat",
+  "headline": "Malicious AGENTS.md File Can Hijack AI Coding Agents via Downloads Folder",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+   "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+   "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/"
+  ]
+ },
+ {
+  "id": "2026-10-26-kali-linux-2026-3-released-with-kernel-upgrade-new-tools-and-691c1",
+  "date": "2026-10-26",
+  "section": "threat",
+  "headline": "Kali Linux 2026.3 released with kernel upgrade, new tools and smartwatch support",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+   "https://www.helpnetsecurity.com/2026/10/26/kali-linux-2026-3-released/"
+  ]
+ },
+ {
+  "id": "2026-10-26-anthropic-files-s-1-for-ipo-targeting-valuation-up-to-2-tril-f531f",
+  "date": "2026-10-26",
+  "section": "ai",
+  "headline": "Anthropic files S‑1 for IPO, targeting valuation up to $2 trillion",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records",
+   "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo",
+   "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "https://www.engadget.com/2296724/anthropic-files-to-go-public/"
+  ]
+ },
+ {
+  "id": "2026-10-26-starlink-and-starshield-connectivity-restored-in-ukraine-fol-76e75",
+  "date": "2026-10-26",
+  "section": "ai",
+  "headline": "Starlink and Starshield connectivity restored in Ukraine following Musk dispute",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
+   "https://arstechnica.com/tech-policy/2026/10/musk-accuses-ukraine-of-violating-starlink-terms-with-deadly-drone-strikes/",
+   "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/"
+  ]
+ },
+ {
+  "id": "2026-10-26-microsoft-launches-voluntary-exit-offer-for-up-to-60-000-sta-71d47",
+  "date": "2026-10-26",
+  "section": "ai",
+  "headline": "Microsoft launches voluntary exit offer for up to 60,000 staff",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+   "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+   "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+   "https://www.engadget.com/2297175/microsoft-reportedly-offers-voluntary-buyouts-to-60000-employees/"
+  ]
+ },
+ {
+  "id": "2026-10-26-brown-student-launches-interactive-map-of-global-ai-data-lab-7f649",
+  "date": "2026-10-26",
+  "section": "science",
+  "headline": "Brown Student Launches Interactive Map of Global AI Data‑Labeling Labor",
+  "label": "Confirmed",
+  "score": 78,
+  "also_covered_urls": [
+   "https://phys.org/news/2026-10-hidden-global-labor-powering-ai.html",
+   "https://www.brown.edu/news/2026-10-26/ai-data-workers"
+  ]
+ },
+ {
+  "id": "2026-10-26-nasa-s-apod-highlights-dark-matter-simulation-on-oct-25-2026-0d0d7",
+  "date": "2026-10-26",
+  "section": "science",
+  "headline": "NASA’s APOD Highlights Dark Matter Simulation on Oct 25, 2026",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://science.nasa.gov/image-article/apod/2026-october-26-m42-the-great-nebula-in-orion/",
+   "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/"
+  ]
+ },
+ {
+  "id": "2026-10-26-over-half-of-bitcoin-supply-held-in-unattributed-addresses-r-afd67",
+  "date": "2026-10-26",
+  "section": "money",
+  "headline": "Over Half of Bitcoin Supply Held in Unattributed Addresses, Research Shows",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/26/over-11-million-btc-can-t-be-linked-to-any-known-owner-even-after-wall-street-buying",
+   "https://css-tricks.com/css-tricks-has-a-new-owner/"
+  ]
+ },
+ {
+  "id": "2026-10-26-bitmine-resumes-share-buybacks-adds-10-452-eth-amid-market-p-b3055",
+  "date": "2026-10-26",
+  "section": "money",
+  "headline": "Bitmine resumes share buybacks, adds 10,452 ETH amid market pullback",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
+   "https://decrypt.co/381826/tom-lee-bitmine-keeps-buying-ethereum-share-buybacks"
+  ]
+ },
+ {
+  "id": "2026-10-26-chinese-national-extradited-for-laundering-36-9-million-from-f4575",
+  "date": "2026-10-26",
+  "section": "scam",
+  "headline": "Chinese national extradited for laundering $36.9 million from U.S. investment scam",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
+   "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/"
+  ]
  }
 ]
