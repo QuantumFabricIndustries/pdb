@@ -1,0 +1,212 @@
+[
+ {
+  "section": "threat",
+  "title": "Apple backports CoreGraphics zero‑day fix to older iPhones and iPads",
+  "verdict": "PUBLISH",
+  "truth": 93,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source (iOS 26.7.1, iPadOS 26.7.1, etc.)"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "UNM Health System Diverts Ambulances After Cyberattack",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor: Included unsupported date details ('Oct. 26') and specific stolen record counts not found in sources."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "CISA orders federal agencies to patch PHP2Shell flaws after confirming active exploitation",
+  "verdict": "HOLD",
+  "truth": 68,
+  "reasons": [
+   "copied 2 long word-for-word run(s) from a source, e.g. \"8 5 12 8 4 27 8 3 36 and 8 2\""
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking",
+   "editor rewrote what_to_do",
+   "editor: Fixed formatting issue in what_to_do to avoid string duplication matching sources"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Keystone to destroy 18,835 unsold wallets after website breach exposes key and buyer data",
+  "verdict": "PUBLISH",
+  "truth": 66,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Elon Musk releases AI‑generated seven‑minute Odyssey episode via Grok Imagine",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple launches iOS 27.2 with Siri memory, new languages and FaceTime dual‑camera",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI launches GPT-6.1 Terra with lower pricing and faster performance",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "science",
+  "title": "Lula wins Brazilian presidency over Flávio Bolsonaro, prompting market plunge and scientific relief",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source 1 states the opponent was Flávio Bolsonaro (Jair's son), not Jair Bolsonaro himself as incumbent, and Jair was previously president from 2019 to 2023. The draft conflated Jair and Flávio Bolsonaro."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA rover measures ultrafine Martian dust on spacesuit samples",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Galaxy Research says Bitcoin bear market ended in June, cites accumulation phase",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied long word-for-word run from source: spot bitcoin etfs have added 87 000 btc since the june low"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "OCC Grants Ripple Final Approval for National Trust Bank",
+  "verdict": "PUBLISH",
+  "truth": 40,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Fixed wording to avoid copied word-for-word runs from the source."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Chinese National Extradited to U.S. on $36 million Cryptocurrency Fraud Charges",
+  "verdict": "HOLD",
+  "truth": 45,
+  "reasons": [
+   "number '3' does not appear in any source",
+   "copied 7 long word-for-word run(s) from a source, e.g. \"to an account at deltec bank in the bahamas which was opened\""
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Copied text from source without attribution",
+   "editor: Unattributed claims about prosecutors and FBI report",
+   "editor: Potentially misleading phrasing about 'investment scammers' without specifying allegations"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Microsoft Teams IT‑Support Scams Deploy Malware via Fake Tenants",
+  "verdict": "HOLD",
+  "truth": 19,
+  "reasons": [
+   "truth score 19 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Critical PHP Flaws Discovered, Prompting Urgent Patching",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Mentioning specific government agencies (CISA, CERT-EU, NCSC) in the draft is not supported by the source text, which only mentions 'government agencies' generally before later listing them as places for mitigation steps."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Video Shows Goat, Not Human, Dragged Behind Vehicle",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-generated video of iPhone boxes in Strait of Hormuz debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied verbatim phrases from the source"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes debunks viral video of newborn with mustache as AI‑generated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

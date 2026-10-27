@@ -4305,5 +4305,145 @@
    "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
    "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/"
   ]
+ },
+ {
+  "id": "2026-10-27-apple-backports-coregraphics-zero-day-fix-to-older-iphones-a-c4b10",
+  "date": "2026-10-27",
+  "section": "threat",
+  "headline": "Apple backports CoreGraphics zero‑day fix to older iPhones and iPads",
+  "label": "Confirmed",
+  "score": 93,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+   "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+   "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html"
+  ]
+ },
+ {
+  "id": "2026-10-27-unm-health-system-diverts-ambulances-after-cyberattack-6cb0f",
+  "date": "2026-10-27",
+  "section": "threat",
+  "headline": "UNM Health System Diverts Ambulances After Cyberattack",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
+   "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+   "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+   "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+   "https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/"
+  ]
+ },
+ {
+  "id": "2026-10-27-keystone-to-destroy-18-835-unsold-wallets-after-website-brea-10c2e",
+  "date": "2026-10-27",
+  "section": "threat",
+  "headline": "Keystone to destroy 18,835 unsold wallets after website breach exposes key and buyer data",
+  "label": "Well-sourced",
+  "score": 66,
+  "also_covered_urls": [
+   "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+   "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
+   "https://decrypt.co/381983/bitcoin-wallet-keystone-devices-destroyed-stolen-key"
+  ]
+ },
+ {
+  "id": "2026-10-27-elon-musk-releases-ai-generated-seven-minute-odyssey-episode-1f50c",
+  "date": "2026-10-27",
+  "section": "ai",
+  "headline": "Elon Musk releases AI‑generated seven‑minute Odyssey episode via Grok Imagine",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
+   "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
+   "https://www.kaspersky.com/blog/odyssey-information-security/56611/"
+  ]
+ },
+ {
+  "id": "2026-10-27-apple-launches-ios-27-2-with-siri-memory-new-languages-and-f-a52a7",
+  "date": "2026-10-27",
+  "section": "ai",
+  "headline": "Apple launches iOS 27.2 with Siri memory, new languages and FaceTime dual‑camera",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+   "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
+   "https://www.zdnet.com/tech/apple-ios-27-2-update-siri-ai-facetime-dual-cameras/"
+  ]
+ },
+ {
+  "id": "2026-10-27-openai-launches-gpt-6-1-terra-with-lower-pricing-and-faster-03ec6",
+  "date": "2026-10-27",
+  "section": "ai",
+  "headline": "OpenAI launches GPT-6.1 Terra with lower pricing and faster performance",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+   "https://openai.com/index/introducing-gpt-6-1-terra",
+   "https://www.theregister.com/ai-and-ml/2026/10/26/openai-rolls-out-budget-priced-mid-tier-gpt-61-terra/5305574",
+   "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price"
+  ]
+ },
+ {
+  "id": "2026-10-27-lula-wins-brazilian-presidency-over-fl-vio-bolsonaro-prompti-f45ed",
+  "date": "2026-10-27",
+  "section": "science",
+  "headline": "Lula wins Brazilian presidency over Flávio Bolsonaro, prompting market plunge and scientific relief",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03446-9",
+   "https://decrypt.co/381828/brazil-stock-market-crashes-lula-upset-victory"
+  ]
+ },
+ {
+  "id": "2026-10-27-nasa-rover-measures-ultrafine-martian-dust-on-spacesuit-samp-beca5",
+  "date": "2026-10-27",
+  "section": "science",
+  "headline": "NASA rover measures ultrafine Martian dust on spacesuit samples",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+   "https://phys.org/news/2026-10-perseverance-clues-crews-ultrafine-mars.html"
+  ]
+ },
+ {
+  "id": "2026-10-27-galaxy-research-says-bitcoin-bear-market-ended-in-june-cites-9e2b7",
+  "date": "2026-10-27",
+  "section": "money",
+  "headline": "Galaxy Research says Bitcoin bear market ended in June, cites accumulation phase",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says",
+   "https://decrypt.co/381786/bitcoin-bear-market-is-over-galaxy-research-says"
+  ]
+ },
+ {
+  "id": "2026-10-27-occ-grants-ripple-final-approval-for-national-trust-bank-79636",
+  "date": "2026-10-27",
+  "section": "money",
+  "headline": "OCC Grants Ripple Final Approval for National Trust Bank",
+  "label": "Developing",
+  "score": 40,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank",
+   "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin"
+  ]
+ },
+ {
+  "id": "2026-10-27-critical-php-flaws-discovered-prompting-urgent-patching-1a979",
+  "date": "2026-10-27",
+  "section": "scam",
+  "headline": "Critical PHP Flaws Discovered, Prompting Urgent Patching",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/"
+  ]
  }
 ]
