@@ -1,0 +1,195 @@
+[
+ {
+  "section": "threat",
+  "title": "Tailscale releases version 1.104.4 to patch SSH privilege‑escalation flaws",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Ukrainian ransomware affiliate sentenced to 70 months in US prison",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Hackers Scan for Unpatched Oracle E-Business Suite Vulnerability After Patch Release",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple unveils touchscreen MacBook Pro with OLED display",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Amazon adds camera to Echo Studio and Wi‑Fi extender to new Echo Dot",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied 1 long word-for-word run(s) from a source, e.g. \"up to 1 000 feet of coverage to an existing eero network\""
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Critical UEFI Firmware Flaw (CVE-2026-97631) Allows Potential Pre-Boot Execution During Network Boot",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft states code execution is guaranteed ('lets attackers run code'), but sources note that getting code to run is hard, requires tailoring to the exact firmware build, and often results just in a crash/hang.",
+   "editor: Draft includes what_to_do as empty string, which should contain actionable advice based on the sources."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA University Challenge alumni launch drone firm after grant experience",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA selects 19 citizen‑science proposals for 2026",
+  "verdict": "HOLD",
+  "truth": 59,
+  "reasons": [
+   "number '12' does not appear in any source"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline mentions 12 new seed-funded projects which is not explicitly supported by the source text regarding the 19 proposals."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "Webb Telescope captures turbulent star‑forming region N159 in the Large Magellanic Cloud",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Fed Holds Rates Steady Ahead of Midterms",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source.",
+   "editor: Included hype language in so_what."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Tech firms and banks object to OKX-ICE tokenized stock venue",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Fake TikTok Shop Generates Surge in Phishing Blocks, Warns Surfshark",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Threat actor uses AI‑bot impersonation to scan for exposed credentials",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Banks Block Third‑Party AI Agents After Detecting Credential Sharing",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Viral Video Shows Dead Goat, Not Human Body, Dragged Behind Vehicle",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote so_what",
+   "editor: Headline uses meta-language ('Fact Check:') instead of stating the news directly",
+   "editor: So_what field contains unnecessary self-referential commentary about Full Fact's methodology instead of focusing on the news impact"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated video of iPhone boxes in Strait of Hormuz debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated image misrepresented as fertility indicator",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

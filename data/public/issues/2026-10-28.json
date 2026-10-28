@@ -1,0 +1,1316 @@
+{
+ "date": "2026-10-28",
+ "built_at": "2026-10-28T18:57:31.287050+00:00",
+ "stories": [
+  {
+   "id": "2026-10-28-tailscale-releases-version-1-104-4-to-patch-ssh-privilege-es-a050f",
+   "date": "2026-10-28",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Tailscale releases version 1.104.4 to patch SSH privilege‑escalation flaws",
+   "in_brief": "Tailscale issued version 1.104.4 that fixes several SSH vulnerabilities that could let a compromised device reach root‑only sockets on other servers. The update is critical for users of Tailscale SSH on Linux and macOS.",
+   "so_what": "The vulnerabilities, collectively dubbed “Tailworm,” stem from how Tailscale SSH forwards network connections with root privileges. An attacker who already controls a device trusted by the tailnet policy could exploit socket‑forwarding bugs to access privileged resources such as the Docker control socket or the tailscaled local API, potentially gaining root‑level access on other machines. Tailscale mitigated the issue by changing forwarding to run under the logged‑in user and relying on OS file permissions, and it issued four security bulletins (TS-2026-014 to TS-2026-017) describing the fixes. Organizations should apply the patch promptly, review SSH access policies, and consider disabling forwarding until the update is deployed to reduce the risk of lateral movement within their private networks.",
+   "what_to_do": "1. Update Tailscale clients to version 1.104.4 or later. 2. Review and tighten SSH access policies in the tailnet configuration. 3. Disable SSH forwarding (set TS_SSH_DISABLE_FORWARDING=1) if it is not required.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual security update",
+   "claims": [
+    {
+     "claim": "Tailscale released version 1.104.4 to fix SSH flaws.",
+     "source": 1,
+     "quote": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaws could let a permitted session reach root‑only sockets such as the Docker socket.",
+     "source": 1,
+     "quote": "the SSH socket‑forwarding flaws ... let a permitted session reach root‑only sockets such as the Docker socket or the tailscaled local API.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Exploitation requires the attacker to already control a device that the tailnet policy permits to open an SSH session.",
+     "source": 1,
+     "quote": "To use them, an attacker must already control a device that the network's access rules permit to open an SSH session to the target, with forwarding allowed in that rule.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+     "published": "Wed, 28 Oct 2026 11:50:37 +0530",
+     "published_iso": "2026-10-28T06:20:37+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
+     "published": "Wed, 28 Oct 2026 12:25:04 +0000",
+     "published_iso": "2026-10-28T12:25:04+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "tailscale.com",
+     "url": "https://tailscale.com/ssh-investigation-update",
+     "published": "Tue, 27 Oct 2026 19:55:21 +0000",
+     "published_iso": "2026-10-27T19:55:21+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+    "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
+    "https://tailscale.com/ssh-investigation-update"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: helpnetsecurity.com, tailscale.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-28-ukrainian-ransomware-affiliate-sentenced-to-70-months-in-us-89b60",
+   "date": "2026-10-28",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Ukrainian ransomware affiliate sentenced to 70 months in US prison",
+   "in_brief": "Artem Aleksandrovych Stryzhak was sentenced to 70 months for his role in Nefilim and Hive ransomware attacks, and U.S. authorities are offering rewards for information on his accomplice. The case highlights ongoing law‑enforcement focus on ransomware networks.",
+   "so_what": "The sentencing underscores the seriousness with which U.S. prosecutors are treating ransomware affiliates who target critical sectors such as healthcare, law, and energy. Stryzhak’s affiliation with both Nefilim and Hive ransomware groups allowed him to extort victims worldwide, contributing to losses estimated at over $100 million. By mandating a prison term and publicizing the case, authorities aim to deter future affiliates and encourage cooperation from insiders. The U.S. State Department’s reward offers—up to $10 million or $11 million depending on the source—signal a continued push to dismantle the leadership of these criminal operations. Stakeholders should monitor related investigations, potential further indictments, and any changes in ransomware‑related legislation or international cooperation efforts.",
+   "what_to_do": "• Ensure all systems are fully patched, especially ransomware‑prone services.\n• Maintain regular, offline backups of critical data.\n• Conduct phishing awareness training for staff to reduce credential‑theft risk.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based legal reporting",
+   "claims": [
+    {
+     "claim": "Artem Aleksandrovych Stryzhak was sentenced to 70 months in prison for conspiracy to commit computer fraud.",
+     "source": 1,
+     "quote": "Nefilim and Hive ransomware affiliate gets 70 months in prison.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Court documents state he paid 20% of ransom proceeds to Nefilim administrators.",
+     "source": 1,
+     "quote": "According to court documents, he paid for 20% of all ransom payments collected for access to custom Nefilim ransomware and decryption keys starting in June 2021.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The U.S. State Department is offering up to $10 million for information leading to the arrest of Volodymyr Tymoshchuk, an alleged accomplice.",
+     "source": 2,
+     "quote": "The US State Department is offering up to $10 million for information leading to the arrest or conviction of Tymoshchuk, who remains at large",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Stryzhak acted as an affiliate for both Nefilim and Hive ransomware groups, using the malware to attack organizations worldwide.",
+     "source": 2,
+     "quote": "The documents show that Stryzhak was one of the early affiliates to join the Hive ransomware group, which hit over 1,500 victims worldwide... He joined the Nefilim ransomware operation as an affiliate in June 2021 and used the malware in attacks against organizations in the US and abroad.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+     "published": "Wed, 28 Oct 2026 05:43:15 -0400",
+     "published_iso": "2026-10-28T09:43:15+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+     "published": "Wed, 28 Oct 2026 15:05:06 +0000",
+     "published_iso": "2026-10-28T15:05:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+     "published": "Wed, 28 Oct 2026 16:52:17 +0100",
+     "published_iso": "2026-10-28T15:52:17+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+    "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+    "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+    "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/opa/pr/ukrainian-national-sentenced-role-hacking-hospitals-businesses-and-governments-part",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/opa/pr/ukrainian-national-sentenced-role-hacking-hospitals-businesses-and-governments-part"
+    },
+    {
+     "url": "https://www.state.gov/releases/office-of-the-spokesperson/2025/09/reward-offers-totaling-up-to-11-million-for-information-leading-to-arrests-and-or-convictions-of-ukrainian-malicious-cyber-actor-and-other-unknown-ransomware-key-leaders",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.state.gov/releases/office-of-the-spokesperson/2025/09/reward-offers-totaling-up-to-11-million-for-information-leading-to-arrests-and-or-convictions-of-ukrainian-malicious-cyber-actor-and-other-unknown-ransomware-key-leaders"
+    }
+   ],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-28-hackers-scan-for-unpatched-oracle-e-business-suite-vulnerabi-701d4",
+   "date": "2026-10-28",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Hackers Scan for Unpatched Oracle E-Business Suite Vulnerability After Patch Release",
+   "in_brief": "Threat actors are probing for the newly patched CVE-2026-101767 flaw in Oracle E‑Business Suite, and Oracle urges immediate remediation. The activity highlights the risk of unpatched enterprise systems.",
+   "so_what": "Oracle disclosed a critical remote code execution flaw (CVE-2026-101767) in the Application Object Library of its E‑Business Suite and issued a patch in the October 2026 Critical Patch Update on Oct. 20. Despite the fix, threat‑intelligence firm Defused reported scanning and exploratory exploit attempts on Oct. 27, indicating that attackers are actively seeking vulnerable installations. The vulnerability is an unauthenticated SQL injection that can let an attacker execute SQL as the APPS database user and then run OS commands with the EBS application account’s privileges, potentially exposing financial, payroll, HR and procurement data. Organizations running Oracle EBS should apply the October patch without delay, implement network‑level restrictions for the Thin Client Framework servlet, and monitor for suspicious POST requests to /OA_HTML/AppsTCFServer. Continued scanning suggests that many deployments remain exposed, making timely remediation essential to prevent data compromise or ransomware intrusion.",
+   "what_to_do": "1. Apply Oracle’s October 2026 Critical Security Patch Update (released Oct 20) to address CVE‑2026‑101767.\n2. If patching cannot be done immediately, remove /OA_HTML/AppsTCFServer from the web‑tier allowlist or block it at the firewall.\n3. Restrict access to the EBS web tier to trusted networks and monitor for unauthenticated POST requests to the servlet.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Oracle released a security update for CVE-2026-101767 in its October 2026 Critical Security Patch Update on Oct 20.",
+     "source": 1,
+     "quote": "Oracle released security updates to address the issue in its October 2026 Critical Security Patch Update on October 20 and urged customers to patch their systems immediately.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Defused observed exploratory exploits against CVE-2026-101767 on Oct 27.",
+     "source": 1,
+     "quote": "Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767, an unauthenticated SQL injection in EBS's Thin Client Framework servlet that chains to remote code execution, this morning, Oct 27,",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw is an unauthenticated SQL injection in the Application Object Library that can be exploited over HTTP to achieve remote code execution.",
+     "source": 2,
+     "quote": "It is described as an SQL injection issue in the Application Object Library product of EBS that could be exploited by remote, unauthenticated attackers over HTTP.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+     "published": "Wed, 28 Oct 2026 08:19:57 -0400",
+     "published_iso": "2026-10-28T12:19:57+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+     "published": "Wed, 28 Oct 2026 09:14:23 +0000",
+     "published_iso": "2026-10-28T09:14:23+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+     "published": "Wed, 28 Oct 2026 18:18:03 +0530",
+     "published_iso": "2026-10-28T12:48:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+    "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+    "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101767",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/CVE-2026-101767"
+    }
+   ],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-28-apple-unveils-touchscreen-macbook-pro-with-oled-display-047a2",
+   "date": "2026-10-28",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple unveils touchscreen MacBook Pro with OLED display",
+   "in_brief": "Apple announced a new MacBook Pro featuring a touchscreen OLED \"PROLED XDR\" display and lighter chassis. The 14‑inch model weighs 3 lb and the 16‑inch model 4 lb, with up to 2,000 nits brightness and a 10,000,000:1 contrast ratio.",
+   "so_what": "The introduction marks Apple’s first major redesign of the MacBook Pro in over five years and its first macOS laptop with a touch interface, a capability long resisted by the company’s leadership. The new tandem OLED screen promises higher brightness and contrast than previous models, potentially raising the bar for laptop displays across the industry. Lighter weight may improve portability for professionals who travel frequently. The devices are powered by Apple’s M5 Pro or M5 Max chips, which include enhanced GPU cores and a third‑generation ray‑tracing engine, suggesting stronger performance for graphics‑intensive tasks such as 3D modeling and gaming. Observers will watch how developers adapt macOS apps for touch input and whether the ergonomics of a non‑convertible touchscreen laptop gain broader acceptance.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Apple announced a MacBook Pro with a touchscreen OLED \"PROLED XDR\" display",
+     "source": 1,
+     "quote": "Apple today announced and gave a first glimpse of its first major MacBook Pro redesign... it includes an OLED display and, for the first time on macOS, a touchscreen",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "Yahoo",
+      "apple.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The 14‑inch model weighs 3 pounds and the 16‑inch model weighs 4 pounds",
+     "source": 4,
+     "quote": "The 14-inch model weighs just 3.0 pounds and the 16-inch model weighs just 4.0 pounds",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The display can reach up to 2,000 nits peak brightness and has a 10,000,000:1 contrast ratio",
+     "source": 1,
+     "quote": "It can achieve 2,000 nits in terms of maximum brightness, and Apple says it has a 10,000,000:1 contrast ratio",
+     "status": "verified",
+     "corroborated_by": [
+      "apple.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The new models use M5 Pro or M5 Max chips with enhanced GPU cores and a third‑generation ray‑tracing engine",
+     "source": 4,
+     "quote": "The M5 Pro and M5 Max chips each feature a GPU with enhanced shader cores and a third‑generation ray-tracing engine",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
+     "published": "Wed, 28 Oct 2026 17:25:04 +0000",
+     "published_iso": "2026-10-28T17:25:04+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1020549/macbook-studio-touchscreen-hands-on",
+     "published": "2026-10-28T13:16:55-04:00",
+     "published_iso": "2026-10-28T17:16:55+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2300023/apples-first-touchscreen-macbook-pro-feels-both-familiar-and-radically-improved/",
+     "published": "Wed, 28 Oct 2026 17:43:10 +0000",
+     "published_iso": "2026-10-28T17:43:10+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Hacker News",
+     "owner": "apple.com",
+     "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+     "published": "Wed, 28 Oct 2026 17:10:37 +0000",
+     "published_iso": "2026-10-28T17:10:37+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
+    "https://www.theverge.com/tech/1020676/apple-touchscreen-macbook-pro-reveal-video",
+    "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+    "https://www.engadget.com/2300023/apples-first-touchscreen-macbook-pro-feels-both-familiar-and-radically-improved/",
+    "https://www.engadget.com/2300009/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/",
+    "https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/",
+    "https://www.apple.com/macbook-pro/proled-xdr-display/",
+    "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
+    "https://www.theverge.com/tech/1020084/macos-touchscreen-changes",
+    "https://www.theverge.com/tech/1020549/macbook-studio-touchscreen-hands-on"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Condé Nast, Vox Media, Yahoo, apple.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-28-amazon-adds-camera-to-echo-studio-and-wi-fi-extender-to-new-c78f3",
+   "date": "2026-10-28",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Amazon adds camera to Echo Studio and Wi‑Fi extender to new Echo Dot",
+   "in_brief": "Amazon unveiled an Echo Studio model that includes a built‑in 13 MP camera and a refreshed Echo Dot that functions as an eero Wi‑Fi extender and smart‑home hub. Both devices use the AZ3 processor with an AI accelerator for on‑device Alexa+ features.",
+   "so_what": "The Echo Studio with Home Camera expands the role of smart speakers by combining high-fidelity sound with visual monitoring, enabling users to check on rooms remotely and let Alexa respond to visual cues. Meanwhile, the updated Echo Dot's networking feature can expand wireless range for a current eero setup, helping resolve household dead zones while operating as a hub for smart-home devices. Both products utilize Amazon's custom silicon and AI accelerator, which the company states facilitates more natural, local conversations without sending every command to the cloud. These rollouts highlight Amazon's effort to merge audio, visual, and networking capabilities into a unified ecosystem, potentially raising the appeal for buyers looking for all-in-one home automation. Watch for user reception and performance feedback as these items reach the market.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcements",
+   "claims": [
+    {
+     "claim": "Amazon released an Echo Studio model that includes a built‑in 13 MP camera.",
+     "source": 1,
+     "quote": "The new Echo Studio With Home Camera fits in a 13MP camera.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The new Echo Dot can act as an eero Wi‑Fi extender that adds up to 1,000 feet of coverage.",
+     "source": 2,
+     "quote": "The new Echo Dot speakers will work as eero Wi‑Fi extenders, adding up to 1,000 feet of coverage to an existing eero network",
+     "status": "verified",
+     "corroborated_by": [
+      "Ziff Davis"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Both the Echo Studio with Home Camera and the new Echo Dot use Amazon’s AZ3 processor with an AI accelerator for on‑device Alexa+ processing.",
+     "source": 1,
+     "quote": "Both speakers have four-microphone arrays and the same AZ3 Pro processor that Amazon introduced a year ago. The processor has an AI accelerator for using Amazon’s Alexa+ generative AI chatbot.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "Ziff Davis"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra/",
+     "published": "Wed, 28 Oct 2026 18:05:22 +0000",
+     "published_iso": "2026-10-28T18:05:22+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
+     "published": "Wed, 28 Oct 2026 12:00:00 +0000",
+     "published_iso": "2026-10-28T12:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/home-and-office/amazon-new-echo-dot-wi-fi-extender-smart-home-hub/",
+     "published": "2026-10-28T14:41:32Z",
+     "published_iso": "2026-10-28T14:41:32+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra/",
+    "https://www.engadget.com/2299245/the-amazon-echo-studio-new-camera-tell-you-how-to-play-monopoly/",
+    "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
+    "https://www.zdnet.com/home-and-office/amazon-new-echo-dot-wi-fi-extender-smart-home-hub/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Yahoo, Ziff Davis"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: copied 1 long word-for-word run(s) from a source, e.g. \"up to 1 000 feet of coverage to an existing eero network\""
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-28-critical-uefi-firmware-flaw-cve-2026-97631-allows-potential-03ef8",
+   "date": "2026-10-28",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Critical UEFI Firmware Flaw (CVE-2026-97631) Allows Potential Pre-Boot Execution During Network Boot",
+   "in_brief": "A memory-corruption vulnerability in the open-source EDK II firmware, tracked as CVE-2026-97631, can be triggered during network boot to crash systems or potentially execute code before Secure Boot. While a code fix exists, no stable EDK II release currently includes it.",
+   "so_what": "The flaw resides in the network-boot and ICMP components of EDK II, an open-source codebase used by virtually all UEFI firmware suppliers, and carries a severity score of 9.5 out of 10. Triggered by a crafted network message during a PXE boot without requiring credentials, successful exploitation can allow malicious code to run before the operating system and Secure Boot load, though sources note that achieving reliable code execution requires tailoring to specific firmware builds. With patch code published but no stable EDK II release available yet, organizations are left exposed while firmware updates are awaited.",
+   "what_to_do": "Monitor vendor advisories for official patched firmware releases, assess exposure of network-boot and PXE configurations, and prepare to apply updates once stable versions become available.",
+   "hype_flag": "low",
+   "hype_reason": "technical report",
+   "claims": [
+    {
+     "claim": "The vulnerability, tracked as CVE‑2026‑97631, is a memory‑corruption flaw in an ICMP component that attackers can exploit to execute malicious code before the operating system and firmware can implement defenses like Secure Boot",
+     "source": 1,
+     "quote": "The vulnerability, tracked as CVE-2026-97631, is a memory-corruption flaw in an ICMP component that attackers can exploit to execute malicious code that runs before the operating system and firmware can implement defenses like Secure Boot",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "An attacker can trigger the flaw by sending a crafted ICMP error message during a PXE network boot, allowing code execution before Secure Boot",
+     "source": 2,
+     "quote": "An attacker who can reach the machine with a crafted network message during such a network boot can ... run their own code before Secure Boot and other startup defenses load",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "A code fix exists but no stable release of EDK II containing it is available, leaving most users without a patch today",
+     "source": 2,
+     "quote": "A code fix exists, but no stable release of EDK II contains it yet, and the advisory still lists no patched version, so most users have nothing to install today",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+     "published": "Tue, 27 Oct 2026 20:25:55 +0000",
+     "published_iso": "2026-10-27T20:25:55+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+     "published": "Wed, 28 Oct 2026 17:20:00 +0530",
+     "published_iso": "2026-10-28T11:50:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+    "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+    "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-97631",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-97631"
+    }
+   ],
+   "truth": {
+    "total": 55,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Draft states code execution is guaranteed ('lets attackers run code'), but sources note that getting code to run is hard, requires tailoring to the exact firmware build, and often results just in a crash/hang.",
+     "editor: Draft includes what_to_do as empty string, which should contain actionable advice based on the sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-28-nasa-university-challenge-alumni-launch-drone-firm-after-gra-7efcb",
+   "date": "2026-10-28",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA University Challenge alumni launch drone firm after grant experience",
+   "in_brief": "Former Michigan State student Gavin Gardner, a NASA University Student Research Challenge participant, co‑founded drone company AG3 Labs in 2024. The story highlights how NASA’s grant program helped launch a commercial venture.",
+   "so_what": "NASA’s University Student Research Challenge (USRC) offers college teams grants and mentorship to advance aeronautical research, aiming to build a pipeline of skilled engineers and entrepreneurs. Five years after receiving a USRC grant, former participant Gavin Gardner and his teammates turned their research into AG3 Labs, a company that supplies drones for military training. The program’s emphasis on both technical development and business acumen is credited by Gardner and NASA USRC manager Steven Holz as a key factor in the alumni’s success. Observers will watch whether more USRC alumni replicate this path, potentially expanding the civilian‑to‑military drone market and reinforcing NASA’s role in cultivating future aerospace talent.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Gavin Gardner was a Michigan State University engineering student five years ago who received a NASA grant for drone research.",
+     "source": 1,
+     "quote": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Gardner and his teammates founded AG3 Labs in 2024, a company that makes drones for military training exercises.",
+     "source": 1,
+     "quote": "In 2024, they founded their own company, AG3 Labs, which specializes in drones for military training exercises.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA’s University Student Research Challenge provides grants to college teams to help the agency meet aeronautical research goals.",
+     "source": 1,
+     "quote": "That’s why demonstrating both engineering and entrepreneurship skills are major tentpoles of NASA’s University Student Research Challenge (USRC), an initiative that provides grants to teams of college students interested in helping the agency realize its aeronautical research goals.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
+     "published": "Wed, 28 Oct 2026 18:00:28 +0000",
+     "published_iso": "2026-10-28T18:00:28+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-28-webb-telescope-captures-turbulent-star-forming-region-n159-i-a115f",
+   "date": "2026-10-28",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Webb Telescope captures turbulent star‑forming region N159 in the Large Magellanic Cloud",
+   "in_brief": "NASA’s James Webb Space Telescope released an image on Oct. 22, 2026 of the N159 region, a turbulent star‑forming nebula 161,000 light‑years away in the Large Magellanic Cloud. The nebula’s low metallicity makes it a valuable laboratory for studying how stars formed in the early universe.",
+   "so_what": "The image provides astronomers with a detailed view of a star‑forming environment that differs chemically from the Milky Way, because the Large Magellanic Cloud’s lower metallicity mirrors conditions thought to prevail shortly after the Big Bang. By examining dense gas clumps and turbulence in N159, researchers can test models of early star formation and refine our understanding of galaxy evolution. Ongoing analyses of the Webb data will compare these observations with theoretical predictions, potentially informing future studies of distant, primordial galaxies that cannot be resolved directly. Watch for forthcoming research papers that will interpret the findings and assess how they align with existing cosmological simulations.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific observation",
+   "claims": [
+    {
+     "claim": "Webb released an image on Oct. 22, 2026 showing a turbulent star‑forming region named N159 located 161,000 light‑years away in the Large Magellanic Cloud.",
+     "source": 1,
+     "quote": "In this Webb image released on Oct. 22, 2026, we see a turbulent cauldron of star formation filled with dense clumps of gas. This region is named N159 and is located 161,000 light-years away in the Large Magellanic Cloud",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The N159 region has lower metallicity than the Milky Way, offering insight into early‑universe star formation conditions.",
+     "source": 1,
+     "quote": "This region has a lower metallicity (proportion of elements that are heavier than helium and hydrogen) than the Milky Way, giving astronomers an opportunity to learn more about conditions found in the early universe and how stars formed under those conditions.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
+     "published": "Wed, 28 Oct 2026 15:33:10 +0000",
+     "published_iso": "2026-10-28T15:33:10+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "2 of 2 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-28-fed-holds-rates-steady-ahead-of-midterms-594d4",
+   "date": "2026-10-28",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Fed Holds Rates Steady Ahead of Midterms",
+   "in_brief": "The Federal Reserve kept borrowing costs unchanged following a 10-2 vote, pausing after a September increase. The move comes as consumer price growth stays above the central bank's target.",
+   "so_what": "The decision reflects a cautious approach as officials evaluate persistent inflation and the upcoming elections. While policymakers described economic activity as strong and job growth as steady, annual consumer price increases remained at 3.7%. The pause gives officials more time to review incoming data before determining future policy moves, which influence borrowing expenses for consumer loans. Observers will track upcoming meetings and inflation drivers, including energy pressures linked to the conflict involving the U.S. and Iran, to gauge the economic outlook.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The Fed left its target range at 3.75%‑4.00% in a 10‑2 vote, with two officials dissenting in favor of a quarter‑point hike.",
+     "source": 2,
+     "quote": "The Fed held its target range at 3.75%-4.00% in a 10-2 vote, with Governor Lisa Cook and Cleveland Fed President Beth Hammack dissenting in favor of a quarter-point hike.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Two of the 12 board members voted against the pause, preferring to raise rates by a quarter point.",
+     "source": 1,
+     "quote": "Two out of 12 board members voted against the pause, preferring to raise rates by a quarter point this meeting, the Fed board said in a statement.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Consumer prices rose 3.7% in the 12 months through September, with gasoline up 9.1% in the month.",
+     "source": 2,
+     "quote": "consumer prices rose 3.7% in the 12 months through September, with gasoline alone jumping 9.1% in the month, the Labor Department reported.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+     "published": "Wed, 28 Oct 2026 18:07:23 GMT",
+     "published_iso": "2026-10-28T18:07:23+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+     "published": "Wed, 28 Oct 2026 18:25:18 +0000",
+     "published_iso": "2026-10-28T18:25:18+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/28/fed-leaves-interest-rates-unchanged-as-expected",
+     "published": "Wed, 28 Oct 2026 18:00:42 +0000",
+     "published_iso": "2026-10-28T18:00:42+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+    "https://www.coindesk.com/markets/2026/10/28/fed-leaves-interest-rates-unchanged-as-expected",
+    "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    }
+   ],
+   "truth": {
+    "total": 57,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Guardian Media Group, coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Copied word-for-word run from source.",
+     "editor: Included hype language in so_what."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-28-tech-firms-and-banks-object-to-okx-ice-tokenized-stock-venue-c6f0b",
+   "date": "2026-10-28",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Tech firms and banks object to OKX-ICE tokenized stock venue",
+   "in_brief": "Intel, Oracle, IBM, IonQ and other issuers have filed objections to trading their shares on the OKX‑ICE tokenized stock platform. The growing list of 26 objectors highlights uncertainty over investor protections for tokenized shares.",
+   "so_what": "The objections from major technology companies and financial institutions signal mounting resistance to the OKX‑ICE tokenized stock venue, a joint venture between Intercontinental Exchange and OKX. The platform intends to let approved users trade tokenized U.S. equities 24/7 on a blockchain‑based liquidity pool, but the notices raise concerns about whether tokenized shares held in self‑custodied wallets would be covered by the Securities Investor Protection Corporation if the underlying broker‑dealer fails. As the roster of objectors has risen from nine on Oct. 15 to 26 by Oct. 26, the lack of clear explanations for the objections leaves regulators and investors uncertain about the legal and operational risks of such tokenized securities. Future developments may include further regulatory scrutiny or additional company objections, which could affect the rollout of the venue.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Intel, Oracle, IBM and IonQ joined the list of companies objecting to trading of their shares on OKX‑ICE TSV on Oct. 26",
+     "source": 1,
+     "quote": "Intel, Oracle, IBM and IonQ joined the list of companies objecting to trading of their shares on OKXICE TSV, according to its Oct. 26 notice.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The total number of objecting issuers rose to 26, up from nine on Oct. 15",
+     "source": 1,
+     "quote": "The total has climbed from nine on Oct. 15 to 26, though the notices don’t explain the objections or their effect.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "JPMorgan, Coca‑Cola and Dell also issued objections to the OKX‑ICE tokenized stock trading plan",
+     "source": 2,
+     "quote": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized stock trading plan.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381998/intel-oracle-ibm-join-objections-okx-ice-tokenized-stock-total-26",
+     "published": "Tue, 27 Oct 2026 18:46:02 +0000",
+     "published_iso": "2026-10-27T18:46:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
+     "published": "Wed, 28 Oct 2026 12:59:36 +0000",
+     "published_iso": "2026-10-28T12:59:36+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
+    "https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks",
+    "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
+    "https://decrypt.co/381998/intel-oracle-ibm-join-objections-okx-ice-tokenized-stock-total-26"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 579,
+  "stories_considered": 17,
+  "published": 10,
+  "outlets": 36
+ }
+}

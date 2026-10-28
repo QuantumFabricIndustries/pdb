@@ -4445,5 +4445,141 @@
   "also_covered_urls": [
    "https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/"
   ]
+ },
+ {
+  "id": "2026-10-28-tailscale-releases-version-1-104-4-to-patch-ssh-privilege-es-a050f",
+  "date": "2026-10-28",
+  "section": "threat",
+  "headline": "Tailscale releases version 1.104.4 to patch SSH privilege‑escalation flaws",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+   "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
+   "https://tailscale.com/ssh-investigation-update"
+  ]
+ },
+ {
+  "id": "2026-10-28-ukrainian-ransomware-affiliate-sentenced-to-70-months-in-us-89b60",
+  "date": "2026-10-28",
+  "section": "threat",
+  "headline": "Ukrainian ransomware affiliate sentenced to 70 months in US prison",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+   "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+   "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+   "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050"
+  ]
+ },
+ {
+  "id": "2026-10-28-hackers-scan-for-unpatched-oracle-e-business-suite-vulnerabi-701d4",
+  "date": "2026-10-28",
+  "section": "threat",
+  "headline": "Hackers Scan for Unpatched Oracle E-Business Suite Vulnerability After Patch Release",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+   "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+   "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
+  ]
+ },
+ {
+  "id": "2026-10-28-apple-unveils-touchscreen-macbook-pro-with-oled-display-047a2",
+  "date": "2026-10-28",
+  "section": "ai",
+  "headline": "Apple unveils touchscreen MacBook Pro with OLED display",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
+   "https://www.theverge.com/tech/1020676/apple-touchscreen-macbook-pro-reveal-video",
+   "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+   "https://www.engadget.com/2300023/apples-first-touchscreen-macbook-pro-feels-both-familiar-and-radically-improved/",
+   "https://www.engadget.com/2300009/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/",
+   "https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/",
+   "https://www.apple.com/macbook-pro/proled-xdr-display/",
+   "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
+   "https://www.theverge.com/tech/1020084/macos-touchscreen-changes",
+   "https://www.theverge.com/tech/1020549/macbook-studio-touchscreen-hands-on"
+  ]
+ },
+ {
+  "id": "2026-10-28-amazon-adds-camera-to-echo-studio-and-wi-fi-extender-to-new-c78f3",
+  "date": "2026-10-28",
+  "section": "ai",
+  "headline": "Amazon adds camera to Echo Studio and Wi‑Fi extender to new Echo Dot",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra/",
+   "https://www.engadget.com/2299245/the-amazon-echo-studio-new-camera-tell-you-how-to-play-monopoly/",
+   "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
+   "https://www.zdnet.com/home-and-office/amazon-new-echo-dot-wi-fi-extender-smart-home-hub/"
+  ]
+ },
+ {
+  "id": "2026-10-28-critical-uefi-firmware-flaw-cve-2026-97631-allows-potential-03ef8",
+  "date": "2026-10-28",
+  "section": "ai",
+  "headline": "Critical UEFI Firmware Flaw (CVE-2026-97631) Allows Potential Pre-Boot Execution During Network Boot",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+   "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+   "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/"
+  ]
+ },
+ {
+  "id": "2026-10-28-nasa-university-challenge-alumni-launch-drone-firm-after-gra-7efcb",
+  "date": "2026-10-28",
+  "section": "science",
+  "headline": "NASA University Challenge alumni launch drone firm after grant experience",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/"
+  ]
+ },
+ {
+  "id": "2026-10-28-webb-telescope-captures-turbulent-star-forming-region-n159-i-a115f",
+  "date": "2026-10-28",
+  "section": "science",
+  "headline": "Webb Telescope captures turbulent star‑forming region N159 in the Large Magellanic Cloud",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/"
+  ]
+ },
+ {
+  "id": "2026-10-28-fed-holds-rates-steady-ahead-of-midterms-594d4",
+  "date": "2026-10-28",
+  "section": "money",
+  "headline": "Fed Holds Rates Steady Ahead of Midterms",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+   "https://www.coindesk.com/markets/2026/10/28/fed-leaves-interest-rates-unchanged-as-expected",
+   "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike"
+  ]
+ },
+ {
+  "id": "2026-10-28-tech-firms-and-banks-object-to-okx-ice-tokenized-stock-venue-c6f0b",
+  "date": "2026-10-28",
+  "section": "money",
+  "headline": "Tech firms and banks object to OKX-ICE tokenized stock venue",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
+   "https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks",
+   "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
+   "https://decrypt.co/381998/intel-oracle-ibm-join-objections-okx-ice-tokenized-stock-total-26"
+  ]
  }
 ]
