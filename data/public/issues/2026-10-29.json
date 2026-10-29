@@ -1,0 +1,1652 @@
+{
+ "date": "2026-10-29",
+ "built_at": "2026-10-29T19:02:05.071385+00:00",
+ "stories": [
+  {
+   "id": "2026-10-29-hacktivist-group-leaks-work-details-of-over-41-000-dhs-emplo-a4425",
+   "date": "2026-10-29",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Hacktivist group leaks work details of over 41,000 DHS employees",
+   "in_brief": "A dataset named “Icepick” containing personal and job information for more than 41,000 Department of Homeland Security staff was published by Distributed Denial of Secrets. The leak is attributed by the group to an Okta single sign‑on system used by DHS, which Okta denies was compromised.",
+   "so_what": "The release of names, titles, email addresses, phone numbers and internal group memberships creates a detailed directory of DHS personnel, including Customs and Border Protection, ICE and other components. Security researchers warn that such data can be abused for social engineering, impersonation of supervisors, or targeting of undercover agents. DHS has acknowledged a potential breach and is working to mitigate the exposure, while Okta maintains its systems remain secure. The incident follows a series of recent federal data breaches, highlighting ongoing vulnerabilities in government identity‑management platforms. Observers will watch for any follow‑up investigations, potential legal actions, and whether additional DHS records surface.",
+   "what_to_do": "1. Verify that your organization’s Okta accounts use multi‑factor authentication and enforce strong passwords. 2. Review and update access controls for any shared directories or internal tools. 3. Monitor for suspicious login attempts and consider resetting credentials for high‑risk accounts.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting with multiple sources",
+   "claims": [
+    {
+     "claim": "The leak includes personal and work details for more than 41,000 DHS employees and contractors.",
+     "source": 4,
+     "quote": "Names, job titles, office locations, and phone numbers for more than 41,000 Department of Homeland Security employees and contractors were published online Wednesday by a transparency nonprofit.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The hacktivist group says the data was taken from an Okta single sign‑on service used by DHS.",
+     "source": 3,
+     "quote": "A hacker who goes by the handle Department of Peace claimed they obtained the data from an Okta single sign-on system used by Homeland Security.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Okta states it has no evidence its systems were compromised.",
+     "source": 2,
+     "quote": "Okta disputes that its systems were breached. “Okta is secure, and we have no evidence our data or systems were compromised,” the company told Reuters.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo",
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/10/massive-leak-exposes-41000-dhs-workers-and-undercover-ice-agents/",
+     "published": "Thu, 29 Oct 2026 12:58:34 +0000",
+     "published_iso": "2026-10-29T12:58:34+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/",
+     "published": "Thu, 29 Oct 2026 10:16:18 +0000",
+     "published_iso": "2026-10-29T10:16:18+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+     "published": "Wed, 28 Oct 2026 20:01:00 +0000",
+     "published_iso": "2026-10-28T20:01:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382181/hackers-publish-work-details-homeland-security-employees",
+     "published": "Thu, 29 Oct 2026 18:46:02 +0000",
+     "published_iso": "2026-10-29T18:46:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+     "published": "Thu, 29 Oct 2026 12:54:14 +0000",
+     "published_iso": "2026-10-29T12:54:14+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/10/massive-leak-exposes-41000-dhs-workers-and-undercover-ice-agents/",
+    "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+    "https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/",
+    "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+    "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
+    "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+    "https://www.engadget.com/2300661/hackers-leaked-details-more-than-41000-homeland-security-personnel/",
+    "https://decrypt.co/382181/hackers-publish-work-details-homeland-security-employees"
+   ],
+   "primary": [
+    {
+     "url": "https://www.law.cornell.edu/uscode/text/18/119",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.law.cornell.edu/uscode/text/18/119"
+    },
+    {
+     "url": "https://www.justice.gov/usao-wdwa/pr/swiss-hacker-indicted-conspiracy-wire-fraud-and-aggravated-identity-theft",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/usao-wdwa/pr/swiss-hacker-indicted-conspiracy-wire-fraud-and-aggravated-identity-theft"
+    }
+   ],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Condé Nast, Yahoo, decrypt.co, helpnetsecurity.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-10-29-volt-typhoon-leverages-silent-train-relay-network-for-zero-d-40a7f",
+   "date": "2026-10-29",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Volt Typhoon leverages “Silent Train” relay network for zero‑day attacks on management platforms",
+   "in_brief": "Volt Typhoon, a China‑linked state‑sponsored group, used a rotating relay network called Silent Train to exploit four zero‑day vulnerabilities in enterprise control‑plane products. The campaign targeted SD‑WAN, orchestration and endpoint‑management solutions, giving the actors broad administrative access.",
+   "so_what": "The use of Silent Train shows how advanced threat actors can hide their origin and bypass traditional detection by chaining compromised SOHO, IoT and enterprise devices. By exploiting zero‑day flaws in products such as Cisco Catalyst SD‑WAN (CVE‑2026‑20127), Arista VeloCloud Orchestrator (CVE‑2026‑16812), N‑able N‑central (CVE‑2025‑8875/8876) and Versa Director (CVE‑2024‑39717), Volt Typhoon gains persistent remote control and can harvest credentials from downstream customers, amplifying the impact on critical infrastructure sectors. Organizations that rely on these platforms should prioritize patching, monitor for unusual remote‑access patterns, and audit logs for signs of in‑memory web shells or credential‑theft activity. Future monitoring of relay‑device traffic and stricter segmentation of management interfaces will be key to limiting similar covert campaigns.",
+   "what_to_do": "1. Apply the latest security patches for Cisco Catalyst SD‑WAN, Arista VeloCloud Orchestrator, N‑able N‑central and Versa Director. 2. Disable or restrict internet‑facing management interfaces on routers, firewalls and IoT devices. 3. Conduct regular log‑review and integrity checks for unexpected web‑shells or credential‑harvesting activity.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Volt Typhoon used a covert relay network called Silent Train to hide zero‑day attacks on high‑value systems",
+     "source": 1,
+     "quote": "The framework has been dubbed Silent Train because the threat actor uses it against select targets, cleans it up after each operation, and refreshes it continuously.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The Silent Train network routes activity through compromised routers such as Intelbras modems and Netgear Orbi devices",
+     "source": 1,
+     "quote": "Black Lotus Labs says Intelbras modems served as overseas relays, while Netgear Orbi devices acted as hops in the U.S.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Four zero‑day vulnerabilities were exploited, affecting VeloCloud Orchestrator, Cisco Catalyst SD‑WAN, N‑able N‑central and Versa Director",
+     "source": 2,
+     "quote": "The remaining three vulnerabilities are listed below - CVE-2025-8875 and CVE-2025-8876 ... CVE-2026-20127 ... CVE-2026-16812",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+     "published": "Wed, 28 Oct 2026 12:00:00 -0400",
+     "published_iso": "2026-10-28T16:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+     "published": "Wed, 28 Oct 2026 23:38:33 +0530",
+     "published_iso": "2026-10-28T18:08:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/",
+     "published": "Thu, 29 Oct 2026 13:42:13 +0000",
+     "published_iso": "2026-10-29T13:42:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+     "published": "Thu, 29 Oct 2026 10:29:25 +0000",
+     "published_iso": "2026-10-29T10:29:25+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+    "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+    "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+    "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39717",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2024-39717 — Versa Director Dangerous File Type Upload Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8875",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2025-8875 — N-able N-Central Insecure Deserialization Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20127",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-20127 — Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-16812",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-16812"
+    }
+   ],
+   "truth": {
+    "total": 82,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: bleepingcomputer.com, helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-29-cisco-releases-patches-for-actively-exploited-asa-and-ftd-vp-baabe",
+   "date": "2026-10-29",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Cisco releases patches for actively exploited ASA and FTD VPN denial‑of‑service flaw",
+   "in_brief": "Cisco disclosed that a high‑severity vulnerability (CVE‑2026‑76418) in its ASA and FTD SSL VPN services is being exploited in the wild, and it has issued patches for multiple software releases. The flaw allows unauthenticated attackers to cause affected firewalls to reload, creating a denial‑of‑service condition.",
+   "so_what": "The vulnerability, rated 8.6 on the CVSS scale, targets the Remote Access SSL VPN component of Cisco Secure Firewall ASA and Secure FTD software. Because the attack requires no authentication, any reachable VPN endpoint can be forced to restart, potentially disrupting corporate networks and remote‑access services. Cisco confirmed active exploitation as of October 2026 but did not disclose details on the attackers or impact scope. Patches are available for ASA releases 9.16.4.104 through 9.24.10.1 and for FTD releases 7.0.11 through 10.1.1. Cisco also advises temporary mitigations, such as disabling the tunnel‑group list or secondary authentication on tunnel groups, to reduce exposure until patches are applied. Organizations should prioritize updating firewalls, verify VPN accessibility, and audit tunnel‑group configurations to prevent service interruption.",
+   "what_to_do": "1. Apply the latest Cisco ASA or FTD security updates for your version (e.g., ASA 9.24.1.27 or FTD 10.1.1). 2. Disable the tunnel‑group list or remove secondary authentication from tunnel groups, especially the DefaultWEBVPNGroup. 3. Verify that the SSL remote‑access VPN service is not publicly exposed unless required.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Cisco has released patches to address a high‑severity security flaw in ASA and FTD software that is being exploited in the wild",
+     "source": 1,
+     "quote": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability (CVE‑2026‑76418) allows an unauthenticated remote attacker to cause the device to reload, resulting in a denial‑of‑service condition",
+     "source": 1,
+     "quote": "Successful exploitation could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial-of-service (DoS) condition.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Cisco provided temporary mitigation guidance to disable the tunnel‑group list or secondary authentication on tunnel groups",
+     "source": 1,
+     "quote": "As a temporary mitigation, the company is recommending that customers turn off the tunnel group list if DefaultWEBVPNGroup does not use secondary authentication, or disable secondary authentication on any user-configured tunnel group list or on the default tunnel group, DefaultWEBVPNGroup.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+     "published": "Thu, 29 Oct 2026 16:14:46 +0530",
+     "published_iso": "2026-10-29T10:44:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+     "published": "Thu, 29 Oct 2026 07:10:13 -0400",
+     "published_iso": "2026-10-29T11:10:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+     "published": "Thu, 29 Oct 2026 09:47:10 +0000",
+     "published_iso": "2026-10-29T09:47:10+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+    "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+    "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-29-doordash-to-acquire-instacart-in-17-billion-deal-6ce6b",
+   "date": "2026-10-29",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "DoorDash to acquire Instacart in $17 billion deal",
+   "in_brief": "DoorDash announced a definitive agreement to buy Instacart for about $17 billion, paying $65 per share, a 26% premium to the October 22 price. The transaction is slated to close by the end of 2027 or early 2028 and will keep the Instacart brand and apps separate until then.",
+   "so_what": "The merger creates the largest combined on‑demand delivery platform, pairing DoorDash's extensive logistics network with Instacart's grocery‑ordering technology. By retaining Instacart's brand and app, the companies aim to preserve existing shopper and customer relationships while expanding store coverage and delivery options. Regulators may scrutinise the deal for antitrust concerns, given the firms' dominant market shares in restaurant and grocery delivery. Observers will watch how the integration affects pricing, competition, and the earnings potential for gig‑workers who serve both platforms. The combined entity could also accelerate development of AI‑driven tools for local retailers, potentially reshaping the online grocery landscape.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "DoorDash will acquire Instacart for a total equity value of about $17 billion, paying $65 per share, a 26% premium to Instacart's closing price on 22 October 2026.",
+     "source": 1,
+     "quote": "In the agreement, DoorDash will acquire Instacart for a value of $65 a share, which would be a 26% premium on the closing price of Instacart stock on 22 October",
+     "status": "verified",
+     "corroborated_by": [
+      "doordash.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The transaction is expected to close toward the end of 2027 or in the first half of 2028.",
+     "source": 3,
+     "quote": "The deal is expected to close toward the end of 2027 or in the first half of 2028.",
+     "status": "verified",
+     "corroborated_by": [
+      "doordash.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "DoorDash plans to keep Instacart's brand, app, and technology products, with both companies operating independently until the deal closes.",
+     "source": 1,
+     "quote": "DoorDash plans to keep Instacart's brand, app, and technology products. The delivery services will keep operating as independent companies until the deal is concluded.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "doordash.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
+     "published": "Thu, 29 Oct 2026 15:05:15 GMT",
+     "published_iso": "2026-10-29T15:05:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/business/2026/oct/29/doordash-buys-instacart-grocery-delivery",
+     "published": "Thu, 29 Oct 2026 13:41:43 GMT",
+     "published_iso": "2026-10-29T13:41:43+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
+     "published": "Thu, 29 Oct 2026 13:40:57 +0000",
+     "published_iso": "2026-10-29T13:40:57+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Hacker News",
+     "owner": "doordash.com",
+     "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+     "published": "Thu, 29 Oct 2026 12:33:05 +0000",
+     "published_iso": "2026-10-29T12:33:05+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/business/2026/oct/29/doordash-buys-instacart-grocery-delivery",
+    "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
+    "https://www.engadget.com/2300741/doordash-acquires-instacart-in-dollar17-billion-delivery-service-merger/",
+    "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: BBC, Guardian Media Group, Yahoo, doordash.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-29-utah-files-felony-charges-against-prediction-market-kalshi-a-67995",
+   "date": "2026-10-29",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Utah Files Felony Charges Against Prediction Market Kalshi and Its Co‑Founders",
+   "in_brief": "Utah Attorney General Derek Brown filed criminal charges against Kalshi and its executives, alleging illegal promotion of gambling. The case adds to a broader legal clash between states and the CFTC over prediction‑market regulation.",
+   "so_what": "The charges bring Utah's long‑standing ban on gambling into direct conflict with a federally regulated prediction‑market platform. Kalshi, which operates as a futures‑style exchange, argues that federal oversight preempts state law, a position previously rejected by a district judge. The dispute highlights the tension between state anti‑gambling statutes and the Commodity Futures Trading Commission's claim of exclusive jurisdiction. As Kalshi appeals and the CFTC sues Utah, the outcome could shape how prediction markets operate nationwide and whether states can enforce their own gambling prohibitions on such platforms. Observers will watch the upcoming court filings and any appellate decisions that may set precedent.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "Utah Attorney General Derek Brown filed criminal charges in a state court against Kalshi and its founders on Wednesday.",
+     "source": 1,
+     "quote": "Utah Attorney General Derek Brown filed criminal charges in a state court against Kalshi and its founders on Wednesday.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The company and two co‑founders each face 13 felony charges and one misdemeanor for violating gambling laws.",
+     "source": 1,
+     "quote": "The company and two co‑founders each face 13 felony charges and one misdemeanor for violating gambling laws.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The charges are based on sports bets offered on Kalshi between September 13 and September 24.",
+     "source": 1,
+     "quote": "The charges are based on sports bets offered on Kalshi between September 13 and September 24.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+     "published": "Thu, 29 Oct 2026 17:21:33 +0000",
+     "published_iso": "2026-10-29T17:21:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/policy/1022400/utah-kalshi-criminal-charges",
+     "published": "2026-10-29T13:40:23-04:00",
+     "published_iso": "2026-10-29T17:40:23+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets",
+     "published": "Thu, 29 Oct 2026 11:06:40 +0000",
+     "published_iso": "2026-10-29T11:06:40+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+    "https://www.theverge.com/policy/1022400/utah-kalshi-criminal-charges",
+    "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets"
+   ],
+   "primary": [
+    {
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1483385/gov.uscourts.azd.1483385.96.0.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1483385/gov.uscourts.azd.1483385.96.0.pdf"
+    }
+   ],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Vox Media, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-29-us-intel-on-chinese-citizen-linked-to-nvidia-trump-inaction-f5048",
+   "date": "2026-10-29",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "US intel on Chinese citizen linked to Nvidia, Trump inaction and company response",
+   "in_brief": "U.S. intelligence agencies warned President Trump that a Chinese citizen, Alice Huang, had direct access to Nvidia CEO Jensen Huang, but Trump reportedly took no action. Nvidia has denied the allegations and says related claims were investigated and debunked.",
+   "so_what": "The episode highlights the intersection of national security, corporate interests, and U.S.-China technology competition. Intelligence officials say Alice Huang, a former executive at Singapore cloud firm Megaspeed, may have been passing information to Beijing and was also suspected of helping China evade export controls on high‑end Nvidia chips. President Trump’s decision not to act, according to sources, was influenced by concerns that a response could disrupt Nvidia’s chip sales or the broader trade truce with China. Nvidia has pushed back, stating that its interactions with Megaspeed customers are routine and that the diversion allegations were thoroughly investigated and debunked. The Chinese embassy has dismissed the U.S. accusations as baseless. Observers will watch for any further diplomatic or regulatory moves that could affect Nvidia’s AI chip exports and U.S. export‑control policy.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "U.S. intelligence briefed Trump a year ago that a Chinese citizen with direct access to Jensen Huang was reporting to Beijing",
+     "source": 1,
+     "quote": "According to sources, about a year ago, Trump was briefed that “Beijing was getting reports from someone with direct access” to Huang.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Trump chose not to act on the espionage information",
+     "source": 1,
+     "quote": "At least partly due to fears that US action against the alleged spying could hobble Nvidia chip sales or disrupt the delicate US-China trade truce, Trump “chose not to do anything with the information,” sources said.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nvidia says the diversion allegations against Megaspeed were investigated and debunked",
+     "source": 2,
+     "quote": "The diversion allegations against this regional cloud were thoroughly investigated and debunked last year,” the spokesperson said.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Alice Huang was suspected of helping China evade export controls on Nvidia chips through Megaspeed",
+     "source": 1,
+     "quote": "the US had already suspected that Alice Huang—who is not related to Jensen Huang—was helping China evade export controls to gain access to high-end Nvidia chips through Megaspeed.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The Chinese embassy called the U.S. accusations against Alice Huang baseless",
+     "source": 1,
+     "quote": "Liu Chang, the spokesperson for the Chinese Embassy in Washington, DC, told NYT that the US accusations against Alice Huang are baseless.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+     "published": "Thu, 29 Oct 2026 18:29:12 +0000",
+     "published_iso": "2026-10-29T18:29:12+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+     "published": "Thu, 29 Oct 2026 16:22:19 GMT",
+     "published_iso": "2026-10-29T16:22:19+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/",
+     "published": "Thu, 29 Oct 2026 18:34:43 +0000",
+     "published_iso": "2026-10-29T18:34:43+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+    "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+    "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+    "https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 66,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-29-africa-s-water-demand-rises-26-by-2020-yet-piped-access-rema-c8463",
+   "date": "2026-10-29",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Africa’s water demand rises 26% by 2020, yet piped access remains limited",
+   "in_brief": "A new study maps water demand across Africa, showing a 26% increase since 2010 and that 717 million people still lack piped water. The analysis highlights irrigation as the dominant user and underscores infrastructure gaps that hinder supply despite overall availability.",
+   "so_what": "The findings provide the most detailed continent‑wide accounting of water use to date, revealing that demand grew from 274 km³ in 2010 to 347 km³ in 2020, driven largely by irrigation (65% of total demand). While overall water resources are sufficient, 717 million Africans—primarily in urban areas—remain without piped connections, indicating that infrastructure, not scarcity, limits access. Policymakers and development agencies can use the sector‑specific map to prioritize investments in water distribution networks, especially in rapidly growing cities, to advance Sustainable Development Goal 6 on clean water and sanitation. Future monitoring will be needed to track whether targeted infrastructure upgrades translate into measurable gains in access and whether demand trends continue as populations and economies expand.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Water demand in Africa grew by around 26% between 2010 and 2020, yet around 717 million people lacked a piped water supply in 2020, according to research published in Nature.",
+     "source": 2,
+     "quote": "Water demand in Africa grew by around 26% between 2010 and 2020, yet around 717 million people lacked a piped water supply in 2020, according to research published in Nature.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The estimated total annual water demand for 2020 was around 347 km³ (91.7 trillion gallons) of water, compared with around 274 km³ (72.4 trillion gallons) in 2010.",
+     "source": 2,
+     "quote": "The estimated total annual water demand for 2020 was around 347 km³ (91.7 trillion gallons) of water, compared with around 274 km³ (72.4 trillion gallons) in 2010.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Irrigation accounted for 65% of the demand, followed by household and city supply accounting for 17%, electricity accounting for 10%, and manufacturing, livestock and mining accounting for the remaining demand.",
+     "source": 2,
+     "quote": "Irrigation accounted for 65% of the demand, followed by household and city supply accounting for 17%, electricity accounting for 10%, and manufacturing, livestock and mining accounting for the remaining demand.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03260-3",
+     "published": "2026-10-28",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-10-africa-availability-untapped.html",
+     "published": "Thu, 29 Oct 2026 13:10:01 EDT",
+     "published_iso": "2026-10-29T17:10:01+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03260-3",
+    "https://phys.org/news/2026-10-africa-availability-untapped.html"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.1038%2Fs41586-026-11199-8",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://doi.org/10.1038%2Fs41586-026-11199-8"
+    },
+    {
+     "url": "https://doi.org/10.5194%2Fhess-22-2117-2018",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://doi.org/10.5194%2Fhess-22-2117-2018"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03260-3",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: So_what section used 'more than 700 million', which is inaccurate and unsupported; source states '717 million'."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-29-nasa-funded-study-identifies-4-1-billion-year-old-martian-me-d9ce3",
+   "date": "2026-10-29",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA‑Funded Study Identifies 4.1‑Billion‑Year‑Old Martian Meteorite in Sahara",
+   "in_brief": "NASA scientists dated a rose‑colored meteorite found in the Sahara Desert in 2022, determining it formed over 4.1 billion years ago and is among the oldest Martian rocks on Earth. The find offers a rare glimpse of early Martian crust and water‑rock interactions.",
+   "so_what": "The meteorite, named Teghaza 001, adds to the roughly 435 known Martian meteorites and is one of only three that are this ancient. Its unique mix of igneous minerals records how Mars' crust cooled from magma and later interacted with subsurface water, matching mineral signatures observed by the Mars Reconnaissance Orbiter in the planet's southern highlands. By providing a direct sample of a previously unsampled region of Martian crust, Teghaza 001 can help scientists refine models of early Mars geology, atmospheric loss, and the role of water in shaping the planet. Future laboratory analyses are expected to deepen understanding of Mars' early environment and may inform the selection of landing sites for upcoming missions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "The meteorite formed more than 4.1 billion years ago, making it one of the oldest Martian meteorites ever found.",
+     "source": 1,
+     "quote": "the nearly 2‑pound (800‑gram) rock was a piece of Mars that formed more than 4.1 billion years ago, making it one of the oldest Martian meteorites ever found.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "It was discovered in the Sahara Desert in 2022.",
+     "source": 1,
+     "quote": "When a rose‑colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "It is one of roughly 435 known Martian meteorites.",
+     "source": 1,
+     "quote": "the meteorite is one of roughly 435 from the Red Planet.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Its igneous mineral mix matches observations of Mars' southern highlands by the Mars Reconnaissance Orbiter.",
+     "source": 1,
+     "quote": "Unlike its ancient peers, Teghaza 001 has a mix of igneous minerals that tells a story about how the planet’s crust formed from cooling magma before it was eventually altered by subsurface water. The meteorite’s distinctive mineralogy matches what NASA’s Mars Reconnaissance Orbiter has observed in the planet’s cratered southern highlands.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+     "published": "Thu, 29 Oct 2026 18:18:09 +0000",
+     "published_iso": "2026-10-29T18:18:09+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-29-walmart-and-other-major-firms-object-to-okx-ice-tokenized-st-22a4e",
+   "date": "2026-10-29",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Walmart and other major firms object to OKX-ICE tokenized stock platform",
+   "in_brief": "Walmart, Eli Lilly, Cigna Group, Carnival, and Arcos Dorados have filed notices against the OKX-ICE tokenized stock venue. These objections leverage an SEC innovation exemption that stops the platform from listing third-party tokenized shares for those companies.",
+   "so_what": "The total number of objecting companies has risen to 38, up from nine when the list was initially published on October 15. This expansion across retail, health care, and travel sectors indicates growing corporate resistance to tokenized securities, potentially slowing the adoption of on-chain trading for traditional equities.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "Walmart, Eli Lilly, Cigna Group, Carnival and Arcos Dorados joined the list of companies objecting to OKXICE TSV, according to its Oct. 28 notice.",
+     "source": 1,
+     "quote": "Walmart, Eli Lilly, Cigna Group, Carnival and Arcos Dorados joined the list of companies objecting to OKXICE TSV, according to its Oct. 28 notice.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The total has climbed from nine on Oct. 15 to 38, broadening the pushback into retail, health care and travel.",
+     "source": 1,
+     "quote": "The total has climbed from nine on Oct. 15 to 38, broadening the pushback into retail, health care and travel.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Under the SEC’s innovation exemption, a timely objection bars the venue from listing a third‑party tokenized version of a company’s stock.",
+     "source": 1,
+     "quote": "Under the SEC’s innovation exemption, a timely objection bars the venue from listing a third‑party tokenized version of a company’s stock.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382145/walmart-blocks-stock-okx-ice-tokenized-trading-venue",
+     "published": "Thu, 29 Oct 2026 15:07:15 +0000",
+     "published_iso": "2026-10-29T15:07:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/29/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
+     "published": "Thu, 29 Oct 2026 13:39:18 +0000",
+     "published_iso": "2026-10-29T13:39:18+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/29/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
+    "https://decrypt.co/382145/walmart-blocks-stock-okx-ice-tokenized-trading-venue",
+    "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
+    "https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: copied long word-for-word run from source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-28-tech-firms-and-banks-object-to-okx-ice-tokenized-stock-venue-c6f0b",
+    "date": "2026-10-28",
+    "label": "Developing",
+    "score": 46
+   }
+  },
+  {
+   "id": "2026-10-29-polygon-labs-expands-open-money-stack-to-solana-for-unified-f0b58",
+   "date": "2026-10-29",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Polygon Labs expands Open Money Stack to Solana for unified stablecoin payments",
+   "in_brief": "Polygon Labs announced the extension of its Open Money Stack, a suite of stablecoin payment tools, to the Solana network. The move aims to simplify crypto‑to‑bank transactions by offering a single integration point for businesses.",
+   "so_what": "By bringing its Open Money Stack to Solana, Polygon Labs provides merchants on the fast‑growing blockchain a unified gateway to move money between banks, cards, cash and crypto. The integration addresses a long‑standing friction point in crypto payments—multiple providers and contracts are typically required to convert fiat to stablecoins and back. Early adopters such as cross‑border payments firm Kira can now route USDC on Solana and deliver payouts directly to bank accounts, potentially widening the use of stablecoins for international trade. The rollout also underscores Solana's increasing role in payments, highlighted by more than $5 trillion in stablecoin volume processed this year and recent infrastructure upgrades. Observers will watch how quickly other fintechs adopt the stack and whether the single‑connection model spurs broader crypto‑bank integration.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual report",
+   "claims": [
+    {
+     "claim": "Polygon Labs expanded its Open Money Stack—a bundle of stablecoin payments tools—to Solana.",
+     "source": 1,
+     "quote": "Polygon Labs expanded its Open Money Stack—a bundle of stablecoin payments tools—to Solana.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The platform gives businesses a single connection to pull money from bank accounts, move crypto across chains, and pay out worldwide.",
+     "source": 1,
+     "quote": "Polygon Labs is extending its stablecoin payments infrastructure to Solana, giving businesses on the rival network a single connection to pull money in from bank accounts, move crypto across chains, and pay out to customers and suppliers worldwide.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Solana has processed more than $5 trillion in stablecoin volume this year.",
+     "source": 1,
+     "quote": "The move reflects Solana’s growing pull as a payments venue, having processed more than $5 trillion in stablecoin volume this year, per the Solana Foundation.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana",
+     "published": "Thu, 29 Oct 2026 13:01:02 +0000",
+     "published_iso": "2026-10-29T13:01:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+     "published": "Thu, 29 Oct 2026 16:35:43 +0000",
+     "published_iso": "2026-10-29T16:35:43+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+    "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-29-chrome-and-firefox-release-updates-fixing-hundreds-of-securi-8b84c",
+   "date": "2026-10-29",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Chrome and Firefox release updates fixing hundreds of security flaws",
+   "in_brief": "Google and Mozilla rolled out new browser versions that patch over 200 vulnerabilities, including critical use‑after‑free bugs. Updating now helps protect users from potential exploits.",
+   "so_what": "The updates address a wave of memory‑management flaws that could let attackers execute code or crash browsers. Chrome’s Stable channel now reaches version 156.0.8078.73/.74 with 52 fixes, four of them critical, while Firefox 159 resolves 167 bugs, 108 rated high severity. Both vendors credit AI tools such as OpenAI Codex and Anthropic for discovering many of the issues, highlighting the growing role of machine‑learning in security research. Users who delay updating risk exposure to exploits that could compromise personal data or system integrity. Watch for the rollout completion over the next weeks and ensure automatic updates remain enabled to receive future patches promptly.",
+   "what_to_do": "1. Open Chrome’s Settings → About Chrome and click Relaunch to install the latest version. 2. Open Firefox’s menu → Help → About Firefox and allow it to download and apply the update. 3. Keep automatic updates enabled in both browsers to receive future security patches without manual intervention.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Chrome’s update includes 52 security fixes, four of which are rated Critical",
+     "source": 1,
+     "quote": "The update includes 52 security fixes, including four rated Critical.",
+     "status": "verified",
+     "corroborated_by": [
+      "Ziff Davis"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Firefox 159 patches 167 security flaws, with 108 rated high severity",
+     "source": 2,
+     "quote": "Firefox 159 patches 167 security flaws, most of which are of high severity.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Both updates address use‑after‑free vulnerabilities",
+     "source": 1,
+     "quote": "Both releases fix use-after-free vulnerabilities, including flaws in page layout, JavaScript processing, and SVG graphics.",
+     "status": "verified",
+     "corroborated_by": [
+      "Ziff Davis"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/ai/2026/10/chrome-and-firefox-updates-fix-serious-security-flaws-install-them-now",
+     "published": "Wed, 28 Oct 2026 11:13:06 GMT",
+     "published_iso": "2026-10-28T11:13:06+00:00",
+     "kind": "vendor",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/tech/firefox-chrome-browsers-patch-200-security-flaws-update-asap/",
+     "published": "2026-10-29T16:30:28Z",
+     "published_iso": "2026-10-29T16:30:28+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.malwarebytes.com/blog/ai/2026/10/chrome-and-firefox-updates-fix-serious-security-flaws-install-them-now",
+    "https://www.zdnet.com/tech/firefox-chrome-browsers-patch-200-security-flaws-update-asap/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 54,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Ziff Davis, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-29-factcheck-finds-no-evidence-voting-machines-deliberately-swi-a2bad",
+   "date": "2026-10-29",
+   "section": "myth",
+   "verdict": "PUBLISH",
+   "headline": "FactCheck Finds No Evidence Voting Machines Deliberately Switch Votes",
+   "in_brief": "Social media posts claimed touchscreen voting machines were changing Democratic votes to Republican ones. FactCheck.org reports experts say the issues stem from calibration problems or voter error, not deliberate tampering.",
+   "so_what": "The claim that electronic voting machines are covertly flipping votes has circulated widely on platforms like Facebook, prompting concerns about election integrity. FactCheck.org’s investigation found no evidence of intentional vote switching; instead, election officials attribute reported anomalies to familiar touchscreen calibration issues or simple human mistakes. Most jurisdictions use paper ballots that voters review before final submission, providing a tangible check on the electronic record. While older direct‑recording electronic machines can experience calibration glitches, modern ballot‑marking devices are less prone to such errors. Understanding the technical realities helps counter misinformation that can erode public confidence in the voting process and distract from genuine security challenges, such as unpatched hardware and emerging AI threats highlighted by security analysts. Monitoring official statements from election officials and reputable fact‑checking outlets will be essential as the 2026 election cycle progresses.",
+   "what_to_do": "Look for official election‑official explanations and verify claims against reputable fact‑checking sources before sharing.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "There is no evidence that touchscreen voting machines are deliberately switching voter selections.",
+     "source": 1,
+     "quote": "There is no evidence that touchscreen voting machines are deliberately switching voter selections.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Reported issues are a result of familiar machine calibration issues or voter error.",
+     "source": 1,
+     "quote": "elections experts and state election officials have said that reported issues of machines initially not recording votes correctly are a result of familiar machine calibration issues or voter error.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Nearly the entire country votes in a manner where voters review a paper ballot before having their votes officially cast.",
+     "source": 1,
+     "quote": "Also, nearly the entire country votes in a manner where voters review a paper ballot before having their votes officially cast.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "FactCheck.org",
+     "owner": "factcheck.org",
+     "url": "https://www.factcheck.org/2026/10/dispelling-unfounded-claims-about-voting-machine-issues/",
+     "published": "Wed, 28 Oct 2026 18:18:12 +0000",
+     "published_iso": "2026-10-28T18:18:12+00:00",
+     "kind": "factcheck",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
+     "published": "Thu, 29 Oct 2026 15:00:00 +0000",
+     "published_iso": "2026-10-29T15:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.factcheck.org/2026/10/dispelling-unfounded-claims-about-voting-machine-issues/",
+    "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.lls.edu/faculty/justinlevitt/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.lls.edu/faculty/justinlevitt/"
+    },
+    {
+     "url": "https://www.cs.princeton.edu/~appel/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cs.princeton.edu/~appel/"
+    }
+   ],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: factcheck.org, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam",
+  "myth"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 599,
+  "stories_considered": 13,
+  "published": 12,
+  "outlets": 38
+ }
+}

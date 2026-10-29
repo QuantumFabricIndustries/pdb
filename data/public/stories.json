@@ -4581,5 +4581,165 @@
    "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
    "https://decrypt.co/381998/intel-oracle-ibm-join-objections-okx-ice-tokenized-stock-total-26"
   ]
+ },
+ {
+  "id": "2026-10-29-hacktivist-group-leaks-work-details-of-over-41-000-dhs-emplo-a4425",
+  "date": "2026-10-29",
+  "section": "threat",
+  "headline": "Hacktivist group leaks work details of over 41,000 DHS employees",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/massive-leak-exposes-41000-dhs-workers-and-undercover-ice-agents/",
+   "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+   "https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/",
+   "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+   "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
+   "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+   "https://www.engadget.com/2300661/hackers-leaked-details-more-than-41000-homeland-security-personnel/",
+   "https://decrypt.co/382181/hackers-publish-work-details-homeland-security-employees"
+  ]
+ },
+ {
+  "id": "2026-10-29-volt-typhoon-leverages-silent-train-relay-network-for-zero-d-40a7f",
+  "date": "2026-10-29",
+  "section": "threat",
+  "headline": "Volt Typhoon leverages “Silent Train” relay network for zero‑day attacks on management platforms",
+  "label": "Confirmed",
+  "score": 82,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+   "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+   "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/"
+  ]
+ },
+ {
+  "id": "2026-10-29-cisco-releases-patches-for-actively-exploited-asa-and-ftd-vp-baabe",
+  "date": "2026-10-29",
+  "section": "threat",
+  "headline": "Cisco releases patches for actively exploited ASA and FTD VPN denial‑of‑service flaw",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+   "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
+  ]
+ },
+ {
+  "id": "2026-10-29-doordash-to-acquire-instacart-in-17-billion-deal-6ce6b",
+  "date": "2026-10-29",
+  "section": "ai",
+  "headline": "DoorDash to acquire Instacart in $17 billion deal",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/business/2026/oct/29/doordash-buys-instacart-grocery-delivery",
+   "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
+   "https://www.engadget.com/2300741/doordash-acquires-instacart-in-dollar17-billion-delivery-service-merger/",
+   "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart"
+  ]
+ },
+ {
+  "id": "2026-10-29-utah-files-felony-charges-against-prediction-market-kalshi-a-67995",
+  "date": "2026-10-29",
+  "section": "ai",
+  "headline": "Utah Files Felony Charges Against Prediction Market Kalshi and Its Co‑Founders",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+   "https://www.theverge.com/policy/1022400/utah-kalshi-criminal-charges",
+   "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets"
+  ]
+ },
+ {
+  "id": "2026-10-29-us-intel-on-chinese-citizen-linked-to-nvidia-trump-inaction-f5048",
+  "date": "2026-10-29",
+  "section": "ai",
+  "headline": "US intel on Chinese citizen linked to Nvidia, Trump inaction and company response",
+  "label": "Well-sourced",
+  "score": 66,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+   "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+   "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+   "https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/"
+  ]
+ },
+ {
+  "id": "2026-10-29-africa-s-water-demand-rises-26-by-2020-yet-piped-access-rema-c8463",
+  "date": "2026-10-29",
+  "section": "science",
+  "headline": "Africa’s water demand rises 26% by 2020, yet piped access remains limited",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03260-3",
+   "https://phys.org/news/2026-10-africa-availability-untapped.html"
+  ]
+ },
+ {
+  "id": "2026-10-29-nasa-funded-study-identifies-4-1-billion-year-old-martian-me-d9ce3",
+  "date": "2026-10-29",
+  "section": "science",
+  "headline": "NASA‑Funded Study Identifies 4.1‑Billion‑Year‑Old Martian Meteorite in Sahara",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
+  ]
+ },
+ {
+  "id": "2026-10-29-walmart-and-other-major-firms-object-to-okx-ice-tokenized-st-22a4e",
+  "date": "2026-10-29",
+  "section": "money",
+  "headline": "Walmart and other major firms object to OKX-ICE tokenized stock platform",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/29/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
+   "https://decrypt.co/382145/walmart-blocks-stock-okx-ice-tokenized-trading-venue",
+   "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
+   "https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks"
+  ]
+ },
+ {
+  "id": "2026-10-29-polygon-labs-expands-open-money-stack-to-solana-for-unified-f0b58",
+  "date": "2026-10-29",
+  "section": "money",
+  "headline": "Polygon Labs expands Open Money Stack to Solana for unified stablecoin payments",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+   "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana"
+  ]
+ },
+ {
+  "id": "2026-10-29-chrome-and-firefox-release-updates-fixing-hundreds-of-securi-8b84c",
+  "date": "2026-10-29",
+  "section": "scam",
+  "headline": "Chrome and Firefox release updates fixing hundreds of security flaws",
+  "label": "Developing",
+  "score": 54,
+  "also_covered_urls": [
+   "https://www.malwarebytes.com/blog/ai/2026/10/chrome-and-firefox-updates-fix-serious-security-flaws-install-them-now",
+   "https://www.zdnet.com/tech/firefox-chrome-browsers-patch-200-security-flaws-update-asap/"
+  ]
+ },
+ {
+  "id": "2026-10-29-factcheck-finds-no-evidence-voting-machines-deliberately-swi-a2bad",
+  "date": "2026-10-29",
+  "section": "myth",
+  "headline": "FactCheck Finds No Evidence Voting Machines Deliberately Switch Votes",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.factcheck.org/2026/10/dispelling-unfounded-claims-about-voting-machine-issues/",
+   "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/"
+  ]
  }
 ]

@@ -185,5 +185,16 @@
   "from_score": 64,
   "to_score": 53,
   "note": "Rating changed from Well-sourced (64) to Developing (53) as new evidence came in."
+ },
+ {
+  "date": "2026-10-29",
+  "story_id": "2026-10-29-walmart-and-other-major-firms-object-to-okx-ice-tokenized-st-22a4e",
+  "prior_id": "2026-10-28-tech-firms-and-banks-object-to-okx-ice-tokenized-stock-venue-c6f0b",
+  "headline": "Walmart and other major firms object to OKX-ICE tokenized stock platform",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 46,
+  "to_score": 58,
+  "note": "Rating changed from Developing (46) to Well-sourced (58) as new evidence came in."
  }
 ]

@@ -1,0 +1,131 @@
+[
+ {
+  "section": "threat",
+  "title": "Hacktivist group leaks work details of over 41,000 DHS employees",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Volt Typhoon leverages “Silent Train” relay network for zero‑day attacks on management platforms",
+  "verdict": "PUBLISH",
+  "truth": 82,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Cisco releases patches for actively exploited ASA and FTD VPN denial‑of‑service flaw",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "DoorDash to acquire Instacart in $17 billion deal",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Utah Files Felony Charges Against Prediction Market Kalshi and Its Co‑Founders",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "US intel on Chinese citizen linked to Nvidia, Trump inaction and company response",
+  "verdict": "PUBLISH",
+  "truth": 66,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Africa’s water demand rises 26% by 2020, yet piped access remains limited",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section used 'more than 700 million', which is inaccurate and unsupported; source states '717 million'."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA‑Funded Study Identifies 4.1‑Billion‑Year‑Old Martian Meteorite in Sahara",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Walmart and other major firms object to OKX-ICE tokenized stock platform",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: copied long word-for-word run from source"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Polygon Labs expands Open Money Stack to Solana for unified stablecoin payments",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Chrome and Firefox release updates fixing hundreds of security flaws",
+  "verdict": "PUBLISH",
+  "truth": 54,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "FactCheck Finds No Evidence Voting Machines Deliberately Switch Votes",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ }
+]
