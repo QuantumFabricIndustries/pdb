@@ -4741,5 +4741,138 @@
    "https://www.factcheck.org/2026/10/dispelling-unfounded-claims-about-voting-machine-issues/",
    "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/"
   ]
+ },
+ {
+  "id": "2026-10-30-malicious-claude-code-vs-code-extension-distributed-via-curs-9e2c7",
+  "date": "2026-10-30",
+  "section": "threat",
+  "headline": "Malicious Claude Code VS Code extension distributed via Cursor marketplace",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+   "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+   "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+   "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+  ]
+ },
+ {
+  "id": "2026-10-30-north-korean-hacking-group-linked-to-record-binance-breach-e-e6afb",
+  "date": "2026-10-30",
+  "section": "threat",
+  "headline": "North Korean hacking group linked to record Binance breach, exchange halts withdrawals",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+   "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+   "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+   "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor",
+   "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths"
+  ]
+ },
+ {
+  "id": "2026-10-30-polymarket-halts-trading-after-third-party-vendor-breach-dra-84113",
+  "date": "2026-10-30",
+  "section": "threat",
+  "headline": "Polymarket halts trading after third‑party vendor breach drains user wallets",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://therecord.media/polymarket-confirms-cyberattack-third-party",
+   "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+   "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+   "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses",
+   "https://www.nbcnews.com/business/consumer/polymarket-trading-halt-hack-wallets-rcna606405"
+  ]
+ },
+ {
+  "id": "2026-10-30-ofcom-proposes-four-methods-for-uk-under-16-social-media-age-9500a",
+  "date": "2026-10-30",
+  "section": "ai",
+  "headline": "Ofcom proposes four methods for UK under‑16 social media age checks",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
+   "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
+   "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
+   "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options"
+  ]
+ },
+ {
+  "id": "2026-10-30-gm-to-pay-220-million-to-settle-claims-it-sold-driver-data-t-edc47",
+  "date": "2026-10-30",
+  "section": "ai",
+  "headline": "GM to pay $220 million to settle claims it sold driver data to brokers",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+   "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+   "https://www.engadget.com/2301934/general-motors-220-million-settle-multi-state-data-privacy-lawsuit/"
+  ]
+ },
+ {
+  "id": "2026-10-30-utah-attorney-general-files-felony-charges-against-predictio-b5e18",
+  "date": "2026-10-30",
+  "section": "ai",
+  "headline": "Utah Attorney General files felony charges against prediction market Kalshi and its co‑founders",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+   "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets"
+  ]
+ },
+ {
+  "id": "2026-10-30-nasa-seeks-commercial-proposals-to-service-or-deorbit-hubble-1f1d0",
+  "date": "2026-10-30",
+  "section": "science",
+  "headline": "NASA seeks commercial proposals to service or deorbit Hubble Telescope",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+   "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622"
+  ]
+ },
+ {
+  "id": "2026-10-30-ancient-martian-meteorite-teghaza-001-analyzed-for-crust-for-ae416",
+  "date": "2026-10-30",
+  "section": "science",
+  "headline": "Ancient Martian Meteorite Teghaza 001 Analyzed for Crust Formation Clues",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+   "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/"
+  ]
+ },
+ {
+  "id": "2026-10-30-polygon-labs-extends-open-money-stack-stablecoin-payments-pl-cc57d",
+  "date": "2026-10-30",
+  "section": "money",
+  "headline": "Polygon Labs extends Open Money Stack stablecoin payments platform to Solana",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+   "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana"
+  ]
+ },
+ {
+  "id": "2026-10-30-fed-keeps-policy-rate-unchanged-at-3-75-4-ahead-of-midterm-e-fff6e",
+  "date": "2026-10-30",
+  "section": "money",
+  "headline": "Fed Keeps Policy Rate Unchanged at 3.75%-4% Ahead of Midterm Elections",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
+  ]
  }
 ]

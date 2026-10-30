@@ -1,0 +1,197 @@
+[
+ {
+  "section": "threat",
+  "title": "Malicious Claude Code VS Code extension distributed via Cursor marketplace",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "North Korean hacking group linked to record Binance breach, exchange halts withdrawals",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Source 1 states deposits and withdrawals were suspended, while Source 2 states deposits were unaffected and only withdrawals were suspended. The draft needs to reflect this accurately or be neutral.",
+   "editor: The draft states Binance reserved over $6.34 billion to cover losses, but Source 3 specifically details this breakdown ($5 billion in affected tokens, etc.), and Source 2 says Binance will cover all losses. Let's adjust the in_brief and so_what to align strictly with sources."
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Polymarket halts trading after third‑party vendor breach drains user wallets",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included unverified date 'Oct. 30' instead of 'Thursday'",
+   "editor: Included unverified fundraising and valuation figures ($1 billion round, $21 billion valuation)"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Ofcom proposes four methods for UK under‑16 social media age checks",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft stated March 2027 instead of 'March next year' or matching sources"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "GM to pay $220 million to settle claims it sold driver data to brokers",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Utah Attorney General files felony charges against prediction market Kalshi and its co‑founders",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA seeks commercial proposals to service or deorbit Hubble Telescope",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: Number 34 in 2033-34 is not explicitly in the sources (sources state 2033 to 2034)"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Ancient Martian Meteorite Teghaza 001 Analyzed for Crust Formation Clues",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Polygon Labs extends Open Money Stack stablecoin payments platform to Solana",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Fed Keeps Policy Rate Unchanged at 3.75%-4% Ahead of Midterm Elections",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included specific date 'Oct. 24, 2026' and GDP growth figure '3.4%' which are not supported by the provided source texts."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Scammers Rapidly Recreate Fake Shopping Sites After Takedowns",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "How to download and read ebooks safely | Kaspersky official blog",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "",
+  "verdict": "HOLD",
+  "truth": 6,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of Madrid street vendors misrepresented as French looting footage",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "White House shares AI-generated Halloween pumpkin image with sombrero",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Headline incorrectly states the image was not an official post, contradicting the source which confirms the White House accounts posted it.",
+   "editor: In-brief and so_what incorrectly claim the White House did not share the image, whereas the source states the official X and Facebook pages did post it."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Viral video of C-17 aircraft landing in a field is AI-generated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Copied phrasing from source needs to be reworded."
+  ],
+  "owners": 1
+ }
+]

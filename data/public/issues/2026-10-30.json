@@ -1,0 +1,1437 @@
+{
+ "date": "2026-10-30",
+ "built_at": "2026-10-30T18:42:54.655654+00:00",
+ "stories": [
+  {
+   "id": "2026-10-30-malicious-claude-code-vs-code-extension-distributed-via-curs-9e2c7",
+   "date": "2026-10-30",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Malicious Claude Code VS Code extension distributed via Cursor marketplace",
+   "in_brief": "A tampered version of Anthropic's Claude Code extension (v2.1.313) was offered in Cursor's VS Code marketplace for about 11 hours, installing a persistent SSH backdoor on up to 5,000 developers' machines. The malicious code adds an attacker‑controlled SSH key, attempts to enable SSH, and establishes a reverse tunnel to a remote server.",
+   "so_what": "The incident highlights the risk of supply‑chain attacks on developer tooling, especially when extensions are sourced from third‑party marketplaces that can host compromised packages. Although coding errors in the backdoor's SSH setup limited successful remote access on many macOS and Windows systems, the payload still collected system data, persisted across reboots, and could enable full control if SSH was already active. Organizations should audit the use of VS Code extensions, especially those obtained from open marketplaces like Cursor, and monitor for unauthorized SSH keys or outbound connections to the IP address 134.209.82.225. Future vigilance is needed as attackers may target other popular extensions or improve their deployment methods.",
+   "what_to_do": "1. Remove any Claude Code extension version 2.1.313 from VS Code editors. 2. Verify and delete unauthorized SSH keys from ~/.ssh/authorized_keys and disable unknown scheduled tasks or LaunchAgents. 3. Apply the updated Claude Code version 2.1.314 from official VS Code or Open VSX marketplaces.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "A malicious version of Anthropic’s Claude Code extension (v2.1.313) was distributed through Cursor’s VS Code extension marketplace for about 11 hours, affecting up to 5,000 developers.",
+     "source": 1,
+     "quote": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The malicious extension adds an attacker‑controlled SSH key and attempts to enable SSH access, establishing a reverse tunnel to 134.209.82.225.",
+     "source": 1,
+     "quote": "Adds an attacker-controlled SSH key and attempts to enable SSH access and establish a reverse tunnel.",
+     "status": "verified",
+     "corroborated_by": [
+      "phorion.io",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Coding errors in the malware’s SSH setup prevented it from enabling SSH on many macOS and Windows systems, limiting remote access.",
+     "source": 1,
+     "quote": "coding errors in the malware's SSH setup routines likely prevented attackers from gaining remote access to many affected Windows and macOS systems.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Cursor removed the compromised package and Anthropic released version 2.1.314 to official marketplaces.",
+     "source": 3,
+     "quote": "As of October 30, 2026, the malicious version has been removed, and Anthropic has published version 2.1.314 to both Open VSX and Microsoft VS Code Marketplace.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com",
+      "phorion.io"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The backdoor persists via macOS LaunchAgent, Windows scheduled task/Startup script, or Linux cron entry, retrying the tunnel roughly every minute.",
+     "source": 1,
+     "quote": "Installs persistence through a macOS LaunchAgent or Windows scheduled task/Startup script, retrying the tunnel roughly every minute.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "phorion.io"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+     "published": "Fri, 30 Oct 2026 10:36:54 -0400",
+     "published_iso": "2026-10-30T14:36:54+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+     "published": "Fri, 30 Oct 2026 17:27:00 +0100",
+     "published_iso": "2026-10-30T16:27:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+     "published": "Fri, 30 Oct 2026 14:25:47 +0530",
+     "published_iso": "2026-10-30T08:55:47+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+     "published": "Fri, 30 Oct 2026 11:15:26 +0000",
+     "published_iso": "2026-10-30T11:15:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Hacker News",
+     "owner": "phorion.io",
+     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "published": "Fri, 30 Oct 2026 07:09:12 +0000",
+     "published_iso": "2026-10-30T07:09:12+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+    "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+    "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+    "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+    "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, phorion.io, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-10-30-north-korean-hacking-group-linked-to-record-binance-breach-e-e6afb",
+   "date": "2026-10-30",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "North Korean hacking group linked to record Binance breach, exchange halts withdrawals",
+   "in_brief": "Binance disclosed that a compromised engineer's laptop allowed attackers to move roughly $6.3 billion from its wallets, prompting the exchange to suspend withdrawals. Blockchain intelligence firms attribute the theft to North Korea’s TraderTraitor unit, marking the largest crypto heist on record.",
+   "so_what": "The breach underscores the security challenges facing major cryptocurrency platforms. By exploiting network access, the attackers transferred billions across multiple blockchains. Binance has frozen about $3 billion of the stolen assets with the help of industry partners, while blockchain firms TRM Labs and Chainalysis attribute the attack to North Korea. Regulators and law enforcement are closely monitoring the situation as investigations continue.",
+   "what_to_do": "1. Verify that your Binance account uses strong authentication measures. 2. Review recent login activity and secure your device sessions. 3. Monitor your account balances and report any unauthorized transactions to support.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The hack moved about $6.36 billion from Binance wallets on ten blockchains in roughly 20 minutes.",
+     "source": 2,
+     "quote": "An attacker moved approximately USD 6.36 billion out of Binance wallets on ten blockchains, most of it in about 20 minutes",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Binance suspended all deposits and withdrawals while investigating the breach.",
+     "source": 1,
+     "quote": "The crypto exchange — the world’s largest — said it has now suspended all deposits and withdrawals while its investigation into the breach continues",
+     "status": "verified",
+     "corroborated_by": [
+      "npr.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Blockchain intelligence firms TRM Labs and Chainalysis attribute the attack to North Korea’s TraderTraitor group.",
+     "source": 3,
+     "quote": "TRM Labs and Chainalysis have both attributed this week's hack of Binance to North Korea, with two of the largest naming TraderTraitor, a North Korean hacking group, as responsible",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "npr.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+     "published": "Fri, 30 Oct 2026 14:00:25 +0000",
+     "published_iso": "2026-10-30T14:00:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+     "published": "Fri, 30 Oct 2026 15:39:05 +0000",
+     "published_iso": "2026-10-30T15:39:05+00:00",
+     "kind": "community",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor",
+     "published": "Fri, 30 Oct 2026 12:22:04 +0000",
+     "published_iso": "2026-10-30T12:22:04+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+     "published": "Fri, 30 Oct 2026 08:16:26 +0000",
+     "published_iso": "2026-10-30T08:16:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+     "published": "Fri, 30 Oct 2026 03:36:11 +0000",
+     "published_iso": "2026-10-30T03:36:11+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+    "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+    "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+    "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor",
+    "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Yahoo, coindesk.com, decrypt.co, npr.org, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Source 1 states deposits and withdrawals were suspended, while Source 2 states deposits were unaffected and only withdrawals were suspended. The draft needs to reflect this accurately or be neutral.",
+     "editor: The draft states Binance reserved over $6.34 billion to cover losses, but Source 3 specifically details this breakdown ($5 billion in affected tokens, etc.), and Source 2 says Binance will cover all losses. Let's adjust the in_brief and so_what to align strictly with sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-10-30-polymarket-halts-trading-after-third-party-vendor-breach-dra-84113",
+   "date": "2026-10-30",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Polymarket halts trading after third‑party vendor breach drains user wallets",
+   "in_brief": "Polymarket paused its international platform for about an hour on Thursday after a compromised third‑party service injected malicious JavaScript that siphoned millions of dollars. The incident highlights risks of supply‑chain attacks on crypto platforms.",
+   "so_what": "The breach underscores how attackers can exploit trusted vendors to reach large user bases, as seen with the DebugBear performance‑monitoring service whose code was used to drain wallets on Polymarket. Estimates of the loss range from $2.1 million to $2.7 million, with blockchain analytics firm Bubblemaps reporting roughly 700 users affected. Polymarket has pledged to reimburse affected traders and has referred the matter to law enforcement in the United Kingdom and the United States. The incident may prompt other crypto platforms to reassess third‑party dependencies.",
+   "what_to_do": "1. Remove any DebugBear monitoring scripts from your website or application. 2. Verify that your crypto wallets use hardware or multi‑factor authentication. 3. Monitor blockchain addresses for unauthorized transfers and report suspicious activity to exchanges or law enforcement.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "The malicious code was delivered through DebugBear’s infrastructure and was designed to drain cryptocurrency from users.",
+     "source": 3,
+     "quote": "Security researchers at Hudson Rock identified malicious JavaScript distributed through cdn.debugbear[.]com/... that was designed to steal cryptocurrency and prediction-market holdings from Polymarket users.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Polymarket said it will fully reimburse all impacted traders.",
+     "source": 1,
+     "quote": "Anyone who has been impacted will be made whole... We’ll make this right and are fully reimbursing all affected traders.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Condé Nast",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Law enforcement in the United Kingdom has been notified of the breach.",
+     "source": 2,
+     "quote": "Law enforcement in the UK have been notified of the incident, the company said.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Polymarket halted trading on its international platform for about an hour after a third‑party provider was compromised.",
+     "source": 3,
+     "quote": "Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service... Trading resumed approximately one hour after the initial suspension.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [3]"
+     ]
+    },
+    {
+     "claim": "Approximately $2.5‑$2.7 million was stolen, affecting around 700 users.",
+     "source": 2,
+     "quote": "blockchain analytics firm Bubblemaps reported that around 700 users appeared to have been affected, with approximately $2.7 million stolen.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [2]: 2.5"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party",
+     "published": "Fri, 30 Oct 2026 11:33:00 GMT",
+     "published_iso": "2026-10-30T11:33:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+     "published": "Thu, 29 Oct 2026 19:51:56 +0000",
+     "published_iso": "2026-10-29T19:51:56+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+     "published": "Thu, 29 Oct 2026 17:47:25 -0400",
+     "published_iso": "2026-10-29T21:47:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Hacker News",
+     "owner": "Comcast",
+     "url": "https://www.nbcnews.com/business/consumer/polymarket-trading-halt-hack-wallets-rcna606405",
+     "published": "Fri, 30 Oct 2026 15:23:41 +0000",
+     "published_iso": "2026-10-30T15:23:41+00:00",
+     "kind": "community",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses",
+     "published": "Thu, 29 Oct 2026 18:55:35 +0000",
+     "published_iso": "2026-10-29T18:55:35+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/polymarket-confirms-cyberattack-third-party",
+    "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+    "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+    "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses",
+    "https://www.nbcnews.com/business/consumer/polymarket-trading-halt-hack-wallets-rcna606405"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Condé Nast, Recorded Future, bleepingcomputer.com, coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      15,
+      25,
+      "3 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      4,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -10,
+      0,
+      "2 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 2 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Included unverified date 'Oct. 30' instead of 'Thursday'",
+     "editor: Included unverified fundraising and valuation figures ($1 billion round, $21 billion valuation)"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-10-30-ofcom-proposes-four-methods-for-uk-under-16-social-media-age-9500a",
+   "date": "2026-10-30",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Ofcom proposes four methods for UK under‑16 social media age checks",
+   "in_brief": "Ofcom has outlined four verification approaches to enforce the UK’s upcoming ban on under‑16s accessing major social platforms, slated to come into force in March next year. The regulator says the onus will be on tech firms to adopt suitable solutions.",
+   "so_what": "The UK government plans to block users under 16 from ten large social‑media services, including Instagram, TikTok and Snapchat, starting next March. To enforce this, Ofcom recommends four verification techniques—photo‑ID matching, banking‑based checks, facial‑age estimation and digital‑ID services—designed to balance effectiveness with privacy. While the regulator stresses that providers must choose and implement the methods, industry players such as Meta have advocated for device‑level checks that would automatically block under‑age app installations. The success of the ban will depend on how securely and accurately platforms apply these tools, and whether children find workarounds such as VPNs or borrowed credentials, as observed in previous restrictions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Ofcom recommends four verification methods—photo ID matching, banking‑based checks, facial age estimation technology, and digital ID services—to gauge users’ ages.",
+     "source": 1,
+     "quote": "photo ID matching, where relevant information on a photo ID document such as a passport is checked against a live image taken during an age check... banking-based checks... face age estimation technology... digital ID services, which enable people to digitally prove who they are or provide information about themselves, such as their age",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Some tech companies, including Meta, have called for age verification to be applied at the device level to automatically block under‑age app installations.",
+     "source": 1,
+     "quote": "Some of the tech companies, including Meta, have called for age verification to be applied at device level, so that someone under-age would be automatically blocked from installing social media apps via app stores",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The UK’s social‑media ban for under‑16s is due to come into force in March 2027 and will block access to ten major platforms.",
+     "source": 1,
+     "quote": "Under the UK's social media ban - which is due to come into force in March next year - those under that age will be prevented from accessing ten of the biggest platforms, including Instagram, TikTok and Snapchat",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 2027"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
+     "published": "Thu, 29 Oct 2026 09:31:44 GMT",
+     "published_iso": "2026-10-29T09:31:44+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
+     "published": "Thu, 29 Oct 2026 13:33:00 +0100",
+     "published_iso": "2026-10-29T12:33:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options",
+     "published": "Fri, 30 Oct 2026 13:00:02 GMT",
+     "published_iso": "2026-10-30T13:00:02+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
+    "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
+    "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
+    "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Situation Publishing, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft stated March 2027 instead of 'March next year' or matching sources"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-30-gm-to-pay-220-million-to-settle-claims-it-sold-driver-data-t-edc47",
+   "date": "2026-10-30",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "GM to pay $220 million to settle claims it sold driver data to brokers",
+   "in_brief": "General Motors agreed to a $220 million settlement with 36 states over allegations it sold Smart Driver data to third‑party brokers. The deal requires explicit driver consent and third‑party compliance monitoring.",
+   "so_what": "The settlement resolves a multi‑state lawsuit accusing GM of sharing precise geolocation and driving‑behavior information with data brokers that later sold it to insurers, potentially raising premiums for drivers. It builds on earlier FTC action that barred GM and its OnStar service from sharing such data for five years and led to the discontinuation of the Smart Driver program in 2024. By mandating express consent and third‑party oversight, the agreement aims to tighten privacy protections as vehicles become increasingly software‑driven and data‑rich. Regulators and consumer groups will watch GM’s compliance reports to ensure the new privacy program is enforced and that any remaining anonymized data sharing remains limited.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "GM will pay $220 million to settle allegations it sold private driving data to brokers",
+     "source": 2,
+     "quote": "GM will pay $220 million to 36 states to settle allegations that it illegally sold private driving behavior and location information to data brokers.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The settlement requires drivers’ express consent before collection or sharing of driving and location data",
+     "source": 2,
+     "quote": "As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "A third party must assess GM’s compliance with its new privacy program",
+     "source": 2,
+     "quote": "This settlement does contain a new requirement that GM must have a third party assess the automaker’s compliance with the privacy program it has put in place.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+     "published": "Fri, 30 Oct 2026 13:53:20 +0000",
+     "published_iso": "2026-10-30T13:53:20+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+     "published": "Thu, 29 Oct 2026 21:01:04 +0000",
+     "published_iso": "2026-10-29T21:01:04+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+    "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+    "https://www.engadget.com/2301934/general-motors-220-million-settle-multi-state-data-privacy-lawsuit/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.azag.gov/press-release/attorney-general-mayes-announces-settlement-gm-company-pay-220-million-sharing",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.azag.gov/press-release/attorney-general-mayes-announces-settlement-gm-company-pay-220-million-sharing"
+    }
+   ],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-30-utah-attorney-general-files-felony-charges-against-predictio-b5e18",
+   "date": "2026-10-30",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Utah Attorney General files felony charges against prediction market Kalshi and its co‑founders",
+   "in_brief": "Utah filed felony and misdemeanor charges against Kalshi, CEO Tarek Mansour and COO Luana Lopes Lara for allegedly offering illegal sports bets. The case adds to an ongoing dispute between the state and the CFTC over the regulation of prediction markets.",
+   "so_what": "The charges bring the legal battle over Kalshi’s prediction‑market platform to both state criminal courts and federal courts. Utah argues its constitution and statutes prohibit gambling, while the CFTC maintains that federal law preempts state enforcement of regulated exchanges. Kalshi has previously won a federal injunction in Arizona and is appealing a district‑court decision that rejected its bid to block Utah enforcement. The outcome could clarify the extent of federal preemption over state gambling bans and affect other prediction‑market operators. Watch for further rulings from the Tenth Circuit and any settlement between Kalshi and Utah, as well as the CFTC’s ongoing lawsuit against the state.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Utah filed felony charges against Kalshi and its co‑founders Tarek Mansour and Luana Lopes Lara",
+     "source": 1,
+     "quote": "Utah Attorney General Derek Brown filed criminal charges in a state court against Kalshi and its founders on Wednesday",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The charges stem from sports bets offered on Kalshi between September 13 and September 24",
+     "source": 1,
+     "quote": "The charges are based on sports bets offered on Kalshi between September 13 and September 24",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "An undercover state agent placed 12 sports wagers on Kalshi in September, according to prosecutors",
+     "source": 2,
+     "quote": "Prosecutors say an undercover state agent placed 12 sports wagers on Kalshi in September",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+     "published": "Thu, 29 Oct 2026 17:21:33 +0000",
+     "published_iso": "2026-10-29T17:21:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets",
+     "published": "Thu, 29 Oct 2026 11:06:40 +0000",
+     "published_iso": "2026-10-29T11:06:40+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+    "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets"
+   ],
+   "primary": [
+    {
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1483385/gov.uscourts.azd.1483385.96.0.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1483385/gov.uscourts.azd.1483385.96.0.pdf"
+    }
+   ],
+   "truth": {
+    "total": 50,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-29-utah-files-felony-charges-against-prediction-market-kalshi-a-67995",
+    "date": "2026-10-29",
+    "label": "Well-sourced",
+    "score": 60
+   }
+  },
+  {
+   "id": "2026-10-30-nasa-seeks-commercial-proposals-to-service-or-deorbit-hubble-1f1d0",
+   "date": "2026-10-30",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA seeks commercial proposals to service or deorbit Hubble Telescope",
+   "in_brief": "NASA released a Request for Information on Oct. 29 asking industry to propose ways to boost, service, or safely de‑orbit the Hubble Space Telescope. The agency says a mission would need to occur by 2032 to keep Hubble operational before its predicted re‑entry in the 2033 to 2034 timeframe.",
+   "so_what": "The Hubble Space Telescope, operating for over three decades, remains a key scientific asset, and its gradual orbital decay threatens to end its mission by the early 2030s. By opening the RFI, NASA is testing whether the growing commercial space‑servicing market can provide cost‑effective solutions, such as raising Hubble’s orbit, upgrading its instruments, or executing a controlled re‑entry. A successful commercial partnership could extend Hubble’s science output, preserve a historic instrument, and demonstrate the viability of private‑sector in‑space servicing for future missions. Stakeholders will watch the response window, which closes at 3 p.m. EST on Nov. 30, and any subsequent selection of a contractor, which could shape policy on public‑private collaboration in low‑Earth‑orbit asset management.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "NASA issued a Request for Information on Oct. 29 to learn about industry capabilities for in‑space servicing of Hubble.",
+     "source": 1,
+     "quote": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Hubble is expected to re‑enter Earth’s atmosphere in the 2033‑2034 timeframe, requiring a mission by 2032.",
+     "source": 1,
+     "quote": "analysis predicts Hubble is likely to re-enter the atmosphere in the 2033 to 2034 timeframe. As such, NASA anticipates that a mission would need to take place by 2032.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The RFI will remain open for responses until 3 p.m. EST, Monday, Nov. 30.",
+     "source": 1,
+     "quote": "The Request for Information is available online and will remain open for responses until 3 p.m. EST, Monday, Nov. 30.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+     "published": "Fri, 30 Oct 2026 14:51:21 +0000",
+     "published_iso": "2026-10-30T14:51:21+00:00",
+     "kind": "primary",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622",
+     "published": "Fri, 30 Oct 2026 14:00:00 +0000",
+     "published_iso": "2026-10-30T14:00:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622"
+   ],
+   "primary": [
+    {
+     "url": "https://sam.gov/workspace/contract/opp/2ecd9dbf4a3946b4968cc0ebaa75d0b3/view",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://sam.gov/workspace/contract/opp/2ecd9dbf4a3946b4968cc0ebaa75d0b3/view"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Situation Publishing, nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor: Number 34 in 2033-34 is not explicitly in the sources (sources state 2033 to 2034)"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-30-ancient-martian-meteorite-teghaza-001-analyzed-for-crust-for-ae416",
+   "date": "2026-10-30",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Ancient Martian Meteorite Teghaza 001 Analyzed for Crust Formation Clues",
+   "in_brief": "Scientists examined a slice of the Martian meteorite Teghaza 001 to identify minerals that record Mars’ early crust and mantle development. The analysis also shows impact‑generated shocked plagioclase and Earth‑based alteration minerals.",
+   "so_what": "Teghaza 001 is among the oldest Martian rocks recovered on Earth, providing a rare window into the Red Planet’s formative years. By mapping iron‑titanium oxides, pyroxene and shocked plagioclase, researchers can infer the composition and pressure conditions of early Martian crust and mantle, improving models of planetary differentiation. The presence of fine‑grain carbonates, sulfates and clays indicates chemical alteration after the meteorite landed, offering insight into how Martian material interacts with Earth’s environment. Ongoing studies will compare these findings with data from Mars rovers and orbiters to refine timelines of volcanic activity and impact history on Mars.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific reporting",
+   "claims": [
+    {
+     "claim": "Teghaza 001 is one of the most ancient Martian meteorites ever found on Earth.",
+     "source": 1,
+     "quote": "one of the most ancient Martian meteorites ever found on Earth",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The slice was used to determine the age of the rock.",
+     "source": 1,
+     "quote": "was used to determine the age of the rock",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Shocked plagioclase in the sample was created by extreme pressures during impacts, including the one that sent the meteorite to Earth.",
+     "source": 1,
+     "quote": "Shocked plagioclase (darker gray) is created by extreme pressures during impacts, including the one that sent Teghaza 001 flying through space to Earth",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The alteration layer contains fine‑grain carbonate, sulfate and clay minerals formed on Earth.",
+     "source": 1,
+     "quote": "The alteration represents fine grain carbonate, sulfate and clay minerals formed on Earth",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
+     "published": "Thu, 29 Oct 2026 23:32:35 +0000",
+     "published_iso": "2026-10-29T23:32:35+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+    "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-10-30-polygon-labs-extends-open-money-stack-stablecoin-payments-pl-cc57d",
+   "date": "2026-10-30",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Polygon Labs extends Open Money Stack stablecoin payments platform to Solana",
+   "in_brief": "Polygon Labs announced the expansion of its Open Money Stack to the Solana network, offering a single‑connection solution for stablecoin payments. The move aims to simplify crypto‑to‑bank flows and taps Solana’s growing payments activity.",
+   "so_what": "By bringing its Open Money Stack to Solana, Polygon Labs provides businesses on both networks a unified gateway to move money between bank accounts, cards, cash and crypto, reducing the need for multiple providers. The integration could accelerate adoption of stablecoin‑based cross‑border payments, especially as Solana has already handled over $5 trillion in stablecoin volume this year. Early adopters such as cross‑border payments firm Kira are using the stack to convert stablecoin transfers into fiat payouts, illustrating a practical use case. Observers will watch how the partnership influences the broader crypto payments ecosystem and whether other platforms follow suit.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Polygon Labs expanded its Open Money Stack to Solana",
+     "source": 1,
+     "quote": "Polygon Labs is extending its stablecoin payments infrastructure to Solana, giving businesses on the rival network a single connection to pull money in from bank accounts, move crypto across chains, and pay out to customers and suppliers worldwide.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Open Money Stack consolidates multiple providers into one technical connection and commercial relationship",
+     "source": 1,
+     "quote": "Open Money Stack collapses that into one technical connection and one commercial relationship, with businesses free to adopt the whole thing or mix individual pieces into their existing systems.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Solana processed more than $5 trillion in stablecoin volume this year",
+     "source": 1,
+     "quote": "The move reflects Solana’s growing pull as a payments venue, having processed more than $5 trillion in stablecoin volume this year, per the Solana Foundation.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana",
+     "published": "Thu, 29 Oct 2026 13:01:02 +0000",
+     "published_iso": "2026-10-29T13:01:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+     "published": "Thu, 29 Oct 2026 16:35:43 +0000",
+     "published_iso": "2026-10-29T16:35:43+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+    "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-29-polygon-labs-expands-open-money-stack-to-solana-for-unified-f0b58",
+    "date": "2026-10-29",
+    "label": "Developing",
+    "score": 46
+   }
+  },
+  {
+   "id": "2026-10-30-fed-keeps-policy-rate-unchanged-at-3-75-4-ahead-of-midterm-e-fff6e",
+   "date": "2026-10-30",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Fed Keeps Policy Rate Unchanged at 3.75%-4% Ahead of Midterm Elections",
+   "in_brief": "The Federal Reserve left its target range for the federal funds rate at 3.75%‑4%. The decision comes ahead of the upcoming midterm elections as the central bank takes a wait-and-see approach.",
+   "so_what": "Holding rates steady highlights a cautious approach amid persistent inflation pressures. While most policymakers (10 of 12) voted to maintain the current range, two members advocated a quarter‑point hike, underscoring internal debate. Inflation remains above the Fed’s 2% target and above 3% for much of the year. Market participants will watch forthcoming economic data and future meetings for clues on the path of interest rates.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The Federal Reserve kept its target range for the federal funds rate at 3.75%‑4%",
+     "source": 1,
+     "quote": "The US Federal Reserve has held interest rates steady at 3.75% - 4%.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Ten of the twelve committee members voted to keep rates unchanged while two voted for a hike",
+     "source": 1,
+     "quote": "While 10 of the 12 committee members voted to keep rates unchanged, Governor Lisa Cook and Cleveland Fed President Beth Hammack voted to increase rates to 4%-4.25%, from its current 3.75%-4%.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The US economy grew 3.4% annualised in the three months to September, faster than expected",
+     "source": 1,
+     "quote": "The US economy grew by 3.4% on an annualised basis in the three months to September, stronger than analysts had expected.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Inflation has remained above the Fed’s 2% target and above 3% for most of the year",
+     "source": 2,
+     "quote": "Inflation has hovered for years above the Fed’s target rate of 2%, and for most of this year, the annualized inflation rate has remained above 3%.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Two Fed board members voted against the pause, preferring a quarter‑point rate increase",
+     "source": 2,
+     "quote": "Two out of 12 board members voted against the pause, preferring to raise rates by a quarter point this meeting",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+     "published": "Thu, 29 Oct 2026 17:15:05 GMT",
+     "published_iso": "2026-10-29T17:15:05+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+     "published": "Wed, 28 Oct 2026 19:26:41 GMT",
+     "published_iso": "2026-10-28T19:26:41+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: BBC, Guardian Media Group"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Included specific date 'Oct. 24, 2026' and GDP growth figure '3.4%' which are not supported by the provided source texts."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-28-fed-holds-rates-steady-ahead-of-midterms-594d4",
+    "date": "2026-10-28",
+    "label": "Well-sourced",
+    "score": 57
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 603,
+  "stories_considered": 16,
+  "published": 10,
+  "outlets": 38
+ }
+}
