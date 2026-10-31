@@ -1,0 +1,167 @@
+[
+ {
+  "section": "threat",
+  "title": "Binance investigates $6.3 billion crypto theft linked to compromised engineer laptop",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Anthropic Claude Code VS Code extension backdoored on Cursor marketplace",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 6
+ },
+ {
+  "section": "threat",
+  "title": "Trezor warns of possible hardware implant in Safe 5 wallets sold by CryptoBilis",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "NASA seeks commercial proposals to extend Hubble’s orbital life",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Included unsupported number 1990",
+   "editor: Included malformed number 21434 (typo for 2033-2034)",
+   "editor: Included unsupported numbers like 202 km",
+   "editor: Factual errors in the draft prose regarding launch year and orbital metrics not in the strict source verification."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google AI search changes dent Alphabet value and Reddit traffic",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "DoorDash reports only a few hundred AI‑agent orders amid near‑billion total Q3 deliveries",
+  "verdict": "PUBLISH",
+  "truth": 35,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Patrick Stewart, famed as Captain Picard, dies at 86",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA Announces MAX POWER Aerospace Expo at Kennedy Space Center for Nov. 6-8",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: In_brief mentions 'autonomous vehicles' and 'air-show activities, meet-the-astronaut sessions' which are not explicitly supported by the provided source text snippet (source cuts off before detailing those specific activities, though it mentions 'variety of external collaborators will showcase the newest aircraft, autonomous vehicles, technologies' - wait, autonomous vehicles ARE in source 1). Let's check source 1: 'showcase the newest aircraft, autonomous vehicles, technologies'. But 'air-show activities, meet-the-astronaut sessions' - source mentions 'air show' and 'meet leadership, astronauts, engineers'. However, so_what contains speculation and hype ('observers will watch how the showcased technologies influence...', 'potentially shaping future policy and funding decisions').",
+   "editor: So_what contains analytical speculation and forward-looking commentary that goes beyond direct reporting of the source facts."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Best Buy adds $100 gift card to touchscreen MacBook Pro preorders",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft contains unverified or speculative claims in so_what (e.g., impact on traffic, observer speculation) not strictly backed by sources.",
+   "editor: What_to_do contains slightly speculative or generic procedural advice not fully derived from the source text beyond checking the cart."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Data breach and cyber‑attacks reported in October 2026",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Scammers Rapidly Recreate Fake Shopping Sites After Takedowns",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact check: No German law limits toilet flushes, claim tied to Russian disinformation",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "White House social media post featured AI-generated pumpkin image",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline incorrectly states the White House Halloween pumpkin image was AI-generated, but the source notes it was posted on the White House's official X and Facebook pages, making it a White House post even if AI-generated."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-Generated Video of Susan Dell Misrepresented as Real",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

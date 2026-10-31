@@ -207,5 +207,16 @@
   "from_score": 60,
   "to_score": 50,
   "note": "Rating changed from Well-sourced (60) to Developing (50) as new evidence came in."
+ },
+ {
+  "date": "2026-10-31",
+  "story_id": "2026-10-31-nasa-seeks-commercial-proposals-to-extend-hubble-s-orbital-l-84e90",
+  "prior_id": "2026-10-30-nasa-seeks-commercial-proposals-to-service-or-deorbit-hubble-1f1d0",
+  "headline": "NASA seeks commercial proposals to extend Hubble’s orbital life",
+  "from": "Well-sourced",
+  "to": "Confirmed",
+  "from_score": 73,
+  "to_score": 86,
+  "note": "Rating changed from Well-sourced (73) to Confirmed (86) as new evidence came in."
  }
 ]

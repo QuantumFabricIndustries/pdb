@@ -1,0 +1,1159 @@
+{
+ "date": "2026-10-31",
+ "built_at": "2026-10-31T17:50:48.692325+00:00",
+ "stories": [
+  {
+   "id": "2026-10-31-binance-investigates-6-3-billion-crypto-theft-linked-to-comp-59562",
+   "date": "2026-10-31",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Binance investigates $6.3 billion crypto theft linked to compromised engineer laptop",
+   "in_brief": "Binance reported a security incident that may have allowed attackers to withdraw roughly $6.3 billion from its hot wallets. The exchange says user funds are safe, has frozen about $3 billion and is working with law enforcement.",
+   "so_what": "The alleged theft, potentially the largest cryptocurrency heist on record, underscores the vulnerability of even the biggest exchanges to insider-related breaches. Binance attributes the breach to a compromised DevOps engineer’s laptop that gave attackers access to a service container, allowing unauthorized withdrawals. Stablecoin issuers Tether and Circle have frozen more than $2.3 billion of the stolen assets, and blockchain intelligence firms are tracking the flow of funds, linking the attack to the North Korean group TraderTraitor. Binance has paused withdrawals, revoked address authorizations, and pledged to cover all losses from its SAFU fund and company reserves. Users should remain vigilant for phishing scams that exploit the incident, while regulators may scrutinize exchange security practices and the effectiveness of industry-wide emergency funds.",
+   "what_to_do": "1. Access your Binance account only via the official website or app; avoid links in unsolicited messages. 2. Review recent transaction history and enable or reset two‑factor authentication. 3. Report any unexpected activity to Binance support through the official channel.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting with multiple sources",
+   "claims": [
+    {
+     "claim": "Approximately $6.3 billion in cryptocurrency was stolen from Binance.",
+     "source": 2,
+     "quote": "About $6.3 billion in cryptocurrency was stolen from Binance in what might be the biggest crypto hack in history.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The breach may have involved a compromised DevOps engineer’s laptop that gave attackers access to a service container.",
+     "source": 2,
+     "quote": "Binance’s initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Binance has frozen roughly $3 billion on‑chain with help from blockchain partners.",
+     "source": 2,
+     "quote": "Close to $3 billion has been frozen on-chain with help from blockchain partners, according to Binance.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Stablecoin issuers Tether and Circle froze more than $2.3 billion of the stolen assets.",
+     "source": 1,
+     "quote": "The suspected breach has already prompted stablecoin issuers Tether and Circle to freeze more than $2.3 billion in assets associated with the incident.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Binance says user funds are safe and will cover all losses from its SAFU fund and company funds.",
+     "source": 2,
+     "quote": "Binance will cover all losses from the SAFU fund and the company’s funds. User funds are safe.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+     "published": "Thu, 29 Oct 2026 18:45:23 -0400",
+     "published_iso": "2026-10-29T22:45:23+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
+     "published": "Fri, 30 Oct 2026 08:26:13 +0000",
+     "published_iso": "2026-10-30T08:26:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/10/binance-hit-by-largest-ever-crypto-theft-with-6-3-billion-stolen",
+     "published": "Fri, 30 Oct 2026 12:24:19 GMT",
+     "published_iso": "2026-10-30T12:24:19+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+    "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+    "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
+    "https://www.malwarebytes.com/blog/news/2026/10/binance-hit-by-largest-ever-crypto-theft-with-6-3-billion-stolen"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, helpnetsecurity.com, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-31-anthropic-claude-code-vs-code-extension-backdoored-on-cursor-816d4",
+   "date": "2026-10-31",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Anthropic Claude Code VS Code extension backdoored on Cursor marketplace",
+   "in_brief": "A malicious version of Anthropic’s Claude Code extension (v2.1.313) was published in Cursor’s VS Code marketplace for about 11 hours, potentially affecting up to 5,000 developers. The compromised extension attempts to install a persistent SSH backdoor that adds an attacker‑controlled key and opens a reverse tunnel to an external server.",
+   "so_what": "The incident demonstrates how supply‑chain attacks can compromise trusted developer tools, giving threat actors low‑level access to source code and potentially cloud credentials. Because Cursor extensions run with the same permissions as the IDE, the backdoor could read files, capture Git emails and other environment data, and maintain persistence across reboots on Windows, macOS and Linux. Although coding errors limited successful SSH activation on many systems, the attack still exposed sensitive information and highlighted the risk of automatic extension updates. Anthropic has not yet warned customers, and the method used to hijack the official Anthropic account remains unknown, underscoring the need for tighter control of distribution channels. Users should verify they are running the clean version (v2.1.314) and monitor for unauthorized SSH keys or unusual outbound connections.",
+   "what_to_do": "1. Update the Claude Code extension to version 2.1.314 or later immediately. 2. Disable automatic extension updates in Cursor until the source is verified. 3. Check your \"~/.ssh/authorized_keys\" file for unknown entries (e.g., a key labeled \"svc-telemetry\") and remove them.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "A malicious version of Anthropic’s Claude Code extension (v2.1.313) was distributed through Cursor’s marketplace, affecting at most 5,000 users",
+     "source": 1,
+     "quote": "The malicious version, 2.1.313, subsequently affected “at most 5,000 users,”",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The extension attempts to install a persistent SSH backdoor that adds an attacker‑controlled key and opens a reverse tunnel to 134.209.82.225",
+     "source": 2,
+     "quote": "Adds an attacker‑controlled SSH key and attempts to enable SSH access and establish a reverse tunnel",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Anthropic has not issued a public notice about the incident",
+     "source": 1,
+     "quote": "Anthropic has yet to issue public notice of the incident to customers",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+     "published": "Fri, 30 Oct 2026 21:09:54 +0000",
+     "published_iso": "2026-10-30T21:09:54+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+     "published": "Fri, 30 Oct 2026 10:36:54 -0400",
+     "published_iso": "2026-10-30T14:36:54+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+     "published": "Fri, 30 Oct 2026 17:27:00 +0100",
+     "published_iso": "2026-10-30T16:27:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+     "published": "Fri, 30 Oct 2026 14:25:47 +0530",
+     "published_iso": "2026-10-30T08:55:47+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+     "published": "Fri, 30 Oct 2026 11:15:26 +0000",
+     "published_iso": "2026-10-30T11:15:26+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+    "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+    "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+    "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+    "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+    "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+    "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Condé Nast, Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6,
+   "previously": {
+    "id": "2026-10-30-malicious-claude-code-vs-code-extension-distributed-via-curs-9e2c7",
+    "date": "2026-10-30",
+    "label": "Well-sourced",
+    "score": 70
+   }
+  },
+  {
+   "id": "2026-10-31-trezor-warns-of-possible-hardware-implant-in-safe-5-wallets-ba41a",
+   "date": "2026-10-31",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Trezor warns of possible hardware implant in Safe 5 wallets sold by CryptoBilis",
+   "in_brief": "Trezor has issued a warning after receiving a credible report that a Safe 5 hardware wallet bought from reseller CryptoBilis contained an extra circuit board that could transmit the recovery phrase. The company advises users to move funds to a new wallet and avoid using any device purchased from CryptoBilis since March 2026.",
+   "so_what": "The alert highlights a potential supply‑chain attack on cryptocurrency hardware wallets, a class of devices that many users rely on for securing private keys. While Trezor has not yet examined the device, the reported implant could read the screen and send the recovery phrase over a cellular network, exposing funds to theft. No losses have been reported for Trezor customers, but the incident follows a similar Ledger compromise involving the same reseller, raising concerns about the security of devices sold through CryptoBilis in Southeast Asia. Users should treat any wallet from this reseller as compromised until verified, and monitor further updates from Trezor as the investigation proceeds. The broader implication is a reminder that physical tampering can bypass software defenses, emphasizing the need for trusted supply chains and vigilant post‑purchase checks.",
+   "what_to_do": "1. If you own a Trezor Safe 5 (or any Trezor model) bought from CryptoBilis since March 2026, transfer all assets to a new wallet with a fresh recovery phrase. 2. Do not set up or use the potentially affected device; keep it sealed and contact Trezor Support for a replacement or voucher. 3. Verify the reseller name on your purchase receipt; if uncertain, treat the device as compromised and follow the above steps.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based warning without promotional language",
+   "claims": [
+    {
+     "claim": "Trezor received a credible report of a hardware implant in a Safe 5 wallet bought from CryptoBilis in August 2026.",
+     "source": 1,
+     "quote": "According to Trezor, the concerns arose after it received a report from an Indonesian user who purchased a Safe 5 device from CryptoBilis through Tokopedia in August 2026.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The alleged implant consists of an extra circuit board with a cellular module that can read the screen and transmit the recovery phrase.",
+     "source": 2,
+     "quote": "The board sits between the wallet's main board and its screen, with a cellular module and an antenna... it reads the screen, including the recovery phrase (Trezor calls it the wallet backup), and sends it out whenever the device is plugged in.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Trezor advises all users who bought any Trezor device from CryptoBilis since March 2026 to move funds to a new wallet with a new recovery phrase.",
+     "source": 3,
+     "quote": "Trezor urged anyone who bought one of its wallets from CryptoBilis from March 2026 onwards to move their funds to a newly created wallet with a new recovery phrase as soon as possible.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "No Trezor customer has reported loss of funds related to the alleged implant.",
+     "source": 1,
+     "quote": "Trezor says it is unaware of any funds being stolen as a result of a supply-chain attack.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Trezor stopped sales through CryptoBilis on October 9, 2026 and is restructuring its reseller network.",
+     "source": 1,
+     "quote": "In response to the Ledger incident, and before it had any indication it was impacted, Trezor immediately stopped device sales through CryptoBilis on October 9, 2026.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+     "published": "Fri, 30 Oct 2026 11:58:20 -0400",
+     "published_iso": "2026-10-30T15:58:20+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+     "published": "Fri, 30 Oct 2026 17:51:56 +0530",
+     "published_iso": "2026-10-30T12:21:56+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382216/trezor-warns-cryptobilis-buyers-after-report-of-hardware-implant-in-safe-5",
+     "published": "Fri, 30 Oct 2026 10:07:29 +0000",
+     "published_iso": "2026-10-30T10:07:29+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+    "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+    "https://decrypt.co/382216/trezor-warns-cryptobilis-buyers-after-report-of-hardware-implant-in-safe-5"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, decrypt.co, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "5 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-10-31-nasa-seeks-commercial-proposals-to-extend-hubble-s-orbital-l-84e90",
+   "date": "2026-10-31",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "NASA seeks commercial proposals to extend Hubble’s orbital life",
+   "in_brief": "",
+   "so_what": "Hubble has been a cornerstone of modern astronomy, delivering discoveries that have reshaped our view of the cosmos. Its orbit is decaying because it lacks propulsion, and analyses predict an uncontrolled re‑entry in the 2033 to 2034 timeframe if no action is taken. By soliciting commercial ideas, NASA hopes to tap private sector capabilities that have matured in recent years. While NASA has not pledged funding, the RFI will reveal which firms believe they can meet the technical and cost thresholds. The response deadline is November 30.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward government RFI",
+   "claims": [
+    {
+     "claim": "NASA issued a Request for Information on Oct 29 to explore commercial options for boosting, servicing or disposing of Hubble",
+     "source": 1,
+     "quote": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Hubble is expected to re‑enter Earth’s atmosphere in the 2033‑2034 timeframe if no action is taken",
+     "source": 1,
+     "quote": "analysis predicts Hubble is likely to re-enter the atmosphere in the 2033 to 2034 timeframe",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA does not commit to purchasing a rescue mission, but wants cost and capability information from industry",
+     "source": 2,
+     "quote": "NASA is not committing to buying a Hubble rescue mission, but officials want to ... how much it would cost",
+     "status": "verified",
+     "corroborated_by": [
+      "nasa.gov"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+     "published": "Fri, 30 Oct 2026 14:51:21 +0000",
+     "published_iso": "2026-10-30T14:51:21+00:00",
+     "kind": "primary",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+     "published": "Sat, 31 Oct 2026 00:07:22 +0000",
+     "published_iso": "2026-10-31T00:07:22+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622",
+     "published": "Fri, 30 Oct 2026 14:00:00 +0000",
+     "published_iso": "2026-10-30T14:00:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622",
+    "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+   ],
+   "primary": [
+    {
+     "url": "https://sam.gov/workspace/contract/opp/2ecd9dbf4a3946b4968cc0ebaa75d0b3/view",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://sam.gov/workspace/contract/opp/2ecd9dbf4a3946b4968cc0ebaa75d0b3/view"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 86,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Situation Publishing, nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Included unsupported number 1990",
+     "editor: Included malformed number 21434 (typo for 2033-2034)",
+     "editor: Included unsupported numbers like 202 km",
+     "editor: Factual errors in the draft prose regarding launch year and orbital metrics not in the strict source verification."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-30-nasa-seeks-commercial-proposals-to-service-or-deorbit-hubble-1f1d0",
+    "date": "2026-10-30",
+    "label": "Well-sourced",
+    "score": 73
+   }
+  },
+  {
+   "id": "2026-10-31-google-ai-search-changes-dent-alphabet-value-and-reddit-traf-62dc8",
+   "date": "2026-10-31",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google AI search changes dent Alphabet value and Reddit traffic",
+   "in_brief": "Alphabet’s market value fell by over $500 bn after its AI‑driven search summaries cut ad revenue, and Reddit’s shares dropped about 30% as its CEO warned that Google’s AI search is slashing referral traffic. Both illustrate the growing impact of AI features on major internet businesses.",
+   "so_what": "Alphabet’s $500 bn market‑value loss underscores how its own AI‑enhanced search mode is cannibalising the ad slots that have long funded the company’s profitability, prompting investors to question the balance between AI investment and core revenue streams. At the same time, Reddit, which built much of its audience through Google referrals, saw its stock tumble 30% after its chief executive linked a sharp decline in search‑driven visits to Google’s AI Overviews and AI Mode, which deliver answers directly in the search page. The platform’s Q3 revenue still rose 53% to $895 million, but a weaker Q4 outlook and a dip in U.S. daily active users raise concerns about sustained growth. Watching how Google refines its AI search features and whether Reddit can shift more users to logged‑in, higher‑value engagement will be key for investors and advertisers alike.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced factual reporting",
+   "claims": [
+    {
+     "claim": "Alphabet lost just over $500bn in market value after AI summaries hit ad revenue",
+     "source": 1,
+     "quote": "Google-owner Alphabet lost just over $500bn (£374bn) in value on Thursday after it revealed its own artificial intelligence (AI) summaries were hitting search advertising revenue.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Reddit shares fell about 30% after CEO warned Google AI search is cutting traffic",
+     "source": 3,
+     "quote": "Reddit shares plunged 30.44% to $90.15 on Friday after CEO Steve Huffman warned that Google's AI-powered search features are cutting referral traffic and could shrink the platform's user base.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Reddit CEO said Google search referral traffic dropped meaningfully due to AI mode and overviews",
+     "source": 2,
+     "quote": "search referral traffic ... went \"down meaningfully in this quarter\" due to the \"shift to AI mode and AI overviews.\"",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Reddit Q3 revenue rose 53% to $895m but Q4 forecast $1‑1.03bn, below expectations",
+     "source": 3,
+     "quote": "Revenue climbed 53% year over year to $895 million... Reddit forecast fourth-quarter revenue of $1 billion to $1.03 billion, below the roughly $1.05 billion analysts expected.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [3]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+     "published": "Fri, 30 Oct 2026 12:04:02 GMT",
+     "published_iso": "2026-10-30T12:04:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+     "published": "Fri, 30 Oct 2026 00:28:45 GMT",
+     "published_iso": "2026-10-30T00:28:45+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search",
+     "published": "Fri, 30 Oct 2026 19:31:02 +0000",
+     "published_iso": "2026-10-30T19:31:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+     "published": "Fri, 30 Oct 2026 07:33:00 +0000",
+     "published_iso": "2026-10-30T07:33:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+    "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search",
+    "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+    "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",
+    "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+    "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: BBC, Comcast, Situation Publishing, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      2,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-10-31-doordash-reports-only-a-few-hundred-ai-agent-orders-amid-nea-28724",
+   "date": "2026-10-31",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "DoorDash reports only a few hundred AI‑agent orders amid near‑billion total Q3 deliveries",
+   "in_brief": "DoorDash said AI agents placed only several hundred orders in the third quarter of 2026, a tiny fraction of the roughly 1 billion orders the platform handled. The company’s new Model Context Protocol connector, released less than a month ago, is currently limited to a small group of early beta partners.",
+   "so_what": "The modest uptake of AI‑agent ordering highlights that, despite industry hype, consumers still prefer direct interaction with food‑delivery apps for routine purchases. DoorDash’s CEO Tony Xu described the current volume as a \"very low use case\" compared with the platform’s overall scale, suggesting that AI agents have yet to prove valuable for simple tasks like ordering meals. The recent launch of the Model Context Protocol aims to simplify integration for third‑party agents, but its early‑beta status limits broader adoption. Observers will watch whether expanded access and corporate‑lunch use cases can boost agent‑driven orders, and if competitors such as Amazon or Walmart adopt differing policies toward AI agents, potentially reshaping the market.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "DoorDash reported only several hundred orders from AI agents in the third quarter of 2026",
+     "source": 1,
+     "quote": "AI agents are generating several hundred orders [on DoorDash] across the time that they’ve been up and running.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "DoorDash’s Model Context Protocol connector was launched less than a month ago and is limited to early beta partners",
+     "source": 1,
+     "quote": "DoorDash only rolled out its Model Context Protocol (MCP) connector less than a month ago...still only available to a small number of “early beta partners”",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "DoorDash handled just shy of 1 billion orders in Q3 2026",
+     "source": 1,
+     "quote": "a company that handled just shy of 1 billion orders total in the third quarter of 2026 alone.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+     "published": "Fri, 30 Oct 2026 19:30:52 +0000",
+     "published_iso": "2026-10-30T19:30:52+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+     "published": "Fri, 30 Oct 2026 13:54:25 +0000",
+     "published_iso": "2026-10-30T13:54:25+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+    "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 35,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-31-patrick-stewart-famed-as-captain-picard-dies-at-86-705ff",
+   "date": "2026-10-31",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Patrick Stewart, famed as Captain Picard, dies at 86",
+   "in_brief": "Actor Sir Patrick Stewart died on 28 October 2026 at age 86. His death prompted tributes from scientists who credit his Star Trek role for shaping their leadership style.",
+   "so_what": "Stewart’s passing marks the loss of a cultural figure whose portrayal of Captain Jean‑Luc Picard has become a touchstone for many in the scientific community. Researchers such as Sarah Bickerton of the University of Auckland and NASA flight systems engineer Tracy Drain have cited Picard’s inclusive decision‑making and calm leadership as models for their own work, illustrating how popular media can influence professional norms. The widespread social‑media response underscores the broader impact of fictional leaders on real‑world practices, suggesting that future portrayals may continue to shape attitudes in science and technology. Observers will watch how institutions and educators reference Stewart’s legacy in discussions of leadership and ethics moving forward.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "His representatives said he died at his Los Angeles home after a brief journey with Alzheimer’s Disease and Lewy Body Dementia.",
+     "source": 2,
+     "quote": "We announce with great sorrow the passing of Sir Patrick Stewart yesterday at his home in Los Angeles, ... following a brief and poignant journey with Alzheimer’s Disease and Lewy Body Dementia.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Scientists say Captain Picard’s leadership style influenced their own approaches.",
+     "source": 1,
+     "quote": "For many scientists, Captain Picard exemplified the qualities of a good scientific leader.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Patrick Stewart died on 28 October 2026 at age 86.",
+     "source": 1,
+     "quote": "Stewart, who died on 28 October aged 86, portrayed Picard in Star Trek: The Next Generation...",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03543-9",
+     "published": "2026-10-30",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/",
+     "published": "Fri, 30 Oct 2026 22:21:05 +0000",
+     "published_iso": "2026-10-30T22:21:05+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03543-9",
+    "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03543-9",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-10-31-nasa-announces-max-power-aerospace-expo-at-kennedy-space-cen-16c63",
+   "date": "2026-10-31",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA Announces MAX POWER Aerospace Expo at Kennedy Space Center for Nov. 6-8",
+   "in_brief": "NASA announced key events for the MAX POWER aerospace expo and air show, scheduled for Nov. 6-8 near the Kennedy Space Center in Florida, featuring aircraft, autonomous vehicles, and a news conference on the agency's Moon Base.",
+   "so_what": "MAX POWER brings together NASA and external collaborators to showcase emerging aerospace technologies, including the quiet supersonic X-59 plane and Moon rovers. The event includes a dedicated news conference on NASA's lunar South Pole Moon Base, providing updates on long-term lunar exploration plans.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward event announcement",
+   "claims": [
+    {
+     "claim": "NASA’s MAX POWER expo will run from Friday, Nov. 6, through Sunday, Nov. 8, near the Kennedy Space Center in Florida.",
+     "source": 1,
+     "quote": "MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA will display its quiet supersonic X‑59 plane at the expo.",
+     "source": 1,
+     "quote": "NASA will display its quiet supersonic X-59 plane, and agency partners will showcase Moon rovers, spacecraft, and more.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A news conference on Nov. 7 at 5 p.m. will provide an update on NASA’s Moon Base near the lunar South Pole.",
+     "source": 1,
+     "quote": "NASA also will share multiple news updates during the weekend, including hosting a news conference at 5 p.m. on Nov. 7, to provide its latest Moon Base update.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+     "published": "Fri, 30 Oct 2026 19:31:02 +0000",
+     "published_iso": "2026-10-30T19:31:02+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: In_brief mentions 'autonomous vehicles' and 'air-show activities, meet-the-astronaut sessions' which are not explicitly supported by the provided source text snippet (source cuts off before detailing those specific activities, though it mentions 'variety of external collaborators will showcase the newest aircraft, autonomous vehicles, technologies' - wait, autonomous vehicles ARE in source 1). Let's check source 1: 'showcase the newest aircraft, autonomous vehicles, technologies'. But 'air-show activities, meet-the-astronaut sessions' - source mentions 'air show' and 'meet leadership, astronauts, engineers'. However, so_what contains speculation and hype ('observers will watch how the showcased technologies influence...', 'potentially shaping future policy and funding decisions').",
+     "editor: So_what contains analytical speculation and forward-looking commentary that goes beyond direct reporting of the source facts."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 500,
+  "stories_considered": 14,
+  "published": 8,
+  "outlets": 38
+ }
+}

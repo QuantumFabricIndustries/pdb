@@ -4874,5 +4874,115 @@
    "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
    "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
   ]
+ },
+ {
+  "id": "2026-10-31-binance-investigates-6-3-billion-crypto-theft-linked-to-comp-59562",
+  "date": "2026-10-31",
+  "section": "threat",
+  "headline": "Binance investigates $6.3 billion crypto theft linked to compromised engineer laptop",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+   "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+   "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
+   "https://www.malwarebytes.com/blog/news/2026/10/binance-hit-by-largest-ever-crypto-theft-with-6-3-billion-stolen"
+  ]
+ },
+ {
+  "id": "2026-10-31-anthropic-claude-code-vs-code-extension-backdoored-on-cursor-816d4",
+  "date": "2026-10-31",
+  "section": "threat",
+  "headline": "Anthropic Claude Code VS Code extension backdoored on Cursor marketplace",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+   "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+   "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+   "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+   "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
+  ]
+ },
+ {
+  "id": "2026-10-31-trezor-warns-of-possible-hardware-implant-in-safe-5-wallets-ba41a",
+  "date": "2026-10-31",
+  "section": "threat",
+  "headline": "Trezor warns of possible hardware implant in Safe 5 wallets sold by CryptoBilis",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+   "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+   "https://decrypt.co/382216/trezor-warns-cryptobilis-buyers-after-report-of-hardware-implant-in-safe-5"
+  ]
+ },
+ {
+  "id": "2026-10-31-nasa-seeks-commercial-proposals-to-extend-hubble-s-orbital-l-84e90",
+  "date": "2026-10-31",
+  "section": "ai",
+  "headline": "NASA seeks commercial proposals to extend Hubble’s orbital life",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+   "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622",
+   "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+  ]
+ },
+ {
+  "id": "2026-10-31-google-ai-search-changes-dent-alphabet-value-and-reddit-traf-62dc8",
+  "date": "2026-10-31",
+  "section": "ai",
+  "headline": "Google AI search changes dent Alphabet value and Reddit traffic",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+   "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search",
+   "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+   "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",
+   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+   "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html"
+  ]
+ },
+ {
+  "id": "2026-10-31-doordash-reports-only-a-few-hundred-ai-agent-orders-amid-nea-28724",
+  "date": "2026-10-31",
+  "section": "ai",
+  "headline": "DoorDash reports only a few hundred AI‑agent orders amid near‑billion total Q3 deliveries",
+  "label": "Developing",
+  "score": 35,
+  "also_covered_urls": [
+   "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+   "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
+  ]
+ },
+ {
+  "id": "2026-10-31-patrick-stewart-famed-as-captain-picard-dies-at-86-705ff",
+  "date": "2026-10-31",
+  "section": "science",
+  "headline": "Patrick Stewart, famed as Captain Picard, dies at 86",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03543-9",
+   "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/"
+  ]
+ },
+ {
+  "id": "2026-10-31-nasa-announces-max-power-aerospace-expo-at-kennedy-space-cen-16c63",
+  "date": "2026-10-31",
+  "section": "science",
+  "headline": "NASA Announces MAX POWER Aerospace Expo at Kennedy Space Center for Nov. 6-8",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/"
+  ]
  }
 ]
