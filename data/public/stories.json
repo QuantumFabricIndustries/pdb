@@ -4984,5 +4984,103 @@
   "also_covered_urls": [
    "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/"
   ]
+ },
+ {
+  "id": "2026-11-01-north-korean-group-tradertraitor-linked-to-6-3bn-binance-hac-0f887",
+  "date": "2026-11-01",
+  "section": "threat",
+  "headline": "North Korean group TraderTraitor linked to $6.3bn Binance hack",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+   "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+   "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
+  ]
+ },
+ {
+  "id": "2026-11-01-binance-resumes-crypto-withdrawals-after-6-3-billion-hack-883ca",
+  "date": "2026-11-01",
+  "section": "threat",
+  "headline": "Binance resumes crypto withdrawals after $6.3 billion hack",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+   "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+   "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
+  ]
+ },
+ {
+  "id": "2026-11-01-chainalysis-reports-breach-of-internal-tools-via-ai-driven-o-f7a94",
+  "date": "2026-11-01",
+  "section": "threat",
+  "headline": "Chainalysis reports breach of internal tools via AI‑driven “offensive agentic” methods",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html"
+  ]
+ },
+ {
+  "id": "2026-11-01-leaked-data-enables-playable-version-of-valve-s-canceled-por-3d080",
+  "date": "2026-11-01",
+  "section": "ai",
+  "headline": "Leaked Data Enables Playable Version of Valve's Canceled Portal Prequel F‑Stop",
+  "label": "Developing",
+  "score": 54,
+  "also_covered_urls": [
+   "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+   "https://www.engadget.com/2303446/all-the-leaks-for-the-portal-prequel-f-stop-have-been-compiled-into-a-playable-game/"
+  ]
+ },
+ {
+  "id": "2026-11-01-federal-judge-lets-naacp-air-pollution-suit-against-xai-proc-211a1",
+  "date": "2026-11-01",
+  "section": "ai",
+  "headline": "Federal Judge Lets NAACP Air‑Pollution Suit Against xAI Proceed",
+  "label": "Developing",
+  "score": 54,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+   "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+  ]
+ },
+ {
+  "id": "2026-11-01-intel-shares-tumble-28-as-weaker-outlook-wipes-12-billion-fr-8dff4",
+  "date": "2026-11-01",
+  "section": "ai",
+  "headline": "Intel shares tumble 28% as weaker outlook wipes $12 billion from U.S. stake",
+  "label": "Developing",
+  "score": 37,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+   "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+  ]
+ },
+ {
+  "id": "2026-11-01-actor-sir-patrick-stewart-dies-at-86-after-brief-illness-d7614",
+  "date": "2026-11-01",
+  "section": "science",
+  "headline": "Actor Sir Patrick Stewart dies at 86 after brief illness",
+  "label": "Well-sourced",
+  "score": 74,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03543-9",
+   "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/"
+  ]
+ },
+ {
+  "id": "2026-11-01-nasa-apod-highlights-decade-of-moon-color-variations-a5b26",
+  "date": "2026-11-01",
+  "section": "science",
+  "headline": "NASA APOD Highlights Decade of Moon Color Variations",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+   "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/"
+  ]
  }
 ]

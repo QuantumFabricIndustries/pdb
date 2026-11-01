@@ -1,0 +1,1037 @@
+{
+ "date": "2026-11-01",
+ "built_at": "2026-11-01T18:29:54.440183+00:00",
+ "stories": [
+  {
+   "id": "2026-11-01-north-korean-group-tradertraitor-linked-to-6-3bn-binance-hac-0f887",
+   "date": "2026-11-01",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "North Korean group TraderTraitor linked to $6.3bn Binance hack",
+   "in_brief": "A $6.3 billion cryptocurrency theft from Binance was attributed by the FBI and blockchain analysts to the North Korean hacking unit TraderTraitor. The breach involved unauthorized access to Binance’s hot‑wallet signing system and prompted a temporary freeze of withdrawals.",
+   "so_what": "The attribution of the largest crypto theft on record to a state‑backed North Korean group underscores the growing financial motivations of nation‑state cyber actors. By targeting a hot wallet—a wallet that is continuously online for transaction processing—TraderTraitor was able to move funds quickly across multiple blockchains, primarily converting them to Ethereum for further laundering via DeFi services. The incident highlights the vulnerability of centralized exchanges that rely on internet‑connected signing infrastructure and the challenges regulators face in tracing and recovering illicit crypto assets. Ongoing investigations by the FBI, USSS, and IRS‑CI aim to track the laundering chain, while Binance has resumed limited withdrawals after implementing additional security checks. Stakeholders should monitor further disclosures about the compromised signing keys and any additional wallet addresses linked to the laundering operation.",
+   "what_to_do": "- Verify that your exchange or wallet software is updated to the latest security patches.\n- Review and rotate any API keys or hot‑wallet signing credentials.\n- Enable multi‑factor authentication on all crypto‑related accounts.",
+   "hype_flag": "low",
+   "hype_reason": "facts from multiple independent sources",
+   "claims": [
+    {
+     "claim": "The FBI officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea‑aligned hacking group.",
+     "source": 3,
+     "quote": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Blockchain analytics firms TRM Labs and Chainalysis identified the Lazarus Group/TraderTraitor with high confidence as the likely perpetrators.",
+     "source": 1,
+     "quote": "The Lazarus Group, a North Korean hacking unit also known as TraderTraitor, was identified \"with high confidence\" by TRM Labs, as well as Chainalysis.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The attackers accessed Binance’s hot‑wallet signing system, allowing automatic fund transfers to attacker‑controlled addresses.",
+     "source": 1,
+     "quote": "In this most recent heist, North Korean agents are accused of using a special authorisation to turn a Binance hot wallet, which is connected to the internet, into one that moved funds automatically to the attacker.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+     "published": "Sat, 31 Oct 2026 02:12:19 GMT",
+     "published_iso": "2026-10-31T02:12:19+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+     "published": "2026-11-01T09:33:11-05:00",
+     "published_iso": "2026-11-01T14:33:11+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+     "published": "Sun, 01 Nov 2026 12:33:00 +0530",
+     "published_iso": "2026-11-01T07:03:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+    "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+    "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Vox Media, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-10-30-north-korean-hacking-group-linked-to-record-binance-breach-e-e6afb",
+    "date": "2026-10-30",
+    "label": "Well-sourced",
+    "score": 72
+   }
+  },
+  {
+   "id": "2026-11-01-binance-resumes-crypto-withdrawals-after-6-3-billion-hack-883ca",
+   "date": "2026-11-01",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Binance resumes crypto withdrawals after $6.3 billion hack",
+   "in_brief": "Binance has begun phased withdrawals of Bitcoin, Ethereum and BNB Smart Chain following a theft of roughly $6.3 billion from its hot wallets. The exchange says it has covered between 90% and 95% of the lost assets and the FBI attributes the attack to North Korean actors.",
+   "so_what": "The breach represents a massive cryptocurrency theft, prompting Binance to freeze deposits and withdrawals while it worked to contain the loss and assess security. By covering the vast majority of the stolen assets, Binance aims to protect users from financial loss. The FBI’s attribution to North Korean hackers highlights the security challenges in the crypto sector. Binance will continue buying back less‑liquid tokens to reach full coverage and plans to publish a detailed incident report once its investigation concludes. Stakeholders should monitor Binance’s security updates and asset recovery progress.",
+   "what_to_do": "1. Verify that your Binance account has the latest security settings, including two‑factor authentication. 2. Review recent withdrawal activity and report any unauthorized transactions to Binance support. 3. Keep software and devices used for crypto trading up to date with security patches.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Binance resumed withdrawals of Bitcoin, Ethereum and BNB Smart Chain after the hack",
+     "source": 1,
+     "quote": "Binance said Sunday that it has resumed withdrawals of bitcoin and other cryptocurrencies following the record theft... It later said withdrawals have also been restored for the Ethereum Network and BNB Smart Chain.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Binance has covered up to 90% of the stolen assets",
+     "source": 1,
+     "quote": "The exchange said Saturday that it has covered up to 90% of the assets in the heist announced Thursday.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The FBI attributed the theft to North Korean actors",
+     "source": 1,
+     "quote": "Separately, the FBI said late Saturday that it has determined North Korea was responsible for the theft.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+     "published": "Sun, 01 Nov 2026 12:19:33 GMT",
+     "published_iso": "2026-11-01T12:19:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+     "published": "Sun, 01 Nov 2026 16:20:10 +0000",
+     "published_iso": "2026-11-01T16:20:10+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+     "published": "Sun, 01 Nov 2026 10:35:42 +0000",
+     "published_iso": "2026-11-01T10:35:42+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+    "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+    "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
+   ],
+   "primary": [
+    {
+     "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+    }
+   ],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Yahoo, coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Source 2 mentions Binance covered 95% of stolen assets while Source 1 says 90%, but the draft used 90% without nuance. Also need to ensure attribution of North Korean hackers follows source claims."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-01-chainalysis-reports-breach-of-internal-tools-via-ai-driven-o-f7a94",
+   "date": "2026-11-01",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Chainalysis reports breach of internal tools via AI‑driven “offensive agentic” methods",
+   "in_brief": "Chainalysis disclosed that attackers used AI‑driven “offensive agentic techniques” to access its internal systems and tools, exposing customer names, emails, user IDs and role labels. The firm says no investigation data or authentication credentials were compromised and is urging users to enable 2FA.",
+   "so_what": "The breach highlights the emerging risk of AI‑powered cyber attacks that can autonomously locate and exploit vulnerabilities, a trend noted across multiple industries. While the exposed information is limited to non‑sensitive identifiers, it could still facilitate phishing or social engineering against cryptocurrency firms and law‑enforcement partners that rely on Chainalysis. The incident underscores the need for organizations to adopt stronger authentication, regularly patch systems, and monitor for anomalous account activity. Observers will watch how Chainalysis’s remediation—particularly its use of large language models for security reviews—affects industry standards for AI‑related threat detection and response.",
+   "what_to_do": "1. Enable two‑factor authentication on all Chainalysis accounts. 2. Monitor for unexpected password reset emails or authentication prompts. 3. Apply security patches promptly and review access logs for unusual activity.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Chainalysis disclosed a security incident after attackers used \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools.",
+     "source": 1,
+     "quote": "Chainalysis has disclosed a security incident after attackers used what it describes as \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The accessed data included user IDs, full names, email addresses, and organizational role labels, with no evidence of investigation content or credentials being exposed.",
+     "source": 1,
+     "quote": "The accessed data includes user IDs, full names, email addresses, and organizational role labels for users provisioned on the platform.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Chainalysis is patching vulnerabilities, hardening its systems and advises customers to enable two‑factor authentication and watch for unexpected password reset requests.",
+     "source": 1,
+     "quote": "Customers are advised to enable two-factor authentication (2FA) and watch for unexpected password reset requests, authentication prompts, and scammers impersonating Chainalysis.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+     "published": "Sat, 31 Oct 2026 08:50:09 -0400",
+     "published_iso": "2026-10-31T12:50:09+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+     "published": "Sat, 31 Oct 2026 17:31:56 +0530",
+     "published_iso": "2026-10-31T12:01:56+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+    "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 55,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-01-leaked-data-enables-playable-version-of-valve-s-canceled-por-3d080",
+   "date": "2026-11-01",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Leaked Data Enables Playable Version of Valve's Canceled Portal Prequel F‑Stop",
+   "in_brief": "Leakers have assembled a near‑complete, playable build of the canceled Portal prequel F‑Stop using assets from a 12‑terabyte leak and recent source code releases. The community‑compiled version runs the full campaign despite missing some textures and dialogue.",
+   "so_what": "The emergence of a playable build of F‑Stop offers fans and researchers a rare glimpse into Valve's experimental game design from 2007, a period when the company split into five teams for short‑term projects. While the game was never officially released, elements of its camera‑capture mechanic have influenced later titles, and the leak demonstrates how large‑scale data breaches can resurrect lost media. Observers should watch for further community efforts to fill remaining gaps, potential legal actions by Valve, and any statements from the company regarding the distribution of its unreleased code. The situation also highlights broader concerns about the security of proprietary game assets and the impact of extensive data leaks on the industry.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Leakers have pieced together a playable version of the canceled Portal prequel F‑Stop.",
+     "source": 1,
+     "quote": "Leakers have pieced together a playable version of the canceled Portal prequel F-Stop.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The game's source code and map data were posted to the Valve Cut Content Discord this week, enabling a near‑complete build.",
+     "source": 1,
+     "quote": "those final pieces apparently hit the Valve Cut Content Discord this week, allowing a nearly complete version to be pieced together.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The compiled version is still missing textures and dialogue but is largely stable.",
+     "source": 2,
+     "quote": "the game is still missing textures and dialogue but is largely stable.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+     "published": "2026-11-01T11:19:21-05:00",
+     "published_iso": "2026-11-01T16:19:21+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2303446/all-the-leaks-for-the-portal-prequel-f-stop-have-been-compiled-into-a-playable-game/",
+     "published": "Sun, 01 Nov 2026 17:54:34 +0000",
+     "published_iso": "2026-11-01T17:54:34+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+    "https://www.engadget.com/2303446/all-the-leaks-for-the-portal-prequel-f-stop-have-been-compiled-into-a-playable-game/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 54,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-01-federal-judge-lets-naacp-air-pollution-suit-against-xai-proc-211a1",
+   "date": "2026-11-01",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Federal Judge Lets NAACP Air‑Pollution Suit Against xAI Proceed",
+   "in_brief": "A federal judge denied xAI's motion to dismiss the NAACP‑backed lawsuit alleging illegal operation of gas turbines at its data center operations. The decision allows the Clean Air Act case to move forward in federal court.",
+   "so_what": "The ruling upholds the NAACP’s standing to sue under the Clean Air Act, reinforcing community‑group rights to challenge industrial emissions. The lawsuit claims xAI's subsidiary installed dozens of gas‑fired turbines without required permits, potentially exposing nearby residents to pollutants. As public scrutiny of data‑center emissions grows, the case highlights judicial rejection of arguments that such turbines are 'mobile' and exempt from regulation.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "A federal judge denied xAI's motion to dismiss the NAACP lawsuit, allowing the case to proceed.",
+     "source": 2,
+     "quote": "Judge allows NAACP lawsuit over xAI data center pollution to move forward.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The lawsuit alleges xAI installed and operated at least 35 combustion turbines at the Colossus site without required air permits.",
+     "source": 2,
+     "quote": "installed and operated at least 35 combustion turbines and other sources of air pollution at the Colossus site without ever obtaining the necessary preconstruction or operating air permits.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The judge found the plaintiffs have statutory standing under the Clean Air Act and that the turbines are not “mobile sources” under Mississippi’s SIP.",
+     "source": 1,
+     "quote": "Because the plaintiffs have statutory standing under the Clean Air Act, because the combustion turbines are not 'mobile sources' under Mississippi's SIP, and because the citizen suit provision does not violate Article II of the Constitution or the private nondelegation doctrine, the plaintiffs' claims will proceed.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+     "published": "Sat, 31 Oct 2026 20:12:37 GMT",
+     "published_iso": "2026-10-31T20:12:37+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+     "published": "Sat, 31 Oct 2026 21:17:03 +0000",
+     "published_iso": "2026-10-31T21:17:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+    "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 54,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Comcast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Headline refers to SpaceXAI instead of xAI/SpaceX as used in the sources, and misstates the location of the court/suit details slightly.",
+     "editor: So_what section includes speculation ('could influence permitting practices') and references to DOJ that conflate the DOJ's involvement (source mentions DOJ request was rejected, but context implies DOJ was on the defense side or separate motion). Let's clean up."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-01-intel-shares-tumble-28-as-weaker-outlook-wipes-12-billion-fr-8dff4",
+   "date": "2026-11-01",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Intel shares tumble 28% as weaker outlook wipes $12 billion from U.S. stake",
+   "in_brief": "Intel’s stock fell about 28% on Friday, its steepest drop since the 1970s, after the company issued a softer‑than‑expected fourth‑quarter forecast. The slide erased roughly $12 billion from the value of the U.S. government’s 10% holding in the chipmaker.",
+   "so_what": "The plunge underscores how closely Intel’s fortunes are tied to broader market expectations for PC demand and AI‑related spending. A slowdown in PC shipments, driven by higher memory costs, has pressured earnings forecasts, prompting investors to reassess valuations that had surged earlier in the year. The U.S. government, which took a 10% stake in Intel in 2025, now faces a substantial paper loss, though the investment remains profitable overall. Analysts had expected fourth‑quarter revenue of $17.1 billion and earnings per share of 43 cents, but Intel guided to $15‑16 billion and 25 cents, widening the gap between expectations and outlook. Watching upcoming earnings reports and any updates on Intel’s new fab capacity, especially the Arizona plant slated for later operation, will be key for investors and policymakers alike.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The drop removed roughly $12 billion from the value of the U.S. government’s 10% stake in Intel",
+     "source": 1,
+     "quote": "the value of those holdings dropped by about $12 billion on Friday",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Intel forecast fourth‑quarter revenue of $15‑16 billion and earnings per share of 25 cents, below analysts’ expectations of $17.1 billion and 43 cents",
+     "source": 1,
+     "quote": "Intel said it expects adjusted earnings per share of 25 cents this quarter on revenue between $15 billion and $16 billion. Analysts were expecting revenue of $17.1 billion and EPS of 43 cents",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Intel shares fell about 28% on Friday, its worst day since the 1970s",
+     "source": 1,
+     "quote": "Intel shares plummeted 29% on Friday, their worst day since the 1970s",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 28"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+     "published": "Fri, 30 Oct 2026 20:30:57 GMT",
+     "published_iso": "2026-10-30T20:30:57+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+     "published": "Fri, 30 Oct 2026 21:54:34 +0000",
+     "published_iso": "2026-10-30T21:54:34+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+    "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 37,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Comcast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-01-actor-sir-patrick-stewart-dies-at-86-after-brief-illness-d7614",
+   "date": "2026-11-01",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Actor Sir Patrick Stewart dies at 86 after brief illness",
+   "in_brief": "Sir Patrick Stewart, famed for his role as Captain Jean‑Luc Picard, died on Wednesday at age 86. His death was announced by his representatives, citing Alzheimer’s disease and Lewy body dementia as the cause.",
+   "so_what": "Stewart’s passing marks the loss of one of the most recognizable figures in modern science‑fiction and superhero cinema. His portrayal of Captain Picard helped shape the cultural perception of space exploration and inspired many current scientists and engineers, while his role as Professor X contributed to broader conversations about disability and leadership. The announcement, released by his representatives, underscores the personal impact of neurodegenerative diseases, reminding the public of the importance of research and support for affected families. As tributes flow from colleagues and fans worldwide, the entertainment industry will likely honor his legacy through retrospectives and charitable initiatives linked to dementia awareness.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual obituary",
+   "claims": [
+    {
+     "claim": "Sir Patrick Stewart died on Wednesday at the age of 86.",
+     "source": 2,
+     "quote": "we at Ars are mourning Sir Patrick Stewart—the beloved award-winning actor ... who died Wednesday at the age of 86.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "His representatives said he died after a brief journey with Alzheimer’s disease and Lewy body dementia.",
+     "source": 2,
+     "quote": "We announce with great sorrow the passing of Sir Patrick Stewart yesterday ... following a brief and poignant journey with Alzheimer’s Disease and Lewy Body Dementia.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Stewart was born in Yorkshire, England, in 1940.",
+     "source": 2,
+     "quote": "Born in Yorkshire, England, in 1940, the acting bug bit Stewart at the age of 12...",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03543-9",
+     "published": "2026-10-30",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/",
+     "published": "Fri, 30 Oct 2026 22:21:05 +0000",
+     "published_iso": "2026-10-30T22:21:05+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03543-9",
+    "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03543-9",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 74,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-31-patrick-stewart-famed-as-captain-picard-dies-at-86-705ff",
+    "date": "2026-10-31",
+    "label": "Well-sourced",
+    "score": 61
+   }
+  },
+  {
+   "id": "2026-11-01-nasa-apod-highlights-decade-of-moon-color-variations-a5b26",
+   "date": "2026-11-01",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA APOD Highlights Decade of Moon Color Variations",
+   "in_brief": "NASA’s Astronomy Picture of the Day for 1 November 2026 features a collage of Moon colors captured over ten years in Italy. The post explains how atmospheric conditions produce red, yellow, blue and purple lunar hues.",
+   "so_what": "Understanding the Moon’s apparent colors helps scientists and the public gauge atmospheric composition and dust levels on Earth. Red or yellow tones typically occur when the Moon is low on the horizon, where shorter‑wavelength blue light is scattered out by a longer atmospheric path. Rare blue appearances suggest larger dust particles suspended in the air, while the cause of occasional purple hues remains uncertain. The featured image also includes the 2018 July total lunar eclipse, when the Moon turned a faint red as sunlight was refracted through Earth’s atmosphere. Tracking such variations can inform climate monitoring and public awareness of atmospheric phenomena.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "The image compiles ten years of Moon color photographs taken across Italy.",
+     "source": 1,
+     "quote": "The featured image highlights a collection of apparent colors of the full moon on Earth, documented by one astrophotographer over 10 years from different locations across Italy.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Red or yellow Moon colors indicate the Moon is near the horizon, where blue light is scattered away.",
+     "source": 1,
+     "quote": "A red- or yellow-colored moon usually indicates a moon seen near the horizon. There, some of the blue light has been scattered away by a long path through the Earth's atmosphere.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A blue Moon is rare and can indicate an atmosphere carrying larger dust particles.",
+     "source": 1,
+     "quote": "A blue-colored moon is more rare and can indicate an atmosphere carrying larger dust particles.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The 2018 July total lunar eclipse showed the Moon as a faint red due to atmospheric refraction.",
+     "source": 1,
+     "quote": "The last image captures the total lunar eclipse of 2018 July -- where the moon, in Earth's shadow, appeared a faint red -- due to light refracted through air around the Earth.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "NASA published an Astronomy Picture of the Day on 1 November 2026 featuring Moon colors.",
+     "source": 1,
+     "quote": "NASA (owner: nasa.gov) — published Sun, 01 Nov 2026 04:05:00 +0000 APOD: 2026 November 1 – Colors of the Moon.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+     "published": "Sun, 01 Nov 2026 04:05:00 +0000",
+     "published_iso": "2026-11-01T04:05:00+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+    "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.mtu.edu/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.mtu.edu/"
+    },
+    {
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      20,
+      25,
+      "4 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 316,
+  "stories_considered": 11,
+  "published": 8,
+  "outlets": 31
+ }
+}

@@ -1,0 +1,122 @@
+[
+ {
+  "section": "threat",
+  "title": "North Korean group TraderTraitor linked to $6.3bn Binance hack",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Binance resumes crypto withdrawals after $6.3 billion hack",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source 2 mentions Binance covered 95% of stolen assets while Source 1 says 90%, but the draft used 90% without nuance. Also need to ensure attribution of North Korean hackers follows source claims."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Chainalysis reports breach of internal tools via AI‑driven “offensive agentic” methods",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Leaked Data Enables Playable Version of Valve's Canceled Portal Prequel F‑Stop",
+  "verdict": "PUBLISH",
+  "truth": 54,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Federal Judge Lets NAACP Air‑Pollution Suit Against xAI Proceed",
+  "verdict": "PUBLISH",
+  "truth": 54,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Headline refers to SpaceXAI instead of xAI/SpaceX as used in the sources, and misstates the location of the court/suit details slightly.",
+   "editor: So_what section includes speculation ('could influence permitting practices') and references to DOJ that conflate the DOJ's involvement (source mentions DOJ request was rejected, but context implies DOJ was on the defense side or separate motion). Let's clean up."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Intel shares tumble 28% as weaker outlook wipes $12 billion from U.S. stake",
+  "verdict": "PUBLISH",
+  "truth": 37,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Actor Sir Patrick Stewart dies at 86 after brief illness",
+  "verdict": "PUBLISH",
+  "truth": 74,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA APOD Highlights Decade of Moon Color Variations",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Critical LXD and MicroCloud Flaw Allows Client Impersonation",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Scammers exploit stolen birth dates to impersonate victims",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: No German ‘Eco‑Sanitation Act’ Limiting Toilet Flushes",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
