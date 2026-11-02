@@ -218,5 +218,16 @@
   "from_score": 73,
   "to_score": 86,
   "note": "Rating changed from Well-sourced (73) to Confirmed (86) as new evidence came in."
+ },
+ {
+  "date": "2026-11-02",
+  "story_id": "2026-11-02-fbi-attributes-6-3-billion-binance-hack-to-north-korean-grou-3aeab",
+  "prior_id": "2026-11-01-north-korean-group-tradertraitor-linked-to-6-3bn-binance-hac-0f887",
+  "headline": "FBI attributes $6.3 billion Binance hack to North Korean group TraderTraitor",
+  "from": "Well-sourced",
+  "to": "Confirmed",
+  "from_score": 58,
+  "to_score": 85,
+  "note": "Rating changed from Well-sourced (58) to Confirmed (85) as new evidence came in."
  }
 ]

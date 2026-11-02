@@ -5082,5 +5082,149 @@
    "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
    "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/"
   ]
+ },
+ {
+  "id": "2026-11-02-google-dismantles-xcpe-botnet-infecting-1-3-million-android-5a5fb",
+  "date": "2026-11-02",
+  "section": "threat",
+  "headline": "Google dismantles XCPE botnet infecting 1.3 million Android TV boxes",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+   "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
+   "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+   "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/",
+   "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+   "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045"
+  ]
+ },
+ {
+  "id": "2026-11-02-ivanti-releases-patches-for-two-newly-exploited-connect-secu-e990d",
+  "date": "2026-11-02",
+  "section": "threat",
+  "headline": "Ivanti releases patches for two newly exploited Connect Secure zero‑days",
+  "label": "Confirmed",
+  "score": 93,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+   "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+   "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/"
+  ]
+ },
+ {
+  "id": "2026-11-02-absolute-security-acquires-firmguard-to-expand-uefi-bios-fir-55872",
+  "date": "2026-11-02",
+  "section": "threat",
+  "headline": "Absolute Security acquires FirmGuard to expand UEFI BIOS firmware protection",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
+   "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
+  ]
+ },
+ {
+  "id": "2026-11-02-openai-to-merge-chat-and-work-tabs-in-chatgpt-and-share-usag-89e00",
+  "date": "2026-11-02",
+  "section": "ai",
+  "headline": "OpenAI to merge Chat and Work tabs in ChatGPT and share usage allowances",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+   "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+   "https://www.zdnet.com/innovation/openai-merge-chatgpt-chat-work-tabs/"
+  ]
+ },
+ {
+  "id": "2026-11-02-nytimes-and-other-publishers-sue-brave-over-alleged-ai-scrap-4ec5c",
+  "date": "2026-11-02",
+  "section": "ai",
+  "headline": "NYTimes and other publishers sue Brave over alleged AI scraping and paywall bypass",
+  "label": "Developing",
+  "score": 54,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+   "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+  ]
+ },
+ {
+  "id": "2026-11-02-ford-pledges-not-to-sell-driver-data-after-gm-settlement-d8813",
+  "date": "2026-11-02",
+  "section": "ai",
+  "headline": "Ford pledges not to sell driver data after GM settlement",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://www.theverge.com/transportation/1024386/ford-customer-driving-data-privacy-promise-data-brokers",
+   "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/"
+  ]
+ },
+ {
+  "id": "2026-11-02-hubble-study-finds-most-oxygen-missing-from-nearby-dwarf-gal-21294",
+  "date": "2026-11-02",
+  "section": "science",
+  "headline": "Hubble Study Finds Most Oxygen Missing from Nearby Dwarf Galaxies",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+   "https://phys.org/news/2026-11-stars-oxygen-small-galaxies.html"
+  ]
+ },
+ {
+  "id": "2026-11-02-nasa-johnson-space-center-marks-65-years-of-human-spacefligh-90b5b",
+  "date": "2026-11-02",
+  "section": "science",
+  "headline": "NASA Johnson Space Center marks 65 years of human spaceflight leadership",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/"
+  ]
+ },
+ {
+  "id": "2026-11-02-btcpay-server-urges-shutdown-of-outdated-instances-after-hot-ee3e2",
+  "date": "2026-11-02",
+  "section": "money",
+  "headline": "BTCPay Server urges shutdown of outdated instances after hot‑wallet theft reports",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+   "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+   "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports"
+  ]
+ },
+ {
+  "id": "2026-11-02-twelve-companies-including-nvidia-and-nike-object-to-okx-ice-90957",
+  "date": "2026-11-02",
+  "section": "money",
+  "headline": "Twelve Companies Including Nvidia and Nike Object to OKX‑ICE Tokenized Stock Venue",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
+   "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
+   "https://decrypt.co/382348/nvidia-nike-biggest-wave-yet-tokenized-stock-objections"
+  ]
+ },
+ {
+  "id": "2026-11-02-fbi-attributes-6-3-billion-binance-hack-to-north-korean-grou-3aeab",
+  "date": "2026-11-02",
+  "section": "scam",
+  "headline": "FBI attributes $6.3 billion Binance hack to North Korean group TraderTraitor",
+  "label": "Confirmed",
+  "score": 85,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+   "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+   "https://www.theregister.com/security/2026/11/02/fbi-pins-63b-binance-crypto-heist-on-north-korean-hackers/5306889",
+   "https://www.theregister.com/security/2026/11/02/fbi-pins-63b-binance-crypto-heist-on-north-korean-hackers/5306889",
+   "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "https://www.helpnetsecurity.com/2026/11/02/fbi-north-korea-binance-hack/",
+   "https://www.coindesk.com/tech/2026/11/02/no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds-through-thousands-of-wallets"
+  ]
  }
 ]

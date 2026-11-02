@@ -1,0 +1,1517 @@
+{
+ "date": "2026-11-02",
+ "built_at": "2026-11-02T22:24:38.019960+00:00",
+ "stories": [
+  {
+   "id": "2026-11-02-google-dismantles-xcpe-botnet-infecting-1-3-million-android-5a5fb",
+   "date": "2026-11-02",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Google dismantles XCPE botnet infecting 1.3 million Android TV boxes",
+   "in_brief": "Google and partners took down command‑and‑control servers for the XCPE malware that was built into over 1.3 million Android TV set‑top boxes. The takedown also cuts off access to at least 10 million other compromised devices.",
+   "so_what": "The botnet was created by Shenzhen‑based Videostrong Technology, which embedded a persistent backdoor (x.cpe) into device firmware during manufacturing. The compromised boxes were used for ad fraud, residential proxy services and further malware distribution, giving attackers system‑level control without owners' knowledge. By disabling the C2 infrastructure and banning Videostrong from producing certified Android devices, Google aims to stop the current operation and close the supply‑chain gap that allowed the malware to be pre‑installed. The action also highlights the risk of firmware‑level threats in IoT devices and the need for stricter manufacturer review processes. Watch for further updates on whether additional device families are found infected and how Google’s tightened firmware integrity checks affect future Android TV certifications.",
+   "what_to_do": "1. Update the TV box firmware through the official manufacturer channel if available. 2. Reset the device to factory settings and reinstall only trusted apps. 3. For IT admins, block outbound traffic to unknown C2 domains and monitor network for unusual proxy activity.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting from multiple reputable sources",
+   "claims": [
+    {
+     "claim": "More than 1.3 million Android TV set‑top boxes were infected with the XCPE backdoor.",
+     "source": 1,
+     "quote": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker... consisting of more than 1.3 million Android TV streaming TV boxes",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Google attributes the backdoor to Videostrong Technology Co with high confidence.",
+     "source": 1,
+     "quote": "\"We assess with high confidence that the backdoor and botnet were intentionally developed, deployed, and operated for financial gain by Videostrong Technology Co.\"",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The takedown is expected to cut off access to at least 10 million additional compromised devices.",
+     "source": 2,
+     "quote": "we assess that taking down their C2 domains will sever access to at least 10 million additional compromised devices.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The backdoor runs as a system app with Android system‑level privileges and disables Google Play Protect.",
+     "source": 4,
+     "quote": "The x.cpe backdoor runs as a system app inside the firmware, with system-level access... it first turns off the app checks in Google Play Protect",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Google has banned Videostrong and any future affiliates from building or selling certified Android devices.",
+     "source": 4,
+     "quote": "Google has cut ties with Videostrong. It banned the company, and any future subsidiaries or affiliates, from building or selling certified Android devices",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "bleepingcomputer.com",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+     "published": "Mon, 02 Nov 2026 13:16:34 -0500",
+     "published_iso": "2026-11-02T18:16:34+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
+     "published": "2026-11-02T15:37:49-05:00",
+     "published_iso": "2026-11-02T20:37:49+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+     "published": "Mon, 02 Nov 2026 20:03:31 +0100",
+     "published_iso": "2026-11-02T19:03:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+     "published": "Mon, 02 Nov 2026 21:20:26 +0530",
+     "published_iso": "2026-11-02T15:50:26+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/",
+     "published": "Mon, 02 Nov 2026 15:50:46 +0000",
+     "published_iso": "2026-11-02T15:50:46+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+    "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
+    "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+    "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/",
+    "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+    "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, Vox Media, bleepingcomputer.com, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "5 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-02-ivanti-releases-patches-for-two-newly-exploited-connect-secu-e990d",
+   "date": "2026-11-02",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Ivanti releases patches for two newly exploited Connect Secure zero‑days",
+   "in_brief": "Ivanti issued updates for CVE‑2026‑111357 and CVE‑2026‑118527, which were being chained with CVE‑2026‑104935 in active attacks. CISA added the two flaws to its Known Exploited Vulnerabilities catalog and set remediation deadlines for federal agencies.",
+   "so_what": "The three vulnerabilities affect Ivanti Connect Secure (ICS) SSL VPN appliances, a common remote‑access point for enterprises. Attackers, identified as the UTA0576 group, have been chaining the flaws to achieve unauthenticated root‑level code execution, even on devices that had already been patched for CVE‑2026‑104935. This demonstrates the danger of multi‑vector exploit chains and the need for rapid, comprehensive patching. Federal agencies now have specific deadlines—November 2 for CVE‑2026‑111357 and November 13 for CVE‑2026‑118527—under CISA’s KEV mandate, and they must also conduct forensic triage to detect possible compromise. Organizations should verify they are running the updated versions (25.1.1.3 or later, 22.8R2.6 or later), monitor for indicators of compromise, and rotate any credentials that may have been exposed.",
+   "what_to_do": "1. Apply Ivanti’s latest Connect Secure updates (versions 25.1.1.3 and 22.8R2.6 or newer). 2. Perform forensic triage and log preservation before rebooting any appliance. 3. Rotate credentials that could have been accessed, especially VPN and AD service accounts.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Ivanti released patches for CVE‑2026‑111357 and CVE‑2026‑118527, which were being chained with CVE‑2026‑104935 in active attacks",
+     "source": 1,
+     "quote": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "CISA added the two newly disclosed vulnerabilities to its Known Exploited Vulnerabilities catalog and set remediation deadlines for federal agencies",
+     "source": 2,
+     "quote": "CISA added the two newly disclosed vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog on Friday. Federal agencies were given until November 2 to address CVE-2026-111357 and until November 13 for CVE-2026-118527.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attacks gave unauthenticated root‑level code execution on fully patched devices and focused on credential theft and network scanning",
+     "source": 2,
+     "quote": "By chaining the three zero-days, the hackers obtained unauthenticated code execution with root privileges on an ICS appliance that was fully patched at the time. They primarily focused on stealing credentials, exfiltrating data, scanning the network and tampering with logs.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+     "published": "Mon, 02 Nov 2026 04:33:26 -0500",
+     "published_iso": "2026-11-02T09:33:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+     "published": "Mon, 02 Nov 2026 07:57:49 +0000",
+     "published_iso": "2026-11-02T07:57:49+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
+     "published": "Mon, 02 Nov 2026 15:58:08 +0000",
+     "published_iso": "2026-11-02T15:58:08+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+    "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+    "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-111357 — Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-118527 — Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111357",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-111357"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-118527",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-118527"
+    }
+   ],
+   "truth": {
+    "total": 93,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, helpnetsecurity.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-02-absolute-security-acquires-firmguard-to-expand-uefi-bios-fir-55872",
+   "date": "2026-11-02",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Absolute Security acquires FirmGuard to expand UEFI BIOS firmware protection",
+   "in_brief": "Absolute Security announced the acquisition of FirmGuard, a UEFI BIOS firmware security business, and will embed its technology into the Absolute Persistence platform. Meanwhile, tech companies continue advancing cybersecurity features in AI models, with Google announcing pre-release testing for its Gemini 4 Carbon model.",
+   "so_what": "The acquisition gives Absolute Security a foothold in low-level firmware security, an area that attackers increasingly target to gain persistent access to devices. By integrating FirmGuard’s UEFI protection with its existing persistence technology, Absolute aims to provide continuous firmware integrity monitoring, patching, and compliance enforcement across enterprise fleets. At the same time, AI developments such as Google's Gemini 4 Carbon highlight a growing focus on cybersecurity defense capabilities. Organizations should monitor how hardware-level safeguards and AI-driven tools evolve to shape vulnerability management.",
+   "what_to_do": "1. Apply the latest firmware updates from device manufacturers. 2. Enable any available continuous firmware integrity monitoring or patching features. 3. Review and adjust endpoint security policies to include firmware-level protection.",
+   "hype_flag": "low",
+   "hype_reason": "balanced factual reporting",
+   "claims": [
+    {
+     "claim": "Absolute Security acquired FirmGuard, the UEFI BIOS firmware security and management business of Phoenix Technologies.",
+     "source": 1,
+     "quote": "Endpoint security and cyber resilience firm Absolute Security has acquired FirmGuard, the UEFI BIOS firmware security and management business of Phoenix Technologies.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Absolute plans to integrate FirmGuard with its firmware‑embedded Absolute Persistence technology for continuous firmware integrity monitoring and patching.",
+     "source": 1,
+     "quote": "Absolute will integrate FirmGuard with its firmware-embedded Absolute Persistence technology, adding below-the-OS management, continuous firmware integrity monitoring and patching, and compliance enforcement.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Google’s Gemini 4 Carbon model is being tested with a focus on cybersecurity capabilities.",
+     "source": 2,
+     "quote": "Gemini 4 Carbon ... with state-of-the-art cybersecurity and long-horizon capabilities.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
+     "published": "Mon, 02 Nov 2026 15:01:11 +0000",
+     "published_iso": "2026-11-02T15:01:11+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Google AI Blog",
+     "owner": "Google",
+     "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+     "published": "Mon, 02 Nov 2026 17:45:00 +0000",
+     "published_iso": "2026-11-02T17:45:00+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
+    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Google, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Headline incorrectly links Absolute Security's acquisition directly to general AI security tool expansion without source support for that direct linkage.",
+     "editor: In_brief incorrectly states Google rolled out models with built-in capabilities (sources say Carbon is in pre-release testing with the US government and trusted cyber defenders, not globally rolled out with built-in capabilities)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-02-openai-to-merge-chat-and-work-tabs-in-chatgpt-and-share-usag-89e00",
+   "date": "2026-11-02",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI to merge Chat and Work tabs in ChatGPT and share usage allowances",
+   "in_brief": "OpenAI announced plans to combine the Chat and Work tabs in its ChatGPT desktop app, starting with a test group. Additionally, starting in December, usage allowances for ChatGPT and Codex will be unified, while Instant chat remains free of charge.",
+   "so_what": "The consolidation aims to simplify the user interface by letting users move from idea exploration to task execution without switching modes, as described by OpenAI. By sharing a single usage allowance across ChatGPT and Codex, token accounting will be unified, though more advanced models may consume the allowance faster. The rollout of the combined tabs will start with a limited group of users for feedback before expanding. The move follows a similar integration by rival Anthropic.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "routine product update",
+   "claims": [
+    {
+     "claim": "OpenAI will merge ChatGPT’s chat and work tabs starting in December",
+     "source": 3,
+     "quote": "OpenAI will merge ChatGPT’s chat and work tabs – here’s when, and what to expect.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The combined experience will be tested with a small group of users before wider rollout",
+     "source": 1,
+     "quote": "In an email seen by BleepingComputer, OpenAI noted that it will test a combined experience for Chat and Work tabs in the coming weeks, initially with a small group of users.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "ChatGPT and Codex will draw from the same usage allowance",
+     "source": 1,
+     "quote": "Your use of ChatGPT and Codex will draw from the same allowance,",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "Ziff Davis"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+     "published": "Sun, 01 Nov 2026 08:53:11 -0500",
+     "published_iso": "2026-11-01T13:53:11+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+     "published": "Mon, 02 Nov 2026 13:57:53 +0000",
+     "published_iso": "2026-11-02T13:57:53+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/innovation/openai-merge-chatgpt-chat-work-tabs/",
+     "published": "2026-11-02T18:01:55Z",
+     "published_iso": "2026-11-02T18:01:55+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+    "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+    "https://www.zdnet.com/innovation/openai-merge-chatgpt-chat-work-tabs/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Yahoo, Ziff Davis, bleepingcomputer.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft states the rollout is slated to begin in December for the tabs merger, but sources state the usage allowance sharing starts in December while the tabs merger is being tested with select users first (ZDNET/BleepingComputer)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-02-nytimes-and-other-publishers-sue-brave-over-alleged-ai-scrap-4ec5c",
+   "date": "2026-11-02",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "NYTimes and other publishers sue Brave over alleged AI scraping and paywall bypass",
+   "in_brief": "The New York Times, New York Daily News, Chicago Tribune and Orlando Sentinel have filed lawsuits accusing Brave of unlawfully scraping copyrighted content and enabling paywall bypass. The suits allege Brave supplied that content to major AI firms and built a massive web‑page index.",
+   "so_what": "The lawsuits target Brave's practice of collecting and redistributing news content without publisher permission, raising broader questions about how AI developers obtain training data and the enforceability of copyright in the digital age. If the courts grant injunctions or damages, it could force browsers and AI companies to alter data‑gathering methods, potentially limiting the breadth of information available to generative models. Publishers see the case as a way to protect revenue and control over their work, while the tech industry watches for precedent that may shape future AI training practices. Observers will monitor court filings for details on the alleged 30‑billion‑page index and any rulings on liability for platforms that facilitate both user access and AI data pipelines.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "The New York Times and a group of other publications have filed lawsuits against Brave over alleged unlawful scraping to train AI and allowing users to bypass paywalls.",
+     "source": 1,
+     "quote": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Brave allegedly provided stolen copyrighted content to AI companies including Anthropic, Perplexity, Mistral, xAI and Cohere.",
+     "source": 1,
+     "quote": "Brave has allegedly provided “stolen copyrighted content” to “many” AI companies including Anthropic, Perplexity, Mistral, xAI, and Cohere.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The suit says Brave built an index of more than 30 billion web pages using an unidentified crawler.",
+     "source": 2,
+     "quote": "It says Brave built an index of more than 30 billion web pages using an unidentified crawler, leaving publishers unable to block it.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+     "published": "2026-11-02T12:51:19-05:00",
+     "published_iso": "2026-11-02T17:51:19+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+     "published": "Mon, 02 Nov 2026 19:19:17 +0000",
+     "published_iso": "2026-11-02T19:19:17+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+    "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 54,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-02-ford-pledges-not-to-sell-driver-data-after-gm-settlement-d8813",
+   "date": "2026-11-02",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Ford pledges not to sell driver data after GM settlement",
+   "in_brief": "Ford announced a privacy promise that it will not sell customers' driving data to third‑party brokers and launched a website to let owners control data sharing. The move follows General Motors' $220 million settlement over illegal data sales and comes as automakers face scrutiny over connected‑car privacy.",
+   "so_what": "Ford’s commitment aims to differentiate it in an industry where most brands transmit vehicle data to external domains, and where regulators have recently penalized GM for selling driver and location information. By aggregating and anonymizing data while offering a clear settings portal, Ford seeks to build consumer trust, a factor highlighted by a survey of 1,000 U.S. adults in which 91% said data privacy is a key consideration. The promise also arrives amid broader concerns: a Mozilla report labeled connected cars the “worst category of products for privacy,” and only 14% of U.S. customers say they fully understand what data their vehicle collects. Observers will watch whether Ford’s policy translates into measurable reductions in data sharing and whether other manufacturers adopt similar pledges.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Ford pledged never to sell customer driving data to third‑party data brokers.",
+     "source": 1,
+     "quote": "Ford vowed to never sell customer driving data to third-party data brokers as part of a new privacy promise",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "General Motors agreed to pay $220 million to settle claims it illegally sold driver and location information to data brokers.",
+     "source": 1,
+     "quote": "The promise comes in the wake of General Motors agreeing to pay $220 million to settle claims that it illegally sold driver and location information to data brokers",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Ford launched a website to educate customers about data use and allow them to change sharing settings.",
+     "source": 2,
+     "quote": "Ford also launched a website designed to educate customers about how, where, and why the automaker uses their data, and to show them how to change those settings",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "In a survey of 1,000 consumers, 91% said data privacy was a key consideration for them.",
+     "source": 2,
+     "quote": "We did a survey of 1,000 consumers, and 91% of them said that data privacy was a key consideration for them",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/transportation/1024386/ford-customer-driving-data-privacy-promise-data-brokers",
+     "published": "2026-11-02T14:05:46-05:00",
+     "published_iso": "2026-11-02T19:05:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
+     "published": "Mon, 02 Nov 2026 11:00:00 +0000",
+     "published_iso": "2026-11-02T11:00:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/transportation/1024386/ford-customer-driving-data-privacy-promise-data-brokers",
+    "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-02-hubble-study-finds-most-oxygen-missing-from-nearby-dwarf-gal-21294",
+   "date": "2026-11-02",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Hubble Study Finds Most Oxygen Missing from Nearby Dwarf Galaxies",
+   "in_brief": "Researchers using NASA's Hubble Space Telescope examined 37 dwarf galaxies within 22 million light‑years and found they retain only a small fraction of the oxygen their stars produced. The shortfall suggests galactic winds eject oxygen more efficiently than current models anticipate.",
+   "so_what": "The discovery that dwarf galaxies keep just 4% to 25% of their stellar oxygen—averaging about 11%—challenges existing theories of how small galaxies evolve and distribute heavy elements. Oxygen serves as a proxy for many heavier elements, so its loss implies that a significant portion of a galaxy's metal budget may be expelled into the intergalactic medium. This has implications for models of chemical enrichment across the cosmos and for understanding the role of supernova‑driven winds in shaping galaxy growth. Future observations with the Nancy Grace Roman Space Telescope and refined simulations will test whether the observed wind efficiency applies broadly and how it influences the metal content of the universe.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific reporting",
+   "claims": [
+    {
+     "claim": "The study examined 37 nearby dwarf galaxies within about 22 million light‑years of Earth.",
+     "source": 2,
+     "quote": "Scientists ... studied 37 dwarf galaxies, which are much smaller than the Milky Way and considered to be nearby, within 22 million light-years of Earth.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "These galaxies retain only 4% to 25% of the oxygen their stars produced, averaging roughly 11%.",
+     "source": 2,
+     "quote": "The galaxies retained between 4% and 25% of the oxygen, with an average of about 11%.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Galactic winds driven by massive stars and supernovae appear to eject oxygen more effectively than current models predict.",
+     "source": 2,
+     "quote": "The findings suggest galactic winds, streams of gas driven outward by energy from massive stars and stellar explosions, remove oxygen more effectively than current computer models predict.",
+     "status": "verified",
+     "corroborated_by": [
+      "nasa.gov"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+     "published": "Mon, 02 Nov 2026 15:00:39 +0000",
+     "published_iso": "2026-11-02T15:00:39+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-stars-oxygen-small-galaxies.html",
+     "published": "Mon, 02 Nov 2026 15:00:02 EST",
+     "published_iso": "2026-11-02T20:00:02+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+    "https://phys.org/news/2026-11-stars-oxygen-small-galaxies.html"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.3847/1538-4357/ae93a6",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://doi.org/10.3847/1538-4357/ae93a6"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 76,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-02-nasa-johnson-space-center-marks-65-years-of-human-spacefligh-90b5b",
+   "date": "2026-11-02",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA Johnson Space Center marks 65 years of human spaceflight leadership",
+   "in_brief": "NASA’s Johnson Space Center celebrated its 65th anniversary, highlighting its evolution from the Manned Spacecraft Center founded in 1961 to today’s Center of Excellence for human spaceflight. The milestone underscores the center’s ongoing role in missions from low‑Earth orbit to lunar exploration.",
+   "so_what": "The anniversary reflects the center’s long‑standing contribution to U.S. space endeavors, from early Project Mercury flights to the current Artemis program and commercial low‑Earth‑orbit initiatives. As NASA’s hub for astronaut training, Mission Control, and the Orion and Moon Base programs, Johnson continues to shape the nation’s strategy for deep‑space exploration and crew health. Observers will watch how the center supports upcoming missions, including the next crewed lunar landing and the development of sustainable lunar habitats, which are central to NASA’s goal of extending human presence beyond Earth. The facility’s growth also signals continued investment in infrastructure and partnerships that could influence the commercial space sector and international collaboration.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual anniversary reporting",
+   "claims": [
+    {
+     "claim": "The center was established on Nov. 1, 1961 after NASA announced the new Manned Spacecraft Center on Sept. 19, 1961.",
+     "source": 1,
+     "quote": "The agency decided it needed a dedicated field center for human spaceflight and on Sept. 19, 1961, after evaluating multiple sites around the country, NASA announced that the new Manned Spacecraft Center would be built near Houston, Texas. The agency established the center on Nov. 1, 1961, and construction began in 1962.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "It was renamed Johnson Space Center in 1973 to honor President Lyndon B. Johnson.",
+     "source": 1,
+     "quote": "In 1973, it officially became NASA’s Lyndon B. Johnson Space Center in honor of President Johnson for his ardent support of America’s space program from its foundation.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Johnson serves as NASA’s Center of Excellence for Human Spaceflight and houses the astronaut corps and Mission Control.",
+     "source": 1,
+     "quote": "Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping to usher in a Golden Age of innovation and discovery. Johnson is home to America’s astronaut corps, the Mission Control Center, and the teams behind some of humanity’s greatest achievements in space.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The center supports programs ranging from International Space Station operations to the Moon Base and Orion programs.",
+     "source": 1,
+     "quote": "Houston is home to NASA’s Low Earth Orbit Program, comprising International Space Station operations and commercial partnerships... For missions beyond low Earth orbit, Johnson houses the Moon Base Program and Orion Program.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+     "published": "Mon, 02 Nov 2026 21:35:59 +0000",
+     "published_iso": "2026-11-02T21:35:59+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-02-btcpay-server-urges-shutdown-of-outdated-instances-after-hot-ee3e2",
+   "date": "2026-11-02",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "BTCPay Server urges shutdown of outdated instances after hot‑wallet theft reports",
+   "in_brief": "BTCPay Server warned operators to turn off self‑hosted nodes running version 2.4.1 or earlier after attackers drained hot wallets. The project released emergency update 2.4.7 and urged users to upgrade.",
+   "so_what": "The alerts highlight the risk inherent in self‑hosted cryptocurrency payment processors, where merchants control private keys on internet‑connected servers. An identified attack vector allowed threat actors to log in as administrators on older BTCPay versions, leading to unauthorized Bitcoin and Litecoin withdrawals. By urging immediate shutdowns and publishing a critical patch (version 2.4.7), BTCPay aims to contain the breach and prevent further losses. Merchants should verify they are not running vulnerable versions, apply the update, and monitor for any unauthorized activity. Ongoing investigation results will determine whether the exploited flaws were among those fixed by the emergency release, and whether additional mitigation steps will be required.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "BTCPay Server identified an attack vector targeting instances running version 2.4.1 (July 23 2026) or older.",
+     "source": 1,
+     "quote": "Our incident response investigation identified an attack vector targeting instances running versions 2.4.1 (Jul 23, 2026) or older",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The project urged operators to shut down their servers pending investigation.",
+     "source": 2,
+     "quote": "BTCPay Server urged operators to shut down their instances on Sunday after reports that attackers were sweeping hot wallets on servers running the software.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "BTCPay released emergency update version 2.4.7 on Thursday to fix critical and medium‑severity vulnerabilities.",
+     "source": 2,
+     "quote": "BTCPay released 2.4.7 on Thursday as an emergency update fixing one critical and several medium-severity vulnerabilities found by Anthropic's scanner.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+     "published": "Mon, 02 Nov 2026 10:03:07 -0500",
+     "published_iso": "2026-11-02T15:03:07+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports",
+     "published": "Mon, 02 Nov 2026 12:24:18 +0000",
+     "published_iso": "2026-11-02T12:24:18+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+     "published": "Mon, 02 Nov 2026 04:41:16 +0000",
+     "published_iso": "2026-11-02T04:41:16+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+    "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+    "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-02-twelve-companies-including-nvidia-and-nike-object-to-okx-ice-90957",
+   "date": "2026-11-02",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Twelve Companies Including Nvidia and Nike Object to OKX‑ICE Tokenized Stock Venue",
+   "in_brief": "Twelve firms, among them Nvidia, Costco and Nike, filed objections to having their shares tokenized on the OKX‑ICE platform, raising the total objections to 50. The objections trigger an SEC exemption that blocks the venue from listing those tokenized shares.",
+   "so_what": "The objections represent the largest single batch of companies rejecting tokenized versions of their stock, highlighting ongoing resistance from traditional issuers toward crypto‑based trading venues. Under the SEC’s innovation exemption, a written objection within 30 days prevents the venue from offering a third‑party tokenized version of the company’s shares, limiting OKX‑ICE’s ability to expand its tokenized‑stock offering. The growing list now spans technology, retail, cybersecurity, and energy sectors, suggesting broader industry caution about price transparency, trade reporting, and regulatory compliance. Observers will watch whether additional firms join the objection list and how the joint venture between Intercontinental Exchange and OKX adapts its model in response.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Twelve companies, including Nvidia, Costco and Nike, objected to trading of their shares on OKX‑ICE TSV, according to its Oct. 30 notice, the largest batch yet.",
+     "source": 1,
+     "quote": "Twelve more companies, including Nvidia, Costco and Nike, objected to trading of their shares on OKXICE TSV, according to its Oct. 30 notice, the largest batch yet.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The total number of objecting issuers has risen to 50 companies.",
+     "source": 1,
+     "quote": "The additions bring the total to 50 companies.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Under the SEC’s innovation exemption, a timely objection bars the venue from listing a third‑party tokenized version of a company’s stock.",
+     "source": 1,
+     "quote": "Under the SEC’s innovation exemption, a timely objection bars the venue from listing a third‑party tokenized version of a company",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382348/nvidia-nike-biggest-wave-yet-tokenized-stock-objections",
+     "published": "Mon, 02 Nov 2026 17:36:03 +0000",
+     "published_iso": "2026-11-02T17:36:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
+     "published": "Mon, 02 Nov 2026 16:41:46 +0000",
+     "published_iso": "2026-11-02T16:41:46+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
+    "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
+    "https://decrypt.co/382348/nvidia-nike-biggest-wave-yet-tokenized-stock-objections"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-02-fbi-attributes-6-3-billion-binance-hack-to-north-korean-grou-3aeab",
+   "date": "2026-11-02",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "FBI attributes $6.3 billion Binance hack to North Korean group TraderTraitor",
+   "in_brief": "The FBI confirmed that North Korean state‑sponsored hackers stole roughly $6.3 billion from Binance on Oct. 29, 2026, and listed 628 crypto addresses tied to the theft. The agency is urging crypto services to block transactions linked to those addresses to curb laundering.",
+   "so_what": "The attribution links the largest cryptocurrency theft on record to the North Korean hacking group TraderTraitor, also known as Lazarus, Jade Sleet, and APT38. By identifying 608 Ethereum, 19 Bitcoin and one Solana address, the FBI aims to disrupt the rapid conversion of stolen funds into Ethereum and their subsequent laundering through DeFi platforms and instant swap services. Binance has begun a phased resumption of withdrawals and says it will cover the loss, but the incident underscores the vulnerability of hot‑wallet infrastructures and the effectiveness of social‑engineering tactics such as fake job offers. Regulators and industry participants will watch for compliance with the FBI’s blocking request and for any further movement of the frozen assets, which could signal additional laundering attempts or successful interdiction.",
+   "what_to_do": "1. Verify any withdrawal request on Binance through official channels; avoid clicking links in unsolicited messages. 2. If you receive offers for crypto‑related jobs, confirm the recruiter’s identity before installing any software. 3. Monitor your accounts for unexpected activity and report suspicious transactions to your exchange and to law‑enforcement.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "The FBI confirmed that North Korean state‑sponsored hackers known as TraderTraitor were behind the $6.3 billion Binance theft on or about Oct. 29, 2026.",
+     "source": 1,
+     "quote": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The FBI published a list of 628 cryptocurrency addresses associated with the theft, including 608 Ethereum, 19 Bitcoin and one Solana address.",
+     "source": 1,
+     "quote": "The agency also published a list of 628 cryptocurrency addresses associated with the theft, including 608 Ethereum addresses, 19 Bitcoin addresses, and one Solana address.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The FBI, U.S. Secret Service and IRS Criminal Investigation are asking crypto services to block transactions linked to those addresses.",
+     "source": 2,
+     "quote": "Together with the Secret Service and IRS-CI, the FBI called on THORChain node operators, RPC node operators, instant exchanges, DeFi services and blockchain analytics firms to refuse transactions linked to these addresses.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+     "published": "Sun, 01 Nov 2026 14:57:53 -0500",
+     "published_iso": "2026-11-01T19:57:53+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+     "published": "Mon, 02 Nov 2026 08:40:36 +0000",
+     "published_iso": "2026-11-02T08:40:36+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/02/fbi-pins-63b-binance-crypto-heist-on-north-korean-hackers/5306889",
+     "published": "Mon, 02 Nov 2026 12:45:00 +0100",
+     "published_iso": "2026-11-02T11:45:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+     "published": "Sun, 01 Nov 2026 12:33:00 +0530",
+     "published_iso": "2026-11-01T07:03:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/02/fbi-north-korea-binance-hack/",
+     "published": "Mon, 02 Nov 2026 10:12:51 +0000",
+     "published_iso": "2026-11-02T10:12:51+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+    "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+    "https://www.theregister.com/security/2026/11/02/fbi-pins-63b-binance-crypto-heist-on-north-korean-hackers/5306889",
+    "https://www.theregister.com/security/2026/11/02/fbi-pins-63b-binance-crypto-heist-on-north-korean-hackers/5306889",
+    "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+    "https://www.helpnetsecurity.com/2026/11/02/fbi-north-korea-binance-hack/",
+    "https://www.coindesk.com/tech/2026/11/02/no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds-through-thousands-of-wallets"
+   ],
+   "primary": [
+    {
+     "url": "http://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+     "type": "related official record",
+     "verified": true,
+     "label": "http://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+    },
+    {
+     "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+    }
+   ],
+   "truth": {
+    "total": 85,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6,
+   "previously": {
+    "id": "2026-11-01-north-korean-group-tradertraitor-linked-to-6-3bn-binance-hac-0f887",
+    "date": "2026-11-01",
+    "label": "Well-sourced",
+    "score": 58
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 367,
+  "stories_considered": 13,
+  "published": 11,
+  "outlets": 37
+ }
+}
