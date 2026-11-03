@@ -5226,5 +5226,151 @@
    "https://www.helpnetsecurity.com/2026/11/02/fbi-north-korea-binance-hack/",
    "https://www.coindesk.com/tech/2026/11/02/no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds-through-thousands-of-wallets"
   ]
+ },
+ {
+  "id": "2026-11-03-google-dismantles-x-cpe-botnet-affecting-over-1-3-million-an-7b70d",
+  "date": "2026-11-03",
+  "section": "threat",
+  "headline": "Google dismantles X.CPE botnet affecting over 1.3 million Android TV boxes",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+   "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
+   "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+   "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+   "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+   "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+   "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+   "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+   "https://www.malwarebytes.com/blog/mobile/2026/11/a-hidden-backdoor-put-1-3-million-tv-boxes-to-work-for-criminals"
+  ]
+ },
+ {
+  "id": "2026-11-03-llmjacking-attacks-drive-up-to-1-million-in-fraudulent-cloud-5fd4f",
+  "date": "2026-11-03",
+  "section": "threat",
+  "headline": "LLMjacking attacks drive up to $1 million in fraudulent cloud charges",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+   "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/"
+  ]
+ },
+ {
+  "id": "2026-11-03-btcpay-server-urges-updates-after-hot-wallet-thefts-on-older-585b4",
+  "date": "2026-11-03",
+  "section": "threat",
+  "headline": "BTCPay Server urges updates after hot‑wallet thefts on older versions",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+   "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports"
+  ]
+ },
+ {
+  "id": "2026-11-03-google-to-disable-search-for-k-12-schools-that-block-its-ai-ded26",
+  "date": "2026-11-03",
+  "section": "ai",
+  "headline": "Google to disable Search for K‑12 schools that block its AI tools",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+   "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+   "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
+   "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html"
+  ]
+ },
+ {
+  "id": "2026-11-03-apple-launches-2026-ipad-mini-with-oled-screen-nano-texture-dcfc8",
+  "date": "2026-11-03",
+  "section": "ai",
+  "headline": "Apple launches 2026 iPad Mini with OLED screen, nano‑texture glass, and IP67 rating",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://www.wired.com/review/ipad-mini-2026/",
+   "https://www.engadget.com/2304616/apple-ipad-mini-a20-pro-review/"
+  ]
+ },
+ {
+  "id": "2026-11-03-netflix-launches-ai-powered-discover-tab-for-themed-recommen-7a578",
+  "date": "2026-11-03",
+  "section": "ai",
+  "headline": "Netflix launches AI‑powered “Discover” tab for themed recommendations",
+  "label": "Developing",
+  "score": 37,
+  "also_covered_urls": [
+   "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+   "https://www.engadget.com/2305778/netflix-thinks-ai-might-save-you-from-scrolling-aimlessly-for-something-to-watch/"
+  ]
+ },
+ {
+  "id": "2026-11-03-iss-crew-installs-new-solar-array-during-oct-29-spacewalk-3ab9b",
+  "date": "2026-11-03",
+  "section": "science",
+  "headline": "ISS crew installs new solar array during Oct. 29 spacewalk",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/astronaut-and-earth/"
+  ]
+ },
+ {
+  "id": "2026-11-03-nasa-reports-rare-chip-resistor-substrate-cracks-during-envi-92978",
+  "date": "2026-11-03",
+  "section": "science",
+  "headline": "NASA reports rare chip resistor substrate cracks during environmental testing",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/"
+  ]
+ },
+ {
+  "id": "2026-11-03-twelve-more-firms-including-nvidia-and-nike-object-to-okx-ic-23857",
+  "date": "2026-11-03",
+  "section": "money",
+  "headline": "Twelve More Firms, Including Nvidia and Nike, Object to OKX‑ICE Tokenized Stock Venue",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
+   "https://decrypt.co/382458/elon-musk-tesla-spacex-block-okx-ice-tokenized-stock",
+   "https://decrypt.co/382348/nvidia-nike-biggest-wave-yet-tokenized-stock-objections"
+  ]
+ },
+ {
+  "id": "2026-11-03-cftc-approves-equity-perpetual-futures-on-u-s-exchanges-98765",
+  "date": "2026-11-03",
+  "section": "money",
+  "headline": "CFTC approves equity perpetual futures on U.S. exchanges",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+   "https://decrypt.co/382464/cftc-traders-bet-stocks-with-crypto-style-perpetual-futures"
+  ]
+ },
+ {
+  "id": "2026-11-03-binance-hack-traced-to-fake-job-interview-and-compromised-ai-727cb",
+  "date": "2026-11-03",
+  "section": "scam",
+  "headline": "Binance hack traced to fake job interview and compromised AI tool",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+   "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+   "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+   "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
+   "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
+  ]
  }
 ]

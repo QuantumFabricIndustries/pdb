@@ -229,5 +229,16 @@
   "from_score": 58,
   "to_score": 85,
   "note": "Rating changed from Well-sourced (58) to Confirmed (85) as new evidence came in."
+ },
+ {
+  "date": "2026-11-03",
+  "story_id": "2026-11-03-twelve-more-firms-including-nvidia-and-nike-object-to-okx-ic-23857",
+  "prior_id": "2026-11-02-twelve-companies-including-nvidia-and-nike-object-to-okx-ice-90957",
+  "headline": "Twelve More Firms, Including Nvidia and Nike, Object to OKX‑ICE Tokenized Stock Venue",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 58,
+  "to_score": 49,
+  "note": "Rating changed from Well-sourced (58) to Developing (49) as new evidence came in."
  }
 ]

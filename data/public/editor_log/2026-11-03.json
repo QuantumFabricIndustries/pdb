@@ -1,0 +1,172 @@
+[
+ {
+  "section": "threat",
+  "title": "Google dismantles X.CPE botnet affecting over 1.3 million Android TV boxes",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 8
+ },
+ {
+  "section": "threat",
+  "title": "LLMjacking attacks drive up to $1 million in fraudulent cloud charges",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "BTCPay Server urges updates after hot‑wallet thefts on older versions",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google to disable Search for K‑12 schools that block its AI tools",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source 2 explicitly notes a contradiction/clarification with Source 1 regarding whether products can be enabled individually or if it is all-or-nothing. Source 2 states: 'Google clarified to Engadget that administrators will be able to enable these products individually, and that it's not an all-or-nothing deal.' The draft assumed an all-or-nothing bundle based on Source 1."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI announces Grid Protectors Program for grid reliability",
+  "verdict": "HOLD",
+  "truth": 62,
+  "reasons": [
+   "copied 2 long word-for-word run(s) from a source, e.g. \"to help future compute campuses support grid reliability and protect consumer electricity\""
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included unsupported date '2 November 2026' in so_what field.",
+   "editor: Headline combined two unrelated topics awkwardly."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Apple launches 2026 iPad Mini with OLED screen, nano‑texture glass, and IP67 rating",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Netflix launches AI‑powered “Discover” tab for themed recommendations",
+  "verdict": "PUBLISH",
+  "truth": 37,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "ISS crew installs new solar array during Oct. 29 spacewalk",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA reports rare chip resistor substrate cracks during environmental testing",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Twelve More Firms, Including Nvidia and Nike, Object to OKX‑ICE Tokenized Stock Venue",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "CFTC approves equity perpetual futures on U.S. exchanges",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Binance hack traced to fake job interview and compromised AI tool",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Video Shows Police Responding to Knife Report, Not Arresting Boy for Fishing",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of man in mechanical dinosaur does not show a fatality",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Elon Musk did not announce a “bored billionaires” bill‑pay app on X",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what field contains advice and meta-commentary instead of focusing on the broader implications of the news"
+  ],
+  "owners": 1
+ }
+]

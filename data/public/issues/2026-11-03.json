@@ -1,0 +1,1472 @@
+{
+ "date": "2026-11-03",
+ "built_at": "2026-11-03T20:12:06.035066+00:00",
+ "stories": [
+  {
+   "id": "2026-11-03-google-dismantles-x-cpe-botnet-affecting-over-1-3-million-an-7b70d",
+   "date": "2026-11-03",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Google dismantles X.CPE botnet affecting over 1.3 million Android TV boxes",
+   "in_brief": "Google and partners disrupted a botnet that had infected more than 1.3 million Android TV set‑top boxes, many of which were manufactured by Videostrong Technology. The takedown cuts off the devices’ use as residential proxies and ad‑fraud platforms.",
+   "so_what": "The X.CPE botnet turned ordinary TV boxes and other Android‑based IoT devices into a large‑scale proxy network that was rented out for illicit traffic, advertising fraud and data exfiltration. By embedding the malware in firmware before devices left the factory, the campaign evaded standard security checks and could persist across device reboots. Google’s action not only removes control of the botnet’s command‑and‑control servers but also severs access to an estimated 10 million additional compromised devices that were leveraging the same infrastructure. The incident highlights the risk of supply‑chain attacks in consumer IoT, the limits of certification processes, and the need for manufacturers to enforce stricter firmware integrity checks. Users should verify that their set‑top boxes receive security updates, and enterprises should inventory Android‑based IoT assets to ensure they are not part of unauthorized networks. Future monitoring will focus on whether other OEMs adopt similar obfuscation tactics and how quickly Google’s bans prevent further compromised shipments.",
+   "what_to_do": "1. Check for firmware updates from the device manufacturer and apply them promptly. 2. Perform a factory reset on Android TV boxes and other IoT devices, then reinstall only trusted apps. 3. Disable or uninstall any unknown system‑level services such as \"x.cpe\" or \"com.oemservice\" if visible in device settings.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "The botnet infected more than 1.3 million Android TV set‑top boxes.",
+     "source": 1,
+     "quote": "more than 1.3 million set-top boxes",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "bleepingcomputer.com",
+      "krebsonsecurity.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Videostrong Technology intentionally developed and deployed the backdoor for financial gain.",
+     "source": 4,
+     "quote": "We assess with high confidence that the backdoor and botnet were intentionally developed, deployed, and operated for financial gain by Videostrong Technology Co.",
+     "status": "verified",
+     "corroborated_by": [
+      "krebsonsecurity.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Google has banned Videostrong from making devices with preloaded Google apps.",
+     "source": 1,
+     "quote": "Google has cut ties with Videostrong and banned them from making devices with preloaded Google apps",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+     "published": "Tue, 03 Nov 2026 19:48:00 GMT",
+     "published_iso": "2026-11-03T19:48:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
+     "published": "Tue, 03 Nov 2026 17:08:21 +0000",
+     "published_iso": "2026-11-03T17:08:21+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Krebs on Security",
+     "owner": "krebsonsecurity.com",
+     "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+     "published": "Tue, 03 Nov 2026 02:24:31 +0000",
+     "published_iso": "2026-11-03T02:24:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+     "published": "Mon, 02 Nov 2026 13:16:34 -0500",
+     "published_iso": "2026-11-02T18:16:34+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+     "published": "Tue, 03 Nov 2026 09:22:09 +0000",
+     "published_iso": "2026-11-03T09:22:09+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+    "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
+    "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+    "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+    "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+    "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
+    "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+    "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+    "https://www.malwarebytes.com/blog/mobile/2026/11/a-hidden-backdoor-put-1-3-million-tv-boxes-to-work-for-criminals"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Condé Nast, Recorded Future, bleepingcomputer.com, krebsonsecurity.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 8,
+   "previously": {
+    "id": "2026-11-02-google-dismantles-xcpe-botnet-infecting-1-3-million-android-5a5fb",
+    "date": "2026-11-02",
+    "label": "Well-sourced",
+    "score": 72
+   }
+  },
+  {
+   "id": "2026-11-03-llmjacking-attacks-drive-up-to-1-million-in-fraudulent-cloud-5fd4f",
+   "date": "2026-11-03",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "LLMjacking attacks drive up to $1 million in fraudulent cloud charges",
+   "in_brief": "Threat actors are hijacking enterprise LLM APIs, generating massive, short‑term spikes in usage that can cost victims up to $1 million. The abuse relies on stolen or exposed credentials and resale services that proxy the calls for a fee.",
+   "so_what": "Google’s Threat Intelligence Group and Mandiant have documented a growing wave of LLMjacking incidents across financial services, retail, technology and transportation firms in North America, South America and Asia‑Pacific. By stealing API keys, IAM tokens or service‑account credentials, attackers gain unrestricted access to costly AI models and route the traffic through underground “LLM mixers” such as Jet Night. These mixers charge customers as little as $60 a month for unlimited access, allowing a single compromised key to generate hundreds of thousands of calls and nearly $1 million in token fees within hours. The rapid, high‑volume nature of the abuse distinguishes it from traditional cryptojacking and can cripple budgets before the breach is detected. Organizations should audit credential exposure, enforce strict usage monitoring, and apply zero‑trust controls to limit the impact of any compromised token.",
+   "what_to_do": "1. Rotate all LLM API keys and service‑account credentials regularly. 2. Enable multi‑factor authentication and restrict token scopes for AI services. 3. Implement real‑time monitoring and alerts for abnormal LLM request volumes.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Fraudulent LLM usage can lead to cumulative charges of up to $1 million per organization",
+     "source": 1,
+     "quote": "cumulative charges at some organizations reaching $1,000,000",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Attackers obtain initial access through exposed or stolen cloud identity tokens such as IAM credentials, Service Account keys, GitHub PATs, and active session tokens",
+     "source": 2,
+     "quote": "The most common initial access vector has been exposed or stolen cloud identity tokens, including IAM credentials, Service Account keys, GitHub Personal Access Tokens (PATs), and active session tokens",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Jet Night sells unlimited LLM access for about $60 a month and was used to generate nearly $1 million in token costs",
+     "source": 3,
+     "quote": "Jet Night, one of these services, offers an unlimited plan for about $60 a month... a threat actor feeding Jet Night with stolen API keys made more than 500,000 calls to AI models in less than eight hours, leaving the victim organization with nearly a million dollars in token costs",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+     "published": "Tue, 03 Nov 2026 13:51:04 -0500",
+     "published_iso": "2026-11-03T18:51:04+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+     "published": "Tue, 03 Nov 2026 21:11:53 +0530",
+     "published_iso": "2026-11-03T15:41:53+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/",
+     "published": "Tue, 03 Nov 2026 09:39:05 +0000",
+     "published_iso": "2026-11-03T09:39:05+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+    "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+    "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-40217",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-40217"
+    }
+   ],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-03-btcpay-server-urges-updates-after-hot-wallet-thefts-on-older-585b4",
+   "date": "2026-11-03",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "BTCPay Server urges updates after hot‑wallet thefts on older versions",
+   "in_brief": "BTCPay Server reported that attackers drained hot wallets on instances running version 2.4.1 or earlier and advised operators to shut down those servers. The project released version 2.4.7 as an emergency update to address the vulnerability.",
+   "so_what": "The incident highlights the risk of self‑hosted cryptocurrency payment processors when software is not kept current. Because BTCPay Server stores private keys for hot wallets on the same machine that processes payments, a compromise can give attackers direct access to funds. The vulnerability appears to allow unauthorized administrators to obtain credential files, enabling theft of Bitcoin and Litecoin. Updating to version 2.4.7, which patches the critical flaw discovered by Anthropic’s scanner, is the primary mitigation. Administrators should also consider moving funds to cold storage and, where possible, use hosting providers that can automatically disable vulnerable instances. Watch for further advisories from BTCPay Server and any reports of additional exploits targeting newer releases.",
+   "what_to_do": "1. Update BTCPay Server to version 2.4.7 immediately (Server Settings → Maintenance → Update or run ./btcpay-update.sh for Docker). 2. Shut down any instance running version 2.4.1 or older (e.g., ./btcpay-down.sh). 3. Transfer hot‑wallet funds to a cold‑storage wallet and rotate all credentials.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward security advisory",
+   "claims": [
+    {
+     "claim": "The attack vector targeted BTCPay Server instances running version 2.4.1 (July 23 2026) or older.",
+     "source": 1,
+     "quote": "identified an attack vector targeting instances running version 2.4.1 (July 23, 2026) or older",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "BTCPay Server released version 2.4.7 as an emergency update fixing the critical vulnerability.",
+     "source": 1,
+     "quote": "prompted the release of version 2.4.7 as an emergency security update",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Operators were advised to shut down servers running vulnerable versions until the investigation is complete.",
+     "source": 3,
+     "quote": "please shut it down (./btcpay-down.sh) until we complete the investigation",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+     "published": "Mon, 02 Nov 2026 10:03:07 -0500",
+     "published_iso": "2026-11-02T15:03:07+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+     "published": "Tue, 03 Nov 2026 14:01:48 +0530",
+     "published_iso": "2026-11-03T08:31:48+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports",
+     "published": "Mon, 02 Nov 2026 12:24:18 +0000",
+     "published_iso": "2026-11-02T12:24:18+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+    "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+    "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, decrypt.co, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-02-btcpay-server-urges-shutdown-of-outdated-instances-after-hot-ee3e2",
+    "date": "2026-11-02",
+    "label": "Well-sourced",
+    "score": 67
+   }
+  },
+  {
+   "id": "2026-11-03-google-to-disable-search-for-k-12-schools-that-block-its-ai-ded26",
+   "date": "2026-11-03",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google to disable Search for K‑12 schools that block its AI tools",
+   "in_brief": "Google announced that K-12 student accounts will have access to Gemini and Google Search turned off by default unless administrators explicitly enable them.",
+   "so_what": "Google is tying access to Google Search together with its AI features for K-12 student accounts, requiring administrators to manually turn them on if they want students to have access. The move follows educator backlash over a summer rollout that automatically enabled AI features in Classroom. Districts that limit AI tools will face decisions regarding alternative search options.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward policy announcement",
+   "claims": [
+    {
+     "claim": "The policy applies to K‑12 student accounts unless administrators enable AI",
+     "source": 2,
+     "quote": "Access to these products will be entirely off for K-12 student accounts until school administrators explicitly turn them on",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Google’s approach follows a reversal of a summer change that had enabled AI by default in Classroom",
+     "source": 2,
+     "quote": "In August, Google enabled certain AI features by default in the Classroom learning platform. That shift prompted a backlash ... leading Google to reverse course",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Google will turn off Search for schools that reject its AI tools",
+     "source": 1,
+     "quote": "If a school bans AI tools, students \"will not have access to Search\"",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+     "published": "Tue, 03 Nov 2026 17:54:43 +0000",
+     "published_iso": "2026-11-03T17:54:43+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
+     "published": "Tue, 03 Nov 2026 17:10:43 +0000",
+     "published_iso": "2026-11-03T17:10:43+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "nytimes.com",
+     "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+     "published": "Tue, 03 Nov 2026 15:25:47 +0000",
+     "published_iso": "2026-11-03T15:25:47+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+    "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+    "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
+    "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 47,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Yahoo, nytimes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Source 2 explicitly notes a contradiction/clarification with Source 1 regarding whether products can be enabled individually or if it is all-or-nothing. Source 2 states: 'Google clarified to Engadget that administrators will be able to enable these products individually, and that it's not an all-or-nothing deal.' The draft assumed an all-or-nothing bundle based on Source 1."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-03-apple-launches-2026-ipad-mini-with-oled-screen-nano-texture-dcfc8",
+   "date": "2026-11-03",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple launches 2026 iPad Mini with OLED screen, nano‑texture glass, and IP67 rating",
+   "in_brief": "Apple’s 2026 iPad Mini adds an OLED display, optional nano‑texture glass and an IP67 water‑resistance rating. The upgrades raise the entry price to $699, positioning the mini closer to the iPad Pro line.",
+   "so_what": "The 2026 iPad Mini marks Apple’s first use of OLED technology in its smallest tablet, delivering higher contrast and brightness than previous LCD models. An optional nano‑texture glass front reduces glare, improving readability outdoors. With an IP67 rating, the device can withstand dust and immersion in water up to one meter, a first for any iPad. These enhancements come with a higher starting price of $699 for the 128 GB configuration, reflecting Apple’s shift toward premium features even in its entry‑level tablets. Consumers will weigh the improved display and durability against the cost, while competitors may respond with similar upgrades in their compact tablets.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "Straightforward product specs without promotional language",
+   "claims": [
+    {
+     "claim": "The 2026 iPad Mini is the first iPad mini with an OLED display.",
+     "source": 2,
+     "quote": "It's the first iPad mini with an OLED display, a major step forward from the standard LCD this model has had for years.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Apple offers an optional nano‑texture glass front to reduce glare.",
+     "source": 2,
+     "quote": "And for the first time, you can get a nano-texture glass front for reduced glare in bright light.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The new iPad Mini starts at $699 with 128 GB of storage.",
+     "source": 2,
+     "quote": "The iPad mini now starts at $699 with 128GB of storage, $200 more than the last iPad mini cost when it was released two years ago.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "It is the first iPad to receive an IP67 dust‑ and water‑resistance rating.",
+     "source": 2,
+     "quote": "It’s the first iPad to have an IP67 rating for dust and water resistance.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/review/ipad-mini-2026/",
+     "published": "Tue, 03 Nov 2026 14:00:00 +0000",
+     "published_iso": "2026-11-03T14:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2304616/apple-ipad-mini-a20-pro-review/",
+     "published": "Tue, 03 Nov 2026 14:00:00 +0000",
+     "published_iso": "2026-11-03T14:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/review/ipad-mini-2026/",
+    "https://www.engadget.com/2304616/apple-ipad-mini-a20-pro-review/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 50,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      2,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-03-netflix-launches-ai-powered-discover-tab-for-themed-recommen-7a578",
+   "date": "2026-11-03",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Netflix launches AI‑powered “Discover” tab for themed recommendations",
+   "in_brief": "Netflix added an AI Discover tab to its TV app that offers theme‑based content suggestions. The feature is initially rolling out to English‑speaking US members on supported TVs.",
+   "so_what": "The AI Discover tab represents Netflix’s latest effort to streamline content discovery and keep viewers engaged as overall usage slows. By presenting curated themes such as “Something Light” or “Family Movie Night,” the tool aims to reduce the time users spend scrolling and increase watch time. The system learns from real‑time feedback, allowing members to dismiss unwanted titles and refine future suggestions. This rollout follows recent layoffs at the company, highlighting a strategic focus on product innovation to sustain growth. Watching how quickly the feature expands beyond its initial US English audience and whether it improves retention will be key indicators of its success.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "AI Discover is initially rolling out in the US for members who use Netflix in English on supported TVs",
+     "source": 1,
+     "quote": "AI Discover, which will show up as a “Discover” tab along your top menu, is gradually starting to roll out in the US to “members who use Netflix in English on supported TVs.”",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Users can tell Netflix not to recommend a title again, refining future suggestions",
+     "source": 2,
+     "quote": "One aspect that sounds particularly useful is being able to tell Netflix not to recommend a title again.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Netflix added an AI Discover tab to its TV app that offers experimental, AI‑powered features for finding shows and movies",
+     "source": 1,
+     "quote": "Netflix’s TV app is getting a new “AI Discover” tab where the company will show experimental, AI‑powered features to help you find new shows and movies to watch.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+     "published": "2026-11-03T13:00:00-05:00",
+     "published_iso": "2026-11-03T18:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2305778/netflix-thinks-ai-might-save-you-from-scrolling-aimlessly-for-something-to-watch/",
+     "published": "Tue, 03 Nov 2026 19:57:41 +0000",
+     "published_iso": "2026-11-03T19:57:41+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+    "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+    "https://www.engadget.com/2305778/netflix-thinks-ai-might-save-you-from-scrolling-aimlessly-for-something-to-watch/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 37,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-03-iss-crew-installs-new-solar-array-during-oct-29-spacewalk-3ab9b",
+   "date": "2026-11-03",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "ISS crew installs new solar array during Oct. 29 spacewalk",
+   "in_brief": "Astronauts Joshua Kutryk and Anil Menon performed a spacewalk on Oct. 29, 2026, installing a new roll‑out solar array on the International Space Station. The work prepares the station for a follow‑up EVA on Nov. 5 to complete its solar‑power upgrade.",
+   "so_what": "The installation of a new roll‑out solar array expands the International Space Station’s power generation capacity, part of a series that will ultimately boost available power by up to 30%. Operating at an altitude of 267 miles above the South Atlantic Ocean, the station relies on these arrays to support scientific experiments and life‑support systems. Completing the eight‑array suite will enhance the station’s ability to host future research and commercial activities. Observers will watch the scheduled Nov. 5 EVA, which aims to install the eighth and final array, finalizing the power‑upgrade program.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual report",
+   "claims": [
+    {
+     "claim": "Astronauts Joshua Kutryk and Anil Menon performed a spacewalk on Oct. 29, 2026, installing a new roll‑out solar array on the ISS.",
+     "source": 1,
+     "quote": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk... Kutryk and NASA astronaut Anil Menon installed a new roll-out solar array on the space station",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The International Space Station was 267 miles above the South Atlantic Ocean during the spacewalk.",
+     "source": 1,
+     "quote": "The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A second spacewalk is planned for Nov. 5, 2026 to install the eighth and final roll‑out solar array, which will increase station power by up to 30%.",
+     "source": 1,
+     "quote": "their next spacewalk, which will take place on Nov. 5, 2026. The pair will install the eighth and final roll-out solar array; together, the eight arrays will increase the station’s available power by up to 30%",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+     "published": "Tue, 03 Nov 2026 16:37:42 +0000",
+     "published_iso": "2026-11-03T16:37:42+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/image-article/astronaut-and-earth/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-03-nasa-reports-rare-chip-resistor-substrate-cracks-during-envi-92978",
+   "date": "2026-11-03",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA reports rare chip resistor substrate cracks during environmental testing",
+   "in_brief": "Two thick‑film chip resistors cracked during thermal cycling after vibration testing on printed circuit board assemblies. NASA’s analysis links the failures to board flexure and mounting stresses, not to defective parts.",
+   "so_what": "The incidents highlight a previously undocumented failure mode for ceramic chip resistors used in aerospace hardware. While the resistors met all procurement specifications, the combination of board flexure, component orientation, excessive solder, and mounting stresses caused bending‑induced fractures. NASA’s bulletin advises designers to employ careful component placement, finite‑element modeling, controlled solder fillet heights, thorough inspections, and functional thermal‑shock testing to mitigate similar risks. Monitoring future NASA environmental test reports will indicate whether these recommendations reduce occurrence of such cracks in subsequent missions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual report",
+   "claims": [
+    {
+     "claim": "Two instances of thick‑film chip resistor body cracking were observed during thermal cycling after vibration testing.",
+     "source": 1,
+     "quote": "Two instances of thick‑film chip resistor cracking were observed during thermal cycling after vibration, with fractures occurring across the short axis due to bending.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Failure analyses ruled out defective lots and fatigue, identifying board flexure, component orientation, excessive solder, and mounting stresses as contributing factors.",
+     "source": 1,
+     "quote": "Failure analyses ruled out defective lots and fatigue, identifying board flexure, component orientation, excessive solder, and mounting stresses as contributing factors.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The bulletin recommends careful component placement, finite element analysis, controlled solder fillet height, thorough inspection, and functional thermal shock testing to mitigate flexure‑induced cracking risks.",
+     "source": 1,
+     "quote": "The bulletin recommends careful component placement, finite element analysis, controlled solder fillet height, thorough inspection, and functional thermal shock testing to mitigate flexure‑induced cracking risks.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/",
+     "published": "Tue, 03 Nov 2026 15:35:14 +0000",
+     "published_iso": "2026-11-03T15:35:14+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-03-twelve-more-firms-including-nvidia-and-nike-object-to-okx-ic-23857",
+   "date": "2026-11-03",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Twelve More Firms, Including Nvidia and Nike, Object to OKX‑ICE Tokenized Stock Venue",
+   "in_brief": "A notice from OKX‑ICE on Oct. 30 added twelve companies, such as Nvidia, Costco and Nike, to its list of objectors to tokenized share trading. The total number of objecting issuers rose to 50, the largest batch to date.",
+   "so_what": "The objections trigger the SEC’s innovation exemption, which bars the joint venture from listing tokenized versions of the companies’ shares on its platform unless the firms consent. By expanding the list to 50 firms across technology, retail, cybersecurity and energy, the move underscores growing corporate caution toward crypto‑linked securities and highlights the regulatory leverage the SEC retains over new trading structures. The growing opposition may pressure OKX‑ICE to adjust its model or seek additional approvals, and it signals to other issuers that participation in tokenized markets is not automatic. Watch for further statements from the remaining unlisted companies and any regulatory clarification from the SEC regarding the exemption’s application.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Twelve more companies, including Nvidia, Costco and Nike, objected to trading of their shares on OKX‑ICE TSV, according to its Oct. 30 notice",
+     "source": 1,
+     "quote": "Twelve more companies, including Nvidia, Costco and Nike, objected to trading of their shares on OKXICE TSV, according to its Oct. 30 notice, the largest batch yet.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The total number of objecting issuers rose to 50, the largest single batch yet",
+     "source": 1,
+     "quote": "The additions bring the total to 50 companies.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Amazon, Tesla and SpaceX joined the OKX‑ICE tokenized stock objections as the deadline approached",
+     "source": 2,
+     "quote": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382348/nvidia-nike-biggest-wave-yet-tokenized-stock-objections",
+     "published": "Mon, 02 Nov 2026 17:36:03 +0000",
+     "published_iso": "2026-11-02T17:36:03+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
+     "published": "Tue, 03 Nov 2026 16:17:51 +0000",
+     "published_iso": "2026-11-03T16:17:51+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
+    "https://decrypt.co/382458/elon-musk-tesla-spacex-block-okx-ice-tokenized-stock",
+    "https://decrypt.co/382348/nvidia-nike-biggest-wave-yet-tokenized-stock-objections"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities"
+    }
+   ],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-02-twelve-companies-including-nvidia-and-nike-object-to-okx-ice-90957",
+    "date": "2026-11-02",
+    "label": "Well-sourced",
+    "score": 58
+   }
+  },
+  {
+   "id": "2026-11-03-cftc-approves-equity-perpetual-futures-on-u-s-exchanges-98765",
+   "date": "2026-11-03",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "CFTC approves equity perpetual futures on U.S. exchanges",
+   "in_brief": "The Commodity Futures Trading Commission cleared perpetual futures tied to individual stocks for trading on registered U.S. exchanges. The move extends a crypto‑style leveraged product into traditional equity markets under joint CFTC‑SEC oversight.",
+   "so_what": "By allowing perpetual futures on single stocks, the CFTC is importing a popular crypto‑derived instrument into regulated U.S. markets. The contracts have no expiration date, enabling traders to maintain leveraged positions indefinitely while meeting margin and funding requirements. Chairman Michael Selig framed the approval as part of an effort to bring such products onshore, arguing that regulated venues provide greater investor protection than offshore platforms. The products are classified as security futures under the Commodity Futures Modernization Act of 2000 and are subject to oversight by both the CFTC and the SEC, following a March memorandum of understanding that resolved prior jurisdictional uncertainty. Market participants will watch how liquidity develops, how margin rules are applied, and whether other crypto‑style derivatives receive similar treatment.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The CFTC cleared perpetual futures on individual stocks to trade on registered U.S. exchanges for the first time.",
+     "source": 1,
+     "quote": "The CFTC cleared perpetual futures on individual stocks to trade on registered U.S. exchanges for the first time",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The contracts are overseen jointly by the CFTC and SEC under a March memorandum of understanding.",
+     "source": 1,
+     "quote": "The contracts fall under joint CFTC-SEC oversight via a March memorandum of understanding",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Chairman Michael Selig said the approval is part of his push to onshore perpetual products.",
+     "source": 1,
+     "quote": "Chairman Michael Selig framed it as part of his push to “onshore” perpetual products",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382464/cftc-traders-bet-stocks-with-crypto-style-perpetual-futures",
+     "published": "Tue, 03 Nov 2026 19:16:02 +0000",
+     "published_iso": "2026-11-03T19:16:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+     "published": "Tue, 03 Nov 2026 15:02:13 +0000",
+     "published_iso": "2026-11-03T15:02:13+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+    "https://decrypt.co/382464/cftc-traders-bet-stocks-with-crypto-style-perpetual-futures"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-03-binance-hack-traced-to-fake-job-interview-and-compromised-ai-727cb",
+   "date": "2026-11-03",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Binance hack traced to fake job interview and compromised AI tool",
+   "in_brief": "Hackers used a bogus job interview to install malware on a Binance engineer’s computer, then leveraged a compromised internal AI tool to steal $6.3 billion in crypto. The breach highlights the risk of social‑engineering attacks on high‑value financial platforms.",
+   "so_what": "The incident, described by Binance as the largest crypto theft to date, shows how sophisticated social‑engineering combined with supply‑chain compromises can breach even the most secure exchanges. By masquerading as recruiters and using a tampered developer tool, the attackers gained footholds that let them move laterally and access wallet‑signing services, bypassing normal withdrawal controls. Law‑enforcement agencies, including the FBI, have linked the operation to North Korean groups such as TraderTraitor, underscoring the geopolitical dimension of cryptocurrency crime. Binance has replenished 98% of the stolen assets, frozen billions with industry partners, and rebuilt affected systems, but billions remain at risk of laundering. Stakeholders should monitor ongoing investigations, asset‑freezing efforts, and Binance’s remediation measures to gauge the broader impact on market confidence and regulatory scrutiny.",
+   "what_to_do": "1. Verify any job‑related interview requests through official Binance channels before downloading any files. 2. Keep security software updated and enable multi‑factor authentication on all work devices. 3. Report suspicious recruitment contacts or unexpected software installations to your employer’s security team immediately.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Hackers used a fake job interview to trick a Binance engineer into downloading malware that compromised his computer.",
+     "source": 1,
+     "quote": "Binance said as part of the hack, one of its engineers was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Condé Nast",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The compromised engineer’s device and an internal AI tool were used to gain access to other engineers’ laptops and the wallet infrastructure.",
+     "source": 1,
+     "quote": "Binance said hackers then leveraged the engineer's compromised computer and a compromised internal AI tool in October to gain control over two other engineers' laptops, and execute the next steps of the attack.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Condé Nast",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The theft amounted to about $6.3 billion, the largest crypto hack recorded.",
+     "source": 1,
+     "quote": "Hackers who stole a record $6.3bn (£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+     "published": "Tue, 03 Nov 2026 16:19:29 GMT",
+     "published_iso": "2026-11-03T16:19:29+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+     "published": "Tue, 03 Nov 2026 15:05:50 -0500",
+     "published_iso": "2026-11-03T20:05:50+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+     "published": "Tue, 03 Nov 2026 19:04:58 +0000",
+     "published_iso": "2026-11-03T19:04:58+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
+     "published": "Tue, 03 Nov 2026 18:40:37 GMT",
+     "published_iso": "2026-11-03T18:40:37+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+     "published": "Tue, 03 Nov 2026 14:53:19 +0000",
+     "published_iso": "2026-11-03T14:53:19+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+    "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+    "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+    "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
+    "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
+   ],
+   "primary": [
+    {
+     "url": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack"
+    },
+    {
+     "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Condé Nast, bleepingcomputer.com, coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 558,
+  "stories_considered": 16,
+  "published": 11,
+  "outlets": 40
+ }
+}
