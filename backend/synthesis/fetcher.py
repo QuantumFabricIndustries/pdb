@@ -69,13 +69,42 @@ def _strip_html(html_str: str) -> str:
 
 
 def _try_trafilatura(html_str: str, url: str) -> str | None:
+    """Run trafilatura in an isolated subprocess so that libxml2/lxml SIGABRT (exit 134)
+    cannot crash the main pipeline process.  A subprocess spawn adds ~50 ms per article,
+    which is negligible compared to the HTTP round-trip already paid.
+    """
+    import json
+    import subprocess
+    import sys
+
     try:
-        import trafilatura  # type: ignore
+        import trafilatura  # noqa: F401 — verify installed before spawning
     except Exception:
         return None
+
+    _SCRIPT = (
+        "import sys, json, trafilatura; "
+        "d = json.loads(sys.stdin.read()); "
+        "print(json.dumps(trafilatura.extract("
+        "d['html'], include_comments=False, include_tables=False, url=d['url']"
+        ")))"
+    )
     try:
-        return trafilatura.extract(html_str, include_comments=False, include_tables=False, url=url)
-    except Exception:
+        payload = json.dumps({"html": html_str, "url": url})
+        proc = subprocess.run(
+            [sys.executable, "-c", _SCRIPT],
+            input=payload,
+            text=True,
+            capture_output=True,
+            timeout=30,
+        )
+        if proc.returncode != 0:
+            # Worker aborted (SIGABRT = 134, other errors) — fall back silently.
+            log.debug("trafilatura subprocess exited %d for %s", proc.returncode, url)
+            return None
+        return json.loads(proc.stdout.strip())
+    except Exception as e:
+        log.debug("trafilatura subprocess failed for %s: %s", url, e)
         return None
 
 

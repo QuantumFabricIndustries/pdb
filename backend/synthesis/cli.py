@@ -54,6 +54,19 @@ def _setup_logging(verbose: bool) -> None:
     )
 
 
+def _log_memory(log: logging.Logger, label: str) -> None:
+    """Log current process RSS memory usage (best-effort; skipped if psutil unavailable)."""
+    try:
+        import resource
+        rss_kb = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        # Linux: kb; macOS: bytes
+        import sys as _sys
+        rss_mb = rss_kb / 1024 if _sys.platform == "linux" else rss_kb / (1024 * 1024)
+        log.info("[memory] %s: RSS %.1f MB", label, rss_mb)
+    except Exception:
+        pass  # non-critical
+
+
 def build(pack_name: str, top: int, do_enrich: bool, out_dir: Path, brief_mode: bool = False) -> int:
     log = logging.getLogger("pdb.build")
     pack = PACKS[pack_name]
@@ -175,6 +188,10 @@ def main(argv: list[str] | None = None) -> int:
         root = Path(__file__).resolve().parents[2]
         data = Path(args.data) if Path(args.data).is_absolute() else root / args.data
         site_dir = Path(args.site) if Path(args.site).is_absolute() else root / args.site
+
+        pub_log = logging.getLogger("pdb.publish")
+        _log_memory(pub_log, "startup")
+
         if not args.site_only:
             from .newsroom import PipelineError, run
             from .sections import QUOTAS
@@ -182,14 +199,20 @@ def main(argv: list[str] | None = None) -> int:
             try:
                 issue = run(data, quotas=quotas, time_budget_s=args.time_budget or None)
             except PipelineError as e:
-                logging.getLogger("pdb.publish").error("NOT PUBLISHED: %s", e)
+                pub_log.error("NOT PUBLISHED: %s", e)
                 return 2
+            except Exception as e:  # pragma: no cover
+                pub_log.exception("UNEXPECTED ERROR in pipeline: %s", e)
+                _log_memory(pub_log, "crash")
+                return 1
+            _log_memory(pub_log, "post-pipeline")
             if issue is None:
                 print("PAUSED — time budget used; run the same command again to continue")
                 return 3
             print(f"Published {len(issue['stories'])} stories for {issue['date']}")
         from .site import build_site
         build_site(data / "public", site_dir, base_url=args.base_url)
+        _log_memory(pub_log, "post-site-build")
         print(f"Website built in {site_dir}")
         return 0
     return 1
