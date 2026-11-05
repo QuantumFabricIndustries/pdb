@@ -5372,5 +5372,160 @@
    "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
    "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
   ]
+ },
+ {
+  "id": "2026-11-05-openssh-flaw-enables-password-authentication-bypass-on-musl-eb52a",
+  "date": "2026-11-05",
+  "section": "threat",
+  "headline": "OpenSSH flaw enables password‑authentication bypass on musl‑based Linux",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+   "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910",
+   "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910"
+  ]
+ },
+ {
+  "id": "2026-11-05-openai-ai-pipeline-uncovers-948-linux-kernel-privilege-escal-e0c1e",
+  "date": "2026-11-05",
+  "section": "threat",
+  "headline": "OpenAI AI pipeline uncovers 948 Linux kernel privilege‑escalation flaws",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+   "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "https://decrypt.co/382632/openai-linux-security-flaws-exploit"
+  ]
+ },
+ {
+  "id": "2026-11-05-zyxel-gs1900-switches-vulnerable-to-zero-day-exploit-despite-e153f",
+  "date": "2026-11-05",
+  "section": "threat",
+  "headline": "Zyxel GS1900 switches vulnerable to zero‑day exploit despite prior patch",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+   "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+   "https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/"
+  ]
+ },
+ {
+  "id": "2026-11-05-anthropic-launches-claude-personal-finance-tool-with-read-on-ee4b8",
+  "date": "2026-11-05",
+  "section": "ai",
+  "headline": "Anthropic launches Claude Personal Finance tool with read‑only Plaid integration",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+   "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+   "https://www.engadget.com/2307936/now-claude-can-help-with-your-finances-too/",
+   "https://www.zdnet.com/innovation/personal-finance-claude-anthropic/"
+  ]
+ },
+ {
+  "id": "2026-11-05-google-s-new-policy-links-ai-tools-to-search-for-k-12-school-49d60",
+  "date": "2026-11-05",
+  "section": "ai",
+  "headline": "Google's New Policy Links AI Tools to Search for K‑12 Schools",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
+   "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html",
+   "https://decrypt.co/382572/google-schools-reject-ai-but-lose-search"
+  ]
+ },
+ {
+  "id": "2026-11-05-openai-launches-gpt-6-cyber-a-cybersecurity-focused-ai-model-52f11",
+  "date": "2026-11-05",
+  "section": "ai",
+  "headline": "OpenAI launches GPT-6 Cyber, a cybersecurity‑focused AI model",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
+   "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
+   "https://openai.com/index/introducing-gpt-6-cyber"
+  ]
+ },
+ {
+  "id": "2026-11-05-hubble-images-reveal-ancient-globular-cluster-messier-30-s-d-42325",
+  "date": "2026-11-05",
+  "section": "science",
+  "headline": "Hubble images reveal ancient globular cluster Messier 30’s distance and possible extragalactic origin",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
+   "https://phys.org/news/2026-11-hubble-galactic-history-stars.html"
+  ]
+ },
+ {
+  "id": "2026-11-05-iss-captures-city-lights-across-us-before-sunrise-on-oct-18-56cff",
+  "date": "2026-11-05",
+  "section": "science",
+  "headline": "ISS captures city lights across US before sunrise on Oct. 18, 2026",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/midwestern-city-lights/"
+  ]
+ },
+ {
+  "id": "2026-11-05-binance-disables-signalplus-api-keys-after-reported-security-d2913",
+  "date": "2026-11-05",
+  "section": "money",
+  "headline": "Binance disables SignalPlus API keys after reported security issue",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/11/05/binance-cuts-signalplus-access-after-security-warning-urges-users-to-check-accounts",
+   "https://decrypt.co/382599/binance-cuts-off-signalplus-api-keys-over-potential-security-issue-at-trading-platform"
+  ]
+ },
+ {
+  "id": "2026-11-05-cvs-health-announces-split-of-pharmacy-and-insurance-units-32aea",
+  "date": "2026-11-05",
+  "section": "money",
+  "headline": "CVS Health Announces Split of Pharmacy and Insurance Units",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.theguardian.com/us-news/2026/nov/04/cvs-health-pharmacy-insurance",
+   "https://www.cnbc.com/2026/11/04/cvs-health-pharmacy-aetna-split.html",
+   "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html"
+  ]
+ },
+ {
+  "id": "2026-11-05-binance-reports-6-34-billion-crypto-heist-attributed-to-nort-757ed",
+  "date": "2026-11-05",
+  "section": "scam",
+  "headline": "Binance reports $6.34 billion crypto heist attributed to North Korean actors",
+  "label": "Well-sourced",
+  "score": 63,
+  "also_covered_urls": [
+   "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+   "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+   "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398"
+  ]
+ },
+ {
+  "id": "2026-11-05-niagara-falls-lighting-was-teal-for-alzheimer-s-awareness-no-e0fc5",
+  "date": "2026-11-05",
+  "section": "myth",
+  "headline": "Niagara Falls lighting was teal for Alzheimer’s awareness, not a blue political statement",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://www.snopes.com/fact-check/canada-turn-niagara-falls-blue/",
+   "https://leadstories.com/hoax-alert/2026/11/fact-check-park-denies-image-shows-niagara-falls-turning-blue-because-of-nov-3-2026-blue-wave-in-us.html"
+  ]
  }
 ]

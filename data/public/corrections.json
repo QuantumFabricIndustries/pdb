@@ -240,5 +240,16 @@
   "from_score": 58,
   "to_score": 49,
   "note": "Rating changed from Well-sourced (58) to Developing (49) as new evidence came in."
+ },
+ {
+  "date": "2026-11-05",
+  "story_id": "2026-11-05-binance-reports-6-34-billion-crypto-heist-attributed-to-nort-757ed",
+  "prior_id": "2026-11-02-fbi-attributes-6-3-billion-binance-hack-to-north-korean-grou-3aeab",
+  "headline": "Binance reports $6.34 billion crypto heist attributed to North Korean actors",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 85,
+  "to_score": 63,
+  "note": "Rating changed from Confirmed (85) to Well-sourced (63) as new evidence came in."
  }
 ]

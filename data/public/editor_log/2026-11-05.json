@@ -1,0 +1,140 @@
+[
+ {
+  "section": "threat",
+  "title": "OpenSSH flaw enables password‑authentication bypass on musl‑based Linux",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source 1 regarding musl C library servers."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "OpenAI AI pipeline uncovers 948 Linux kernel privilege‑escalation flaws",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Zyxel GS1900 switches vulnerable to zero‑day exploit despite prior patch",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Motorola unveils $1,600 Signature 27 flagship with high‑end specs",
+  "verdict": "HOLD",
+  "truth": 24,
+  "reasons": [
+   "truth score 24 below publish bar 35"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: Included investment/hype language and speculative framing in the so_what section"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Anthropic launches Claude Personal Finance tool with read‑only Plaid integration",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google's New Policy Links AI Tools to Search for K‑12 Schools",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI launches GPT-6 Cyber, a cybersecurity‑focused AI model",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor: Added unsupported date November 5, 2026"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Hubble images reveal ancient globular cluster Messier 30’s distance and possible extragalactic origin",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "ISS captures city lights across US before sunrise on Oct. 18, 2026",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Binance disables SignalPlus API keys after reported security issue",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "CVS Health Announces Split of Pharmacy and Insurance Units",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Binance reports $6.34 billion crypto heist attributed to North Korean actors",
+  "verdict": "PUBLISH",
+  "truth": 63,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Niagara Falls lighting was teal for Alzheimer’s awareness, not a blue political statement",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ }
+]
