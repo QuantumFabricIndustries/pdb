@@ -5527,5 +5527,168 @@
    "https://www.snopes.com/fact-check/canada-turn-niagara-falls-blue/",
    "https://leadstories.com/hoax-alert/2026/11/fact-check-park-denies-image-shows-niagara-falls-turning-blue-because-of-nov-3-2026-blue-wave-in-us.html"
   ]
+ },
+ {
+  "id": "2026-11-06-openssh-sshole-flaw-lets-attackers-bypass-passwordless-accou-0a08a",
+  "date": "2026-11-06",
+  "section": "threat",
+  "headline": "OpenSSH “sshole” flaw lets attackers bypass passwordless accounts on Alpine Linux",
+  "label": "Developing",
+  "score": 42,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+   "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+   "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/"
+  ]
+ },
+ {
+  "id": "2026-11-06-white-house-network-used-as-residential-proxy-exit-points-f27b1",
+  "date": "2026-11-06",
+  "section": "threat",
+  "headline": "White House Network Used as Residential Proxy Exit Points",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+   "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+   "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969",
+   "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969",
+   "https://www.helpnetsecurity.com/2026/11/06/white-house-residential-proxy-traffic/"
+  ]
+ },
+ {
+  "id": "2026-11-06-digicert-reports-data-breach-exposing-business-customer-cont-f4d0a",
+  "date": "2026-11-06",
+  "section": "threat",
+  "headline": "DigiCert reports data breach exposing business customer contact and ID documents",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+   "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+   "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+   "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097"
+  ]
+ },
+ {
+  "id": "2026-11-06-google-meta-and-tiktok-sue-california-over-teen-social-media-f0065",
+  "date": "2026-11-06",
+  "section": "ai",
+  "headline": "Google, Meta and TikTok sue California over teen‑social‑media restrictions",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.theguardian.com/technology/2026/nov/05/california-children-social-media-lawsuit-tiktok-google-meta",
+   "https://www.malwarebytes.com/blog/news/2026/11/big-tech-sues-over-california-plan-to-limit-kids-scrolling",
+   "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/"
+  ]
+ },
+ {
+  "id": "2026-11-06-doj-launches-super-intelligence-task-force-to-police-ai-misu-07cc1",
+  "date": "2026-11-06",
+  "section": "ai",
+  "headline": "DOJ launches Super Intelligence Task Force to police AI misuse",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://www.theregister.com/ai-and-ml/2026/11/06/dojs-super-intelligence-task-force-up-and-running/5308074",
+   "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
+   "https://decrypt.co/382672/doj-creates-super-intelligence-task-force-to-guard-against-ai-abuse"
+  ]
+ },
+ {
+  "id": "2026-11-06-tesla-to-wind-down-cybertruck-production-at-texas-plant-73d81",
+  "date": "2026-11-06",
+  "section": "ai",
+  "headline": "Tesla to wind down Cybertruck production at Texas plant",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+   "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+   "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+   "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+   "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+   "https://www.engadget.com/2308875/tesla-is-winding-down-cybertruck-production-at-its-texas-gigafactory/",
+   "https://decrypt.co/382703/tesla-to-wind-down-cybertruck-production-as-elon-musk-pivots-to-robotaxis-and-ai"
+  ]
+ },
+ {
+  "id": "2026-11-06-hubble-images-reveal-ancient-globular-cluster-m30-s-distance-ce0b2",
+  "date": "2026-11-06",
+  "section": "science",
+  "headline": "Hubble images reveal ancient globular cluster M30’s distance and possible extragalactic origin",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+   "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/"
+  ]
+ },
+ {
+  "id": "2026-11-06-nasa-announces-supercomputing-tech-demo-sessions-nov-17-19-2-296c8",
+  "date": "2026-11-06",
+  "section": "science",
+  "headline": "NASA Announces Supercomputing Tech Demo Sessions Nov. 17‑19, 2026",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/"
+  ]
+ },
+ {
+  "id": "2026-11-06-zcash-activates-nu7-upgrade-introducing-fee-recycling-mechan-0d6a6",
+  "date": "2026-11-06",
+  "section": "money",
+  "headline": "Zcash activates NU7 upgrade, introducing fee‑recycling mechanism",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+   "https://decrypt.co/382692/zcashs-nu7-upgrade-goes-live-recycling-60-of-fees-to-fund-future-block-rewards"
+  ]
+ },
+ {
+  "id": "2026-11-06-hyperliquid-strategies-subsidiary-seeks-cftc-futures-broker-daea7",
+  "date": "2026-11-06",
+  "section": "money",
+  "headline": "Hyperliquid Strategies subsidiary seeks CFTC futures broker registration",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
+   "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
+  ]
+ },
+ {
+  "id": "2026-11-06-three-indicted-for-ai-driven-ceo-and-attorney-impersonation-bf4c7",
+  "date": "2026-11-06",
+  "section": "scam",
+  "headline": "Three Indicted for AI-Driven CEO and Attorney Impersonation Scheme",
+  "label": "Developing",
+  "score": 45,
+  "also_covered_urls": [
+   "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/"
+  ]
+ },
+ {
+  "id": "2026-11-06-eiffel-tower-and-colosseum-were-not-lit-blue-for-2026-u-s-mi-cc551",
+  "date": "2026-11-06",
+  "section": "myth",
+  "headline": "Eiffel Tower and Colosseum Were Not Lit Blue for 2026 U.S. Midterm Wins",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.snopes.com/fact-check/france-eiffel-tower-blue-midterms/",
+   "https://www.snopes.com/fact-check/canada-turn-niagara-falls-blue/",
+   "https://leadstories.com/hoax-alert/2026/11/fact-check-images-of-colosseum-and-eiffel-tower-turned-blue-for-2026-midterms-are-not-real-photos.html",
+   "https://leadstories.com/hoax-alert/2026/11/fact-check-does-not-show-people-in-melbourne-australia-celebrating-2026-democrat-midterm-wins.html"
+  ]
  }
 ]

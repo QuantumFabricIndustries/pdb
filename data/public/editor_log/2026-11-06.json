@@ -1,0 +1,155 @@
+[
+ {
+  "section": "threat",
+  "title": "OpenAI unveils GPT-6 Cyber model with higher exploit detection and tighter safeguards",
+  "verdict": "HOLD",
+  "truth": 38,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 6
+ },
+ {
+  "section": "threat",
+  "title": "OpenSSH “sshole” flaw lets attackers bypass passwordless accounts on Alpine Linux",
+  "verdict": "PUBLISH",
+  "truth": 42,
+  "reasons": [],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "White House Network Used as Residential Proxy Exit Points",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "DigiCert reports data breach exposing business customer contact and ID documents",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Google, Meta and TikTok sue California over teen‑social‑media restrictions",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "DOJ launches Super Intelligence Task Force to police AI misuse",
+  "verdict": "PUBLISH",
+  "truth": 76,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Tesla to wind down Cybertruck production at Texas plant",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "science",
+  "title": "NASA unveils X-70 Fractal experimental aircraft at Kennedy Space Center",
+  "verdict": "HOLD",
+  "truth": 50,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Hubble images reveal ancient globular cluster M30’s distance and possible extragalactic origin",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA Announces Supercomputing Tech Demo Sessions Nov. 17‑19, 2026",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "U.S. Spot Bitcoin ETFs See $430 Million Net Outflows Amid Tech Stock Selloff",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Zcash activates NU7 upgrade, introducing fee‑recycling mechanism",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Hyperliquid Strategies subsidiary seeks CFTC futures broker registration",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Three Indicted for AI-Driven CEO and Attorney Impersonation Scheme",
+  "verdict": "PUBLISH",
+  "truth": 45,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Eiffel Tower and Colosseum Were Not Lit Blue for 2026 U.S. Midterm Wins",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ }
+]

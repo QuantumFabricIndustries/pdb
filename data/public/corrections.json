@@ -251,5 +251,27 @@
   "from_score": 85,
   "to_score": 63,
   "note": "Rating changed from Confirmed (85) to Well-sourced (63) as new evidence came in."
+ },
+ {
+  "date": "2026-11-06",
+  "story_id": "2026-11-06-openssh-sshole-flaw-lets-attackers-bypass-passwordless-accou-0a08a",
+  "prior_id": "2026-11-05-openssh-flaw-enables-password-authentication-bypass-on-musl-eb52a",
+  "headline": "OpenSSH “sshole” flaw lets attackers bypass passwordless accounts on Alpine Linux",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 57,
+  "to_score": 42,
+  "note": "Rating changed from Well-sourced (57) to Developing (42) as new evidence came in."
+ },
+ {
+  "date": "2026-11-06",
+  "story_id": "2026-11-06-hubble-images-reveal-ancient-globular-cluster-m30-s-distance-ce0b2",
+  "prior_id": "2026-11-05-hubble-images-reveal-ancient-globular-cluster-messier-30-s-d-42325",
+  "headline": "Hubble images reveal ancient globular cluster M30’s distance and possible extragalactic origin",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 83,
+  "to_score": 59,
+  "note": "Rating changed from Confirmed (83) to Well-sourced (59) as new evidence came in."
  }
 ]

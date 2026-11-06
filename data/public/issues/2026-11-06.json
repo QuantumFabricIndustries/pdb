@@ -1,0 +1,1667 @@
+{
+ "date": "2026-11-06",
+ "built_at": "2026-11-06T20:02:30.339509+00:00",
+ "stories": [
+  {
+   "id": "2026-11-06-openssh-sshole-flaw-lets-attackers-bypass-passwordless-accou-0a08a",
+   "date": "2026-11-06",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "OpenSSH “sshole” flaw lets attackers bypass passwordless accounts on Alpine Linux",
+   "in_brief": "A decade‑old vulnerability in OpenSSH when built with the musl C library lets attackers log in to password‑disabled Alpine Linux accounts by sending an oversized password. The flaw, dubbed *sshole, has been patched in OpenSSH 10.6p2 and Alpine packages, but attacks were observed within hours of disclosure.",
+   "so_what": "The vulnerability, tracked as CVE‑2026‑123158, affects any Linux system that uses musl (including Alpine, OpenWrt, Buildroot and Yocto) with OpenSSH compiled without PAM and password authentication enabled. Exploitation requires only network access, an account name and a password longer than 256 bytes, allowing a single‑connection login without retries. While root accounts remain protected by default settings, compromised passwordless accounts with doas or sudo rights can be leveraged for full system takeover. The rapid exploitation reported by threat‑intel firm Previdian underscores the need for immediate remediation. Administrators should upgrade OpenSSH to version 10.6p2 or later and ensure Alpine packages are updated, while users should verify that password authentication is disabled or that PAM is enabled to block the attack vector.",
+   "what_to_do": "1. Upgrade OpenSSH to version 10.6p2 or newer (apk upgrade openssh). 2. Disable PasswordAuthentication in sshd_config or enable PAM. 3. Verify no accounts have ‘*’ in /etc/shadow unless intentionally password‑less.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "OpenSSH 10.6p2 fixes the flaw and Alpine has published updated packages for all releases back to 3.16.",
+     "source": 3,
+     "quote": "OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every release back to 3.16.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability was exploited in the wild within nine hours of its public disclosure.",
+     "source": 4,
+     "quote": "Our first observed attempt arrived less than nine hours after CVE publication, and we’ve confirmed successful root access on a Previdian honeypot running real Alpine Linux and OpenSSH.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The *sshole vulnerability lets attackers log in to password‑disabled Linux accounts by sending an oversized password.",
+     "source": 1,
+     "quote": "OpenSSH flaw lets attackers log into password-disabled Linux accounts.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    },
+    {
+     "claim": "Exploitation requires OpenSSH on a musl‑based system, PAM disabled, password authentication enabled, an account with ‘*’ in /etc/shadow, and another account with a valid password hash.",
+     "source": 2,
+     "quote": "Exploitation requires the following conditions: OpenSSH is running on a musl‑based Linux system... PAM authentication is disabled... SSH password authentication is enabled... At least one account has an asterisk (*) as its password hash... Another account has a valid password hash.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+     "published": "Thu, 05 Nov 2026 23:09:36 +0000",
+     "published_iso": "2026-11-05T23:09:36+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+     "published": "Thu, 05 Nov 2026 12:45:29 -0500",
+     "published_iso": "2026-11-05T17:45:29+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+     "published": "Thu, 05 Nov 2026 22:12:46 +0530",
+     "published_iso": "2026-11-05T16:42:46+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+     "published": "Fri, 06 Nov 2026 12:49:41 +0000",
+     "published_iso": "2026-11-06T12:49:41+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+    "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+    "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+    "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+    "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-123158",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-123158"
+    }
+   ],
+   "truth": {
+    "total": 42,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Condé Nast, bleepingcomputer.com, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      12,
+      25,
+      "2 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      2,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -10,
+      0,
+      "2 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 2 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4,
+   "previously": {
+    "id": "2026-11-05-openssh-flaw-enables-password-authentication-bypass-on-musl-eb52a",
+    "date": "2026-11-05",
+    "label": "Well-sourced",
+    "score": 57
+   }
+  },
+  {
+   "id": "2026-11-06-white-house-network-used-as-residential-proxy-exit-points-f27b1",
+   "date": "2026-11-06",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "White House Network Used as Residential Proxy Exit Points",
+   "in_brief": "Security researchers found that devices on the White House network acted as residential proxy exit nodes, allowing external users to route traffic through White House IP addresses. The activity was observed mainly in evenings and involved multiple proxy services.",
+   "so_what": "The discovery shows that even highly secured government networks can be inadvertently leveraged to provide public proxy services, potentially exposing internal traffic to external observers and facilitating malicious activities such as account takeover or content scraping. The proxy nodes were traced to six IP addresses within the Executive Office’s AS2650 range and were active on 26 of 30 days between October 5 and November 3, exiting 236 times. Twenty‑eight different residential proxy providers were able to use these exits, with most traffic occurring between 5 p.m. and midnight Eastern Time, suggesting a user’s device infected with a proxy SDK was responsible. Organizations should audit devices for unauthorized SDKs, especially on Windows 10/11 systems, and consider stricter network segmentation to prevent similar misuse.",
+   "what_to_do": "1. Verify that all Windows 10 and Windows 11 machines are free of unauthorized proxy SDKs (e.g., InfaticaSDK, Rave.io). 2. Apply the latest security patches and enable endpoint protection that can detect proxy‑related malware. 3. Review network segmentation and restrict outbound traffic from sensitive IP ranges to only approved destinations.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "Layer3 Intel’s proxy enumeration pipeline exited through the White House network 236 separate times between October 5 and November 3.",
+     "source": 1,
+     "quote": "Layer3 said the proxy activity was relatively persistent between October 5 to November 3, and that a review of the proxies available from AS2650 showed they exited from the White House network 236 times during that period.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Six IP addresses on the AS2650 network were used by 28 residential proxy services.",
+     "source": 2,
+     "quote": "According to Layer3 Intel, six IP addresses on AS2650, the network reserved for the Executive Office of the President, were used by 28 residential proxy services between October 5 and November 3.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "krebsonsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Most of the observed proxy activity occurred in the evening, between 5 p.m. and midnight Eastern Time.",
+     "source": 2,
+     "quote": "Most of the observed activity happens in the evening, between 5 p.m. and midnight Eastern Time, and almost none in the early morning.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Krebs on Security",
+     "owner": "krebsonsecurity.com",
+     "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+     "published": "Thu, 05 Nov 2026 04:36:17 +0000",
+     "published_iso": "2026-11-05T04:36:17+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+     "published": "Fri, 06 Nov 2026 12:16:13 +0000",
+     "published_iso": "2026-11-06T12:16:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+     "published": "2026-11-06T12:40:06-05:00",
+     "published_iso": "2026-11-06T17:40:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969",
+     "published": "Thu, 05 Nov 2026 21:50:57 +0100",
+     "published_iso": "2026-11-05T20:50:57+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/06/white-house-residential-proxy-traffic/",
+     "published": "Fri, 06 Nov 2026 10:29:58 +0000",
+     "published_iso": "2026-11-06T10:29:58+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+    "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+    "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+    "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969",
+    "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969",
+    "https://www.helpnetsecurity.com/2026/11/06/white-house-residential-proxy-traffic/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/evading-residential-proxy-networks-protecting-your-devices-from-becoming-a-tool-for-criminals",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.fbi.gov/investigate/cyber/alerts/2026/evading-residential-proxy-networks-protecting-your-devices-from-becoming-a-tool-for-criminals"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, Vox Media, helpnetsecurity.com, krebsonsecurity.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-06-digicert-reports-data-breach-exposing-business-customer-cont-f4d0a",
+   "date": "2026-11-06",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "DigiCert reports data breach exposing business customer contact and ID documents",
+   "in_brief": "DigiCert disclosed that an internal business system exposed during a 2025 server migration was accessed by an unauthorized account from June 27 to July 2, 2026, compromising names, business emails, phone numbers and some identification documents. The breach highlights risks from misconfigured external exposure and inadequate account controls.",
+   "so_what": "The incident underscores the importance of rigorous change‑management and security reviews when moving systems between network segments. Although DigiCert’s core certificate‑authority services remained unaffected, the exposure of archived customer data—including driver’s licenses and passports—could enable identity‑theft or targeted phishing if the information is misused. Organizations should audit any self‑registration features for unnecessary privileges and ensure multi‑factor authentication is enforced for account creation. Regulators and browser vendors consider such exposures reportable, prompting broader industry scrutiny of certificate‑authority security practices. Watch for follow‑up disclosures from DigiCert regarding the number of affected customers and any steps taken to remediate the underlying authorization flaw.",
+   "what_to_do": "1. Review and disable any self‑registration features that grant external access. 2. Verify that all accounts on critical systems require multi‑factor authentication. 3. Conduct a security audit of recent network migrations to ensure no services are unintentionally exposed to the internet.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "An internal business system was moved out of a VPN‑restricted network in February 2025, making it externally accessible.",
+     "source": 1,
+     "quote": "the incident began in February 2025 when an internal business system was moved out of a VPN-restricted network, making it accessible externally",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "An unauthorized account accessed archived customer data between June 27 and July 2, 2026.",
+     "source": 3,
+     "quote": "Attackers abused a self-registration feature ... to create a read‑only account that had access to archived data between June 27 and July 2",
+     "status": "verified",
+     "corroborated_by": [
+      "Recorded Future",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The accessed data included names, business email addresses, phone numbers, business addresses and, in some cases, driver’s licenses, passports or utility bills.",
+     "source": 2,
+     "quote": "The information involved was limited to names, business email addresses, phone numbers, and business address ... may have included an identification document such as a driver’s license, passport, utility bill",
+     "status": "verified",
+     "corroborated_by": [
+      "Recorded Future",
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+     "published": "Fri, 06 Nov 2026 18:56:00 GMT",
+     "published_iso": "2026-11-06T18:56:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+     "published": "Thu, 05 Nov 2026 11:12:46 -0500",
+     "published_iso": "2026-11-05T16:12:46+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+     "published": "Fri, 06 Nov 2026 14:00:07 +0000",
+     "published_iso": "2026-11-06T14:00:07+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+     "published": "Fri, 06 Nov 2026 14:15:00 +0100",
+     "published_iso": "2026-11-06T13:15:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+    "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+    "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+    "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+    "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Recorded Future, Situation Publishing, bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-06-google-meta-and-tiktok-sue-california-over-teen-social-media-f0065",
+   "date": "2026-11-06",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google, Meta and TikTok sue California over teen‑social‑media restrictions",
+   "in_brief": "The three companies filed federal lawsuits on Nov. 4 to block Assembly Bill 1709, a California law that bans autoplay and personalized feeds for users under 16. The law, signed by Gov. Gavin Newsom on Sept. 10, would also require platforms to delete accounts that retain those features.",
+   "so_what": "AB 1709 reflects a growing trend of state‑level attempts to curb youth exposure to potentially addictive social‑media features. If upheld, the law could force major platforms to redesign core product functions or remove under‑16 users entirely, setting a precedent for similar regulations elsewhere. The lawsuits argue the statute infringes First Amendment rights and conflicts with Section 230 protections, positioning the case at the intersection of free‑speech jurisprudence and child‑online‑safety policy. Courts’ rulings will shape how states can regulate platform design and may influence future federal or state legislation on digital youth protection. Stakeholders will watch for injunctions, appellate decisions, and any settlement that could alter platform practices nationwide.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Google, Meta and TikTok filed separate federal lawsuits on November 4 challenging Assembly Bill 1709",
+     "source": 2,
+     "quote": "Google, Meta, and TikTok filed separate federal lawsuits on November 4, challenging Assembly Bill 1709",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "AB 1709 prohibits autoplay videos and personalized feeds for users under 16 and requires deletion of accounts that retain those features",
+     "source": 1,
+     "quote": "The law, known as Assembly Bill 1709, prohibits such platforms from offering underage children “psychologically exploitative features” ... such as providing personal recommendations and sending videos through autoplay features. It also requires the deletion of children’s accounts with those features.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Governor Gavin Newsom signed the law on 10 September",
+     "source": 1,
+     "quote": "Governor Gavin Newsom signed the law on 10 September",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/05/california-children-social-media-lawsuit-tiktok-google-meta",
+     "published": "Thu, 05 Nov 2026 21:10:21 GMT",
+     "published_iso": "2026-11-05T21:10:21+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/big-tech-sues-over-california-plan-to-limit-kids-scrolling",
+     "published": "Fri, 06 Nov 2026 15:06:02 GMT",
+     "published_iso": "2026-11-06T15:06:02+00:00",
+     "kind": "vendor",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+     "published": "Fri, 06 Nov 2026 00:01:38 +0000",
+     "published_iso": "2026-11-06T00:01:38+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theguardian.com/technology/2026/nov/05/california-children-social-media-lawsuit-tiktok-google-meta",
+    "https://www.malwarebytes.com/blog/news/2026/11/big-tech-sues-over-california-plan-to-limit-kids-scrolling",
+    "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Guardian Media Group, Yahoo, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-06-doj-launches-super-intelligence-task-force-to-police-ai-misu-07cc1",
+   "date": "2026-11-06",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "DOJ launches Super Intelligence Task Force to police AI misuse",
+   "in_brief": "The U.S. Department of Justice announced a new Super Intelligence Task Force led by senior attorneys to address the misuse of advanced AI. The unit will focus on threats from foreign actors, criminal groups and fraudsters and push AI firms to tighten internal controls.",
+   "so_what": "The creation of the Super Intelligence Task Force marks a significant expansion of federal oversight of artificial intelligence, reflecting growing concerns about the technology’s security implications. By targeting foreign state actors, transnational criminal organizations and individual fraudsters, the task force aims to prevent AI from being weaponized or used for large‑scale scams. It also signals a shift toward requiring AI developers to implement stronger risk‑reporting and internal safeguards, aligning with broader regulatory moves such as the SEC’s upcoming \"super intelligence\" examination priorities. Observers will watch how the task force’s guidance influences industry practices and whether it leads to new enforcement actions against AI‑related misconduct.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The Department of Justice launched a Super Intelligence Task Force to police AI misuse",
+     "source": 2,
+     "quote": "The Department of Justice (DOJ) just announced the creation of something called the Super Intelligence Task Force",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The task force is led by Associate Attorney General Stanley Woodward and Associate Deputy Attorney General Stephen Weiss",
+     "source": 3,
+     "quote": "Announced Thursday, the Super Intelligence Task Force, or DOJ‑SITF, will be led by Associate Attorney General Stanley Woodward and Associate Deputy Attorney General Stephen Weiss",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Its mission includes preventing misuse of AI by foreign actors, criminal organizations and fraudsters",
+     "source": 3,
+     "quote": "to police the misuse of advanced AI by foreign actors, criminal organizations and fraudsters",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/06/dojs-super-intelligence-task-force-up-and-running/5308074",
+     "published": "Fri, 06 Nov 2026 15:15:00 +0000",
+     "published_iso": "2026-11-06T15:15:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
+     "published": "Fri, 06 Nov 2026 16:56:52 +0000",
+     "published_iso": "2026-11-06T16:56:52+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382672/doj-creates-super-intelligence-task-force-to-guard-against-ai-abuse",
+     "published": "Thu, 05 Nov 2026 20:46:02 +0000",
+     "published_iso": "2026-11-05T20:46:02+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theregister.com/ai-and-ml/2026/11/06/dojs-super-intelligence-task-force-up-and-running/5308074",
+    "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
+    "https://decrypt.co/382672/doj-creates-super-intelligence-task-force-to-guard-against-ai-abuse"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/opa/media/1470291/dl?inline",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/opa/media/1470291/dl?inline"
+    },
+    {
+     "url": "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force"
+    }
+   ],
+   "truth": {
+    "total": 76,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-06-tesla-to-wind-down-cybertruck-production-at-texas-plant-73d81",
+   "date": "2026-11-06",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Tesla to wind down Cybertruck production at Texas plant",
+   "in_brief": "Tesla announced it will wind down Cybertruck production at its Texas gigafactory next year to free space for its Cybercab robotaxi. The move follows weak sales, with the vehicle’s deliveries falling sharply in the latest quarter.",
+   "so_what": "The decision marks a shift in Tesla’s strategy from expanding its pickup line to focusing on autonomous vehicle services and AI. The Cybertruck, launched in late 2023 after a high‑profile debut, never achieved the projected annual sales of 250,000 units and its “other models” deliveries dropped 48% year‑over‑year in Q3 2026. By reallocating factory capacity to the two‑seat Cybercab, Tesla aims to accelerate its robotaxi ambitions, a core element of Musk’s vision to turn the carmaker into an AI‑focused firm. Observers will watch how quickly the Cybercab rollout expands beyond Austin and whether the re‑tooling improves Tesla’s overall profitability amid broader market pressures on its traditional models.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual corporate update",
+   "claims": [
+    {
+     "claim": "Tesla will wind down Cybertruck production at its Texas gigafactory around the middle of next year",
+     "source": 5,
+     "quote": "Tesla will be winding down production of the Cybertruck at Gigafactory Texas around the middle of next year to make room for increased Cybercab production",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Comcast",
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The wind‑down is intended to make space for building more Cybercab robotaxis",
+     "source": 1,
+     "quote": "He did not spell out whether it plans to stop making them entirely or shift production elsewhere, but did say the decision was to \"make room\" for building more of its self‑driving Cybercab cars.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Guardian Media Group",
+      "Yahoo",
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Deliveries of the Cybertruck’s “other models” fell 48% year‑over‑year in Q3 2026, to about 8,300 units",
+     "source": 5,
+     "quote": "Tesla delivered 8,295 vehicles in its \"other models\" category, which includes the Cybertruck, in the third quarter, down 48% from a year earlier",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [5]: 8300"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+     "published": "Fri, 06 Nov 2026 09:57:04 GMT",
+     "published_iso": "2026-11-06T09:57:04+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+     "published": "Fri, 06 Nov 2026 12:38:05 GMT",
+     "published_iso": "2026-11-06T12:38:05+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+     "published": "Fri, 06 Nov 2026 15:06:11 GMT",
+     "published_iso": "2026-11-06T15:06:11+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+     "published": "Fri, 06 Nov 2026 11:50:10 +0000",
+     "published_iso": "2026-11-06T11:50:10+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382703/tesla-to-wind-down-cybertruck-production-as-elon-musk-pivots-to-robotaxis-and-ai",
+     "published": "Fri, 06 Nov 2026 13:53:04 +0000",
+     "published_iso": "2026-11-06T13:53:04+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+    "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+    "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+    "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+    "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+    "https://www.engadget.com/2308875/tesla-is-winding-down-cybertruck-production-at-its-texas-gigafactory/",
+    "https://decrypt.co/382703/tesla-to-wind-down-cybertruck-production-as-elon-musk-pivots-to-robotaxis-and-ai"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Guardian Media Group, Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-06-hubble-images-reveal-ancient-globular-cluster-m30-s-distance-ce0b2",
+   "date": "2026-11-06",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Hubble images reveal ancient globular cluster M30’s distance and possible extragalactic origin",
+   "in_brief": "NASA’s Hubble Space Telescope captured new data on globular cluster Messier 30, located about 27,500 light‑years away. The findings highlight the cluster’s extreme age and its retrograde orbit, suggesting it may have been captured by the Milky Way.",
+   "so_what": "Messier 30 (M30) is a globular cluster situated roughly 27,500 light‑years from Earth in the constellation Capricornus. Globular clusters are among the oldest stellar systems, with ages estimated between 11.5 and 13.5 billion years, making them valuable time capsules for studying early galactic chemistry. Recent Hubble observations, using the Wide Field Camera 3, have confirmed that M30, like many other clusters, orbits opposite to the Milky Way’s rotation, a pattern that implies it may not have formed within our galaxy but was instead captured long ago. Understanding such captured clusters helps astronomers refine models of the Milky Way’s growth through mergers and accretion. Future observations will aim to map the motions of additional clusters to assess how common extragalactic capture has been in the galaxy’s history.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "M30 lies about 27,500 light‑years away in the constellation Capricornus.",
+     "source": 1,
+     "quote": "M30 lies about 27,500 light-years away in the constellation Capricornus.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Globular clusters are estimated to be between 11.5 and 13.5 billion years old.",
+     "source": 1,
+     "quote": "These clusters are impressively ancient: astronomers estimate their ages are between 11.5 to 13.5 billion years",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "M30 and many other globular clusters orbit opposite the direction of the Milky Way’s spin, suggesting they may have been captured.",
+     "source": 1,
+     "quote": "Researchers have discovered that M30 and many other globular clusters orbit in the direction opposite from the way our galaxy spins. This may mean that these clusters did not form within our galaxy at all. Instead, our Milky Way galaxy may have captured them in the distant past!",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
+     "published": "Thu, 05 Nov 2026 12:56:21 +0000",
+     "published_iso": "2026-11-05T12:56:21+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+    "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/"
+   ],
+   "primary": [
+    {
+     "url": "https://archive.stsci.edu/proposal_search.php?mission=hst&amp;id=10775",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://archive.stsci.edu/proposal_search.php?mission=hst&amp;id=10775"
+    },
+    {
+     "url": "https://archive.stsci.edu/proposal_search.php?mission=hst&amp;id=13297",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://archive.stsci.edu/proposal_search.php?mission=hst&amp;id=13297"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1,
+   "previously": {
+    "id": "2026-11-05-hubble-images-reveal-ancient-globular-cluster-messier-30-s-d-42325",
+    "date": "2026-11-05",
+    "label": "Confirmed",
+    "score": 83
+   }
+  },
+  {
+   "id": "2026-11-06-nasa-announces-supercomputing-tech-demo-sessions-nov-17-19-2-296c8",
+   "date": "2026-11-06",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA Announces Supercomputing Tech Demo Sessions Nov. 17‑19, 2026",
+   "in_brief": "NASA will host a series of supercomputing technology demonstrations at its Exhibit Hall booth #4038 from Nov. 17 to Nov. 19, 2026. The schedule lists multiple presentations on advanced programming, hydrology modeling, and high‑performance computing infrastructure.",
+   "so_what": "The event provides a platform for NASA experts to share cutting‑edge developments in high‑performance computing with the broader scientific community and industry partners. Topics such as type‑safe templates in Fortran 2028, high‑resolution hydrology simulations, and modular supercomputing data centers illustrate ongoing efforts to improve computational efficiency and support complex Earth and space research. Attendees can learn about new tools like OpenMP target offload and Open OnDemand, which may influence future NASA missions and collaborations with private sector entities. Monitoring the outcomes of these demos could indicate emerging standards and technologies that will shape next‑generation supercomputing workloads across research domains.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward schedule announcement",
+   "claims": [
+    {
+     "claim": "NASA will hold supercomputing tech demo sessions from Nov. 17 to Nov. 19, 2026.",
+     "source": 1,
+     "quote": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The schedule includes three consecutive sessions on \"Type-safe Templates in Fortran 2028\" presented by Tom Clune on Nov. 17.",
+     "source": 1,
+     "quote": "10:00 AM Type-safe Templates in Fortran 2028 Tom Clune 10:30 AM Type-safe Templates in Fortran 2028 Tom Clune 11:00 AM Type-safe Templates in Fortran 2028 Tom Clune",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A session on \"High resolution hydrology simulations and agentic SI Interfaces\" will be presented by Sujay Kumar on Nov. 18.",
+     "source": 1,
+     "quote": "1:00PM High resolution hydrology simulations and agentic SI Interfaces for mapping water availability and extremes Sujay Kumar",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Jeff Triplett will present \"Subsurface to Stellar: HPC Enablement with Open OnDemand and ColdFront\" on Nov. 19.",
+     "source": 1,
+     "quote": "10:00AM Subsurface to Stellar: HPC Enablement with Open OnDemand and ColdFront at bp and NASA Jeff Triplett",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
+     "published": "Fri, 06 Nov 2026 16:03:52 +0000",
+     "published_iso": "2026-11-06T16:03:52+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-06-zcash-activates-nu7-upgrade-introducing-fee-recycling-mechan-0d6a6",
+   "date": "2026-11-06",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Zcash activates NU7 upgrade, introducing fee‑recycling mechanism",
+   "in_brief": "Zcash’s NU7 network upgrade activated at block 3,543,405 early Friday, initiating a system that recycles 60% of transaction fees for future block rewards. The change also shortens block intervals to 25 seconds and sets reissuance to start in 2031 while keeping the 21 million ZEC supply cap.",
+   "so_what": "The activation of NU7 marks a significant shift in Zcash’s monetary policy, addressing concerns that declining block subsidies could undermine network security. By redirecting the majority of transaction fees into future rewards, the Network Sustainability Mechanism aims to ensure miners remain incentivized as halving events reduce base rewards. The reduction of block time from 75 to 25 seconds should improve transaction throughput, though it raises the potential for higher orphan rates, which developers expect to stay low in practice. Reissuance beginning in 2031 adds a new source of supply without exceeding the 21 million coin cap, preserving scarcity while funding security. Stakeholders will watch the upcoming community vote on the Zcash Community Grants’ contribution to the fund and monitor network performance under the faster block schedule.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "NU7 upgrade went live at block 3,543,405 early Friday",
+     "source": 1,
+     "quote": "Zcash's NU7 network upgrade went live at block 3,543,405 early Friday",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The mechanism removes 60% of transaction fees from circulation to fund future block rewards",
+     "source": 1,
+     "quote": "activating a mechanism that removes 60% of transaction fees from circulation to fund future block rewards",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Reissuance will begin in 2031 while preserving the 21 million ZEC supply cap",
+     "source": 1,
+     "quote": "Reissuance will begin in 2031 on top of the existing halving schedule, preserving Zcash's 21 million coin supply cap",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Block target time was reduced from 75 seconds to 25 seconds",
+     "source": 1,
+     "quote": "It cuts Zcash's target time between blocks from 75 seconds to 25",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382692/zcashs-nu7-upgrade-goes-live-recycling-60-of-fees-to-fund-future-block-rewards",
+     "published": "Fri, 06 Nov 2026 10:13:27 +0000",
+     "published_iso": "2026-11-06T10:13:27+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+     "published": "Fri, 06 Nov 2026 05:14:48 +0000",
+     "published_iso": "2026-11-06T05:14:48+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+    "https://decrypt.co/382692/zcashs-nu7-upgrade-goes-live-recycling-60-of-fees-to-fund-future-block-rewards"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-06-hyperliquid-strategies-subsidiary-seeks-cftc-futures-broker-daea7",
+   "date": "2026-11-06",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Hyperliquid Strategies subsidiary seeks CFTC futures broker registration",
+   "in_brief": "A Nasdaq‑listed Hyperliquid Strategies subsidiary has filed to become a CFTC‑registered futures commission merchant to handle U.S. client accounts. The move aims to enable regulated American trading of Hyperliquid perpetual futures.",
+   "so_what": "If approved, the subsidiary would act as a futures commission merchant, allowing U.S. traders to access permissioned Hyperliquid markets within a regulated framework. This could increase fee revenue for the Hyperliquid protocol, which uses fees to buy back its native token HYPE, and diversify the firm’s business beyond token holdings. The filing follows similar efforts by Payward and Intercontinental Exchange to bring Hyperliquid‑based futures to the United States, but final approval rests with regulators. Stakeholders will watch the CFTC’s decision and any subsequent market launches that could affect trading volumes and token economics.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "A subsidiary of Nasdaq‑listed Hyperliquid Strategies has applied to become a CFTC‑registered futures commission merchant to carry U.S. client accounts for permissioned Hyperliquid markets.",
+     "source": 1,
+     "quote": "A subsidiary of Nasdaq-listed Hyperliquid Strategies has applied to become a CFTC-registered futures commission merchant to carry U.S. client accounts for permissioned Hyperliquid markets.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "CEO David Schamis said the firm deployed $802 million this quarter and filed the FCM application as “the same bet.”",
+     "source": 1,
+     "quote": "“We deployed $802 million this quarter and filed an application to become a futures commission merchant,” CEO David Schamis said. “Those two moves are the same bet.”",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The firm held about 38.5 million HYPE at the end of September, worth roughly $3.5 billion.",
+     "source": 1,
+     "quote": "The firm held about 38.5 million HYPE at the end of September, worth roughly $3.5 billion",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker",
+     "published": "Fri, 06 Nov 2026 19:46:03 +0000",
+     "published_iso": "2026-11-06T19:46:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
+     "published": "Fri, 06 Nov 2026 02:24:23 +0000",
+     "published_iso": "2026-11-06T02:24:23+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
+    "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-06-three-indicted-for-ai-driven-ceo-and-attorney-impersonation-bf4c7",
+   "date": "2026-11-06",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Three Indicted for AI-Driven CEO and Attorney Impersonation Scheme",
+   "in_brief": "Three individuals were charged with wire fraud and aggravated identity theft for using AI to mimic corporate executives and lawyers and steal roughly $129 million. The case highlights how deep‑fake technology can be weaponized in large‑scale financial scams.",
+   "so_what": "The indictment alleges that Jacob Soall, Sharon Hazan and Guy Sheetrit used artificial‑intelligence generated voice and video to pose as CEOs and attorneys, targeting accounting departments of companies worldwide, including hospitals, a bank, a fintech firm, a mutual fund and a pet‑food company. Victims were instructed to wire funds that were later laundered through cryptocurrency. The defendants, hailing from Spain, the UK, Israel and the United Arab Emirates, also face money‑laundering charges. Law‑enforcement officials, including the FBI, warn that such deep‑fake scams are becoming more sophisticated, underscoring the need for organizations to verify communications through independent channels. Companies should review authentication protocols and train staff to recognize signs of AI‑generated impersonation as the technology becomes more accessible.",
+   "what_to_do": "1. Verify any request for wire transfers by contacting the purported sender through a known, independent phone number or email address. 2. Use multi‑factor authentication and secure communication platforms for financial approvals. 3. Educate employees about AI‑generated voice and video scams and encourage them to report suspicious requests immediately.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Three people were indicted on charges of wire fraud and aggravated identity theft for using AI to impersonate corporate executives and attorneys to steal about $129 million.",
+     "source": 1,
+     "quote": "Three people accused of using artificial intelligence to impersonate corporate executives and attorneys to steal about $129 million have been indicted on charges of wire fraud and aggravated identity theft, prosecutors said Thursday.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The scheme targeted thousands of companies worldwide, including hospital systems, a bank, a fintech firm, a mutual fund and a pet‑food company.",
+     "source": 1,
+     "quote": "Their victims included hospital systems in Missouri and California, a bank in Rhode Island, a financial technology company in the United Kingdom, a mutual fund company in Massachusetts and a pet food company in Florida, according to court documents.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The defendants used AI‑generated voice and video to mimic CEOs and attorneys and instructed victims to wire funds that were converted into cryptocurrency.",
+     "source": 1,
+     "quote": "They would also coordinate a phone or video call where the defendants used AI to mimic the voice and sometimes the image of the CEO, according to the indictment.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+     "published": "Fri, 06 Nov 2026 03:03:29 +0000",
+     "published_iso": "2026-11-06T03:03:29+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud"
+    }
+   ],
+   "truth": {
+    "total": 45,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-06-eiffel-tower-and-colosseum-were-not-lit-blue-for-2026-u-s-mi-cc551",
+   "date": "2026-11-06",
+   "section": "myth",
+   "verdict": "PUBLISH",
+   "headline": "Eiffel Tower and Colosseum Were Not Lit Blue for 2026 U.S. Midterm Wins",
+   "in_brief": "Social media posts claimed the Eiffel Tower and other landmarks were illuminated blue to celebrate Democratic victories in the 2026 U.S. midterms. Fact‑checkers found the images were either old photos, AI‑generated, or unrelated to the election.",
+   "so_what": "The claim spread quickly as the midterm results were being discussed, exploiting the symbolic association of blue with the Democratic Party. Snopes identified that authentic photos of the Eiffel Tower lit blue were from 2008 and 2022 celebrations of EU leadership, not the 2026 election, and that other images showed AI‑generated watermarks detected by OpenAI Verify and Google’s SynthID. Lead Stories corroborated that the Eiffel Tower’s official accounts posted no blue lighting in November 2026 and that the Colosseum’s only documented blue illumination occurred in 2007, unrelated to U.S. politics. The rapid circulation of such misinformation highlights the need for critical evaluation of visual content, especially when it aligns with partisan narratives. Monitoring official sources and using AI‑detection tools can help curb the spread of similar false claims in future political events.",
+   "what_to_do": "Check the date and source of landmark photos and run images through reputable AI‑detectors before sharing.",
+   "hype_flag": "low",
+   "hype_reason": "pure fact‑checking",
+   "claims": [
+    {
+     "claim": "No evidence France illuminated the Eiffel Tower blue to celebrate the 2026 U.S. midterms",
+     "source": 1,
+     "quote": "There was no evidence France illuminated the Eiffel Tower blue to celebrate the results of the U.S. midterms.",
+     "status": "verified",
+     "corroborated_by": [
+      "leadstories.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Images of the Eiffel Tower lit blue were from 2008 and 2022 EU celebrations, not 2026",
+     "source": 1,
+     "quote": "the image shows the landmark illuminated blue with the 12 stars of the European Union, which was done in both 2008 and 2022 to celebrate French leadership of the EU.",
+     "status": "verified",
+     "corroborated_by": [
+      "leadstories.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "AI detectors identified the most‑shared image as likely AI‑generated",
+     "source": 1,
+     "quote": "The artificial intelligence detector Pangram said it was highly likely this particular image... was generated with AI... OpenAI's Verify tool and Google's Gemini SynthID scan also confirmed the presence of a SynthID.",
+     "status": "verified",
+     "corroborated_by": [
+      "leadstories.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Official Eiffel Tower accounts showed no blue lighting in November 2026",
+     "source": 2,
+     "quote": "As of Nov. 6, 2026, the Tower's account on Instagram... did not show any recent images of it being lit blue.",
+     "status": "verified",
+     "corroborated_by": [
+      "snopes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The Colosseum was last lit blue in 2007, unrelated to the election",
+     "source": 2,
+     "quote": "The Colosseum was illuminated blue at least once, in 2007... did not show photographs of the site turning blue at night.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Snopes",
+     "owner": "snopes.com",
+     "url": "https://www.snopes.com/fact-check/france-eiffel-tower-blue-midterms/",
+     "published": "Thu, 05 Nov 2026 21:48:00 +0000",
+     "published_iso": "2026-11-05T21:48:00+00:00",
+     "kind": "factcheck",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Lead Stories",
+     "owner": "leadstories.com",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-images-of-colosseum-and-eiffel-tower-turned-blue-for-2026-midterms-are-not-real-photos.html",
+     "published": "2026-11-06T18:19:05Z",
+     "published_iso": "2026-11-06T18:19:05+00:00",
+     "kind": "factcheck",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.snopes.com/fact-check/france-eiffel-tower-blue-midterms/",
+    "https://www.snopes.com/fact-check/canada-turn-niagara-falls-blue/",
+    "https://leadstories.com/hoax-alert/2026/11/fact-check-images-of-colosseum-and-eiffel-tower-turned-blue-for-2026-midterms-are-not-real-photos.html",
+    "https://leadstories.com/hoax-alert/2026/11/fact-check-does-not-show-people-in-melbourne-australia-celebrating-2026-democrat-midterm-wins.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: leadstories.com, snopes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      20,
+      25,
+      "4 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-05-niagara-falls-lighting-was-teal-for-alzheimer-s-awareness-no-e0fc5",
+    "date": "2026-11-05",
+    "label": "Developing",
+    "score": 51
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam",
+  "myth"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 580,
+  "stories_considered": 15,
+  "published": 12,
+  "outlets": 38
+ }
+}
