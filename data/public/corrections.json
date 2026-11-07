@@ -273,5 +273,27 @@
   "from_score": 83,
   "to_score": 59,
   "note": "Rating changed from Confirmed (83) to Well-sourced (59) as new evidence came in."
+ },
+ {
+  "date": "2026-11-07",
+  "story_id": "2026-11-07-openssh-patches-sshole-bug-as-attacks-hit-alpine-linux-syste-70c37",
+  "prior_id": "2026-11-06-openssh-sshole-flaw-lets-attackers-bypass-passwordless-accou-0a08a",
+  "headline": "OpenSSH patches SSHole bug as attacks hit Alpine Linux systems",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 42,
+  "to_score": 67,
+  "note": "Rating changed from Developing (42) to Well-sourced (67) as new evidence came in."
+ },
+ {
+  "date": "2026-11-07",
+  "story_id": "2026-11-07-google-meta-and-tiktok-sue-to-block-california-law-restricti-ae5ef",
+  "prior_id": "2026-11-06-google-meta-and-tiktok-sue-california-over-teen-social-media-f0065",
+  "headline": "Google, Meta and TikTok sue to block California law restricting under‑16 social‑media features",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 60,
+  "to_score": 48,
+  "note": "Rating changed from Well-sourced (60) to Developing (48) as new evidence came in."
  }
 ]

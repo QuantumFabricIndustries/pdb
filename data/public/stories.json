@@ -5690,5 +5690,144 @@
    "https://leadstories.com/hoax-alert/2026/11/fact-check-images-of-colosseum-and-eiffel-tower-turned-blue-for-2026-midterms-are-not-real-photos.html",
    "https://leadstories.com/hoax-alert/2026/11/fact-check-does-not-show-people-in-melbourne-australia-celebrating-2026-democrat-midterm-wins.html"
   ]
+ },
+ {
+  "id": "2026-11-07-chainalysis-breach-exposes-credentials-for-all-customers-ser-74aed",
+  "date": "2026-11-07",
+  "section": "threat",
+  "headline": "Chainalysis breach exposes credentials for all customers, services taken offline",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+   "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+   "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+  ]
+ },
+ {
+  "id": "2026-11-07-openssh-patches-sshole-bug-as-attacks-hit-alpine-linux-syste-70c37",
+  "date": "2026-11-07",
+  "section": "threat",
+  "headline": "OpenSSH patches SSHole bug as attacks hit Alpine Linux systems",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+   "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/"
+  ]
+ },
+ {
+  "id": "2026-11-07-digicert-reports-breach-of-business-customer-data-after-expo-a7826",
+  "date": "2026-11-07",
+  "section": "threat",
+  "headline": "DigiCert reports breach of business customer data after exposed internal system",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+   "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+   "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+   "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097"
+  ]
+ },
+ {
+  "id": "2026-11-07-faa-to-retire-floppy-disks-in-air-traffic-control-upgrade-7adf8",
+  "date": "2026-11-07",
+  "section": "ai",
+  "headline": "FAA to retire floppy disks in air traffic control upgrade",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+   "https://www.theregister.com/public-sector/2026/11/06/us-air-traffic-control-enters-the-21st-century-starts-to-abandon-floppy-disks/5308210",
+   "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+  ]
+ },
+ {
+  "id": "2026-11-07-google-meta-and-tiktok-sue-to-block-california-law-restricti-ae5ef",
+  "date": "2026-11-07",
+  "section": "ai",
+  "headline": "Google, Meta and TikTok sue to block California law restricting under‑16 social‑media features",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/11/07/nx-s1-6032764/google-meta-and-tiktok-sue-to-block-california-youth-social-media-law",
+   "https://www.malwarebytes.com/blog/news/2026/11/big-tech-sues-over-california-plan-to-limit-kids-scrolling"
+  ]
+ },
+ {
+  "id": "2026-11-07-roku-screensaver-ends-as-fox-completes-22-billion-acquisitio-f43af",
+  "date": "2026-11-07",
+  "section": "ai",
+  "headline": "Roku screensaver ends as Fox completes $22 billion acquisition",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
+   "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/"
+  ]
+ },
+ {
+  "id": "2026-11-07-nasa-and-esa-release-new-hubble-image-of-globular-cluster-me-de071",
+  "date": "2026-11-07",
+  "section": "science",
+  "headline": "NASA and ESA Release New Hubble Image of Globular Cluster Messier 30",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/m30s-sparkling-stars/"
+  ]
+ },
+ {
+  "id": "2026-11-07-nasa-announces-supercomputing-tech-demo-sessions-nov-17-19-2-296c8",
+  "date": "2026-11-07",
+  "section": "science",
+  "headline": "NASA Announces Supercomputing Tech Demo Sessions Nov. 17‑19, 2026",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/"
+  ]
+ },
+ {
+  "id": "2026-11-07-tesla-to-wind-down-cybertruck-production-at-texas-gigafactor-d6a06",
+  "date": "2026-11-07",
+  "section": "money",
+  "headline": "Tesla to wind down Cybertruck production at Texas gigafactory",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+   "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+   "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+   "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+   "https://decrypt.co/382703/tesla-to-wind-down-cybertruck-production-as-elon-musk-pivots-to-robotaxis-and-ai"
+  ]
+ },
+ {
+  "id": "2026-11-07-u-s-treasury-orders-crypto-exchange-mexc-cut-off-from-u-s-fi-fa954",
+  "date": "2026-11-07",
+  "section": "money",
+  "headline": "U.S. Treasury orders crypto exchange MEXC cut off from U.S. financial system",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+   "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system"
+  ]
+ },
+ {
+  "id": "2026-11-07-us-treasury-sanctions-45-additional-targets-linked-to-prince-1942d",
+  "date": "2026-11-07",
+  "section": "scam",
+  "headline": "US Treasury sanctions 45 additional targets linked to Prince Group",
+  "label": "Developing",
+  "score": 43,
+  "also_covered_urls": [
+   "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group"
+  ]
  }
 ]

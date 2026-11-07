@@ -1,0 +1,169 @@
+[
+ {
+  "section": "threat",
+  "title": "Chainalysis breach exposes credentials for all customers, services taken offline",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: So_what section included speculative analysis regarding credential-stuffing that should be aligned directly with the company's warnings on credential reuse."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "OpenSSH patches SSHole bug as attacks hit Alpine Linux systems",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "DigiCert reports breach of business customer data after exposed internal system",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "FAA to retire floppy disks in air traffic control upgrade",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google, Meta and TikTok sue to block California law restricting under‑16 social‑media features",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Roku screensaver ends as Fox completes $22 billion acquisition",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included unverified claim about Nov 6 announcement date; sources state the deal was announced in June and completed on the day of reporting."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA and ESA Release New Hubble Image of Globular Cluster Messier 30",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what mentions 18th-century, but the number 18 does not appear in the sources"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA Announces Supercomputing Tech Demo Sessions Nov. 17‑19, 2026",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Tesla to wind down Cybertruck production at Texas gigafactory",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "money",
+  "title": "U.S. Treasury orders crypto exchange MEXC cut off from U.S. financial system",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Fake Gift Card Giveaways Use Celebrity Endorsements to Harvest Data",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "US Treasury sanctions 45 additional targets linked to Prince Group",
+  "verdict": "PUBLISH",
+  "truth": 43,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Copied word-for-word run(s) from sources in the draft prose."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes finds claim that Space Force took over FAA air traffic control false",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Image Claiming Capture of Haitian Gang Leader Wilson Joseph Is AI‑Generated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Altered 2023 Clip Falsely Depicts Mike Lindell Driving to Texas Following 2026 Midterms",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: The so_what section contains advice and analysis instead of strictly answering the 'So What?' in brief journalistic terms, and includes instructional filler.",
+   "editor: Headline is slightly clunky."
+  ],
+  "owners": 1
+ }
+]

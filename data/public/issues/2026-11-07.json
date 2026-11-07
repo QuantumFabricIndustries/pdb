@@ -1,0 +1,1450 @@
+{
+ "date": "2026-11-07",
+ "built_at": "2026-11-07T18:07:14.492852+00:00",
+ "stories": [
+  {
+   "id": "2026-11-07-chainalysis-breach-exposes-credentials-for-all-customers-ser-74aed",
+   "date": "2026-11-07",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Chainalysis breach exposes credentials for all customers, services taken offline",
+   "in_brief": "Chainalysis disclosed that a cyberattack accessed names, usernames, password hashes and live tokens for every user of its platform. The firm responded by locking accounts, shutting down key services and requiring password resets and API‑key rotations.",
+   "so_what": "The breach affects high‑profile clients, including U.S. government agencies such as the FBI, ICE and the Air Force, as well as major corporations like Microsoft, Coinbase and Barclays. Chainalysis has taken the login portal, Reactor, Data Solutions, the Know‑Your‑Transaction (KYT) interface and address‑screening products offline while it hardens its infrastructure. Customers are instructed to provide trusted IP addresses for an allowlist, after which they will be required to reset passwords and rotate API keys. The company has advised users to reset passwords on other systems where credentials may have been reused, while observers await further disclosures regarding the attackers' identity and motives.",
+   "what_to_do": "1. Reset passwords for Chainalysis and any other accounts where the same credentials may be used. 2. Rotate API keys associated with Chainalysis services. 3. Provide trusted IP addresses to support@chainalysis.com to be added to the allowlist for account recovery.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Hackers obtained names, usernames, password hashes and live tokens for all Chainalysis users.",
+     "source": 1,
+     "quote": "Chainalysis says hackers stole credentials and tokens for all of its customers.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attackers used AI agent‑assisted offensive techniques and an on‑path (Man‑in‑the‑Middle) attack to access the data.",
+     "source": 1,
+     "quote": "The external actor used AI agent‑assisted offensive techniques to gain unauthorized access... part of the “ongoing multifront cyberattack” involved an “on‑path attack” that exposed a subset of customer passwords.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Chainalysis locked accounts, took its login portal, Reactor, Data Solutions, KYT UI/API and address‑screening products offline, and is requiring password resets and API‑key rotations.",
+     "source": 2,
+     "quote": "While the company locked Chainalysis accounts as a precaution... it has now taken the login portal offline, together with Reactor and Data Solutions, the Know‑Your‑Transaction (KYT) user interface and API, and address screening products... all users will be required to reset their passwords and rotate API keys",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+     "published": "Fri, 06 Nov 2026 20:56:41 +0000",
+     "published_iso": "2026-11-06T20:56:41+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+     "published": "Fri, 06 Nov 2026 09:17:07 -0500",
+     "published_iso": "2026-11-06T14:17:07+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+     "published": "Fri, 06 Nov 2026 13:34:49 +0530",
+     "published_iso": "2026-11-06T08:04:49+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+    "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+    "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: So_what section included speculative analysis regarding credential-stuffing that should be aligned directly with the company's warnings on credential reuse."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-07-openssh-patches-sshole-bug-as-attacks-hit-alpine-linux-syste-70c37",
+   "date": "2026-11-07",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "OpenSSH patches SSHole bug as attacks hit Alpine Linux systems",
+   "in_brief": "OpenSSH released emergency patches for the high‑severity SSHole authentication bypass (CVE‑2026‑123158) and urged users to update. Within hours of disclosure, threat‑intel firm Previdian recorded successful exploitation against Alpine Linux honeypots.",
+   "so_what": "The SSHole flaw affects OpenSSH servers running on Linux distributions that use the musl C library with PAM disabled, such as Alpine, OpenWrt, Buildroot and Yocto. By sending an oversized password (257‑1,024 bytes) to accounts whose password field is set to \"*\", an unauthenticated attacker can gain access without knowing any credentials, potentially obtaining root privileges. The vulnerability was patched in OpenSSH 10.6p2, but early exploitation shows that attackers can act quickly, especially when AI‑assisted tools automate discovery. Administrators should prioritize applying the patch, restarting the sshd daemon, and reviewing authentication settings to prevent further compromise. Continued monitoring for unusual SSH login attempts and restricting internet‑facing SSH access are advisable as the threat landscape evolves.",
+   "what_to_do": "1. Update OpenSSH to version 10.6p2 or later. 2. Restart the sshd service to load the patched daemon. 3. Disable password authentication or ensure PAM is enabled for added protection.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "OpenSSH included fixes for the SSHole vulnerability in release 10.6p2.",
+     "source": 1,
+     "quote": "Fixes were included in OpenSSH 10.6p2.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw lets attackers log in using passwords between 257 and 1,024 characters on musl‑based systems with PAM disabled.",
+     "source": 1,
+     "quote": "A “misinterpretation of whether a string is intended to be a password hash” allows attackers to access certain accounts using any password that has between 257 and 1,024 characters.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Exploitation was observed within nine hours of disclosure, achieving root access on an Alpine Linux honeypot.",
+     "source": 2,
+     "quote": "Previdian ... confirmed successful root access on a honeypot running Alpine Linux and OpenSSH.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+     "published": "Fri, 06 Nov 2026 12:07:42 +0000",
+     "published_iso": "2026-11-06T12:07:42+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+     "published": "Fri, 06 Nov 2026 20:51:49 +0530",
+     "published_iso": "2026-11-06T15:21:49+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+     "published": "Fri, 06 Nov 2026 12:49:41 +0000",
+     "published_iso": "2026-11-06T12:49:41+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+    "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+    "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-123158",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-123158"
+    }
+   ],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-06-openssh-sshole-flaw-lets-attackers-bypass-passwordless-accou-0a08a",
+    "date": "2026-11-06",
+    "label": "Developing",
+    "score": 42
+   }
+  },
+  {
+   "id": "2026-11-07-digicert-reports-breach-of-business-customer-data-after-expo-a7826",
+   "date": "2026-11-07",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "DigiCert reports breach of business customer data after exposed internal system",
+   "in_brief": "DigiCert disclosed that an internal business system was unintentionally exposed to the internet, allowing attackers to access archived customer information between June 27 and July 2, 2026. The breach involved names, contact details and, in some cases, personal documents, prompting the company to block the unauthorized account and enhance security controls.",
+   "so_what": "The incident highlights the risks of moving legacy systems to less‑restricted network segments without adequate security review. Although DigiCert’s core certificate‑authority services remained unaffected, the exposure of personal identifiers such as driver’s licenses and passports could facilitate identity‑theft or targeted phishing campaigns against affected businesses. Organizations that rely on DigiCert for SSL/TLS certificates should reassess the security of any ancillary services they use and verify that no unauthorized accounts exist. Regulators and browser vendors consider such exposures reportable, which may lead to increased scrutiny of certificate‑authority practices. Watch for follow‑up disclosures from DigiCert regarding the number of impacted customers and any further remediation steps.",
+   "what_to_do": "1. Verify that no unknown accounts exist on any DigiCert‑related portals and delete any you do not recognize. 2. Reset passwords for all DigiCert business‑system users and enable multi‑factor authentication where possible. 3. Monitor for suspicious emails or login attempts that reference DigiCert credentials or personal documents.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "An internal business system was externally accessible and accessed by an unauthorized party from June 27 to July 2, 2026, exposing customer names, business email addresses, phone numbers and documents such as driver’s licenses and passports.",
+     "source": 1,
+     "quote": "On October 19, DigiCert confirmed that the database was accessed starting on June 27 and that it was a “reportable event.” The accessed data included customer names, business email addresses, phone numbers as well as documents like driver’s licenses, passports or utility bills and other info.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Attackers created a read‑only account through a self‑registration feature that did not require MFA, allowing access to archived data.",
+     "source": 2,
+     "quote": "Attackers abused a self-registration feature in the system’s account manager, built for other purposes and not requiring MFA, to create a read-only account that had access to archived data between June 27 and July 2.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "DigiCert blocked the unauthorized account on July 2 and subsequently added monitoring, removed non‑DigiCert accounts, reset passwords and deactivated the self‑registration feature.",
+     "source": 2,
+     "quote": "Since mid-October, the company also implemented additional monitoring and alerting, verified or removed remaining non-DigiCert accounts, reset passwords for all business system users, deactivated the feature that enabled users to self-register, and verified the ownership of the business system and the enforcement of permission policies.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+     "published": "Fri, 06 Nov 2026 18:56:00 GMT",
+     "published_iso": "2026-11-06T18:56:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+     "published": "Fri, 06 Nov 2026 14:00:07 +0000",
+     "published_iso": "2026-11-06T14:00:07+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+     "published": "Fri, 06 Nov 2026 14:15:00 +0100",
+     "published_iso": "2026-11-06T13:15:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+    "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+    "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+    "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Recorded Future, Situation Publishing, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-06-digicert-reports-data-breach-exposing-business-customer-cont-f4d0a",
+    "date": "2026-11-06",
+    "label": "Well-sourced",
+    "score": 73
+   }
+  },
+  {
+   "id": "2026-11-07-faa-to-retire-floppy-disks-in-air-traffic-control-upgrade-7adf8",
+   "date": "2026-11-07",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "FAA to retire floppy disks in air traffic control upgrade",
+   "in_brief": "The Federal Aviation Administration announced it will replace floppy‑disk based systems with a new Enterprise Information Display System at 435 sites, completing the rollout by the end of 2028. The change is intended to speed delivery of weather alerts and Notices to Airmen to controllers.",
+   "so_what": "The FAA’s shift away from floppy disks marks the end of a legacy technology that has been part of U.S. air traffic control since the 1980s. By installing the Enterprise Information Display System (E‑IDS) across more than 400 facilities, the agency aims to address “technical end‑of‑life issues” and improve the timeliness of critical safety information such as pilot weather reports (PIREP) and Notices to Airmen (NOTAM). Faster, digital distribution of these alerts is expected to help controllers make quicker decisions, enhancing overall flight safety. The rollout will begin at Atlantic City, Nashville, Greater Rochester airports and data hubs in Atlanta and Salt Lake City, with full implementation slated for 2028. Observers will watch for any operational hiccups during the transition and for subsequent updates on system performance and safety outcomes.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward agency announcement",
+   "claims": [
+    {
+     "claim": "The FAA will stop using floppy disks and install the Enterprise Information Display System at 435 facilities, completing the upgrade by the end of 2028.",
+     "source": 1,
+     "quote": "The FAA said it plans to complete the upgrade at 435 sites by the end of 2028.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "E‑IDS will replace older tools that have technical end‑of‑life issues and improve distribution of weather alerts and NOTAMs.",
+     "source": 1,
+     "quote": "The FAA said E‑IDS will replace older tools that have “technical end-of-life issues” and address two of the aviation agency’s top safety concerns: distribution of weather alerts to pilots (known as PIREP for Pilot Report); and timely distribution of Notices to Airmen (NOTAM).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The FAA announced the phase‑out of floppy disks from air traffic control by 2028.",
+     "source": 3,
+     "quote": "US FAA says it will phase out floppy disks from air traffic control by 2028.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+     "published": "Fri, 06 Nov 2026 19:12:28 +0000",
+     "published_iso": "2026-11-06T19:12:28+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/public-sector/2026/11/06/us-air-traffic-control-enters-the-21st-century-starts-to-abandon-floppy-disks/5308210",
+     "published": "Fri, 06 Nov 2026 18:06:26 +0000",
+     "published_iso": "2026-11-06T18:06:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "reuters.com",
+     "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+     "published": "Fri, 06 Nov 2026 04:00:28 +0000",
+     "published_iso": "2026-11-06T04:00:28+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+    "https://www.theregister.com/public-sector/2026/11/06/us-air-traffic-control-enters-the-21st-century-starts-to-abandon-floppy-disks/5308210",
+    "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air"
+    },
+    {
+     "url": "https://www.faa.gov/air_traffic/technology/eids",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.faa.gov/air_traffic/technology/eids"
+    }
+   ],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Situation Publishing, reuters.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-07-google-meta-and-tiktok-sue-to-block-california-law-restricti-ae5ef",
+   "date": "2026-11-07",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google, Meta and TikTok sue to block California law restricting under‑16 social‑media features",
+   "in_brief": "Three major tech companies filed federal lawsuits on November 4 to stop California’s new law that would ban autoplay and personalized feeds for users under 16. The companies say the law infringes on free speech and conflicts with federal protections.",
+   "so_what": "The lawsuits challenge Assembly Bill 1709, signed by Governor Gavin Newsom in September and slated to take effect in 2027. The bill aims to curb what officials describe as \"psychologically exploitative\" features that encourage compulsive use among minors by prohibiting autoplay and algorithmic feeds for under‑16s, while requiring age verification for those features. Google, Meta and TikTok argue the restrictions amount to government overreach into editorial decisions protected by the First Amendment, and they contend the law could also raise privacy concerns for adult users. The outcome could shape how states regulate algorithmic content and set precedents for the balance between child protection and platform free‑speech rights. Watch for court filings and any appellate action that may define the scope of state authority over digital platform design.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Google, Meta and TikTok filed separate federal lawsuits on November 4 challenging Assembly Bill 1709",
+     "source": 2,
+     "quote": "Google, Meta, and TikTok filed separate federal lawsuits on November 4, challenging Assembly Bill 1709, which Governor Gavin Newsom signed in September.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "AB 1709 prohibits platforms from providing autoplay and personalized feeds to users under 16",
+     "source": 2,
+     "quote": "AB 1709 prohibits covered platforms from providing California users under 16 certain “psychologically exploitative features intended to maximize engagement that foreseeably lead to compulsive use.”",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The law is set to take effect in 2027",
+     "source": 2,
+     "quote": "The companies argue that the law, due to take effect in 2027, interferes with free speech",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The companies argue the law interferes with free‑speech rights and conflicts with federal protections",
+     "source": 2,
+     "quote": "The companies argue that the law, due to take effect in 2027, interferes with free speech, overrides parents’ decisions, and conflicts with federal protections for online platforms.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NPR Technology",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/11/07/nx-s1-6032764/google-meta-and-tiktok-sue-to-block-california-youth-social-media-law",
+     "published": "Sat, 07 Nov 2026 07:41:13 -0500",
+     "published_iso": "2026-11-07T12:41:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/big-tech-sues-over-california-plan-to-limit-kids-scrolling",
+     "published": "Fri, 06 Nov 2026 15:06:02 GMT",
+     "published_iso": "2026-11-06T15:06:02+00:00",
+     "kind": "vendor",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.npr.org/2026/11/07/nx-s1-6032764/google-meta-and-tiktok-sue-to-block-california-youth-social-media-law",
+    "https://www.malwarebytes.com/blog/news/2026/11/big-tech-sues-over-california-plan-to-limit-kids-scrolling"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: malwarebytes.com, npr.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-06-google-meta-and-tiktok-sue-california-over-teen-social-media-f0065",
+    "date": "2026-11-06",
+    "label": "Well-sourced",
+    "score": 60
+   }
+  },
+  {
+   "id": "2026-11-07-roku-screensaver-ends-as-fox-completes-22-billion-acquisitio-f43af",
+   "date": "2026-11-07",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Roku screensaver ends as Fox completes $22 billion acquisition",
+   "in_brief": "Roku will remove the “Aquatic Life” screensaver on Dec. 1 after its licensing deal was not renewed following Fox’s $22 billion acquisition of Roku.",
+   "so_what": "The removal of the Aquatic Life screensaver highlights how corporate acquisitions can impact user-facing features on streaming platforms. Fox’s $22 billion takeover brings Roku under its ownership, creating the third-largest U.S. television business by viewership and providing Fox with direct access to over 100 million households. This expands Fox’s advertising reach and reduces its reliance on traditional distribution.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "The Aquatic Life screensaver will no longer be available as of December 1.",
+     "source": 1,
+     "quote": "their favorite screensaver will no longer be available as of December 1.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Fox completed its $22 billion acquisition of Roku.",
+     "source": 2,
+     "quote": "Fox has completed its $22 billion acquisition of Roku",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The licensing agreement can be canceled by either party for any reason and was not renewed after Fox’s purchase.",
+     "source": 1,
+     "quote": "He tells Ars Technica that the licensing agreement with Roku is up for renewal every October and can be canceled by either party for any reason. A day after learning that Fox was planning to buy Roku... he wouldn’t be renewing Roku’s license.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
+     "published": "Fri, 06 Nov 2026 19:50:18 +0000",
+     "published_iso": "2026-11-06T19:50:18+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
+     "published": "Fri, 06 Nov 2026 16:05:36 +0000",
+     "published_iso": "2026-11-06T16:05:36+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
+    "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Included unverified claim about Nov 6 announcement date; sources state the deal was announced in June and completed on the day of reporting."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-07-nasa-and-esa-release-new-hubble-image-of-globular-cluster-me-de071",
+   "date": "2026-11-07",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA and ESA Release New Hubble Image of Globular Cluster Messier 30",
+   "in_brief": "A Hubble Space Telescope image of the globular cluster Messier 30 was released on 5 Nov 2026. The picture highlights the cluster’s distance and location, offering astronomers a fresh view of its stellar population.",
+   "so_what": "The newly released image of Messier 30, a globular cluster about 27,500 light-years from Earth, provides researchers with a view of its stellar population. Named after French astronomer Charles Messier, who cataloged diffuse objects to avoid confusion with comets, M30 resides in the constellation Capricornus. By examining its stars, scientists can study the cluster and the history of the Milky Way. The collaboration between NASA and the European Space Agency highlights ongoing space-based observations.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual release",
+   "claims": [
+    {
+     "claim": "The Hubble image of Messier 30 was released on 5 Nov 2026.",
+     "source": 1,
+     "quote": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Messier 30 lies about 27,500 light‑years away in the constellation Capricornus.",
+     "source": 1,
+     "quote": "M30 lies about 27,500 light-years away in the constellation Capricornus",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The cluster is named after French astronomer Charles Messier, who cataloged it and other diffuse objects.",
+     "source": 1,
+     "quote": "The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+     "published": "Fri, 06 Nov 2026 16:23:41 +0000",
+     "published_iso": "2026-11-06T16:23:41+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/image-article/m30s-sparkling-stars/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: so_what mentions 18th-century, but the number 18 does not appear in the sources"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1,
+   "previously": {
+    "id": "2026-11-06-hubble-images-reveal-ancient-globular-cluster-m30-s-distance-ce0b2",
+    "date": "2026-11-06",
+    "label": "Well-sourced",
+    "score": 59
+   }
+  },
+  {
+   "id": "2026-11-07-nasa-announces-supercomputing-tech-demo-sessions-nov-17-19-2-296c8",
+   "date": "2026-11-07",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA Announces Supercomputing Tech Demo Sessions Nov. 17‑19, 2026",
+   "in_brief": "NASA will host a series of supercomputing demonstrations at its exhibit hall booth #4038 from Nov. 17 to Nov. 19, 2026. The schedule lists multiple presentations on advanced computing techniques and data‑center designs.",
+   "so_what": "The event provides a platform for NASA experts to share recent advances in high‑performance computing, including type‑safe Fortran templates, OpenMP target offload, and modular data‑center architectures. Attendees from industry, academia, and government can learn about tools that may accelerate scientific simulations and improve resource efficiency across NASA missions. The demos also highlight collaborations with external partners such as BP, showcasing joint HPC enablement efforts. Monitoring the outcomes could inform future investments in NASA’s computing infrastructure and guide broader adoption of the presented technologies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward schedule announcement",
+   "claims": [
+    {
+     "claim": "NASA will hold supercomputing demonstrations at exhibit hall booth #4038 on Nov. 17‑19, 2026.",
+     "source": 1,
+     "quote": "Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The schedule includes three consecutive sessions on \"Type-safe Templates in Fortran 2028\" presented by Tom Clune on Nov. 17.",
+     "source": 1,
+     "quote": "10:00 AM Type-safe Templates in Fortran 2028 Tom Clune 10:30 AM Type-safe Templates in Fortran 2028 Tom Clune 11:00 AM Type-safe Templates in Fortran 2028 Tom Clune",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A session on \"Modular Supercomputing Data Centers at NASA\" will be presented by Chris Tanner on Nov. 18 at 4:00 PM.",
+     "source": 1,
+     "quote": "4:00 PM Modular Supercomputing Data Centers at NASA Chris Tanner",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Jeff Triplett will discuss \"Subsurface to Stellar: HPC Enablement with Open OnDemand and ColdFront at bp and NASA\" on Nov. 19 at 10:00 AM.",
+     "source": 1,
+     "quote": "10:00AM Subsurface to Stellar: HPC Enablement with Open OnDemand and ColdFront at bp and NASA Jeff Triplett",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
+     "published": "Fri, 06 Nov 2026 16:03:52 +0000",
+     "published_iso": "2026-11-06T16:03:52+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1,
+   "previously": {
+    "id": "2026-11-06-nasa-announces-supercomputing-tech-demo-sessions-nov-17-19-2-296c8",
+    "date": "2026-11-06",
+    "label": "Well-sourced",
+    "score": 59
+   }
+  },
+  {
+   "id": "2026-11-07-tesla-to-wind-down-cybertruck-production-at-texas-gigafactor-d6a06",
+   "date": "2026-11-07",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Tesla to wind down Cybertruck production at Texas gigafactory",
+   "in_brief": "Tesla announced it will wind down Cybertruck production at its Texas plant around mid‑2027 to free space for increased Cybercab robotaxi output. The move follows weak sales and a shift toward AI‑focused vehicle offerings.",
+   "so_what": "The decision marks a strategic pivot for Tesla as it reallocates manufacturing capacity from its flagship electric pickup to the Cybercab, a two‑seat robotaxi that the company views as central to its future AI and robotics ambitions. Sales of the Cybertruck have lagged far behind Elon Musk’s original target of 250,000 units per year, with third‑quarter 2026 deliveries of the broader “other models” category—including the Cybertruck—down 48% year‑over‑year. By ending production, Tesla aims to concentrate resources on autonomous‑driving services and other high‑growth areas, while still supporting the existing fleet of Cybertrucks already on the road. Observers will watch how quickly the Cybercab rollout expands beyond Austin and whether the reallocation of factory space improves Tesla’s overall profitability and market perception amid broader challenges in the EV sector.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Tesla will wind down Cybertruck production at its Texas gigafactory around the middle of next year to make room for increased Cybercab production",
+     "source": 5,
+     "quote": "Tesla will be winding down production of the Cybertruck at Gigafactory Texas around the middle of next year to make room for increased Cybercab production",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Comcast",
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Third‑quarter 2026 deliveries of Tesla’s “other models” category, which includes the Cybertruck, fell 48% year‑over‑year",
+     "source": 5,
+     "quote": "Tesla delivered 8,295 vehicles in its \"other models\" category, which includes the Cybertruck, in the third quarter, down 48% from a year earlier",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Tesla’s Cybertruck sales were estimated at 20,237 units in the U.S. last year, a 48% drop from 38,965 the previous year",
+     "source": 3,
+     "quote": "Cox Automotive estimated sales of the Cybertruck last year at 20,237 units in the U.S., down 48% from 38,965 in 2024",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+     "published": "Fri, 06 Nov 2026 21:49:50 GMT",
+     "published_iso": "2026-11-06T21:49:50+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+     "published": "Fri, 06 Nov 2026 12:38:05 GMT",
+     "published_iso": "2026-11-06T12:38:05+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+     "published": "Fri, 06 Nov 2026 15:06:11 GMT",
+     "published_iso": "2026-11-06T15:06:11+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+     "published": "Fri, 06 Nov 2026 11:50:10 +0000",
+     "published_iso": "2026-11-06T11:50:10+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382703/tesla-to-wind-down-cybertruck-production-as-elon-musk-pivots-to-robotaxis-and-ai",
+     "published": "Fri, 06 Nov 2026 13:53:04 +0000",
+     "published_iso": "2026-11-06T13:53:04+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+    "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+    "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+    "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+    "https://decrypt.co/382703/tesla-to-wind-down-cybertruck-production-as-elon-musk-pivots-to-robotaxis-and-ai"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Guardian Media Group, Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5,
+   "previously": {
+    "id": "2026-11-06-tesla-to-wind-down-cybertruck-production-at-texas-plant-73d81",
+    "date": "2026-11-06",
+    "label": "Well-sourced",
+    "score": 56
+   }
+  },
+  {
+   "id": "2026-11-07-u-s-treasury-orders-crypto-exchange-mexc-cut-off-from-u-s-fi-fa954",
+   "date": "2026-11-07",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "U.S. Treasury orders crypto exchange MEXC cut off from U.S. financial system",
+   "in_brief": "FinCEN issued an order barring MEXC Global from U.S. financial institutions, citing $16 billion in illicit transactions. The restriction takes effect 30 days after its publication in the Federal Register.",
+   "so_what": "The Treasury’s action expands its Operation Economic Outcast crackdown, targeting crypto platforms that facilitate sanctions evasion and cyber‑crime. By removing MEXC—a top‑20 exchange handling over $1 billion daily—from the U.S. financial network, regulators aim to disrupt a conduit used for moving funds linked to Iran, North Korea, Russia and other sanctioned entities. The order also signals heightened scrutiny of anti‑money‑laundering controls across the crypto sector, potentially prompting other exchanges to strengthen compliance or face similar measures. Watch for further Treasury designations and any legal challenges MEXC may mount, as well as the impact on users and counterparties reliant on the platform for cross‑border transactions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "FinCEN issued an order cutting MEXC Global off from the U.S. financial system, accusing it of facilitating at least $16 billion in illicit transactions tied to sanctions evasion and cybercrime.",
+     "source": 1,
+     "quote": "The U.S. Treasury’s FinCEN issued an order cutting MEXC Global, a top-20 crypto exchange, off from the U.S. financial system, accusing it of facilitating at least $16 billion in illicit transactions tied to sanctions evasion and cybercrime.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The order bars U.S. financial institutions from processing any funds transfers to or from MEXC and takes effect 30 days after publication in the Federal Register.",
+     "source": 1,
+     "quote": "The action, part of a broader effort dubbed Operation Economic Outcast, bars U.S. financial institutions from processing any funds transfers to or from the exchange. It takes effect 30 days after publication in the Federal Register.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "FinCEN reported that between May 2021 and May 2026 MEXC moved at least $16 billion connected to illicit activity.",
+     "source": 1,
+     "quote": "Between May 2021 and May 2026, FinCEN said, the platform moved at least $16 billion connected to illicit activity, including nearly $1.5 billion tied to Russian sanctions evasion, with $232 million in direct transactions with sanctioned entities.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
+     "published": "Fri, 06 Nov 2026 21:06:03 +0000",
+     "published_iso": "2026-11-06T21:06:03+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+     "published": "Sat, 07 Nov 2026 17:36:46 +0000",
+     "published_iso": "2026-11-07T17:36:46+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+    "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system"
+   ],
+   "primary": [
+    {
+     "url": "https://home.treasury.gov/news/press-releases/sb0685/",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://home.treasury.gov/news/press-releases/sb0685/"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-07-us-treasury-sanctions-45-additional-targets-linked-to-prince-1942d",
+   "date": "2026-11-07",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "US Treasury sanctions 45 additional targets linked to Prince Group",
+   "in_brief": "The U.S. Treasury Department penalized four people and 41 businesses alleged to back Prince Group, a Cambodian conglomerate accused of operating crypto scam compounds.",
+   "so_what": "The new penalties build upon previous actions from October 2025 and June 2026, targeting international networks in Hong Kong, the British Virgin Islands, Singapore, Mauritius, and Malaysia. By focusing on offshore firms and associates allegedly helping leadership hide assets, the Treasury aims to disrupt financial channels used to launder funds from romance and crypto investment scams.",
+   "what_to_do": "1. Verify crypto investment opportunities carefully, especially those involving overseas entities. 2. Avoid sharing personal details with unsolicited contacts offering romance or investment platforms. 3. Report suspected fraudulent activities to relevant law enforcement.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "The U.S. Treasury sanctioned four individuals and 41 entities that it says support Prince Group, a Cambodian conglomerate accused of running crypto scam compounds.",
+     "source": 1,
+     "quote": "The U.S. Treasury sanctioned four individuals and 41 entities it says support Prince Group, a Cambodian conglomerate accused of running crypto scam compounds.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Prince Group is alleged to use trafficked workers to defraud victims through crypto investment and romance scams.",
+     "source": 1,
+     "quote": "The U.S. Treasury Department has sanctioned four individuals and 41 entities that it says support Prince Group, the Cambodian conglomerate accused of running scam compounds that use trafficked workers to defraud victims through crypto investment and romance scams.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "OFAC designated Chui Kok Wa, a Malaysian national based in Madagascar, for leading a network that defrauded Americans of more than $400,000 in crypto.",
+     "source": 1,
+     "quote": "Separately, OFAC designated Chui Kok Wa, a Malaysian national based in Madagascar, who Treasury said led a network of scammers that used crypto and other technologies to defraud Americans of more than $400,000.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group",
+     "published": "Fri, 06 Nov 2026 17:42:31 +0000",
+     "published_iso": "2026-11-06T17:42:31+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group"
+   ],
+   "primary": [
+    {
+     "url": "https://home.treasury.gov/news/press-releases/sb0683",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://home.treasury.gov/news/press-releases/sb0683"
+    },
+    {
+     "url": "https://ofac.treasury.gov/recent-actions/20261105",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://ofac.treasury.gov/recent-actions/20261105"
+    }
+   ],
+   "truth": {
+    "total": 43,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Copied word-for-word run(s) from sources in the draft prose."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 463,
+  "stories_considered": 15,
+  "published": 11,
+  "outlets": 36
+ }
+}
