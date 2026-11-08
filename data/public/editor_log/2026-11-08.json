@@ -1,0 +1,172 @@
+[
+ {
+  "section": "threat",
+  "title": "Claude Code “Don’t Ask Again” feature leaves passwords in public GitHub files",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Included unverified and un-sourced numbers 103,000 and 104,000 from the truncated source text where they were not fully parsed in the verified facts."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "SonicWall Issues Patch for SSL‑VPN MFA Bypass Vulnerability CVE‑2026‑19868",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Apple’s MacBook Pro lineup sees price gaps and record‑high top‑spec costs",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Included unsupported claims about analyst data and AI data center demand",
+   "editor: Included speculative advice for consumers and businesses to monitor pricing"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI reportedly secures $11 billion in funding at $1.25 trillion pre-money valuation",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline states the funding and valuation as absolute fact, but sources report it is a report/claim from Bloomberg and sources familiar with the matter ('reportedly raises').",
+   "editor: In_brief states OpenAI 'received' $11 billion, whereas sources state it is reportedly raised/wired based on people familiar with the deal, and sources note OpenAI declined to comment on the funding while CFO confirmed valuation in a TV interview."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Congressional inquiries focus on Nvidia CEO following reports of ties to Chinese intelligence",
+  "verdict": "PUBLISH",
+  "truth": 37,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: copied 1 long word-for-word run(s) from a source"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA Opens Applications for New Astronaut Class Ahead of Artemis Missions",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA Announces Moon Base Awards, Expands Cargo Lander Program and Rover Development",
+  "verdict": "HOLD",
+  "truth": 59,
+  "reasons": [
+   "copied 1 long word-for-word run(s) from a source, e.g. \"science technology and infrastructure payloads to the moon the clps 2 framework\""
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied word-for-word run from source regarding the list of eight companies."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA APOD Features Widely Reported European Fireball Meteor on Nov 8, 2026",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "U.S. Treasury orders crypto exchange MEXC cut off from U.S. financial system",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Apple and Meta Join 67 Firms Objecting to OKX‑ICE Tokenized Stock Venue",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Fake Gift Card Scams Use Brand Impersonation and Verification Loops",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Three men charged with AI‑driven CEO impersonation scheme that stole over $129 million",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "US Space Force Did Not Take Over FAA Air Traffic Control",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑Generated Image of Haitian Gang Leader’s Capture Proven Fake",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Altered 2023 Clip Misrepresented as Mike Lindell Driving to Texas After 2026 Midterms",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

@@ -295,5 +295,16 @@
   "from_score": 60,
   "to_score": 48,
   "note": "Rating changed from Well-sourced (60) to Developing (48) as new evidence came in."
+ },
+ {
+  "date": "2026-11-08",
+  "story_id": "2026-11-08-apple-and-meta-join-67-firms-objecting-to-okx-ice-tokenized-f1e53",
+  "prior_id": "2026-11-03-twelve-more-firms-including-nvidia-and-nike-object-to-okx-ic-23857",
+  "headline": "Apple and Meta Join 67 Firms Objecting to OKX‑ICE Tokenized Stock Venue",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 49,
+  "to_score": 58,
+  "note": "Rating changed from Developing (49) to Well-sourced (58) as new evidence came in."
  }
 ]

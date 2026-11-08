@@ -1,0 +1,1137 @@
+{
+ "date": "2026-11-08",
+ "built_at": "2026-11-08T18:25:58.818328+00:00",
+ "stories": [
+  {
+   "id": "2026-11-08-claude-code-don-t-ask-again-feature-leaves-passwords-in-publ-8c8b6",
+   "date": "2026-11-08",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Claude Code “Don’t Ask Again” feature leaves passwords in public GitHub files",
+   "in_brief": "Researchers found 1,122 public GitHub copies of Claude Code’s .claude/settings.local.json file that contain passwords, API keys or other secrets. The leak occurs when users select “Yes, and don’t ask again,” causing the assistant to store the exact command—including any secret—in the project settings file.",
+   "so_what": "The discovery highlights a risk for developers using Anthropic’s Claude Code AI assistant, as the saved settings file can be inadvertently committed to version control and become publicly accessible. Because the file is not automatically added to a project’s .gitignore, older commits and forks retain the secrets even after the file is removed, requiring a full rotation of compromised credentials. Security firm Apiiro identified 1,122 public copies of the file containing at least one secret such as database passwords, SSH logins or GitHub tokens. Organizations should audit repositories for the .claude/settings.local.json file, revoke any exposed credentials, and implement stricter git‑ignore policies to prevent future leaks.",
+   "what_to_do": "1. Search all repositories for the file .claude/settings.local.json and remove any instances. 2. Rotate every password, API key, token or secret that may have been stored in the file. 3. Add .claude/settings.local.json to the project’s .gitignore and ensure global git excludes are configured on all developer machines.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "1,122 public copies of the .claude/settings.local.json file hold at least one secret",
+     "source": 1,
+     "quote": "Software security company Apiiro said yesterday that 1,122 public copies of that file hold at least one secret",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The file is .claude/settings.local.json and removing it does not undo the leak because older versions stay in git history",
+     "source": 1,
+     "quote": "The file is .claude/settings.local.json. Removing it from a project does not undo the leak, because older versions stay in git history and in forks of the repository",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "When a user selects \"Yes, and don't ask again,\" Claude Code saves the command—including any secret—in the settings file",
+     "source": 1,
+     "quote": "When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+     "published": "Sat, 07 Nov 2026 12:14:17 +0530",
+     "published_iso": "2026-11-07T06:44:17+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "apiiro.com",
+     "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+     "published": "Sat, 07 Nov 2026 20:45:32 +0000",
+     "published_iso": "2026-11-07T20:45:32+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+    "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: apiiro.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Included unverified and un-sourced numbers 103,000 and 104,000 from the truncated source text where they were not fully parsed in the verified facts."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-08-sonicwall-issues-patch-for-ssl-vpn-mfa-bypass-vulnerability-1b3f5",
+   "date": "2026-11-08",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "SonicWall Issues Patch for SSL‑VPN MFA Bypass Vulnerability CVE‑2026‑19868",
+   "in_brief": "SonicWall released updates fixing a CVE‑2026‑19868 flaw that lets attackers bypass SAML‑based MFA on its SSL‑VPN, and CISA has listed the bug as exploited in the wild. The advisory urges immediate upgrade of affected SonicOS firewalls.",
+   "so_what": "The vulnerability affects SonicOS SSL‑VPN services that rely on SAML authentication, allowing a user with valid alternate credentials to sidestep multi‑factor controls. With a CVSS score of 7.1, the flaw is considered high‑severity and has been added to the U.S. Cybersecurity and Infrastructure Security Agency’s Known Exploited Vulnerabilities catalog, confirming real‑world abuse. Federal agencies must remediate by 20 November 2026, and SonicWall recommends all customers install the patched versions (7.3.4‑7013 for Gen7 and 8.2.3‑8015 for Gen8). No workarounds exist, and the same advisory also addresses six other flaws, two of which score 8.8 and could permit unauthenticated actions. Organizations should verify they are not running the vulnerable firmware, apply the updates promptly, and monitor for any anomalous VPN activity as the threat landscape around SonicWall appliances remains active.",
+   "what_to_do": "1. Identify SonicOS firewalls running Gen7 7.3.3‑7015 or earlier, or Gen8 8.2.2‑8015 or earlier. 2. Upgrade to SonicOS 7.3.4‑7013 or 8.2.3‑8015 as soon as possible. 3. Verify that SAML‑based login is disabled or secured until the patch is applied.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "The vulnerability, tracked as CVE‑2026‑19868, allows attackers with valid credentials for an alternate authentication method to bypass SAML authentication controls, potentially including SAML‑enforced multi‑factor authentication (MFA).",
+     "source": 1,
+     "quote": "The vulnerability, tracked as CVE-2026-19868, allows attackers with valid credentials for an alternate authentication method to bypass SAML authentication controls, potentially including SAML-enforced multi-factor authentication (MFA).",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "CISA added CVE‑2026‑19868 to its Known Exploited Vulnerabilities catalog, confirming exploitation in the wild and ordering federal agencies to secure affected systems by 20 Nov 2026.",
+     "source": 1,
+     "quote": "CISA ordered federal civilian executive branch agencies to secure affected systems by November 20, 2026.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "SonicWall fixed the issue in SonicOS versions 7.3.4‑7013 and 8.2.3‑8015 and says no workarounds are available.",
+     "source": 1,
+     "quote": "SonicWall fixed the issues in versions 7.3.4-7013 and 8.2.3-8015 and says no workarounds are available.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+     "published": "Fri, 06 Nov 2026 19:00:55 -0500",
+     "published_iso": "2026-11-07T00:00:55+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+     "published": "Sat, 07 Nov 2026 10:16:23 +0000",
+     "published_iso": "2026-11-07T10:16:23+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+    "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-19868 — SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability"
+    },
+    {
+     "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+     "type": "official record",
+     "verified": true,
+     "label": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-19868",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-19868"
+    }
+   ],
+   "truth": {
+    "total": 83,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-08-apple-s-macbook-pro-lineup-sees-price-gaps-and-record-high-t-29418",
+   "date": "2026-11-08",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple’s MacBook Pro lineup sees price gaps and record‑high top‑spec costs",
+   "in_brief": "Apple’s 14‑inch MacBook Pro with the older M5 chip is $200 cheaper than the newer M6 model, while a fully loaded 16‑inch Pro now tops out at $14,549. The price spread reflects modest performance gains in the M6 and rising memory‑storage costs blamed on AI demand.",
+   "so_what": "The pricing disparity between the 14-inch M5 and M6 MacBook Pro models highlights minor gen-over-gen performance bumps paired with price differences across retailers like Amazon and Walmart. At the high end, the 16-inch Pro’s $14,549 price tag is driven largely by a 16 TB SSD and 128 GB of memory, which together account for $9,000 of the cost.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual pricing report",
+   "claims": [
+    {
+     "claim": "The 14‑inch MacBook Pro with the M5 chip is $200 cheaper than the newer M6 model on Amazon and Walmart.",
+     "source": 1,
+     "quote": "you can currently get the M5 for $200 less on Amazon and Walmart.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A fully loaded 16‑inch MacBook Pro with an OLED touchscreen is listed at $14,549 on Apple’s online store.",
+     "source": 2,
+     "quote": "It's listed at $14,549 on Apple's online store",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Memory and storage account for roughly 62 percent of the $14,549 price, with a 16 TB SSD costing $7,000 and 128 GB of memory adding $2,000.",
+     "source": 2,
+     "quote": "a massive 16TB SSD accounts for $7,000 of the total and moving from 48GB to 128GB of unified memory adds another $2,000",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/macbook-pro-m5-deal-11-6-2026/",
+     "published": "Sun, 08 Nov 2026 10:00:00 +0000",
+     "published_iso": "2026-11-08T10:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2308988/apple-macbook-pro-proled-tops-out-at-15000/",
+     "published": "Sun, 08 Nov 2026 18:15:00 +0000",
+     "published_iso": "2026-11-08T18:15:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/macbook-pro-m5-deal-11-6-2026/",
+    "https://www.engadget.com/2308988/apple-macbook-pro-proled-tops-out-at-15000/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Included unsupported claims about analyst data and AI data center demand",
+     "editor: Included speculative advice for consumers and businesses to monitor pricing"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-08-openai-reportedly-secures-11-billion-in-funding-at-1-25-tril-b6d5c",
+   "date": "2026-11-08",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI reportedly secures $11 billion in funding at $1.25 trillion pre-money valuation",
+   "in_brief": "OpenAI has reportedly raised $11 billion in a new financing round that values the company at $1.25 trillion. The partial round could close at roughly $20 billion, remaining below earlier targets.",
+   "so_what": "The infusion of $11 billion provides OpenAI with capital to continue expanding its AI services while the market for artificial intelligence remains volatile amid regulatory concerns and shifting investor sentiment. Although the round values the firm at $1.25 trillion, it represents only about 37% of the $30 billion originally sought, indicating tighter funding conditions for AI firms. Investors will watch whether the round expands to the projected $20 billion and how the valuation compares with rivals such as Anthropic, whose prospective IPO valuation has been revised downward. The outcome may influence the timing of OpenAI’s planned public offering and affect shareholders of partner companies like Microsoft and Nvidia that rely on OpenAI’s growth.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "OpenAI received $11 billion in new funding at a $1.25 trillion pre‑money valuation.",
+     "source": 1,
+     "quote": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation.",
+     "status": "verified",
+     "corroborated_by": [
+      "247wallst.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The funding round is expected to close at about $20 billion total.",
+     "source": 1,
+     "quote": "The round is expected to close in the coming weeks and could total about $20 billion, a source told Bloomberg.",
+     "status": "verified",
+     "corroborated_by": [
+      "247wallst.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The closed amount represents roughly 37% of the original $30 billion target.",
+     "source": 2,
+     "quote": "The closed amount covers about 37% of the original target.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+     "published": "Fri, 06 Nov 2026 22:53:46 +0000",
+     "published_iso": "2026-11-06T22:53:46+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "247wallst.com",
+     "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+     "published": "Sun, 08 Nov 2026 14:49:23 +0000",
+     "published_iso": "2026-11-08T14:49:23+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: 247wallst.com, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor: Headline states the funding and valuation as absolute fact, but sources report it is a report/claim from Bloomberg and sources familiar with the matter ('reportedly raises').",
+     "editor: In_brief states OpenAI 'received' $11 billion, whereas sources state it is reportedly raised/wired based on people familiar with the deal, and sources note OpenAI declined to comment on the funding while CFO confirmed valuation in a TV interview."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-08-congressional-inquiries-focus-on-nvidia-ceo-following-report-86cba",
+   "date": "2026-11-08",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Congressional inquiries focus on Nvidia CEO following reports of ties to Chinese intelligence",
+   "in_brief": "U.S. lawmakers have requested a closed‑door briefing with Nvidia CEO Jensen Huang following intelligence reports regarding his interactions with a Chinese citizen, while a memo alleges she was targeted to gather information on him.",
+   "so_what": "The requests for a briefing reflect heightened concern over potential exposure of U.S. technology to foreign intelligence. A U.S. intelligence memo cited in reports states that Alice Huang, an executive at Singapore‑based Megaspeed, was targeted by China’s Ministry of State Security, and reports also mention a personal relationship. An Nvidia spokesperson characterized the CEO’s meetings as consistent with interactions involving customers. Watch for further congressional actions and potential impacts on export controls or chip sales.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of multiple sources",
+   "claims": [
+    {
+     "claim": "Three House Republican committee chairs sent a letter to Jensen Huang requesting a closed‑door briefing on Nov. 18.",
+     "source": 1,
+     "quote": "Three House Republican committee chairs sent a letter to Huang on Wednesday requesting that he sit for a closed-door briefing with lawmakers on Nov. 18, a day after the company is scheduled to report third-quarter earnings.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A U.S. intelligence memo said Alice Huang was recruited by China’s Ministry of State Security to spy on Jensen Huang.",
+     "source": 2,
+     "quote": "A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Nvidia spokesperson said Jensen Huang’s interactions with Alice Huang were “not unusual.”",
+     "source": 2,
+     "quote": "The Nvidia spokesperson said the interactions were “not unusual.”",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+     "published": "Sun, 08 Nov 2026 18:18:30 GMT",
+     "published_iso": "2026-11-08T18:18:30+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+     "published": "Sat, 07 Nov 2026 21:17:08 +0000",
+     "published_iso": "2026-11-07T21:17:08+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+    "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+   ],
+   "primary": [
+    {
+     "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset"
+    }
+   ],
+   "truth": {
+    "total": 37,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Comcast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: copied 1 long word-for-word run(s) from a source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-08-nasa-opens-applications-for-new-astronaut-class-ahead-of-art-59375",
+   "date": "2026-11-08",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA Opens Applications for New Astronaut Class Ahead of Artemis Missions",
+   "in_brief": "NASA announced that applications are open until Dec. 3, 2026 for its next astronaut class, aiming to expand the Artemis program. The agency plans to select candidates by late 2027 to train for lunar and future Mars missions.",
+   "so_what": "The opening of applications marks a critical step as NASA seeks to increase its astronaut corps from the current 32 active members to support the Artemis program’s goal of returning humans to the Moon and eventually sending crews to Mars. With a deadline of 11:59 p.m. EST on Dec. 3, 2026, U.S. citizens with a master’s degree in a STEM field can apply, reflecting NASA’s emphasis on technical expertise and diverse experience. The agency expects to make its final selection in late 2027, with training beginning in early 2028, aligning with the planned Artemis IV lunar landing near the south pole. Observers will watch the applicant pool size, selection criteria, and how the new class integrates into upcoming lunar missions and the broader goal of establishing a sustainable Moon presence.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward recruitment announcement",
+   "claims": [
+    {
+     "claim": "Applications are open until 11:59 p.m. EST on Dec. 3, 2026 for U.S. citizens.",
+     "source": 1,
+     "quote": "U.S. citizens interested in joining the astronaut corps have until 11:59 p.m. EST Thursday, Dec. 3, to submit their completed application materials at:",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA expects to make its final selection by late 2027.",
+     "source": 1,
+     "quote": "NASA expects to make its final selection in late 2027 to begin training as the next class of astronaut candidates.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "NASA currently has 32 active astronauts.",
+     "source": 1,
+     "quote": "The agency has 32 astronauts active in the astronaut corps",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+     "published": "Sat, 07 Nov 2026 18:11:57 +0000",
+     "published_iso": "2026-11-07T18:11:57+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-fly-moon-nasa-astronauts-artemis.html",
+     "published": "Sun, 08 Nov 2026 06:45:12 EST",
+     "published_iso": "2026-11-08T11:45:12+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+    "https://phys.org/news/2026-11-fly-moon-nasa-astronauts-artemis.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 80,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-08-nasa-apod-features-widely-reported-european-fireball-meteor-487fa",
+   "date": "2026-11-08",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA APOD Features Widely Reported European Fireball Meteor on Nov 8, 2026",
+   "in_brief": "NASA’s Astronomy Picture of the Day on November 8, 2026 displayed a major fireball meteor captured over the Dolomite Alps. The event was extensively reported across Europe and linked to the Northern Taurid meteor shower.",
+   "so_what": "The fireball’s appearance highlights the ongoing activity of the Northern Taurid stream, which originates from dust left by Encke’s comet and can produce bright meteors visible over large regions. Its widespread sightings, documented by the American Meteor Society and the International Meteor Organization, provide valuable data for tracking meteoroid trajectories and assessing potential future impacts. Astronomers will monitor the Taurid stream in the coming weeks to refine models of its debris field and improve forecasting of similar events. The APOD image also offers the public a visual reminder of Earth’s dynamic space environment and the importance of coordinated observation networks.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "NASA’s Astronomy Picture of the Day on November 8, 2026 featured a major fireball meteor.",
+     "source": 1,
+     "quote": "APOD: 2026 November 8 – Major Fireball Meteor.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The fireball was widely reported across European skies, making it one of the most reported fireball events for the American Meteor Society and the International Meteor Organization.",
+     "source": 1,
+     "quote": "Sightings of this major fireball meteor were widely reported in European skies, making it one of the most reported fireball events ever for planet Earth's American Meteor Society and the International Meteor Organization.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The meteor’s track over Germany aligns with the Northern Taurid meteor shower, which is associated with dust from Encke’s comet.",
+     "source": 1,
+     "quote": "The meteor's measured track over Germany is consistent with its origin near the active radiant of November's Northern Taurid Meteor Shower, a shower associated with dust from Encke's comet.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+     "published": "Sun, 08 Nov 2026 05:05:00 +0000",
+     "published_iso": "2026-11-08T05:05:00+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+    "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.esa.int/ESA_Multimedia/Images/2017/11/Autumn_fireball",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.esa.int/ESA_Multimedia/Images/2017/11/Autumn_fireball"
+    },
+    {
+     "url": "https://www.mtu.edu/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.mtu.edu/"
+    },
+    {
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-08-u-s-treasury-orders-crypto-exchange-mexc-cut-off-from-u-s-fi-fa954",
+   "date": "2026-11-08",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "U.S. Treasury orders crypto exchange MEXC cut off from U.S. financial system",
+   "in_brief": "FinCEN issued an order barring MEXC Global from U.S. financial institutions, citing at least $16 billion in illicit transactions. The order will become effective 30 days after its publication in the Federal Register.",
+   "so_what": "The Treasury’s action targets MEXC Global, one of the world’s 20 largest crypto exchanges, for alleged facilitation of sanctions evasion and cyber‑crime involving Iran, North Korea and Russia. By prohibiting U.S. banks from processing transfers to or from the platform, the move aims to disrupt a conduit for illicit finance that FinCEN says moved at least $16 billion, including $1.5 billion linked to Russian sanctions evasion. The decision expands the Operation Economic Outcast crackdown, which has already targeted Russian networks and Iranian exchanges. Market participants and users of MEXC should monitor compliance developments and any further regulatory actions that could affect access to U.S. dollar liquidity.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "FinCEN issued an order cutting MEXC Global off from the U.S. financial system, accusing it of facilitating at least $16 billion in illicit transactions tied to sanctions evasion and cybercrime.",
+     "source": 1,
+     "quote": "The U.S. Treasury’s FinCEN issued an order cutting MEXC Global, a top-20 crypto exchange, off from the U.S. financial system, accusing it of facilitating at least $16 billion in illicit transactions tied to sanctions evasion and cybercrime.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The order bars U.S. financial institutions from processing any funds transfers to or from MEXC.",
+     "source": 1,
+     "quote": "The action, part of a broader effort dubbed Operation Economic Outcast, bars U.S. financial institutions from processing any funds transfers to or from the exchange.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The order takes effect 30 days after publication in the Federal Register.",
+     "source": 1,
+     "quote": "It takes effect 30 days after publication in the Federal Register.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
+     "published": "Fri, 06 Nov 2026 21:06:03 +0000",
+     "published_iso": "2026-11-06T21:06:03+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+     "published": "Sat, 07 Nov 2026 17:36:46 +0000",
+     "published_iso": "2026-11-07T17:36:46+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+    "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system"
+   ],
+   "primary": [
+    {
+     "url": "https://home.treasury.gov/news/press-releases/sb0685/",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://home.treasury.gov/news/press-releases/sb0685/"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-07-u-s-treasury-orders-crypto-exchange-mexc-cut-off-from-u-s-fi-fa954",
+    "date": "2026-11-07",
+    "label": "Well-sourced",
+    "score": 58
+   }
+  },
+  {
+   "id": "2026-11-08-apple-and-meta-join-67-firms-objecting-to-okx-ice-tokenized-f1e53",
+   "date": "2026-11-08",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Apple and Meta Join 67 Firms Objecting to OKX‑ICE Tokenized Stock Venue",
+   "in_brief": "Apple and Meta Platforms added their objections to OKX‑ICE’s tokenized‑stock platform, bringing the total number of objecting issuers to 67. The move blocks the venue from listing tokenized versions of these companies’ shares under the SEC’s innovation exemption.",
+   "so_what": "The objections by Apple and Meta complete a sweep of the so‑called “Magnificent Seven” tech giants, which together represent a large share of the S&P 500’s value. Under the SEC’s innovation exemption, a written objection within 30 days prevents a venue from offering a tokenized version of a company’s stock, limiting OKX‑ICE’s ability to launch a broad range of tokenized U.S. equities. With major megacaps now excluded, the joint venture between Intercontinental Exchange and OKX may have to focus on smaller or less‑known issuers, potentially reducing the appeal of its 24/7, blockchain‑based trading model. Observers will watch which, if any, remaining large‑cap stocks the platform can list and whether other crypto‑friendly firms choose to object or participate.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Apple and Meta Platforms joined OKX‑ICE’s objection list, bringing the total number of objecting issuers to 67.",
+     "source": 1,
+     "quote": "Apple and Meta joined OKX-ICE’s objection list in its Nov. 5 notice, meaning all seven “Magnificent Seven” tech giants have now opted out of the planned tokenized stock venue.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The objection list now includes 67 companies, including other tech giants and firms such as Home Depot and Boeing.",
+     "source": 1,
+     "quote": "They join Microsoft, Alphabet, Amazon, Nvidia and Tesla... The other new objectors are Home Depot, Boeing, GE Vernova, Palantir, ServiceNow, S&P Global, KLA, Super Micro Computer and Nebius Group, bringing the total number of companies saying “no” to the OKX and ICE platform to 67.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Under the SEC’s innovation exemption, a timely objection bars the venue from listing a tokenized version of a company’s stock.",
+     "source": 1,
+     "quote": "Under the SEC’s innovation exemption, a venue must notify a company before offering a version of its shares tokenized by an unaffiliated third party. If the company objects in writing within 30 days, the venue can’t make that stock available for trading.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+     "published": "Sat, 07 Nov 2026 17:01:03 +0000",
+     "published_iso": "2026-11-07T17:01:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+     "published": "Fri, 06 Nov 2026 20:09:18 +0000",
+     "published_iso": "2026-11-06T20:09:18+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+    "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-03-twelve-more-firms-including-nvidia-and-nike-object-to-okx-ic-23857",
+    "date": "2026-11-03",
+    "label": "Developing",
+    "score": 49
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 261,
+  "stories_considered": 15,
+  "published": 9,
+  "outlets": 31
+ }
+}

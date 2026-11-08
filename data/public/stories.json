@@ -5829,5 +5829,113 @@
   "also_covered_urls": [
    "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group"
   ]
+ },
+ {
+  "id": "2026-11-08-claude-code-don-t-ask-again-feature-leaves-passwords-in-publ-8c8b6",
+  "date": "2026-11-08",
+  "section": "threat",
+  "headline": "Claude Code “Don’t Ask Again” feature leaves passwords in public GitHub files",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+  ]
+ },
+ {
+  "id": "2026-11-08-sonicwall-issues-patch-for-ssl-vpn-mfa-bypass-vulnerability-1b3f5",
+  "date": "2026-11-08",
+  "section": "threat",
+  "headline": "SonicWall Issues Patch for SSL‑VPN MFA Bypass Vulnerability CVE‑2026‑19868",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+  ]
+ },
+ {
+  "id": "2026-11-08-apple-s-macbook-pro-lineup-sees-price-gaps-and-record-high-t-29418",
+  "date": "2026-11-08",
+  "section": "ai",
+  "headline": "Apple’s MacBook Pro lineup sees price gaps and record‑high top‑spec costs",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.wired.com/story/macbook-pro-m5-deal-11-6-2026/",
+   "https://www.engadget.com/2308988/apple-macbook-pro-proled-tops-out-at-15000/"
+  ]
+ },
+ {
+  "id": "2026-11-08-openai-reportedly-secures-11-billion-in-funding-at-1-25-tril-b6d5c",
+  "date": "2026-11-08",
+  "section": "ai",
+  "headline": "OpenAI reportedly secures $11 billion in funding at $1.25 trillion pre-money valuation",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/"
+  ]
+ },
+ {
+  "id": "2026-11-08-congressional-inquiries-focus-on-nvidia-ceo-following-report-86cba",
+  "date": "2026-11-08",
+  "section": "ai",
+  "headline": "Congressional inquiries focus on Nvidia CEO following reports of ties to Chinese intelligence",
+  "label": "Developing",
+  "score": 37,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+   "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+  ]
+ },
+ {
+  "id": "2026-11-08-nasa-opens-applications-for-new-astronaut-class-ahead-of-art-59375",
+  "date": "2026-11-08",
+  "section": "science",
+  "headline": "NASA Opens Applications for New Astronaut Class Ahead of Artemis Missions",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+   "https://phys.org/news/2026-11-fly-moon-nasa-astronauts-artemis.html"
+  ]
+ },
+ {
+  "id": "2026-11-08-nasa-apod-features-widely-reported-european-fireball-meteor-487fa",
+  "date": "2026-11-08",
+  "section": "science",
+  "headline": "NASA APOD Features Widely Reported European Fireball Meteor on Nov 8, 2026",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+   "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/"
+  ]
+ },
+ {
+  "id": "2026-11-08-u-s-treasury-orders-crypto-exchange-mexc-cut-off-from-u-s-fi-fa954",
+  "date": "2026-11-08",
+  "section": "money",
+  "headline": "U.S. Treasury orders crypto exchange MEXC cut off from U.S. financial system",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+   "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system"
+  ]
+ },
+ {
+  "id": "2026-11-08-apple-and-meta-join-67-firms-objecting-to-okx-ice-tokenized-f1e53",
+  "date": "2026-11-08",
+  "section": "money",
+  "headline": "Apple and Meta Join 67 Firms Objecting to OKX‑ICE Tokenized Stock Venue",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+   "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
+  ]
  }
 ]
