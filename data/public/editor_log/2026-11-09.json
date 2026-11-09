@@ -1,0 +1,193 @@
+[
+ {
+  "section": "threat",
+  "title": "France attributes supermarket refrigeration cyberattacks to Iran’s IRGC unit",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Active exploitation of SSHole flaw targets musl‑based Linux systems",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft mentions OpenSSH 10.6p2 release date as November 5, but source 2 says PoC and patch came out then, while source 1 says CVE became public last Thursday. Also source 2 says GreyNoise recorded first successful exploitation on Nov 7, not 'first confirmed successful attacks on November 7' globally by everyone, but specifically GreyNoise's logs. Let's ensure strict alignment."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "Iris Plaza data breach exposes personal info of up to 7.7 million people",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 with faster output and lower pricing",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Meta launches Muse Ember, its smallest and most cost‑efficient AI model",
+  "verdict": "PUBLISH",
+  "truth": 40,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: Removed speculative market impact claims and call-to-action watch advice from so_what."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Nvidia CEO admits affair as company launches investigation amid US spy allegations",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "US Mid‑term Election Results Prompt Analyses of Science and Crypto Sectors",
+  "verdict": "HOLD",
+  "truth": 38,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Chandra Detects Companion Driving Repeated Outbursts of Star AT 2016blu",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "SuperCam detects ruby-like luminescence in Martian rocks",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Ava Labs says Avalanche chosen to power ledger for NYSE-affiliated tokenized platform",
+  "verdict": "HOLD",
+  "truth": 46,
+  "reasons": [
+   "copied 7 long word-for-word run(s) from a source, e.g. \"avalanche will provide the core ledger technology for the clearing firm behind\""
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline states NYSE selected Avalanche directly, but sources state Ava Labs said Avalanche will provide technology for the clearing firm behind an NYSE-affiliated platform, and attribution is needed for interested parties."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Formation Securities files to launch tokenized stock venue on Solana",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Trump says he knows nothing about World Liberty Financial’s UAE ties",
+  "verdict": "HOLD",
+  "truth": 46,
+  "reasons": [
+   "copied 3 long word-for-word run(s) from a source, e.g. \"aryam investment a uae backed entity tied to the country s national\""
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft mentions a 'post-midterm interview' and 'last week's midterm elections', which is factually incorrect and unsupported by the timeline of Trump's January 2025 inauguration (there are no midterms right before a Jan 2025 inauguration). The sources say 'in an interview after last week's midterm elections' is actually a misreading in the prompt draft context, but sources specifically state it was a post-election/recent interview context without valid midterm context, wait, source 1 says 'in an interview after last week's midterm elections'? Actually, source 1 says 'in an interview after last week's midterm elections' wait no, let me check source 1 carefully. Ah, source 1 text says 'in an interview after last week's midterm elections' wait, let me just correct the timeline references to match the exact source text or remove the impossible midterm reference.",
+   "editor: Draft states Trump is a 'co-owner' which source 1 implies through 'family's stake' and 'co-ownership', but sources note his sons run the business. Let's ensure strict alignment."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Coinbase Secures Final OCC Approval for National Trust Charter",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor: Copied word-for-word run from source in in_brief"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Four suspects arrested in Ukraine for crypto scam that defrauded German investors of €4.3 million",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Northampton Video Not a New Covid Strain",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of Sen. Mitch McConnell’s reaction to 2026 midterms is authentic, not doctored",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Chile clothing dumps are low‑lying landfills, not space‑visible piles",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

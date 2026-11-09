@@ -1,0 +1,1445 @@
+{
+ "date": "2026-11-09",
+ "built_at": "2026-11-09T23:04:16.262046+00:00",
+ "stories": [
+  {
+   "id": "2026-11-09-france-attributes-supermarket-refrigeration-cyberattacks-to-ac8a6",
+   "date": "2026-11-09",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "France attributes supermarket refrigeration cyberattacks to Iran’s IRGC unit",
+   "in_brief": "French authorities say Iran’s IRGC unit Shahid Kaveh sabotaged refrigeration systems at hundreds of stores, causing food losses and fires. The claim links the attacks to broader targeting of industrial equipment.",
+   "so_what": "The attribution marks the first public accusation that a state‑backed Iranian cyber unit deliberately altered industrial refrigeration controllers, leading to widespread spoilage and at least 15 fires across roughly 700 French retail locations. By also identifying simultaneous attacks on Schneider Electric gear at small hydroelectric sites, the report suggests a coordinated campaign against operational technology beyond the food sector. The incident underscores vulnerabilities in legacy OT environments and the potential for physical damage from cyber manipulation. Governments are pursuing legal action, including international arrest warrants, and are urging sanctions against the perpetrators. Organizations operating similar control systems should review security postures, apply vendor patches, and monitor for unauthorized configuration changes to mitigate future risk.",
+   "what_to_do": "1. Apply any available firmware or security patches to refrigeration controllers and related OT devices. 2. Verify and, if needed, reset passwords and access credentials on industrial control systems. 3. Conduct a review of configuration logs for unauthorized changes and monitor network traffic for suspicious activity.",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "France’s authorities accused Iran’s IRGC unit Shahid Kaveh of sabotaging refrigeration systems at around 700 French grocery stores.",
+     "source": 1,
+     "quote": "French authorities on Monday accused Iran’s Islamic Revolutionary Guard Corps (IRGC) of a cyberattack sabotaging refrigeration systems at around 700 French grocery stores last month",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attacks caused at least 15 fires and extensive food losses.",
+     "source": 1,
+     "quote": "causing what it said were extensive food losses and at least 15 fires",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Iranian hackers also targeted Schneider Electric equipment at several small hydroelectric facilities.",
+     "source": 1,
+     "quote": "ANSSI said it also identified the Iranian hackers simultaneously targeting Schneider Electric equipment at several small hydroelectric facilities",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+     "published": "Mon, 09 Nov 2026 18:45:00 GMT",
+     "published_iso": "2026-11-09T18:45:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+     "published": "Mon, 09 Nov 2026 13:32:42 -0500",
+     "published_iso": "2026-11-09T18:32:42+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/09/france-blames-iran-for-supermarket-hack-meltdowns/5308591",
+     "published": "Mon, 09 Nov 2026 23:45:21 +0100",
+     "published_iso": "2026-11-09T22:45:21+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+    "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+    "https://www.theregister.com/security/2026/11/09/france-blames-iran-for-supermarket-hack-meltdowns/5308591"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Recorded Future, Situation Publishing, bleepingcomputer.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-09-active-exploitation-of-sshole-flaw-targets-musl-based-linux-0e09b",
+   "date": "2026-11-09",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Active exploitation of SSHole flaw targets musl‑based Linux systems",
+   "in_brief": "Hackers are exploiting the SSHole vulnerability in OpenSSH on musl‑based Linux devices to gain unauthenticated privileged access, with attacks observed in the wild. OpenSSH released a fix in version 10.6p2 on November 5, but exploitation attempts and compromises continue to be recorded.",
+   "so_what": "The SSHole (CVE‑2026‑123158) flaw stems from an interaction between OpenSSH and the musl C library, allowing attackers to bypass authentication when specific conditions are met, such as password hashes set to an asterisk. Because many cloud and container environments run lightweight Alpine Linux, which uses musl, the vulnerability affects systems using both packages. Threat intelligence firms reported exploitation attempts beginning the same day the patch and proof-of-concept were released, with GreyNoise recording successful exploitation chains starting November 7. Attacks observed include reconnaissance and the installation of a Python-based backdoor called TAC Agent. Organizations should apply the OpenSSH update, audit systems for unauthorized artifacts, and monitor network traffic.",
+   "what_to_do": "1. Update OpenSSH to version 10.6p2 or later on all affected Linux servers. 2. Verify systems running musl-based OpenSSH are patched. 3. Scan for unauthorized Python3 packages or TAC Agent artifacts.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "The vulnerability, tracked under the name sshole, arises from the interaction between OpenSSH and a code library known as musl... and can give unauthenticated access to high‑privilege accounts",
+     "source": 1,
+     "quote": "The vulnerability, tracked under the name *sshole, arises from the interaction between OpenSSH and a code library known as musl... can be hacked to give unauthenticated access to high‑privilege accounts in a matter of seconds.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "OpenSSH maintainers fixed the vulnerability in version 10.6p2 released on November 5",
+     "source": 2,
+     "quote": "OpenSSH maintainers fixed the vulnerability in version 10.6p2 released on November 5, while exploit code became available roughly four hours later.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "GreyNoise recorded the first successful exploitation of SSHole in the wild on November 7 at 00:46 UTC",
+     "source": 2,
+     "quote": "GreyNoise recorded the first successful exploitation of SSHhole in the wild on November 7 at 00:46 UTC, approximately 40 hours after the fix.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+     "published": "Mon, 09 Nov 2026 19:41:34 +0000",
+     "published_iso": "2026-11-09T19:41:34+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+     "published": "Mon, 09 Nov 2026 11:04:57 -0500",
+     "published_iso": "2026-11-09T16:04:57+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability"
+    }
+   ],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, bleepingcomputer.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Draft mentions OpenSSH 10.6p2 release date as November 5, but source 2 says PoC and patch came out then, while source 1 says CVE became public last Thursday. Also source 2 says GreyNoise recorded first successful exploitation on Nov 7, not 'first confirmed successful attacks on November 7' globally by everyone, but specifically GreyNoise's logs. Let's ensure strict alignment."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-09-iris-plaza-data-breach-exposes-personal-info-of-up-to-7-7-mi-2f95f",
+   "date": "2026-11-09",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Iris Plaza data breach exposes personal info of up to 7.7 million people",
+   "in_brief": "Iris Ohyama disclosed that unauthorized access to a third‑party cloud service may have exposed personal data of about 7.7 million customers. The company suspended the Iris Plaza storefront and is investigating the incident.",
+   "so_what": "The breach affects a large portion of Japan’s online shoppers, with up to 5.8 million registered members and 1.9 million non‑members potentially having their names, addresses, phone numbers, email addresses and, for members, encrypted passwords accessed. While no credit‑card details were stored in the compromised cloud, the exposure of personally identifiable information raises risks of phishing and identity theft. Authorities, including Japan’s Personal Information Protection Commission, have been notified, and the company has engaged external experts. Observers will watch for any signs of misuse, further disclosures about the attack vector, and whether additional security measures are implemented before the platform is restored.",
+   "what_to_do": "1. Change passwords for any Iris Plaza accounts and use unique, strong passwords. 2. Enable two‑factor authentication on all online accounts where available. 3. Monitor email and financial statements for suspicious activity.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "The breach may have exposed personal information of about 7.7 million people.",
+     "source": 1,
+     "quote": "personal information belonging to about 7.7 million people may have been exposed",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Unauthorized access was confirmed to be by a third party in an external cloud service.",
+     "source": 1,
+     "quote": "We confirmed unauthorized access by a third party",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Credit‑card information was not stored in the affected cloud service.",
+     "source": 1,
+     "quote": "The company also said that credit card information was not stored in the affected cloud service.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+     "published": "Sun, 08 Nov 2026 10:43:08 -0500",
+     "published_iso": "2026-11-08T15:43:08+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+     "published": "Mon, 09 Nov 2026 12:41:27 +0000",
+     "published_iso": "2026-11-09T12:41:27+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+    "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-09-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-fast-e5eea",
+   "date": "2026-11-09",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 with faster output and lower pricing",
+   "in_brief": "Anthropic announced the launch of Claude Fable 5.2 and Claude Mythos 5.2, noting up to 30% faster generation and reduced token costs. The models are marketed as capable of tackling complex coding, reasoning and scientific problems.",
+   "so_what": "The release marks Anthropic's latest effort to compete in the high‑end generative AI market by offering models that claim both speed and cost advantages over previous versions and rivals such as GPT‑6 Astra. By lowering Fable's input‑token price from $10 to $8, Anthropic aims to attract enterprise customers concerned about data‑retention and budgeting, while the optional fast mode promises up to 2.5× quicker token generation for premium users. The company also highlights breakthrough applications demonstrated in prerelease testing, including solving open problems in black‑hole physics and formalizing Fermat’s Last Theorem, positioning the models for ambitious research and engineering projects. Observers will watch how the pricing strategy influences adoption, whether the claimed speed gains hold in real‑world workloads, and how safety assessments evolve amid concerns about recursive self‑improvement raised by external analysts.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcement",
+   "claims": [
+    {
+     "claim": "Fable 5.2’s input‑token price was reduced from $10 to $8 per million tokens",
+     "source": 2,
+     "quote": "Anthropic is lowering the cost of Fable from $10 to $8 per million input tokens",
+     "status": "verified",
+     "corroborated_by": [
+      "artificialanalysis.ai",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The new models generate output up to 30% faster than their 5.1 predecessors",
+     "source": 1,
+     "quote": "can generate outputs faster than the 5.1 versions of the Fable and Mythos models",
+     "status": "verified",
+     "corroborated_by": [
+      "anthropic.com",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "During prerelease testing the models solved two open problems in the physics of black holes and formalized the proof of Fermat’s Last Theorem",
+     "source": 3,
+     "quote": "solved two open problems in the physics of black holes... and formalized the proof of Fermat’s Last Theorem in 30 hours",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "Yahoo",
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Anthropic launched Claude Fable 5.2 and Claude Mythos 5.2 on November 9, 2026",
+     "source": 1,
+     "quote": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 9"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+     "published": "2026-11-09T14:00:00-05:00",
+     "published_iso": "2026-11-09T19:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+     "published": "Mon, 09 Nov 2026 19:24:51 +0000",
+     "published_iso": "2026-11-09T19:24:51+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "anthropic.com",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "published": "Mon, 09 Nov 2026 18:56:29 +0000",
+     "published_iso": "2026-11-09T18:56:29+00:00",
+     "kind": "community",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382897/anthropic-claude-fable-5-2-and-mythos-5-2-impressive-and-expensive",
+     "published": "Mon, 09 Nov 2026 22:36:02 +0000",
+     "published_iso": "2026-11-09T22:36:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Hacker News",
+     "owner": "artificialanalysis.ai",
+     "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+     "published": "Mon, 09 Nov 2026 20:04:55 +0000",
+     "published_iso": "2026-11-09T20:04:55+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+    "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "https://decrypt.co/382897/anthropic-claude-fable-5-2-and-mythos-5-2-impressive-and-expensive",
+    "https://artificialanalysis.ai/models/claude-fable-5-2"
+   ],
+   "primary": [
+    {
+     "url": "https://www.aisi.gov.uk/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.aisi.gov.uk/"
+    },
+    {
+     "url": "https://www.cve.org/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Vox Media, Yahoo, anthropic.com, artificialanalysis.ai, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-09-meta-launches-muse-ember-its-smallest-and-most-cost-efficien-e1dcd",
+   "date": "2026-11-09",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Meta launches Muse Ember, its smallest and most cost‑efficient AI model",
+   "in_brief": "Meta’s Superintelligence Lab released Muse Ember, a lightweight model designed for agent tasks and multimodal inputs. The model is priced at $0.10 per million input tokens, positioning it as a low‑cost alternative to competing AI services.",
+   "so_what": "Muse Ember expands Meta’s AI portfolio by targeting high‑volume, repetitive tasks such as tool calls, coding subtasks, and document parsing. Its per‑token price is $0.10 for input and $0.50 for output. The model processes text, images, audio, and video without separate systems, supporting customer‑support, workflow automation, and content analysis use cases. Companies can pair it with Meta’s larger Muse Wonder model for rule‑setting and high‑volume execution.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcement",
+   "claims": [
+    {
+     "claim": "Meta released Muse Ember, the lab’s lightest and most cost‑efficient AI model yet",
+     "source": 1,
+     "quote": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet.",
+     "status": "verified",
+     "corroborated_by": [
+      "meta.ai"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The model natively understands text, images, audio and video",
+     "source": 1,
+     "quote": "Ember ... trained ... to work well across different types of media, including text, images, and audio... agents can read screenshots, charts, and scanned documents, or work from voice memos, meeting recordings, and video without a separate model.",
+     "status": "verified",
+     "corroborated_by": [
+      "meta.ai"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Ember is priced at $0.10 per million input tokens",
+     "source": 1,
+     "quote": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 0.1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+     "published": "Mon, 09 Nov 2026 18:00:00 +0000",
+     "published_iso": "2026-11-09T18:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "meta.ai",
+     "url": "https://research.meta.ai/blog/muse-ember",
+     "published": "Mon, 09 Nov 2026 17:58:46 +0000",
+     "published_iso": "2026-11-09T17:58:46+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+    "https://research.meta.ai/blog/muse-ember"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 40,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Yahoo, meta.ai"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: Removed speculative market impact claims and call-to-action watch advice from so_what."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-09-nvidia-ceo-admits-affair-as-company-launches-investigation-a-e7f82",
+   "date": "2026-11-09",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Nvidia CEO admits affair as company launches investigation amid US spy allegations",
+   "in_brief": "Nvidia chief Jensen Huang confirmed an extramarital affair with Alice Huang, a Singapore‑based executive accused of spying for China. The company has opened an independent probe while U.S. officials say the woman was recruited by Beijing.",
+   "so_what": "The admission by Jensen Huang, a pivotal figure in the global AI chip market, raises national‑security concerns because U.S. intelligence alleges his partner was a Chinese intelligence asset tasked with gathering information on Nvidia’s advanced chips. Nvidia’s decision to launch an internal investigation aims to assess any potential compromise of trade‑secret or export‑control information, a matter that could affect the company’s compliance standing and its role in the U.S. strategy to maintain a lead over China in AI hardware. China’s outright denial adds diplomatic tension. Observers will watch the outcome of Nvidia’s probe, any further statements from U.S. agencies, and whether Singapore’s investigation of Megaspeed uncovers sanction‑evasion evidence.",
+   "what_to_do": "",
+   "hype_flag": "medium",
+   "hype_reason": "includes self‑interested short‑seller allegations",
+   "claims": [
+    {
+     "claim": "Jensen Huang admitted to an extramarital affair over the weekend",
+     "source": 1,
+     "quote": "On Sunday, Huang admitted, external to having been \"unfaithful\" to his wife and apologised for hurting her and their children.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nvidia has opened an independent investigation into the reports",
+     "source": 1,
+     "quote": "US tech giant Nvidia, one of the most valuable companies in the world, has opened an independent investigation into the reports.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "U.S. intelligence officials believe Alice Huang was recruited as a Chinese spy",
+     "source": 3,
+     "quote": "U.S. intelligence officials believe she was recruited by the Chinese government to collect intelligence on Jensen Huang and influence his position regarding U.S. export controls on advanced AI chips.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "China has denied the spying allegations",
+     "source": 2,
+     "quote": "China has denied the allegations, calling them “nothing but smears”.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 09 Nov 2026 15:46:20 GMT",
+     "published_iso": "2026-11-09T15:46:20+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/09/who-is-alice-huang-the-woman-linked-to-nvidias-ceo",
+     "published": "Mon, 09 Nov 2026 17:57:42 GMT",
+     "published_iso": "2026-11-09T17:57:42+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+     "published": "Mon, 09 Nov 2026 22:46:09 +0000",
+     "published_iso": "2026-11-09T22:46:09+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/2026/nov/09/who-is-alice-huang-the-woman-linked-to-nvidias-ceo",
+    "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Guardian Media Group, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-09-chandra-detects-companion-driving-repeated-outbursts-of-star-1abc1",
+   "date": "2026-11-09",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Chandra Detects Companion Driving Repeated Outbursts of Star AT 2016blu",
+   "in_brief": "Astronomers using NASA’s Chandra X‑ray Observatory identified a hidden companion object orbiting the luminous blue variable AT 2016blu every 113 days, causing its regular brightening. The finding clarifies the mechanism behind the star’s “supernova impostor” eruptions and marks the first X‑ray detection of this class of eruptive stars.",
+   "so_what": "AT 2016blu, a massive star in the spiral galaxy NGC 4559 about 30 million light‑years away, has puzzled observers for 15 years with brightening events that mimic supernovae but leave the star intact. By pinpointing a previously unseen companion—likely a stellar‑mass black hole or a neutron‑star core—researchers explain how material is periodically stripped from the star, producing high‑energy X‑ray blasts that heat surrounding gas and generate the observed optical flashes. This insight expands understanding of how binary interactions can drive extreme variability in massive stars, a process that may influence their evolution and eventual fate. Future coordinated X‑ray and optical monitoring will test the orbital model and assess whether similar mechanisms operate in other luminous blue variables.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Astronomers discovered a hidden companion object orbiting AT 2016blu every 113 days.",
+     "source": 1,
+     "quote": "a previously hidden companion object that keeps pulling material away from the massive star every 113 days as they orbit one another.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The companion is either a stellar‑mass black hole or a neutron star.",
+     "source": 1,
+     "quote": "This partner is either a stellar-mass black hole, or the dense collapsed core of a massive star called a neutron star.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "AT 2016blu resides in galaxy NGC 4559 about 30 million light‑years from Earth.",
+     "source": 1,
+     "quote": "The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+     "published": "Mon, 09 Nov 2026 18:55:50 +0000",
+     "published_iso": "2026-11-09T18:55:50+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-supernova-impostor-chandra-source-giant.html",
+     "published": "Mon, 09 Nov 2026 16:40:10 EST",
+     "published_iso": "2026-11-09T21:40:10+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+    "https://phys.org/news/2026-11-supernova-impostor-chandra-source-giant.html"
+   ],
+   "primary": [
+    {
+     "url": "http://chandra.harvard.edu/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://chandra.harvard.edu/"
+    },
+    {
+     "url": "https://dx.doi.org/10.3847/1538-4357/ae9a86",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://dx.doi.org/10.3847/1538-4357/ae9a86"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 83,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-09-supercam-detects-ruby-like-luminescence-in-martian-rocks-c8738",
+   "date": "2026-11-09",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "SuperCam detects ruby-like luminescence in Martian rocks",
+   "in_brief": "NASA's Perseverance rover's SuperCam instrument recorded narrow luminescence peaks at 692.7 and 694.1 nanometers from light‑colored rocks on Mars. The finding suggests the presence of chromium‑bearing corundum, a mineral normally associated with ruby.",
+   "so_what": "The detection of ruby‑type corundum on Mars provides new insight into the planet's geological history, indicating that localized high‑temperature events such as meteor impacts may have caused metamorphic processes despite Mars lacking plate tectonics. Understanding these processes helps scientists reconstruct the environmental conditions of ancient Mars and assess its past habitability. Future observations will focus on mapping the distribution of such minerals and correlating them with impact structures to refine models of Martian crustal evolution.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "SuperCam recorded narrow luminescence peaks at 692.7 and 694.1 nanometers from a Martian rock.",
+     "source": 1,
+     "quote": "Two years ago, the SuperCam team was startled to find strong, narrow luminescence peaks at two wavelengths of 692.7 and 694.1 nanometers when they shot a light-colored rock with the laser.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The luminescence originates from chromium atoms in a corundum mineral structure.",
+     "source": 1,
+     "quote": "This luminescence comes from delayed atomic transitions in chromium atoms present in a corundum mineral structure.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Corundum is unexpected on Mars because the planet lacks plate tectonics, but impacts can create local metamorphism.",
+     "source": 1,
+     "quote": "Corundum is a metamorphic and pegmatitic mineral which we would not expect to find on Mars, a planet that lacks plate tectonics. However, large meteor and asteroid impacts can create local metamorphism due to long-term heating from the impact.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/blog/rubies-on-mars/",
+     "published": "Mon, 09 Nov 2026 22:27:12 +0000",
+     "published_iso": "2026-11-09T22:27:12+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/blog/rubies-on-mars/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/blog/rubies-on-mars/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-09-formation-securities-files-to-launch-tokenized-stock-venue-o-fab38",
+   "date": "2026-11-09",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Formation Securities files to launch tokenized stock venue on Solana",
+   "in_brief": "Formation Securities filed a notice with the SEC to operate a tokenized securities venue on the Solana blockchain under the agency’s Innovation Exemption. The move adds another entrant to the growing market for on‑chain trading of U.S. stocks.",
+   "so_what": "The filing signals continued interest from fintech firms in using blockchain technology to create new markets for tokenized equities. By leveraging Solana’s high throughput and low transaction costs, the proposed venue aims to offer 24/7 trading and near‑instant settlement while preserving traditional shareholder rights such as voting and dividends. If launched in early 2027, it could broaden access for verified investors and encourage other issuers to consider tokenization, potentially reshaping how equities are traded and settled. Regulators and market participants will be watching how the Innovation Exemption framework is applied and whether the venue can attract sufficient liquidity and compliance support from custodians and distributors.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Formation Securities filed a notice with the SEC to operate a tokenized securities venue on Solana under the agency’s Innovation Exemption.",
+     "source": 1,
+     "quote": "Formation Securities notified the SEC it intends to run a tokenized securities venue on Solana under the agency’s “Innovation Exemption,” with trading expected in early 2027.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Trading is expected to begin in early 2027 with tokenized shares of Exodus Movement, Forward Industries and Galaxy Digital at launch.",
+     "source": 1,
+     "quote": "Trading is expected to begin in early 2027, with tokenized shares of Exodus Movement, Forward Industries and Galaxy Digital anticipated at launch.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The venue will provide 24/7 trading and near‑instant atomic settlement while preserving voting and dividend rights.",
+     "source": 1,
+     "quote": "The venue promises 24/7 trading and near-instant atomic settlement while preserving shareholders’ voting and dividend rights.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382859/solana-tokenized-stock-venue-formation-sec",
+     "published": "Mon, 09 Nov 2026 17:46:02 +0000",
+     "published_iso": "2026-11-09T17:46:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
+     "published": "Mon, 09 Nov 2026 12:41:35 +0000",
+     "published_iso": "2026-11-09T12:41:35+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
+    "https://decrypt.co/382859/solana-tokenized-stock-venue-formation-sec"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-09-coinbase-secures-final-occ-approval-for-national-trust-chart-97d80",
+   "date": "2026-11-09",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Coinbase Secures Final OCC Approval for National Trust Charter",
+   "in_brief": "Coinbase obtained final clearance from the Office of the Comptroller of the Currency to establish the Coinbase National Trust Company, following similar moves by Circle and Ripple. The authorization places Coinbase's institutional custody operations under a unified federal regulatory body.",
+   "so_what": "The OCC’s final approval gives Coinbase a national trust charter, allowing it to expand its custody services for institutional clients within a consistent federal regulatory framework. This move follows similar approvals for Circle and Ripple and reflects a broader trend of crypto firms seeking federal charters to legitimize and standardize custody operations. The charter could facilitate broader adoption of crypto assets by institutional investors seeking regulated custodial solutions, while also drawing scrutiny from regulators and lawmakers concerned about oversight. Watch for any legal challenges from banking groups and potential legislative responses as the industry’s reliance on federal charters grows.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Coinbase received final approval from the OCC to charter Coinbase National Trust Company",
+     "source": 1,
+     "quote": "Coinbase has received final approval from the Office of the Comptroller of the Currency to charter Coinbase National Trust Company",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The charter places Coinbase’s institutional crypto custody business under a single federal regulator",
+     "source": 1,
+     "quote": "The charter brings Coinbase's institutional crypto custody business under a single federal regulator",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Coinbase is the latest crypto firm to win a national trust charter this year after Circle and Ripple",
+     "source": 1,
+     "quote": "Coinbase is the latest crypto firm to win a national trust charter this year, after Circle and Ripple",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
+     "published": "Mon, 09 Nov 2026 11:50:36 +0000",
+     "published_iso": "2026-11-09T11:50:36+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/09/coinbase-gets-full-u-s-trust-charter-from-federal-banking-regulator",
+     "published": "Mon, 09 Nov 2026 10:00:00 +0000",
+     "published_iso": "2026-11-09T10:00:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/09/coinbase-gets-full-u-s-trust-charter-from-federal-banking-regulator",
+    "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor: Copied word-for-word run from source in in_brief"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-09-four-suspects-arrested-in-ukraine-for-crypto-scam-that-defra-ae637",
+   "date": "2026-11-09",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Four suspects arrested in Ukraine for crypto scam that defrauded German investors of €4.3 million",
+   "in_brief": "Ukrainian police detained four people accused of running call‑center scams that stole over €4.3 million from 135 German victims. The arrests highlight a broader crackdown on fraudulent investment schemes operating from Ukraine.",
+   "so_what": "The case underscores the transnational nature of cryptocurrency fraud, where scammers use call centers and social‑engineering tactics to lure victims in the European Union into fake investment platforms. By targeting German citizens and moving funds through a complex web of bank accounts and crypto wallets, the ring exploited regulatory gaps between jurisdictions. Ukrainian authorities have intensified efforts to dismantle such operations, conducting raids across multiple regions and seizing cash, hardware wallets and documents. The suspects now face up to 12 years in prison, reflecting new legislation that imposes harsher penalties for operating scam call centers. Law‑enforcement agencies in both Ukraine and Germany are cooperating to identify additional participants and victims, signaling ongoing vigilance against similar schemes.",
+   "what_to_do": "1. Verify any investment opportunity independently through official channels before sending money. 2. Never share personal, banking or cryptocurrency‑exchange credentials with unsolicited callers or online contacts. 3. Report suspicious calls or requests to your local police and, if abroad, to the relevant cyber‑crime unit or consumer protection agency.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Ukrainian police have arrested four people suspected of running a network of fraudulent call centers that stole millions of euros from German citizens",
+     "source": 1,
+     "quote": "Ukrainian police have arrested four people suspected of running a network of fraudulent call centers that stole millions of euros from German citizens by luring them into fake cryptocurrency investments.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Investigators have identified 135 victims in Germany who collectively lost more than €4.3 million",
+     "source": 1,
+     "quote": "Investigators have identified 135 victims in Germany who collectively lost more than €4.3 million ($4.8 million).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The suspects face up to 12 years in prison and confiscation of their property if convicted",
+     "source": 1,
+     "quote": "The suspects face up to 12 years in prison and confiscation of their property if convicted.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
+     "published": "Mon, 09 Nov 2026 15:24:00 GMT",
+     "published_iso": "2026-11-09T15:24:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+     "published": "Mon, 09 Nov 2026 07:16:13 -0500",
+     "published_iso": "2026-11-09T12:16:13+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
+    "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 51,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Recorded Future, bleepingcomputer.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 441,
+  "stories_considered": 17,
+  "published": 11,
+  "outlets": 37
+ }
+}
