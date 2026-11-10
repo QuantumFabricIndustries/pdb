@@ -6077,5 +6077,139 @@
    "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
    "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/"
   ]
+ },
+ {
+  "id": "2026-11-10-google-releases-chrome-update-to-patch-actively-exploited-ze-927b5",
+  "date": "2026-11-10",
+  "section": "threat",
+  "headline": "Google releases Chrome update to patch actively exploited zero‑day",
+  "label": "Confirmed",
+  "score": 97,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "https://www.malwarebytes.com/blog/bugs/2026/11/update-chrome-now-to-fix-a-flaw-attackers-are-exploiting",
+   "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732",
+   "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732"
+  ]
+ },
+ {
+  "id": "2026-11-10-n-able-takes-hosted-n-central-offline-after-researcher-discl-7272e",
+  "date": "2026-11-10",
+  "section": "threat",
+  "headline": "N-able Takes Hosted N‑Central Offline After Researcher Discloses Over 30 Zero‑Day Flaws",
+  "label": "Well-sourced",
+  "score": 71,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+   "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+   "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+   "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/"
+  ]
+ },
+ {
+  "id": "2026-11-10-hackers-use-compromised-qubole-aws-access-to-steal-data-from-21ecf",
+  "date": "2026-11-10",
+  "section": "threat",
+  "headline": "Hackers Use Compromised Qubole AWS Access to Steal Data from Customer Accounts",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+   "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+   "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
+   "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553"
+  ]
+ },
+ {
+  "id": "2026-11-10-rocco-launches-295-mini-mini-fridge-spacex-unveils-starlink-46e8a",
+  "date": "2026-11-10",
+  "section": "ai",
+  "headline": "Rocco launches $295 Mini Mini fridge; SpaceX unveils Starlink Mini 2 with swappable battery",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
+   "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery",
+   "https://starlink.com/mini-2"
+  ]
+ },
+ {
+  "id": "2026-11-10-google-s-november-2026-pixel-drop-brings-gemini-features-to-2321d",
+  "date": "2026-11-10",
+  "section": "ai",
+  "headline": "Google’s November 2026 Pixel Drop brings Gemini features to Pixel 10 and updates Pixel HiLight",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family/",
+   "https://www.theverge.com/tech/1031089/google-pixel-drop-november-2026-hilight",
+   "https://www.engadget.com/2312136/google-november-pixel-drop-rambler-hilight-updates/"
+  ]
+ },
+ {
+  "id": "2026-11-10-google-deepmind-uses-ai-to-formally-verify-parts-of-signal-p-1d3f0",
+  "date": "2026-11-10",
+  "section": "ai",
+  "headline": "Google DeepMind uses AI to formally verify parts of Signal protocol",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+   "https://www.zdnet.com/tech/google-deepmind-researchers-prove-signal-whatsapp-encryption-works/",
+   "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
+   "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625"
+  ]
+ },
+ {
+  "id": "2026-11-10-curiosity-rover-conducts-recharging-sols-and-tests-parallel-22c1d",
+  "date": "2026-11-10",
+  "section": "science",
+  "headline": "Curiosity rover conducts recharging sols and tests parallel activity on Mars",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+   "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/"
+  ]
+ },
+ {
+  "id": "2026-11-10-nasa-marks-voyager-1-s-one-light-day-distance-with-public-ev-63c1d",
+  "date": "2026-11-10",
+  "section": "science",
+  "headline": "NASA marks Voyager 1’s one‑light‑day distance with public events",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+  ]
+ },
+ {
+  "id": "2026-11-10-us-october-cpi-rises-0-4-amid-cooling-price-increases-5ed12",
+  "date": "2026-11-10",
+  "section": "money",
+  "headline": "US October CPI rises 0.4% amid cooling price increases",
+  "label": "Disputed",
+  "score": 66,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
+   "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+  ]
+ },
+ {
+  "id": "2026-11-10-bitcoin-dips-below-74-000-after-u-s-cpi-shows-hotter-inflati-1c8a1",
+  "date": "2026-11-10",
+  "section": "money",
+  "headline": "Bitcoin dips below $74,000 after U.S. CPI shows hotter inflation",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+   "https://decrypt.co/382861/bitcoin-limbo-stocks-rebound-us-inflation",
+   "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
+   "https://decrypt.co/382950/bitcoin-falls-hot-us-inflation-fears-bigger-fed-rate-hike"
+  ]
  }
 ]

@@ -1,0 +1,189 @@
+[
+ {
+  "section": "threat",
+  "title": "Google releases Chrome update to patch actively exploited zero‑day",
+  "verdict": "PUBLISH",
+  "truth": 97,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "N-able Takes Hosted N‑Central Offline After Researcher Discloses Over 30 Zero‑Day Flaws",
+  "verdict": "PUBLISH",
+  "truth": 71,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Hackers Use Compromised Qubole AWS Access to Steal Data from Customer Accounts",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Rocco launches $295 Mini Mini fridge; SpaceX unveils Starlink Mini 2 with swappable battery",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: so_what mentions a $2,000-plus price tag not supported by source 1 ($1,999-plus)",
+   "editor: so_what states SpaceX claims for battery life as direct facts without attribution where necessary"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google’s November 2026 Pixel Drop brings Gemini features to Pixel 10 and updates Pixel HiLight",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft mentions 'Nano Banana-based icon theming', but source 1 states 'moved the feature to a more powerful Nano Banana model, unlocking 10 new icon styles', and the draft's mention of Nano Banana as the-based theming is slightly off/hyped compared to sources.",
+   "editor: Draft so_what contains subjective/hype phrasing like 'enhancing visual customization', 'improving the utility', 'addressing earlier criticism', which violates factuality and objectivity standards."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google DeepMind uses AI to formally verify parts of Signal protocol",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Curiosity rover conducts recharging sols and tests parallel activity on Mars",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA marks Voyager 1’s one‑light‑day distance with public events",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft date for the light-flash activity is Nov. 18, but sources state it is Nov. 17."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "US October CPI rises 0.4% amid cooling price increases",
+  "verdict": "PUBLISH",
+  "truth": 66,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source 2 contradicts Source 1 and draft regarding gas/energy price direction (Source 2 says gas costs dipped/cooled, whereas draft states energy costs continued to climb)."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Bitcoin dips below $74,000 after U.S. CPI shows hotter inflation",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section includes forward-looking speculation and advice ('investors may favor', 'Traders should watch') which violates the rule against investment advice and hype language."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Regal Cinemas to Offer One‑Night 4DX Screenings of Heated Rivalry Episodes",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section contains speculative and slightly promotional framing about industry trends and future studio moves."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Consumers warned of fake GPU scams amid AI-driven price surge",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "VPN vulnerabilities drive ransomware attacks, experts say",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Video Misrepresented as New Covid Strain in Northampton",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes Confirms Authenticity of Mitch McConnell Video Amid Health Rumors",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft mentions 2026 midterms, but the source text describes the midterm elections/context. Wait, source 1 says 'after Republicans lost the House and Senate in the 2026 midterm elections'. However, let's check the headline: Snopes Confirms Authenticity of Mitch McConnell Video Amid Health Rumors. The so_what section contains advice ('Observers should watch for official statements...') which violates rule 4 (no advice / hype language in so_what, though what_to_do is for action). Let's clean up the so_what and what_to_do."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Chile clothes dumping sites are low‑lying landfills, not towering piles visible from space",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

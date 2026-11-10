@@ -1,0 +1,1380 @@
+{
+ "date": "2026-11-10",
+ "built_at": "2026-11-10T20:33:02.734594+00:00",
+ "stories": [
+  {
+   "id": "2026-11-10-google-releases-chrome-update-to-patch-actively-exploited-ze-927b5",
+   "date": "2026-11-10",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Google releases Chrome update to patch actively exploited zero‑day",
+   "in_brief": "Google issued emergency updates for Chrome that fix a use‑after‑free flaw being exploited in the wild, marking the eighth zero‑day attack on the browser this year. The patches roll out to Stable channel versions 157.0.8103.50/.51 on Windows and macOS and 157.0.8103.50 on Linux.",
+   "so_what": "The vulnerability (CVE‑2026‑125350) resides in Chrome’s XML component and can allow attackers to execute arbitrary code after the browser accesses freed memory. Because the flaw is actively exploited, unpatched systems remain at high risk of remote code execution, data corruption, or crashes. Google’s rapid patching demonstrates the ongoing “whack‑a‑mole” challenge of zero‑day defenses, with eight such Chrome bugs seen in 2026 alone. Users and administrators should verify that the new versions are installed promptly, as the update may take days to reach all devices. Monitoring Chrome’s update status and applying patches to other Chromium‑based browsers will help contain the threat while further details about the exploit remain undisclosed.",
+   "what_to_do": "1. Open Chrome > Help > About Google Chrome and click Relaunch to apply the latest update (versions 157.0.8103.50/.51 for Windows/macOS, 157.0.8103.50 for Linux). 2. Ensure automatic updates are enabled so future fixes install without manual intervention. 3. Verify that other Chromium‑based browsers (Edge, Brave, Opera, Vivaldi) are updated to their latest versions when available.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Google released emergency security updates that fix the zero‑day vulnerability in Chrome’s Stable Desktop channel, with new versions rolling out to Windows, macOS (157.0.8103.50/.51) and Linux (157.0.8103.50).",
+     "source": 1,
+     "quote": "Google has now fixed the zero-day for users in the Stable Desktop channel, with new versions rolling out to Windows, macOS (157.0.8103.50/.51), and Linux users (157.0.8103.50).",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Google is aware that an exploit for CVE‑2026‑125350 exists in the wild.",
+     "source": 1,
+     "quote": "\"Google is aware that an exploit for CVE-2026-125350 exists in the wild,\" the company said in a Monday security advisory.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "This is the eighth actively exploited Chrome zero‑day reported in 2026.",
+     "source": 3,
+     "quote": "With the latest development, Google has addressed a total of eight actively exploited Chrome zero-days since the start of the year.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+     "published": "Tue, 10 Nov 2026 03:51:25 -0500",
+     "published_iso": "2026-11-10T08:51:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732",
+     "published": "Tue, 10 Nov 2026 14:28:00 +0100",
+     "published_iso": "2026-11-10T13:28:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+     "published": "Tue, 10 Nov 2026 12:22:54 +0530",
+     "published_iso": "2026-11-10T06:52:54+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/bugs/2026/11/update-chrome-now-to-fix-a-flaw-attackers-are-exploiting",
+     "published": "Tue, 10 Nov 2026 13:23:00 GMT",
+     "published_iso": "2026-11-10T13:23:00+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "https://www.malwarebytes.com/blog/bugs/2026/11/update-chrome-now-to-fix-a-flaw-attackers-are-exploiting",
+    "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732",
+    "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-125350 — Google Chromium Use-After-Free Vulnerability"
+    },
+    {
+     "url": "https://cwe.mitre.org/data/definitions/787.html",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://cwe.mitre.org/data/definitions/787.html"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord/SearchResults?query=CVE-2026-125350",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord/SearchResults?query=CVE-2026-125350"
+    }
+   ],
+   "truth": {
+    "total": 97,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, bleepingcomputer.com, malwarebytes.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-10-n-able-takes-hosted-n-central-offline-after-researcher-discl-7272e",
+   "date": "2026-11-10",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "N-able Takes Hosted N‑Central Offline After Researcher Discloses Over 30 Zero‑Day Flaws",
+   "in_brief": "N-able shut down its cloud‑hosted N‑Central service worldwide after security researcher Sean Bales publicly released more than 30 alleged zero‑day vulnerabilities. The company urged on‑premises customers to power down their servers while a hotfix is prepared.",
+   "so_what": "The abrupt takedown of N‑Central—an RMM platform used by managed service providers and IT teams—highlights the risk that unpatched remote‑access tools pose to enterprise networks. The disclosed flaws span authentication bypasses, credential disclosure, arbitrary file writes, directory traversal, XSS, XXE injection and remote code execution, some allowing creation of a default administrator account with attacker‑controlled credentials. While N‑Able says no evidence of active exploitation exists, security firms have observed probing of N‑Central honeypots, underscoring the need for immediate defensive actions. Organizations should follow N‑Able’s guidance, monitor for suspicious activity, and apply the forthcoming hotfix as soon as it is released, as the vulnerabilities could grant attackers full control over managed devices and networks.",
+   "what_to_do": "1. Shut down any on‑premises N‑Central servers until patches are applied. 2. Apply N‑Able’s hotfix as soon as it becomes available. 3. Review logs for unauthorized access attempts and restrict network access to N‑Central services.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "N‑Able took its hosted N‑Central environments offline worldwide after the disclosure of the vulnerabilities",
+     "source": 1,
+     "quote": "N‑able has taken its hosted N‑central environments offline and urged on‑premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero‑day vulnerabilities",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Researcher Sean Bales disclosed more than 30 zero‑day flaws, publishing proof‑of‑concept exploits on GitHub under the name Able2Shell",
+     "source": 2,
+     "quote": "The zero‑day bugs were published on GitHub on Sunday by security researcher Sean Bales and have yet to be assigned CVE identifiers. Bales dubbed the flaws Able2Shell",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaws include authentication bypasses, credential disclosure, arbitrary file writes, directory traversal, XSS, XXE injection and remote code execution",
+     "source": 1,
+     "quote": "The disclosed vulnerabilities include authentication bypasses, credential disclosure, arbitrary file writes, directory traversal, cross‑site scripting (XSS), XML external entity (XXE) injection, and remote code execution (RCE) flaws",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "N‑Able is developing a hotfix expected to roll out around midday on November 10",
+     "source": 2,
+     "quote": "While N‑central and the related services remain inaccessible, N‑able says it has made progress validating the flaws and creating a fix, which should roll out around midday on November 10",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+     "published": "Mon, 09 Nov 2026 16:26:25 -0500",
+     "published_iso": "2026-11-09T21:26:25+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+     "published": "Tue, 10 Nov 2026 09:56:28 +0000",
+     "published_iso": "2026-11-10T09:56:28+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+     "published": "Tue, 10 Nov 2026 12:14:36 +0530",
+     "published_iso": "2026-11-10T06:44:36+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/",
+     "published": "Tue, 10 Nov 2026 15:45:27 +0000",
+     "published_iso": "2026-11-10T15:45:27+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+    "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+    "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+    "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 71,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Yahoo, bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-10-hackers-use-compromised-qubole-aws-access-to-steal-data-from-21ecf",
+   "date": "2026-11-10",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Hackers Use Compromised Qubole AWS Access to Steal Data from Customer Accounts",
+   "in_brief": "Between Oct. 14‑26, attackers leveraged compromised Qubole IAM credentials to assume cross‑account roles in multiple customers’ AWS environments and exfiltrate secrets and S3 data. The breach highlights risks of trusted third‑party integrations and the need to audit role trust policies.",
+   "so_what": "The incident shows how a single compromised third‑party account can give attackers broad access to many organizations that have granted cross‑account IAM roles to that provider. By assuming unused roles that still trusted Qubole’s AWS account, the actors were able to enumerate resources, pull secrets from AWS Secrets Manager, SSM Parameter Store, and Lambda environment variables, and download entire S3 buckets. Because the external ID used in AssumeRole requests is not a secret, any role that trusts the provider can be abused if the provider’s credentials are stolen. Organizations should review and tighten cross‑account trust policies, monitor CloudTrail for unexpected AssumeRole activity, and rotate or revoke any unused roles or keys. Ongoing monitoring will be needed to confirm whether the compromised Qubole credentials have been disabled and to detect any further unauthorized access.",
+   "what_to_do": "1. Review CloudTrail logs from Oct. 1 onward for AssumeRole calls from Qubole’s account 805246085872 originating outside AWS. 2. Revoke or delete any cross‑account IAM roles that are no longer needed, especially those that trust Qubole. 3. Rotate all AWS access keys and secrets used for Qubole integrations and enable MFA where possible.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Attackers broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data.",
+     "source": 3,
+     "quote": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attacker retrieved secrets from AWS Secrets Manager, SSM Parameter Store, and read Lambda environment variables.",
+     "source": 1,
+     "quote": "Wiz says the attacker then surveyed cloud resources, retrieved secrets from AWS Secrets Manager and SSM Parameter Store, and read Lambda environment variables.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attacker enumerated S3 buckets and downloaded their contents using a consistent sequence of API calls.",
+     "source": 1,
+     "quote": "The sequence was consistent across environments: assume a role, call ListBuckets to see what the role could reach, call ListObjects and HeadObject to enumerate and inspect the contents, then call GetObject to download them,",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+     "published": "Tue, 10 Nov 2026 14:31:11 -0500",
+     "published_iso": "2026-11-10T19:31:11+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
+     "published": "Mon, 09 Nov 2026 20:59:50 +0100",
+     "published_iso": "2026-11-09T19:59:50+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+     "published": "Mon, 09 Nov 2026 23:21:21 +0530",
+     "published_iso": "2026-11-09T17:51:21+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+    "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+    "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
+    "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-10-rocco-launches-295-mini-mini-fridge-spacex-unveils-starlink-46e8a",
+   "date": "2026-11-10",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Rocco launches $295 Mini Mini fridge; SpaceX unveils Starlink Mini 2 with swappable battery",
+   "in_brief": "Rocco introduced a $295 countertop Mini Mini fridge that holds 12 cans and cools to 41 °F, while SpaceX opened pre‑orders for its $999 Starlink Mini 2 satellite terminal featuring an integrated, swappable battery. Both products target niche consumer markets with compact, performance‑focused designs.",
+   "so_what": "Rocco’s Mini Mini offers an entry point into the brand’s mini‑fridge line, expanding options for consumers who want a small cooler without smart‑beverage features. Its price and compact size could broaden appeal beyond the $1,999‑plus classic models. SpaceX’s Starlink Mini 2, priced at $999 with a year of Roam Unlimited service, adds a built‑in battery that SpaceX claims extends operation to up to 4.5 hours and can be hot‑swapped, addressing power availability for mobile users. The slimmer 23.1 mm profile and IP67 rating maintain outdoor durability. Both launches illustrate a trend toward miniaturized, high‑performance devices blending convenience with specialized functionality.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcements",
+   "claims": [
+    {
+     "claim": "The Starlink Mini 2 terminal costs $999 and includes a full year of Roam Unlimited service valued at $2,100",
+     "source": 2,
+     "quote": "the dish is priced at $999, which includes a full year of Roam Unlimited service that SpaceX values at $2,100.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Starlink Mini 2’s integrated battery provides up to 4.5 hours of operation and can be hot‑swapped with additional batteries sold separately",
+     "source": 2,
+     "quote": "The Starlink Mini 2 will run for up to 4.5 hours on a full charge, SpaceX claims, but that can be expanded by hot‑swapping in additional batteries that will be sold separately.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Starlink Mini 2 is 23.1 mm thick, weighs about 3.5 lb, and retains an IP67 dust‑ and waterproof rating",
+     "source": 2,
+     "quote": "SpaceX has managed to slim it down to 23.1mm thick... the Starlink Mini 2 is slightly heavier at around 3.5 pounds... carries forward an IP67 dust- and waterproof rating",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Rocco’s Mini Mini fridge is priced at $295 and can hold 12 standard 12‑ounce cans while cooling to 41 °F",
+     "source": 1,
+     "quote": "It's available for $295... Rocco says the Mini Mini can hold 12 standard 12‑ounce cans and gets down to 41 degrees Fahrenheit.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
+     "published": "Tue, 10 Nov 2026 14:00:00 +0000",
+     "published_iso": "2026-11-10T14:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery",
+     "published": "2026-11-10T14:19:12-05:00",
+     "published_iso": "2026-11-10T19:19:12+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "starlink.com",
+     "url": "https://starlink.com/mini-2",
+     "published": "Tue, 10 Nov 2026 18:22:32 +0000",
+     "published_iso": "2026-11-10T18:22:32+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
+    "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery",
+    "https://starlink.com/mini-2"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Vox Media, starlink.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: so_what mentions a $2,000-plus price tag not supported by source 1 ($1,999-plus)",
+     "editor: so_what states SpaceX claims for battery life as direct facts without attribution where necessary"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-10-google-s-november-2026-pixel-drop-brings-gemini-features-to-2321d",
+   "date": "2026-11-10",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google’s November 2026 Pixel Drop brings Gemini features to Pixel 10 and updates Pixel HiLight",
+   "in_brief": "Google’s November Pixel Drop expands Gemini-powered features to the Pixel 10 lineup, including the Rambler dictation tool and new icon styles. The update also upgrades the HiLight feature on the Pixel 11 Pro to react to Google Messages from favorite contacts.",
+   "so_what": "The update makes several AI capabilities previously exclusive to newer devices available on the Pixel 10 series. Rambler provides AI-assisted voice input, and new icon styles utilize an updated model. Expanding HiLight functionality allows the back-panel light to signal messages from preferred contacts.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product update",
+   "claims": [
+    {
+     "claim": "The November Pixel Drop adds the Rambler transcription tool to Pixel 10 devices.",
+     "source": 2,
+     "quote": "Google is bringing Gemini Intelligence features to Pixel 10 devices, including the Rambler transcription tool.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The HiLight light on Pixel 11 Pro now illuminates for Google Messages from favorite contacts.",
+     "source": 2,
+     "quote": "the light can light up when you get Google Messages texts from your favorite contacts.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Google’s AI‑powered icon theming now includes ten new icon styles using the Nano Banana model.",
+     "source": 1,
+     "quote": "With this update, Google says it has moved the feature to a more powerful Nano Banana model, unlocking 10 new icon styles for your home screen.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family/",
+     "published": "Tue, 10 Nov 2026 19:00:26 +0000",
+     "published_iso": "2026-11-10T19:00:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1031089/google-pixel-drop-november-2026-hilight",
+     "published": "2026-11-10T14:00:00-05:00",
+     "published_iso": "2026-11-10T19:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2312136/google-november-pixel-drop-rambler-hilight-updates/",
+     "published": "Tue, 10 Nov 2026 19:00:00 +0000",
+     "published_iso": "2026-11-10T19:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family/",
+    "https://www.theverge.com/tech/1031089/google-pixel-drop-november-2026-hilight",
+    "https://www.engadget.com/2312136/google-november-pixel-drop-rambler-hilight-updates/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft mentions 'Nano Banana-based icon theming', but source 1 states 'moved the feature to a more powerful Nano Banana model, unlocking 10 new icon styles', and the draft's mention of Nano Banana as the-based theming is slightly off/hyped compared to sources.",
+     "editor: Draft so_what contains subjective/hype phrasing like 'enhancing visual customization', 'improving the utility', 'addressing earlier criticism', which violates factuality and objectivity standards."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-10-google-deepmind-uses-ai-to-formally-verify-parts-of-signal-p-1d3f0",
+   "date": "2026-11-10",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google DeepMind uses AI to formally verify parts of Signal protocol",
+   "in_brief": "DeepMind researchers employed their AlphaProof Code AI system to mathematically prove key guarantees of the Signal encryption protocol, completing the work in about a month. The effort found no new flaws but correctly flagged known, already‑fixed bugs, demonstrating a speed boost over traditional manual verification.",
+   "so_what": "Formal verification uses mathematics to confirm that software behaves as intended, a process traditionally slow and labor‑intensive. By applying agentic AI, DeepMind completed a proof‑of‑concept verification of Signal’s core cryptographic code in roughly four weeks—a task that could take experts years. The AI correctly identified historic vulnerabilities, reinforcing confidence in the protocol while showing its limits when flawed code is present. Although only a portion of Signal’s code was examined, the result offers a tangible example of how AI‑assisted theorem proving could accelerate security audits for widely used messaging platforms such as Signal, WhatsApp and Google Messages. Future work will need to expand coverage and assess practical scalability across larger codebases.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Google DeepMind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees",
+     "source": 1,
+     "quote": "Google DeepMind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees",
+     "status": "verified",
+     "corroborated_by": [
+      "Ziff Davis"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The verification project was completed in about four weeks, a speedup compared with traditional methods",
+     "source": 1,
+     "quote": "Conducted as a sort of proof-of-concept project in just four weeks",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "AlphaProof Code correctly identified known, long‑fixed vulnerabilities in older Signal versions and showed the protocol could not be formally verified in those cases",
+     "source": 1,
+     "quote": "when the researchers used AlphaProof Code on older versions of Signal that contain known and long-fixed vulnerabilities, it correctly identified them and showed that the protocol could not be formally verified",
+     "status": "verified",
+     "corroborated_by": [
+      "Ziff Davis"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The DeepMind analysis did not find any new vulnerabilities in the portions of the Signal protocol it examined",
+     "source": 1,
+     "quote": "The DeepMind analysis did not find any new vulnerabilities in the portions of the Signal protocol it looked at",
+     "status": "verified",
+     "corroborated_by": [
+      "Ziff Davis"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+     "published": "Tue, 10 Nov 2026 05:01:00 +0000",
+     "published_iso": "2026-11-10T05:01:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
+     "published": "Tue, 10 Nov 2026 13:00:00 +0100",
+     "published_iso": "2026-11-10T12:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/tech/google-deepmind-researchers-prove-signal-whatsapp-encryption-works/",
+     "published": "2026-11-10T16:31:47Z",
+     "published_iso": "2026-11-10T16:31:47+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+    "https://www.zdnet.com/tech/google-deepmind-researchers-prove-signal-whatsapp-encryption-works/",
+    "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
+    "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Situation Publishing, Ziff Davis"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-10-curiosity-rover-conducts-recharging-sols-and-tests-parallel-22c1d",
+   "date": "2026-11-10",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Curiosity rover conducts recharging sols and tests parallel activity on Mars",
+   "in_brief": "NASA’s Curiosity rover spent sols 5060‑5062 recharging power and performed a new parallel‑execution test. The rover also used its RAGE procedure to clear drill samples as part of the Nazca drilling campaign.",
+   "so_what": "The three‑sol power‑recharge window allows Curiosity to conserve energy as its solar output declines with age, ensuring the rover can continue its long‑term scientific objectives. By testing parallel execution of the CheMin “Get Data” activity with an orbiter downlink, engineers seek to reduce overall awake time, extending mission life and efficiency. The RAGE (Rotate to Agitate for Granule Expulsion) activity helps retrieve residual drill material, improving sample completeness for analysis by SAM and CheMin. These operational refinements support ongoing study of the Nazca site’s crystal formations and layered geology, contributing to our understanding of Mars’ past environments. Future updates will reveal whether the parallelism test proved successful and how it may be incorporated into upcoming plans.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "routine mission update",
+   "claims": [
+    {
+     "claim": "Curiosity’s plan covered sols 5060, 5061, and 5062 to take a few recharging sols before resuming drilling activities.",
+     "source": 1,
+     "quote": "Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal drilling activities.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The rover performed the RAGE activity to shake the drill and expel remaining sample granules.",
+     "source": 1,
+     "quote": "One of those activities is called “RAGE” (Rotate to Agitate for Granule Expulsion, a very fun acronym) where we essentially shake the drill to get any remaining sample out of it.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "On sol 5061 Curiosity tested parallel execution of CheMin data retrieval during an orbiter downlink.",
+     "source": 1,
+     "quote": "On 5061, we also conducted a brand-new engineering activity to test parallelism over one of our downlink communications windows.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Initial indications suggest the parallelism test was successful, pending engineering analysis.",
+     "source": 1,
+     "quote": "The test seems to have gone well, but we’ll have to wait to hear back from our engineering team to analyze the results!",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+     "published": "Tue, 10 Nov 2026 01:07:45 +0000",
+     "published_iso": "2026-11-10T01:07:45+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-10-nasa-marks-voyager-1-s-one-light-day-distance-with-public-ev-63c1d",
+   "date": "2026-11-10",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA marks Voyager 1’s one‑light‑day distance with public events",
+   "in_brief": "Voyager 1 will reach a distance of one light‑day from Earth on Nov. 18, 2026, and NASA is inviting the public to celebrate with a global light‑flash activity on Nov. 17 and a JPL‑hosted discussion on Nov. 19. The milestone highlights the probe’s journey and its ongoing science in interstellar space.",
+   "so_what": "Reaching a distance where Earth’s light takes 24 hours to arrive underscores Voyager 1’s status as the most distant human‑made object. NASA’s “Shine Bright for Voyager’s Light‑Day” activity lets individuals use smartphones to flash the probe’s call sign in Morse code, creating a symbolic wave of light around the planet. A follow‑up discussion on Nov. 19 will feature mission leaders and scientists discussing the twin probes’ continued observations beyond the heliosphere.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely informational",
+   "claims": [
+    {
+     "claim": "Voyager 1 will be one light‑day from Earth on Nov. 18, 2026, more than 16 billion miles away",
+     "source": 1,
+     "quote": "NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA is inviting the public to create a symbolic wave of golden light after sunset on Nov. 17",
+     "source": 1,
+     "quote": "On Tuesday, Nov. 17, NASA invites the world to participate in “Shine Bright for Voyager’s Light-Day” by creating a symbolic wave of golden light encircling the planet after sunset.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA JPL will host a moderated discussion about Voyager on Nov. 19 at 12 p.m. EST",
+     "source": 1,
+     "quote": "On Thursday, Nov. 19 at 12 p.m. EST (9 a.m. PST), NASA’s Jet Propulsion Laboratory (JPL) ... will host a moderated discussion with mission members and NASA leadership about the status of Voyager 1 and 2.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Voyager 1 entered interstellar space in 2012",
+     "source": 1,
+     "quote": "Voyager 1 entered interstellar space in 2012.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+     "published": "Tue, 10 Nov 2026 19:22:45 +0000",
+     "published_iso": "2026-11-10T19:22:45+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft date for the light-flash activity is Nov. 18, but sources state it is Nov. 17."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-10-us-october-cpi-rises-0-4-amid-cooling-price-increases-5ed12",
+   "date": "2026-11-10",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "US October CPI rises 0.4% amid cooling price increases",
+   "in_brief": "US consumer prices increased 0.4% in October, outpacing analysts’ expectations of 0.3% but marking a slowdown from September. The data may influence the Federal Reserve’s December rate decision.",
+   "so_what": "The October CPI data shows price growth faster than the 0.3% rise analysts had forecast, though it represents a cooldown from September’s 0.6% monthly increase as gas costs dipped during the month. With the Federal Reserve expected to consider further action, the higher-than-expected monthly figure could add to arguments for another interest-rate hike at its December meeting. Market participants will continue to monitor economic data and Fed communications for policy direction.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "US inflation rose at a faster-than-expected pace in October, according to official figures.",
+     "source": 1,
+     "quote": "US inflation rose at a faster-than-expected pace in October, according to official figures.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Prices rose by 0.4% in the month, which was lower than the 0.6% increase in September.",
+     "source": 1,
+     "quote": "Prices rose by 0.4% in the month, which was lower than the 0.6% increase in September.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Energy price rises, at 0.7% in October, was much lower than the 5.2% increase seen in September.",
+     "source": 1,
+     "quote": "the pace of energy price rises, at 0.7% in October, was much lower than the 5.2% increase seen in September.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Analysts had expected prices to rise by 0.3%, and the higher-than-expected pace could add to arguments for the Federal Reserve to raise interest rates at its next meeting in December.",
+     "source": 1,
+     "quote": "analysts had expected prices to rise by 0.3%, and the higher-than-expected pace could add to arguments for the Federal Reserve to raise interest rates at its next meeting in December.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+     "published": "Tue, 10 Nov 2026 14:45:46 GMT",
+     "published_iso": "2026-11-10T14:45:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
+     "published": "Tue, 10 Nov 2026 15:38:48 GMT",
+     "published_iso": "2026-11-10T15:38:48+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3",
+     "published": "Tue, 10 Nov 2026 13:32:09 +0000",
+     "published_iso": "2026-11-10T13:32:09+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
+    "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+   ],
+   "primary": [
+    {
+     "url": "https://www.sca.isr.umich.edu/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.sca.isr.umich.edu/"
+    }
+   ],
+   "truth": {
+    "total": 66,
+    "label": "Disputed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Guardian Media Group, coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Source 2 contradicts Source 1 and draft regarding gas/energy price direction (Source 2 says gas costs dipped/cooled, whereas draft states energy costs continued to climb)."
+    ],
+    "disputed": true,
+    "dispute_note": "Source 1 states energy costs continued to climb at a 0.7% pace, while Source 2 reports that gas costs dipped and cooled during the month.",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-10-bitcoin-dips-below-74-000-after-u-s-cpi-shows-hotter-inflati-1c8a1",
+   "date": "2026-11-10",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Bitcoin dips below $74,000 after U.S. CPI shows hotter inflation",
+   "in_brief": "U.S. consumer prices rose 0.4% in October, exceeding expectations, and Bitcoin briefly fell to about $73,525. The move triggered roughly $178 million in leveraged crypto long liquidations.",
+   "so_what": "The higher-than-expected Consumer Price Index reading adds pressure on the Federal Reserve regarding interest rates. Higher interest rates historically reduce demand for non-yielding assets like cryptocurrencies, while broader market pressures included net withdrawals from U.S. spot Bitcoin ETFs.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straight reporting",
+   "claims": [
+    {
+     "claim": "U.S. consumer prices rose 0.4% in October, above economists' forecasts of 0.3%.",
+     "source": 1,
+     "quote": "U.S. consumer prices rose 0.4% in October against expectations of 0.3%.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Bitcoin briefly fell to around $73,525 following the inflation announcement.",
+     "source": 1,
+     "quote": "Bitcoin briefly fell to around $73,525 following the announcement",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Approximately $178 million in leveraged crypto long positions were liquidated within an hour of the CPI release.",
+     "source": 1,
+     "quote": "approximately $178 million in leveraged crypto long positions were liquidated within an hour.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382950/bitcoin-falls-hot-us-inflation-fears-bigger-fed-rate-hike",
+     "published": "Tue, 10 Nov 2026 16:27:57 +0000",
+     "published_iso": "2026-11-10T16:27:57+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+     "published": "Tue, 10 Nov 2026 11:24:10 +0000",
+     "published_iso": "2026-11-10T11:24:10+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+    "https://decrypt.co/382861/bitcoin-limbo-stocks-rebound-us-inflation",
+    "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
+    "https://decrypt.co/382950/bitcoin-falls-hot-us-inflation-fears-bigger-fed-rate-hike"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: So_what section includes forward-looking speculation and advice ('investors may favor', 'Traders should watch') which violates the rule against investment advice and hype language."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 593,
+  "stories_considered": 16,
+  "published": 10,
+  "outlets": 38
+ }
+}
