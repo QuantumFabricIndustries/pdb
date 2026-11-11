@@ -1,0 +1,1462 @@
+{
+ "date": "2026-11-11",
+ "built_at": "2026-11-11T20:17:28.832613+00:00",
+ "stories": [
+  {
+   "id": "2026-11-11-microsoft-november-2026-patch-tuesday-fixes-record-number-of-3ed46",
+   "date": "2026-11-11",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Microsoft November 2026 Patch Tuesday fixes record number of flaws, including exploited Outlook zero‑day",
+   "in_brief": "Microsoft released updates on November 10, 2026 that address 1,235 security flaws, among them an actively exploited Outlook spoofing vulnerability. The patch also resolves dozens of critical remote‑code‑execution bugs across Windows and Office products.",
+   "so_what": "The scale of this Patch Tuesday—over a thousand fixes in a single release—highlights the growing complexity of modern software and the reliance on AI to discover vulnerabilities. The actively exploited Outlook zero‑day (CVE‑2026‑124194) can harvest NTLM hashes, allowing attackers to impersonate users and move laterally within networks, making timely remediation essential for both individuals and enterprises. Organizations should prioritize applying the Outlook/Office updates and verify that the associated Windows patches are installed, as the vulnerability can be triggered by a crafted email attachment. Continued monitoring of Microsoft’s security advisories will be important, as the high volume of critical flaws suggests further patches may follow in the coming weeks.",
+   "what_to_do": "1. Run Windows Update and install the latest cumulative updates (e.g., KB5132061). 2. Open any Office app, go to File → Account → Update Options, and select “Update Now” to apply the Outlook/Office fix. 3. Verify the Outlook update is installed and restart the computer if prompted.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Microsoft’s November 2026 Patch Tuesday fixes 1,235 flaws, including one Outlook zero‑day",
+     "source": 2,
+     "quote": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Outlook zero‑day (CVE‑2026‑124194) is being actively exploited to steal NTLM account hashes",
+     "source": 2,
+     "quote": "The actively exploited zero-day vulnerability addressed in the November 2026 Patch Tuesday updates is: CVE-2026-124194 - Microsoft Outlook Spoofing Vulnerability... to steal NTLM account hashes.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The November Patch Tuesday includes 66 critical vulnerabilities, 48 of which are remote code execution flaws",
+     "source": 2,
+     "quote": "This Patch Tuesday addresses 66 \"Critical\" vulnerabilities, 48 of which are Remote Code Execution (RCE)...",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Krebs on Security",
+     "owner": "krebsonsecurity.com",
+     "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+     "published": "Tue, 10 Nov 2026 21:55:03 +0000",
+     "published_iso": "2026-11-10T21:55:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+     "published": "Tue, 10 Nov 2026 14:07:36 -0500",
+     "published_iso": "2026-11-10T19:07:36+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
+     "published": "Wed, 11 Nov 2026 11:25:05 GMT",
+     "published_iso": "2026-11-11T11:25:05+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+    "https://www.malwarebytes.com/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-125350",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-125350"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-124194",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-124194"
+    }
+   ],
+   "truth": {
+    "total": 83,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, krebsonsecurity.com, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-11-critical-xen-orchestra-authentication-bypass-actively-exploi-dd03c",
+   "date": "2026-11-11",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Critical Xen Orchestra authentication bypass actively exploited",
+   "in_brief": "A vulnerability in Xen Orchestra’s REST authentication allows attackers to bypass login using a crafted cookie, and it is being used in the wild. Vates has issued patches and mitigation guidance for affected installations.",
+   "so_what": "The flaw, tracked as VSA-2026-062, lets unauthenticated actors obtain administrator privileges on XCP‑ng hosts, potentially leading to arbitrary code execution and full node takeover. Attackers have been observed using a specific cookie (authenticationToken=j:%7B%7D) and connecting to known malicious IPs such as 91.211.251.112:8001. Because the vulnerability affects all Xen Orchestra releases prior to the patched versions, many virtual‑infrastructure environments remain exposed. Administrators should apply the released updates, isolate management interfaces, and monitor for the listed indicators of compromise. Ongoing observation is needed to see if other threat actors adopt the technique or if additional zero‑day exploits emerge.",
+   "what_to_do": "1. Update Xen Orchestra to version 6.9.1 (stable) or 6.10.0 (latest) or later. 2. Restrict access to the management interface to a dedicated network and block the malicious IP 91.211.251.112:8001 and related Tor address. 3. Implement a WAF rule to block requests containing the empty authenticationToken cookie and rotate all credentials.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP‑ng virtualization hosts.",
+     "source": 1,
+     "quote": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Attackers bypass authentication by sending a specially crafted cookie authenticationToken=j:%7B%7D containing an empty JSON object, which logs them in as the token’s owner without credentials.",
+     "source": 1,
+     "quote": "By sending a specially crafted cookie (authenticationToken=j:%7B%7D) containing an empty JSON object ({}), attackers can trick the platform into retrieving an existing authentication token and logging them in as its owner, without requiring actual credentials.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Vates released patched Xen Orchestra versions 6.9.1 (stable) and 6.10.0 (latest) with updated xo‑server packages to fix the vulnerability.",
+     "source": 1,
+     "quote": "The company has released Xen Orchestra 6.9.1 (stable) and 6.10.0 (latest), including patched xo-server packages 5.211.2 and 5.213.1 to fix these security vulnerabilities.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+     "published": "Tue, 10 Nov 2026 11:17:16 -0500",
+     "published_iso": "2026-11-10T16:17:16+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+     "published": "Wed, 11 Nov 2026 15:42:47 +0000",
+     "published_iso": "2026-11-11T15:42:47+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+     "published": "Tue, 10 Nov 2026 23:42:21 +0530",
+     "published_iso": "2026-11-10T18:12:21+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+    "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-11-binance-warns-of-ios-sandbox-flaw-that-could-expose-crypto-w-4a5b6",
+   "date": "2026-11-11",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Binance warns of iOS sandbox flaw that could expose crypto wallet data",
+   "in_brief": "Binance says a vulnerability dubbed “worse_query” in iOS 26.7.1, 27.0.1 and 27.2 may let malicious apps read other apps’ private files. The exchange urges users to update iOS, remove untrusted apps and, if needed, move funds to a new wallet.",
+   "so_what": "The reported sandbox escape could allow any app installed on a vulnerable iPhone to access seed phrases, private keys and login credentials stored by other apps, putting cryptocurrency holdings at risk across the entire iOS ecosystem. While Apple issued iOS 27.2.1, 26.7.3 and 18.7.12 updates that patch nine flaws, the security notes do not confirm remediation of the worse_query issue, leaving uncertainty about whether the exploit remains viable. Users and administrators should treat the warning seriously, especially those who install sideloaded or manually signed apps, as the proof‑of‑concept tool WQ Files demonstrates practical exploitation without a jailbreak. Monitoring future Apple security bulletins and any reported incidents will be essential to gauge the real‑world impact.",
+   "what_to_do": "1. Install the latest iOS update (e.g., 27.2.1, 26.7.3). 2. Delete any sideloaded or untrusted apps. 3. If you suspect compromise, move crypto to a new wallet on a clean device and reset all active login sessions.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Binance warned that iOS versions 26.7.1, 27.0.1 and 27.2 are vulnerable to a sandbox escape called “worse_query” that can let apps read other apps’ private files.",
+     "source": 1,
+     "quote": "A vulnerability (worse_query) affecting iOS 26.7.1, 27.0.1, and 27.2 allows malicious apps to read local files from other apps, putting seed phrases, private keys, and login credentials at risk across the entire ecosystem.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "A proof‑of‑concept exploit and the tool WQ Files can use worse_query on those iOS versions, requiring the tool to be sideloaded onto the iPhone.",
+     "source": 1,
+     "quote": "WQ Files has been confirmed to work on iOS 26.7.1, 27.0.1, and 27.2, the same versions that Binance warned about.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Apple released iOS security updates (iOS 27.2.1, 26.7.3, and 18.7.12) that address nine flaws, but it is unclear if they fix the worse_query issue.",
+     "source": 1,
+     "quote": "Apple on November 9 released iOS security updates (iOS 27.2.1, 26.7.3, and 18.7.12) that address nine flaws. One of the fixed vulnerabilities, tracked as CVE-2026-113963, could allow an app to access sensitive user data. It is unclear if this is the same security issue Binance is warning of.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+     "published": "Tue, 10 Nov 2026 10:59:19 -0500",
+     "published_iso": "2026-11-10T15:59:19+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+     "published": "Tue, 10 Nov 2026 17:45:31 +0530",
+     "published_iso": "2026-11-10T12:15:31+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys",
+     "published": "Tue, 10 Nov 2026 12:45:34 +0000",
+     "published_iso": "2026-11-10T12:45:34+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+    "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+    "https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, decrypt.co, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-11-apple-to-close-online-support-community-on-nov-20-2026-9acc8",
+   "date": "2026-11-11",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Apple to Close Online Support Community on Nov. 20, 2026",
+   "in_brief": "Apple announced that its Support Community forum will cease accepting new posts and become read‑only on November 20, 2026. The move ends a 28‑year‑old platform for user‑generated technical help.",
+   "so_what": "The Apple Support Community, launched in 1998 and renamed several times, has long served as a venue where users exchanged troubleshooting advice, sometimes supplemented by Apple staff. Its shutdown reflects Apple’s shift toward directing customers to official support channels, a strategy the company says follows a \"careful evaluation of strategy and customer needs.\" While the site will remain accessible in a read‑only state, users will need to seek peer assistance on other platforms such as social media or third‑party forums. Observers may watch how the change affects user satisfaction and whether Apple expands its official support resources to fill the gap left by the forum.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward corporate announcement",
+   "claims": [
+    {
+     "claim": "Apple’s Support Community will permanently close on November 20, 2026 and will no longer accept new posts, remaining in a read‑only state.",
+     "source": 1,
+     "quote": "The Apple Support Community will permanently close on November 20, 2026. Starting today, the site will no longer accept new posts and is available in a read-only state.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The forum has been operating for 28 years, originally launched in 1998 as Apple Tech Exchange.",
+     "source": 1,
+     "quote": "For 28 years, the forum has provided Apple users... The Apple Support Community dates to 1998, when the online forum was known as Apple Tech Exchange.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Apple said the decision followed a careful evaluation of its support strategy and customer needs.",
+     "source": 3,
+     "quote": "Apple told MacRumors that it decided to shut down down the Support Community \"after a careful evaluation of strategy and customer needs.\"",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/",
+     "published": "Wed, 11 Nov 2026 17:04:26 +0000",
+     "published_iso": "2026-11-11T17:04:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/personal-tech/2026/11/11/apple-tells-its-support-community-to-stfu/5309090",
+     "published": "Wed, 11 Nov 2026 12:43:00 +0000",
+     "published_iso": "2026-11-11T12:43:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/",
+     "published": "Wed, 11 Nov 2026 10:52:59 +0000",
+     "published_iso": "2026-11-11T10:52:59+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/",
+    "https://www.theregister.com/personal-tech/2026/11/11/apple-tells-its-support-community-to-stfu/5309090",
+    "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Situation Publishing, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-11-security-firm-finds-thousands-of-grok-build-apps-publicly-ac-5999a",
+   "date": "2026-11-11",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Security firm finds thousands of Grok Build apps publicly accessible, including confidential SpaceXSI data",
+   "in_brief": "Researchers at Claroc discovered that more than 35,000 apps built with SpaceXSI's Grok Build were exposed online, some containing internal business documents. The company removed its own 24 exposed apps after the leak was reported, but many third‑party apps remain open.",
+   "so_what": "The disclosure highlights a design flaw in how Grok Build handles app links, placing random words to the left of the domain where they can be captured by passive DNS services. This leaves thousands of apps accessible without a sign-in across various sectors, with researchers estimating that roughly 2% of open apps contain high-risk material. While SpaceXSI removed its own exposed apps after being notified, thousands of third-party apps remain publicly accessible.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "Claroc found 37,571 Grok‑built apps online, of which 35,578 were open to anyone without sign‑in",
+     "source": 3,
+     "quote": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "SpaceXSI had 24 of its own apps exposed and began removing the links within hours of being notified",
+     "source": 1,
+     "quote": "SpaceXSI began removing the links within a few hours of Ars sending an email with questions for this article.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The exposed SpaceXSI apps contained a confidential onboarding plan and a sales territory map of 594 accounts",
+     "source": 1,
+     "quote": "include an onboarding plan, marked confidential, for a new member of SpaceXSI’s enterprise sales team, a sales territory map of 594 accounts",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability arose because Grok Build placed randomly generated words to the left of the domain, allowing discovery via passive DNS services",
+     "source": 2,
+     "quote": "The problem was the way Grok Build created links. Though it used \"dice words\" for the link ... it placed that part of the link to the left of the domain, instead of to the right like Google's Gemini does. That allowed the links to be discovered by passive DNS servers",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+     "published": "Tue, 10 Nov 2026 21:12:59 +0000",
+     "published_iso": "2026-11-10T21:12:59+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/",
+     "published": "Wed, 11 Nov 2026 12:35:10 +0000",
+     "published_iso": "2026-11-11T12:35:10+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+     "published": "Wed, 11 Nov 2026 17:49:40 +0530",
+     "published_iso": "2026-11-11T12:19:40+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+    "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/",
+    "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 63,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Yahoo, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: so_what contained unverified recommendations and claims not supported by the source texts."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-11-google-launches-tabletop-ai-experiment-for-collaborative-pla-f5ad3",
+   "date": "2026-11-11",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google launches Tabletop AI experiment for collaborative planning",
+   "in_brief": "Google unveiled Tabletop, an experimental AI tool that creates custom collaborative spaces for personal planning. The beta is available in the U.S. to users 18 and older via a waitlist.",
+   "so_what": "Tabletop extends Google’s AI offerings into the realm of personal and group organization, letting users generate interactive tools such as trip itineraries, expense splitters, and tournament brackets by describing them in natural language. By positioning the service as a lightweight alternative to workplace platforms like Asana, Google aims to capture everyday coordination needs, potentially increasing user engagement with its AI ecosystem. The age restriction and limited rollout suggest a testing phase, and the waitlist model may gauge demand before broader release. Observers will watch how adoption rates compare to other Google Labs experiments and whether the tool expands beyond the U.S. market or lowers the age barrier.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product announcement",
+   "claims": [
+    {
+     "claim": "Google introduced Tabletop, a new experimental AI tool that generates customized collaborative hubs for personal planning",
+     "source": 1,
+     "quote": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends.",
+     "status": "verified",
+     "corroborated_by": [
+      "Google"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Tabletop lets users create interactive tools like trip itineraries, dinner polls, and expense splitters by prompting @tabletop",
+     "source": 2,
+     "quote": "Just add in your links, files, and ideas, then prompt @tabletop — or pick a starter template — to generate custom interactive trip itineraries, dinner polls, expense splitters, and tournament brackets.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The beta is rolling out in the United States to users 18 and older via a waitlist",
+     "source": 1,
+     "quote": "Access to the Tabletop beta is rolling out via a waitlist, and currently limited to people over the age of 18 in the US.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+     "published": "2026-11-11T11:00:00-05:00",
+     "published_iso": "2026-11-11T16:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Google AI Blog",
+     "owner": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+     "published": "Wed, 11 Nov 2026 16:00:00 +0000",
+     "published_iso": "2026-11-11T16:00:00+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+    "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
+   ],
+   "primary": [
+    {
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+     "type": "subject's own statement",
+     "verified": true,
+     "label": "Google AI Blog"
+    }
+   ],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Google, Vox Media"
+     ],
+     [
+      "Primary evidence",
+      15,
+      25,
+      "Statement from the organization involved (not independent)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-11-scientists-verify-iconic-black-hole-image-89233",
+   "date": "2026-11-11",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Scientists Verify Iconic Black Hole Image",
+   "in_brief": "Researchers have re‑examined the first picture of a black hole and found it still stands up to scientific scrutiny. The confirmation reinforces confidence in the methods used to capture and interpret such extreme astronomical data.",
+   "so_what": "The original image of the supermassive black hole was a milestone for both astronomy and public engagement with science. A new review shows the data and processing remain robust, dispelling lingering doubts about artefacts or errors. This validation matters because the image underpins models of black‑hole physics, including the behavior of event horizons and relativistic jets. Ongoing observations with the Event Horizon Telescope and future upgrades will build on this foundation, aiming to capture higher‑resolution views and test general relativity in the strong‑gravity regime. Watch for upcoming releases from the collaboration that may reveal finer details of the black‑hole environment.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The iconic first image of a black hole holds up to scrutiny",
+     "source": 1,
+     "quote": "Iconic first image of black hole holds up to scrutiny.",
+     "status": "verified",
+     "corroborated_by": [
+      "Situation Publishing"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Scientists check their work and confirm it with an update on the iconic black hole image",
+     "source": 2,
+     "quote": "Scientists check their work and confirm it with update on iconic black hole image.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Researchers have re‑examined the image and found it still stands up to scientific scrutiny",
+     "source": 2,
+     "quote": "Scientists check their work and confirm it with update on iconic black hole image.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03642-7",
+     "published": "2026-11-11",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/science/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/5309183",
+     "published": "Wed, 11 Nov 2026 17:02:00 +0000",
+     "published_iso": "2026-11-11T17:02:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03642-7",
+    "https://www.theregister.com/science/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/5309183"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/s41586-026-11241-9",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/s41586-026-11241-9"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03642-7",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 76,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Situation Publishing, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: number '2019' does not appear in any source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-11-study-finds-extreme-drought-threatens-majority-of-cactus-spe-0a5e9",
+   "date": "2026-11-11",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Study finds extreme drought threatens majority of cactus species with severe habitat loss",
+   "in_brief": "New research shows that incorporating severe drought projections into climate models reveals that over a quarter of analyzed cactus species could lose most of their suitable habitat by the century's close. The findings indicate that standard biodiversity forecasts may significantly underestimate extinction risks for resilient plants.",
+   "so_what": "Cacti are often viewed as highly resilient to arid conditions, yet the new analysis shows that even these adapted plants are vulnerable when extreme droughts become more common. By integrating severe drought data, the study reveals that habitat loss could push many species into the IUCN's critically endangered category, potentially doubling the number of cacti in that status. This challenges the reliance on average temperature and precipitation in existing models and signals that other plant groups may face similar hidden threats. Conservation planners will need to factor extreme weather events into future assessments and consider proactive measures such as habitat protection, assisted migration, and seed banking to safeguard biodiversity under a warming climate.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced scientific reporting",
+   "claims": [
+    {
+     "claim": "More than a quarter of cactus species analyzed could lose at least 80% of their suitable habitat by the end of the century.",
+     "source": 2,
+     "quote": "more than a quarter of cactus species analyzed could lose at least 80% of their suitable habitat by the end of the century.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The projected loss could qualify many cactus species as critically endangered, more than doubling the current number in that category.",
+     "source": 2,
+     "quote": "This level of loss could qualify these cactus species as critically endangered, according to criteria established by the International Union for Conservation of Nature, which would more than double the number of species currently in this category.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Current climate distribution models often omit extreme weather events like severe droughts, leading to underestimation of biodiversity threats.",
+     "source": 2,
+     "quote": "Conventional distribution models typically rely on long-term temperature and rainfall averages but fail to capture the damaging effects of extreme events such as droughts, hurricanes and cold snaps on biodiversity.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03671-2",
+     "published": "2026-11-11",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-cacti-severely-threatened-warmer-drier.html",
+     "published": "Wed, 11 Nov 2026 11:00:34 EST",
+     "published_iso": "2026-11-11T16:00:34+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03671-2",
+    "https://www.nature.com/articles/d41586-026-03496-z",
+    "https://phys.org/news/2026-11-cacti-severely-threatened-warmer-drier.html"
+   ],
+   "primary": [
+    {
+     "url": "http://www.arizona.edu/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://www.arizona.edu/"
+    },
+    {
+     "url": "https://www.nature.com/articles/s41586-026-11265-1",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/s41586-026-11265-1"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03671-2",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor: headline uses 2100 which is not in source",
+     "editor: plagiarized phrases from source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-11-us-october-cpi-rises-0-4-amid-mixed-price-trends-b8cbc",
+   "date": "2026-11-11",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "US October CPI rises 0.4% amid mixed price trends",
+   "in_brief": "The Consumer Price Index increased 0.4% in October 2026, outpacing analysts’ expectations. The rise was driven by housing, food and energy costs, while gas prices fell slightly.",
+   "so_what": "The October CPI reading suggests price pressures remain above expectations, keeping inflation in focus for policymakers. Although the month‑over‑month increase was modest, it exceeded the 0.3% rise analysts had forecast, reinforcing arguments that the Federal Reserve may consider another rate hike at its December meeting. Energy costs continued to influence the index, with a 0.7% rise in October after a 5.2% surge in September, while gasoline prices dipped from $4.41 to $4.22 per gallon. The data also arrives after the recent midterm elections, which highlighted cost‑of‑living concerns among voters. Observers will watch the Fed’s December decision and upcoming year‑over‑year inflation estimates, which were unavailable for October due to a data gap in 2025.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward reporting of official data",
+   "claims": [
+    {
+     "claim": "US consumer prices rose 0.4% in October 2026, above the 0.3% analysts expected.",
+     "source": 1,
+     "quote": "Prices rose by 0.4% in the month, which was lower than the 0.6% increase in September. However, analysts had expected prices to rise by 0.3%, and the higher-than-expected pace could add to arguments for the Federal Reserve to raise interest rates at its next meeting in December.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Energy prices increased 0.7% in October after a 5.2% jump in September.",
+     "source": 1,
+     "quote": "the pace of energy price rises, at 0.7% in October, was much lower than the 5.2% increase seen in September.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The Bureau of Labor Statistics did not publish a year‑over‑year inflation figure for October because data was not collected in October 2025.",
+     "source": 1,
+     "quote": "While the Bureau of Labor Statistics would normally provide figures for the 12-month change in prices, it did not collect data in October 2025 so it could not provide that estimate.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Gasoline prices fell from $4.41 to $4.22 per gallon during October.",
+     "source": 2,
+     "quote": "Gas prices cooled slightly in October, dropping from an average of $4.41 a gallon at the beginning of the month to $4.22 a gallon.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Federal Reserve is expected to consider another rate hike at its December meeting.",
+     "source": 2,
+     "quote": "In September, the US Federal Reserve raised interest rates for the first time since 2023 and are expected to hike rates again at their next meeting in December.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+     "published": "Tue, 10 Nov 2026 14:45:46 GMT",
+     "published_iso": "2026-11-10T14:45:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
+     "published": "Tue, 10 Nov 2026 15:38:48 GMT",
+     "published_iso": "2026-11-10T15:38:48+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3",
+     "published": "Tue, 10 Nov 2026 13:32:09 +0000",
+     "published_iso": "2026-11-10T13:32:09+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
+    "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+   ],
+   "primary": [
+    {
+     "url": "https://www.sca.isr.umich.edu/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.sca.isr.umich.edu/"
+    }
+   ],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Guardian Media Group, coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      6,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-10-us-october-cpi-rises-0-4-amid-cooling-price-increases-5ed12",
+    "date": "2026-11-10",
+    "label": "Disputed",
+    "score": 66
+   }
+  },
+  {
+   "id": "2026-11-11-banks-pledge-270-million-to-new-dollar-stablecoin-project-8a0ef",
+   "date": "2026-11-11",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Banks pledge $270 million to new dollar‑stablecoin project",
+   "in_brief": "Goldman Sachs, Citi, Santander, Deutsche Bank and other major banks committed roughly $270 million to a joint stablecoin venture dubbed “Project Faro.”The funding aims to support five years of operations for a U.S.-incorporated dollar‑pegged token slated for launch in early 2027.",
+   "so_what": "The commitment marks the most substantial cash infusion yet from traditional finance into a stablecoin effort, signaling a shift toward bank‑backed digital dollars that could compete with crypto‑native tokens such as Tether’s USDT and Circle’s USDC, which together dominate about 85% of the $290 billion market. By pooling resources, the consortium hopes to leverage institutional trust, regulatory alignment and existing client networks to capture a share of cross‑border payment flows. The venture remains in early stages, still lacking a chief executive and a final brand name, and will initially focus on a dollar‑denominated token with plans for a euro version and other currencies. Observers will watch for the selection of leadership, regulatory approvals, and how the project’s rollout influences market share and pricing of existing stablecoins.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Goldman Sachs, Citi, Santander and Deutsche Bank are among the banks committing roughly $270 million to the venture",
+     "source": 1,
+     "quote": "Goldman Sachs, Citigroup, Banco Santander, and Deutsche Bank are among the institutions backing the effort, Bloomberg reported Tuesday, citing people familiar with the matter.",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The project is known as “Project Faro” and is still searching for a chief executive",
+     "source": 1,
+     "quote": "Known among participants as Project Faro, the venture is still searching for a chief executive, and its final name remains under discussion.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The funding is intended to cover five years of operations for a U.S.-incorporated company that will issue a dollar‑denominated stablecoin",
+     "source": 1,
+     "quote": "The capital is meant to cover five years of operations for a planned U.S.-incorporated company that will issue a dollar-denominated stablecoin.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants",
+     "published": "Tue, 10 Nov 2026 18:33:37 +0000",
+     "published_iso": "2026-11-10T18:33:37+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+     "published": "Tue, 10 Nov 2026 17:32:22 +0000",
+     "published_iso": "2026-11-10T17:32:22+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+    "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants",
+    "https://www.coindesk.com/opinion/2026/11/10/will-stablecoins-survive-once-the-banks-catch-up"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-11-railway-breach-exposes-up-to-100-000-workspaces-leading-to-7-1f29c",
+   "date": "2026-11-11",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Railway breach exposes up to 100,000 workspaces, leading to $740,000 in fraudulent AI charges",
+   "in_brief": "Railway disclosed that attackers stole authentication secrets from as many as 100,000 customer workspaces and used them to generate roughly $740,000 in unauthorized AI usage. The company says it will reimburse customers for any AI‑provider charges it cannot recover.",
+   "so_what": "The incident highlights the growing risk to cloud‑based development platforms that store sensitive API keys as environment variables. By compromising a small fraction of workspaces, threat actors were able to harvest AI provider credentials and run costly AI workloads, underscoring how quickly stolen secrets can be monetized. Railway’s response—resetting linked tokens, urging customers to rotate secrets, and offering to cover unreimbursed AI charges—aims to limit financial loss and restore trust. Organizations using similar PaaS services should review their secret‑management practices, enforce least‑privilege access, and monitor for anomalous API usage. Future scrutiny will focus on whether other platforms have comparable vulnerabilities and how AI‑provider refund policies evolve in the wake of such attacks.",
+   "what_to_do": "1. Rotate all API keys, tokens, and other secrets stored in Railway or similar services immediately. 2. Review recent billing statements for AI‑provider usage and report any unauthorized charges using the provided charge‑report form. 3. Enable monitoring and alerts for unusual API activity and consider using external secret‑management tools to reduce exposure.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Attackers accessed at most 1.85% of Railway workspaces, about 100,000, stealing environment variables.",
+     "source": 1,
+     "quote": "attackers gained access to its internal source code and the decrypted customer environment variables for at most 1.85% of its workspaces, or approximately 100,000.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Stolen AI credentials were used to generate approximately $740,000 in unauthorized AI usage.",
+     "source": 1,
+     "quote": "The stolen credentials were subsequently used to generate approximately $740,000 in unauthorized AI usage",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Railway will cover AI‑provider charges that are not refunded by the providers.",
+     "source": 1,
+     "quote": "The company says it will cover charges that providers decline to refund",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+     "published": "Tue, 10 Nov 2026 17:20:19 -0500",
+     "published_iso": "2026-11-10T22:20:19+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+     "published": "Wed, 11 Nov 2026 13:19:04 +0530",
+     "published_iso": "2026-11-11T07:49:04+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+    "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 607,
+  "stories_considered": 14,
+  "published": 11,
+  "outlets": 40
+ }
+}

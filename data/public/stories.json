@@ -6211,5 +6211,147 @@
    "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
    "https://decrypt.co/382950/bitcoin-falls-hot-us-inflation-fears-bigger-fed-rate-hike"
   ]
+ },
+ {
+  "id": "2026-11-11-microsoft-november-2026-patch-tuesday-fixes-record-number-of-3ed46",
+  "date": "2026-11-11",
+  "section": "threat",
+  "headline": "Microsoft November 2026 Patch Tuesday fixes record number of flaws, including exploited Outlook zero‑day",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+   "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+   "https://www.malwarebytes.com/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
+   "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+   "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/"
+  ]
+ },
+ {
+  "id": "2026-11-11-critical-xen-orchestra-authentication-bypass-actively-exploi-dd03c",
+  "date": "2026-11-11",
+  "section": "threat",
+  "headline": "Critical Xen Orchestra authentication bypass actively exploited",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+   "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+   "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+  ]
+ },
+ {
+  "id": "2026-11-11-binance-warns-of-ios-sandbox-flaw-that-could-expose-crypto-w-4a5b6",
+  "date": "2026-11-11",
+  "section": "threat",
+  "headline": "Binance warns of iOS sandbox flaw that could expose crypto wallet data",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+   "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys"
+  ]
+ },
+ {
+  "id": "2026-11-11-apple-to-close-online-support-community-on-nov-20-2026-9acc8",
+  "date": "2026-11-11",
+  "section": "ai",
+  "headline": "Apple to Close Online Support Community on Nov. 20, 2026",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/",
+   "https://www.theregister.com/personal-tech/2026/11/11/apple-tells-its-support-community-to-stfu/5309090",
+   "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/"
+  ]
+ },
+ {
+  "id": "2026-11-11-security-firm-finds-thousands-of-grok-build-apps-publicly-ac-5999a",
+  "date": "2026-11-11",
+  "section": "ai",
+  "headline": "Security firm finds thousands of Grok Build apps publicly accessible, including confidential SpaceXSI data",
+  "label": "Well-sourced",
+  "score": 63,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+   "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/",
+   "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
+  ]
+ },
+ {
+  "id": "2026-11-11-google-launches-tabletop-ai-experiment-for-collaborative-pla-f5ad3",
+  "date": "2026-11-11",
+  "section": "ai",
+  "headline": "Google launches Tabletop AI experiment for collaborative planning",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+   "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
+  ]
+ },
+ {
+  "id": "2026-11-11-scientists-verify-iconic-black-hole-image-89233",
+  "date": "2026-11-11",
+  "section": "science",
+  "headline": "Scientists Verify Iconic Black Hole Image",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03642-7",
+   "https://www.theregister.com/science/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/5309183"
+  ]
+ },
+ {
+  "id": "2026-11-11-study-finds-extreme-drought-threatens-majority-of-cactus-spe-0a5e9",
+  "date": "2026-11-11",
+  "section": "science",
+  "headline": "Study finds extreme drought threatens majority of cactus species with severe habitat loss",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03671-2",
+   "https://www.nature.com/articles/d41586-026-03496-z",
+   "https://phys.org/news/2026-11-cacti-severely-threatened-warmer-drier.html"
+  ]
+ },
+ {
+  "id": "2026-11-11-us-october-cpi-rises-0-4-amid-mixed-price-trends-b8cbc",
+  "date": "2026-11-11",
+  "section": "money",
+  "headline": "US October CPI rises 0.4% amid mixed price trends",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
+   "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+  ]
+ },
+ {
+  "id": "2026-11-11-banks-pledge-270-million-to-new-dollar-stablecoin-project-8a0ef",
+  "date": "2026-11-11",
+  "section": "money",
+  "headline": "Banks pledge $270 million to new dollar‑stablecoin project",
+  "label": "Developing",
+  "score": 49,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+   "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants",
+   "https://www.coindesk.com/opinion/2026/11/10/will-stablecoins-survive-once-the-banks-catch-up"
+  ]
+ },
+ {
+  "id": "2026-11-11-railway-breach-exposes-up-to-100-000-workspaces-leading-to-7-1f29c",
+  "date": "2026-11-11",
+  "section": "scam",
+  "headline": "Railway breach exposes up to 100,000 workspaces, leading to $740,000 in fraudulent AI charges",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+   "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
+  ]
  }
 ]

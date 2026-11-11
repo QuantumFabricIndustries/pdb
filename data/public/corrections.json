@@ -306,5 +306,16 @@
   "from_score": 49,
   "to_score": 58,
   "note": "Rating changed from Developing (49) to Well-sourced (58) as new evidence came in."
+ },
+ {
+  "date": "2026-11-11",
+  "story_id": "2026-11-11-us-october-cpi-rises-0-4-amid-mixed-price-trends-b8cbc",
+  "prior_id": "2026-11-10-us-october-cpi-rises-0-4-amid-cooling-price-increases-5ed12",
+  "headline": "US October CPI rises 0.4% amid mixed price trends",
+  "from": "Disputed",
+  "to": "Well-sourced",
+  "from_score": 66,
+  "to_score": 64,
+  "note": "Rating changed from Disputed (66) to Well-sourced (64) as new evidence came in."
  }
 ]

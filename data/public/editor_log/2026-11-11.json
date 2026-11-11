@@ -1,0 +1,152 @@
+[
+ {
+  "section": "threat",
+  "title": "Microsoft November 2026 Patch Tuesday fixes record number of flaws, including exploited Outlook zero‑day",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Critical Xen Orchestra authentication bypass actively exploited",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Binance warns of iOS sandbox flaw that could expose crypto wallet data",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Apple to Close Online Support Community on Nov. 20, 2026",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Security firm finds thousands of Grok Build apps publicly accessible, including confidential SpaceXSI data",
+  "verdict": "PUBLISH",
+  "truth": 63,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what contained unverified recommendations and claims not supported by the source texts."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google launches Tabletop AI experiment for collaborative planning",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Scientists Verify Iconic Black Hole Image",
+  "verdict": "PUBLISH",
+  "truth": 76,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: number '2019' does not appear in any source"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Study finds extreme drought threatens majority of cactus species with severe habitat loss",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: headline uses 2100 which is not in source",
+   "editor: plagiarized phrases from source"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "US October CPI rises 0.4% amid mixed price trends",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Banks pledge $270 million to new dollar‑stablecoin project",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Railway breach exposes up to 100,000 workspaces, leading to $740,000 in fraudulent AI charges",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Images of UK Official Wes Streeting in Skirt Were Digitally Altered",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Wes Streeting is not the UK Defence Secretary; the source text correctly refers to him as U.K. Defense Secretary (though sources note his actual role contextually, let's look closer: wait, source says U.K. Defense Secretary, but wait, is he Defence Secretary or Health Secretary? Regardless, source 1 calls him U.K. Defense Secretary. However, the headline uses 'Fact Check:' which is hype/meta-language forbidden in headlines)."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-generated image of Riyadh’s Aramco Tower misrepresented as post‑attack photo",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of Mitch McConnell’s reaction to 2026 midterm losses is authentic, not doctored",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
