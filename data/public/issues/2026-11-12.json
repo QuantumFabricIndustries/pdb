@@ -1,0 +1,1489 @@
+{
+ "date": "2026-11-12",
+ "built_at": "2026-11-12T20:56:16.608809+00:00",
+ "stories": [
+  {
+   "id": "2026-11-12-apache-http-server-patches-critical-http-2-rce-flaw-cve-2026-4e33d",
+   "date": "2026-11-12",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Apache HTTP Server patches critical HTTP/2 RCE flaw (CVE‑2026‑119618)",
+   "in_brief": "Apache released version 2.4.71 fixing a critical remote‑code‑execution bug in its mod_http2 module. The flaw affects many servers that have HTTP/2 enabled, prompting admins to patch or disable HTTP/2.",
+   "so_what": "The vulnerability, tracked as CVE‑2026‑119618, allows an unauthenticated attacker to corrupt heap memory and execute code with the web‑server’s privileges on Apache HTTP Server 2.4.55‑2.4.70 and the standalone mod_h2 2.0.8‑2.0.42. Cloud‑security firm Wiz found that 64% of cloud environments host vulnerable instances and about half of those are publicly reachable, though actual exploitability depends on HTTP/2 being enabled. Red Hat rates the flaw 9.8 CVSS and notes that servers running only HTTP/1.1 are not affected. No public exploits have been observed, but a reliable proof‑of‑concept exists. Organizations should apply the November 11 release (2.4.71) or, if immediate patching isn’t possible, disable HTTP/2 by removing “h2”/“h2c” from the Protocols directive to mitigate risk.",
+   "what_to_do": "1. Update Apache HTTP Server to version 2.4.71 or later. 2. If you cannot patch immediately, disable HTTP/2 by removing h2 and h2c from the Protocols directive. 3. Verify that the mod_http2 module is disabled or removed on all virtual hosts.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting of a patch and exposure data",
+   "claims": [
+    {
+     "claim": "The flaw affects Apache HTTP Server versions 2.4.55‑2.4.70 and standalone mod_h2 2.0.8‑2.0.42.",
+     "source": 1,
+     "quote": "An attacker successfully exploiting it could run code ... in HTTP Server versions 2.4.55 through 2.4.70, and standalone mod_h2 version 2.0.8 through 2.0.42.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Apache released version 2.4.71 on November 11 to fix the vulnerability.",
+     "source": 2,
+     "quote": "The issue was addressed on November 11 with the release of version 2.4.71.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Wiz reported that 64% of cloud environments have vulnerable resources and 51% are publicly exposed.",
+     "source": 2,
+     "quote": "Cloud security firm Wiz reported that 64% of cloud environments in its data contained resources running affected Apache versions, while 51% had publicly exposed instances.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+     "published": "Thu, 12 Nov 2026 14:12:55 -0500",
+     "published_iso": "2026-11-12T19:12:55+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+     "published": "Thu, 12 Nov 2026 15:38:31 +0000",
+     "published_iso": "2026-11-12T15:38:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+     "published": "Thu, 12 Nov 2026 10:42:26 +0530",
+     "published_iso": "2026-11-12T05:12:26+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+    "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+    "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+    "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-119618",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-119618"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-126325",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-126325"
+    }
+   ],
+   "truth": {
+    "total": 61,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-12-hackers-exploit-screenconnect-rmm-flaw-to-spread-sckit-malwa-6dd77",
+   "date": "2026-11-12",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Hackers exploit ScreenConnect RMM+ flaw to spread SCKit malware",
+   "in_brief": "A campaign using a vulnerability in the RMM+ extension for ConnectWise ScreenConnect compromised 288 hosts across 48 organizations. The flaw, present in versions 1.0.31 and 1.0.32, is linked to CVE‑2026‑84869 and can be mitigated by applying the latest ScreenConnect patch and disabling the extensions.",
+   "so_what": "The incident shows how a misconfigured third‑party extension can give attackers unauthenticated access to remote‑management tools, allowing rapid deployment of backdoor malware across managed endpoints. The SCKit toolkit not only installs rogue ScreenConnect clients but also hijacks technician sessions to spread further, bypassing traditional defenses once a valid session is obtained. Organizations using ConnectWise ScreenConnect should verify that RMM+ extensions are either removed or properly configured, ensure the access key is set, and apply the vendor’s patch that addresses CVE‑2026‑84869. Monitoring for the disclosed indicators of compromise and reviewing logs for unexpected Run Command activity will help detect ongoing attempts.",
+   "what_to_do": "1. Apply the latest ScreenConnect patch that fixes CVE‑2026‑84869. 2. Disable or remove RMM+ extensions (including Labtech Plus, RMM Plus, RMM+, RMM Plus Password Link, RMM+ Password Link) in on‑premises deployments. 3. Verify that the RMM+ access key is configured and not left blank.",
+   "hype_flag": "low",
+   "hype_reason": "facts from multiple independent sources",
+   "claims": [
+    {
+     "claim": "The campaign compromised at least 288 hosts across 48 organizations.",
+     "source": 1,
+     "quote": "According to Huntress, the campaign compromised at least 6 MSPs and 288 hosts across 48 organizations.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The attackers exploited a bug in RMM+ versions 1.0.31 and 1.0.32 that allowed a blank access key.",
+     "source": 1,
+     "quote": "The hackers likely exploited a bug in the extension’s versions 1.0.31 and 1.0.32, where the access key defaults to blank if not configured.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The exploit targets CVE‑2026‑84869, a critical privilege‑management flaw.",
+     "source": 3,
+     "quote": "Blackpoint Cyber's Adversary Pursuit Group ... said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A fully patched ScreenConnect client blocks execution of the exploit payload.",
+     "source": 3,
+     "quote": "\"Our testing confirmed that the exploit targets CVE-2026-84869 and that the existing patch successfully blocks it,\"",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+     "published": "Thu, 12 Nov 2026 10:39:34 +0000",
+     "published_iso": "2026-11-12T10:39:34+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
+     "published": "Thu, 12 Nov 2026 14:02:00 +0100",
+     "published_iso": "2026-11-12T13:02:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+     "published": "Thu, 12 Nov 2026 18:38:28 +0530",
+     "published_iso": "2026-11-12T13:08:28+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+    "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
+    "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
+    "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-84869 — ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability"
+    }
+   ],
+   "truth": {
+    "total": 88,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-12-notion-ai-chat-transcripts-exposed-after-fireworks-ai-double-cac59",
+   "date": "2026-11-12",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Notion AI chat transcripts exposed after Fireworks AI double breach",
+   "in_brief": "Fireworks AI suffered two hacks in October 2026 that gave attackers access to Notion AI chat transcripts used for the Insights feature. The breach impacted fewer than 1% of Notion workspaces, prompting Notion to sever ties and delete the vendor’s data.",
+   "so_what": "The incident highlights the cascading risk when cloud‑based AI services are compromised, as downstream platforms inherit the vulnerabilities of their providers. Notion’s AI assistant, which many teams rely on for drafting and summarizing content, had portions of its conversation history accessed, though most records were unattributable to specific users or workspaces. While the scale appears limited, the exposure of potentially sensitive inputs—such as passwords or API keys—could lead to credential reuse attacks. Organizations using third‑party AI inference services should audit data flows, enforce zero‑retention contracts where possible, and monitor for credential leakage. Future scrutiny will focus on Fireworks AI’s security posture and whether additional customer data beyond Notion was accessed.",
+   "what_to_do": "1. Review any Notion AI chat logs for sensitive information and delete or redact as needed. 2. Rotate passwords, API keys, or other credentials that may have been shared in AI chats. 3. Disable the Insights feature in Notion until its security is confirmed.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Fireworks AI was hacked twice in October, once through compromised internal credentials and once via a third‑party cloud provider.",
+     "source": 2,
+     "quote": "Fireworks AI was hacked twice in October: once through compromised internal credentials, and once through a third‑party cloud provider that was hosting Fireworks R&D machines.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The breach exposed Notion AI chat transcripts used for the Insights feature and affected fewer than 1% of Notion users.",
+     "source": 1,
+     "quote": "According to the company, less than 1% of its users are impacted by the incident.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Notion cut off traffic to Fireworks, deleted all vendor‑stored data, and halted training runs by November 3.",
+     "source": 1,
+     "quote": "Notion responded by cutting off traffic to Fireworks, deleting all data from the vendor’s systems, and halting training runs by November 3.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+     "published": "Wed, 11 Nov 2026 15:54:20 -0500",
+     "published_iso": "2026-11-11T20:54:20+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+     "published": "Thu, 12 Nov 2026 11:08:52 +0000",
+     "published_iso": "2026-11-12T11:08:52+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+     "published": "Thu, 12 Nov 2026 15:02:28 +0000",
+     "published_iso": "2026-11-12T15:02:28+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+    "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+    "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Yahoo, bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-12-google-launches-gemini-4-hydrogen-model-replacing-flash-in-s-c59dd",
+   "date": "2026-11-12",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google launches Gemini 4 Hydrogen model, replacing Flash in Search and products",
+   "in_brief": "Google introduced the Gemini 4 Hydrogen model, replacing the previous Flash model across its services and making it available globally in Google Search. The model aims to deliver faster responses, better intent handling, and richer visual results.",
+   "so_what": "The rollout marks Google’s latest AI model evolution, moving from the Flash series to the Hydrogen architecture. Google claims Hydrogen runs 2.5 times faster than the previous Flash model and features four thinking levels. Its global availability in Search brings more nuanced answers, visual formats, and improved query fan-out. Additionally, developers on Google's Antigravity can use Hydrogen alongside Carbon via the new Orchestrator feature.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product rollout",
+   "claims": [
+    {
+     "claim": "Google has replaced Gemini 3.8 Flash with Gemini 4 Hydrogen across its products",
+     "source": 1,
+     "quote": "Hydrogen’s purpose is clear: It replaces the faster, more economical Flash models most people in Google’s ecosystem use.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "antigravity.google"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Hydrogen runs 2.5 times faster than Flash 3.8",
+     "source": 1,
+     "quote": "even in high mode, it’s 2.5 times faster than Flash 3.8",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Hydrogen is now available globally in Google Search for all users",
+     "source": 2,
+     "quote": "Hydrogen is now available globally in Google Search for all users",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+     "published": "Thu, 12 Nov 2026 19:23:03 +0000",
+     "published_iso": "2026-11-12T19:23:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Google AI Blog",
+     "owner": "Google",
+     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+     "published": "Thu, 12 Nov 2026 18:00:00 +0000",
+     "published_iso": "2026-11-12T18:00:00+00:00",
+     "kind": "vendor",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+     "published": "Thu, 12 Nov 2026 19:27:45 +0000",
+     "published_iso": "2026-11-12T19:27:45+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Hacker News",
+     "owner": "antigravity.google",
+     "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+     "published": "Thu, 12 Nov 2026 18:52:01 +0000",
+     "published_iso": "2026-11-12T18:52:01+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+    "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+    "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+   ],
+   "primary": [
+    {
+     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+     "type": "subject's own statement",
+     "verified": true,
+     "label": "Google AI Blog"
+    }
+   ],
+   "truth": {
+    "total": 87,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Condé Nast, Google, Yahoo, antigravity.google"
+     ],
+     [
+      "Primary evidence",
+      15,
+      25,
+      "Statement from the organization involved (not independent)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: The draft mentions 'Gemini 3.8 Flash' and 'Carbon model via the new Orchestrator feature' which are not fully grounded or accurately described in a way that matches the exact source texts without minor extrapolation, but mainly the claim about 'Antigravity platform' pairing Hydrogen with Carbon via Orchestrator needs tighter alignment with source [4]. Also, source [1] mentions Gemini 3.8 Flash, but let's check the claims: source [1] mentions 'Flash 3.8', draft mentions 'Gemini 3.8 Flash'. Wait, the draft contains some speculative or hallucinated details not directly supported, like 'expanded link coverage' (source says 'broader range of helpful links than before' / 'query fan-out technique'), and 'Antigravity platform' details from source [4]. Let's rewrite to strictly match the sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-12-microsoft-365-outage-disrupts-outlook-teams-copilot-and-othe-5e840",
+   "date": "2026-11-12",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Microsoft 365 outage disrupts Outlook, Teams, Copilot and other services",
+   "in_brief": "A widespread Microsoft 365 outage began Thursday afternoon, preventing access to Outlook and several other cloud services. Microsoft says the problem stems from many servers unexpectedly going offline, affecting users worldwide.",
+   "so_what": "The outage impacts both business and consumer users who rely on Microsoft 365 for email, collaboration, and security tools, potentially halting productivity across many organizations. Microsoft has paused deployments, redistributed traffic, and is restarting affected servers to restore capacity, but has not provided a timeline for full recovery. The incident follows an earlier Teams disruption earlier that day and adds to a pattern of occasional large‑scale cloud outages, highlighting the dependence on single‑vendor platforms. Observers will watch Microsoft’s status updates and any post‑mortem analysis to understand the root cause and whether infrastructure changes are needed to prevent recurrence.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "The Microsoft 365 incident began Thursday at 1:26 PM ET",
+     "source": 1,
+     "quote": "The company says the Microsoft 365 incident began Thursday at 1:26 PM ET",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The outage was caused by a large number of servers being unexpectedly unavailable",
+     "source": 1,
+     "quote": "We determined the elevated load isn't driven by an increase in traffic, but by a number of servers being unexpectedly unavailable",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Outlook, Teams, SharePoint, Copilot and Defender XDR were among the services affected worldwide",
+     "source": 1,
+     "quote": "customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "published": "Thu, 12 Nov 2026 15:15:16 -0500",
+     "published_iso": "2026-11-12T20:15:16+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
+     "published": "Thu, 12 Nov 2026 20:01:33 +0000",
+     "published_iso": "2026-11-12T20:01:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+     "published": "2026-11-12T15:43:02-05:00",
+     "published_iso": "2026-11-12T20:43:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+     "published": "Thu, 12 Nov 2026 19:03:39 +0000",
+     "published_iso": "2026-11-12T19:03:39+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Hacker News",
+     "owner": "gvwire.com",
+     "url": "https://gvwire.com/2026/11/12/microsoft-outlook-down-for-thousands-of-users-downdetector-shows/",
+     "published": "Thu, 12 Nov 2026 18:20:48 +0000",
+     "published_iso": "2026-11-12T18:20:48+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+    "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
+    "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
+    "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+    "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+    "https://gvwire.com/2026/11/12/microsoft-outlook-down-for-thousands-of-users-downdetector-shows/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 69,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Condé Nast, Vox Media, Yahoo, bleepingcomputer.com, gvwire.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-12-lego-takes-bricklink-marketplace-offline-after-detecting-unu-01e11",
+   "date": "2026-11-12",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "LEGO Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+   "in_brief": "LEGO removed its BrickLink marketplace from the web after spotting what it described as unusual activity on the platform. The shutdown leaves collectors and sellers unable to access orders, storefronts or payment functions.",
+   "so_what": "BrickLink is a key hub for LEGO enthusiasts to buy, sell and trade parts and sets, and its removal disrupts both hobbyist projects and small businesses that rely on the site for income. LEGO has said it is containing the issue, investigating its cause and checking for related problems, but has not confirmed whether a breach occurred or if user data was compromised. The lack of a clear timeline—initially promising a return by November 11 that was later withdrawn—adds uncertainty for users who must monitor for suspicious payment requests and avoid reusing passwords. Observers will watch for further updates from LEGO on the investigation’s findings and any steps to restore the marketplace safely.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "LEGO took BrickLink offline after detecting unusual activity on the platform",
+     "source": 1,
+     "quote": "Lego has taken its online marketplace BrickLink offline after detecting what it described as unusual activity on the platform.",
+     "status": "verified",
+     "corroborated_by": [
+      "Situation Publishing",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "BrickLink has been offline for several days and the promised return date of November 11 was removed",
+     "source": 3,
+     "quote": "The BrickLink website previously said it would remain unavailable until at least Wednesday, November 11. That date has now been removed, with no replacement given.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "LEGO has not confirmed a hack or that customer data was affected",
+     "source": 1,
+     "quote": "It did not provide any further detail about whether the site had been breached or hacked, nor whether any customer data had been affected.",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o?at_medium=RSS&at_campaign=rss",
+     "published": "Wed, 11 Nov 2026 22:26:18 GMT",
+     "published_iso": "2026-11-11T22:26:18+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+     "published": "Thu, 12 Nov 2026 21:08:08 +0100",
+     "published_iso": "2026-11-12T20:08:08+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know",
+     "published": "Thu, 12 Nov 2026 14:25:49 GMT",
+     "published_iso": "2026-11-12T14:25:49+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o?at_medium=RSS&at_campaign=rss",
+    "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+    "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+    "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Situation Publishing, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-12-scientists-confirm-accuracy-of-iconic-black-hole-image-5c0ad",
+   "date": "2026-11-12",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Scientists Confirm Accuracy of Iconic Black Hole Image",
+   "in_brief": "Researchers have re-examined the iconic first image of a black hole and confirmed it holds up to scrutiny.",
+   "so_what": "The re-examination reinforces confidence in the techniques used to capture and process the image.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Scientists have re‑examined the first ever picture of a black hole and found it still stands up to scientific scrutiny.",
+     "source": 2,
+     "quote": "Scientists check their work and confirm it with update on iconic black hole image.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The image is described as the iconic first image of a black hole.",
+     "source": 1,
+     "quote": "Iconic first image of black hole holds up to scrutiny.",
+     "status": "verified",
+     "corroborated_by": [
+      "Situation Publishing"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Nature published the confirmation on 2026‑11‑11.",
+     "source": 1,
+     "quote": "published 2026-11-11",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]",
+      "not in source [1]: 11, 2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03642-7",
+     "published": "2026-11-11",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/science/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/5309183",
+     "published": "Wed, 11 Nov 2026 17:02:00 +0000",
+     "published_iso": "2026-11-11T17:02:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03642-7",
+    "https://www.theregister.com/science/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/5309183"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/s41586-026-11241-9",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/s41586-026-11241-9"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03642-7",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 63,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Situation Publishing, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Included specific dates (2019, 2026-11-11) not found in the provided sources.",
+     "editor: Included detailed background information on the original image not explicitly contained in the provided source texts."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-11-scientists-verify-iconic-black-hole-image-89233",
+    "date": "2026-11-11",
+    "label": "Confirmed",
+    "score": 76
+   }
+  },
+  {
+   "id": "2026-11-12-kelp-switch-to-asexual-reproduction-when-mates-absent-study-981f8",
+   "date": "2026-11-12",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Kelp Switch to Asexual Reproduction When Mates Absent, Study Finds",
+   "in_brief": "Researchers observed that split‑fan kelp reproduce asexually when isolated from opposite‑sex partners, a behavior not seen in wild populations. The finding highlights a flexible reproductive strategy that could aid kelp survival under sparse or stressful conditions.",
+   "so_what": "The study reveals that kelp, a key marine ecosystem engineer, can alter its reproductive mode based on the presence of potential mates. Laboratory experiments showed that in single‑sex cultures, 92% of kelp reproduced asexually, whereas field surveys of 523 wild samples from South Africa and Namibia found no asexual individuals. Asexual offspring were fewer and displayed developmental abnormalities, suggesting a trade‑off between reproductive assurance and offspring quality. The research also identified a shift in male gene expression toward female patterns during asexual reproduction, implying molecular reprogramming. Understanding this backup strategy is important for conservation, as it may help kelp populations persist in fragmented habitats or during environmental stress such as warming oceans. Future monitoring should assess whether chemical cues from nearby kelp influence reproductive decisions in natural settings.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely scientific findings",
+   "claims": [
+    {
+     "claim": "Kelp reproduce asexually when opposite‑sex partners are absent",
+     "source": 2,
+     "quote": "Kelp switch between sexual and asexual reproduction depending on whether there are potential mates nearby",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "In single‑sex laboratory cultures, 92% of kelp reproduced asexually",
+     "source": 2,
+     "quote": "when wild kelp were grown in single‑sex cultures in the lab, 92% reproduced asexually",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "No asexual reproduction was detected in 523 wild kelp samples",
+     "source": 2,
+     "quote": "they collected 523 samples of wild split‑fan kelp ... and found no evidence of asexual reproduction in wild populations",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03665-0",
+     "published": "2026-11-12",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-seaweeds-asexual-reproduction-nearby.html",
+     "published": "Thu, 12 Nov 2026 14:00:55 EST",
+     "published_iso": "2026-11-12T19:00:55+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03665-0",
+    "https://phys.org/news/2026-11-seaweeds-asexual-reproduction-nearby.html"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.1371/journal.pbio.3004065",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://doi.org/10.1371/journal.pbio.3004065"
+    },
+    {
+     "url": "https://dx.doi.org/10.1371/journal.pbio.3004065",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://dx.doi.org/10.1371/journal.pbio.3004065"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03665-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 60,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-12-dtcc-to-connect-tokenization-service-to-solana-in-2027-628c7",
+   "date": "2026-11-12",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "DTCC to Connect Tokenization Service to Solana in 2027",
+   "in_brief": "The Depository Trust & Clearing Corporation announced it will link its tokenization platform to the Solana blockchain, with tokenized securities expected in the second half of 2027. The move expands the range of blockchain networks offering regulated digital securities.",
+   "so_what": "DTCC’s plan to bring tokenized securities to Solana expands traditional finance infrastructure for digital assets. By extending the DTCC Tokenization Service beyond its current networks, DTCC aims to give market participants more choices for accessing digital versions of assets like Russell 1000 stocks, major ETFs and U.S. Treasuries. The integration, slated for the latter half of 2027, is designed to maintain standard investor protections and ownership rights. Stakeholders will monitor the rollout timeline and how network expansion affects liquidity and compliance in the digital securities market.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward corporate announcement",
+   "claims": [
+    {
+     "claim": "DTCC plans to connect its tokenization service to Solana, with tokenized assets expected on the network in the second half of 2027.",
+     "source": 1,
+     "quote": "The Depository Trust & Clearing Corporation plans to connect its tokenization service to Solana, with tokenized assets expected on the network in the second half of 2027.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The service creates tokenized versions of DTC‑held securities including Russell 1000 stocks, major ETFs and U.S. Treasuries.",
+     "source": 1,
+     "quote": "The service, which launched on October 28, creates tokenized versions of DTC-held securities including Russell 1000 stocks, major ETFs and U.S. Treasuries.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Tokens issued on Solana will retain the same investor protections, ownership rights and regulatory safeguards as traditionally held securities.",
+     "source": 1,
+     "quote": "Tokens issued on Solana \"will retain the same investor protections, ownership rights and regulatory safeguards that apply to traditionally held securities,\" said Brian Steele, president of DTCC Clearing & Securities Services.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027",
+     "published": "Thu, 12 Nov 2026 13:25:47 +0000",
+     "published_iso": "2026-11-12T13:25:47+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+     "published": "Thu, 12 Nov 2026 15:45:48 +0000",
+     "published_iso": "2026-11-12T15:45:48+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+    "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: copied verbatim phrase from source in so_what"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-12-bitcoin-slides-as-stablecoin-supply-contracts-and-etf-outflo-2179a",
+   "date": "2026-11-12",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Bitcoin slides as stablecoin supply contracts and ETF outflows rise",
+   "in_brief": "Bitcoin fell near $73,000 as stablecoin supply dropped $14.2 billion in a month and U.S. spot Bitcoin ETFs recorded about $1.6 billion of net redemptions. The moves reflect reduced liquidity in crypto markets and pressure on short‑term holders.",
+   "so_what": "The rapid contraction of stablecoins—the primary on‑chain cash for crypto traders—signals that investors are pulling dollars out of the ecosystem, limiting the capital available to fuel price rallies. At the same time, sizable net redemptions from U.S. spot Bitcoin ETFs indicate waning demand for regulated Bitcoin exposure, pushing the price below the short‑term holder cost basis of roughly $75,600. Together, these trends suggest a tightening of market liquidity and heightened risk for recent buyers. Analysts note that leveraged long positions have largely been cleared, and mid‑size wallets (100‑10,000 BTC) are beginning to accumulate, which could provide some support if Bitcoin holds above the identified $73,000 level. Watch for any reversal in stablecoin issuance trends and further ETF flow data, as both will influence short‑term price dynamics.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Total stablecoin supply fell by $14.2 billion over the 30 days through Nov. 9, the fastest contraction since June 2022.",
+     "source": 1,
+     "quote": "Total stablecoin supply fell by $14.2 billion over the 30 days through Nov. 9, its fastest drop since June 2022, according to Glassnode.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "U.S. spot Bitcoin ETFs experienced about $1.6 billion in net redemptions over 20 trading sessions.",
+     "source": 1,
+     "quote": "U.S. spot Bitcoin ETFs saw about $1.6 billion in net redemptions over 20 trading sessions, the report found",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Bitcoin traded near $73,000 and slipped below the short‑term holder cost basis of about $75,600.",
+     "source": 1,
+     "quote": "Bitcoin also slipped below the average cost basis of short-term holders, about $75,600, leaving most recent buyers underwater, and traded near $73,000 on Wednesday.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty",
+     "published": "Wed, 11 Nov 2026 21:46:03 +0000",
+     "published_iso": "2026-11-11T21:46:03+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
+     "published": "Thu, 12 Nov 2026 11:30:00 +0000",
+     "published_iso": "2026-11-12T11:30:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
+    "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-12-muse-headband-used-user-brain-data-to-train-ai-without-clear-030b4",
+   "date": "2026-11-12",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Muse headband used user brain data to train AI without clear consent",
+   "in_brief": "Muse sleep‑band maker Interaxon used about 50,000 hours of users' EEG recordings to train an AI model without explicitly informing users. The practice raises privacy concerns about how brainwave data is collected and shared.",
+   "so_what": "The undisclosed use of brainwave recordings for AI training highlights a gap in consumer awareness and corporate transparency for neurotechnology devices. While Interaxon removed names and email addresses before training, research shows that de‑identified EEG data can still be re‑identified, meaning users’ neural signatures may remain traceable. This incident adds to broader scrutiny of 57 brain‑data‑collecting firms, most of which allow data sharing or sale under vague policies. Regulators and privacy advocates may push for stricter disclosure requirements, explicit opt‑out mechanisms, and clearer data‑deletion rights. Users should monitor updates to privacy policies and consider whether the benefits of such devices outweigh potential privacy risks.",
+   "what_to_do": "1. Review the device's privacy policy to see how brain data is used and whether you can opt out. 2. Contact Interaxon to request deletion of your raw EEG recordings if you do not want them used for AI training. 3. Limit use of the headband or switch to devices with stricter data‑handling guarantees if privacy is a priority.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Interaxon used about 50,000 hours of EEG recordings to train an AI model without explicitly telling users",
+     "source": 1,
+     "quote": "Muse sleep band users weren’t told their brain data was training AI.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Interaxon removed names and email addresses from user EEG data before using it for training",
+     "source": 1,
+     "quote": "Interaxon removed names and email addresses from user EEG data before using it for training.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Researchers have identified individuals from EEG recordings despite de‑identification",
+     "source": 1,
+     "quote": "Stripping names might not be enough to make brainwave data anonymous; researchers have identified individuals from EEG recordings",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/ai/2026/11/muse-sleep-band-users-werent-told-their-brain-data-was-training-ai",
+     "published": "Wed, 11 Nov 2026 12:23:05 GMT",
+     "published_iso": "2026-11-11T12:23:05+00:00",
+     "kind": "vendor",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.malwarebytes.com/blog/ai/2026/11/muse-sleep-band-users-werent-told-their-brain-data-was-training-ai"
+   ],
+   "primary": [
+    {
+     "url": "https://arxiv.org/html/2609.11777",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://arxiv.org/html/2609.11777"
+    }
+   ],
+   "truth": {
+    "total": 44,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 576,
+  "stories_considered": 17,
+  "published": 11,
+  "outlets": 39
+ }
+}

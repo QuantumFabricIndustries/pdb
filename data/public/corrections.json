@@ -317,5 +317,16 @@
   "from_score": 66,
   "to_score": 64,
   "note": "Rating changed from Disputed (66) to Well-sourced (64) as new evidence came in."
+ },
+ {
+  "date": "2026-11-12",
+  "story_id": "2026-11-12-scientists-confirm-accuracy-of-iconic-black-hole-image-5c0ad",
+  "prior_id": "2026-11-11-scientists-verify-iconic-black-hole-image-89233",
+  "headline": "Scientists Confirm Accuracy of Iconic Black Hole Image",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 76,
+  "to_score": 63,
+  "note": "Rating changed from Confirmed (76) to Well-sourced (63) as new evidence came in."
  }
 ]

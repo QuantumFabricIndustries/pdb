@@ -1,0 +1,188 @@
+[
+ {
+  "section": "threat",
+  "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Apache HTTP Server patches critical HTTP/2 RCE flaw (CVE‑2026‑119618)",
+  "verdict": "PUBLISH",
+  "truth": 61,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Hackers exploit ScreenConnect RMM+ flaw to spread SCKit malware",
+  "verdict": "PUBLISH",
+  "truth": 88,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Notion AI chat transcripts exposed after Fireworks AI double breach",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google launches Gemini 4 Hydrogen model, replacing Flash in Search and products",
+  "verdict": "PUBLISH",
+  "truth": 87,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: The draft mentions 'Gemini 3.8 Flash' and 'Carbon model via the new Orchestrator feature' which are not fully grounded or accurately described in a way that matches the exact source texts without minor extrapolation, but mainly the claim about 'Antigravity platform' pairing Hydrogen with Carbon via Orchestrator needs tighter alignment with source [4]. Also, source [1] mentions Gemini 3.8 Flash, but let's check the claims: source [1] mentions 'Flash 3.8', draft mentions 'Gemini 3.8 Flash'. Wait, the draft contains some speculative or hallucinated details not directly supported, like 'expanded link coverage' (source says 'broader range of helpful links than before' / 'query fan-out technique'), and 'Antigravity platform' details from source [4]. Let's rewrite to strictly match the sources."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Microsoft 365 outage disrupts Outlook, Teams, Copilot and other services",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "LEGO Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Scientists Confirm Accuracy of Iconic Black Hole Image",
+  "verdict": "PUBLISH",
+  "truth": 63,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included specific dates (2019, 2026-11-11) not found in the provided sources.",
+   "editor: Included detailed background information on the original image not explicitly contained in the provided source texts."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Kelp Switch to Asexual Reproduction When Mates Absent, Study Finds",
+  "verdict": "PUBLISH",
+  "truth": 60,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "DTCC to Connect Tokenization Service to Solana in 2027",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied verbatim phrase from source in so_what"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Bitcoin slides as stablecoin supply contracts and ETF outflows rise",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Scammers exploit browser push notifications to deliver fake alerts",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Former FBI Supervisor Pleads Guilty to Stealing $2.47 Million in Crypto",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Muse headband used user brain data to train AI without clear consent",
+  "verdict": "PUBLISH",
+  "truth": 44,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Burger King AI interview video is a fabricated parody",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied long word-for-word run from source"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Veterans Day video shows sentinel reminding visitors to be silent, not reprimanding Hegseth",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: copied verbatim phrase from source in in_brief or so_what"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of Dearborn Ashura March Miscaptioned as Sharia Protest",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

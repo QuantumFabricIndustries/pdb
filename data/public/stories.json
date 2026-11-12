@@ -6353,5 +6353,150 @@
    "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
    "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
   ]
+ },
+ {
+  "id": "2026-11-12-apache-http-server-patches-critical-http-2-rce-flaw-cve-2026-4e33d",
+  "date": "2026-11-12",
+  "section": "threat",
+  "headline": "Apache HTTP Server patches critical HTTP/2 RCE flaw (CVE‑2026‑119618)",
+  "label": "Well-sourced",
+  "score": 61,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+   "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+  ]
+ },
+ {
+  "id": "2026-11-12-hackers-exploit-screenconnect-rmm-flaw-to-spread-sckit-malwa-6dd77",
+  "date": "2026-11-12",
+  "section": "threat",
+  "headline": "Hackers exploit ScreenConnect RMM+ flaw to spread SCKit malware",
+  "label": "Confirmed",
+  "score": 88,
+  "also_covered_urls": [
+   "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+   "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
+   "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
+   "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
+  ]
+ },
+ {
+  "id": "2026-11-12-notion-ai-chat-transcripts-exposed-after-fireworks-ai-double-cac59",
+  "date": "2026-11-12",
+  "section": "threat",
+  "headline": "Notion AI chat transcripts exposed after Fireworks AI double breach",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+   "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+  ]
+ },
+ {
+  "id": "2026-11-12-google-launches-gemini-4-hydrogen-model-replacing-flash-in-s-c59dd",
+  "date": "2026-11-12",
+  "section": "ai",
+  "headline": "Google launches Gemini 4 Hydrogen model, replacing Flash in Search and products",
+  "label": "Confirmed",
+  "score": 87,
+  "also_covered_urls": [
+   "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+   "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+   "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+   "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+   "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+  ]
+ },
+ {
+  "id": "2026-11-12-microsoft-365-outage-disrupts-outlook-teams-copilot-and-othe-5e840",
+  "date": "2026-11-12",
+  "section": "ai",
+  "headline": "Microsoft 365 outage disrupts Outlook, Teams, Copilot and other services",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
+   "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
+   "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+   "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+   "https://gvwire.com/2026/11/12/microsoft-outlook-down-for-thousands-of-users-downdetector-shows/"
+  ]
+ },
+ {
+  "id": "2026-11-12-lego-takes-bricklink-marketplace-offline-after-detecting-unu-01e11",
+  "date": "2026-11-12",
+  "section": "ai",
+  "headline": "LEGO Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o?at_medium=RSS&at_campaign=rss",
+   "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+   "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+   "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know"
+  ]
+ },
+ {
+  "id": "2026-11-12-scientists-confirm-accuracy-of-iconic-black-hole-image-5c0ad",
+  "date": "2026-11-12",
+  "section": "science",
+  "headline": "Scientists Confirm Accuracy of Iconic Black Hole Image",
+  "label": "Well-sourced",
+  "score": 63,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03642-7",
+   "https://www.theregister.com/science/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/5309183"
+  ]
+ },
+ {
+  "id": "2026-11-12-kelp-switch-to-asexual-reproduction-when-mates-absent-study-981f8",
+  "date": "2026-11-12",
+  "section": "science",
+  "headline": "Kelp Switch to Asexual Reproduction When Mates Absent, Study Finds",
+  "label": "Well-sourced",
+  "score": 60,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03665-0",
+   "https://phys.org/news/2026-11-seaweeds-asexual-reproduction-nearby.html"
+  ]
+ },
+ {
+  "id": "2026-11-12-dtcc-to-connect-tokenization-service-to-solana-in-2027-628c7",
+  "date": "2026-11-12",
+  "section": "money",
+  "headline": "DTCC to Connect Tokenization Service to Solana in 2027",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+   "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027"
+  ]
+ },
+ {
+  "id": "2026-11-12-bitcoin-slides-as-stablecoin-supply-contracts-and-etf-outflo-2179a",
+  "date": "2026-11-12",
+  "section": "money",
+  "headline": "Bitcoin slides as stablecoin supply contracts and ETF outflows rise",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
+   "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty"
+  ]
+ },
+ {
+  "id": "2026-11-12-muse-headband-used-user-brain-data-to-train-ai-without-clear-030b4",
+  "date": "2026-11-12",
+  "section": "scam",
+  "headline": "Muse headband used user brain data to train AI without clear consent",
+  "label": "Developing",
+  "score": 44,
+  "also_covered_urls": [
+   "https://www.malwarebytes.com/blog/ai/2026/11/muse-sleep-band-users-werent-told-their-brain-data-was-training-ai"
+  ]
  }
 ]
