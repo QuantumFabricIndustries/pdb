@@ -6498,5 +6498,152 @@
   "also_covered_urls": [
    "https://www.malwarebytes.com/blog/ai/2026/11/muse-sleep-band-users-werent-told-their-brain-data-was-training-ai"
   ]
+ },
+ {
+  "id": "2026-11-13-check-point-gateways-compromised-via-php2shell-flaws-wiper-d-d762f",
+  "date": "2026-11-13",
+  "section": "threat",
+  "headline": "Check Point Gateways Compromised via PHP2Shell Flaws, Wiper Deployed on ESXi Hosts",
+  "label": "Confirmed",
+  "score": 93,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+   "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
+  ]
+ },
+ {
+  "id": "2026-11-13-law-enforcement-seizes-servers-and-credentials-linked-to-goo-e9518",
+  "date": "2026-11-13",
+  "section": "threat",
+  "headline": "Law enforcement seizes servers and credentials linked to Gootloader, CastleRAT, StealC",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+   "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
+   "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+  ]
+ },
+ {
+  "id": "2026-11-13-lego-takes-bricklink-marketplace-offline-after-detecting-unu-01e11",
+  "date": "2026-11-13",
+  "section": "threat",
+  "headline": "LEGO Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+   "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+   "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know"
+  ]
+ },
+ {
+  "id": "2026-11-13-microsoft-outlook-outage-disrupts-365-services-worldwide-268e8",
+  "date": "2026-11-13",
+  "section": "ai",
+  "headline": "Microsoft Outlook outage disrupts 365 services worldwide",
+  "label": "Developing",
+  "score": 54,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/11/12/nx-s1-6039343/outlook-down-widespread-outage-microsoft-email",
+   "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+   "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
+   "https://www.engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more/",
+   "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
+   "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
+   "https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531"
+  ]
+ },
+ {
+  "id": "2026-11-13-google-launches-gemini-4-hydrogen-replacing-flash-model-in-s-e1c4e",
+  "date": "2026-11-13",
+  "section": "ai",
+  "headline": "Google launches Gemini 4 Hydrogen, replacing Flash model in Search",
+  "label": "Well-sourced",
+  "score": 66,
+  "also_covered_urls": [
+   "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+   "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+  ]
+ },
+ {
+  "id": "2026-11-13-microsoft-reports-windows-activation-errors-and-update-insta-e4aeb",
+  "date": "2026-11-13",
+  "section": "ai",
+  "headline": "Microsoft reports Windows activation errors and update install failures after November patches",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+   "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435",
+   "https://www.zdnet.com/tech/microsoft-windows-november-update-fails-install-some-pcs/"
+  ]
+ },
+ {
+  "id": "2026-11-13-nasa-releases-hubble-lens-gallery-to-aid-roman-telescope-obs-3175a",
+  "date": "2026-11-13",
+  "section": "science",
+  "headline": "NASA releases Hubble lens gallery to aid Roman telescope observations",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+   "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/"
+  ]
+ },
+ {
+  "id": "2026-11-13-astronomers-identify-trigger-of-repeated-outbursts-from-star-5e850",
+  "date": "2026-11-13",
+  "section": "science",
+  "headline": "Astronomers Identify Trigger of Repeated Outbursts from Star AT 2016blu",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/"
+  ]
+ },
+ {
+  "id": "2026-11-13-u-s-spot-bitcoin-etfs-record-1-44-billion-in-five-day-outflo-257e5",
+  "date": "2026-11-13",
+  "section": "money",
+  "headline": "U.S. Spot Bitcoin ETFs Record $1.44 Billion in Five-Day Outflows",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+   "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk"
+  ]
+ },
+ {
+  "id": "2026-11-13-trump-nominates-first-democratic-commissioners-for-sec-and-c-5eb83",
+  "date": "2026-11-13",
+  "section": "money",
+  "headline": "Trump nominates first Democratic commissioners for SEC and CFTC",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+   "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto"
+  ]
+ },
+ {
+  "id": "2026-11-13-north-korean-hackers-seized-400m-via-deepfake-video-scams-1-1f3ea",
+  "date": "2026-11-13",
+  "section": "scam",
+  "headline": "North Korean hackers seized $400M via deepfake video scams, $1.2B crypto assets seized",
+  "label": "Confirmed",
+  "score": 81,
+  "also_covered_urls": [
+   "https://www.theregister.com/cyber-crime/2026/11/12/doj-takes-aim-at-12b-in-binance-loot-as-fbi-disrupts-north-korean-scam/5309523",
+   "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
+   "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+   "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+   "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+   "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls"
+  ]
  }
 ]

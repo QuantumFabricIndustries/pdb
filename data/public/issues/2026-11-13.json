@@ -1,0 +1,1524 @@
+{
+ "date": "2026-11-13",
+ "built_at": "2026-11-13T20:35:04.474802+00:00",
+ "stories": [
+  {
+   "id": "2026-11-13-check-point-gateways-compromised-via-php2shell-flaws-wiper-d-d762f",
+   "date": "2026-11-13",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Check Point Gateways Compromised via PHP2Shell Flaws, Wiper Deployed on ESXi Hosts",
+   "in_brief": "Check Point Security Gateways were exploited using the PHP2Shell vulnerabilities, allowing attackers to gain root access and install a data‑wiping malware on VMware ESXi servers. The campaign unfolded in two waves, the first on Oct. 30 targeting Israeli organizations and the second on Nov. 2 affecting entities worldwide.",
+   "so_what": "The incidents highlight the risk of unpatched PHP components on security appliances and demonstrate how chained vulnerabilities can lead to destructive outcomes on critical infrastructure. By leveraging CVE‑2026‑109618 and CVE‑2026‑109619 (PHP2Shell) for initial access and CVE‑2026‑123039 for privilege escalation, threat actors moved laterally from the gateway to VMware ESXi hosts and deployed the destroy_v6 wiper, which overwrites data to impede recovery. Organizations using Check Point products should prioritize patching, monitor for unauthorized webshells, and verify that the November Jumbo Hotfix is applied. Continued observation will focus on whether further destructive activity resurfaces and if attribution becomes clearer, given the mixed signals about possible false‑flag motives.",
+   "what_to_do": "1. Apply the November Jumbo Hotfix to all Check Point Management Servers and gateways. 2. Update PHP to the emergency patches released on Oct. 21 for CVE‑2026‑109618 and CVE‑2026‑109619. 3. Scan Check Point appliances for unauthorized PHP webshells and remove any found.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without sensational language",
+   "claims": [
+    {
+     "claim": "Check Point Security Gateways were targeted using the PHP2Shell vulnerabilities (CVE‑2026‑109618 and CVE‑2026‑109619) starting on Oct. 30, 2026",
+     "source": 1,
+     "quote": "The attacks started on October 30, initially against Israeli organizations, and were conducted by an actor that ran the entire campaign, from initial access to lateral movement and launching PHP webshells.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Attackers exploited CVE‑2026‑123039 to gain root privileges and deployed the destroy_v6 wiper on VMware ESXi hosts",
+     "source": 1,
+     "quote": "The attacker used PHP2Shell to gain access through the gateways’ Mobile Access portal, then exploited a newly disclosed zero-day vulnerability tracked as CVE-2026-123039 to gain root privileges... In the last stage of the attack, the threat actor deployed a data wiper called destroy_v6 that recursively deletes data in the target directory.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The campaign occurred in two waves: a destructive first wave on Oct. 30 targeting Israeli organizations and a second wave on Nov. 2 affecting multiple countries without destructive activity",
+     "source": 2,
+     "quote": "The attacks unfolded in two waves. An initial, destructive round started on October 30 and targeted Israeli organizations, and a second one started on November 2, targeting organizations across multiple countries.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+     "published": "Fri, 13 Nov 2026 11:21:43 -0500",
+     "published_iso": "2026-11-13T16:21:43+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+     "published": "Fri, 13 Nov 2026 07:39:04 +0000",
+     "published_iso": "2026-11-13T07:39:04+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+     "published": "Fri, 13 Nov 2026 13:35:49 +0530",
+     "published_iso": "2026-11-13T08:05:49+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+    "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+    "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+    "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-109618 — PHP Memory Corruption Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-109619 — PHP Stale Internal Request-State Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-123039 — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-123039",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-123039"
+    }
+   ],
+   "truth": {
+    "total": 93,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-13-law-enforcement-seizes-servers-and-credentials-linked-to-goo-e9518",
+   "date": "2026-11-13",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Law enforcement seizes servers and credentials linked to Gootloader, CastleRAT, StealC",
+   "in_brief": "Police across nine countries dismantled infrastructure for the Gootloader loader, CastleRAT trojan and StealC stealer, seizing hundreds of servers and domains and millions of stolen credentials. The action aims to curb ransomware and data‑theft operations that have compromised tens of thousands of computers.",
+   "so_what": "Operation Endgame’s latest takedown removes critical distribution points for three malware families that have been used to deliver ransomware, steal passwords and exfiltrate cryptocurrency wallets. By seizing 235 servers and 257 domains, authorities have disrupted the cybercrime‑as‑a‑service model that enables ransomware gangs to purchase access to compromised machines. The recovery of roughly 6.4 million stolen logins, now shared with public breach‑notification services, will help victims detect misuse of their credentials. Organizations, especially those running WordPress sites, should review any recent alerts from these services, reset compromised passwords, and apply security patches. Continued monitoring of the disclosed platforms will indicate whether additional compromised assets surface as the investigation progresses.",
+   "what_to_do": "• Update all passwords, especially for WordPress and email accounts.\n• Enable multi‑factor authentication on all critical services.\n• Apply the latest security patches to WordPress installations and any vulnerable software.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Law enforcement seized 257 domains and 235 servers tied to the malware operations.",
+     "source": 1,
+     "quote": "Together with private partners ... the authorities seized 257 domains and 235 servers.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Approximately 6.4 million victim credentials were seized and shared with public breach‑notification platforms.",
+     "source": 2,
+     "quote": "According to Europol, the fresh law enforcement disruption led to the seizure of 6.4 million victim credentials, which have been shared with HaveIBeenPwned, DIVD, CheckjeHack, NoMoreLeaks, Sekoia, The Shadowserver Foundation, and NL-NCSC.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Gootloader has infected over 25,000 computers since at least 2018, causing about $28.8 million in damages in the US.",
+     "source": 2,
+     "quote": "Active since at least 2018, Gootloader has infected over 25,000 computers and caused damages of approximately $28.8 million in the US, the US Department of Justice says.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+     "published": "Thu, 12 Nov 2026 10:07:20 -0500",
+     "published_iso": "2026-11-12T15:07:20+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
+     "published": "Fri, 13 Nov 2026 10:48:40 +0000",
+     "published_iso": "2026-11-13T10:48:40+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+     "published": "Fri, 13 Nov 2026 16:25:03 +0530",
+     "published_iso": "2026-11-13T10:55:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+    "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
+    "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.europol.europa.eu/media-press/newsroom/news/64-million-victim-datasets-secured-in-international-operation-against-malware-networks",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.europol.europa.eu/media-press/newsroom/news/64-million-victim-datasets-secured-in-international-operation-against-malware-networks"
+    },
+    {
+     "url": "https://www.justice.gov/opa/pr/gootloader-malware-disrupted-international-cyber-operation",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/opa/pr/gootloader-malware-disrupted-international-cyber-operation"
+    }
+   ],
+   "truth": {
+    "total": 80,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-13-lego-takes-bricklink-marketplace-offline-after-detecting-unu-01e11",
+   "date": "2026-11-13",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "LEGO Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+   "in_brief": "LEGO announced that its BrickLink marketplace was taken offline after identifying unusual activity on the platform. The shutdown, which began around November 5, leaves sellers and buyers unable to access orders, storefronts, or account information.",
+   "so_what": "BrickLink is a key marketplace for LEGO enthusiasts, enabling the buying and selling of parts, sets, and minifigures. Its removal disrupts both hobbyists’ projects and the small businesses that rely on the platform for revenue. LEGO has not confirmed whether the activity constitutes a hack or if customer data was compromised, leaving users uncertain about potential security risks. The lack of a clear timeline for restoration adds operational uncertainty for sellers who depend on BrickLink to manage inventory and fulfill orders. Observers will watch for further updates from LEGO regarding the investigation’s findings, any remediation steps, and whether additional security measures will be implemented to prevent future incidents.",
+   "what_to_do": "- Monitor email and account notifications for unexpected payment or login requests.\n- Avoid reusing passwords across other services; consider changing your BrickLink password when the site returns.\n- Enable two‑factor authentication on your LEGO account if available.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "LEGO took BrickLink offline after detecting unusual activity on the platform",
+     "source": 2,
+     "quote": "We took BrickLink offline after identifying unusual activity on the platform.",
+     "status": "verified",
+     "corroborated_by": [
+      "Situation Publishing"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "LEGO has not confirmed a hack or that customer data was affected",
+     "source": 2,
+     "quote": "The company has not confirmed a hack or whether customer data was affected",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "BrickLink has been unavailable since around November 5 with no new restoration date",
+     "source": 2,
+     "quote": "Specialist LEGO publications reported that BrickLink went offline around November 5",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+     "published": "Thu, 12 Nov 2026 21:08:08 +0100",
+     "published_iso": "2026-11-12T20:08:08+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know",
+     "published": "Thu, 12 Nov 2026 14:25:49 GMT",
+     "published_iso": "2026-11-12T14:25:49+00:00",
+     "kind": "vendor",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+    "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+    "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 50,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Situation Publishing, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-12-lego-takes-bricklink-marketplace-offline-after-detecting-unu-01e11",
+    "date": "2026-11-12",
+    "label": "Well-sourced",
+    "score": 65
+   }
+  },
+  {
+   "id": "2026-11-13-microsoft-outlook-outage-disrupts-365-services-worldwide-268e8",
+   "date": "2026-11-13",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Microsoft Outlook outage disrupts 365 services worldwide",
+   "in_brief": "A widespread outage began Thursday, taking Outlook, Teams, Copilot and other Microsoft 365 apps offline for millions of users. Microsoft says the problem stemmed from servers becoming unavailable during a network capacity upgrade.",
+   "so_what": "The outage impacted more than 70 countries and affected government bodies, businesses and media organizations, highlighting the reliance on cloud‑based productivity suites. Microsoft attributed the disruption to an \"elevated load\" caused by a number of servers unexpectedly going offline, not to a cyberattack or AI. The company paused deployments, redistributed traffic and began restarting affected servers to restore service, with recovery progressing by Friday. Stakeholders should monitor Microsoft’s forthcoming post‑incident report for details on the network capacity upgrade and any steps to prevent similar failures.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting from multiple sources",
+   "claims": [
+    {
+     "claim": "The outage affected users in more than 70 countries.",
+     "source": 1,
+     "quote": "The problem has affected users in more than 70 countries, according to Downdetector, which tracks cyber outages.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Microsoft confirmed customers could not connect to multiple services including Exchange Online, Teams, SharePoint Online, Copilot and Defender XDR.",
+     "source": 2,
+     "quote": "In a Microsoft 365 admin center advisory tracked as MO1550821, Microsoft confirmed that customers may be unable to connect to multiple services, including Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Condé Nast",
+      "Vox Media"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The incident began at 1:26 PM ET on Thursday.",
+     "source": 2,
+     "quote": "The company says the Microsoft 365 incident began Thursday at 1:26 PM ET.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Microsoft said the outage was not related to a cyberattack or AI and stemmed from an earlier network capacity upgrade.",
+     "source": 4,
+     "quote": "It wasn’t related to a cyberattack or AI... The incident was introduced by an issue during an earlier network capacity upgrade.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [4]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NPR Technology",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/11/12/nx-s1-6039343/outlook-down-widespread-outage-microsoft-email",
+     "published": "Thu, 12 Nov 2026 20:26:24 -0500",
+     "published_iso": "2026-11-13T01:26:24+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "published": "Thu, 12 Nov 2026 15:15:16 -0500",
+     "published_iso": "2026-11-12T20:15:16+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
+     "published": "Thu, 12 Nov 2026 20:01:33 +0000",
+     "published_iso": "2026-11-12T20:01:33+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+     "published": "2026-11-13T11:17:11-05:00",
+     "published_iso": "2026-11-13T16:17:11+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+     "published": "Fri, 13 Nov 2026 18:18:28 GMT",
+     "published_iso": "2026-11-13T18:18:28+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.npr.org/2026/11/12/nx-s1-6039343/outlook-down-widespread-outage-microsoft-email",
+    "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+    "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+    "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+    "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
+    "https://www.engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more/",
+    "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
+    "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
+    "https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 54,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Condé Nast, Vox Media, bleepingcomputer.com, npr.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      2,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 8,
+   "previously": {
+    "id": "2026-11-12-microsoft-365-outage-disrupts-outlook-teams-copilot-and-othe-5e840",
+    "date": "2026-11-12",
+    "label": "Well-sourced",
+    "score": 69
+   }
+  },
+  {
+   "id": "2026-11-13-google-launches-gemini-4-hydrogen-replacing-flash-model-in-s-e1c4e",
+   "date": "2026-11-13",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Google launches Gemini 4 Hydrogen, replacing Flash model in Search",
+   "in_brief": "Google introduced Gemini 4 Hydrogen, a new AI model that replaces Gemini 3.8 Flash across its products. The model is now globally available in Google Search, offering faster responses and richer visual output.",
+   "so_what": "The rollout marks the latest step in Google's AI upgrades, moving to the Hydrogen model. According to Google, Hydrogen runs up to 2.5 times faster than Flash 3.8 in high mode and reduces fabricated claims by more than fivefold, while also tripling code‑generation scores in benchmark tests. By making Hydrogen available to all Search users worldwide, Google aims to improve query understanding, expand link coverage, and deliver more visual and nuanced answers across languages. Observers will watch how these performance gains affect user engagement, competition with other search AI offerings, and whether the promised reductions in hallucinations hold up in real‑world use.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Google rolled out Gemini 4 Hydrogen, replacing Gemini 3.8 Flash across the company’s products.",
+     "source": 1,
+     "quote": "Hydrogen… has replaced Gemini 3.8 Flash across the company’s products.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Hydrogen runs up to 2.5 times faster than Flash 3.8 in high mode.",
+     "source": 1,
+     "quote": "even in high mode, it’s 2.5 times faster than Flash 3.8.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Hydrogen is now available globally in Google Search for all users.",
+     "source": 2,
+     "quote": "Hydrogen is now available globally in Google Search for all users",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+     "published": "Thu, 12 Nov 2026 19:23:03 +0000",
+     "published_iso": "2026-11-12T19:23:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Google AI Blog",
+     "owner": "Google",
+     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+     "published": "Thu, 12 Nov 2026 18:00:00 +0000",
+     "published_iso": "2026-11-12T18:00:00+00:00",
+     "kind": "vendor",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+    "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+   ],
+   "primary": [
+    {
+     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+     "type": "subject's own statement",
+     "verified": true,
+     "label": "Google AI Blog"
+    }
+   ],
+   "truth": {
+    "total": 66,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Google"
+     ],
+     [
+      "Primary evidence",
+      15,
+      25,
+      "Statement from the organization involved (not independent)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Attribution missing for company claims about performance improvements (speed, hallucinations, code generation)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-12-google-launches-gemini-4-hydrogen-model-replacing-flash-in-s-c59dd",
+    "date": "2026-11-12",
+    "label": "Confirmed",
+    "score": 87
+   }
+  },
+  {
+   "id": "2026-11-13-microsoft-reports-windows-activation-errors-and-update-insta-e4aeb",
+   "date": "2026-11-13",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Microsoft reports Windows activation errors and update install failures after November patches",
+   "in_brief": "Microsoft confirmed that its November 2026 Patch Tuesday updates are causing activation errors on devices using SLMGR commands, and that PCs with the October preview update may fail to install the November update. The company says fixes are being rolled out and advises affected users to stay connected to Windows Update.",
+   "so_what": "The activation issue (error 0x80041008) primarily impacts organizations that automate Windows licensing with the Software Licensing Management Tool, potentially disrupting large‑scale deployments and KMS activation cycles that can last up to 180 days. Separately, the install failure affecting systems that applied the October 28 preview update could leave users unable to receive critical security patches, increasing exposure to threats until the fix is delivered. Microsoft’s promise of a remediation within 24‑48 hours and the recommendation to keep devices online aim to limit downtime for both enterprise and consumer users. Administrators should monitor Windows Update for the re‑released KB5132061 package and consider contacting Microsoft Support if immediate remediation is required.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Microsoft confirmed that the November Patch Tuesday updates are causing Windows activation failures with error 0x80041008 on devices using SLMGR commands",
+     "source": 1,
+     "quote": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The activation problem mainly affects organizations that automate activation or use the Software Licensing Management Tool",
+     "source": 1,
+     "quote": "According to a Wednesday service alert seen by BleepingComputer, this known issue affects organizations that automate Windows activation and licensing processes or use the Software Licensing Management Tool (SLMGR) command-line tool.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Devices that are already activated remain activated and are not expected to be affected",
+     "source": 1,
+     "quote": "Devices that are already activated remain activated. Customers whose devices already have the appropriate KMS client key and KMS configuration, and who do not need to run the affected Slmgr.vbs commands, are not expected to be affected,",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "PCs that installed the October 28 preview update may fail to install the November update, showing error codes such as 0x80070306",
+     "source": 3,
+     "quote": "Windows users who installed the November preview update released on October 28 may run into a glitch when trying to install the actual November update released on November 10. In this case, the installation may fail to complete. Your PC might repeatedly try to install the update or you may simply see an error code such as 0x80070306, 0x800f0989, or 0x800f0993.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Microsoft says a fix will be rolled out and affected PCs should receive repairs within 24 to 48 hours starting November 11",
+     "source": 3,
+     "quote": "Microsoft promises that all affected PCs should receive repairs within 24 to 48 hours starting from November 11, 1pm ET.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+     "published": "Fri, 13 Nov 2026 04:36:18 -0500",
+     "published_iso": "2026-11-13T09:36:18+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435",
+     "published": "Thu, 12 Nov 2026 16:36:00 +0000",
+     "published_iso": "2026-11-12T16:36:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "ZDNET",
+     "owner": "Ziff Davis",
+     "url": "https://www.zdnet.com/tech/microsoft-windows-november-update-fails-install-some-pcs/",
+     "published": "2026-11-12T15:11:08Z",
+     "published_iso": "2026-11-12T15:11:08+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+    "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435",
+    "https://www.zdnet.com/tech/microsoft-windows-november-update-fails-install-some-pcs/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 57,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, Ziff Davis, bleepingcomputer.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-13-nasa-releases-hubble-lens-gallery-to-aid-roman-telescope-obs-3175a",
+   "date": "2026-11-13",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA releases Hubble lens gallery to aid Roman telescope observations",
+   "in_brief": "NASA published a gallery of gravitational lenses captured by Hubble to support upcoming studies with the Roman Space Telescope. The images will help researchers model mass distribution and test dark‑matter theories.",
+   "so_what": "The new Hubble lens collection provides high‑resolution examples of how massive foreground galaxies bend light from distant sources, a phenomenon that allows astronomers to probe the unseen mass—including dark matter—within those galaxies. By analyzing the distortion of these arcs, scientists can refine lens models that will be applied to the larger, infrared‑focused surveys planned for the Nancy Grace Roman Space Telescope, which will capture many more lenses across a wider field. The combined data sets aim to detect small dark‑matter clumps predicted by the cold dark matter theory and improve understanding of galaxy mass structures. As Roman prepares for launch, the Hubble images also serve as a training set for automated tools that will identify similar arcs in Roman’s future observations, accelerating the scientific return of both missions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "NASA released a gallery of gravitational lenses captured by Hubble to support follow‑up observations by the Roman Space Telescope.",
+     "source": 1,
+     "quote": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman. A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow‑up observations by the new Nancy Grace Roman Space Telescope.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Gravitational lensing occurs when a massive foreground object bends and magnifies light from a more distant background object.",
+     "source": 1,
+     "quote": "Gravitational lensing, first predicted by Albert Einstein, occurs when the gravity of a massive foreground object, such as a galaxy or cluster of galaxies, bends, warps, and magnifies the light from a more distant background object.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Researchers will use the Hubble lens images to build models that test theories about dark matter, including the presence of small clumps of dark matter.",
+     "source": 1,
+     "quote": "Astronomers will use these observations of a large and varied population of gravitational lenses to construct lens models that will help determine how much mass is in the lensing system’s foreground galaxy – and potentially prove or dispel a theory about dark matter.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+     "published": "Thu, 12 Nov 2026 13:18:40 +0000",
+     "published_iso": "2026-11-12T13:18:40+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/",
+     "published": "Fri, 13 Nov 2026 10:00:00 +0000",
+     "published_iso": "2026-11-13T10:00:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+    "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+    },
+    {
+     "url": "https://www.nasa.gov/history/15-years-ago-sts-125-the-final-hubble-servicing-mission/",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.nasa.gov/history/15-years-ago-sts-125-the-final-hubble-servicing-mission/"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-13-astronomers-identify-trigger-of-repeated-outbursts-from-star-5e850",
+   "date": "2026-11-13",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Astronomers Identify Trigger of Repeated Outbursts from Star AT 2016blu",
+   "in_brief": "Using the Chandra X‑ray Observatory, researchers have pinpointed the mechanism behind repeated eruptions of the massive star AT 2016blu in galaxy NGC 4559. The finding clarifies the star’s behavior and adds detail to models of stellar instability.",
+   "so_what": "AT 2016blu, a volatile star at least 33 times the mass of the Sun, lies in the spiral galaxy NGC 4559 roughly 30 million light‑years from Earth. Understanding what drives its repeated outbursts helps astronomers refine theories of massive star evolution and the conditions that lead to dramatic mass‑loss events. The result, derived from combined X‑ray data (NASA/CXC/University of Virginia) and optical imaging (SDSS), demonstrates the value of multi‑wavelength observations. Future monitoring of AT 2016blu and similar objects will test whether the identified trigger operates broadly across unstable massive stars, informing predictions of supernova precursors and the chemical enrichment of galaxies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward scientific report",
+   "claims": [
+    {
+     "claim": "Astronomers have discovered what is triggering repeated outbursts from the massive star AT 2016blu.",
+     "source": 1,
+     "quote": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star...",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The star AT 2016blu is located in the spiral galaxy NGC 4559 about 30 million light‑years from Earth.",
+     "source": 1,
+     "quote": "The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "AT 2016blu has an estimated mass of at least 33 times that of the Sun.",
+     "source": 1,
+     "quote": "Astronomers estimate the mass of this star is at least 33 times that of the Sun.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+     "published": "Fri, 13 Nov 2026 16:39:33 +0000",
+     "published_iso": "2026-11-13T16:39:33+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-13-u-s-spot-bitcoin-etfs-record-1-44-billion-in-five-day-outflo-257e5",
+   "date": "2026-11-13",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "U.S. Spot Bitcoin ETFs Record $1.44 Billion in Five-Day Outflows",
+   "in_brief": "U.S. spot Bitcoin exchange‑traded funds saw net outflows of $1.44 billion over five consecutive days, pushing total assets to $93.7 billion. The trend adds to year‑to‑date outflows that now exceed $1.5 billion.",
+   "so_what": "The sustained withdrawals signal that institutional investors are trimming exposure to Bitcoin amid broader market risk aversion, especially after a sharp sell‑off in AI and technology stocks. Assets under management have dropped to $93.7 billion, roughly 45% below the October 2025 peak of $169.5 billion, reflecting both outflows and declining Bitcoin prices. While analysts note the outflows represent only a fraction of the funds’ cumulative $55.1 billion net inflows, the lack of new capital—evidenced by modest inflows of $75 million after the recent election and a contraction in stablecoin supply—raises concerns about future demand. Market participants will watch whether the outflow trend eases as macro risk appetite stabilises and whether fresh buying pressure returns before year‑end.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "U.S. spot Bitcoin ETFs recorded five consecutive days of net outflows totaling $1.44 billion between November 5 and November 11.",
+     "source": 1,
+     "quote": "The funds lost some $1.44 billion between November 5 and November 11, including $299.9 million on Wednesday, according to SoSoValue data.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Total net assets of the funds fell to $93.7 billion, about 45% below the October 2025 peak of $169.5 billion.",
+     "source": 1,
+     "quote": "The funds' total net assets have fallen to $93.7 billion, down about 45% from a peak of $169.5 billion in October 2025.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Bitcoin ETFs have experienced over $1.5 billion in net outflows for the year.",
+     "source": 2,
+     "quote": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk",
+     "published": "Thu, 12 Nov 2026 11:24:19 +0000",
+     "published_iso": "2026-11-12T11:24:19+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+     "published": "Fri, 13 Nov 2026 05:45:26 +0000",
+     "published_iso": "2026-11-13T05:45:26+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+    "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-13-trump-nominates-first-democratic-commissioners-for-sec-and-c-5eb83",
+   "date": "2026-11-13",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Trump nominates first Democratic commissioners for SEC and CFTC",
+   "in_brief": "President Donald Trump sent four nominees—two Republicans and two Democrats—to the Senate for the SEC and CFTC, marking the first time his administration has put forward Democratic picks for either agency. The appointments could restore quorum and influence crypto‑regulation as the agencies face staffing shortages.",
+   "so_what": "The nominations are significant because both the Securities and Exchange Commission and the Commodity Futures Trading Commission have operated with limited confirmed membership. By adding a Democrat to each commission—Kristin Johnson and Matthew Rowland—the White House is putting forward a bipartisan slate. Confirmation will depend on the Senate. Observers will watch the Senate committees' reviews, the timing of confirmations, and how the new members' backgrounds shape forthcoming policy proposals.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "President Donald Trump nominated four people—Nathan Anonick, Matthew Rowland, Kristin Johnson and Steven Levine—to fill vacant seats at the CFTC and SEC",
+     "source": 1,
+     "quote": "The White House said Thursday it sent the nominations to the Senate: Nathan Anonick and Matthew Rowland for the Commodity Futures Trading Commission, and Kristin Johnson and Steven Levine for the Securities and Exchange Commission.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The slate includes the first Democratic nominees the Trump administration has put forward for either commission",
+     "source": 1,
+     "quote": "Notably, the slate pairs a Republican and a Democrat at each agency, with Anonick and Levine the Republicans and Rowland and Johnson the Democrats, marking the first time the administration has put forward Democratic nominees for either commission.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Steven Levine would replace crypto advocate Hester Peirce on the SEC, while Kristin Johnson would take the seat of skeptic Caroline Crenshaw",
+     "source": 1,
+     "quote": "Levine, a Republican, is slated to fill the seat of Hester Peirce, the agency’s most prominent crypto advocate... Johnson, a Democrat and form",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto",
+     "published": "Fri, 13 Nov 2026 17:56:03 +0000",
+     "published_iso": "2026-11-13T17:56:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+     "published": "Thu, 12 Nov 2026 22:47:41 +0000",
+     "published_iso": "2026-11-12T22:47:41+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+    "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto"
+   ],
+   "primary": [
+    {
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/"
+    }
+   ],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Senate control detail in so_what is contradicted by source 1 (source 1 mentions a Democratic Senate takeover in January, which conflicts with Trump being in office/making nominations as a Republican president in a typical context, but more specifically the draft states Senate shifts to Democratic control which is not supported by the sources saying Senate will take over or a Democratic Senate takeover)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-13-north-korean-hackers-seized-400m-via-deepfake-video-scams-1-1f3ea",
+   "date": "2026-11-13",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "North Korean hackers seized $400M via deepfake video scams, $1.2B crypto assets seized",
+   "in_brief": "North Korean state‑linked hackers stole more than $400 million in cryptocurrency using a deep‑fake video‑call scheme called FaceStealer, and U.S. authorities have seized over $1.2 billion of related crypto assets. The FBI and DOJ warned that the scheme targets crypto and web‑3 professionals and open‑source developers.",
+   "so_what": "The FaceStealer operation shows how sophisticated social‑engineering attacks can combine stolen webcam footage with AI‑generated deepfakes to trick even technically savvy victims into installing malware and handing over crypto wallets. By hijacking accounts on platforms such as Zoom, Teams, Telegram and LinkedIn, the hackers create a chain of trust that amplifies each new victim’s credibility. The U.S. Department of Justice’s seizure of more than $1.2 billion in stolen assets and the FBI’s confiscation of over 900 victim recordings demonstrate a coordinated law‑enforcement response, but the underlying threat remains active as the actors continue to launder proceeds and target supply‑chain contributors. Organizations and individuals in the cryptocurrency ecosystem should tighten video‑call hygiene, verify meeting invitations through independent channels, and keep webcams disabled until identity is confirmed to reduce exposure to this evolving scam.",
+   "what_to_do": "1. Keep your webcam turned off until you can see, hear and verify the person who invited you to a video call. 2. Join meetings only through the official Zoom or Teams apps using a verified invite code. 3. Confirm the meeting through a second, trusted channel (e.g., a phone call) before accepting the invitation.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "North Korean hackers stole more than $400 million in cryptocurrency over the past 18 months using the FaceStealer scheme",
+     "source": 4,
+     "quote": "North Korean state hackers have stolen more than $400 million in cryptocurrency over the past 18 months by pulling targets into fake Zoom and Teams calls",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "U.S. authorities have seized over $1.2 billion in crypto assets linked to the Binance hack",
+     "source": 2,
+     "quote": "the court-authorized seizure and restraint of more than $1.2 billion worth of cryptocurrency recently stolen from Binance",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The FBI advises keeping webcams off until the caller’s identity is verified and confirming meetings via a second channel",
+     "source": 4,
+     "quote": "The FBI’s advice starts with the webcam: leave it off until you can see, hear and talk with the person who invited you. Join through the official Zoom or Teams app with an invite code. Confirm the meeting through a second channel, for example a phone call",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/cyber-crime/2026/11/12/doj-takes-aim-at-12b-in-binance-loot-as-fbi-disrupts-north-korean-scam/5309523",
+     "published": "Thu, 12 Nov 2026 23:51:00 +0000",
+     "published_iso": "2026-11-12T23:51:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
+     "published": "Fri, 13 Nov 2026 12:03:24 GMT",
+     "published_iso": "2026-11-13T12:03:24+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+     "published": "Fri, 13 Nov 2026 19:58:58 +0530",
+     "published_iso": "2026-11-13T14:28:58+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+     "published": "Fri, 13 Nov 2026 06:30:30 +0000",
+     "published_iso": "2026-11-13T06:30:30+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls",
+     "published": "Thu, 12 Nov 2026 22:06:03 +0000",
+     "published_iso": "2026-11-12T22:06:03+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theregister.com/cyber-crime/2026/11/12/doj-takes-aim-at-12b-in-binance-loot-as-fbi-disrupts-north-korean-scam/5309523",
+    "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
+    "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+    "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+    "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+    "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls"
+   ],
+   "primary": [
+    {
+     "url": "https://www.fbi.gov/investigate/cyber/facestealer-cryptocurrency-theft-scheme",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.fbi.gov/investigate/cyber/facestealer-cryptocurrency-theft-scheme"
+    },
+    {
+     "url": "https://www.ic3.gov/CSA/2026/261112.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.ic3.gov/CSA/2026/261112.pdf"
+    }
+   ],
+   "truth": {
+    "total": 81,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Situation Publishing, decrypt.co, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 552,
+  "stories_considered": 16,
+  "published": 11,
+  "outlets": 37
+ }
+}

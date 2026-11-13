@@ -328,5 +328,38 @@
   "from_score": 76,
   "to_score": 63,
   "note": "Rating changed from Confirmed (76) to Well-sourced (63) as new evidence came in."
+ },
+ {
+  "date": "2026-11-13",
+  "story_id": "2026-11-13-lego-takes-bricklink-marketplace-offline-after-detecting-unu-01e11",
+  "prior_id": "2026-11-12-lego-takes-bricklink-marketplace-offline-after-detecting-unu-01e11",
+  "headline": "LEGO Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 65,
+  "to_score": 50,
+  "note": "Rating changed from Well-sourced (65) to Developing (50) as new evidence came in."
+ },
+ {
+  "date": "2026-11-13",
+  "story_id": "2026-11-13-microsoft-outlook-outage-disrupts-365-services-worldwide-268e8",
+  "prior_id": "2026-11-12-microsoft-365-outage-disrupts-outlook-teams-copilot-and-othe-5e840",
+  "headline": "Microsoft Outlook outage disrupts 365 services worldwide",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 69,
+  "to_score": 54,
+  "note": "Rating changed from Well-sourced (69) to Developing (54) as new evidence came in."
+ },
+ {
+  "date": "2026-11-13",
+  "story_id": "2026-11-13-google-launches-gemini-4-hydrogen-replacing-flash-model-in-s-e1c4e",
+  "prior_id": "2026-11-12-google-launches-gemini-4-hydrogen-model-replacing-flash-in-s-c59dd",
+  "headline": "Google launches Gemini 4 Hydrogen, replacing Flash model in Search",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 87,
+  "to_score": 66,
+  "note": "Rating changed from Confirmed (87) to Well-sourced (66) as new evidence came in."
  }
 ]

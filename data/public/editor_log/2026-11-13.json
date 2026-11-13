@@ -1,0 +1,176 @@
+[
+ {
+  "section": "threat",
+  "title": "Windows SignDrop zero-day lets local users gain SYSTEM rights",
+  "verdict": "HOLD",
+  "truth": 73,
+  "reasons": [
+   "copied 5 long word-for-word run(s) from a source, e.g. \"tested the exploit on windows 11 26h2 windows 11 26h2 experimental and\""
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Copied word-for-word run(s) from sources in the draft.",
+   "editor: Included investment/actionable advice to run the PoC."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Check Point Gateways Compromised via PHP2Shell Flaws, Wiper Deployed on ESXi Hosts",
+  "verdict": "PUBLISH",
+  "truth": 93,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Law enforcement seizes servers and credentials linked to Gootloader, CastleRAT, StealC",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "LEGO Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Microsoft Outlook outage disrupts 365 services worldwide",
+  "verdict": "PUBLISH",
+  "truth": 54,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 8
+ },
+ {
+  "section": "ai",
+  "title": "Google launches Gemini 4 Hydrogen, replacing Flash model in Search",
+  "verdict": "PUBLISH",
+  "truth": 66,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Attribution missing for company claims about performance improvements (speed, hallucinations, code generation)."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Microsoft reports Windows activation errors and update install failures after November patches",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "NASA releases Hubble lens gallery to aid Roman telescope observations",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Astronomers Identify Trigger of Repeated Outbursts from Star AT 2016blu",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Bitcoin falls to 12-week low amid Fed rate-hike expectations",
+  "verdict": "HOLD",
+  "truth": 46,
+  "reasons": [
+   "copied 9 long word-for-word run(s) from a source, e.g. \"showed a 91 9 probability of a quarter point increase and an\""
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft states futures show a 91.9% chance of a quarter-point hike in December, but source [1] indicates those were probabilities as of November 13 and notes markets expect a December rate hike generally while Waller discussed the Dec 8-9 meeting or October CPI context. Wait, source [1] says 'Futures-based rate probabilities as of November 13 showed a 91.9% probability of a quarter-point increase and an 8.1% probability of a half-point increase.' Let's check Goolsbee's stance: draft states Goolsbee warned inflation remains above the 2% target, which is supported ('Are we on a path back to 2%? My feeling right now is we are not'). However, let's review the draft so_what for any minor inaccuracies. Source [1] says Goolsbee did not explicitly endorse a December rate hike, but the draft says 'Chicago Fed President Austan Goolsbee warned that inflation remains above the 2% target, while Fed Governor Christopher Waller signaled support for at least a 25-basis-point increase.' This is fully supported. Let's check the drop figures: 4.5% 24-hour loss, 9.5% weekly drop. Source [1] supports this ('BTC was down about 4.5% over 24 hours and 9.5% for the week'). Therefore, the draft is actually well-supported. Wait, let's look closer at the prompt's instructions. Are there any hype words or advice? No. Let's ensure strict compliance."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "U.S. Spot Bitcoin ETFs Record $1.44 Billion in Five-Day Outflows",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Trump nominates first Democratic commissioners for SEC and CFTC",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Senate control detail in so_what is contradicted by source 1 (source 1 mentions a Democratic Senate takeover in January, which conflicts with Trump being in office/making nominations as a Republican president in a typical context, but more specifically the draft states Senate shifts to Democratic control which is not supported by the sources saying Senate will take over or a Democratic Senate takeover)."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "North Korean hackers seized $400M via deepfake video scams, $1.2B crypto assets seized",
+  "verdict": "PUBLISH",
+  "truth": 81,
+  "reasons": [],
+  "edits": [],
+  "owners": 6
+ },
+ {
+  "section": "myth",
+  "title": "Video of Tomb of the Unknown Soldier reprimand verified as authentic",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of AI interview for Burger King proven fake",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-Generated Video of Veteran Saluting Debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
