@@ -1,0 +1,179 @@
+[
+ {
+  "section": "threat",
+  "title": "FAA lifts third nationwide ground stop after communications outage",
+  "verdict": "HOLD",
+  "truth": 36,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Trezor Safe 5 wallets sold by CryptoBilis found with hardware implants, firmware update issued",
+  "verdict": "PUBLISH",
+  "truth": 51,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "Check Point Gateways Compromised via PHP2Shell Flaws, ESXi Hosts Wiped",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "354 Dark Web Vendors and Buyers Arrested in International Operation TorNado",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section conflated total seizures or misstated figures (the text says over €150 million and 4.8 metric tonnes were seized in the United States specifically, not total across all countries, and mixing up figures requires precision)."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Microsoft reports global outage of Outlook and other 365 services",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI launches ChatGPT Wallet for US Pro users, enabling AI‑agent purchases",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 6
+ },
+ {
+  "section": "ai",
+  "title": "Nvidia appoints CFO Colette Kress as interim CEO after Jensen Huang resignation",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft in_brief mentions resignation 'amid personal controversy', but source 3 specifically details extramarital affairs and allegations involving a suspected Chinese intelligence operative. However, sources 1 and 2 don't mention this specific reason, though source 2 mentions 'an extraordinarily difficult period'. Let's stick closer to the sources regarding the resignation reason or omit the unverified controversy details to be safe, or attribute them properly. Wait, source 3 says 'abrupt resignation amid reports of extramarital affairs and allegations involving a suspected Chinese intelligence operative.' Let's ensure the text does not contain unverified hype, but source 3 explicitly states it."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Ancient Rocks Reveal Early Earth Burial and Anatolian Cooling History",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "SpaceX Starship reaches orbit on 15th test flight, booster lost in Gulf",
+  "verdict": "HOLD",
+  "truth": 21,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA study links repeated outbursts to massive star AT 2016blu in NGC 4559",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick summoned to testify on China chip exports",
+  "verdict": "PUBLISH",
+  "truth": 82,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "money",
+  "title": "Bitcoin drops to 12‑week low amid Fed rate‑rise expectations",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: The draft states Goolsbee warned inflation remains above the Fed's 2% target, but sources state he said his feeling right now is we are not on a path back to 2%.",
+   "editor: The draft includes investment advice in what_to_do / so_what (Investors should monitor...)"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "North Korean 'FaceStealer' scheme steals $400 million via fake video calls",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "myth",
+  "title": "Apple’s ‘Remote Control’ Feature Mischaracterized as Phone‑Hacking Tool",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft mentions iOS 26, but the source says 'iOS 26' which is likely a typo in the source or a mix-up, wait - source says 'iOS 26'. Wait, let's check the source carefully: 'iOS 26 update, not iOS 27'. Oh, iOS doesn't have version 26 yet, but we must stick strictly to the text provided in the source. Let's fix minor phrasing issues to ensure strict alignment."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of $28 Million seized from Zelensky’s cars is unverified",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video claiming AI interview at Burger King is a fabricated parody",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

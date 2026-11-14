@@ -1,0 +1,1599 @@
+{
+ "date": "2026-11-14",
+ "built_at": "2026-11-14T18:49:49.023525+00:00",
+ "stories": [
+  {
+   "id": "2026-11-14-trezor-safe-5-wallets-sold-by-cryptobilis-found-with-hardwar-8bc29",
+   "date": "2026-11-14",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Trezor Safe 5 wallets sold by CryptoBilis found with hardware implants, firmware update issued",
+   "in_brief": "Three Trezor Safe 5 devices sold by reseller CryptoBilis were discovered to contain hidden circuit‑board implants that could steal recovery phrases. Trezor released firmware 2.13.1 to block the implants and advises users to update and migrate funds.",
+   "so_what": "The discovery shows that hardware wallets, a cornerstone of cryptocurrency security, can be compromised at the supply‑chain level, exposing users to theft of the secret recovery phrases that control their assets. Trezor’s rapid firmware response (version 2.13.1) neutralises the implants on updated devices, but it cannot recover phrases already captured, making migration to a new wallet essential. Users who purchased Safe 5 units from CryptoBilis between August 20 and September 23, 2026 should treat those devices as potentially compromised. The incident also underscores the risk of buying hardware wallets from third‑party resellers in regions with less oversight, prompting broader industry calls for stricter supply‑chain verification. Watch for further advisories from Trezor and any additional findings about other models or resellers.",
+   "what_to_do": "1. Install Trezor firmware version 2.13.1 (or later) on the affected Safe 5 device. 2. Transfer all funds to a new wallet with a freshly generated recovery phrase. 3. Contact Trezor Support for a replacement if you bought the wallet from CryptoBilis.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Three Trezor Safe 5 devices sold by CryptoBilis contained malicious hardware implants.",
+     "source": 1,
+     "quote": "three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Trezor released firmware version 2.13.1 on November 11 that blocks the implants from capturing information.",
+     "source": 1,
+     "quote": "On November 11, Trezor released firmware version 2.13.1, which includes protections that prevent the implants from capturing information",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "No affected customers have reported losing funds from the compromised wallets.",
+     "source": 1,
+     "quote": "no affected customers have reported losing funds",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+     "published": "Fri, 13 Nov 2026 14:38:36 -0500",
+     "published_iso": "2026-11-13T19:38:36+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+     "published": "Fri, 13 Nov 2026 19:24:20 +0530",
+     "published_iso": "2026-11-13T13:54:20+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+    "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 51,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-10-31-trezor-warns-of-possible-hardware-implant-in-safe-5-wallets-ba41a",
+    "date": "2026-10-31",
+    "label": "Well-sourced",
+    "score": 67
+   }
+  },
+  {
+   "id": "2026-11-14-check-point-gateways-compromised-via-php2shell-flaws-esxi-ho-7ed99",
+   "date": "2026-11-14",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Check Point Gateways Compromised via PHP2Shell Flaws, ESXi Hosts Wiped",
+   "in_brief": "Unpatched Check Point Security Gateways were exploited through PHP2Shell vulnerabilities, allowing attackers to install a TSGA backdoor and a data‑wiping tool on VMware ESXi hosts. The campaign began on Oct. 30, 2026 and expanded globally on Nov. 2, 2026, raising concerns for organizations using affected Check Point products.",
+   "so_what": "The incidents demonstrate how quickly newly disclosed remote‑code execution bugs can be weaponised, especially when combined with a zero‑day privilege‑escalation flaw (CVE‑2026‑123039). Attackers moved from compromised gateways into VMware ESXi infrastructure, deploying the destroy_v6 wiper that overwrites or deletes files, potentially causing irreversible data loss. Organizations running Check Point Force Firewalls, Management and Log Servers, Multi‑Domain Security Management, or Maestro Orchestrator in versions R81‑R82.20 should verify they have applied the November Jumbo Hotfix and the emergency PHP patches released on Oct. 21. Continuous monitoring for unexpected PHP web shells, TSProxy traffic, or the presence of DREAM_ANNEXATION.txt files can help detect ongoing compromise. The broader use of these exploits underscores the need for rapid patch adoption and layered network segmentation to limit lateral movement.",
+   "what_to_do": "1. Apply the November Jumbo Hotfix to all Check Point Management Servers and gateways. 2. Install the emergency PHP patches that address CVE‑2026‑109618 and CVE‑2026‑109619. 3. Scan for unauthorized PHP web shells or TSProxy activity and remove any found.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Check Point Security Gateways were targeted using the PHP2Shell vulnerabilities CVE‑2026‑109618 and CVE‑2026‑109619 starting on Oct. 30, 2026.",
+     "source": 1,
+     "quote": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data‑wiping malware on VMware ESXi hosts.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Attackers leveraged CVE‑2026‑123039 to gain root privileges and deploy the TSGA backdoor and destroy_v6 wiper.",
+     "source": 2,
+     "quote": "PHP2Shell provided initial access, followed by privilege escalation through the DynamicCLI interface, tracked as CVE‑2026‑123039... The attackers then deployed PHP web shells, the persistent TSGA backdoor, and its embedded TSProxy networking component.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The destroy_v6 wiper recursively deletes data and attempts a zero‑fill to hinder recovery.",
+     "source": 1,
+     "quote": "The wiper first tries a zero fill to make recovery harder. It also supports a fast mode that skips the overwriting step.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+     "published": "Fri, 13 Nov 2026 11:21:43 -0500",
+     "published_iso": "2026-11-13T16:21:43+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+     "published": "Fri, 13 Nov 2026 13:35:49 +0530",
+     "published_iso": "2026-11-13T08:05:49+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+    "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-109618 — PHP Memory Corruption Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-109619 — PHP Stale Internal Request-State Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-123039 — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-123039",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-123039"
+    },
+    {
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+     "type": "official record",
+     "verified": true,
+     "label": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    }
+   ],
+   "truth": {
+    "total": 80,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-13-check-point-gateways-compromised-via-php2shell-flaws-wiper-d-d762f",
+    "date": "2026-11-13",
+    "label": "Confirmed",
+    "score": 93
+   }
+  },
+  {
+   "id": "2026-11-14-354-dark-web-vendors-and-buyers-arrested-in-international-op-02574",
+   "date": "2026-11-14",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "354 Dark Web Vendors and Buyers Arrested in International Operation TorNado",
+   "in_brief": "Law enforcement agencies from 14 countries arrested 354 suspects linked to dark‑web marketplaces in Operation TorNado, seizing millions in cash, cryptocurrency and drugs. The crackdown highlights ongoing efforts to disrupt illicit online trade.",
+   "so_what": "Operation TorNado, which ran from May 2025 through October 2026, represents a major international coordinated takedown of dark‑web drug and illicit markets. By targeting vendors, buyers, forums, single‑vendor shops and encrypted messaging services, authorities disrupted the supply chain of illicit substances and firearms, confiscating over €150 million in cash and cryptocurrency and more than 4.8 metric tonnes of drugs in the United States alone, alongside significant seizures in Europe. The operation underscores the resilience of dark‑web marketplaces, which continue to re‑emerge after takedowns, and signals that international cooperation remains focused on dismantling these networks. Watch for follow‑up investigations, potential indictments, and further seizures as agencies trace remaining participants and financial flows.",
+   "what_to_do": "1. Review recent account activity for unauthorized transactions and report any suspicious activity to your financial institution. 2. Enable multi‑factor authentication on all online accounts, especially email and cryptocurrency wallets. 3. Keep software, especially security tools and operating systems, up to date with the latest patches.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "354 dark‑web vendors and buyers were arrested in Operation TorNado.",
+     "source": 1,
+     "quote": "Police arrest 354 suspects in dark web cybercrime crackdown.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The operation ran from May 2025 to October 2026 and involved agencies from 14 countries.",
+     "source": 1,
+     "quote": "Codenamed 'Operation TorNado,' this law enforcement action ran from May 2025 to October 2026 and involved agencies from 14 countries.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "U.S. authorities seized more than €150 million in cash and cryptocurrency and over 4.8 metric tonnes of drugs.",
+     "source": 2,
+     "quote": "US authorities seized more than 4.8 metric tonnes of drugs, 152 firearms and over €150 million in cash and cryptocurrency.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+     "published": "Fri, 13 Nov 2026 03:34:20 -0500",
+     "published_iso": "2026-11-13T08:34:20+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime/",
+     "published": "Fri, 13 Nov 2026 11:06:29 +0000",
+     "published_iso": "2026-11-13T11:06:29+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+    "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown"
+    },
+    {
+     "url": "https://www.justice.gov/opa/pr/international-law-enforcement-operation-targeting-opioid-and-fentanyl-traffickers-dark-web",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/opa/pr/international-law-enforcement-operation-targeting-opioid-and-fentanyl-traffickers-dark-web"
+    }
+   ],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, helpnetsecurity.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: So_what section conflated total seizures or misstated figures (the text says over €150 million and 4.8 metric tonnes were seized in the United States specifically, not total across all countries, and mixing up figures requires precision)."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-14-microsoft-reports-global-outage-of-outlook-and-other-365-ser-c2459",
+   "date": "2026-11-14",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Microsoft reports global outage of Outlook and other 365 services",
+   "in_brief": "Microsoft confirmed a widespread outage that disabled Outlook, Teams, Copilot and other 365 apps for users in dozens of countries. The company says the disruption was caused by servers unexpectedly becoming unavailable, not by malicious activity.",
+   "so_what": "The outage impacted an estimated 430 million Microsoft 365 users worldwide, including government bodies, newsrooms and major tech firms, highlighting the reliance on cloud‑based productivity tools. Microsoft attributed the problem to an \"elevated load\" caused by a number of servers failing health checks, which strained the remaining infrastructure. While the company has paused deployments and is restarting affected servers, it has not provided a timeline for full restoration. No evidence of a cyberattack has been found, but the incident underscores the vulnerability of centralized services to infrastructure failures. Observers will watch Microsoft’s forthcoming post‑incident report for details on the network capacity upgrade that triggered the issue and any steps to prevent recurrence.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Outlook, Teams, Copilot and other Microsoft 365 services were down for users in more than 70 countries.",
+     "source": 1,
+     "quote": "The problem has affected users in more than 70 countries, according to Downdetector, which tracks cyber outages.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Microsoft says the outage was caused by a number of servers unexpectedly becoming unavailable, creating elevated load.",
+     "source": 2,
+     "quote": "\"We determined the elevated load isn't driven by an increase in traffic, but by a number of servers being unexpectedly unavailable; straining the remaining infrastructure.\"",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Microsoft reported no indication of malicious activity behind the outage.",
+     "source": 5,
+     "quote": "Microsoft executive Charles Lamanna said there was no indication that malicious activity or a cyberattack caused the outage.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "bleepingcomputer.com",
+      "npr.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NPR Technology",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/11/12/nx-s1-6039343/outlook-down-widespread-outage-microsoft-email",
+     "published": "Thu, 12 Nov 2026 20:26:24 -0500",
+     "published_iso": "2026-11-13T01:26:24+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+     "published": "Thu, 12 Nov 2026 15:15:16 -0500",
+     "published_iso": "2026-11-12T20:15:16+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+     "published": "Sat, 14 Nov 2026 08:11:28 GMT",
+     "published_iso": "2026-11-14T08:11:28+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531",
+     "published": "Thu, 12 Nov 2026 23:06:06 +0000",
+     "published_iso": "2026-11-12T23:06:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
+     "published": "Fri, 13 Nov 2026 08:35:18 GMT",
+     "published_iso": "2026-11-13T08:35:18+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.npr.org/2026/11/12/nx-s1-6039343/outlook-down-widespread-outage-microsoft-email",
+    "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+    "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+    "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
+    "https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Situation Publishing, bleepingcomputer.com, malwarebytes.com, npr.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5,
+   "previously": {
+    "id": "2026-11-13-microsoft-outlook-outage-disrupts-365-services-worldwide-268e8",
+    "date": "2026-11-13",
+    "label": "Developing",
+    "score": 54
+   }
+  },
+  {
+   "id": "2026-11-14-openai-launches-chatgpt-wallet-for-us-pro-users-enabling-ai-2fc08",
+   "date": "2026-11-14",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI launches ChatGPT Wallet for US Pro users, enabling AI‑agent purchases",
+   "in_brief": "OpenAI introduced ChatGPT Wallet, letting its Dots AI agents complete purchases for users after biometric approval. The feature is initially limited to U.S. ChatGPT Pro subscribers aged 18 or older with eligible American Express, Mastercard or Visa cards.",
+   "so_what": "ChatGPT Wallet extends OpenAI’s push into AI‑enabled commerce by allowing agents to shop on behalf of users without exposing actual card numbers. The system tokenizes card data, preserving rewards and dispute protections while requiring a Face ID or fingerprint check for each transaction. By rolling out only to a subset of its more than 100 million paying users, OpenAI can test merchant compatibility and fraud‑risk handling before broader deployment. Retailers may need to adjust bot‑detection and payment‑risk tools, and the rollout could influence how other AI platforms design agentic shopping features. Watch for merchant adoption rates, potential retailer blocks, and any future expansion of spending‑limit controls.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward product launch reporting",
+   "claims": [
+    {
+     "claim": "OpenAI launched ChatGPT Wallet on Friday, allowing its Dots agents to make purchases for users",
+     "source": 2,
+     "quote": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "Yahoo",
+      "decrypt.co",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The wallet is initially available only to U.S. ChatGPT Pro subscribers who are 18 or older and have eligible U.S.-issued American Express, Mastercard or Visa cards",
+     "source": 1,
+     "quote": "ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and “eligible US‑issued American Express, Chase, Mastercard and Visa cards.”",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo",
+      "decrypt.co",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Each purchase requires a security check such as Face ID or a fingerprint scan, and the agent never sees the actual card number",
+     "source": 1,
+     "quote": "OpenAI’s support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "decrypt.co",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The payment token substitutes the real card details, preserving rewards and dispute protections",
+     "source": 4,
+     "quote": "When it’s time to transact, ChatGPT’s Wallet charges the selected card using a payment token, which is a substitute for the user’s actual card details, so information isn’t shared with either the dot or the merchant.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "decrypt.co",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+     "published": "2026-11-13T15:45:10-05:00",
+     "published_iso": "2026-11-13T20:45:10+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+     "published": "Fri, 13 Nov 2026 18:56:26 GMT",
+     "published_iso": "2026-11-13T18:56:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
+     "published": "Fri, 13 Nov 2026 16:15:25 +0000",
+     "published_iso": "2026-11-13T16:15:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+     "published": "Fri, 13 Nov 2026 16:00:12 +0000",
+     "published_iso": "2026-11-13T16:00:12+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto",
+     "published": "Sat, 14 Nov 2026 14:01:02 +0000",
+     "published_iso": "2026-11-14T14:01:02+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+    "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+    "https://openai.com/index/introducing-chatgpt-wallet",
+    "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
+    "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+    "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Vox Media, Yahoo, decrypt.co, helpnetsecurity.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6
+  },
+  {
+   "id": "2026-11-14-nvidia-appoints-cfo-colette-kress-as-interim-ceo-after-jense-16ac0",
+   "date": "2026-11-14",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Nvidia appoints CFO Colette Kress as interim CEO after Jensen Huang resignation",
+   "in_brief": "Nvidia announced that CFO Colette Kress will serve as interim chief executive while the board searches for a permanent replacement. The move follows founder Jensen Huang’s resignation following reports of personal controversy.",
+   "so_what": "The leadership change at Nvidia, the world’s leading AI-chip maker, signals a period of transition for investors, customers, and partners. Kress, who has been with the company since 2013, will retain her CFO duties during the transition. The board, chaired by Harvey Jones, expressed confidence in her ability to maintain continuity, and the company has scheduled a meeting for November 18.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual report",
+   "claims": [
+    {
+     "claim": "Jensen Huang resigned as Nvidia’s chief executive and board member",
+     "source": 2,
+     "quote": "Jensen has resigned as CEO and Board Member",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "npr.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The board asked CFO Colette Kress to serve as interim CEO while retaining her CFO role",
+     "source": 2,
+     "quote": "the Board has asked our Chief Financial Officer Colette Kress to serve as interim CEO while it conducts a search for a permanent successor",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Colette Kress, 59, became Nvidia’s interim CEO following Jensen Huang’s resignation",
+     "source": 3,
+     "quote": "Colette Kress, 59, became Nvidia's interim CEO following Jensen Huang's resignation",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NPR Technology",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/11/12/nx-s1-6038896/what-we-know-so-far-about-nvidia-interim-ceo-colette-kress",
+     "published": "Thu, 12 Nov 2026 17:04:13 -0500",
+     "published_iso": "2026-11-12T22:04:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+     "published": "Thu, 12 Nov 2026 19:42:41 GMT",
+     "published_iso": "2026-11-12T19:42:41+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383189/who-colette-kress-jensen-huang-successor-nvidia-ceo",
+     "published": "Thu, 12 Nov 2026 18:55:03 +0000",
+     "published_iso": "2026-11-12T18:55:03+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.npr.org/2026/11/13/nx-s1-6038889/colette-kress-becomes-nvidias-interim-ceo-after-jensen-huang-resigns",
+    "https://www.npr.org/2026/11/12/nx-s1-6038896/what-we-know-so-far-about-nvidia-interim-ceo-colette-kress",
+    "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+    "https://decrypt.co/383189/who-colette-kress-jensen-huang-successor-nvidia-ceo"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, decrypt.co, npr.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft in_brief mentions resignation 'amid personal controversy', but source 3 specifically details extramarital affairs and allegations involving a suspected Chinese intelligence operative. However, sources 1 and 2 don't mention this specific reason, though source 2 mentions 'an extraordinarily difficult period'. Let's stick closer to the sources regarding the resignation reason or omit the unverified controversy details to be safe, or attribute them properly. Wait, source 3 says 'abrupt resignation amid reports of extramarital affairs and allegations involving a suspected Chinese intelligence operative.' Let's ensure the text does not contain unverified hype, but source 3 explicitly states it."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-14-ancient-rocks-reveal-early-earth-burial-and-anatolian-coolin-43380",
+   "date": "2026-11-14",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Ancient Rocks Reveal Early Earth Burial and Anatolian Cooling History",
+   "in_brief": "Scientists report that 3.9‑billion‑year‑old rocks in northern China were rapidly buried over 50 km deep, while a separate study traced the cooling of granitic rocks in northwestern Anatolia from 800 °C to 60 °C across two rapid phases. Both findings improve understanding of early Earth processes and regional tectonic evolution.",
+   "so_what": "The Chinese rock record pushes back the timing of deep burial and partial melting of early oceanic crust to at least 3.95 billion years ago, indicating that mantle‑derived material was being recycled into the deep lithosphere shortly after the planet’s crust formed around 4.3 billion years ago. This provides a rare glimpse into the dynamics of Earth’s first tectonic cycles. In Turkey, the integrated thermochronology of three granitic plutons shows distinct cooling episodes during the Eocene and Oligocene, suggesting shifts in tectonic forces such as collision‑related compression or lithospheric extension. Together, the studies highlight how surface rocks preserve deep‑time thermal and tectonic histories, informing models of crust‑mantle interaction and the evolution of continental margins. Future research will likely focus on refining the timing of mantle‑crust separation and the mechanisms driving the Anatolian cooling phases.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely scientific reporting",
+   "claims": [
+    {
+     "claim": "Rocks in northern China that are 3.9 billion years old were buried rapidly to depths greater than 50 km by 3.95 billion years ago.",
+     "source": 1,
+     "quote": "by 3.95 billion years ago, surface‑altered oceanic crust had been buried rapidly to depths greater than 50 kilometres",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The buried crust derived from a mantle reservoir left behind when the crust separated from the early mantle as early as 4.3 billion years ago.",
+     "source": 1,
+     "quote": "derived from a mantle reservoir that had been left behind when the crust separated from the early mantle as early as 4.3 billion years ago",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Anatolian study traced rock cooling from about 800 °C to 60 °C, showing rapid cooling during the Eocene and again in the Oligocene.",
+     "source": 2,
+     "quote": "traced the rocks' cooling from about 800°C to 60°C, illustrating their journey from deep magma formation to later cooling during exhumation",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The cooling pattern indicates two distinct rapid cooling and uplift phases in northwestern Anatolia's tectonic history.",
+     "source": 2,
+     "quote": "rapid cooling during the Eocene, a slowdown, followed by another phase of rapid cooling and uplift in the Oligocene",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03499-w",
+     "published": "2026-11-11",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-ancient-reveal-journey-deep-earth.html",
+     "published": "Fri, 13 Nov 2026 14:00:14 EST",
+     "published_iso": "2026-11-13T19:00:14+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03499-w",
+    "https://phys.org/news/2026-11-oldest-earth-early-history.html",
+    "https://phys.org/news/2026-11-ancient-reveal-journey-deep-earth.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/s41586-026-11280-2",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/s41586-026-11280-2"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03499-w",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/d41586-026-03499-w"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03499-w",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-14-nasa-study-links-repeated-outbursts-to-massive-star-at-2016b-dfd35",
+   "date": "2026-11-14",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA study links repeated outbursts to massive star AT 2016blu in NGC 4559",
+   "in_brief": "Astronomers using the Chandra X‑ray Observatory identified the cause of recurring outbursts from star AT 2016blu. The star resides in galaxy NGC 4559 about 30 million light‑years away and is at least 33 times the Sun’s mass.",
+   "so_what": "Understanding the mechanisms behind AT 2016blu’s eruptions helps scientists probe the life cycles of the most massive, unstable stars, which can end as supernovae or black holes. The discovery, based on combined X‑ray and optical data, offers a rare glimpse into how such stars shed material and evolve. Tracking similar outbursts across the universe may refine models of stellar instability and improve predictions of explosive events that influence galactic chemistry. Future observations with Chandra and other telescopes will test whether the identified trigger applies to other massive stars and could inform the search for precursors to supernova explosions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific reporting",
+   "claims": [
+    {
+     "claim": "Repeated outbursts from the giant star AT 2016blu have been linked to a specific trigger identified by astronomers.",
+     "source": 1,
+     "quote": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "AT 2016blu is located in the spiral galaxy NGC 4559, about 30 million light‑years from Earth.",
+     "source": 1,
+     "quote": "The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The mass of AT 2016blu is estimated to be at least 33 times that of the Sun.",
+     "source": 1,
+     "quote": "Astronomers estimate the mass of this star is at least 33 times that of the Sun.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+     "published": "Fri, 13 Nov 2026 16:39:33 +0000",
+     "published_iso": "2026-11-13T16:39:33+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1,
+   "previously": {
+    "id": "2026-11-13-astronomers-identify-trigger-of-repeated-outbursts-from-star-5e850",
+    "date": "2026-11-13",
+    "label": "Well-sourced",
+    "score": 59
+   }
+  },
+  {
+   "id": "2026-11-14-former-nvidia-ceo-jensen-huang-and-commerce-secretary-howard-2884c",
+   "date": "2026-11-14",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick summoned to testify on China chip exports",
+   "in_brief": "Jensen Huang and Commerce Secretary Howard Lutnick have been asked to appear before Senate committees in December over alleged national‑security risks tied to Nvidia AI chip exports. The move follows revelations of Huang’s affair with a woman suspected of Chinese espionage and concerns about export‑control loopholes.",
+   "so_what": "The congressional inquiries shift the focus from personal misconduct to broader security implications of U.S. technology flowing to China. Lawmakers allege that Nvidia may have supplied advanced AI chips to Chinese entities, potentially violating export restrictions imposed by both the Biden and Trump administrations. The Senate Banking Committee, chaired by Tim Scott, has set hearing dates for Huang on Dec. 3 and Lutnick on Dec. 10, warning that subpoenas could be issued if they do not appear voluntarily. The scrutiny reflects bipartisan pressure on the Commerce Department to tighten export controls and on Nvidia to improve oversight of its supply chain. Investors and industry observers will watch the hearings for any indications of regulatory changes that could affect the AI chip market and Nvidia’s valuation, which fell by roughly $550 billion in five days after the scandal broke.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Jensen Huang has been summoned to testify before a Senate committee on Dec. 3, 2026",
+     "source": 1,
+     "quote": "Scott asked Huang to appear voluntarily on 3 December, but also warned the panel could issue a subpoena to compel his testimony.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Commerce Secretary Howard Lutnick has been asked to testify on Dec. 10, 2026",
+     "source": 3,
+     "quote": "Lutnick was summoned by Senate Banking Chair Tim Scott amid scrutiny ... Huang and Lutnick both received letters on Thursday evening requesting them to testify in separate hearings on Dec. 3 and Dec. 10, respectively.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nvidia’s market value fell by about $550 billion in five days after the scandal",
+     "source": 1,
+     "quote": "Nvidia has lost $550bn (£415bn) in stock market value in just five days as the scandal dominated headlines.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+     "published": "Fri, 13 Nov 2026 03:57:01 GMT",
+     "published_iso": "2026-11-13T03:57:01+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-affair-timeline",
+     "published": "Fri, 13 Nov 2026 04:00:08 GMT",
+     "published_iso": "2026-11-13T04:00:08+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+     "published": "Fri, 13 Nov 2026 15:49:11 GMT",
+     "published_iso": "2026-11-13T15:49:11+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china",
+     "published": "Fri, 13 Nov 2026 10:55:54 +0000",
+     "published_iso": "2026-11-13T10:55:54+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-affair-timeline",
+    "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+    "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo",
+    "https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china"
+   ],
+   "primary": [
+    {
+     "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset"
+    },
+    {
+     "url": "https://foreignaffairs.house.gov/sites/evo-subsites/republicans-foreignaffairs.house.gov/files/evo-media-document/11.12.26-chairmen-letter-to-mr-jensen-huang.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://foreignaffairs.house.gov/sites/evo-subsites/republicans-foreignaffairs.house.gov/files/evo-media-document/11.12.26-chairmen-letter-to-mr-jensen-huang.pdf"
+    }
+   ],
+   "truth": {
+    "total": 82,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: BBC, Comcast, Guardian Media Group, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-14-bitcoin-drops-to-12-week-low-amid-fed-rate-rise-expectations-b41a2",
+   "date": "2026-11-14",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Bitcoin drops to 12‑week low amid Fed rate‑rise expectations",
+   "in_brief": "Bitcoin fell to about $68,500 on Friday, its lowest level in 12 weeks, as investors reacted to renewed U.S. inflation concerns and expectations of a December Federal Reserve rate hike. The slide erased most of the cryptocurrency’s late‑summer recovery.",
+   "so_what": "The price decline reflects broader market anxiety over higher interest rates. Chicago Fed President Austan Goolsbee expressed doubt about returning to the 2% inflation target, while Fed Governor Christopher Waller signaled support for at least a 25‑basis‑point hike at the December meeting. Futures markets showed a 91.9% chance of a quarter‑point increase. Bitcoin’s daily relative strength index fell to 25.4, and the cryptocurrency trades near its immediate support level of $67,650.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Bitcoin fell to around $68,500 on Friday, its lowest level in 12 weeks",
+     "source": 1,
+     "quote": "Bitcoin fell to around $68,500 Friday, its lowest level in 12 weeks",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Futures‑based rate probabilities on November 13 showed a 91.9% probability of a quarter‑point Fed rate increase",
+     "source": 1,
+     "quote": "Futures-based rate probabilities as of November 13 showed a 91.9% probability of a quarter-point increase",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Chicago Federal Reserve President Austan Goolsbee said inflation had spread beyond energy and tariffs and expressed doubt about returning to 2%",
+     "source": 1,
+     "quote": "Chicago Federal Reserve President Austan Goolsbee warned Friday that inflation had spread beyond energy and tariffs, with rising services and medical costs",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally",
+     "published": "Fri, 13 Nov 2026 17:22:54 +0000",
+     "published_iso": "2026-11-13T17:22:54+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+     "published": "Fri, 13 Nov 2026 11:52:25 +0000",
+     "published_iso": "2026-11-13T11:52:25+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+    "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm"
+    }
+   ],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: The draft states Goolsbee warned inflation remains above the Fed's 2% target, but sources state he said his feeling right now is we are not on a path back to 2%.",
+     "editor: The draft includes investment advice in what_to_do / so_what (Investors should monitor...)"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-14-north-korean-facestealer-scheme-steals-400-million-via-fake-a5f40",
+   "date": "2026-11-14",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "North Korean 'FaceStealer' scheme steals $400 million via fake video calls",
+   "in_brief": "North Korean hackers used deepfake‑enhanced video meetings to steal over $400 million in cryptocurrency, prompting U.S. authorities to seize the campaign’s infrastructure. The FBI warns that the attackers record victims’ webcams and reuse the footage to trap new targets.",
+   "so_what": "The FBI‑identified \"FaceStealer\" operation illustrates how state‑backed cybercrime groups are exploiting trust in video‑conference tools to harvest crypto assets. By hijacking accounts on platforms such as Telegram, LinkedIn, Slack and Discord, the hackers invite victims to seemingly legitimate Zoom or Teams calls, then play recorded or AI‑generated footage of known contacts to build credibility. Once the target is convinced, a fabricated technical error prompts them to click a malicious \"fix\" link, installing malware that can steal wallet credentials, seed phrases, and broader network access. Over 18 months the campaign amassed more than $400 million, recorded over 900 webcam videos, and targeted founders, senior executives, and open‑source developers across 58 countries. The U.S. seizure of the underlying cloud infrastructure and the ongoing effort to recover $1.2 billion linked to a separate Binance hack underscore the scale of the threat and the importance of vigilance in remote‑work environments. Watch for further FBI alerts, potential legal actions against identified actors, and guidance on securing video‑conference practices.",
+   "what_to_do": "1. Keep your webcam turned off until you can verify the identity of everyone on the call. 2. Join meetings only through the official Zoom or Microsoft Teams apps using a known invite code. 3. Confirm the meeting invitation through a separate channel (e.g., a phone call) before clicking any links.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "North Korean hackers stole more than $400 million in cryptocurrency over the past 18 months using the FaceStealer scheme.",
+     "source": 1,
+     "quote": "The U.S. government has disrupted a North Korean social engineering campaign called ‘FaceStealer’, responsible for stealing more than $400 million in cryptocurrency.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The campaign targeted individuals in the cryptocurrency, Web3 sectors and open‑source developers across 58 countries, focusing on founders and senior executives.",
+     "source": 1,
+     "quote": "The researchers identified 677 targets across 58 countries, with a heavy focus on company founders and senior executives.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The FBI seized over 900 webcam recordings of victims as evidence of the scheme.",
+     "source": 4,
+     "quote": "The FBI’s advice starts with the webcam: leave it off until you can see, hear and talk with the person who invited you... The FBI says it seized over 900 webcam recordings of FaceStealer victims under a federal warrant.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [4]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+     "published": "Sat, 14 Nov 2026 10:15:49 -0500",
+     "published_iso": "2026-11-14T15:15:49+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/cyber-crime/2026/11/12/doj-takes-aim-at-12b-in-binance-loot-as-fbi-disrupts-north-korean-scam/5309523",
+     "published": "Thu, 12 Nov 2026 23:51:00 +0000",
+     "published_iso": "2026-11-12T23:51:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+     "published": "Fri, 13 Nov 2026 19:58:58 +0530",
+     "published_iso": "2026-11-13T14:28:58+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+     "published": "Fri, 13 Nov 2026 06:30:30 +0000",
+     "published_iso": "2026-11-13T06:30:30+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls",
+     "published": "Thu, 12 Nov 2026 22:06:03 +0000",
+     "published_iso": "2026-11-12T22:06:03+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+    "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+    "https://www.theregister.com/cyber-crime/2026/11/12/doj-takes-aim-at-12b-in-binance-loot-as-fbi-disrupts-north-korean-scam/5309523",
+    "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+    "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls"
+   ],
+   "primary": [
+    {
+     "url": "https://www.fbi.gov/investigate/cyber/facestealer-cryptocurrency-theft-scheme",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.fbi.gov/investigate/cyber/facestealer-cryptocurrency-theft-scheme"
+    },
+    {
+     "url": "http://www.justice.gov/usao-cdca/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+     "type": "related official record",
+     "verified": true,
+     "label": "http://www.justice.gov/usao-cdca/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency"
+    }
+   ],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, bleepingcomputer.com, decrypt.co, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5,
+   "previously": {
+    "id": "2026-11-13-north-korean-hackers-seized-400m-via-deepfake-video-scams-1-1f3ea",
+    "date": "2026-11-13",
+    "label": "Confirmed",
+    "score": 81
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 483,
+  "stories_considered": 16,
+  "published": 11,
+  "outlets": 37
+ }
+}

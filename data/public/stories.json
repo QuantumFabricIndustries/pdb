@@ -6645,5 +6645,152 @@
    "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
    "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls"
   ]
+ },
+ {
+  "id": "2026-11-14-trezor-safe-5-wallets-sold-by-cryptobilis-found-with-hardwar-8bc29",
+  "date": "2026-11-14",
+  "section": "threat",
+  "headline": "Trezor Safe 5 wallets sold by CryptoBilis found with hardware implants, firmware update issued",
+  "label": "Developing",
+  "score": 51,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+   "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
+  ]
+ },
+ {
+  "id": "2026-11-14-check-point-gateways-compromised-via-php2shell-flaws-esxi-ho-7ed99",
+  "date": "2026-11-14",
+  "section": "threat",
+  "headline": "Check Point Gateways Compromised via PHP2Shell Flaws, ESXi Hosts Wiped",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+  ]
+ },
+ {
+  "id": "2026-11-14-354-dark-web-vendors-and-buyers-arrested-in-international-op-02574",
+  "date": "2026-11-14",
+  "section": "threat",
+  "headline": "354 Dark Web Vendors and Buyers Arrested in International Operation TorNado",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+   "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime/"
+  ]
+ },
+ {
+  "id": "2026-11-14-microsoft-reports-global-outage-of-outlook-and-other-365-ser-c2459",
+  "date": "2026-11-14",
+  "section": "ai",
+  "headline": "Microsoft reports global outage of Outlook and other 365 services",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/11/12/nx-s1-6039343/outlook-down-widespread-outage-microsoft-email",
+   "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
+   "https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531"
+  ]
+ },
+ {
+  "id": "2026-11-14-openai-launches-chatgpt-wallet-for-us-pro-users-enabling-ai-2fc08",
+  "date": "2026-11-14",
+  "section": "ai",
+  "headline": "OpenAI launches ChatGPT Wallet for US Pro users, enabling AI‑agent purchases",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+   "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+   "https://openai.com/index/introducing-chatgpt-wallet",
+   "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
+   "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+   "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto"
+  ]
+ },
+ {
+  "id": "2026-11-14-nvidia-appoints-cfo-colette-kress-as-interim-ceo-after-jense-16ac0",
+  "date": "2026-11-14",
+  "section": "ai",
+  "headline": "Nvidia appoints CFO Colette Kress as interim CEO after Jensen Huang resignation",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/11/13/nx-s1-6038889/colette-kress-becomes-nvidias-interim-ceo-after-jensen-huang-resigns",
+   "https://www.npr.org/2026/11/12/nx-s1-6038896/what-we-know-so-far-about-nvidia-interim-ceo-colette-kress",
+   "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+   "https://decrypt.co/383189/who-colette-kress-jensen-huang-successor-nvidia-ceo"
+  ]
+ },
+ {
+  "id": "2026-11-14-ancient-rocks-reveal-early-earth-burial-and-anatolian-coolin-43380",
+  "date": "2026-11-14",
+  "section": "science",
+  "headline": "Ancient Rocks Reveal Early Earth Burial and Anatolian Cooling History",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03499-w",
+   "https://phys.org/news/2026-11-oldest-earth-early-history.html",
+   "https://phys.org/news/2026-11-ancient-reveal-journey-deep-earth.html"
+  ]
+ },
+ {
+  "id": "2026-11-14-nasa-study-links-repeated-outbursts-to-massive-star-at-2016b-dfd35",
+  "date": "2026-11-14",
+  "section": "science",
+  "headline": "NASA study links repeated outbursts to massive star AT 2016blu in NGC 4559",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/"
+  ]
+ },
+ {
+  "id": "2026-11-14-former-nvidia-ceo-jensen-huang-and-commerce-secretary-howard-2884c",
+  "date": "2026-11-14",
+  "section": "money",
+  "headline": "Former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick summoned to testify on China chip exports",
+  "label": "Confirmed",
+  "score": 82,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-affair-timeline",
+   "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+   "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo",
+   "https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china"
+  ]
+ },
+ {
+  "id": "2026-11-14-bitcoin-drops-to-12-week-low-amid-fed-rate-rise-expectations-b41a2",
+  "date": "2026-11-14",
+  "section": "money",
+  "headline": "Bitcoin drops to 12‑week low amid Fed rate‑rise expectations",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+   "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally"
+  ]
+ },
+ {
+  "id": "2026-11-14-north-korean-facestealer-scheme-steals-400-million-via-fake-a5f40",
+  "date": "2026-11-14",
+  "section": "scam",
+  "headline": "North Korean 'FaceStealer' scheme steals $400 million via fake video calls",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+   "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+   "https://www.theregister.com/cyber-crime/2026/11/12/doj-takes-aim-at-12b-in-binance-loot-as-fbi-disrupts-north-korean-scam/5309523",
+   "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+   "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls"
+  ]
  }
 ]

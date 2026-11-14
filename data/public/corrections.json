@@ -361,5 +361,38 @@
   "from_score": 87,
   "to_score": 66,
   "note": "Rating changed from Confirmed (87) to Well-sourced (66) as new evidence came in."
+ },
+ {
+  "date": "2026-11-14",
+  "story_id": "2026-11-14-trezor-safe-5-wallets-sold-by-cryptobilis-found-with-hardwar-8bc29",
+  "prior_id": "2026-10-31-trezor-warns-of-possible-hardware-implant-in-safe-5-wallets-ba41a",
+  "headline": "Trezor Safe 5 wallets sold by CryptoBilis found with hardware implants, firmware update issued",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 67,
+  "to_score": 51,
+  "note": "Rating changed from Well-sourced (67) to Developing (51) as new evidence came in."
+ },
+ {
+  "date": "2026-11-14",
+  "story_id": "2026-11-14-microsoft-reports-global-outage-of-outlook-and-other-365-ser-c2459",
+  "prior_id": "2026-11-13-microsoft-outlook-outage-disrupts-365-services-worldwide-268e8",
+  "headline": "Microsoft reports global outage of Outlook and other 365 services",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 54,
+  "to_score": 70,
+  "note": "Rating changed from Developing (54) to Well-sourced (70) as new evidence came in."
+ },
+ {
+  "date": "2026-11-14",
+  "story_id": "2026-11-14-north-korean-facestealer-scheme-steals-400-million-via-fake-a5f40",
+  "prior_id": "2026-11-13-north-korean-hackers-seized-400m-via-deepfake-video-scams-1-1f3ea",
+  "headline": "North Korean 'FaceStealer' scheme steals $400 million via fake video calls",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 81,
+  "to_score": 68,
+  "note": "Rating changed from Confirmed (81) to Well-sourced (68) as new evidence came in."
  }
 ]
