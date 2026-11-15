@@ -394,5 +394,16 @@
   "from_score": 81,
   "to_score": 68,
   "note": "Rating changed from Confirmed (81) to Well-sourced (68) as new evidence came in."
+ },
+ {
+  "date": "2026-11-15",
+  "story_id": "2026-11-15-nvidia-ceo-jensen-huang-resigns-amid-alleged-affairs-and-esp-730bb",
+  "prior_id": "2026-11-14-former-nvidia-ceo-jensen-huang-and-commerce-secretary-howard-2884c",
+  "headline": "Nvidia CEO Jensen Huang resigns amid alleged affairs and espionage concerns",
+  "from": "Confirmed",
+  "to": "Developing",
+  "from_score": 82,
+  "to_score": 54,
+  "note": "Rating changed from Confirmed (82) to Developing (54) as new evidence came in."
  }
 ]

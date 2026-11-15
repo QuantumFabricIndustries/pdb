@@ -6792,5 +6792,121 @@
    "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
    "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls"
   ]
+ },
+ {
+  "id": "2026-11-15-cursor-breach-leads-to-malicious-claude-code-extension-affec-8bf7c",
+  "date": "2026-11-15",
+  "section": "threat",
+  "headline": "Cursor breach leads to malicious Claude Code extension affecting up to 5,000 developers",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+  ]
+ },
+ {
+  "id": "2026-11-15-fbi-alerts-on-open-source-ai-tool-artex-enabling-rapid-cyber-e06c8",
+  "date": "2026-11-15",
+  "section": "threat",
+  "headline": "FBI alerts on open‑source AI tool Artex enabling rapid cyberattacks",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+   "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
+  ]
+ },
+ {
+  "id": "2026-11-15-faa-issues-nationwide-ground-stop-due-to-communication-issue-fb454",
+  "date": "2026-11-15",
+  "section": "threat",
+  "headline": "FAA Issues Nationwide Ground Stop Due to Communication Issues",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+   "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/"
+  ]
+ },
+ {
+  "id": "2026-11-15-italian-regulator-fines-meta-805-million-for-unauthorized-an-318c8",
+  "date": "2026-11-15",
+  "section": "ai",
+  "headline": "Italian regulator fines Meta €805 million for unauthorized Android gallery access",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+   "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+   "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos",
+   "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+   "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos/"
+  ]
+ },
+ {
+  "id": "2026-11-15-faa-lifts-third-nationwide-ground-stop-amid-equipment-issues-6d3b9",
+  "date": "2026-11-15",
+  "section": "ai",
+  "headline": "FAA lifts third nationwide ground stop amid equipment issues",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+   "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
+   "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/",
+   "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/"
+  ]
+ },
+ {
+  "id": "2026-11-15-us-treasury-chief-blames-commerce-dept-over-nvidia-chip-expo-0c6b4",
+  "date": "2026-11-15",
+  "section": "ai",
+  "headline": "US Treasury chief blames Commerce Dept over Nvidia chip export delays",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+   "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+  ]
+ },
+ {
+  "id": "2026-11-15-astronomers-identify-white-dwarf-sun-like-binary-emitting-re-f03c8",
+  "date": "2026-11-15",
+  "section": "science",
+  "headline": "Astronomers Identify White Dwarf–Sun‑Like Binary Emitting Regular Radio Pulses",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+   "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html"
+  ]
+ },
+ {
+  "id": "2026-11-15-stanford-study-links-hidden-brain-activity-patterns-to-early-2a865",
+  "date": "2026-11-15",
+  "section": "science",
+  "headline": "Stanford study links hidden brain activity patterns to early Alzheimer’s risk",
+  "label": "Developing",
+  "score": 44,
+  "also_covered_urls": [
+   "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+   "https://www.sciencedaily.com/releases/2026/11/261112230444.htm"
+  ]
+ },
+ {
+  "id": "2026-11-15-nvidia-ceo-jensen-huang-resigns-amid-alleged-affairs-and-esp-730bb",
+  "date": "2026-11-15",
+  "section": "money",
+  "headline": "Nvidia CEO Jensen Huang resigns amid alleged affairs and espionage concerns",
+  "label": "Developing",
+  "score": 54,
+  "also_covered_urls": [
+   "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+   "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+   "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo"
+  ]
  }
 ]

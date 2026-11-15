@@ -1,0 +1,128 @@
+[
+ {
+  "section": "threat",
+  "title": "Cursor breach leads to malicious Claude Code extension affecting up to 5,000 developers",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "FBI alerts on open‑source AI tool Artex enabling rapid cyberattacks",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "threat",
+  "title": "FAA Issues Nationwide Ground Stop Due to Communication Issues",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: In_brief states cause was equipment outage, but sources cite 'extraordinary circumstances' and communication issues. Also source 1 update says FBI probes an update.",
+   "editor: So_what contains speculative and hype language about 'fragility of the nation's air traffic control infrastructure'."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Italian regulator fines Meta €805 million for unauthorized Android gallery access",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: The so_what section stated '0.4-0.5%', but sources state 0.4% or approximately 0.47%."
+  ],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "FAA lifts third nationwide ground stop amid equipment issues",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "US Treasury chief blames Commerce Dept over Nvidia chip export delays",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Astronomers Identify White Dwarf–Sun‑Like Binary Emitting Regular Radio Pulses",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Stanford study links hidden brain activity patterns to early Alzheimer’s risk",
+  "verdict": "PUBLISH",
+  "truth": 44,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Nvidia CEO Jensen Huang resigns amid alleged affairs and espionage concerns",
+  "verdict": "PUBLISH",
+  "truth": 54,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "ClickFix captcha scam tricks users into installing malware",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-generated video of airport sleepers during FAA ground stop debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Apple’s “Remote Control” Feature Misrepresented as iOS 27 Spy Tool",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

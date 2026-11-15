@@ -1,0 +1,1202 @@
+{
+ "date": "2026-11-15",
+ "built_at": "2026-11-15T19:26:08.022556+00:00",
+ "stories": [
+  {
+   "id": "2026-11-15-cursor-breach-leads-to-malicious-claude-code-extension-affec-8bf7c",
+   "date": "2026-11-15",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Cursor breach leads to malicious Claude Code extension affecting up to 5,000 developers",
+   "in_brief": "Cursor disclosed that attackers used a stolen Fireworks AI access key to publish a trojanized Claude Code extension on its VS Code marketplace on Oct. 29, 2026. The malicious build installed persistent SSH backdoors on thousands of developers' machines.",
+   "so_what": "The incident highlights the risks of third‑party credential exposure in AI development pipelines. By compromising a read‑only storage bucket, attackers accessed historical coding‑agent traces that contained unredacted API keys, which they then leveraged to infiltrate Cursor's SaaS tools and distribute malware. Up to 5,000 developers who installed versions 2.1.312 or 2.1.313 of the extension may have had backdoors installed, potentially allowing further compromise of their systems and data. Cursor responded by revoking the Fireworks key, rotating credentials, and temporarily disabling internal services, but the episode underscores the need for stricter credential hygiene, privacy controls, and marketplace vetting. Organizations using AI‑assisted coding tools should monitor for unauthorized extensions, audit stored credentials, and ensure that privacy‑mode settings are enabled where possible.",
+   "what_to_do": "1. Verify that you have not installed Claude Code extension versions 2.1.312 or 2.1.313 from Cursor's marketplace; uninstall if present. 2. Rotate any API keys or credentials that may have been stored in Cursor or related services. 3. Enable Cursor's Privacy Mode to prevent future data from being used for training and reduce credential exposure.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "Attackers stole a Fireworks AI access key and used it to copy data from a read‑only storage bucket.",
+     "source": 1,
+     "quote": "According to Cursor, the attack began when hackers obtained an access key stored on Fireworks AI, a third‑party provider used for AI model training and inference.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "A trojanized version of Anthropic's Claude Code extension was published on Cursor's marketplace on Oct. 29, 2026.",
+     "source": 2,
+     "quote": "The next phase of the attack took place on October 29, 2026, when the attacker used a stolen credential ... to place trojanized versions of Anthropic's Claude Code extension directly on the cache used to serve Cursor's extension marketplace.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Up to 5,000 developers who requested the extension may have received the malicious build.",
+     "source": 2,
+     "quote": "At most 5,000 users who requested specific cached versions of the extension on October 29 potentially received the malicious build.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The malicious extension installed a persistent SSH backdoor on affected systems.",
+     "source": 1,
+     "quote": "The attack exposed up to 5,000 developers to malware that installed persistent SSH backdoors.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+     "published": "Sat, 14 Nov 2026 12:27:25 -0500",
+     "published_iso": "2026-11-14T17:27:25+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+     "published": "Sun, 15 Nov 2026 13:52:04 +0530",
+     "published_iso": "2026-11-15T08:22:04+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+    "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+   ],
+   "primary": [
+    {
+     "url": "https://oag.ca.gov/ecrime/databreach/reports/sb24-632751?7194ef805fa2d04b0f7e8c9521f97343",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://oag.ca.gov/ecrime/databreach/reports/sb24-632751?7194ef805fa2d04b0f7e8c9521f97343"
+    }
+   ],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-15-fbi-alerts-on-open-source-ai-tool-artex-enabling-rapid-cyber-e06c8",
+   "date": "2026-11-15",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "FBI alerts on open‑source AI tool Artex enabling rapid cyberattacks",
+   "in_brief": "The FBI issued a flash advisory warning that the open‑source Artex framework is being used to automate multi‑stage intrusions at machine speed. The alert highlights the tool’s rapid attack timeline and widespread availability despite the original repository’s removal.",
+   "so_what": "Artex translates high‑level objectives into AI‑driven commands, allowing actors with limited expertise to launch coordinated attacks across sectors such as finance, government, and healthcare. By integrating popular large language models—including Anthropic Claude, OpenAI GPT, and Chinese‑origin models like DeepSeek—the framework can exploit overlooked assets such as partner portals and legacy services, compressing the time from initial targeting to privileged access to under three hours. Researchers have identified more than 1,600 publicly exposed Artex consoles, suggesting the actual deployment count is higher. The tool’s persistence through community forks and a commercial version means defenders must assume continued threat exposure. Organizations should audit AI‑enabled tooling, apply relevant patches, and monitor for the FBI‑published indicators of compromise to mitigate risk.",
+   "what_to_do": "1. Review and patch any systems that integrate external large language models. 2. Scan for exposed Artex console instances using the detection signatures released by MalwareMustDie. 3. Disable or restrict unauthorized AI‑driven penetration‑testing tools on corporate networks.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "The FBI released a flash alert warning that the open‑source AI platform Artex is being used prolifically by cybercriminals and nation‑states to breach government agencies and critical sectors worldwide.",
+     "source": 1,
+     "quote": "The FBI released a flash alert on Friday about the tool, which has caused alarm among cybersecurity experts for its ability to take any large language model and turn it into a powerful hacking tool that can “automate multiple phases of cyber intrusions at machine speed, from reconnaissance through data exfiltration.”",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Artex can reduce the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours.",
+     "source": 1,
+     "quote": "Artex significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,” the FBI said.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Researchers have identified more than 1,600 publicly exposed Artex console instances, with the total likely higher when including systems behind firewalls or private networks.",
+     "source": 1,
+     "quote": "The advisory cites recent research from cybersecurity firm Censys showing over 1,600 publicly exposed Artex console instances, with total deployments likely significantly higher when including systems behind firewalls or in private networks.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+     "published": "Fri, 13 Nov 2026 21:32:00 GMT",
+     "published_iso": "2026-11-13T21:32:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+     "published": "Sun, 15 Nov 2026 13:29:53 -0500",
+     "published_iso": "2026-11-15T18:29:53+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+    "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.ic3.gov/CSA/2026/261113.pdf"
+    }
+   ],
+   "truth": {
+    "total": 55,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Recorded Future, bleepingcomputer.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-15-faa-issues-nationwide-ground-stop-due-to-communication-issue-fb454",
+   "date": "2026-11-15",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "FAA Issues Nationwide Ground Stop Due to Communication Issues",
+   "in_brief": "The Federal Aviation Administration halted all departures at U.S. airports on Friday following communication issues impacting Air Route Traffic Control Centers nationwide. Officials are investigating the cause.",
+   "so_what": "The grounding affects flights across the United States, disrupting travel as technicians work to resolve the issue. Federal officials stated there is currently no indication of a cyberattack or nefarious act, though the recovery is expected to take time. Travelers should check flight status updates before heading to the airport.",
+   "what_to_do": "1. Check airline or FAA websites for the latest flight status before traveling.\n2. Monitor official updates from the FAA regarding the resumption of normal operations.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "The FAA issued a nationwide ground stop for all U.S. airports.",
+     "source": 1,
+     "quote": "The @FAAnews issued a nationwide ground stop for all U.S. airports following a communication issue impacting all Air Route Traffic Control Centers.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The stop was triggered by communication issues affecting multiple Air Route Traffic Control Centers.",
+     "source": 2,
+     "quote": "following communication issues impacting multiple Air Route Traffic Control Centers",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "US officials found no evidence of hacking in the outage.",
+     "source": 1,
+     "quote": "UPDATE: US officials found no evidence of hacking in the FAA outage that halted flights nationwide",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+     "published": "Fri, 13 Nov 2026 21:33:27 +0000",
+     "published_iso": "2026-11-13T21:33:27+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
+     "published": "Fri, 13 Nov 2026 21:44:38 +0000",
+     "published_iso": "2026-11-13T21:44:38+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+    "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.fly.faa.gov/adv/advADB",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.fly.faa.gov/adv/advADB"
+    },
+    {
+     "url": "https://www.faa.gov/newsroom/statements/general-statements",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.faa.gov/newsroom/statements/general-statements"
+    }
+   ],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Yahoo, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: In_brief states cause was equipment outage, but sources cite 'extraordinary circumstances' and communication issues. Also source 1 update says FBI probes an update.",
+     "editor: So_what contains speculative and hype language about 'fragility of the nation's air traffic control infrastructure'."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-15-italian-regulator-fines-meta-805-million-for-unauthorized-an-318c8",
+   "date": "2026-11-15",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Italian regulator fines Meta €805 million for unauthorized Android gallery access",
+   "in_brief": "Italy's data protection authority imposed an €805 million fine on Meta for a Facebook feature that accessed Android users' photos and videos without specific consent. The regulator ordered the feature to be disabled by default and required separate consent within 60 days.",
+   "so_what": "The penalty, one of the largest ever levied by an Italian authority on a tech firm, underscores growing enforcement of privacy rules that treat smartphone content as part of a person's private sphere. By granting Meta a single permission that covered multiple functions, the gallery suggestions feature gave the company broad access to users' media without clear disclosure, violating regulations incorporated into Italian law. The fine, roughly 0.4% to 0.47% of Meta’s global turnover, signals that regulators will pursue substantial penalties when large numbers of users are affected. Meta has said it will appeal and strongly disagrees with the decision, calling the fine disproportionate. The 60-day compliance deadline will test the company’s ability to redesign permission flows.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual regulatory action",
+   "claims": [
+    {
+     "claim": "Italy's data protection authority fined Meta €805 million for accessing Android users' photos and videos without specific consent",
+     "source": 1,
+     "quote": "Italian regulators have fined social media giant Meta €805m (£670m; $887m) for accessing Android users' photos without their specific consent.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Yahoo",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The regulator ordered Meta to disable the feature by default and obtain separate consent within 60 days",
+     "source": 1,
+     "quote": "It has given Meta ... 60 days to disable the feature by default and seek users' consent separately.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Meta said it would appeal the fine, calling it disproportionate",
+     "source": 4,
+     "quote": "Meta plans to appeal and calls the fine \"disproportionate\", a spokesperson said in a statement reported by Reuters.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+     "published": "Sat, 14 Nov 2026 18:28:06 GMT",
+     "published_iso": "2026-11-14T18:28:06+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+     "published": "Sat, 14 Nov 2026 19:00:00 +0000",
+     "published_iso": "2026-11-14T19:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos",
+     "published": "Sun, 15 Nov 2026 02:02:01 GMT",
+     "published_iso": "2026-11-15T02:02:01+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+     "published": "Sun, 15 Nov 2026 16:57:31 +0530",
+     "published_iso": "2026-11-15T11:27:31+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos/",
+     "published": "Sun, 15 Nov 2026 17:44:06 +0000",
+     "published_iso": "2026-11-15T17:44:06+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+    "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+    "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos",
+    "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+    "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Guardian Media Group, Yahoo, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: The so_what section stated '0.4-0.5%', but sources state 0.4% or approximately 0.47%."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-15-faa-lifts-third-nationwide-ground-stop-amid-equipment-issues-6d3b9",
+   "date": "2026-11-15",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "FAA lifts third nationwide ground stop amid equipment issues",
+   "in_brief": "The Federal Aviation Administration ended a nationwide ground stop that began Friday afternoon, clearing domestic flights to resume at 8:35 pm EST. Officials said aging analog equipment and a routine router upgrade triggered network instability, but the exact cause remains undetermined.",
+   "so_what": "The stoppage, the third of its kind in the 21st century, affected over a million travelers and led to the cancellation of more than 8,200 flights on Friday, with additional cancellations the following day. Transportation Secretary Sean Duffy linked the disruption to outdated analog systems and a recent upgrade of copper wire to fiber‑optic cable by contractor L3Harris, while FAA Administrator Bryan Bedford said the root cause has not been identified and emphasized that router replacements are routine maintenance, not part of the agency’s modernization budget. The incident highlights ongoing concerns about the FAA’s aging infrastructure, the integration of new technology such as AI tools, and the need for additional funding that Duffy has requested from Congress. Observers will watch the FAA’s forthcoming root‑cause analysis and any legislative response to address equipment upgrades and network reliability.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The FAA lifted its third-ever nationwide ground stop, allowing domestic flights to resume at 8:35 pm EST.",
+     "source": 1,
+     "quote": "Domestic flights were cleared to begin taking off at 8:35 pm EST.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The FAA has not determined the root cause of the ground stop, noting instability in routers and networking equipment.",
+     "source": 2,
+     "quote": "What we saw was instability. We couldn't explain the instability,",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Transportation Secretary Sean Duffy said a routine upgrade of copper wire to fiber‑optic cable by L3Harris led to a router overload that caused the ground stop.",
+     "source": 3,
+     "quote": "During “routine maintenance,” copper wire at a remote location was upgraded to fiber optic cable by L3Harris... After the upgrade, a router overloaded a critical communication system, leading to the ground stop.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+     "published": "Fri, 13 Nov 2026 23:17:38 +0000",
+     "published_iso": "2026-11-13T23:17:38+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
+     "published": "Sat, 14 Nov 2026 22:54:47 GMT",
+     "published_iso": "2026-11-14T22:54:47+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+     "published": "Sat, 14 Nov 2026 17:45:04 +0000",
+     "published_iso": "2026-11-14T17:45:04+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+    "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
+    "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/",
+    "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-15-us-treasury-chief-blames-commerce-dept-over-nvidia-chip-expo-0c6b4",
+   "date": "2026-11-15",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "US Treasury chief blames Commerce Dept over Nvidia chip export delays",
+   "in_brief": "Treasury Secretary Scott Bessent said the Commerce Department failed to act on export controls for Nvidia AI chips, and Nvidia CEO Jensen Huang resigned amid allegations of an affair with a suspected Chinese spy. Commerce Secretary Howard Lutnick is set to testify before Congress next month.",
+   "so_what": "The dispute highlights tensions within the Trump administration over national‑security safeguards for advanced technology. Bessent’s criticism suggests the Commerce Department may have delayed adding Singapore‑based Megaspeed to the export blacklist, potentially allowing high‑performance AI chips to reach China. Huang’s resignation adds pressure on Nvidia to demonstrate compliance and internal controls, while Lutnick’s upcoming congressional testimony will likely focus on the department’s handling of export restrictions and any possible conflicts of interest linked to his former firm. Observers will watch for any policy changes, further congressional inquiries, and how the administration balances trade interests with security concerns.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "Treasury Secretary Scott Bessent blamed the Commerce Department for failing to properly oversee export of high‑spec AI chips",
+     "source": 1,
+     "quote": "US Treasury Secretary Scott Bessent has blamed Howard Lutnick's Commerce Department for failing to properly oversee the export of high-spec AI chips",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nvidia CEO Jensen Huang resigned after reports of an affair with a suspected Chinese spy",
+     "source": 2,
+     "quote": "Jensen Huang resigned from Nvidia on Thursday, and was replaced on an interim basis by the company’s chief financial officer, Colette Kress, after reports emerged of his multiple affairs, most importantly with Alice Huang (no relation), who is suspected of being a Chinese spy",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Comcast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Commerce Secretary Howard Lutnick is scheduled to testify before Congress next month",
+     "source": 2,
+     "quote": "Lutnick is now scheduled to testify before Congress next month",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+     "published": "Fri, 13 Nov 2026 19:53:57 GMT",
+     "published_iso": "2026-11-13T19:53:57+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+     "published": "Fri, 13 Nov 2026 19:51:28 GMT",
+     "published_iso": "2026-11-13T19:51:28+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+     "published": "Fri, 13 Nov 2026 23:42:18 GMT",
+     "published_iso": "2026-11-13T23:42:18+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+    "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Comcast, Guardian Media Group"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-15-astronomers-identify-white-dwarf-sun-like-binary-emitting-re-f03c8",
+   "date": "2026-11-15",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Astronomers Identify White Dwarf–Sun‑Like Binary Emitting Regular Radio Pulses",
+   "in_brief": "Researchers have found a binary star system 5,000 light‑years away where a white dwarf spins every eight minutes and sends out radio flashes. The discovery shows such signals can arise from a white dwarf paired with a Sun‑type star, expanding understanding of long‑period radio transients.",
+   "so_what": "The finding adds a new class of source to the catalog of long‑period radio transients, which have puzzled astronomers since 2022. Previously, similar bursts were linked only to white dwarfs orbiting small red dwarfs; this system demonstrates that a Sun‑like companion can also produce the phenomenon. By pinpointing the pulses to a region near the white dwarf, the study offers a clearer target for theoretical models of magnetic interactions and particle acceleration in binary systems. Future observations with radio arrays such as MeerKAT and the Murchison Widefield Array will test whether other Sun‑type companions generate comparable emissions, potentially refining estimates of how common these events are in the Milky Way.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific discovery",
+   "claims": [
+    {
+     "claim": "A binary system over 5,000 light‑years away contains a white dwarf that rotates every eight minutes and a companion that closely resembles the Sun.",
+     "source": 1,
+     "quote": "Astronomers have traced mysterious radio signals to an unusual pair of stars more than 5,000 light-years from Earth. One is a dead star that rotates every eight minutes, while its companion closely resembles our own Sun.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The system, designated GPM J071507−114153, is the first long‑period radio transient identified with a white dwarf orbiting a G‑type star similar to the Sun.",
+     "source": 1,
+     "quote": "The stellar system, designated GPM J071507−114153, contains a white dwarf and a G-type star orbiting one another.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Radio pulses are detected for about six hours each 32‑hour orbit, appearing when the two stars align.",
+     "source": 2,
+     "quote": "The pulses only appear during a window of about six hours, followed by 26 hours without pulses. The most natural explanation is that the system is a binary: two stars orbiting each other once every 32 hours, with the radio pulses only visible when they are lined up in the right way.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "ScienceDaily",
+     "owner": "sciencedaily.com",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+     "published": "Sun, 15 Nov 2026 08:04:09 EST",
+     "published_iso": "2026-11-15T13:04:09+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html",
+     "published": "Sat, 14 Nov 2026 16:00:01 EST",
+     "published_iso": "2026-11-14T21:00:01+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+    "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html"
+   ],
+   "primary": [
+    {
+     "url": "http://dx.doi.org/10.1038/s41550-026-03016-z",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://dx.doi.org/10.1038/s41550-026-03016-z"
+    },
+    {
+     "url": "https://www.nature.com/articles/s41550-026-03016-z",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/s41550-026-03016-z"
+    }
+   ],
+   "truth": {
+    "total": 47,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: phys.org, sciencedaily.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-15-stanford-study-links-hidden-brain-activity-patterns-to-early-2a865",
+   "date": "2026-11-15",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Stanford study links hidden brain activity patterns to early Alzheimer’s risk",
+   "in_brief": "Stanford researchers identified subtle brain activity patterns that can forecast Alzheimer’s disease years before symptoms appear. The findings suggest a new scoring system may detect risk earlier than current biomarkers.",
+   "so_what": "The discovery offers a potential shift in how Alzheimer’s risk is assessed, moving from late-stage protein markers to early neural communication patterns. By analyzing brain activity in older adults, the researchers created a scoring system that distinguishes between individuals likely to develop cognitive decline and those who may remain cognitively resilient, termed \"super agers.\" This approach outperformed traditional indicators such as demographics, genetics, and amyloid‑beta or tau levels, indicating a more sensitive early warning tool. If validated, the method could enable earlier interventions, inform clinical trial recruitment, and guide preventive strategies before irreversible brain changes occur. Future research will need to test the scoring system in broader populations and explore whether modifying these activity patterns can alter disease trajectories.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Hidden brain activity patterns can predict Alzheimer’s risk years before symptoms develop.",
+     "source": 1,
+     "quote": "hidden patterns of brain activity may reveal the risk of Alzheimer's disease years before memory problems develop",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The new scoring system predicted future cognitive decline more effectively than several established indicators.",
+     "source": 1,
+     "quote": "The new scoring system predicted future cognitive decline more effectively than several established indicators, including demographic characteristics, genetic risk factors, and amyloid-beta and tau biomarkers",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Researchers created a scoring system using differences between Alzheimer’s patients and super agers to evaluate healthy adults aged 55 to 70.",
+     "source": 1,
+     "quote": "Using the differences between these groups, the scientists created a scoring system to evaluate brain activity in cognitively healthy adults between 55 and 70",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "ScienceDaily",
+     "owner": "sciencedaily.com",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
+     "published": "Sat, 14 Nov 2026 07:25:05 EST",
+     "published_iso": "2026-11-14T12:25:05+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+    "https://www.sciencedaily.com/releases/2026/11/261112230444.htm"
+   ],
+   "primary": [
+    {
+     "url": "http://dx.doi.org/10.1016/j.ynirp.2026.100392",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://dx.doi.org/10.1016/j.ynirp.2026.100392"
+    },
+    {
+     "url": "https://med.stanford.edu/news/all-news/2026/11/alzheimers-brain-activity.html",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://med.stanford.edu/news/all-news/2026/11/alzheimers-brain-activity.html"
+    }
+   ],
+   "truth": {
+    "total": 44,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: sciencedaily.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-15-nvidia-ceo-jensen-huang-resigns-amid-alleged-affairs-and-esp-730bb",
+   "date": "2026-11-15",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Nvidia CEO Jensen Huang resigns amid alleged affairs and espionage concerns",
+   "in_brief": "Jensen Huang stepped down as Nvidia's president, CEO and board member after 33 years following reports of three extramarital affairs, one linked to a suspected Chinese spy. The resignation triggered a sharp drop in Nvidia's stock and prompted a board search for a successor.",
+   "so_what": "Huang's departure marks a rare leadership upheaval at a company valued at roughly $4 trillion that sits at the core of the U.S. AI and semiconductor sectors. The scandal intertwines personal misconduct with national‑security worries, as U.S. intelligence officials have reportedly linked one of the relationships to a Singapore‑based executive suspected of gathering information for Beijing. Nvidia's board launched an independent investigation, though it said it had no evidence that company secrets were compromised. The stock fell more than 14% at the open before closing down about 4.6%, affecting investors and firms tied to Nvidia's AI data‑center ecosystem. Watch for the board's choice of a new CEO, the outcome of the investigation, and any regulatory or export‑control actions that could follow.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Jensen Huang resigned as Nvidia's CEO after 33 years following reports of three extramarital affairs, one involving a person U.S. officials suspect of spying for China",
+     "source": 2,
+     "quote": "Jensen Huang resigned Thursday as Nvidia’s CEO after 33 years, following reports of three extramarital affairs—one involving an executive U.S. intelligence reportedly suspected of China ties.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nvidia's stock dropped more than 14% at the open before closing down about 4.6% after Huang's resignation",
+     "source": 2,
+     "quote": "Nvidia’s stock cratered more than 14% at the open on Thursday before clawing back to close down about 4.6%.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The board opened an independent investigation into whether Huang was the target of a foreign intelligence operation",
+     "source": 2,
+     "quote": "Nvidia’s board opened an independent investigation into whether Huang had been the target of a foreign intelligence operation, though it said it had no reason to believe company secrets or national security were compromised.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+     "published": "Sun, 15 Nov 2026 06:00:06 GMT",
+     "published_iso": "2026-11-15T06:00:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo",
+     "published": "Sat, 14 Nov 2026 18:01:02 +0000",
+     "published_iso": "2026-11-14T18:01:02+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+    "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+    "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cia.gov/readingroom/docs/CIA-RDP90-00965R000201730002-0.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cia.gov/readingroom/docs/CIA-RDP90-00965R000201730002-0.pdf"
+    }
+   ],
+   "truth": {
+    "total": 54,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Guardian Media Group, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-14-former-nvidia-ceo-jensen-huang-and-commerce-secretary-howard-2884c",
+    "date": "2026-11-14",
+    "label": "Confirmed",
+    "score": 82
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 282,
+  "stories_considered": 12,
+  "published": 9,
+  "outlets": 29
+ }
+}
