@@ -7053,5 +7053,145 @@
   "also_covered_urls": [
    "https://www.engadget.com/2314524/why-scammers-keep-you-on-phone/"
   ]
+ },
+ {
+  "id": "2026-11-17-optimizely-breach-injects-malicious-javascript-into-178-cust-589a6",
+  "date": "2026-11-17",
+  "section": "threat",
+  "headline": "Optimizely breach injects malicious JavaScript into 178 customer sites",
+  "label": "Well-sourced",
+  "score": 71,
+  "also_covered_urls": [
+   "https://therecord.media/optimizely-malicious-code-customer-sites",
+   "https://www.helpnetsecurity.com/2026/11/17/optimizely-vulnerability-malicious-javascript/",
+   "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+   "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+   "https://www.theregister.com/cyber-crime/2026/11/17/optimizely-hack-turns-worlds-biggest-websites-into-malware-dispensers/5310448",
+   "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+   "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack",
+   "https://decrypt.co/383414/optimizely-hack-hijacked-ledger-bbc-and-176-other-sites-to-swap-crypto-wallet-addresses"
+  ]
+ },
+ {
+  "id": "2026-11-17-microsoft-tests-remote-lock-for-lost-or-stolen-windows-11-de-62436",
+  "date": "2026-11-17",
+  "section": "threat",
+  "headline": "Microsoft tests Remote Lock for lost or stolen Windows 11 devices",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+   "https://www.zdnet.com/tech/microsoft-preview-remote-lock-intune-windows-devices/",
+   "https://www.theregister.com/os-platforms/2026/11/17/windows-11-previews-remote-padlock-only-it-can-open/5310402",
+   "https://www.theregister.com/os-platforms/2026/11/17/windows-11-previews-remote-padlock-only-it-can-open/5310402"
+  ]
+ },
+ {
+  "id": "2026-11-17-california-sues-openai-over-ai-agents-that-escaped-sandboxes-b8dfd",
+  "date": "2026-11-17",
+  "section": "threat",
+  "headline": "California sues OpenAI over AI agents that escaped sandboxes and hacked Hugging Face",
+  "label": "Confirmed",
+  "score": 78,
+  "also_covered_urls": [
+   "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+   "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+   "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+   "https://www.theregister.com/ai-and-ml/2026/11/16/california-sues-openai-for-misleading-public-about-ai-safety/5310297"
+  ]
+ },
+ {
+  "id": "2026-11-17-apple-reports-widespread-service-outages-affecting-icloud-an-39ba0",
+  "date": "2026-11-17",
+  "section": "ai",
+  "headline": "Apple reports widespread service outages affecting iCloud and other platforms",
+  "label": "Developing",
+  "score": 44,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+   "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+   "https://www.engadget.com/2319504/icloud-and-other-apple-services-are-down-in-an-apparent-outage/",
+   "https://developer.apple.com/system-status/"
+  ]
+ },
+ {
+  "id": "2026-11-17-google-launches-new-ask-maps-features-for-holiday-travel-fd09a",
+  "date": "2026-11-17",
+  "section": "ai",
+  "headline": "Google launches new Ask Maps features for holiday travel",
+  "label": "Confirmed",
+  "score": 82,
+  "also_covered_urls": [
+   "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+   "https://www.zdnet.com/tech/google-ask-maps-new-features-holiday-travel/",
+   "https://www.engadget.com/2315026/google-maps-hidden-features-users-should-know/"
+  ]
+ },
+ {
+  "id": "2026-11-17-openai-launches-gpt-6-2-astra-and-sol-models-with-lower-pric-517fc",
+  "date": "2026-11-17",
+  "section": "ai",
+  "headline": "OpenAI launches GPT-6.2 Astra and Sol models with lower pricing and trailing benchmark scores",
+  "label": "Well-sourced",
+  "score": 62,
+  "also_covered_urls": [
+   "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark"
+  ]
+ },
+ {
+  "id": "2026-11-17-single-1-megaton-nuclear-blast-in-low-earth-orbit-could-disa-2ae45",
+  "date": "2026-11-17",
+  "section": "science",
+  "headline": "Single 1‑Megaton Nuclear Blast in Low Earth Orbit Could Disable Most Satellites",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://phys.org/news/2026-11-nuclear-blast-cripple-satellite-earth.html",
+   "https://arxiv.org/abs/2611.09827"
+  ]
+ },
+ {
+  "id": "2026-11-17-nasa-launches-bps-digital-avatar-challenge-to-develop-astron-f3783",
+  "date": "2026-11-17",
+  "section": "science",
+  "headline": "NASA launches BPS Digital AVATAR Challenge to develop astronaut health digital twins",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/"
+  ]
+ },
+ {
+  "id": "2026-11-17-nvidia-board-says-no-plans-to-reinstate-ceo-jensen-huang-2795a",
+  "date": "2026-11-17",
+  "section": "money",
+  "headline": "Nvidia board says no plans to reinstate CEO Jensen Huang",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
+   "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
+   "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+   "https://decrypt.co/383454/jensen-huang-honored-return-nvidia-ceo-board-resistance",
+   "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+   "https://decrypt.co/383411/nvidia-board-not-considering-jensen-huangs-return-report"
+  ]
+ },
+ {
+  "id": "2026-11-17-us-banks-experience-service-disruptions-after-jpmorgan-chase-5c788",
+  "date": "2026-11-17",
+  "section": "money",
+  "headline": "US banks experience service disruptions after JPMorgan Chase software bug",
+  "label": "Well-sourced",
+  "score": 68,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+   "https://www.wired.com/story/jpmorganchase-bank-outage-oh-come-on/",
+   "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
+  ]
  }
 ]

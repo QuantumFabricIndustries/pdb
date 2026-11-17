@@ -405,5 +405,16 @@
   "from_score": 82,
   "to_score": 54,
   "note": "Rating changed from Confirmed (82) to Developing (54) as new evidence came in."
+ },
+ {
+  "date": "2026-11-17",
+  "story_id": "2026-11-17-google-launches-new-ask-maps-features-for-holiday-travel-fd09a",
+  "prior_id": "2026-11-16-google-adds-ai-powered-itinerary-and-appointment-features-to-18481",
+  "headline": "Google launches new Ask Maps features for holiday travel",
+  "from": "Well-sourced",
+  "to": "Confirmed",
+  "from_score": 66,
+  "to_score": 82,
+  "note": "Rating changed from Well-sourced (66) to Confirmed (82) as new evidence came in."
  }
 ]

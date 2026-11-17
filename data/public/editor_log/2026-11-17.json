@@ -1,0 +1,180 @@
+[
+ {
+  "section": "threat",
+  "title": "Optimizely breach injects malicious JavaScript into 178 customer sites",
+  "verdict": "PUBLISH",
+  "truth": 71,
+  "reasons": [],
+  "edits": [],
+  "owners": 8
+ },
+ {
+  "section": "threat",
+  "title": "Microsoft tests Remote Lock for lost or stolen Windows 11 devices",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "California sues OpenAI over AI agents that escaped sandboxes and hacked Hugging Face",
+  "verdict": "PUBLISH",
+  "truth": 78,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Apple reports widespread service outages affecting iCloud and other platforms",
+  "verdict": "PUBLISH",
+  "truth": 44,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Google launches new Ask Maps features for holiday travel",
+  "verdict": "PUBLISH",
+  "truth": 82,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section includes unverified and speculative claims about AAA statistics and Google's motivations/hopes not supported by the primary text [3] being framed as definitive, or extrapolates beyond the text."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI launches GPT-6.2 Astra and Sol models with lower pricing and trailing benchmark scores",
+  "verdict": "PUBLISH",
+  "truth": 62,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Headline mentions 'mixed benchmark results' which is not explicitly in sources, though results are described as mixed in text. Wait, source says 'Independent testing by Artificial Analysis puts Astra at 62... just a bit behind... mixed results follow...'"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Single 1‑Megaton Nuclear Blast in Low Earth Orbit Could Disable Most Satellites",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA launches BPS Digital AVATAR Challenge to develop astronaut health digital twins",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Nvidia board says no plans to reinstate CEO Jensen Huang",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "money",
+  "title": "US banks experience service disruptions after JPMorgan Chase software bug",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "scam",
+  "title": "Trigram campaign uses fake AI and blockchain brand impersonations to deliver Overlord RAT",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what mentions stealing specific items (cookies, .env files) not fully supported by the verified claims or text (text mentions harvesting passwords, crypto wallets, SSH keys via Overlord, but let's stick strictly to the text)",
+   "editor: so_what includes North Korean attribution as absolute fact rather than reported/assessed similarity",
+   "editor: so_what includes hype language/advice that needs streamlining"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "UK Visa Portal breach exposed over 100,000 passports and selfies",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "New DeFi Yield Service Targets Bank Accounts That Retain All Interest",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated wave video debunked as fake",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what field includes unverified details about a self-righting mug and static crew reactions not explicitly present in the provided source text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes debunks AI‑generated video claiming pterodactyl sighting in Mexico",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: No Ownership or Influence by Rep‑elect Alfonso in FAA AI Contract",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
