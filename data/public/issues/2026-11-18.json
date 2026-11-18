@@ -1,0 +1,1542 @@
+{
+ "date": "2026-11-18",
+ "built_at": "2026-11-18T21:32:30.798430+00:00",
+ "stories": [
+  {
+   "id": "2026-11-18-critical-java4shell-flaw-in-openjdk-patched-unauthenticated-a92b5",
+   "date": "2026-11-18",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Critical Java4Shell flaw in OpenJDK patched; unauthenticated RCE risk for enterprise apps",
+   "in_brief": "A memory‑corruption bug in OpenJDK’s Base64 decoder (CVE‑2026‑114938) enables unauthenticated remote code execution on several popular Java applications. Oracle and the OpenJDK project released patches on 17 Nov 2026, and experts urge immediate updates.",
+   "so_what": "The Java4Shell vulnerability exploits a fast‑path Base64 decoder that runs only on x86‑64 CPUs with AVX‑512 VBMI support. Because many enterprise tools share the same Java runtime, the flaw can affect a wide range of unrelated services, from identity providers like Keycloak to CI/CD platforms such as Jenkins. While exploitation requires specific hardware and careful payload construction, successful attacks could expose sensitive memory (a “JavaBleed” effect) or allow attackers to run arbitrary code without a login. Organizations running the listed applications should verify they are on patched Java versions and monitor for unusual Base64‑related traffic. Future watch points include vendor‑specific fixes for Red Hat OpenJDK and any emerging exploit code targeting the narrow hardware subset.",
+   "what_to_do": "1. Apply the November 17 2026 Java updates from Oracle or your JDK vendor (e.g., Amazon Corretto, Eclipse Temurin, Microsoft Build of OpenJDK). 2. Update affected applications (Keycloak, Jira, Confluence, Jenkins, etc.) to the latest releases that bundle the patched JDK. 3. Verify the Java runtime version is 17.0.6 or later and that the processor does not expose the vulnerable AVX‑512 VBMI path.",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting with multiple sources and no single self‑interested narrative",
+   "claims": [
+    {
+     "claim": "Java4Shell is a critical memory‑corruption flaw in OpenJDK’s Base64 decoder affecting OpenJDK 17.0.6 and later and multiple Java distributions.",
+     "source": 1,
+     "quote": "Java4Shell affects OpenJDK 17.0.6 and later, as well as Java distributions built from the affected code, including Oracle Java SE, Amazon Corretto, Eclipse Temurin, Microsoft Build of OpenJDK, Azul Zulu, and Red Hat OpenJDK.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "malwarebytes.com",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw enables unauthenticated remote code execution on applications such as Keycloak, Atlassian Jira, Confluence, JFrog Artifactory, Jenkins and PingFederate.",
+     "source": 1,
+     "quote": "The researchers have been able to exploit this bug to perform remote code execution against a variety of widely used Java applications ... Unauthenticated RCE: Keycloak, Atlassian Jira, Atlassian Confluence, JFrog Artifactory, Jenkins, and PingFederate.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "malwarebytes.com",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Oracle and the OpenJDK project released patches for CVE‑2026‑114938 on 17 Nov 2026.",
+     "source": 3,
+     "quote": "The fix was released today by Oracle and the OpenJDK project, whose open-source code underpins Java builds from many vendors.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com",
+      "malwarebytes.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+     "published": "Tue, 17 Nov 2026 18:04:21 -0500",
+     "published_iso": "2026-11-17T23:04:21+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+     "published": "Wed, 18 Nov 2026 07:43:34 +0000",
+     "published_iso": "2026-11-18T07:43:34+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+     "published": "Wed, 18 Nov 2026 17:25:49 +0530",
+     "published_iso": "2026-11-18T11:55:49+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/bugs/2026/11/java4shell-a-critical-flaw-with-a-narrow-reach",
+     "published": "Wed, 18 Nov 2026 11:41:07 GMT",
+     "published_iso": "2026-11-18T11:41:07+00:00",
+     "kind": "vendor",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
+     "published": "Wed, 18 Nov 2026 11:12:12 +0000",
+     "published_iso": "2026-11-18T11:12:12+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+    "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+    "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+    "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "https://www.malwarebytes.com/blog/bugs/2026/11/java4shell-a-critical-flaw-with-a-narrow-reach",
+    "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+    "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-114938",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-114938"
+    },
+    {
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+     "type": "official record",
+     "verified": true,
+     "label": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
+    }
+   ],
+   "truth": {
+    "total": 97,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: bleepingcomputer.com, helpnetsecurity.com, malwarebytes.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6
+  },
+  {
+   "id": "2026-11-18-british-hacker-sentenced-to-six-years-for-11-6-million-crypt-cac60",
+   "date": "2026-11-18",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "British hacker sentenced to six years for $11.6 million crypto theft via SMS phishing",
+   "in_brief": "Tyler Robert Buchanan, a 24‑year‑old member of the Scattered Spider group, was sentenced in a U.S. federal court to six years in prison for a campaign that stole at least $11.6 million in cryptocurrency. The case highlights the ongoing threat of SMS‑phishing and SIM‑swap attacks against corporate employees and individual investors.",
+   "so_what": "The sentencing concludes a multi‑year, trans‑Atlantic investigation that linked a loose‑knit group of English‑speaking hackers to a series of large‑scale credential‑theft operations. By sending hundreds of fraudulent text messages to employees of telecom, technology and crypto firms, the gang harvested login details, moved victims' phone numbers via SIM swaps, and emptied cryptocurrency wallets, causing \"severe, life‑altering consequences\" for many victims. The case underscores the importance of robust multi‑factor authentication that does not rely solely on SMS, employee training to recognize phishing lures, and rapid incident response when credential compromise is suspected. Law‑enforcement coordination across the UK, US, Spain and Canada proved effective, but the rise of similar youth‑driven collectives suggests continued risk. Organizations should monitor for unusual authentication attempts, audit access logs, and consider hardware‑based authentication methods to mitigate future attacks.",
+   "what_to_do": "1. Deploy authentication methods that do not rely on SMS (e.g., authenticator apps or hardware tokens). 2. Conduct regular employee phishing awareness training, emphasizing suspicious SMS links. 3. Review and secure SIM‑swap processes with mobile carriers and monitor for unexpected number port‑outs.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Buchanan was sentenced to six years in U.S. federal prison for a scheme that stole at least $11.6 million in cryptocurrency",
+     "source": 1,
+     "quote": "British hacker has been sentenced to six years in a federal prison in the US for conspiring to hack into at least a dozen companies via text message phishing, and stealing more than $11.6m (£8.8m) in cryptocurrency",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "decrypt.co",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The attackers used SIM‑swap techniques to gain access to victims' cryptocurrency wallets",
+     "source": 5,
+     "quote": "The group used information stolen from those companies to identify individual crypto holders, then carried out SIM swaps, tricking mobile carriers into moving victims' phone numbers to devices they controlled",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The group sent hundreds of SMS phishing messages to employees of telecom, technology and crypto companies between September 2021 and April 2023",
+     "source": 2,
+     "quote": "Buchanan and his accomplices sent hundreds of SMS phishing messages to victim companies' employees' phones ... between September 2021 and April 2023",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
+     "published": "Wed, 18 Nov 2026 09:28:35 GMT",
+     "published_iso": "2026-11-18T09:28:35+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+     "published": "Wed, 18 Nov 2026 03:24:18 -0500",
+     "published_iso": "2026-11-18T08:24:18+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
+     "published": "Wed, 18 Nov 2026 13:19:32 +0000",
+     "published_iso": "2026-11-18T13:19:32+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/18/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/",
+     "published": "Wed, 18 Nov 2026 14:55:13 +0000",
+     "published_iso": "2026-11-18T14:55:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto",
+     "published": "Wed, 18 Nov 2026 10:17:17 +0000",
+     "published_iso": "2026-11-18T10:17:17+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
+    "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+    "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
+    "https://techcrunch.com/2026/11/18/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/",
+    "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/usao-cdca/pr/british-national-sentenced-6-years-federal-prison-hacking-companies-and-stealing-least",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/usao-cdca/pr/british-national-sentenced-6-years-federal-prison-hacking-companies-and-stealing-least"
+    }
+   ],
+   "truth": {
+    "total": 69,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Yahoo, bleepingcomputer.com, decrypt.co, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-18-optimizely-breach-injects-malware-into-scripts-of-178-major-606f5",
+   "date": "2026-11-18",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Optimizely breach injects malware into scripts of 178 major websites",
+   "in_brief": "A vulnerability in Optimizely’s Experimentation platform was exploited to serve malicious JavaScript on at least 178 high‑traffic sites, including the BBC, CNN and Ledger. The injected code swapped crypto wallet addresses and attempted to skim payment data, prompting Optimizely to patch the flaw and remove the code.",
+   "so_what": "The incident highlights the risks of third-party services delivering client-side code, allowing trusted scripts to be compromised without the host site's infrastructure being breached. Optimizely responded by patching the vulnerability, removing the injected code, revoking tokens, and implementing additional security measures. Organizations must carefully monitor third-party dependencies and script behavior to mitigate supply chain risks.",
+   "what_to_do": "1. Review and restrict third‑party JavaScript sources on your site; use subresource integrity where possible. 2. Apply Optimizely’s latest patch and rotate any API tokens or credentials associated with the platform. 3. Monitor for unauthorized wallet address changes and check recent crypto transactions for anomalies.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "Malicious JavaScript was served to visitors of 178 organizations through Optimizely’s platform on November 16.",
+     "source": 1,
+     "quote": "According to a blog post from the security firm Report URI, on November 16 malicious JavaScript code was served to visitors of 178 organizations through Optimizely’s platform.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The injected code swapped crypto wallet addresses and stole about $7,150 before the wallets were emptied.",
+     "source": 4,
+     "quote": "The code swapped any crypto wallet address on a page or clipboard for the attacker's, and the attacker's wallets received about $7,150 before being emptied.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Optimizely identified the incident, blocked the vulnerable path, deployed a fix and revoked tokens.",
+     "source": 1,
+     "quote": "We acted swiftly to contain the incident and have fully remediated the identified vulnerability… blocking access to the vulnerable path, deploying a fix, removing the injected code… revoking tokens, and resetting access for affected user accounts.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Krebs on Security",
+     "owner": "krebsonsecurity.com",
+     "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+     "published": "Wed, 18 Nov 2026 02:52:04 +0000",
+     "published_iso": "2026-11-18T02:52:04+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/cyber-crime/2026/11/17/optimizely-hack-turns-worlds-biggest-websites-into-malware-dispensers/5310448",
+     "published": "Tue, 17 Nov 2026 14:00:00 +0000",
+     "published_iso": "2026-11-17T14:00:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+     "published": "Tue, 17 Nov 2026 12:42:13 +0530",
+     "published_iso": "2026-11-17T07:12:13+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383414/optimizely-hack-hijacked-ledger-bbc-and-176-other-sites-to-swap-crypto-wallet-addresses",
+     "published": "Tue, 17 Nov 2026 11:05:25 +0000",
+     "published_iso": "2026-11-17T11:05:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Dark Reading",
+     "owner": "Informa TechTarget",
+     "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+     "published": "Tue, 17 Nov 2026 22:34:22 GMT",
+     "published_iso": "2026-11-17T22:34:22+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+    "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+    "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+    "https://www.theregister.com/cyber-crime/2026/11/17/optimizely-hack-turns-worlds-biggest-websites-into-malware-dispensers/5310448",
+    "https://decrypt.co/383414/optimizely-hack-hijacked-ledger-bbc-and-176-other-sites-to-swap-crypto-wallet-addresses"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 69,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Informa TechTarget, Situation Publishing, decrypt.co, krebsonsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: The so_what section contained specific financial loss figures ($7,150) and details about stealing payment card data and outdated iOS devices that were either not fully supported by all sources in the exact way framed, or included extraneous speculation. Let's align it strictly with the verified facts."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5,
+   "previously": {
+    "id": "2026-11-17-optimizely-breach-injects-malicious-javascript-into-178-cust-589a6",
+    "date": "2026-11-17",
+    "label": "Well-sourced",
+    "score": 71
+   }
+  },
+  {
+   "id": "2026-11-18-cftc-orders-kalshi-to-halt-trump-mention-prediction-contract-2d2e5",
+   "date": "2026-11-18",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "CFTC orders Kalshi to halt Trump‑mention prediction contracts",
+   "in_brief": "The U.S. Commodity Futures Trading Commission directed prediction market Kalshi to stop offering contracts that bet on words President Donald Trump might say. Kalshi paused the contracts while the agency reviews compliance with federal law.",
+   "so_what": "The order reflects regulatory concern that contracts tied to a specific individual's speech pose manipulation risks and may violate the Commodity Exchange Act. It follows a prior CFTC settlement with a former White House teleprompter aide who profited from insider knowledge of Trump’s remarks. Kalshi’s compliance underscores the agency’s willingness to enforce its authority over emerging prediction‑market platforms, which have faced scrutiny for potential gambling violations. Observers will watch for the CFTC’s forthcoming proceeding to assess whether Kalshi’s certification was false and for any broader impact on similar markets that allow bets on political figures’ statements.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "The CFTC ordered Kalshi to stop offering event contracts that pay out based on whether President Trump will say a specific word before a particular date.",
+     "source": 1,
+     "quote": "The Trump administration ordered prediction market Kalshi to stop offering event contracts that pay out based on whether President Trump will say a specific word before a particular date.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Kalshi paused trading in the Trump‑mention contracts in compliance with the CFTC order.",
+     "source": 2,
+     "quote": "The prediction market has complied with the order, although Kalshi CEO Tarek Mansour said he is opposed to pausing these bets.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "coindesk.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Former White House teleprompter aide Gabriel Perez was required to disgorge $107,539.02 and pay a $65,000 civil penalty for betting on Trump’s speeches.",
+     "source": 1,
+     "quote": "On August 28, the CFTC required the man, Gabriel Perez, to disgorge profits of $107,539.02 and pay a civil penalty of $65,000.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-orders-kalshi-to-halt-wagers-on-what-words-trump-will-say/",
+     "published": "Wed, 18 Nov 2026 18:46:08 +0000",
+     "published_iso": "2026-11-18T18:46:08+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2320023/kalshi-ordered-to-stop-letting-people-bet-on-trump-speeches/",
+     "published": "Tue, 17 Nov 2026 23:00:06 +0000",
+     "published_iso": "2026-11-17T23:00:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/17/predictions-platform-kalshi-complies-with-order-to-halt-trump-mention-contracts",
+     "published": "Tue, 17 Nov 2026 19:16:00 +0000",
+     "published_iso": "2026-11-17T19:16:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/tech-policy/2026/11/trump-admin-orders-kalshi-to-halt-wagers-on-what-words-trump-will-say/",
+    "https://www.coindesk.com/policy/2026/11/17/predictions-platform-kalshi-complies-with-order-to-halt-trump-mention-contracts",
+    "https://www.engadget.com/2320023/kalshi-ordered-to-stop-letting-people-bet-on-trump-speeches/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cftc.gov/filings/documents/2026/orgdcmkexorderinstproce261116.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cftc.gov/filings/documents/2026/orgdcmkexorderinstproce261116.pdf"
+    },
+    {
+     "url": "https://www.cftc.gov/PressRoom/PressReleases/9289-26",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.cftc.gov/PressRoom/PressReleases/9289-26"
+    }
+   ],
+   "truth": {
+    "total": 76,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Yahoo, coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-18-nvidia-ceo-jensen-huang-resigns-open-source-ai-plan-affirmed-497cd",
+   "date": "2026-11-18",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Nvidia CEO Jensen Huang resigns; open‑source AI plan affirmed amid petitions",
+   "in_brief": "Jensen Huang stepped down as Nvidia CEO after an internal probe into personal affairs, prompting a petition with over 115,000 signatures that includes Elon Musk. Nvidia’s interim CEO Colette Kress said the company’s open‑source AI strategy remains unchanged.",
+   "so_what": "Huang’s resignation follows revelations of an affair with Alice Huang and a subsequent internal investigation, raising concerns about potential conflicts of interest and national‑security implications. The move has spurred a grassroots campaign to reinstate him, gathering more than 115,000 signatures and drawing high‑profile support such as Elon Musk, highlighting the open‑source community’s reliance on his leadership. Despite the leadership shake‑up, Nvidia’s interim CEO Colette Kress reassured investors that the firm’s commitment to open‑source AI, including the pending Hugging Face acquisition and the Nemotron model ecosystem, stays on track. Stakeholders will watch Nvidia’s upcoming earnings report and the board’s search for a permanent CEO, as well as any regulatory scrutiny of the company’s disclosures and security practices.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced factual reporting",
+   "claims": [
+    {
+     "claim": "A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk",
+     "source": 1,
+     "quote": "A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Huang resigned four days after Nvidia launched an internal investigation into an affair he had admitted to having with Chinese businesswoman Alice Huang",
+     "source": 2,
+     "quote": "Huang resigned four days after Nvidia launched an internal investigation into an affair he had admitted to having with Chinese businesswoman Alice Huang",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Interim CEO Colette Kress reaffirmed Nvidia’s commitment to open‑source AI during the earnings call",
+     "source": 5,
+     "quote": "Nvidia interim CEO Colette Kress reaffirmed the company’s commitment to open source AI during Tuesday’s earnings call",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "MIT Tech Review",
+     "owner": "technologyreview.com",
+     "url": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
+     "published": "Tue, 17 Nov 2026 13:10:00 +0000",
+     "published_iso": "2026-11-17T13:10:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/",
+     "published": "Tue, 17 Nov 2026 17:32:24 +0000",
+     "published_iso": "2026-11-17T17:32:24+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/systems/2026/11/18/business-as-usual-but-huang-aint-coming-back-says-nvidia/5310772",
+     "published": "Wed, 18 Nov 2026 13:54:00 +0000",
+     "published_iso": "2026-11-18T13:54:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+     "published": "Tue, 17 Nov 2026 18:21:03 GMT",
+     "published_iso": "2026-11-17T18:21:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+     "published": "Tue, 17 Nov 2026 23:04:35 +0000",
+     "published_iso": "2026-11-17T23:04:35+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
+    "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/",
+    "https://www.theregister.com/systems/2026/11/18/business-as-usual-but-huang-aint-coming-back-says-nvidia/5310772",
+    "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+    "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03763-z",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/d41586-026-03763-z"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03752-2",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/d41586-026-03752-2"
+    }
+   ],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Condé Nast, Situation Publishing, Yahoo, technologyreview.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-18-hackers-access-uber-driver-license-data-via-stolen-credentia-c9592",
+   "date": "2026-11-18",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Hackers Access Uber Driver License Data via Stolen Credentials",
+   "in_brief": "Hackers obtained Uber drivers' license information after compromising login credentials, according to the ride‑hailing company. The breach highlights security risks for services handling personal data.",
+   "so_what": "The exposure of driver license data underscores vulnerabilities in credential management for large platforms that store sensitive personal information. Uber's disclosure that the breach stemmed from stolen credentials suggests that attackers may have used phishing or other methods to obtain login details, enabling unauthorized access to driver records. Such incidents can erode user trust, invite regulatory scrutiny, and prompt companies to reinforce authentication safeguards, including multi‑factor authentication and monitoring for anomalous access. Observers will watch how Uber and similar firms respond, whether they offer remediation to affected drivers, and if broader industry standards for credential security are tightened.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Hackers stole Uber drivers' license data",
+     "source": 1,
+     "quote": "Hackers smash 'n' grab AI vendor: Take off with license data of Uber drivers",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Stolen credentials allowed crooks to help themselves to driver's license data",
+     "source": 1,
+     "quote": "Ride-hailing biz says stolen credentials allowed crooks to help themselves to driver's license data",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The breach was reported by Uber",
+     "source": 1,
+     "quote": "Ride-hailing biz says",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/software/2026/11/17/inspiring-foss-project-crosspoint-reader-has-lessons-about-tech-communities-and-llms/5310424",
+     "published": "Tue, 17 Nov 2026 17:45:00 +0000",
+     "published_iso": "2026-11-17T17:45:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "crosspointreader.com",
+     "url": "https://crosspointreader.com",
+     "published": "Wed, 18 Nov 2026 17:14:31 +0000",
+     "published_iso": "2026-11-18T17:14:31+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theregister.com/software/2026/11/17/inspiring-foss-project-crosspoint-reader-has-lessons-about-tech-communities-and-llms/5310424",
+    "https://crosspointreader.com"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 47,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Situation Publishing, crosspointreader.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-18-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+   "date": "2026-11-18",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+   "in_brief": "A star slightly less massive than the Sun merged with a supergiant in the Andromeda galaxy, captured by NASA’s James Webb Space Telescope. The observation provides the first real‑time view of a giant‑star common‑envelope merger.",
+   "so_what": "The event marks the first direct observation of a massive star engulfing a smaller companion, a process that underpins many astrophysical phenomena such as the formation of neutron‑star and black‑hole binaries. By monitoring the system before, during, and shortly after the merger, scientists can test models of common‑envelope evolution, which remains one of the least understood stages of binary star life cycles. The rapid follow‑up—just 47 days after the eruption peaked—offers unprecedented detail on how the companion star spirals inward, strips the primary’s outer layers, and triggers a bright outburst. Future observations of similar systems will help refine predictions of stellar death pathways and the rates of gravitational‑wave progenitors.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific reporting",
+   "claims": [
+    {
+     "claim": "A star slightly less massive than the Sun merged with a puffy supergiant at the outskirts of the Andromeda galaxy.",
+     "source": 2,
+     "quote": "Researchers recently identified a first of its kind: A star slightly less massive than the Sun spiraled into and merged with a puffy supergiant star at the outskirts of our neighboring Andromeda galaxy.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "James Webb observed the merged star 47 days after the eruption peaked, the earliest such follow‑up.",
+     "source": 2,
+     "quote": "Webb observed Bao only 47 days after the stars’ eruption peaked, the earliest ever follow-up of an event like this.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The merger occurred after only seven orbits, roughly seven years, far fewer than typical binary mergers.",
+     "source": 2,
+     "quote": "the smaller star came into contact with the surface of the giant star, their “unification” happened after only seven orbits (about seven years).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03784-8",
+     "published": "2026-11-18",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+     "published": "Wed, 18 Nov 2026 16:00:00 +0000",
+     "published_iso": "2026-11-18T16:00:00+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03784-8",
+    "https://www.nature.com/articles/d41586-026-03273-y",
+    "https://www.nature.com/articles/s41586-026-11221-z",
+    "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.ztf.caltech.edu/",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.ztf.caltech.edu/"
+    },
+    {
+     "url": "https://noirlab.edu/public/programs/gemini-observatory/gemini-north/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://noirlab.edu/public/programs/gemini-observatory/gemini-north/"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03784-8",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 74,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-18-nasa-shares-holiday-stress-management-tips-focused-on-planni-a0ccb",
+   "date": "2026-11-18",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA shares holiday stress management tips focused on planning and self-care",
+   "in_brief": "NASA published wellness guidance offering practical tips to reduce holiday-related stress, emphasizing calendars, budgets, and personal boundaries to keep celebrations manageable.",
+   "so_what": "Managing holiday stress through structured planning, budgeting, and self-care helps individuals navigate busy seasons with realistic expectations.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely informational advice",
+   "claims": [
+    {
+     "claim": "The article recommends keeping a combined calendar of events to avoid overbooking.",
+     "source": 1,
+     "quote": "Having the majority of activities written down will help you not overbook, help you plan ahead",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "It advises setting a budget for gifts, groceries, travel and other holiday expenses.",
+     "source": 1,
+     "quote": "Prepare your budget – We often budget for gifts but forget that we will be buying more groceries for those special meals",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "NASA published an article on 18 Nov 2026 offering holiday stress‑management advice.",
+     "source": 1,
+     "quote": "published Wed, 18 Nov 2026 18:58:27 +0000",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]",
+      "not in source [1]: 18"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/",
+     "published": "Wed, 18 Nov 2026 18:58:27 +0000",
+     "published_iso": "2026-11-18T18:58:27+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: In_brief included a date (18 Nov 2026) not found in the source texts.",
+     "editor: So_what section introduced unsupported speculation about NASA internal communications, absenteeism, and broader trends not explicitly stated in the source."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-18-deutsche-bank-faces-fresh-scrutiny-after-leak-of-15-million-32dd4",
+   "date": "2026-11-18",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Deutsche Bank faces fresh scrutiny after leak of 15 million internal files",
+   "in_brief": "A leak of 15 million Deutsche Bank documents reportedly reveals the bank dismissed compliance warnings about risky clients, including Russian oligarchs, and processed suspicious payments. The revelations add to ongoing investigations into the bank’s past conduct and its handling of high-risk relationships.",
+   "so_what": "The disclosed files reportedly show Deutsche Bank repeatedly dismissed internal compliance alerts about dealing with high-profile Russian clients, prioritizing profit over risk controls. According to the investigations, the bank continued expanding its Russian business until 2021 despite warnings. Outside Russia, the bank faces scrutiny for allegedly processing almost $600 million in suspicious payments tied to Jeffrey Epstein. These findings revive concerns about the bank’s governance and could prompt tighter regulatory oversight and potential further reputational damage. Watch for regulatory responses in Germany and the EU, as well as any legal actions stemming from the disclosed transactions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "A leak of 15 million internal files showed Deutsche Bank ignored compliance warnings about risky clients.",
+     "source": 1,
+     "quote": "Deutsche Bank reportedly dismissed warnings about its dealings with risky clients, including high-profile Russian oligarchs, to protect profits, the findings of an investigation into a trove of leaked bank documents indicate.",
+     "status": "verified",
+     "corroborated_by": [
+      "inside-db.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The bank continued expanding its Russian business until 2021 despite internal warnings.",
+     "source": 1,
+     "quote": "...continued to expand its Russian business until 2021, despite warnings from internal compliance officers and growing geopolitical tensions between Nato allies and Moscow.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Deutsche Bank is accused of processing almost $600 million of suspicious payments linked to Jeffrey Epstein.",
+     "source": 1,
+     "quote": "Outside its Russian dealings, the German lender is facing fresh scrutiny for allegedly processing almost $600m (£454m) of suspicious payments linked to Epstein, much higher than previously known.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Guardian Business",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/business/2026/nov/17/deutsche-bank-dimissed-warnings-risky-clients-reports-claim",
+     "published": "Tue, 17 Nov 2026 13:35:39 GMT",
+     "published_iso": "2026-11-17T13:35:39+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "inside-db.com",
+     "url": "https://www.inside-db.com/",
+     "published": "Wed, 18 Nov 2026 15:38:33 +0000",
+     "published_iso": "2026-11-18T15:38:33+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theguardian.com/business/2026/nov/17/deutsche-bank-dimissed-warnings-risky-clients-reports-claim",
+    "https://www.inside-db.com/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 50,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Guardian Media Group, inside-db.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Source reports say the bank dismissed warnings (reports claim / investigations indicate), but draft states them as flat facts.",
+     "editor: Source states the bank allegedly resisted pulling out of Russia even after the invasion, and exited in March 2022, whereas the draft states the bank expanded until 2021 and only withdrew after the 2022 invasion."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-18-german-judge-offers-bitcoin-deal-to-end-movie2k-tax-evasion-b887d",
+   "date": "2026-11-18",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "German judge offers Bitcoin deal to end Movie2K tax evasion trial",
+   "in_brief": "A Leipzig judge proposed dropping charges against the alleged Movie2K operator if he surrenders 40,000 Bitcoin and pays €38 million. The offer could let the defendant retain roughly 16,000 Bitcoin, valued at about €940 million.",
+   "so_what": "The proposal illustrates how German authorities are navigating the challenge of recovering crypto assets linked to alleged crime while balancing legal uncertainties around mixed legitimate and illicit holdings. Prosecutors estimate the defendant controls about 56,000 Bitcoin, meaning the deal would return a substantial portion of the assets to the state treasury, which previously sold nearly 50,000 Bitcoin for €2.64 billion. The arrangement also reflects new legislative powers aimed at seizing crypto of unclear origin. Observers will watch whether the defendant accepts, how the remaining Bitcoin is handled, and how the precedent influences future crypto‑related prosecutions in Germany.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "A Leipzig judge offered to end the trial if the defendant hands over 40,000 BTC and pays €38 million.",
+     "source": 1,
+     "quote": "The presiding judge at the Leipzig Regional Court has offered to drop tax evasion and money laundering charges ... if he hands over 40,000 BTC, public broadcaster MDR reported",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Prosecutors believe the defendant still holds about 56,000 BTC.",
+     "source": 1,
+     "quote": "But prosecutors believe the defendant holds a total of about 56,000 BTC.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "If the deal is accepted, the defendant could keep around 16,000 BTC worth roughly €940 million.",
+     "source": 1,
+     "quote": "If he accepts, he could keep around 16,000 BTC, worth roughly €940 million ($1 billion) today",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire",
+     "published": "Wed, 18 Nov 2026 14:20:52 +0000",
+     "published_iso": "2026-11-18T14:20:52+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
+     "published": "Wed, 18 Nov 2026 15:38:38 +0000",
+     "published_iso": "2026-11-18T15:38:38+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
+    "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-18-manhattan-judge-acquits-mit-educated-brothers-in-25-million-7af05",
+   "date": "2026-11-18",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Manhattan Judge Acquits MIT-Educated Brothers in $25 Million Ethereum Exploit Case",
+   "in_brief": "A federal judge cleared Anton and James Peraire‑Bueno of wire fraud, conspiracy and money‑laundering charges tied to a 2023 Ethereum exploit that drained $25 million from trading bots. The ruling ends the prosecution without a retrial.",
+   "so_what": "The acquittal highlights the legal challenges of applying traditional fraud statutes to activities in blockchain’s “trustless, highly adversarial environment,” as noted by Judge Jessica Clarke. Prosecutors were unable to prove the brothers made a material misrepresentation, a key element of wire fraud, despite the alleged $25 million loss to automated sandwich bots. The case underscores the difficulty regulators face in defining wrongdoing in decentralized finance, where transaction ordering can be manipulated without clear terms of use. Market participants should monitor how future enforcement actions address MEV‑related strategies and whether new regulatory guidance emerges to protect bot operators and investors.",
+   "what_to_do": "1. Use reputable, audited MEV‑mitigation tools or services when running automated trading bots. 2. Regularly review and update your bot’s code to detect and block suspicious bait transactions. 3. Keep detailed logs of trades and monitor for unexpected losses to aid any potential legal or recovery efforts.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "A Manhattan federal judge acquitted Anton and James Peraire‑Bueno of all charges related to a $25 million Ethereum exploit.",
+     "source": 1,
+     "quote": "Judge Acquits MIT Brothers in $25M Ethereum MEV Case, Ending Prosecution.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The brothers were accused of exploiting a bug in a relay’s code to steal from sandwich bots, causing about $25 million in losses in roughly 12 seconds.",
+     "source": 1,
+     "quote": "According to the ruling, the brothers placed bait transactions ... they then swapped the bait transactions for trades that sold the tokens instead, leaving the bots with about $25 million in losses in roughly 12 seconds.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Judge Jessica Clarke said prosecutors failed to show the brothers made a material misrepresentation, a required element of wire fraud.",
+     "source": 1,
+     "quote": "To convict on wire fraud, prosecutors had to show the brothers made a material misrepresentation, and none of the government's theories did so, she found.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution",
+     "published": "Tue, 17 Nov 2026 09:27:29 +0000",
+     "published_iso": "2026-11-17T09:27:29+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
+     "published": "Wed, 18 Nov 2026 05:30:10 +0000",
+     "published_iso": "2026-11-18T05:30:10+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
+    "https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 610,
+  "stories_considered": 18,
+  "published": 11,
+  "outlets": 39
+ }
+}

@@ -7193,5 +7193,153 @@
    "https://www.wired.com/story/jpmorganchase-bank-outage-oh-come-on/",
    "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
   ]
+ },
+ {
+  "id": "2026-11-18-critical-java4shell-flaw-in-openjdk-patched-unauthenticated-a92b5",
+  "date": "2026-11-18",
+  "section": "threat",
+  "headline": "Critical Java4Shell flaw in OpenJDK patched; unauthenticated RCE risk for enterprise apps",
+  "label": "Confirmed",
+  "score": 97,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+   "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+   "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+   "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "https://www.malwarebytes.com/blog/bugs/2026/11/java4shell-a-critical-flaw-with-a-narrow-reach",
+   "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+   "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/"
+  ]
+ },
+ {
+  "id": "2026-11-18-british-hacker-sentenced-to-six-years-for-11-6-million-crypt-cac60",
+  "date": "2026-11-18",
+  "section": "threat",
+  "headline": "British hacker sentenced to six years for $11.6 million crypto theft via SMS phishing",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
+   "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
+   "https://techcrunch.com/2026/11/18/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/",
+   "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
+  ]
+ },
+ {
+  "id": "2026-11-18-optimizely-breach-injects-malware-into-scripts-of-178-major-606f5",
+  "date": "2026-11-18",
+  "section": "threat",
+  "headline": "Optimizely breach injects malware into scripts of 178 major websites",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+   "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+   "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+   "https://www.theregister.com/cyber-crime/2026/11/17/optimizely-hack-turns-worlds-biggest-websites-into-malware-dispensers/5310448",
+   "https://decrypt.co/383414/optimizely-hack-hijacked-ledger-bbc-and-176-other-sites-to-swap-crypto-wallet-addresses"
+  ]
+ },
+ {
+  "id": "2026-11-18-cftc-orders-kalshi-to-halt-trump-mention-prediction-contract-2d2e5",
+  "date": "2026-11-18",
+  "section": "ai",
+  "headline": "CFTC orders Kalshi to halt Trump‑mention prediction contracts",
+  "label": "Confirmed",
+  "score": 76,
+  "also_covered_urls": [
+   "https://arstechnica.com/tech-policy/2026/11/trump-admin-orders-kalshi-to-halt-wagers-on-what-words-trump-will-say/",
+   "https://www.coindesk.com/policy/2026/11/17/predictions-platform-kalshi-complies-with-order-to-halt-trump-mention-contracts",
+   "https://www.engadget.com/2320023/kalshi-ordered-to-stop-letting-people-bet-on-trump-speeches/"
+  ]
+ },
+ {
+  "id": "2026-11-18-nvidia-ceo-jensen-huang-resigns-open-source-ai-plan-affirmed-497cd",
+  "date": "2026-11-18",
+  "section": "ai",
+  "headline": "Nvidia CEO Jensen Huang resigns; open‑source AI plan affirmed amid petitions",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
+   "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/",
+   "https://www.theregister.com/systems/2026/11/18/business-as-usual-but-huang-aint-coming-back-says-nvidia/5310772",
+   "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+   "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+  ]
+ },
+ {
+  "id": "2026-11-18-hackers-access-uber-driver-license-data-via-stolen-credentia-c9592",
+  "date": "2026-11-18",
+  "section": "ai",
+  "headline": "Hackers Access Uber Driver License Data via Stolen Credentials",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.theregister.com/software/2026/11/17/inspiring-foss-project-crosspoint-reader-has-lessons-about-tech-communities-and-llms/5310424",
+   "https://crosspointreader.com"
+  ]
+ },
+ {
+  "id": "2026-11-18-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+  "date": "2026-11-18",
+  "section": "science",
+  "headline": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+  "label": "Well-sourced",
+  "score": 74,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03784-8",
+   "https://www.nature.com/articles/d41586-026-03273-y",
+   "https://www.nature.com/articles/s41586-026-11221-z",
+   "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
+  ]
+ },
+ {
+  "id": "2026-11-18-nasa-shares-holiday-stress-management-tips-focused-on-planni-a0ccb",
+  "date": "2026-11-18",
+  "section": "science",
+  "headline": "NASA shares holiday stress management tips focused on planning and self-care",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/"
+  ]
+ },
+ {
+  "id": "2026-11-18-deutsche-bank-faces-fresh-scrutiny-after-leak-of-15-million-32dd4",
+  "date": "2026-11-18",
+  "section": "money",
+  "headline": "Deutsche Bank faces fresh scrutiny after leak of 15 million internal files",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://www.theguardian.com/business/2026/nov/17/deutsche-bank-dimissed-warnings-risky-clients-reports-claim",
+   "https://www.inside-db.com/"
+  ]
+ },
+ {
+  "id": "2026-11-18-german-judge-offers-bitcoin-deal-to-end-movie2k-tax-evasion-b887d",
+  "date": "2026-11-18",
+  "section": "money",
+  "headline": "German judge offers Bitcoin deal to end Movie2K tax evasion trial",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
+   "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire"
+  ]
+ },
+ {
+  "id": "2026-11-18-manhattan-judge-acquits-mit-educated-brothers-in-25-million-7af05",
+  "date": "2026-11-18",
+  "section": "scam",
+  "headline": "Manhattan Judge Acquits MIT-Educated Brothers in $25 Million Ethereum Exploit Case",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
+   "https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution"
+  ]
  }
 ]

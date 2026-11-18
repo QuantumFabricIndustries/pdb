@@ -1,0 +1,210 @@
+[
+ {
+  "section": "threat",
+  "title": "Critical Java4Shell flaw in OpenJDK patched; unauthenticated RCE risk for enterprise apps",
+  "verdict": "PUBLISH",
+  "truth": 97,
+  "reasons": [],
+  "edits": [],
+  "owners": 6
+ },
+ {
+  "section": "threat",
+  "title": "Microsoft Agent Framework PyPI Packages Compromised with Credential-Stealing Code",
+  "verdict": "HOLD",
+  "truth": 39,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "British hacker sentenced to six years for $11.6 million crypto theft via SMS phishing",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Optimizely breach injects malware into scripts of 178 major websites",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: The so_what section contained specific financial loss figures ($7,150) and details about stealing payment card data and outdated iOS devices that were either not fully supported by all sources in the exact way framed, or included extraneous speculation. Let's align it strictly with the verified facts."
+  ],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Voyager 1 reaches one light‑day distance, first human‑made object to do so",
+  "verdict": "HOLD",
+  "truth": 75,
+  "reasons": [
+   "number '1970' does not appear in any source"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: The draft mentioned '1970s engineering', but sources specify the 1970s generally via 'mid ’70s' or '1977', though source 2 mentions 'built in the mid ’50s' wait, source 2 says 'built in the mid ’70s'. Let's ensure strict compliance by avoiding unverified exact figures or updating to match source 2 ('mid ’70s' or 1977)."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "CFTC orders Kalshi to halt Trump‑mention prediction contracts",
+  "verdict": "PUBLISH",
+  "truth": 76,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Nvidia CEO Jensen Huang resigns; open‑source AI plan affirmed amid petitions",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Hackers Access Uber Driver License Data via Stolen Credentials",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+  "verdict": "PUBLISH",
+  "truth": 74,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA shares holiday stress management tips focused on planning and self-care",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: In_brief included a date (18 Nov 2026) not found in the source texts.",
+   "editor: So_what section introduced unsupported speculation about NASA internal communications, absenteeism, and broader trends not explicitly stated in the source."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "money",
+  "title": "Nvidia posts record Q3 revenue and raises Q4 outlook amid CEO transition",
+  "verdict": "HOLD",
+  "truth": 60,
+  "reasons": [
+   "number '4' does not appear in any source"
+  ],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Included unverified details about investigations and SEC inquiries in the so_what section not fully backed or framed properly by verified claims."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "money",
+  "title": "Deutsche Bank faces fresh scrutiny after leak of 15 million internal files",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source reports say the bank dismissed warnings (reports claim / investigations indicate), but draft states them as flat facts.",
+   "editor: Source states the bank allegedly resisted pulling out of Russia even after the invasion, and exited in March 2022, whereas the draft states the bank expanded until 2021 and only withdrew after the 2022 invasion."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "German judge offers Bitcoin deal to end Movie2K tax evasion trial",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Manhattan Judge Acquits MIT-Educated Brothers in $25 Million Ethereum Exploit Case",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Video of red lights predates RAF Lakenheath drone claim",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-generated video of wave hitting container ship debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft mentions specific visual artifacts like 'a mug that righted itself' which are not supported by the provided source text."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes debunks AI‑generated video claiming pterodactyl sighting in Mexico",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
