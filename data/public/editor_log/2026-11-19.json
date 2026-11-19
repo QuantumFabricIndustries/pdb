@@ -1,0 +1,156 @@
+[
+ {
+  "section": "threat",
+  "title": "Critical NGINX and PHP flaws patched; admins urged to update",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: Copied word-for-word run from source 4 in the what_to_do field for PHP version list."
+  ],
+  "owners": 6
+ },
+ {
+  "section": "threat",
+  "title": "UK Tribunal Confirms Government Issued Secret Apple Encryption Notice",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: What_to_do advice includes 'consider disabling Advanced Data Protection', which is poor security advice and not supported by the sources."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Malicious versions of Microsoft Agent Framework package published on PyPI",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Anthropic IPO Raises $81.3 Billion, Shares Open at $111 on Nasdaq",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source 1 states the fully diluted market cap sits at around $1.5 trillion, while Source 2 mentions the opening price would put the company's market cap over $2 trillion. The draft stated a market value exceeding $2 trillion as a definitive fact, but sources show discrepancy or range. Also, Source 1 states the $81.3 billion raised, which is slightly different from 'about $81 billion'."
+  ],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "Voyager 1 Reaches One Light‑Day From Earth",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Russian national indicted for spying on Silicon Valley tech firm employees",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote so_what",
+   "editor: Source 3 mentions the border crossing happened in 2026 (an obvious future typo or hallucination in the source), but sources 1 and 2 don't specify the year. However, the draft implies immediate/recent events. More importantly, the 'so_what' mentions court proceedings scheduled for November 24, but none of the sources mention a specific date of November 24 for court proceedings.",
+   "editor: The 'so_what' section includes a forward-looking watch item with a specific date (November 24) not supported by the provided sources."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "science",
+  "title": "LLM study finds varied accuracy on climate‑science questions",
+  "verdict": "PUBLISH",
+  "truth": 74,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Cryptography-inspired algorithm speeds pulsar discovery in NASA data",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Fed Governor Waller Signals Possible 50‑Basis‑Point Rate Hike in December",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what mentions 'early 2027' which does not appear in any source"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "German judge offers Bitcoin deal to end Movie2K tax evasion trial",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Coinbase blocks $4.7 million in deepfake Elon Musk crypto giveaway scam",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Viral claim about June judicial review of pension age is false",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Outdated UK Christmas postal scam warning debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Video of red lights predates RAF Lakenheath drone claim",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

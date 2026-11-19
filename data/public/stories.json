@@ -7341,5 +7341,158 @@
    "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
    "https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution"
   ]
+ },
+ {
+  "id": "2026-11-19-critical-nginx-and-php-flaws-patched-admins-urged-to-update-ac3bc",
+  "date": "2026-11-19",
+  "section": "threat",
+  "headline": "Critical NGINX and PHP flaws patched; admins urged to update",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+   "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+   "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+   "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+   "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
+   "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
+   "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+   "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+   "https://www.php.net/releases/8.6/en.php"
+  ]
+ },
+ {
+  "id": "2026-11-19-uk-tribunal-confirms-government-issued-secret-apple-encrypti-1a57c",
+  "date": "2026-11-19",
+  "section": "threat",
+  "headline": "UK Tribunal Confirms Government Issued Secret Apple Encryption Notice",
+  "label": "Well-sourced",
+  "score": 67,
+  "also_covered_urls": [
+   "https://therecord.media/apple-uk-encryption-notice",
+   "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
+   "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/"
+  ]
+ },
+ {
+  "id": "2026-11-19-malicious-versions-of-microsoft-agent-framework-package-publ-20dfa",
+  "date": "2026-11-19",
+  "section": "threat",
+  "headline": "Malicious versions of Microsoft Agent Framework package published on PyPI",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+   "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+   "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+   "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+   "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/"
+  ]
+ },
+ {
+  "id": "2026-11-19-anthropic-ipo-raises-81-3-billion-shares-open-at-111-on-nasd-5c9a1",
+  "date": "2026-11-19",
+  "section": "ai",
+  "headline": "Anthropic IPO Raises $81.3 Billion, Shares Open at $111 on Nasdaq",
+  "label": "Disputed",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
+   "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+   "https://decrypt.co/383631/anthropic-stock-indicated-open-33-above-ipo-price",
+   "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+   "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai"
+  ]
+ },
+ {
+  "id": "2026-11-19-voyager-1-reaches-one-light-day-from-earth-96ad8",
+  "date": "2026-11-19",
+  "section": "ai",
+  "headline": "Voyager 1 Reaches One Light‑Day From Earth",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+   "https://www.theregister.com/science/2026/11/19/voyager-1-celebrates-one-light-day-with-a-nice-lie-down/5310991",
+   "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/",
+   "https://www.theregister.com/science/2026/11/18/space-robot-legend-voyager-1-is-now-more-than-1-light-day-away/5310751"
+  ]
+ },
+ {
+  "id": "2026-11-19-russian-national-indicted-for-spying-on-silicon-valley-tech-95865",
+  "date": "2026-11-19",
+  "section": "ai",
+  "headline": "Russian national indicted for spying on Silicon Valley tech firm employees",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+   "https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley",
+   "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+   "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+   "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/"
+  ]
+ },
+ {
+  "id": "2026-11-19-llm-study-finds-varied-accuracy-on-climate-science-questions-51d6e",
+  "date": "2026-11-19",
+  "section": "science",
+  "headline": "LLM study finds varied accuracy on climate‑science questions",
+  "label": "Well-sourced",
+  "score": 74,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03517-x",
+   "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/"
+  ]
+ },
+ {
+  "id": "2026-11-19-cryptography-inspired-algorithm-speeds-pulsar-discovery-in-n-f2a5c",
+  "date": "2026-11-19",
+  "section": "science",
+  "headline": "Cryptography-inspired algorithm speeds pulsar discovery in NASA data",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+   "https://phys.org/news/2026-11-cryptography-method-elusive-pulsars.html"
+  ]
+ },
+ {
+  "id": "2026-11-19-fed-governor-waller-signals-possible-50-basis-point-rate-hik-96c00",
+  "date": "2026-11-19",
+  "section": "money",
+  "headline": "Fed Governor Waller Signals Possible 50‑Basis‑Point Rate Hike in December",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+   "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue",
+   "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks"
+  ]
+ },
+ {
+  "id": "2026-11-19-german-judge-offers-bitcoin-deal-to-end-movie2k-tax-evasion-b887d",
+  "date": "2026-11-19",
+  "section": "money",
+  "headline": "German judge offers Bitcoin deal to end Movie2K tax evasion trial",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
+   "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire"
+  ]
+ },
+ {
+  "id": "2026-11-19-coinbase-blocks-4-7-million-in-deepfake-elon-musk-crypto-giv-471b8",
+  "date": "2026-11-19",
+  "section": "scam",
+  "headline": "Coinbase blocks $4.7 million in deepfake Elon Musk crypto giveaway scam",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "https://www.malwarebytes.com/blog/ai/2026/11/deepfake-elon-musk-nearly-costs-viewers-4-7-million-in-crypto"
+  ]
  }
 ]

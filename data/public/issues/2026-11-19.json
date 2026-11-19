@@ -1,0 +1,1590 @@
+{
+ "date": "2026-11-19",
+ "built_at": "2026-11-19T21:42:07.031370+00:00",
+ "stories": [
+  {
+   "id": "2026-11-19-critical-nginx-and-php-flaws-patched-admins-urged-to-update-ac3bc",
+   "date": "2026-11-19",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Critical NGINX and PHP flaws patched; admins urged to update",
+   "in_brief": "Two critical NGINX HTTP/2 bugs and seven critical PHP vulnerabilities were disclosed and patched. Updating to the latest releases and disabling HTTP/2 where needed mitigates remote‑code‑execution risk.",
+   "so_what": "The NGINX \"nginx2root\" flaws (CVE‑2026‑123007 and CVE‑2026‑123633) allow unauthenticated attackers to execute code and, when chained with a Linux kernel issue, gain root access on servers running versions as old as 1.9.5. Likewise, PHP released patches for seven critical‑severity remote‑code‑execution bugs, including CVE‑2026‑115560 and CVE‑2026‑129182, affecting all supported PHP releases. Both sets of vulnerabilities could let attackers run arbitrary code, corrupt sessions, or cause denial‑of‑service, threatening web‑application confidentiality and availability. Administrators should prioritize applying the vendor‑supplied fixes, review configuration settings that enable the vulnerable code paths, and monitor for any exploitation attempts. Future watch‑points include the release of proof‑of‑concept exploits for the NGINX bugs and any reports of active exploitation of the newly patched PHP flaws.",
+   "what_to_do": "1. Upgrade NGINX to Open Source 1.30.7 stable or 1.31.9 mainline, or NGINX Plus versions 37.0.8.1 or 37.3.0.1. 2. Temporarily disable HTTP/2 in NGINX if needed until upgrades are applied. 3. Update PHP deployments to the latest patched releases provided by the PHP Foundation.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward vendor patches",
+   "claims": [
+    {
+     "claim": "The first of the two \"nginx2root\" flaws is CVE‑2026‑123007 … it impacts all versions from 1.31.8 down to 1.9.5, released in 2015.",
+     "source": 1,
+     "quote": "The first of the two \"nginx2root\" flaws is CVE-2026-123007, a flow-control bug that can corrupt memory in an NGINX worker. It impacts all versions from 1.31.8 down to 1.9.5, released in 2015.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The flaws were fixed in NGINX Open Source 1.30.7 stable and 1.31.9 mainline; NGINX Plus users should update to versions 37.0.8.1 or 37.3.0.1.",
+     "source": 1,
+     "quote": "The flaws were fixed in NGINX Open Source 1.30.7 stable and 1.31.9 mainline. NGINX Plus users should update to versions 37.0.8.1 or 37.3.0.1.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "PHP released patches for seven critical‑severity remote code execution vulnerabilities, including CVE‑2026‑115560, CVE‑2026‑129182, CVE‑2026‑126714, CVE‑2026‑129289, CVE‑2026‑129474, CVE‑2026‑129481 and CVE‑2026‑129496.",
+     "source": 2,
+     "quote": "PHP on Thursday rolled out a fresh set of security patches as part of its four-week update schedule, including fixes for seven critical-severity remote code execution (RCE) vulnerabilities.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+     "published": "Thu, 19 Nov 2026 09:57:24 -0500",
+     "published_iso": "2026-11-19T14:57:24+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+     "published": "Thu, 19 Nov 2026 15:54:20 +0000",
+     "published_iso": "2026-11-19T15:54:20+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
+     "published": "Wed, 18 Nov 2026 23:38:12 +0100",
+     "published_iso": "2026-11-18T22:38:12+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+     "published": "Thu, 19 Nov 2026 20:48:07 +0530",
+     "published_iso": "2026-11-19T15:18:07+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Hacker News",
+     "owner": "php.net",
+     "url": "https://www.php.net/releases/8.6/en.php",
+     "published": "Thu, 19 Nov 2026 09:27:15 +0000",
+     "published_iso": "2026-11-19T09:27:15+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+    "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+    "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+    "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+    "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
+    "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
+    "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+    "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+    "https://www.php.net/releases/8.6/en.php"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, bleepingcomputer.com, php.net, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote what_to_do",
+     "editor: Copied word-for-word run from source 4 in the what_to_do field for PHP version list."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 6
+  },
+  {
+   "id": "2026-11-19-uk-tribunal-confirms-government-issued-secret-apple-encrypti-1a57c",
+   "date": "2026-11-19",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "UK Tribunal Confirms Government Issued Secret Apple Encryption Notice",
+   "in_brief": "A UK court ruled that the government served Apple with a secret technical capability notice targeting iCloud encryption, and Apple responded by withdrawing its Advanced Data Protection feature for British users. The ruling forces the government to acknowledge the order, ending a two‑year policy of neither confirming nor denying its existence.",
+   "so_what": "The decision marks a rare judicial rebuke of the UK’s surveillance regime, highlighting the tension between national security objectives and user privacy. Apple’s Advanced Data Protection (ADP) stored encryption keys on users’ devices, preventing the company from accessing iCloud data even under legal demand. By withdrawing ADP for UK customers, Apple effectively complied with the notice without creating a backdoor, preserving its broader security stance. The tribunal’s order for transparency may set a precedent for future challenges to secret surveillance orders, prompting other tech firms and privacy advocates to scrutinize similar demands. Watch for the upcoming final hearing on the details of the order, scheduled for next year, which could reveal the scope of the government’s access and influence policy debates on encryption and surveillance.",
+   "what_to_do": "1. Review iCloud security settings and ensure end-to-end encryption features are configured according to your personal privacy requirements. 2. Keep your Apple devices updated to the latest OS versions to maintain optimal security.",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of court ruling and corporate response",
+   "claims": [
+    {
+     "claim": "The Investigatory Powers Tribunal confirmed that the British government served Apple with a secret technical capability notice targeting iCloud encryption.",
+     "source": 1,
+     "quote": "The court’s three judges stated explicitly that the government “has given Apple a technical capability notice,” referencing the legal power which the government used to demand that Apple retain the ability to access the content of iCloud accounts.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "macanorak.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Apple withdrew its Advanced Data Protection feature for British users after receiving the notice.",
+     "source": 1,
+     "quote": "Last February, Apple withdrew ADP for British users entirely after receiving the technical capability notice, as was first reported by The Washington Post.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "macanorak.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The tribunal ordered the UK government to acknowledge the existence of the secret order, rejecting its claim that disclosure would harm national security.",
+     "source": 2,
+     "quote": "The tribunal’s ruling rejected the Home Office’s claim that disclosing the order would be damaging to national security.",
+     "status": "verified",
+     "corroborated_by": [
+      "Recorded Future",
+      "macanorak.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/apple-uk-encryption-notice",
+     "published": "Thu, 19 Nov 2026 16:15:00 GMT",
+     "published_iso": "2026-11-19T16:15:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
+     "published": "Thu, 19 Nov 2026 15:32:20 +0000",
+     "published_iso": "2026-11-19T15:32:20+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "macanorak.com",
+     "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+     "published": "Thu, 19 Nov 2026 16:21:03 +0000",
+     "published_iso": "2026-11-19T16:21:03+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/apple-uk-encryption-notice",
+    "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
+    "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.legislation.gov.uk/ukpga/2016/25/contents?ref=macanorak.com",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.legislation.gov.uk/ukpga/2016/25/contents?ref=macanorak.com"
+    }
+   ],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Recorded Future, Yahoo, macanorak.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote what_to_do",
+     "editor: What_to_do advice includes 'consider disabling Advanced Data Protection', which is poor security advice and not supported by the sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-19-malicious-versions-of-microsoft-agent-framework-package-publ-20dfa",
+   "date": "2026-11-19",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Malicious versions of Microsoft Agent Framework package published on PyPI",
+   "in_brief": "Two compromised releases of Microsoft’s agent‑framework package (versions 1.26.1 and 1.26.2) were uploaded to PyPI on 17 Nov 2026 and later quarantined. The packages install a .pth startup hook that runs a credential‑stealer on every Python launch, exfiltrating cloud tokens and other secrets.",
+   "so_what": "The attack demonstrates a supply‑chain risk for developers who rely on open‑source Python packages, especially those that integrate with cloud services. Because the malicious code executes during interpreter startup, it can harvest environment variables, configuration files and even request fresh Azure, AWS, GitHub and other tokens, sending the data to an attacker‑controlled webhook. The compromised versions retained a dependency on the legitimate agent‑framework‑core 1.26.0, allowing the framework to function while the stealer operated unnoticed. PyPI’s quick quarantine of both releases shows responsiveness, but the fact that the attacker could republish after the first quarantine indicates lingering publishing access. Organizations should audit their Python environments, rotate any potentially exposed credentials, and monitor for unexpected outbound traffic to the webhook endpoint.",
+   "what_to_do": "1. Remove any installed agent‑framework versions 1.26.1 or 1.26.2 and reinstall the clean 1.26.0 release. 2. Rotate cloud and CI/CD credentials that may have been exposed (Azure, AWS, GitHub, Docker, etc.). 3. Scan site‑packages for unexpected .pth files (agent_framework_meta.pth, af_runtime_diag.pth) and monitor network traffic for connections to webhook.site.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without promotional language",
+   "claims": [
+    {
+     "claim": "Versions 1.26.1 and 1.26.2 of Microsoft’s agent‑framework package were published on PyPI on 17 Nov 2026 with a credential‑stealing payload.",
+     "source": 1,
+     "quote": "The malicious releases, versions 1.26.1 and 1.26.2, were published on November 17, 2026, and contained a credential stealer...",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Both malicious releases install a .pth startup hook that runs automatically on every Python interpreter start, even without importing the package.",
+     "source": 3,
+     "quote": "Both versions install Python startup hooks that silently collect credentials... then exfiltrate them... Once either of the versions is installed, the package drops a .pth file in the site-packages root directory, which then gets executed automatically on every interpreter start...",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The stolen data is exfiltrated to a webhook.site endpoint controlled by the attacker.",
+     "source": 1,
+     "quote": "Both versions exfiltrated collected data to the same attacker-controlled endpoint, https://webhook[.]site/d381fd80-ec62-42ad-8f5c-d1b15103c9bb.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "PyPI quarantined both malicious releases, but the attacker was able to publish version 1.26.2 after version 1.26.1 had already been quarantined.",
+     "source": 4,
+     "quote": "PyPI has quarantined both releases, but the attacker demonstrated continued publishing access by uploading 1.26.2 after 1.26.1 was already quarantined.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+     "published": "Wed, 18 Nov 2026 11:58:42 -0500",
+     "published_iso": "2026-11-18T16:58:42+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+     "published": "Wed, 18 Nov 2026 17:23:37 +0000",
+     "published_iso": "2026-11-18T17:23:37+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+     "published": "Wed, 18 Nov 2026 12:15:26 +0530",
+     "published_iso": "2026-11-18T06:45:26+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/",
+     "published": "Thu, 19 Nov 2026 12:53:44 +0000",
+     "published_iso": "2026-11-19T12:53:44+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+    "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+    "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+    "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+    "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-19-anthropic-ipo-raises-81-3-billion-shares-open-at-111-on-nasd-5c9a1",
+   "date": "2026-11-19",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Anthropic IPO Raises $81.3 Billion, Shares Open at $111 on Nasdaq",
+   "in_brief": "Anthropic’s initial public offering priced at $83 per share raised $81.3 billion and began trading on the Nasdaq at $111.50, a 33% premium. The debut gives the AI firm a market value that could exceed $2 trillion depending on valuation metrics.",
+   "so_what": "The record-breaking offering marks a massive public listing in history. With an expected cash reserve of $220 billion, Anthropic now has resources to expand its operations and compete in the tech sector. Analysts and industry figures have debated whether capital is shifting from crypto assets into AI equities, while market observers watch how index funds incorporate the new stock.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Anthropic priced its IPO at $83 per share and raised $81.3 billion",
+     "source": 1,
+     "quote": "Anthropic has priced its IPO above the expected range, at $83 per share. With around 980 million shares sold, it has raised $81.3 billion",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Shares opened at $111.50, a 33% premium over the IPO price",
+     "source": 2,
+     "quote": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price. Shares of Anthropic are now trading on the Nasdaq exchange, as the company successfully executes its initial public offering. In the early minutes of availability, shares were trading at $111.50, a 33% premium over the $83 IPO price.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The offering gives Anthropic an expected market cap over $2 trillion",
+     "source": 2,
+     "quote": "The opening price would put the company’s market cap over $2 trillion, making it more valuable than Meta, Tesla, or Walmart.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Bitcoin fell about 3% as the IPO approached, prompting speculation of capital shifts",
+     "source": 3,
+     "quote": "Bitcoin traded near $63,060 Wednesday, down 2.8% on the day, as Anthropic prepared to price its IPO.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [3]: 3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
+     "published": "Thu, 19 Nov 2026 12:30:29 GMT",
+     "published_iso": "2026-11-19T12:30:29+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+     "published": "Thu, 19 Nov 2026 16:59:23 +0000",
+     "published_iso": "2026-11-19T16:59:23+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai",
+     "published": "Wed, 18 Nov 2026 19:16:02 +0000",
+     "published_iso": "2026-11-18T19:16:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+     "published": "Thu, 19 Nov 2026 12:20:39 +0000",
+     "published_iso": "2026-11-19T12:20:39+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Hacker News",
+     "owner": "reuters.com",
+     "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+     "published": "Thu, 19 Nov 2026 17:02:40 +0000",
+     "published_iso": "2026-11-19T17:02:40+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
+    "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+    "https://decrypt.co/383631/anthropic-stock-indicated-open-33-above-ipo-price",
+    "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+    "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+    "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 53,
+    "label": "Disputed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Yahoo, coindesk.com, decrypt.co, reuters.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      2,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Source 1 states the fully diluted market cap sits at around $1.5 trillion, while Source 2 mentions the opening price would put the company's market cap over $2 trillion. The draft stated a market value exceeding $2 trillion as a definitive fact, but sources show discrepancy or range. Also, Source 1 states the $81.3 billion raised, which is slightly different from 'about $81 billion'."
+    ],
+    "disputed": true,
+    "dispute_note": "Source 1 states a fully diluted market cap of around $1.5 trillion, whereas Source 2 states that the opening price would put the company's market cap over $2 trillion.",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-19-voyager-1-reaches-one-light-day-from-earth-96ad8",
+   "date": "2026-11-19",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Voyager 1 Reaches One Light‑Day From Earth",
+   "in_brief": "NASA confirmed that Voyager 1 is now one light‑day away, about 16.1 billion miles, after 49 years of travel. The milestone highlights the probe’s continued role in interstellar measurements.",
+   "so_what": "Voyager 1’s new distance marks the first time a human‑made object has been a full light‑day from Earth, underscoring the longevity of the mission and the durability of its engineering. The probe, launched in 1977, still transmits a carrier signal that allows engineers to verify its position despite a loss of detailed science data since mid‑November. This achievement provides a real‑time reference for the scale of interstellar space and informs models of the Sun’s magnetic field at extreme distances. Future monitoring will focus on maintaining the carrier link and assessing the cause of the recent data outage, while the milestone serves as a benchmark for upcoming deep‑space missions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Voyager 1 reached a distance of one light‑day from Earth on Nov. 18, 2026.",
+     "source": 1,
+     "quote": "The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "One light‑day equals about 16.1 billion miles (25.9 billion kilometres).",
+     "source": 1,
+     "quote": "A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometres).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The radio signal from Voyager 1 takes 24 hours to reach Earth, confirming the distance.",
+     "source": 1,
+     "quote": "Voyager team members ... heard from the probe 24 hours later, the time it took for the spacecraft’s radio signal traveling at the speed of light to reach Earth.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+     "published": "Thu, 19 Nov 2026 14:31:15 +0000",
+     "published_iso": "2026-11-19T14:31:15+00:00",
+     "kind": "primary",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/",
+     "published": "Thu, 19 Nov 2026 12:00:00 +0000",
+     "published_iso": "2026-11-19T12:00:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/science/2026/11/19/voyager-1-celebrates-one-light-day-with-a-nice-lie-down/5310991",
+     "published": "Thu, 19 Nov 2026 13:15:00 +0000",
+     "published_iso": "2026-11-19T13:15:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+    "https://www.theregister.com/science/2026/11/19/voyager-1-celebrates-one-light-day-with-a-nice-lie-down/5310991",
+    "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/",
+    "https://www.theregister.com/science/2026/11/18/space-robot-legend-voyager-1-is-now-more-than-1-light-day-away/5310751"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 86,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Situation Publishing, nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-19-russian-national-indicted-for-spying-on-silicon-valley-tech-95865",
+   "date": "2026-11-19",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Russian national indicted for spying on Silicon Valley tech firm employees",
+   "in_brief": "Federal prosecutors have indicted 25‑year‑old Igor D’iu on charges of acting as a foreign agent and stalking employees of a Palo Alto‑based technology and defense company. The indictment alleges he photographed laptop screens, collected home addresses and followed a female employee for nearly 30 miles.",
+   "so_what": "The case highlights the lengths to which foreign intelligence services may go to gather information on U.S. technology firms that support military operations abroad, particularly those linked to Ukraine’s war effort. Prosecutors say D’iu entered the United States illegally after being recruited through the messaging app Telegram, received equipment and financial support, and was directed to surveil staff at a coffee shop near the company’s headquarters. While the Justice Department has not named the firm, multiple outlets cite Bloomberg’s identification of Palantir Technologies, a company whose software is used by governments for surveillance and by Ukraine for defense purposes. The indictment underscores growing concerns about espionage targeting critical tech firms and may prompt tighter security protocols for employee privacy and corporate facilities.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "D’iu followed a female employee for nearly 30 miles, running a red light and making illegal turns",
+     "source": 2,
+     "quote": "Officials said D’iu “allegedly aggressively continued following her, including through U-turns and illegal left turns, and ran a red light to remain behind her vehicle”.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Justice Department says D’iu was recruited via Telegram and entered the U.S. illegally after traveling from Istanbul to Mexico City",
+     "source": 2,
+     "quote": "According to officials, D’iu allegedly entered the US unlawfully this summer after being recruited by co-conspirators through Telegram.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Bloomberg identified the targeted company as Palantir Technologies",
+     "source": 1,
+     "quote": "Prosecutors didn’t name the company, but both Reuters and Bloomberg, citing unnamed people with knowledge of the case, identified it as Palantir.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Igor D’iu was indicted on charges including conspiracy to act as an agent of a foreign government and interstate stalking",
+     "source": 1,
+     "quote": "Igor D’iu, 25, allegedly photographed the employees and their computer screens... He is scheduled to appear in federal court on November 24.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+     "published": "Thu, 19 Nov 2026 20:29:46 +0000",
+     "published_iso": "2026-11-19T20:29:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley",
+     "published": "Wed, 18 Nov 2026 23:41:29 GMT",
+     "published_iso": "2026-11-18T23:41:29+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
+     "published": "Thu, 19 Nov 2026 10:33:59 +0000",
+     "published_iso": "2026-11-19T10:33:59+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+     "published": "Thu, 19 Nov 2026 17:20:00 +0100",
+     "published_iso": "2026-11-19T16:20:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+    "https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley",
+    "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+    "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+    "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/usao-ndca/pr/russian-national-indicted-acting-foreign-agent-russia-target-silicon-valley-technology",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/usao-ndca/pr/russian-national-indicted-acting-foreign-agent-russia-target-silicon-valley-technology"
+    },
+    {
+     "url": "https://www.justice.gov/usao-ndca/media/1472991/dl?inline",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/usao-ndca/media/1472991/dl?inline"
+    }
+   ],
+   "truth": {
+    "total": 69,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Condé Nast, Guardian Media Group, Situation Publishing, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      19,
+      25,
+      "3 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote so_what",
+     "editor: Source 3 mentions the border crossing happened in 2026 (an obvious future typo or hallucination in the source), but sources 1 and 2 don't specify the year. However, the draft implies immediate/recent events. More importantly, the 'so_what' mentions court proceedings scheduled for November 24, but none of the sources mention a specific date of November 24 for court proceedings.",
+     "editor: The 'so_what' section includes a forward-looking watch item with a specific date (November 24) not supported by the provided sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-19-llm-study-finds-varied-accuracy-on-climate-science-questions-51d6e",
+   "date": "2026-11-19",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "LLM study finds varied accuracy on climate‑science questions",
+   "in_brief": "A University College London and UNESCO study evaluated 33 large language models on 600 climate‑science questions, revealing gaps in their answers. The results show flagship models perform better than smaller open‑weight models, especially on confidence‑related queries.",
+   "so_what": "The assessment highlights that while leading AI models can answer most straightforward climate‑science facts correctly, they struggle with nuanced questions about scientific confidence, a key component of public understanding. Flagship models such as Claude Fable 5 and GPT‑5.6 Sol achieved about 78% accuracy on these harder items, whereas the smallest open‑weight models fell to roughly 47%. For more routine benchmark questions, both frontier and large open‑weight models scored near 90%, with smaller models in the 70% range. These disparities suggest that reliance on LLMs for detailed climate information may propagate errors, underscoring the need for careful verification and improved training on scientific uncertainty. Future monitoring should track whether newer model releases close these gaps and how developers address confidence‑related reasoning.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of study results",
+   "claims": [
+    {
+     "claim": "The study evaluated 33 models, including multiple versions of major frontier and open‑weight models",
+     "source": 2,
+     "quote": "The study used 33 models, including multiple versions of the major frontier and open-weight models.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Flagship models answered around 78% of confidence‑related climate questions correctly",
+     "source": 2,
+     "quote": "the flagship models answering around 78 percent correctly",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The smallest open‑weight models answered about 47% of those confidence questions correctly",
+     "source": 2,
+     "quote": "the smallest open-weight models coming in at around 47 percent",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "For other benchmarks, frontier and large open‑weight models scored around 90%",
+     "source": 2,
+     "quote": "frontier models and large open-weight models generally scored around 90 percent",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Small open‑weight models scored in the 70s on other benchmarks",
+     "source": 2,
+     "quote": "small open-weight models scored in the 70s",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03517-x",
+     "published": "2026-11-18",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
+     "published": "Thu, 19 Nov 2026 18:44:39 +0000",
+     "published_iso": "2026-11-19T18:44:39+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03517-x",
+    "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03517-x",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 74,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-19-cryptography-inspired-algorithm-speeds-pulsar-discovery-in-n-f2a5c",
+   "date": "2026-11-19",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Cryptography-inspired algorithm speeds pulsar discovery in NASA data",
+   "in_brief": "Scientists used a lattice-based method to locate a new gamma‑ray pulsar in Fermi data in about 10 computer hours, a task that previously required centuries of processing. The breakthrough could enable many more pulsar detections from existing datasets.",
+   "so_what": "The new approach adapts algorithms originally created for breaking encryption, converting the pulsar search into a high‑dimensional geometry problem. By applying this technique to 15 years of observations from NASA's Fermi Gamma‑ray Space Telescope, researchers identified PSR J1622‑7204, a neutron star rotating 261 times per second, using only 10 hours on a standard processor. Earlier methods would have needed roughly 600 years of computing on the same hardware. Faster searches mean that the vast archives of gamma‑ray data can be mined more efficiently, potentially expanding the known population of pulsars and improving models of neutron‑star physics. Future work will likely apply the method to other regions of the sky and to data from upcoming missions, offering a scalable path to uncovering hidden astrophysical sources.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely scientific advancement",
+   "claims": [
+    {
+     "claim": "The team found pulsar PSR J1622‑7204 using a cryptography‑based method on 15 years of Fermi data in about 10 hours of standard computing time.",
+     "source": 1,
+     "quote": "Using 15 years of data from NASA's Fermi Gamma-ray Space Telescope and a cryptography-based method ... the team found PSR J1622−7204 ... using the equivalent of 10 hours of computing time on a standard computer processor.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The previous best method would have required roughly 600 years of processing on a standard processor to find the same pulsar.",
+     "source": 1,
+     "quote": "By comparison, the previous best method failed to find the pulsar, despite using enough computing power that a standard processor would take 600 years to perform the calculation.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The algorithm transforms the pulsar search into a geometry problem using lattice techniques originally developed for cryptography.",
+     "source": 2,
+     "quote": "Gazith and Zackay realized that the search could be transformed into a geometry problem: finding the shortest vector in a high-dimensional lattice...",
+     "status": "verified",
+     "corroborated_by": [
+      "nasa.gov"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+     "published": "Thu, 19 Nov 2026 15:33:55 +0000",
+     "published_iso": "2026-11-19T15:33:55+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-cryptography-method-elusive-pulsars.html",
+     "published": "Thu, 19 Nov 2026 15:50:01 EST",
+     "published_iso": "2026-11-19T20:50:01+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+    "https://phys.org/news/2026-11-cryptography-method-elusive-pulsars.html"
+   ],
+   "primary": [
+    {
+     "url": "http://www.nasa.gov/home/index.html",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://www.nasa.gov/home/index.html"
+    },
+    {
+     "url": "https://science.nasa.gov/mission/fermi/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://science.nasa.gov/mission/fermi/"
+    },
+    {
+     "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 83,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-19-fed-governor-waller-signals-possible-50-basis-point-rate-hik-96c00",
+   "date": "2026-11-19",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Fed Governor Waller Signals Possible 50‑Basis‑Point Rate Hike in December",
+   "in_brief": "Federal Reserve Governor Christopher Waller said a 50‑basis‑point increase may be needed at the December policy meeting if inflation pressures persist. He also warned that tokenized finance still requires traditional banking infrastructure.",
+   "so_what": "Waller’s remarks highlight growing concern within the Fed about core inflation, which has risen three months in a row by 0.3%, a rate that translates to roughly 3.5% annual growth and exceeds the central bank’s 2% target. By suggesting a half‑percentage‑point hike, he signals a more aggressive stance than many market participants expect, potentially shifting futures pricing and influencing borrowing costs across the economy. At the same time, his endorsement of tokenized payments underscores that emerging blockchain‑based finance will still depend on established settlement systems and clearer accountability, indicating that regulators may seek tighter oversight as the sector expands. Investors and policymakers will watch the December meeting for any deviation from the market‑priced smaller move, which could reshape expectations for further monetary policy steps.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Waller said a 50‑basis‑point rate hike in December may be necessary unless policymakers signal another increase in January.",
+     "source": 1,
+     "quote": "Federal Reserve Governor Christopher Waller said a 50-basis-point rate hike in December may be necessary unless policymakers clearly signal another increase in January.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Core consumer prices have risen 0.3% for three consecutive months, equating to about 3.5% annual inflation.",
+     "source": 1,
+     "quote": "Waller's concerns follow three consecutive months in which core consumer prices rose 0.3%, a pace equivalent to roughly 3.5% inflation annually.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Waller endorsed tokenized payments but warned blockchain finance needs reliable settlement infrastructure.",
+     "source": 1,
+     "quote": "In separate remarks, Waller endorsed innovation in tokenized payments but warned that blockchain-based finance needs reliable settlement infrastructure and clearer accountability.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks",
+     "published": "Wed, 18 Nov 2026 18:16:02 +0000",
+     "published_iso": "2026-11-18T18:16:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+     "published": "Thu, 19 Nov 2026 12:08:06 +0000",
+     "published_iso": "2026-11-19T12:08:06+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+    "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue",
+    "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks"
+   ],
+   "primary": [
+    {
+     "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm"
+    },
+    {
+     "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: so_what mentions 'early 2027' which does not appear in any source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-19-german-judge-offers-bitcoin-deal-to-end-movie2k-tax-evasion-b887d",
+   "date": "2026-11-19",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "German judge offers Bitcoin deal to end Movie2K tax evasion trial",
+   "in_brief": "A Leipzig judge proposed dropping charges against the alleged Movie2K operator if he surrenders 40,000 Bitcoin and pays €38 million. The offer could end the trial that resumes on Dec 3 and let the defendant retain roughly 16,000 Bitcoin.",
+   "so_what": "The proposal illustrates how German authorities are navigating the challenge of recovering crypto assets tied to alleged crime while balancing legal uncertainties around mixed legitimate and illicit holdings. Prosecutors estimate the defendant controls about 56,000 Bitcoin, meaning the deal would return a substantial portion of the assets to the state treasury, which previously sold nearly 50,000 Bitcoin from the case in 2024. The arrangement also reflects new legislative powers aimed at seizing crypto of unclear origin. Observers will watch whether the defendant accepts, how the remaining Bitcoin is handled, and how the precedent influences future crypto‑related prosecutions in Germany.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "A Leipzig judge offered to drop charges if the defendant hands over 40,000 BTC and pays €38 million.",
+     "source": 1,
+     "quote": "The presiding judge at the Leipzig Regional Court has offered to drop tax evasion and money laundering charges ... if he hands over 40,000 BTC, public broadcaster MDR reported",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Prosecutors believe the defendant still holds about 56,000 BTC.",
+     "source": 1,
+     "quote": "But prosecutors believe the defendant holds a total of about 56,000 BTC.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The trial is set to resume on December 3.",
+     "source": 1,
+     "quote": "The trial resumes on December 3 and could end before Christmas.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire",
+     "published": "Wed, 18 Nov 2026 14:20:52 +0000",
+     "published_iso": "2026-11-18T14:20:52+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
+     "published": "Wed, 18 Nov 2026 15:38:38 +0000",
+     "published_iso": "2026-11-18T15:38:38+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
+    "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-18-german-judge-offers-bitcoin-deal-to-end-movie2k-tax-evasion-b887d",
+    "date": "2026-11-18",
+    "label": "Developing",
+    "score": 46
+   }
+  },
+  {
+   "id": "2026-11-19-coinbase-blocks-4-7-million-in-deepfake-elon-musk-crypto-giv-471b8",
+   "date": "2026-11-19",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Coinbase blocks $4.7 million in deepfake Elon Musk crypto giveaway scam",
+   "in_brief": "Coinbase said its AI‑driven fraud system stopped about $4.7 million in cryptocurrency transfers that scammers tried to pull off using an AI‑generated Elon Musk deepfake during a Tesla livestream. The intervention prevented roughly 91% of the attempted payments from leaving customers’ accounts.",
+   "so_what": "The incident highlights how deepfake technology can be weaponized to create convincing financial scams that bypass traditional security measures, because victims voluntarily approve the transfers. Coinbase’s machine‑learning models detected the suspicious activity in real time and engaged users through an automated AI agent, marking a shift toward proactive, automated defenses against social‑engineering attacks in the crypto space. As scammers continue to exploit high‑profile figures and live events, users should remain skeptical of any offer that requires sending crypto to receive a larger payout, especially when presented via livestreams or QR codes. Watch for further updates on how much, if any, of the blocked funds were ultimately recovered and whether other exchanges adopt similar AI‑based safeguards.",
+   "what_to_do": "1. Do not send cryptocurrency to any address or QR code shown in a livestream or video, even if it appears to be from a trusted figure. 2. Verify offers by visiting the official website or app of the claimed organization before making any payment. 3. If you think you may have sent crypto to a scam, report the transaction to the exchange and consider contacting law‑enforcement or a crypto recovery service.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Coinbase blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI‑generated deepfake of Elon Musk.",
+     "source": 1,
+     "quote": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The fraudulent stream featured an AI‑generated video of Musk, cryptocurrency wallet addresses, and a QR code, promising viewers that any cryptocurrency they sent would be doubled.",
+     "source": 1,
+     "quote": "The fraudulent stream featured an AI-generated video of Musk, cryptocurrency wallet addresses, and a QR code, promising viewers that any cryptocurrency they sent would be doubled",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Coinbase’s AI‑powered fraud‑prevention systems detected the scam and blocked about 91% of the attempted transfers, totaling $4.7 million.",
+     "source": 1,
+     "quote": "However, the company says its AI-powered fraud-prevention systems detected the scam and blocked about 91% of the attempted transfers, totaling $4.7 million",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+     "published": "Wed, 18 Nov 2026 15:49:32 -0500",
+     "published_iso": "2026-11-18T20:49:32+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/ai/2026/11/deepfake-elon-musk-nearly-costs-viewers-4-7-million-in-crypto",
+     "published": "Thu, 19 Nov 2026 17:26:39 GMT",
+     "published_iso": "2026-11-19T17:26:39+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+    "https://www.malwarebytes.com/blog/ai/2026/11/deepfake-elon-musk-nearly-costs-viewers-4-7-million-in-crypto"
+   ],
+   "primary": [
+    {
+     "url": "https://reportfraud.ftc.gov/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://reportfraud.ftc.gov/"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: bleepingcomputer.com, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 614,
+  "stories_considered": 14,
+  "published": 11,
+  "outlets": 40
+ }
+}
