@@ -1,0 +1,152 @@
+[
+ {
+  "section": "threat",
+  "title": "JPMorgan, Visa and Mastercard disclose third‑party data breach affecting marketing info",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [
+   "removed 2 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Broadcom patches critical VMware vCenter zero-day after months of exploitation",
+  "verdict": "PUBLISH",
+  "truth": 98,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Transport for London Oyster photocard breach exposes data of 265,000 users",
+  "verdict": "PUBLISH",
+  "truth": 68,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Anthropic researcher claims AI‑assisted proof of Riemann hypothesis",
+  "verdict": "PUBLISH",
+  "truth": 67,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Russian national indicted for spying on Silicon Valley tech and defense firm",
+  "verdict": "PUBLISH",
+  "truth": 77,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "California AG subpoenas Nvidia amid probe of China chip concerns",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Voyager 1 reaches one light‑day distance from Earth",
+  "verdict": "PUBLISH",
+  "truth": 74,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: So_what section includes unsupported speculation about science data loss timing ('since mid-November' vs sources saying 'since Nov. 14') and includes general forward-looking advice/hype not strictly sourced."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Astronomers Observe Giant Star Engulfing Companion in Andromeda",
+  "verdict": "PUBLISH",
+  "truth": 74,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Senate passes DEATH BETS Act to bar prediction market contracts on war, terrorism and death",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Coinbase Reportedly Targets First-Half 2027 for In-House Prediction Markets",
+  "verdict": "PUBLISH",
+  "truth": 49,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft states Coinbase intends to launch in early 2027 and shift from Kalshi as a definitive fact, but sources attribute the 2027 timing to a Bloomberg report citing an anonymous source, while Coinbase stated it had nothing new to announce regarding timing.",
+   "editor: Draft mentions state lawsuits alleging unlicensed gambling, but this is not present in the provided sources."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "WhatsApp patches Android ad‑reply URL flaw linked to scam campaign",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Viral claim of June judicial review on pension age is false",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Old Christmas postal scam warning proven outdated",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Ukrainian Lawmaker Vatsak Not in Zelensky’s Party, Video Lacks Fight Call",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

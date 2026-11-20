@@ -1,0 +1,1573 @@
+{
+ "date": "2026-11-20",
+ "built_at": "2026-11-20T21:16:44.095007+00:00",
+ "stories": [
+  {
+   "id": "2026-11-20-jpmorgan-visa-and-mastercard-disclose-third-party-data-breac-bfb0a",
+   "date": "2026-11-20",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "JPMorgan, Visa and Mastercard disclose third‑party data breach affecting marketing info",
+   "in_brief": "JPMorgan Chase, Visa and Mastercard said attackers accessed marketing data held by third‑party service providers, exposing some customer names, email addresses and limited benefit‑program details. The firms stress that payment systems and card numbers were not compromised.",
+   "so_what": "The breach highlights the growing risk that third‑party vendors pose to large financial institutions, even when core payment networks remain secure. While no payment data such as card numbers were exposed, the leaked marketing information—including roughly 16,000 JPMorgan customer emails and thousands of Visa and Mastercard email records—could be used for targeted phishing and social‑engineering attacks. Regulators and consumers are likely to scrutinize vendor security practices, and the incident may prompt tighter oversight of third‑party risk management across the banking and payments sectors. Watch for follow‑up notifications from the companies to affected customers and any potential regulatory actions concerning vendor oversight.",
+   "what_to_do": "1. Review recent emails for suspicious content and verify sender authenticity. 2. Enable multi‑factor authentication on banking and payment accounts. 3. Monitor accounts for unexpected activity and consider credit monitoring if offered.",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of multiple sources",
+   "claims": [
+    {
+     "claim": "JPMorgan Chase, Visa and Mastercard disclosed that attackers accessed marketing data held by third‑party service providers, potentially including customer names and email addresses.",
+     "source": 1,
+     "quote": "Based on our investigation so far, we believe the attackers accessed certain marketing data held by those vendors, which may include some customer names and email addresses.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "malwarebytes.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Visa stated that no payment data such as card numbers was affected and that its systems were not impacted.",
+     "source": 1,
+     "quote": "No payments data such as card numbers were affected.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "malwarebytes.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Mastercard said the exposure involved a limited number of email addresses from a small subset of cardholders enrolled in a specific benefit program, with no impact to its payment network.",
+     "source": 1,
+     "quote": "They were recently informed of an incident at a third-party provider that resulted in the exposure of limited amount of email addresses – non-payments information – from a small subset of cardholders enrolled in a specific benefit program.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "malwarebytes.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The n0n ransomware group claimed responsibility for the breach and posted the stolen data on its extortion site.",
+     "source": 1,
+     "quote": "n0n ransomware claims the attack ... n0n leaked the claimed Chase, Visa, and Mastercard data on its extortion site on Novem",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    },
+    {
+     "claim": "Researchers identified roughly 16,000 JPMorgan customer email addresses and over 6,000 Visa premium‑customer records in the leaked files.",
+     "source": 2,
+     "quote": "Reuters’ review of the JPMorgan-related data found over 16,000 customer emails ... The Visa files hold thousands of purported customer emails, phone numbers and marketing campaign records, mostly from Asia-Pacific markets.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [2]: 6000"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+     "published": "Fri, 20 Nov 2026 10:58:06 -0500",
+     "published_iso": "2026-11-20T15:58:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+     "published": "Fri, 20 Nov 2026 07:35:46 +0000",
+     "published_iso": "2026-11-20T07:35:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+     "published": "Thu, 19 Nov 2026 22:12:33 +0100",
+     "published_iso": "2026-11-19T21:12:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
+     "published": "Fri, 20 Nov 2026 12:51:36 GMT",
+     "published_iso": "2026-11-20T12:51:36+00:00",
+     "kind": "vendor",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data",
+     "published": "Thu, 19 Nov 2026 20:15:32 +0000",
+     "published_iso": "2026-11-19T20:15:32+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+    "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+    "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+    "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+    "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
+    "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, bleepingcomputer.com, decrypt.co, malwarebytes.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      15,
+      25,
+      "3 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      6,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -10,
+      0,
+      "2 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 2 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-20-broadcom-patches-critical-vmware-vcenter-zero-day-after-mont-9f918",
+   "date": "2026-11-20",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Broadcom patches critical VMware vCenter zero-day after months of exploitation",
+   "in_brief": "Broadcom released emergency updates for VMware vCenter, SDDC Manager and Tools after a Chinese-linked group exploited CVE-2026-123890 since September. The fix addresses an unauthenticated authentication-bypass that gave attackers admin control of virtual environments.",
+   "so_what": "The vulnerability, rated 9.8 CVSS, allowed remote attackers to bypass authentication and gain full administrative access to vCenter Server, the central management point for VMware virtual machines. Researchers at Google's Threat Intelligence Group and Mandiant linked the exploitation to the state-aligned cyber-espionage group Armory Castle, which used a custom tool called BONESAW to steal the vCenter directory database, forge SAML tokens and create persistent admin accounts. The attacks persisted for over two months before Broadcom issued patches in VMSA-2026-0009. Organizations running any earlier versions are at risk and should verify whether they were compromised.",
+   "what_to_do": "1. Apply the Broadcom vCenter patches immediately. 2. Review logs for unexpected administrator@vsphere.local sessions or SAML token activity. 3. Isolate and scan any VMware Tools for Windows installations that are pre-fixed.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting with multiple sources",
+   "claims": [
+    {
+     "claim": "Broadcom released emergency patches for the vCenter vulnerability on November 19 2026.",
+     "source": 1,
+     "quote": "Broadcom patched the vulnerability on November 19 in VMSA-2026-0009",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw (CVE‑2026‑123890) allows an unauthenticated attacker to bypass authentication and gain admin access to vCenter.",
+     "source": 1,
+     "quote": "the flaw allows an unauthenticated attacker with network access to a vulnerable vCenter Server to bypass authentication and gain unauthorized access",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Armory Castle exploited the zero‑day from early September 2026 using a tool called BONESAW.",
+     "source": 2,
+     "quote": "They used a custom tool called Bonesaw to exploit CVE-2026-123890",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+     "published": "Thu, 19 Nov 2026 19:26:25 -0500",
+     "published_iso": "2026-11-20T00:26:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+     "published": "Thu, 19 Nov 2026 19:21:06 +0000",
+     "published_iso": "2026-11-19T19:21:06+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+     "published": "Fri, 20 Nov 2026 15:08:15 +0530",
+     "published_iso": "2026-11-20T09:38:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+     "published": "Fri, 20 Nov 2026 12:30:19 +0000",
+     "published_iso": "2026-11-20T12:30:19+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+    "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+    "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+    "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+    "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-123890",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-123890"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-59309",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-59309"
+    }
+   ],
+   "truth": {
+    "total": 98,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: bleepingcomputer.com, helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-20-transport-for-london-oyster-photocard-breach-exposes-data-of-27556",
+   "date": "2026-11-20",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Transport for London Oyster photocard breach exposes data of 265,000 users",
+   "in_brief": "TfL confirmed that a breach of its Oyster photocard website on 16 November 2026 exposed personal details of about 265,000 customers. The incident prompted the site’s shutdown and notifications to affected users and the UK Information Commissioner’s Office.",
+   "so_what": "The exposure of personal identifiers—including names, contact information, dates of birth and security question answers—poses a risk of identity theft and account takeover, especially if the same security answers are reused elsewhere. While TfL says passwords, payment details and journey data were not accessed, the compromised security questions could be leveraged to reset accounts on other services. TfL has taken the photocard portal offline, is notifying customers, and will require password and security‑question changes once the site is restored. The breach follows a previous 2024 attack on TfL’s back‑office systems, highlighting ongoing cyber threats to critical public‑transport infrastructure. Observers will watch for any signs of misuse of the leaked data and for further details on how the attackers gained access.",
+   "what_to_do": "1. Change passwords and security questions on the Oyster photocard portal as soon as it is restored. 2. Update any other online accounts that use the same passwords or security answers. 3. Monitor email and account activity for suspicious messages and report them to TfL.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Around 265,000 Oyster photocard customers may have had their account details exposed in the breach.",
+     "source": 1,
+     "quote": "TfL estimates that around 265,000 photocard customers may have been impacted",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The exposed data includes full names, phone numbers, email addresses, home addresses, dates of birth, and security questions and answers.",
+     "source": 1,
+     "quote": "the following customer data may have been exposed: - Full names - Phone numbers - Email addresses - Home addresses - Dates of birth - Security questions and answers",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "TfL’s assessment is that passwords, bank and payment card details, journey information, and children’s Zip card data were not compromised.",
+     "source": 1,
+     "quote": "TfL's current assessment is that passwords, bank and payment card details, journey information, and the names and dates of birth of children with Zip Oyster cards were not compromised",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+     "published": "Thu, 19 Nov 2026 13:20:01 -0500",
+     "published_iso": "2026-11-19T18:20:01+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
+     "published": "Thu, 19 Nov 2026 12:01:00 +0100",
+     "published_iso": "2026-11-19T11:01:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/",
+     "published": "Fri, 20 Nov 2026 10:21:41 +0000",
+     "published_iso": "2026-11-20T10:21:41+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+    "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
+    "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
+    "https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 68,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-20-anthropic-researcher-claims-ai-assisted-proof-of-riemann-hyp-cf572",
+   "date": "2026-11-20",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Anthropic researcher claims AI‑assisted proof of Riemann hypothesis",
+   "in_brief": "Levent Alpöge says he used Anthropic’s Claude model to produce a proof of the Riemann hypothesis. The claim remains unverified and has not been accepted by the Clay Mathematics Institute.",
+   "so_what": "If confirmed, a proof of the Riemann hypothesis would resolve one of the seven Millennium Prize Problems and could transform number theory and fields that rely on prime‑number distribution, such as cryptography. The claim highlights the growing role of large language models in advanced mathematical research, but the rigorous standards of the mathematical community require peer‑review and at least two years of scrutiny before a solution can be awarded a prize. Observers will watch for independent verification, formal publication, and any response from Anthropic or the Clay Mathematics Institute. Until the proof passes these hurdles, its impact remains speculative.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Levent Alpöge claims he has proved the Riemann hypothesis with the help of Claude",
+     "source": 1,
+     "quote": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics’s most notoriously difficult problems, with the help of Claude",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The solution has not yet been independently verified",
+     "source": 1,
+     "quote": "Alpöge’s solution has yet to be verified independently",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The proof has not been accepted by the Clay Mathematics Institute and must endure at least two years of scrutiny",
+     "source": 1,
+     "quote": "Under the institute’s rules, a proposed solution must be published and withstand at least two years of scrutiny before it can be considered for the prize",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+     "published": "2026-11-20T11:34:13-05:00",
+     "published_iso": "2026-11-20T16:34:13+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html",
+     "published": "Fri, 20 Nov 2026 12:50:01 EST",
+     "published_iso": "2026-11-20T17:50:01+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Hacker News",
+     "owner": "alpo.ge",
+     "url": "https://alpo.ge/remark.pdf",
+     "published": "Fri, 20 Nov 2026 14:16:21 +0000",
+     "published_iso": "2026-11-20T14:16:21+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+    "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html",
+    "https://alpo.ge/remark.pdf"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 67,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Vox Media, alpo.ge, phys.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-20-russian-national-indicted-for-spying-on-silicon-valley-tech-69e7a",
+   "date": "2026-11-20",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Russian national indicted for spying on Silicon Valley tech and defense firm",
+   "in_brief": "Federal prosecutors have indicted 25‑year‑old Igor D’iu on charges of espionage, stalking and fraud after alleging he surveilled employees of a Palo Alto‑based technology and defense company. The case highlights concerns about foreign intelligence operations targeting U.S. tech firms linked to national security.",
+   "so_what": "The indictment underscores the vulnerability of high‑tech companies that support U.S. defense efforts, especially those supplying equipment used in conflicts such as the Russia‑Ukraine war. Investigators say D’iu entered the United States illegally, was recruited through Telegram, and received instructions, equipment and funding to photograph employee screens, collect home addresses and drop remote‑access devices near their residences. While the company’s name has not been confirmed by officials, multiple media outlets have reported it as Palantir Technologies, a firm with a large Palo Alto presence. The alleged stalking of a female employee, including dangerous driving for nearly 30 miles, illustrates the lengths to which foreign operatives may go to gather intelligence. Law‑enforcement agencies will likely increase monitoring of foreign‑linked recruitment channels and advise tech firms to tighten physical and cyber security protocols.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Igor D’iu, 25, was indicted for photographing employees and their computer screens at a coffee shop near the company’s Palo Alto office",
+     "source": 1,
+     "quote": "Igor D’iu, 25, allegedly photographed the employees and their computer screens as they worked at a coffee shop located near the company’s Palo Alto office, federal prosecutors said Wednesday.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "D’iu followed a female employee for nearly thirty miles, running red lights and making illegal turns",
+     "source": 1,
+     "quote": "D’IU followed FEMP1 through U-turns, illegal left turns, and ran a red light to stay with FEMP1 for nearly thirty miles.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Situation Publishing"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Media reports identified the targeted company as Palantir, though prosecutors have not named it",
+     "source": 1,
+     "quote": "Prosecutors didn’t name the company, but both Reuters and Bloomberg, citing unnamed people with knowledge of the case, identified it as Palantir.",
+     "status": "verified",
+     "corroborated_by": [
+      "Situation Publishing"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+     "published": "Thu, 19 Nov 2026 20:29:46 +0000",
+     "published_iso": "2026-11-19T20:29:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley",
+     "published": "Wed, 18 Nov 2026 23:41:29 GMT",
+     "published_iso": "2026-11-18T23:41:29+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+     "published": "Thu, 19 Nov 2026 17:20:00 +0100",
+     "published_iso": "2026-11-19T16:20:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+    "https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley",
+    "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+    "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/usao-ndca/pr/russian-national-indicted-acting-foreign-agent-russia-target-silicon-valley-technology",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.justice.gov/usao-ndca/pr/russian-national-indicted-acting-foreign-agent-russia-target-silicon-valley-technology"
+    },
+    {
+     "url": "https://www.justice.gov/usao-ndca/media/1472991/dl?inline",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/usao-ndca/media/1472991/dl?inline"
+    }
+   ],
+   "truth": {
+    "total": 77,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Guardian Media Group, Situation Publishing"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-19-russian-national-indicted-for-spying-on-silicon-valley-tech-95865",
+    "date": "2026-11-19",
+    "label": "Well-sourced",
+    "score": 69
+   }
+  },
+  {
+   "id": "2026-11-20-california-ag-subpoenas-nvidia-amid-probe-of-china-chip-conc-3ae91",
+   "date": "2026-11-20",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "California AG subpoenas Nvidia amid probe of China chip concerns",
+   "in_brief": "California Attorney General Rob Bonta issued an investigative subpoena to Nvidia to examine whether the company’s advanced chips or confidential information reached China. The probe follows former CEO Jensen Huang’s resignation after revelations of an affair with a suspected Chinese spy.",
+   "so_what": "The subpoena signals heightened regulatory scrutiny of Nvidia, the world’s leading AI‑chip maker, at a time when its market value has already slipped by roughly one‑fifth after the scandal. If investigators find that Nvidia or its former chief executive facilitated the transfer of restricted technology or misled investors, the company could face civil penalties, securities‑law violations, and further damage to its reputation. The case also draws attention to broader U.S. concerns about the export of advanced semiconductors to China, prompting congressional hearings and potential actions by the SEC and the Department of Commerce. Stakeholders will be watching the upcoming testimony of Jensen Huang on 1 December and any subsequent findings that could affect supply‑chain contracts, investor confidence, and the competitive landscape for rival chipmakers.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced factual reporting",
+   "claims": [
+    {
+     "claim": "California Attorney General Rob Bonta served an investigative subpoena to Nvidia.",
+     "source": 1,
+     "quote": "California has served an investigative subpoena on the AI chip designer Nvidia",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The subpoena seeks to determine if Nvidia or Jensen Huang’s actions resulted in China obtaining advanced chips or confidential information.",
+     "source": 1,
+     "quote": "he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Jensen Huang resigned after it emerged he had an extramarital relationship with a suspected Chinese spy, Alice Huang.",
+     "source": 2,
+     "quote": "the subpoena ... followed Huang’s resignation a week ago after it emerged he had multiple affairs, including one with Alice Huang, a suspected Chinese spy",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Board chair Harvey Jones said Nvidia has no intention of reinstating Jensen Huang as CEO.",
+     "source": 3,
+     "quote": "the company’s new chair, Harvey Jones, ... said earlier this week that Nvidia had no intention of reinstating Huang to his position",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC",
+      "Guardian Media Group"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Nvidia’s shares have fallen about 20% since the scandal broke.",
+     "source": 2,
+     "quote": "Nvidia’s shares are down by a fifth since Huang admitted the extramarital affair",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [2]: 20"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+     "published": "Thu, 19 Nov 2026 23:04:30 GMT",
+     "published_iso": "2026-11-19T23:04:30+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+     "published": "Fri, 20 Nov 2026 09:18:30 GMT",
+     "published_iso": "2026-11-20T09:18:30+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+     "published": "Fri, 20 Nov 2026 13:21:11 +0000",
+     "published_iso": "2026-11-20T13:21:11+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+    "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/"
+   ],
+   "primary": [
+    {
+     "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia"
+    }
+   ],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Guardian Media Group, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      20,
+      25,
+      "4 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-20-voyager-1-reaches-one-light-day-distance-from-earth-91bb0",
+   "date": "2026-11-20",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Voyager 1 reaches one light‑day distance from Earth",
+   "in_brief": "Voyager 1, humanity’s most distant spacecraft, passed the one‑light‑day mark on Nov. 18, about 16.1 billion miles from Earth. The milestone was confirmed using the probe’s carrier signal and trajectory data.",
+   "so_what": "Reaching a light-day away marks a new distance record for any human-made object, underscoring the longevity of the Voyager program and its continued relevance to heliophysics. The achievement highlights the durability of the spacecraft's engineering, which has kept it communicating for nearly five decades. It also provides a unique platform for measuring the Sun's magnetic field far beyond the heliosphere, offering insights into interstellar space conditions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Voyager 1 reached a distance of one light‑day from Earth on Nov. 18 at 2:16 a.m. PST",
+     "source": 2,
+     "quote": "The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "One light‑day equals about 16.1 billion miles (25.9 billion kilometres)",
+     "source": 2,
+     "quote": "A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The milestone was confirmed using Voyager’s carrier signal and trajectory calculations",
+     "source": 2,
+     "quote": "Mission engineers used the carrier signal and trajectory calculations to confirm the light‑day milestone.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03806-5",
+     "published": "2026-11-20",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+     "published": "Thu, 19 Nov 2026 14:31:15 +0000",
+     "published_iso": "2026-11-19T14:31:15+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03806-5",
+    "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03806-5",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    },
+    {
+     "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 74,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: So_what section includes unsupported speculation about science data loss timing ('since mid-November' vs sources saying 'since Nov. 14') and includes general forward-looking advice/hype not strictly sourced."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-19-voyager-1-reaches-one-light-day-from-earth-96ad8",
+    "date": "2026-11-19",
+    "label": "Confirmed",
+    "score": 86
+   }
+  },
+  {
+   "id": "2026-11-20-astronomers-observe-giant-star-engulfing-companion-in-androm-10640",
+   "date": "2026-11-20",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Astronomers Observe Giant Star Engulfing Companion in Andromeda",
+   "in_brief": "A giant star in the Andromeda Galaxy was seen swallowing a smaller companion, confirming a long‑theorized common‑envelope phase. The observation provides the first direct view of this stellar interaction.",
+   "so_what": "The event, captured by a team led by Columbia University astrophysicist Viraj Karambelkar, validates a model proposed in the 1970s to explain how close binary stars tighten their orbits. By tracking the system AT 2025abao over decades with infrared and visible data, researchers documented a gradual brightening that culminated in an explosive eruption in late 2025. This real‑time evidence helps refine predictions of binary evolution, informs estimates of gravitational‑wave progenitors, and improves understanding of how stellar mergers contribute to chemical enrichment. Future monitoring of similar systems will test whether the observed dust production and luminosity changes match theoretical expectations, and may reveal how often such engulfments occur in nearby galaxies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely observational science",
+   "claims": [
+    {
+     "claim": "Astronomers witnessed a giant star swallowing its neighbor and exploding in the Andromeda Galaxy.",
+     "source": 2,
+     "quote": "Watching as a giant star swallowed its neighbor and exploded.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The process is called common envelope evolution and was first proposed in the 1970s.",
+     "source": 2,
+     "quote": "The process, known as common envelope evolution, was proposed in the 1970s",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The system, named AT 2025abao, brightened over several years before the eruption.",
+     "source": 2,
+     "quote": "Between 2018 and early 2025, the giant brightened two- to three-fold in visible light",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03784-8",
+     "published": "2026-11-18",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+     "published": "Fri, 20 Nov 2026 20:41:17 +0000",
+     "published_iso": "2026-11-20T20:41:17+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03784-8",
+    "https://www.nature.com/articles/d41586-026-03273-y",
+    "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.1038/s41586-026-11221-z",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://doi.org/10.1038/s41586-026-11221-z"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03784-8",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 74,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-18-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+    "date": "2026-11-18",
+    "label": "Well-sourced",
+    "score": 74
+   }
+  },
+  {
+   "id": "2026-11-20-senate-passes-death-bets-act-to-bar-prediction-market-contra-3d43f",
+   "date": "2026-11-20",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Senate passes DEATH BETS Act to bar prediction market contracts on war, terrorism and death",
+   "in_brief": "The U.S. Senate approved the DEATH BETS Act, prohibiting CFTC‑regulated platforms from listing event contracts tied to terrorism, assassination, war, military operations or an individual’s death. The measure now moves to the House for further consideration.",
+   "so_what": "The legislation targets a niche but growing segment of prediction markets that allow users to wager on real‑world tragedies, a practice lawmakers say can profit from suffering and create incentives for insider trading. By amending the Commodity Exchange Act, the bill would restrict exchanges and clearinghouses registered with the Commodity Futures Trading Commission from offering such contracts, while giving the CFTC authority to expand the ban by rule. Supporters argue the move protects public morals and national security; critics warn it could limit financial innovation and free speech in markets. The bill’s progress will be watched closely as it heads to the House, where amendments or delays could reshape its final scope. Stakeholders, including platforms like Kalshi and Polymarket, will monitor the outcome for potential operational impacts.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The U.S. Senate passed the DEATH BETS Act by voice vote on November 19, sending it to the House for further action",
+     "source": 1,
+     "quote": "The bill passed the Senate by voice vote on Wednesday and now heads to the House, where it would need to pass before going to the president.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The bill would bar CFTC‑registered exchanges and clearinghouses from listing contracts related to terrorism, assassination, war, U.S. military operations or an individual’s death",
+     "source": 1,
+     "quote": "The bill would amend the Commodity Exchange Act to bar exchanges and clearinghouses registered with the Commodity Futures Trading Commission (CFTC) from listing or clearing event contracts that expressly reference terrorism, assassination, war or U.S. military operations.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Senate’s DEATH BETS Act was introduced by Sen. Adam Schiff and cosponsored by Sen. John Curtis",
+     "source": 1,
+     "quote": "The bill was introduced by Sen. Adam Schiff (D-CA) in March, and is cosponsored by Sen. John Curtis (R-UT).",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death",
+     "published": "Fri, 20 Nov 2026 15:42:51 +0000",
+     "published_iso": "2026-11-20T15:42:51+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
+     "published": "Fri, 20 Nov 2026 14:25:57 +0000",
+     "published_iso": "2026-11-20T14:25:57+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
+    "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cftc.gov/PressRoom/PressReleases/9326-26",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cftc.gov/PressRoom/PressReleases/9326-26"
+    }
+   ],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-20-coinbase-reportedly-targets-first-half-2027-for-in-house-pre-5ae90",
+   "date": "2026-11-20",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Coinbase Reportedly Targets First-Half 2027 for In-House Prediction Markets",
+   "in_brief": "Coinbase is reportedly aiming to launch its own prediction-market contracts in the United States during the first half of 2027, potentially moving beyond its current partnership with Kalshi, according to Bloomberg.",
+   "so_what": "Developing in-house contracts would give Coinbase greater control over listed events and allow it to retain a larger share of trading revenue. The company’s prediction-market products exceeded $200 million in annualized revenue in the third quarter, providing a growing revenue stream as crypto trading slows. The rollout is supported by Coinbase's regulated derivatives exchange and its CFTC-approved clearinghouse. However, a Coinbase spokesperson stated the company has nothing new to announce regarding the timing of an in-house launch.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Coinbase is aiming to launch its own prediction market contracts in the U.S. in the first half of 2027",
+     "source": 1,
+     "quote": "Coinbase is aiming to launch its own prediction market contracts in the U.S. in the first half of 2027, according to Bloomberg.",
+     "status": "verified",
+     "corroborated_by": [
+      "coindesk.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Prediction markets generated over $200 million in annualized revenue in the third quarter",
+     "source": 1,
+     "quote": "Its prediction markets passed $200 million in annualized revenue in the third quarter, making them one of Coinbase's fastest-growing products.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Coinbase received CFTC approval for its own clearinghouse in September 2026",
+     "source": 1,
+     "quote": "in September 2026 it received approval from the Commodity Futures Trading Commission (CFTC) for its own clearinghouse.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report",
+     "published": "Fri, 20 Nov 2026 11:23:00 +0000",
+     "published_iso": "2026-11-20T11:23:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/20/coinbase-targets-first-half-2027-for-its-own-prediction-market-contracts",
+     "published": "Fri, 20 Nov 2026 10:48:04 +0000",
+     "published_iso": "2026-11-20T10:48:04+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/20/coinbase-targets-first-half-2027-for-its-own-prediction-market-contracts",
+    "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 49,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft states Coinbase intends to launch in early 2027 and shift from Kalshi as a definitive fact, but sources attribute the 2027 timing to a Bloomberg report citing an anonymous source, while Coinbase stated it had nothing new to announce regarding timing.",
+     "editor: Draft mentions state lawsuits alleging unlicensed gambling, but this is not present in the provided sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-20-whatsapp-patches-android-ad-reply-url-flaw-linked-to-scam-ca-aa61c",
+   "date": "2026-11-20",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "WhatsApp patches Android ad‑reply URL flaw linked to scam campaign",
+   "in_brief": "WhatsApp released a fix for a low‑impact Android vulnerability that could expose a device’s IP address when a crafted Click‑to‑WhatsApp ad‑reply is displayed. The company says the flaw was discovered while disrupting a scam operation and may have been used to make scam messages appear more credible.",
+   "so_what": "The patched vulnerability (CVE‑2026‑23871) affected WhatsApp and WhatsApp Business for Android versions before 2.26.17.4. By failing to fully validate external ad‑reply URLs, the flaw could allow an attacker to learn a target’s IP address when media from a malicious URL is rendered in a chat thread. WhatsApp’s security team identified the issue while intervening in a scam campaign and believes a fraudster leveraged it to increase the perceived legitimacy of scam messages. Although no public evidence of large‑scale exploitation has been disclosed, the incident highlights how ad‑related features can be weaponized for social‑engineering attacks. Users should ensure their apps are updated, as WhatsApp also addressed two additional vulnerabilities—an Android SQL‑injection bug (CVE‑2026‑102769) and a certificate‑validation issue (CVE‑2026‑44908)—that could lead to data loss or trust‑chain bypasses. Ongoing monitoring of WhatsApp advisories will be important to gauge any further threat activity.",
+   "what_to_do": "1. Update WhatsApp and WhatsApp Business to the latest version available in the app store.\n2. Avoid clicking on ad‑reply links or opening media from unknown sources.\n3. Report suspicious messages to WhatsApp through the in‑app chat‑report feature.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "WhatsApp patched a low‑impact Android vulnerability (CVE‑2026‑23871) that could expose a device’s IP address via crafted Click‑to‑WhatsApp ad‑reply messages.",
+     "source": 1,
+     "quote": "WhatsApp has patched a low-impact vulnerability in its Android apps that it believes a scammer may have exploited to make scam messages seem more credible.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw was discovered while disrupting a scam campaign, and WhatsApp believes a scammer used it to make messages appear more credible.",
+     "source": 2,
+     "quote": "When reached for comment, a WhatsApp spokesperson told The Hacker News that the vulnerability was discovered while disrupting a scam campaign. \"We believe a scammer was using it to make their scam message seem more credible,\" the spokesperson added.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability could cause a target’s device to reveal its IP information if an attacker sent media from a controlled URL in a crafted ad‑reply message.",
+     "source": 1,
+     "quote": "could have caused a target’s device to reveal its IP information to an attacker if an attacker sent media from an attacker-controlled URL when a crafted Click to WhatsApp ad-reply message was rendered and displayed in a message thread",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+     "published": "Fri, 20 Nov 2026 16:01:02 +0000",
+     "published_iso": "2026-11-20T16:01:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+     "published": "Fri, 20 Nov 2026 23:27:20 +0530",
+     "published_iso": "2026-11-20T17:57:20+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+    "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 585,
+  "stories_considered": 14,
+  "published": 11,
+  "outlets": 39
+ }
+}

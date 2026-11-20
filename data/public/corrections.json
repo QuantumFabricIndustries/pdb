@@ -416,5 +416,27 @@
   "from_score": 66,
   "to_score": 82,
   "note": "Rating changed from Well-sourced (66) to Confirmed (82) as new evidence came in."
+ },
+ {
+  "date": "2026-11-20",
+  "story_id": "2026-11-20-russian-national-indicted-for-spying-on-silicon-valley-tech-69e7a",
+  "prior_id": "2026-11-19-russian-national-indicted-for-spying-on-silicon-valley-tech-95865",
+  "headline": "Russian national indicted for spying on Silicon Valley tech and defense firm",
+  "from": "Well-sourced",
+  "to": "Confirmed",
+  "from_score": 69,
+  "to_score": 77,
+  "note": "Rating changed from Well-sourced (69) to Confirmed (77) as new evidence came in."
+ },
+ {
+  "date": "2026-11-20",
+  "story_id": "2026-11-20-voyager-1-reaches-one-light-day-distance-from-earth-91bb0",
+  "prior_id": "2026-11-19-voyager-1-reaches-one-light-day-from-earth-96ad8",
+  "headline": "Voyager 1 reaches one light‑day distance from Earth",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 86,
+  "to_score": 74,
+  "note": "Rating changed from Confirmed (86) to Well-sourced (74) as new evidence came in."
  }
 ]
