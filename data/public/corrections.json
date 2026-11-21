@@ -438,5 +438,27 @@
   "from_score": 86,
   "to_score": 74,
   "note": "Rating changed from Confirmed (86) to Well-sourced (74) as new evidence came in."
+ },
+ {
+  "date": "2026-11-21",
+  "story_id": "2026-11-21-jpmorgan-visa-and-mastercard-disclose-third-party-data-breac-bfb0a",
+  "prior_id": "2026-11-20-jpmorgan-visa-and-mastercard-disclose-third-party-data-breac-bfb0a",
+  "headline": "JPMorgan, Visa and Mastercard disclose third‑party data breach affecting marketing info",
+  "from": "Developing",
+  "to": "Well-sourced",
+  "from_score": 48,
+  "to_score": 56,
+  "note": "Rating changed from Developing (48) to Well-sourced (56) as new evidence came in."
+ },
+ {
+  "date": "2026-11-21",
+  "story_id": "2026-11-21-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+  "prior_id": "2026-11-20-astronomers-observe-giant-star-engulfing-companion-in-androm-10640",
+  "headline": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+  "from": "Well-sourced",
+  "to": "Confirmed",
+  "from_score": 74,
+  "to_score": 86,
+  "note": "Rating changed from Well-sourced (74) to Confirmed (86) as new evidence came in."
  }
 ]

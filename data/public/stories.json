@@ -7640,5 +7640,151 @@
    "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
    "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
   ]
+ },
+ {
+  "id": "2026-11-21-jpmorgan-visa-and-mastercard-disclose-third-party-data-breac-bfb0a",
+  "date": "2026-11-21",
+  "section": "threat",
+  "headline": "JPMorgan, Visa and Mastercard disclose third‑party data breach affecting marketing info",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+   "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+   "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+   "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+   "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
+   "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data"
+  ]
+ },
+ {
+  "id": "2026-11-21-ai-penetration-tool-cairn-used-to-exploit-zero-day-in-monai-55728",
+  "date": "2026-11-21",
+  "section": "threat",
+  "headline": "AI Penetration Tool Cairn Used to Exploit Zero-Day in MONAI Label at Asian Universities",
+  "label": "Well-sourced",
+  "score": 70,
+  "also_covered_urls": [
+   "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+   "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+   "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+   "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+   "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+  ]
+ },
+ {
+  "id": "2026-11-21-broadcom-patches-critical-vmware-vcenter-zero-day-after-mont-b2c90",
+  "date": "2026-11-21",
+  "section": "threat",
+  "headline": "Broadcom patches critical VMware vCenter zero‑day after months of exploitation",
+  "label": "Confirmed",
+  "score": 94,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+   "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+   "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+   "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+   "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+   "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+  ]
+ },
+ {
+  "id": "2026-11-21-u-s-army-postpones-lead-azide-detonations-after-court-blocks-5c03c",
+  "date": "2026-11-21",
+  "section": "ai",
+  "headline": "U.S. Army postpones lead‑azide detonations after court blocks plan",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+   "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really"
+  ]
+ },
+ {
+  "id": "2026-11-21-anthropic-researcher-claims-claude-proved-the-riemann-hypoth-84395",
+  "date": "2026-11-21",
+  "section": "ai",
+  "headline": "Anthropic researcher claims Claude proved the Riemann hypothesis",
+  "label": "Well-sourced",
+  "score": 64,
+  "also_covered_urls": [
+   "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+   "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+   "https://decrypt.co/383747/claude-historic-math-breakthrough-anthropic-ipo"
+  ]
+ },
+ {
+  "id": "2026-11-21-spacex-lenders-seek-to-bar-orbital-use-of-chips-backing-43-b-1a0a8",
+  "date": "2026-11-21",
+  "section": "ai",
+  "headline": "SpaceX Lenders Seek to Bar Orbital Use of Chips Backing $43 Billion Debt Package",
+  "label": "Developing",
+  "score": 38,
+  "also_covered_urls": [
+   "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+   "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+  ]
+ },
+ {
+  "id": "2026-11-21-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+  "date": "2026-11-21",
+  "section": "science",
+  "headline": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03784-8",
+   "https://www.nature.com/articles/d41586-026-03273-y",
+   "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+   "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
+  ]
+ },
+ {
+  "id": "2026-11-21-curiosity-rover-records-twilight-clouds-on-mars-f4881",
+  "date": "2026-11-21",
+  "section": "science",
+  "headline": "Curiosity rover records twilight clouds on Mars",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/"
+  ]
+ },
+ {
+  "id": "2026-11-21-senate-passes-death-bets-act-to-bar-prediction-market-contra-3d43f",
+  "date": "2026-11-21",
+  "section": "money",
+  "headline": "Senate passes DEATH BETS Act to bar prediction market contracts on war, terrorism and death",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
+   "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death"
+  ]
+ },
+ {
+  "id": "2026-11-21-ark-invest-buys-91-million-in-anthropic-shares-and-trims-cry-71138",
+  "date": "2026-11-21",
+  "section": "money",
+  "headline": "ARK Invest buys $91 million in Anthropic shares and trims crypto ETFs",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/markets/2026/11/20/cathie-wood-s-ark-invest-piled-into-anthropic-ipo-buying-usd90-million-worth-of-shares",
+   "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure"
+  ]
+ },
+ {
+  "id": "2026-11-21-whatsapp-patches-android-ad-reply-url-flaw-linked-to-scam-ca-aa61c",
+  "date": "2026-11-21",
+  "section": "scam",
+  "headline": "WhatsApp patches Android ad‑reply URL flaw linked to scam campaign",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+   "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+  ]
  }
 ]

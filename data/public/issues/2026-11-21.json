@@ -1,0 +1,1565 @@
+{
+ "date": "2026-11-21",
+ "built_at": "2026-11-21T20:11:51.109303+00:00",
+ "stories": [
+  {
+   "id": "2026-11-21-jpmorgan-visa-and-mastercard-disclose-third-party-data-breac-bfb0a",
+   "date": "2026-11-21",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "JPMorgan, Visa and Mastercard disclose third‑party data breach affecting marketing info",
+   "in_brief": "JPMorgan Chase, Visa and Mastercard said attackers accessed marketing data held by third‑party service providers, exposing customer names, email addresses and limited benefit‑program details. The firms stress payment systems were not compromised but the leak highlights risks from vendor ecosystems.",
+   "so_what": "The breach underscores the vulnerability of financial institutions to attacks on their supply chains, as the exposed data—primarily names, email addresses and limited benefit‑program information—can be leveraged for phishing and social engineering. While no card numbers or payment transaction data were reported, the personal details provide a foothold for scammers to craft convincing fraud attempts. Regulators and industry groups may intensify scrutiny of third‑party risk management, prompting banks to audit vendor access controls and enforce stricter data segregation. Watch for follow‑up disclosures from the affected firms about the specific providers involved and any additional remediation steps, as well as potential law‑enforcement investigations into the n0n ransomware group that claimed responsibility.",
+   "what_to_do": "1. Review and tighten access permissions for any third‑party services that connect to your accounts. 2. Enable multi‑factor authentication on all banking and payment‑related logins. 3. Monitor email accounts for suspicious messages and consider enrolling in credit‑monitoring services if offered.",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of multiple parties",
+   "claims": [
+    {
+     "claim": "JPMorgan Chase, Visa and Mastercard disclosed that attackers accessed marketing data held by third‑party vendors, potentially including customer names and email addresses.",
+     "source": 1,
+     "quote": "Based on our investigation so far, we believe the attackers accessed certain marketing data held by those vendors, which may include some customer names and email addresses.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "malwarebytes.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Visa and Mastercard said no payment data such as card numbers was affected and their payment networks remained operational.",
+     "source": 1,
+     "quote": "Visa's systems were not involved and were not impacted. No payments data such as card numbers were affected.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "malwarebytes.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The ransomware group n0n claimed responsibility for the breach and posted the stolen data on its extortion site.",
+     "source": 1,
+     "quote": "n0n ransomware claims the attack ... n0n leaked the claimed Chase, Visa, and Mastercard data on its extortion site on Novem",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+     "published": "Fri, 20 Nov 2026 10:58:06 -0500",
+     "published_iso": "2026-11-20T15:58:06+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+     "published": "Fri, 20 Nov 2026 07:35:46 +0000",
+     "published_iso": "2026-11-20T07:35:46+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+     "published": "Thu, 19 Nov 2026 22:12:33 +0100",
+     "published_iso": "2026-11-19T21:12:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
+     "published": "Fri, 20 Nov 2026 12:51:36 GMT",
+     "published_iso": "2026-11-20T12:51:36+00:00",
+     "kind": "vendor",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data",
+     "published": "Thu, 19 Nov 2026 20:15:32 +0000",
+     "published_iso": "2026-11-19T20:15:32+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+    "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+    "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+    "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+    "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
+    "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, bleepingcomputer.com, decrypt.co, malwarebytes.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5,
+   "previously": {
+    "id": "2026-11-20-jpmorgan-visa-and-mastercard-disclose-third-party-data-breac-bfb0a",
+    "date": "2026-11-20",
+    "label": "Developing",
+    "score": 48
+   }
+  },
+  {
+   "id": "2026-11-21-ai-penetration-tool-cairn-used-to-exploit-zero-day-in-monai-55728",
+   "date": "2026-11-21",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "AI Penetration Tool Cairn Used to Exploit Zero-Day in MONAI Label at Asian Universities",
+   "in_brief": "Chinese‑linked attackers employed the open‑source AI framework Cairn to discover and exploit a path‑traversal zero‑day in the MONAI Label medical‑imaging application, gaining root access to at least one university server. The incident highlights the speed at which autonomous AI agents can weaponize unknown flaws.",
+   "so_what": "The campaign demonstrates a new threat vector where AI‑driven agents autonomously locate and exploit previously unknown vulnerabilities, outpacing traditional detection and response cycles. MONAI Label versions 0.8.5 and earlier were vulnerable because authentication is disabled by default, allowing any network‑reachable client to write arbitrary files. Although the open‑source maintainers issued a fix on November 18, many deployments may still run unpatched code, leaving them exposed. Organizations using MONAI Label or similar AI‑assisted tools should reassess their security posture, enforce authentication, and apply patches promptly. The incident also underscores the need for automated defenses that can match the speed of AI‑based attacks, as manual triage may be too slow to contain such threats.",
+   "what_to_do": "1. Update MONAI Label to a version newer than 0.8.5 that includes the security fix. 2. Enable authentication on the MONAI Label server and restrict network access to trusted hosts. 3. Deploy automated monitoring and response tools that can detect rapid file‑write or shell‑access activities.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting without sensational language",
+   "claims": [
+    {
+     "claim": "Attackers used the open‑source AI framework Cairn to discover and exploit a zero‑day in MONAI Label.",
+     "source": 1,
+     "quote": "Chinese hackers used an AI tool called Cairn to allegedly discover a zero‑day while breaching several universities in Asia",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability was a path‑traversal bug that allowed arbitrary file writes and was fixed after disclosure.",
+     "source": 3,
+     "quote": "The MONAI Label developers published an advisory this week. It rates the bug critical and says it affects versions 0.8.5 and earlier.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The AI agents achieved root access by writing a Python reverse shell to sitecustomize.py within about 11 minutes.",
+     "source": 2,
+     "quote": "Within 11 minutes, they went from mapping the application's API to exploiting the vulnerability.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+     "published": "Fri, 20 Nov 2026 17:30:00 GMT",
+     "published_iso": "2026-11-20T17:30:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+     "published": "Fri, 20 Nov 2026 12:30:00 -0500",
+     "published_iso": "2026-11-20T17:30:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+     "published": "Sat, 21 Nov 2026 12:08:50 +0000",
+     "published_iso": "2026-11-21T12:08:50+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+     "published": "Fri, 20 Nov 2026 18:30:00 +0100",
+     "published_iso": "2026-11-20T17:30:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "published": "Sat, 21 Nov 2026 16:33:17 +0530",
+     "published_iso": "2026-11-21T11:03:17+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+    "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+    "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+    "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+    "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+    "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-133968",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-133968"
+    }
+   ],
+   "truth": {
+    "total": 70,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Recorded Future, Situation Publishing, bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-21-broadcom-patches-critical-vmware-vcenter-zero-day-after-mont-b2c90",
+   "date": "2026-11-21",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Broadcom patches critical VMware vCenter zero‑day after months of exploitation",
+   "in_brief": "Broadcom released emergency updates on 19 Nov 2026 to fix CVE‑2026‑123890, a critical authentication bypass in VMware vCenter. The flaw had been used by the China‑linked Armory Castle group since early September to gain admin access and steal data.",
+   "so_what": "The vulnerability affects all VMware vCenter, SDDC Manager and VMware Tools for Windows installations that have not been updated to the versions listed in Broadcom's VMSA‑2026‑0009 advisory. Because the flaw allows an unauthenticated attacker to bypass authentication and obtain full control of virtual machines, any unpatched environment remains a high‑value target for nation‑state espionage groups. Organizations should prioritize applying the November 19 patches, review network segmentation and firewall rules to limit exposure of vCenter ports, and audit logs for signs of unauthorized administrator sessions. Continued monitoring of threat‑intel feeds is advised, as the same group has a history of leveraging zero‑days across enterprise infrastructure.",
+   "what_to_do": "1. Apply the Broadcom November 19 2026 patches for vCenter, SDDC Manager and VMware Tools for Windows. 2. Restrict network access to vCenter ports (e.g., 9080, 5480, 2012) using firewalls or VLAN segmentation. 3. Review authentication logs for unexpected administrator@vsphere.local sessions and investigate any anomalies.",
+   "hype_flag": "low",
+   "hype_reason": "facts from multiple independent sources, no promotional language",
+   "claims": [
+    {
+     "claim": "Broadcom released emergency patches for CVE‑2026‑123890 on 19 Nov 2026.",
+     "source": 1,
+     "quote": "Broadcom patched the vulnerability on November 19 in VMSA-2026-0009",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability was exploited by the China‑linked group Armory Castle since early September 2026.",
+     "source": 1,
+     "quote": "a suspected Chinese state-sponsored hacking group tracked as Armory Castle ... exploited CVE-2026-123890 in early September 2026",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Broadcom says there are no official workarounds, though network restrictions can reduce exposure.",
+     "source": 1,
+     "quote": "Broadcom says there are no official workarounds for the vulnerabilities, although network restrictions and firewall controls can help reduce exposure.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+     "published": "Thu, 19 Nov 2026 19:26:25 -0500",
+     "published_iso": "2026-11-20T00:26:25+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+     "published": "Fri, 20 Nov 2026 15:08:15 +0530",
+     "published_iso": "2026-11-20T09:38:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+     "published": "Fri, 20 Nov 2026 12:30:19 +0000",
+     "published_iso": "2026-11-20T12:30:19+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Dark Reading",
+     "owner": "Informa TechTarget",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+     "published": "Fri, 20 Nov 2026 21:03:27 GMT",
+     "published_iso": "2026-11-20T21:03:27+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+    "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+    "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+    "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-123890",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-123890"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-59309",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-59309"
+    }
+   ],
+   "truth": {
+    "total": 94,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Informa TechTarget, bleepingcomputer.com, helpnetsecurity.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4,
+   "previously": {
+    "id": "2026-11-20-broadcom-patches-critical-vmware-vcenter-zero-day-after-mont-9f918",
+    "date": "2026-11-20",
+    "label": "Confirmed",
+    "score": 98
+   }
+  },
+  {
+   "id": "2026-11-21-u-s-army-postpones-lead-azide-detonations-after-court-blocks-5c03c",
+   "date": "2026-11-21",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "U.S. Army postpones lead‑azide detonations after court blocks plan",
+   "in_brief": "The U.S. Army said it will delay blowing up 68 deteriorating barrels of lead azide in Iowa, and a federal appeals court issued an emergency order halting the detonations. The delay follows concerns that a blast could release neurotoxic lead gas that might travel up to 100 miles.",
+   "so_what": "The postponement highlights the tension between military safety protocols and public health concerns. Lead azide, a highly explosive compound used in detonators, has degraded in storage at the Iowa Army Ammunition Plant, creating a \"catastrophically hazardous condition\" that the Army says must be neutralized before the material destabilizes further. However, modeling released by the Army indicates that a detonation could generate a plume of toxic lead that might drift 100 miles north of the installation, prompting local outrage and demands for transparency. A federal appeals court’s emergency order underscores judicial willingness to intervene when environmental risks are perceived. Moving forward, officials will need to balance the urgency of disposing of the material with community safety, likely extending communication efforts and exploring alternative disposal methods.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced factual reporting",
+   "claims": [
+    {
+     "claim": "The Army announced it would delay the planned detonations of 68 lead‑azide barrels.",
+     "source": 1,
+     "quote": "the US Army announced Thursday that it would delay a plan to blow up 68 deteriorating barrels of lead azide",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A federal appeals court issued an emergency order halting the detonations.",
+     "source": 1,
+     "quote": "A federal appeals court further halted plans later on Thursday with an emergency order.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The barrels contain about 9,700 pounds (4.4 tons) of lead azide.",
+     "source": 1,
+     "quote": "the 68 barrels, reported to total around 9,700 pounds (4.4 tons), is suspended in a mixture of water and ethanol",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Modeling shows a potential plume could drift 100 miles north of the installation.",
+     "source": 1,
+     "quote": "The plume, containing neurotoxic lead, could potentially drift 100 miles north of the Army installation housing it in Middletown, Iowa",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Army says it cannot delay the detonation later than Monday due to material deterioration.",
+     "source": 1,
+     "quote": "Telle claimed that the Army could not delay the detonation any further than Monday due to the state of deterioration of the compound",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+     "published": "Fri, 20 Nov 2026 19:21:50 +0000",
+     "published_iso": "2026-11-20T19:21:50+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "science.org",
+     "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+     "published": "Sat, 21 Nov 2026 13:23:14 +0000",
+     "published_iso": "2026-11-21T13:23:14+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+    "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really"
+   ],
+   "primary": [
+    {
+     "url": "https://response.epa.gov/site/site_profile.aspx?site_id=17211",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://response.epa.gov/site/site_profile.aspx?site_id=17211"
+    },
+    {
+     "url": "https://www.epa.gov/lead/hazard-standards-and-clearance-levels-lead-paint-dust-and-soil-tsca-sections-402-and-403",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.epa.gov/lead/hazard-standards-and-clearance-levels-lead-paint-dust-and-soil-tsca-sections-402-and-403"
+    },
+    {
+     "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+     "type": "official record",
+     "verified": true,
+     "label": "Hacker News"
+    }
+   ],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, science.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-21-anthropic-researcher-claims-claude-proved-the-riemann-hypoth-84395",
+   "date": "2026-11-21",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Anthropic researcher claims Claude proved the Riemann hypothesis",
+   "in_brief": "Levent Alpöge posted a note saying Claude helped prove the Riemann hypothesis, and the claim appeared a day after Anthropic’s Nasdaq debut. The proof is encoded in Lean and has not yet been independently verified.",
+   "so_what": "If validated, the proof would resolve a 167‑year‑old problem that underpins the distribution of prime numbers and carries a $1 million Clay Mathematics Institute prize. The claim arrives amid growing scrutiny of AI‑generated mathematics, with competitors OpenAI also publicising AI‑driven results. Independent mathematicians are now examining the Lean archive, which Alpöge says spans more than 250,000 pages. Confirmation could boost confidence in AI as a research tool, while a failure would reinforce caution about relying on proprietary systems for fundamental discoveries. Watch for peer‑review assessments and any official response from the Clay Institute.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced factual reporting",
+   "claims": [
+    {
+     "claim": "Levent Alpöge says Claude helped prove the Riemann hypothesis.",
+     "source": 1,
+     "quote": "Levent Alpöge, a Turkish American mathematician, on Friday posted a note on his personal website saying that Claude, the AI software, had helped prove the Riemann hypothesis.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The claim was made public a day after Anthropic’s Nasdaq debut.",
+     "source": 3,
+     "quote": "His claim surfaced Friday, one day after the AI company’s stock-market debut, and has not yet been independently verified.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The proof is written in Lean and is over 250,000 pages long.",
+     "source": 2,
+     "quote": "He said the complete proof is over 250,000 pages long.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+     "published": "Sat, 21 Nov 2026 16:39:49 GMT",
+     "published_iso": "2026-11-21T16:39:49+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+     "published": "Sat, 21 Nov 2026 19:45:01 +0000",
+     "published_iso": "2026-11-21T19:45:01+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383747/claude-historic-math-breakthrough-anthropic-ipo",
+     "published": "Fri, 20 Nov 2026 21:36:02 +0000",
+     "published_iso": "2026-11-20T21:36:02+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+    "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+    "https://decrypt.co/383747/claude-historic-math-breakthrough-anthropic-ipo"
+   ],
+   "primary": [
+    {
+     "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120"
+    }
+   ],
+   "truth": {
+    "total": 64,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Guardian Media Group, Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-20-anthropic-researcher-claims-ai-assisted-proof-of-riemann-hyp-cf572",
+    "date": "2026-11-20",
+    "label": "Well-sourced",
+    "score": 67
+   }
+  },
+  {
+   "id": "2026-11-21-spacex-lenders-seek-to-bar-orbital-use-of-chips-backing-43-b-1a0a8",
+   "date": "2026-11-21",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "SpaceX Lenders Seek to Bar Orbital Use of Chips Backing $43 Billion Debt Package",
+   "in_brief": "Lenders backing SpaceX’s $43 billion debt package have sought to bar the company from sending the advanced AI chips used as collateral into space for orbital data centers, citing concerns over recovering assets in a default. While SpaceX has stated it plans to use the chips on Earth, the negotiations highlight unique financing hurdles for space-based compute.",
+   "so_what": "The pushback from creditors illustrates the novel financial and legal complexities of funding hardware intended for space. If chips are launched into orbit, lenders fear they would be unrecoverable during a default, undermining their collateral value. As companies eye space-based data centers, reconciling ambitious orbital strategies with traditional debt covenants will remain a key challenge.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "SpaceX sold more than $30 billion of the debt to large investors as part of a financing package dubbed “Project Saturn”",
+     "source": 1,
+     "quote": "SpaceX sold more than $30 billion of the debt to large investors on Thursday as part of a financing package dubbed “Project Saturn.”",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Lenders are concerned that sending the chips to space would prevent them from reclaiming and selling the semiconductors in a default",
+     "source": 1,
+     "quote": "Lenders have expressed concerns that if the group later decided to shoot the valuable chips that underpin their loans into space, it would prevent them from reclaiming and selling the semiconductors in the event of a default.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Lenders behind SpaceX’s $40‑$43 billion chip financing deal asked that none of the chips be used for orbital data center plans",
+     "source": 2,
+     "quote": "The Financial Times is reporting that lenders behind SpaceX’s $40 billion chip financing deal asked that none of the chips purchased be used for the company’s orbital data center plans.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [2]: 43"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+     "published": "Fri, 20 Nov 2026 14:15:21 +0000",
+     "published_iso": "2026-11-20T14:15:21+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+     "published": "Fri, 20 Nov 2026 17:40:01 +0000",
+     "published_iso": "2026-11-20T17:40:01+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+    "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 38,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Headline states SpaceX has a plan to use debt-financed AI chips in orbit, but sources state SpaceX said it plans to use the chips on Earth and lenders are only concerned or trying to bar them from doing so.",
+     "editor: In_brief states the debt package is secured by advanced AI chips, but sources say it is backed by lease payments for Nvidia chips, or secured by AI chips with lenders trying to bar orbital use."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-21-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+   "date": "2026-11-21",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+   "in_brief": "A giant star in the Andromeda galaxy was seen engulfing a smaller star, an event captured from its onset to the eruption that followed. The observation provides the first real‑time view of the common‑envelope evolution process.",
+   "so_what": "The event confirms a long‑standing theoretical model—common envelope evolution—that explains how tightly bound binary stars form. By tracking the system’s brightness over seven years and then imaging the aftermath with the James Webb Space Telescope, researchers have detailed the rapid merger that can occur in just a handful of orbits, far quicker than previously observed in smaller binaries. This direct evidence helps refine predictions of stellar lifecycles, informs models of gravitational‑wave progenitors, and offers a benchmark for future transient surveys. Ongoing monitoring of similar systems will test whether such swift mergers are common in other galaxies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely observational science",
+   "claims": [
+    {
+     "claim": "A giant star about seven times as massive as the Sun in the Andromeda galaxy spent nearly a decade swallowing a much smaller companion.",
+     "source": 2,
+     "quote": "In the Andromeda Galaxy, a giant star about seven times as massive as the Sun spent nearly a decade slowly swallowing its much smaller companion.",
+     "status": "verified",
+     "corroborated_by": [
+      "sciencedaily.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The phenomenon is an example of common envelope evolution, a process proposed in the 1970s to explain tight binary star pairs.",
+     "source": 2,
+     "quote": "The process, known as common envelope evolution, was proposed in the 1970s to explain how some of the tightest pairs of stars in the Universe form",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NASA’s James Webb Space Telescope captured the aftermath of the merger 47 days after the eruption peaked, the earliest follow‑up of such an event.",
+     "source": 3,
+     "quote": "Webb observed Bao only 47 days after the stars' eruption peaked, the earliest ever follow-up of an event like this.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03784-8",
+     "published": "2026-11-18",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+     "published": "Fri, 20 Nov 2026 20:41:17 +0000",
+     "published_iso": "2026-11-20T20:41:17+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "ScienceDaily",
+     "owner": "sciencedaily.com",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
+     "published": "Sat, 21 Nov 2026 09:53:40 EST",
+     "published_iso": "2026-11-21T14:53:40+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03784-8",
+    "https://www.nature.com/articles/d41586-026-03273-y",
+    "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+    "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.1038/s41586-026-11221-z",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://doi.org/10.1038/s41586-026-11221-z"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03784-8",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 86,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, nature.com, sciencedaily.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-20-astronomers-observe-giant-star-engulfing-companion-in-androm-10640",
+    "date": "2026-11-20",
+    "label": "Well-sourced",
+    "score": 74
+   }
+  },
+  {
+   "id": "2026-11-21-curiosity-rover-records-twilight-clouds-on-mars-f4881",
+   "date": "2026-11-21",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Curiosity rover records twilight clouds on Mars",
+   "in_brief": "NASA’s Curiosity rover photographed drifting twilight clouds on Oct. 31, 2026, marking the 5,061st sol of its mission. The observation adds to ongoing study of Martian atmospheric phenomena.",
+   "so_what": "The detection of post‑sunset twilight clouds over Gale Crater provides scientists with fresh data on Mars’ thin atmosphere and seasonal weather patterns. Curiosity, operating for more than 14 years, continues to serve as a mobile laboratory, using its navigation cameras to capture transient atmospheric events that are otherwise difficult to observe from orbit. Understanding these clouds helps refine climate models, informs future mission planning, and contributes to broader knowledge of Martian climate cycles. Researchers will analyze the images to assess cloud composition, altitude, and dynamics, and compare them with previous observations to track any long‑term changes.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific observation",
+   "claims": [
+    {
+     "claim": "Curiosity captured drifting twilight clouds on Oct. 31, 2026, the 5,061st sol of the mission.",
+     "source": 1,
+     "quote": "Curiosity’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The rover uses its navigation cameras to capture post‑sunset clouds called twilight clouds.",
+     "source": 1,
+     "quote": "The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Curiosity has been exploring Gale Crater for more than 14 years.",
+     "source": 1,
+     "quote": "has been exploring for more than 14 years.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+     "published": "Fri, 20 Nov 2026 22:27:05 +0000",
+     "published_iso": "2026-11-20T22:27:05+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-21-senate-passes-death-bets-act-to-bar-prediction-market-contra-3d43f",
+   "date": "2026-11-21",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Senate passes DEATH BETS Act to bar prediction market contracts on war, terrorism and death",
+   "in_brief": "The U.S. Senate approved the DEATH BETS Act, prohibiting CFTC‑regulated platforms from listing event contracts tied to terrorism, assassination, war, military operations or an individual’s death. The measure now moves to the House for further consideration.",
+   "so_what": "The legislation targets a niche but growing segment of prediction markets that allow users to wager on real‑world tragedies, a practice lawmakers say can profit from suffering and create incentives for insider trading. By amending the Commodity Exchange Act, the bill would restrict exchanges and clearinghouses registered with the Commodity Futures Trading Commission from offering such contracts, while giving the CFTC authority to extend the ban by rule. Supporters argue the move protects public morality and national security; critics warn it could limit financial innovation and free speech in markets. The bill’s progress will be watched for any amendments in the House and potential challenges from platforms like Kalshi and Polymarket, which currently host event contracts.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The U.S. Senate passed the DEATH BETS Act by voice vote on November 19, 2026",
+     "source": 1,
+     "quote": "The DEATH BETS Act, passed the Senate by voice vote on Wednesday, November 19",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The bill would bar CFTC‑registered exchanges from listing contracts related to terrorism, assassination, war, U.S. military operations or an individual’s death",
+     "source": 1,
+     "quote": "The bill would amend the Commodity Exchange Act to bar exchanges and clearinghouses registered with the Commodity Futures Trading Commission (CFTC) from listing or clearing event contracts that expressly reference terrorism, assassination, war or U.S. military operations",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The legislation now heads to the House of Representatives for further action",
+     "source": 1,
+     "quote": "It passed the Senate by voice vote on Wednesday and now heads to the House, where it would need to pass before going to the president",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death",
+     "published": "Fri, 20 Nov 2026 15:42:51 +0000",
+     "published_iso": "2026-11-20T15:42:51+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
+     "published": "Fri, 20 Nov 2026 14:25:57 +0000",
+     "published_iso": "2026-11-20T14:25:57+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
+    "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cftc.gov/PressRoom/PressReleases/9326-26",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cftc.gov/PressRoom/PressReleases/9326-26"
+    }
+   ],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-20-senate-passes-death-bets-act-to-bar-prediction-market-contra-3d43f",
+    "date": "2026-11-20",
+    "label": "Developing",
+    "score": 46
+   }
+  },
+  {
+   "id": "2026-11-21-ark-invest-buys-91-million-in-anthropic-shares-and-trims-cry-71138",
+   "date": "2026-11-21",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "ARK Invest buys $91 million in Anthropic shares and trims crypto ETFs",
+   "in_brief": "ARK Invest acquired approximately $91 million of Anthropic stock during its Nasdaq debut while shedding about $4.1 million in crypto-linked ETFs. The adjustments highlight a strategic push into AI equities.",
+   "so_what": "Cathie Wood's firm purchased 934,968 shares of Anthropic across six active ETFs, with the flagship Innovation ETF taking on the bulk of the allocation. Simultaneously, the fund disposed of $2.9 million in a 3iQ Ethereum staking ETF and $1.2 million in a 3iQ Solana staking ETF. Earlier in the week, ARK also offloaded $85 million in Nvidia stock during a period of executive changes. These moves underscore an ongoing portfolio rebalance toward artificial intelligence.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "ARK Invest bought roughly $91 million in Anthropic shares on the AI company’s first day of Nasdaq trading.",
+     "source": 1,
+     "quote": "ARK Invest bought roughly $91 million in Anthropic shares on the AI company’s first day of Nasdaq trading.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "ARK sold about $2.9 million of a 3iQ Ethereum staking ETF and $1.2 million of a 3iQ Solana staking ETF.",
+     "source": 1,
+     "quote": "During the same session, ARK trimmed two crypto‑linked positions, selling about $2.9 million of the 3iQ Ethereum staking ETF and $1.2 million of the 3iQ Solana staking ETF, a combined $4.1 million.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "ARK sold $85 million in Nvidia shares earlier in the week.",
+     "source": 1,
+     "quote": "Wood’s firm frequently repositions its exposure, and earlier this week ARK sold a combined $85 million in Nvidia shares amid the leadership turmoil that saw Jensen Huang resign.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure",
+     "published": "Fri, 20 Nov 2026 18:46:03 +0000",
+     "published_iso": "2026-11-20T18:46:03+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/20/cathie-wood-s-ark-invest-piled-into-anthropic-ipo-buying-usd90-million-worth-of-shares",
+     "published": "Fri, 20 Nov 2026 09:48:52 +0000",
+     "published_iso": "2026-11-20T09:48:52+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/markets/2026/11/20/cathie-wood-s-ark-invest-piled-into-anthropic-ipo-buying-usd90-million-worth-of-shares",
+    "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: copied word-for-word runs from source text in the draft"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-21-whatsapp-patches-android-ad-reply-url-flaw-linked-to-scam-ca-aa61c",
+   "date": "2026-11-21",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "WhatsApp patches Android ad‑reply URL flaw linked to scam campaign",
+   "in_brief": "WhatsApp released a fix for a low‑impact Android vulnerability that could expose a device’s IP address when a crafted Click‑to‑WhatsApp ad‑reply is displayed. The company says the flaw may have been used to make scam messages appear more credible.",
+   "so_what": "The patched vulnerability (CVE‑2026‑23871) involved incomplete validation of external ad‑reply URLs in WhatsApp and WhatsApp Business for Android before version 2.26.17.4, potentially allowing attackers to learn a target’s IP address when media from a malicious URL was rendered. WhatsApp discovered the issue while disrupting a scam campaign and believes a scammer leveraged it to increase the perceived legitimacy of fraudulent messages. Although the company has not disclosed the scale of any abuse, the fix reduces attackers’ ability to gather network information that could aid further phishing or social‑engineering attacks. Users should update to the latest app version to ensure the vulnerability is closed, and remain cautious of unsolicited ad‑reply messages that request interaction. Ongoing monitoring of WhatsApp’s security advisories will indicate whether additional threats emerge from the other disclosed flaws.",
+   "what_to_do": "1. Update WhatsApp and WhatsApp Business to the latest version (2.26.17.4 or newer). 2. Avoid clicking links or opening media from unexpected Click‑to‑WhatsApp ads. 3. Report suspicious messages to WhatsApp through the in‑app chat‑report feature.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "WhatsApp patched a low‑impact vulnerability in its Android apps that could expose a device’s IP address via crafted Click‑to‑WhatsApp ad‑reply messages",
+     "source": 1,
+     "quote": "WhatsApp has patched a low-impact vulnerability in its Android apps that it believes a scammer may have exploited to make scam messages seem more credible.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The flaw was discovered while disrupting a scam campaign and may have been used to make scam messages appear more credible",
+     "source": 2,
+     "quote": "When reached for comment, a WhatsApp spokesperson told The Hacker News that the vulnerability was discovered while disrupting a scam campaign. \"We believe a scammer was using it to make their scam message seem more credible,\" the spokesperson added.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability is tracked as CVE‑2026‑23871 and affects WhatsApp and WhatsApp Business for Android before version 2.26.17.4",
+     "source": 1,
+     "quote": "Tracked as CVE-2026-23871, WhatsApp’s security team found the flaw. It’s tied to Click to WhatsApp ads and affects both WhatsApp and WhatsApp Business for Android.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+     "published": "Fri, 20 Nov 2026 16:01:02 +0000",
+     "published_iso": "2026-11-20T16:01:02+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+     "published": "Fri, 20 Nov 2026 23:27:20 +0530",
+     "published_iso": "2026-11-20T17:57:20+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+    "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-23871",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-23871"
+    },
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-102769",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-102769"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-20-whatsapp-patches-android-ad-reply-url-flaw-linked-to-scam-ca-aa61c",
+    "date": "2026-11-20",
+    "label": "Well-sourced",
+    "score": 58
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 491,
+  "stories_considered": 16,
+  "published": 11,
+  "outlets": 37
+ }
+}

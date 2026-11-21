@@ -1,0 +1,176 @@
+[
+ {
+  "section": "threat",
+  "title": "JPMorgan, Visa and Mastercard disclose third‑party data breach affecting marketing info",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "AI Penetration Tool Cairn Used to Exploit Zero-Day in MONAI Label at Asian Universities",
+  "verdict": "PUBLISH",
+  "truth": 70,
+  "reasons": [],
+  "edits": [],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "Broadcom patches critical VMware vCenter zero‑day after months of exploitation",
+  "verdict": "PUBLISH",
+  "truth": 94,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "U.S. Army postpones lead‑azide detonations after court blocks plan",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Anthropic researcher claims Claude proved the Riemann hypothesis",
+  "verdict": "PUBLISH",
+  "truth": 64,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "California targets Nvidia in China AI chip probe",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'list' object has no attribute 'setdefault'"
+  ],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "SpaceX Lenders Seek to Bar Orbital Use of Chips Backing $43 Billion Debt Package",
+  "verdict": "PUBLISH",
+  "truth": 38,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Headline states SpaceX has a plan to use debt-financed AI chips in orbit, but sources state SpaceX said it plans to use the chips on Earth and lenders are only concerned or trying to bar them from doing so.",
+   "editor: In_brief states the debt package is secured by advanced AI chips, but sources say it is backed by lease payments for Nvidia chips, or secured by AI chips with lenders trying to bar orbital use."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Curiosity rover records twilight clouds on Mars",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Senate passes DEATH BETS Act to bar prediction market contracts on war, terrorism and death",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Coinbase Targeted for In-House Prediction Market Contracts by First Half of 2027",
+  "verdict": "HOLD",
+  "truth": 36,
+  "reasons": [
+   "copied 2 long word-for-word run(s) from a source, e.g. \"coinbase is aiming to launch its own prediction market contracts in the\""
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Coinbase spokesperson did not address the timing of an in-house launch, stating only that the company had nothing new to announce today, so attributing the 2027 timeline directly as an intention of the company needs proper attribution to the Bloomberg report rather than stating it as a direct company confirmation."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "ARK Invest buys $91 million in Anthropic shares and trims crypto ETFs",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: copied word-for-word runs from source text in the draft"
+  ],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "WhatsApp patches Android ad‑reply URL flaw linked to scam campaign",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Fact check finds viral video of Riyadh tower was AI‑generated, not real damage",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: Ukrainian Lawmaker Vatsak Not in Zelensky’s Party, Video Lacks Fight Call",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated images of actors buying GTA are false",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]
