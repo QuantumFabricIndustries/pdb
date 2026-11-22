@@ -1,0 +1,155 @@
+[
+ {
+  "section": "threat",
+  "title": "Signal adds screenshot blocks on iOS 27 and Android to curb AI assistants",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "FBI investigates apparent breach of National Crime Information Center database",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "China-linked AI agents exploit zero‑day in MONAI Label medical imaging software",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Attribution confidence mismatch: Draft said Amazon attributes with 'moderate confidence' in verified claims, but the source text says Amazon assesses with 'high confidence' that it was a zero-day and attributed the actor with 'moderate confidence'. Also, draft stated the agents gained root access on a university server directly in 11 minutes, but sources clarify that writing files took 11 minutes and root shell came later in a separate session."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
+  ],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Delta flights delayed at Atlanta hub due to weight‑balance system outage",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Grand Theft Auto VI records $3.8 billion first‑day sales, biggest entertainment launch ever",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI Calls for Perplexity Metric as Shared Safety Standard",
+  "verdict": "PUBLISH",
+  "truth": 35,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: in_brief includes a specific date (22 Nov 2026) not found in the source text",
+   "editor: so_what mentions specific perplexity numbers (0.99 for GPT-3.5 and 0.91 for GPT-4) which are not supported by the source text for GPT-3.5 and lack source verification for the exact figures"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "science",
+  "title": "Johnson Space Center marks 65 years of human spaceflight achievements",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "CTO of RansomwareHelp Indicted After FBI Sting Over Wire‑Fraud Scheme",
+  "verdict": "HOLD",
+  "truth": 45,
+  "reasons": [
+   "number '3' does not appear in any source"
+  ],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: Actionable advice item '3' refers to information not present in the sources."
+  ],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "SEC charges eight entities in $37 million fake crypto trading scam",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "No verifiable information available on reported scam",
+  "verdict": "HOLD",
+  "truth": 35,
+  "reasons": [
+   "only 0 verified claim(s); need 2"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI-generated video of Nazis refusing LGBTQ+ activists' handshake debunked",
+  "verdict": "HOLD",
+  "truth": 20,
+  "reasons": [
+   "truth score 20 below publish bar 35"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Lead Stories debunks viral video claiming Riyadh tower damage",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ }
+]

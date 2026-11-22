@@ -7786,5 +7786,107 @@
    "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
    "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
   ]
+ },
+ {
+  "id": "2026-11-22-signal-adds-screenshot-blocks-on-ios-27-and-android-to-curb-0941e",
+  "date": "2026-11-22",
+  "section": "threat",
+  "headline": "Signal adds screenshot blocks on iOS 27 and Android to curb AI assistants",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+   "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+   "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "https://decrypt.co/383750/signal-os-level-ai-existential-threat-blocks-screenshots"
+  ]
+ },
+ {
+  "id": "2026-11-22-fbi-investigates-apparent-breach-of-national-crime-informati-750aa",
+  "date": "2026-11-22",
+  "section": "threat",
+  "headline": "FBI investigates apparent breach of National Crime Information Center database",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+   "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+   "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/"
+  ]
+ },
+ {
+  "id": "2026-11-22-china-linked-ai-agents-exploit-zero-day-in-monai-label-medic-faa17",
+  "date": "2026-11-22",
+  "section": "threat",
+  "headline": "China-linked AI agents exploit zero‑day in MONAI Label medical imaging software",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+  ]
+ },
+ {
+  "id": "2026-11-22-delta-flights-delayed-at-atlanta-hub-due-to-weight-balance-s-b41bf",
+  "date": "2026-11-22",
+  "section": "ai",
+  "headline": "Delta flights delayed at Atlanta hub due to weight‑balance system outage",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+   "https://www.nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html"
+  ]
+ },
+ {
+  "id": "2026-11-22-grand-theft-auto-vi-records-3-8-billion-first-day-sales-bigg-964cf",
+  "date": "2026-11-22",
+  "section": "ai",
+  "headline": "Grand Theft Auto VI records $3.8 billion first‑day sales, biggest entertainment launch ever",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+   "https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says"
+  ]
+ },
+ {
+  "id": "2026-11-22-openai-calls-for-perplexity-metric-as-shared-safety-standard-f937e",
+  "date": "2026-11-22",
+  "section": "ai",
+  "headline": "OpenAI Calls for Perplexity Metric as Shared Safety Standard",
+  "label": "Developing",
+  "score": 35,
+  "also_covered_urls": [
+   "https://openai.com/index/perplexity-and-intelligence",
+   "https://openai.com/index/perplexity-and-intelligence/"
+  ]
+ },
+ {
+  "id": "2026-11-22-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+  "date": "2026-11-22",
+  "section": "science",
+  "headline": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03784-8",
+   "https://www.nature.com/articles/d41586-026-03273-y",
+   "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+   "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
+  ]
+ },
+ {
+  "id": "2026-11-22-johnson-space-center-marks-65-years-of-human-spaceflight-ach-5ad38",
+  "date": "2026-11-22",
+  "section": "science",
+  "headline": "Johnson Space Center marks 65 years of human spaceflight achievements",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/"
+  ]
  }
 ]

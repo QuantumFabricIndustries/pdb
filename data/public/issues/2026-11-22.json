@@ -1,0 +1,1054 @@
+{
+ "date": "2026-11-22",
+ "built_at": "2026-11-22T20:25:59.398357+00:00",
+ "stories": [
+  {
+   "id": "2026-11-22-signal-adds-screenshot-blocks-on-ios-27-and-android-to-curb-0941e",
+   "date": "2026-11-22",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Signal adds screenshot blocks on iOS 27 and Android to curb AI assistants",
+   "in_brief": "Signal rolled out new protections that block screenshots on iOS 27 and automatically enable screen‑security on Android to stop AI assistants such as Siri and Gemini from reading private chats. The move aims to preserve the app’s end‑to‑end encryption but the company says the fix is incomplete.",
+   "so_what": "Signal’s new screenshot‑blocking feature reflects growing concerns that operating‑system AI agents can capture on‑screen data and store it outside the app’s encryption, potentially exposing users’ conversations to remote servers. By restricting screenshots on iOS 27 and activating a \"screen security\" mode on Android when an AI assistant is detected, Signal seeks to close a high‑risk data‑leak vector that emerged after similar threats on Windows 11. However, the company acknowledges that the protection does not extend to macOS and cannot block more covert methods such as direct file‑system access, leaving a residual privacy gap. Developers and OS vendors are being urged to provide documented opt‑out mechanisms for AI data access. Observers will watch whether Apple, Google and Microsoft respond with clearer APIs or whether third‑party tools emerge to mitigate the remaining risks.",
+   "what_to_do": "1. Update Signal to the latest version. 2. On iOS, go to Settings > Privacy > App Security and ensure \"Block Siri AI\" is turned on. 3. On Android, verify that \"Screen security\" is enabled in Settings > Privacy > App Security, or disable it only if you accept the risk.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting of product changes",
+   "claims": [
+    {
+     "claim": "Signal introduced screenshot‑blocking protection on iOS 27 and Android to stop AI assistants like Siri and Gemini from reading private chats",
+     "source": 1,
+     "quote": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The protection is automatically enabled on Android when an AI assistant is detected, and users can disable it via the app’s privacy settings",
+     "source": 2,
+     "quote": "Users who want to disable the option can do so by navigating to Settings > Privacy > App Security > toggle \"Block Siri AI\" (on iOS) or \"Screen security\" (on Android).",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The fix does not work on macOS and cannot stop other methods such as filesystem access, making it an incomplete solution",
+     "source": 4,
+     "quote": "Signal also conceded the fix is incomplete: It doesn’t stop sneakier methods of access, such as pulling data straight from a device’s filesystem, and it can’t yet be implemented on macOS",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+     "published": "Sun, 22 Nov 2026 10:15:25 -0500",
+     "published_iso": "2026-11-22T15:15:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+     "published": "Sat, 21 Nov 2026 14:19:20 +0530",
+     "published_iso": "2026-11-21T08:49:20+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+     "published": "Sat, 21 Nov 2026 21:37:10 +0000",
+     "published_iso": "2026-11-21T21:37:10+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383750/signal-os-level-ai-existential-threat-blocks-screenshots",
+     "published": "Sat, 21 Nov 2026 16:01:02 +0000",
+     "published_iso": "2026-11-21T16:01:02+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+    "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+    "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+    "https://decrypt.co/383750/signal-os-level-ai-existential-threat-blocks-screenshots"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Yahoo, bleepingcomputer.com, decrypt.co, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-22-fbi-investigates-apparent-breach-of-national-crime-informati-750aa",
+   "date": "2026-11-22",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "FBI investigates apparent breach of National Crime Information Center database",
+   "in_brief": "The FBI is probing a reported intrusion into its National Crime Information Center (NCIC) system, which stores criminal justice data shared across law‑enforcement agencies. The incident follows a prior breach of an FBI jobs portal earlier this year, raising concerns about data access and system integrity.",
+   "so_what": "The NCIC is a core resource for police officers nationwide, providing real‑time information on warrants, missing persons, stolen property and other criminal records. An unauthorized entry could expose sensitive law‑enforcement data or undermine the accuracy of records that officers rely on during investigations and traffic stops. While the FBI has not confirmed details, the breach underscores the ongoing targeting of federal law‑enforcement systems by cyber actors, as seen in earlier attacks attributed to the ShinyHunters group. Stakeholders should monitor official updates for any indications of data exfiltration or service disruptions, and consider reviewing security controls around access to critical databases. Future investigations may reveal how the attackers gained entry and whether any corrective actions are needed to safeguard the integrity of the NCIC.",
+   "what_to_do": "1. Verify that all systems accessing NCIC use multi‑factor authentication and strong, unique passwords.\n2. Apply any available security patches to software that interfaces with NCIC, especially third‑party platforms.\n3. Conduct a review of access logs for unusual activity and reset credentials for privileged accounts as a precaution.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The FBI is investigating an apparent hack of its National Crime Information Center (NCIC) database",
+     "source": 2,
+     "quote": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains, a person familiar with the matter said Saturday.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The NCIC stores criminal justice information used by local, state and federal law‑enforcement agencies",
+     "source": 1,
+     "quote": "The National Crime Information Center is an FBI‑operated database used by law enforcement agencies across the United States to share information about wanted and missing persons, outstanding arrest warrants, stolen vehicles and firearms, protection orders, and other criminal justice records.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The breach follows a prior intrusion in September that targeted an FBI jobs website linked to the ShinyHunters group",
+     "source": 3,
+     "quote": "This would be the second recent intrusion into the FBI system; the previous one came in September, when a group known as \"ShinyHunters\" broke into an FBI jobs website.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+     "published": "Sat, 21 Nov 2026 09:26:04 -0500",
+     "published_iso": "2026-11-21T14:26:04+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+     "published": "Sun, 22 Nov 2026 00:53:02 +0000",
+     "published_iso": "2026-11-22T00:53:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+     "published": "Sat, 21 Nov 2026 16:57:34 GMT",
+     "published_iso": "2026-11-21T16:57:34+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
+     "published": "Sat, 21 Nov 2026 18:44:53 +0000",
+     "published_iso": "2026-11-21T18:44:53+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+    "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+    "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+    "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Comcast, Yahoo, bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-22-china-linked-ai-agents-exploit-zero-day-in-monai-label-medic-faa17",
+   "date": "2026-11-22",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "China-linked AI agents exploit zero‑day in MONAI Label medical imaging software",
+   "in_brief": "Autonomous AI agents used by a China‑linked threat actor exploited a path‑traversal zero‑day in the open‑source MONAI Label tool, ultimately gaining root access on a university server. The flaw affects versions 0.8.5 and earlier and has been patched in the source code.",
+   "so_what": "The incident shows how AI‑driven automation can accelerate discovery and exploitation of previously unknown vulnerabilities, reducing the time from reconnaissance to file compromise to minutes. MONAI Label is used in research institutions for annotating medical images, so the breach could expose sensitive data and disrupt research workflows. The vulnerability stems from default‑off authentication and a path‑traversal bug that lets unauthenticated users write files outside the intended directory, potentially enabling malicious code execution. Although a fix has been merged, no patched release is yet available, leaving deployments vulnerable. Organizations running MONAI Label should monitor for the upcoming release, assess exposure of their instances to the internet, and consider network segmentation to limit lateral movement.",
+   "what_to_do": "1. Update MONAI Label to the version that includes the patched code as soon as it is released.\n2. Disable the default unauthenticated access by enabling authentication on the server.\n3. Verify that any Cairn or similar AI‑agent control panels are not publicly reachable.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The zero‑day vulnerability affects MONAI Label versions 0.8.5 and earlier.",
+     "source": 1,
+     "quote": "The MONAI Label developers published an advisory this week. It rates the bug critical and says it affects versions 0.8.5 and earlier.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The agents used the flaw to arbitrarily write files and later obtain a root shell.",
+     "source": 1,
+     "quote": "In about 11 minutes, the agents went from mapping the application’s API to arbitrarily writing files on the server… In a later session, the agents used the flaw to plant a Python reverse shell… ultimately achieving a root shell.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Amazon attributes the attack to a China‑linked threat actor with moderate confidence.",
+     "source": 1,
+     "quote": "Amazon has attributed the attack to an unidentified Chinese-nexus threat actor with moderate confidence, based on the language used in the prompts, the time zone in the scripts, and the fact that the targeted universities are likely of strategic interest to China.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+     "published": "Sat, 21 Nov 2026 12:08:50 +0000",
+     "published_iso": "2026-11-21T12:08:50+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "published": "Sat, 21 Nov 2026 16:33:17 +0530",
+     "published_iso": "2026-11-21T11:03:17+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+    "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.cve.org/CVERecord?id=CVE-2026-133968",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cve.org/CVERecord?id=CVE-2026-133968"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Attribution confidence mismatch: Draft said Amazon attributes with 'moderate confidence' in verified claims, but the source text says Amazon assesses with 'high confidence' that it was a zero-day and attributed the actor with 'moderate confidence'. Also, draft stated the agents gained root access on a university server directly in 11 minutes, but sources clarify that writing files took 11 minutes and root shell came later in a separate session."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-21-ai-penetration-tool-cairn-used-to-exploit-zero-day-in-monai-55728",
+    "date": "2026-11-21",
+    "label": "Well-sourced",
+    "score": 70
+   }
+  },
+  {
+   "id": "2026-11-22-delta-flights-delayed-at-atlanta-hub-due-to-weight-balance-s-b41bf",
+   "date": "2026-11-22",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Delta flights delayed at Atlanta hub due to weight‑balance system outage",
+   "in_brief": "Delta flights in and out of Hartsfield‑Jackson Atlanta International Airport faced significant delays on Sunday because an automated system that calculates aircraft weight and balance went offline. The airline is employing manual workarounds while technicians work to restore the system.",
+   "so_what": "The outage impacts Delta’s largest hub, a critical node in the U.S. air travel network, and could create ripple effects for other carriers if delays accumulate. The affected system determines an aircraft’s total weight, fuel load, passenger count and baggage distribution, data essential for safe flight operations. While the problem is currently limited to Delta, the airport’s high traffic volume means prolonged disruptions may strain gate availability and connecting flights. The airline’s statement that crews are using manual procedures indicates flights will continue, but at reduced efficiency and with increased workload for staff. Observers should monitor updates from Delta and the FAA for any expansion of the issue or additional operational restrictions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward operational report",
+   "claims": [
+    {
+     "claim": "Delta flights in and out of Atlanta are facing significant delays due to a problem with the system that calculates a plane’s weight and balance.",
+     "source": 1,
+     "quote": "All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane’s weight and balance.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The outage affects the system that calculates total aircraft weight, including airframe, fuel, passengers and baggage, and determines center of gravity.",
+     "source": 1,
+     "quote": "The system that went offline calculates the total weight of an airplane, including its airframe, fuel, passengers and their baggage. The system also allows pilots to determine the plane’s center of gravity and whether the weight is evenly distributed — data points that help ensure safe passage.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Delta is using manual workarounds to depart flights while automation is restored.",
+     "source": 1,
+     "quote": "Delta teams are using manual workarounds this morning to safely get flights departed while work continues to restore automation.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+     "published": "2026-11-22T12:46:44-05:00",
+     "published_iso": "2026-11-22T17:46:44+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "nytimes.com",
+     "url": "https://www.nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html",
+     "published": "Sun, 22 Nov 2026 19:51:46 +0000",
+     "published_iso": "2026-11-22T19:51:46+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+    "https://www.nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 47,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, nytimes.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-22-grand-theft-auto-vi-records-3-8-billion-first-day-sales-bigg-964cf",
+   "date": "2026-11-22",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Grand Theft Auto VI records $3.8 billion first‑day sales, biggest entertainment launch ever",
+   "in_brief": "Grand Theft Auto VI generated $3.8 billion in retail sales on its first day, with 32.5 million units pre‑sold, according to Rockstar. The launch surpasses all prior entertainment releases, marking a new benchmark for the industry.",
+   "so_what": "The unprecedented first‑day revenue positions Grand Theft Auto VI as the most lucrative entertainment debut across movies, music and games, highlighting the growing economic weight of interactive media. Analysts note that the game's sales dwarf the entire box‑office run of top‑grossing films such as Avengers: Endgame and exceed the opening week of its predecessor, Grand Theft Auto V, by a wide margin. The strong demand, especially on PlayStation 5 and Xbox platforms, underscores the continued dominance of console gaming in the premium segment. Observers will watch whether the momentum sustains through the year, how it influences future development budgets—already estimated above $1 billion—and whether other media firms adjust release strategies to compete with such high‑stakes launches.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Grand Theft Auto VI generated $3.8 billion in retail sales on its first day of release",
+     "source": 1,
+     "quote": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The game pre‑sold 32.5 million copies before launch",
+     "source": 1,
+     "quote": "It pre-sold 32.5m copies of the game.",
+     "status": "verified",
+     "corroborated_by": [
+      "Guardian Media Group"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Rockstar said the launch set a new record for entertainment across any medium",
+     "source": 2,
+     "quote": "The sales set “a new record for entertainment across any medium … becoming the biggest entertainment launch in history.”",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+     "published": "Fri, 20 Nov 2026 22:53:24 GMT",
+     "published_iso": "2026-11-20T22:53:24+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Guardian Technology",
+     "owner": "Guardian Media Group",
+     "url": "https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says",
+     "published": "Sat, 21 Nov 2026 03:51:03 GMT",
+     "published_iso": "2026-11-21T03:51:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: BBC, Guardian Media Group"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-22-openai-calls-for-perplexity-metric-as-shared-safety-standard-f937e",
+   "date": "2026-11-22",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI Calls for Perplexity Metric as Shared Safety Standard",
+   "in_brief": "OpenAI published a blog post urging the AI community to adopt perplexity as a common metric for model comparison and safety standards, while providing transparency into its internal pretraining measurements.",
+   "so_what": "OpenAI’s proposal to use perplexity—a measure of how well a model predicts the next token—aims to create a transparent benchmark across developers, potentially easing safety coordination. The company argues that the benefit to industry-wide safety outweighs the competitive concern of publishing internal scores. If adopted, perplexity could become a baseline for collaborative research and safety discussions.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "OpenAI argues for establishing perplexity as a metric to compare model developers and inform shared safety standards",
+     "source": 1,
+     "quote": "I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "GPT‑4 achieved a perplexity of approximately 0.91 on OpenAI’s main evaluation dataset",
+     "source": 1,
+     "quote": "GPT‑4, at ~0.91, was proficient at utilizing chain-of-thought reasoning productively",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "OpenAI published a blog post on 22 Nov 2026 discussing perplexity as a safety metric",
+     "source": 1,
+     "quote": "OpenAI (owner: openai.com) — published Sun, 22 Nov 2026 00:00:00 GMT",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]",
+      "not in source [1]: 22"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "OpenAI",
+     "owner": "openai.com",
+     "url": "https://openai.com/index/perplexity-and-intelligence",
+     "published": "Sun, 22 Nov 2026 00:00:00 GMT",
+     "published_iso": "2026-11-22T00:00:00+00:00",
+     "kind": "vendor",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://openai.com/index/perplexity-and-intelligence",
+    "https://openai.com/index/perplexity-and-intelligence/"
+   ],
+   "primary": [
+    {
+     "url": "https://openai.com/index/perplexity-and-intelligence",
+     "type": "subject's own statement",
+     "verified": true,
+     "label": "OpenAI"
+    }
+   ],
+   "truth": {
+    "total": 35,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: openai.com"
+     ],
+     [
+      "Primary evidence",
+      15,
+      25,
+      "Statement from the organization involved (not independent)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: in_brief includes a specific date (22 Nov 2026) not found in the source text",
+     "editor: so_what mentions specific perplexity numbers (0.99 for GPT-3.5 and 0.91 for GPT-4) which are not supported by the source text for GPT-3.5 and lack source verification for the exact figures"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-22-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+   "date": "2026-11-22",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Astronomers Observe Giant Star Swallowing Companion in Andromeda",
+   "in_brief": "A massive star in the Andromeda galaxy engulfed a smaller neighbor, an event captured from its slow brightening to a violent eruption. The observation provides the first real‑time view of the common‑envelope phase that shapes close binary systems.",
+   "so_what": "The detection confirms a long‑standing theoretical model—common envelope evolution—by showing how a giant star can rapidly absorb a companion, tighten its orbit, and merge. This rare, real‑time view, enabled by infrared surveys and the James Webb Space Telescope, offers new constraints on how tight binary stars and certain supernova progenitors form. Researchers will now compare the detailed light curves and spectra with simulations to refine predictions of merger outcomes and the frequency of such events in other galaxies. Future monitoring of similar brightening sources could reveal additional mergers, improving our understanding of stellar life cycles and the chemical enrichment of galaxies.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely observational science",
+   "claims": [
+    {
+     "claim": "A giant star about seven times as massive as the Sun in the Andromeda Galaxy spent nearly a decade swallowing its much smaller companion.",
+     "source": 2,
+     "quote": "In the Andromeda Galaxy, a giant star about seven times as massive ... spent nearly a decade slowly swallowing its much smaller companion.",
+     "status": "verified",
+     "corroborated_by": [
+      "sciencedaily.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The event was observed from its early brightening in 2023 through an eruption in late 2025, with JWST imaging the aftermath 47 days later.",
+     "source": 3,
+     "quote": "We noticed something unusual was going on in 2023 ... then, in 2025, it erupted! Webb observed Bao only 47 days after the stars' eruption peaked.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The phenomenon is an example of common envelope evolution, a process proposed in the 1970s to explain tight binary star pairs.",
+     "source": 2,
+     "quote": "The process, known as common envelope evolution, was proposed in the 1970s to explain how some of the tightest pairs of stars in the Universe form",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03784-8",
+     "published": "2026-11-18",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+     "published": "Fri, 20 Nov 2026 20:41:17 +0000",
+     "published_iso": "2026-11-20T20:41:17+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "ScienceDaily",
+     "owner": "sciencedaily.com",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
+     "published": "Sat, 21 Nov 2026 09:53:40 EST",
+     "published_iso": "2026-11-21T14:53:40+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03784-8",
+    "https://www.nature.com/articles/d41586-026-03273-y",
+    "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+    "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
+   ],
+   "primary": [
+    {
+     "url": "https://doi.org/10.1038/s41586-026-11221-z",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://doi.org/10.1038/s41586-026-11221-z"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03784-8",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 86,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, nature.com, sciencedaily.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-21-astronomers-observe-giant-star-swallowing-companion-in-andro-3dec8",
+    "date": "2026-11-21",
+    "label": "Confirmed",
+    "score": 86
+   }
+  },
+  {
+   "id": "2026-11-22-johnson-space-center-marks-65-years-of-human-spaceflight-ach-5ad38",
+   "date": "2026-11-22",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Johnson Space Center marks 65 years of human spaceflight achievements",
+   "in_brief": "NASA’s Johnson Space Center celebrated 65 years of supporting human spaceflight, from Gemini to the International Space Station. The milestone highlights the center’s ongoing role in lunar return plans and long‑term Moon presence.",
+   "so_what": "The 65‑year anniversary underscores Johnson’s historic contributions to U.S. crewed spaceflight, including pioneering rendezvous techniques in Gemini, the first American spacewalk, and the Apollo lunar missions that culminated in the last Moon landing in December 1972. The center’s legacy continues as it leads NASA’s Orion and Moon Base programs and prepares crews for future lunar missions, linking past achievements to upcoming goals of sustained human presence on the Moon. Observers will watch how Johnson’s expertise translates into Artemis program milestones, including crew training, spacecraft development, and health research for long‑duration missions. The recent dedication of the Lunar Receiving Park in 2026, after the demolition of the original Lunar Receiving Laboratory in March 2024, reflects ongoing stewardship of Apollo samples that support scientific study and public outreach.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Johnson Space Center celebrated its 65th anniversary in 2026.",
+     "source": 1,
+     "quote": "65 Years of Human Spaceflight at NASA Johnson.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Mission Control Center became NASA’s primary flight control center in June 1965.",
+     "source": 1,
+     "quote": "The new Mission Control Center became NASA’s primary flight control center in June 1965",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Apollo 8 made its historic trip around the Moon in December 1968.",
+     "source": 1,
+     "quote": "In December 1968, Apollo 8 made its historic trip around the Moon",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The original Lunar Receiving Laboratory was demolished in March 2024 and a Lunar Receiving Park was dedicated in 2026.",
+     "source": 1,
+     "quote": "After the building was demolished in March 2024, the Lunar Receiving Park was dedicated to honor the laboratory’s history in 2026.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+     "published": "Sun, 22 Nov 2026 19:13:25 +0000",
+     "published_iso": "2026-11-22T19:13:25+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 304,
+  "stories_considered": 14,
+  "published": 8,
+  "outlets": 33
+ }
+}
