@@ -7919,20 +7919,6 @@
   ]
  },
  {
-  "id": "2026-11-24-microsoft-patches-azure-api-management-classic-flaw-after-cr-f7272",
-  "date": "2026-11-24",
-  "section": "threat",
-  "headline": "Microsoft patches Azure API Management Classic flaw after credential theft reports",
-  "label": "Well-sourced",
-  "score": 65,
-  "also_covered_urls": [
-   "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-   "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
-   "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
-   "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
-  ]
- },
- {
   "id": "2026-11-24-cop31-ends-without-consensus-on-cover-decision-amid-fossil-f-60c70",
   "date": "2026-11-24",
   "section": "ai",
@@ -8029,6 +8015,141 @@
   "also_covered_urls": [
    "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
    "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/"
+  ]
+ },
+ {
+  "id": "2026-11-24-openai-and-cisco-release-shirudo-an-ai-assisted-ebpf-tool-fo-0f1b2",
+  "date": "2026-11-24",
+  "section": "threat",
+  "headline": "OpenAI and Cisco release Shirudo, an AI‑assisted eBPF tool for Linux runtime protection",
+  "label": "Confirmed",
+  "score": 85,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+   "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+   "https://openai.com/index/introducing-shirudo",
+   "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
+  ]
+ },
+ {
+  "id": "2026-11-24-microsoft-patches-azure-api-management-classic-flaw-after-cr-f7272",
+  "date": "2026-11-24",
+  "section": "threat",
+  "headline": "Microsoft patches Azure API Management Classic flaw after credential theft reports",
+  "label": "Well-sourced",
+  "score": 71,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+   "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+   "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+   "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+   "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+   "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/"
+  ]
+ },
+ {
+  "id": "2026-11-24-european-commission-confirms-personal-data-stolen-in-eu-acad-3f047",
+  "date": "2026-11-24",
+  "section": "threat",
+  "headline": "European Commission Confirms Personal Data Stolen in EU Academy Cyberattack",
+  "label": "Confirmed",
+  "score": 80,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+   "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+   "https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834",
+   "https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834"
+  ]
+ },
+ {
+  "id": "2026-11-24-bepicolombo-spacecraft-arrives-at-mercury-after-eight-year-j-76d70",
+  "date": "2026-11-24",
+  "section": "ai",
+  "headline": "BepiColombo spacecraft arrives at Mercury after eight‑year journey",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03803-8",
+   "https://www.theregister.com/science/2026/11/24/bepicolombo-takes-the-long-way-around-mercury-after-software-glitch/5311825",
+   "https://www.theregister.com/science/2026/11/23/software-issues-have-even-reached-mercury-as-bepicolombo-probe-arrives-in-uncertain-state/5311554"
+  ]
+ },
+ {
+  "id": "2026-11-24-microsoft-initiates-engineering-overhaul-following-november-2e6c8",
+  "date": "2026-11-24",
+  "section": "ai",
+  "headline": "Microsoft initiates engineering overhaul following November 12 cloud outage",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+   "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"
+  ]
+ },
+ {
+  "id": "2026-11-24-meta-rolls-out-ai-agent-muse-in-the-uk-and-integrates-featur-101a2",
+  "date": "2026-11-24",
+  "section": "ai",
+  "headline": "Meta rolls out AI agent Muse in the UK and integrates features into Instagram",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+   "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+   "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+   "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/"
+  ]
+ },
+ {
+  "id": "2026-11-24-hubble-captures-detailed-image-of-nearby-barred-spiral-galax-4c5ac",
+  "date": "2026-11-24",
+  "section": "science",
+  "headline": "Hubble captures detailed image of nearby barred spiral galaxy NGC 4394",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/",
+   "https://phys.org/news/2026-11-nasa-hubble-view-ngc-bar.html"
+  ]
+ },
+ {
+  "id": "2026-11-24-nasa-documentary-series-begins-theatrical-screenings-at-gree-3b209",
+  "date": "2026-11-24",
+  "section": "science",
+  "headline": "NASA+ documentary series begins theatrical screenings at Greenbelt Cinema",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/"
+  ]
+ },
+ {
+  "id": "2026-11-24-nvidia-reinstates-jensen-huang-as-ceo-shares-jump-31-amid-bi-c1b5d",
+  "date": "2026-11-24",
+  "section": "money",
+  "headline": "Nvidia reinstates Jensen Huang as CEO, shares jump 31% amid bipartisan criticism",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss",
+   "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+   "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang-reinstatement-cnbc-interview-transcript.html",
+   "https://decrypt.co/383853/trump-says-he-made-the-deal-to-reinstate-jensen-huang-sparking-bipartisan-backlash",
+   "https://www.coindesk.com/business/2026/11/23/nvidia-s-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo"
+  ]
+ },
+ {
+  "id": "2026-11-24-south-korea-drafts-bill-to-end-2017-ico-ban-e0ad1",
+  "date": "2026-11-24",
+  "section": "money",
+  "headline": "South Korea drafts bill to end 2017 ICO ban",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/11/24/south-korea-proposes-ending-2017-ico-ban-to-boost-jobs-and-onshore-crypto-investment",
+   "https://decrypt.co/383905/south-korea-moves-lift-ico-ban-after-nearly-decade"
   ]
  }
 ]

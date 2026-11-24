@@ -1,20 +1,20 @@
 [
  {
   "section": "threat",
-  "title": "CISA flags Cisco Expressway CVE‑2026‑76466 as actively exploited",
-  "verdict": "PUBLISH",
-  "truth": 82,
-  "reasons": [],
-  "edits": [
-   "removed 1 claim(s) that failed fact-checking"
+  "title": "Hackers compromise Check Point Servers in 22 organizations",
+  "verdict": "ERROR",
+  "truth": null,
+  "reasons": [
+   "'str' object has no attribute 'get'"
   ],
-  "owners": 4
+  "edits": [],
+  "owners": 3
  },
  {
   "section": "threat",
-  "title": "GL.iNet routers and KVM devices infected via compromised GoodCloud service",
+  "title": "OpenAI and Cisco release Shirudo, an AI‑assisted eBPF tool for Linux runtime protection",
   "verdict": "PUBLISH",
-  "truth": 71,
+  "truth": 85,
   "reasons": [],
   "edits": [],
   "owners": 4
@@ -23,41 +23,71 @@
   "section": "threat",
   "title": "Microsoft patches Azure API Management Classic flaw after credential theft reports",
   "verdict": "PUBLISH",
-  "truth": 65,
+  "truth": 71,
   "reasons": [],
-  "edits": [],
+  "edits": [
+   "editor rewrote what_to_do",
+   "editor: The 'what_to_do' section specifies exact runtime version numbers (0.52.31936 or 0.53.31938) which do not appear anywhere in the source texts."
+  ],
+  "owners": 5
+ },
+ {
+  "section": "threat",
+  "title": "European Commission Confirms Personal Data Stolen in EU Academy Cyberattack",
+  "verdict": "PUBLISH",
+  "truth": 80,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Copied long word-for-word run from source in headline/in_brief.",
+   "editor: Headline uses slightly repetitive phrasing from sources."
+  ],
   "owners": 3
  },
  {
   "section": "ai",
-  "title": "COP31 ends without consensus on cover decision amid fossil‑fuel dispute",
+  "title": "BepiColombo spacecraft arrives at Mercury after eight‑year journey",
   "verdict": "PUBLISH",
-  "truth": 86,
+  "truth": 73,
   "reasons": [],
-  "edits": [],
-  "owners": 3
- },
- {
-  "section": "ai",
-  "title": "Nvidia Board Reinstates Jensen Huang as CEO After 11‑Day Absence",
-  "verdict": "PUBLISH",
-  "truth": 69,
-  "reasons": [],
-  "edits": [],
-  "owners": 4
- },
- {
-  "section": "ai",
-  "title": "Ladybird browser engine reaches alpha release for macOS and Linux",
-  "verdict": "PUBLISH",
-  "truth": 50,
-  "reasons": [],
-  "edits": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Number '2018' in so_what does not appear in any source"
+  ],
   "owners": 2
  },
  {
+  "section": "ai",
+  "title": "Microsoft initiates engineering overhaul following November 12 cloud outage",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Copied word-for-word runs from source text in the draft prose."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "Meta rolls out AI agent Muse in the UK and integrates features into Instagram",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Source 2 states 25% of Muse users shop via the agent (as announced by Mark Zuckerberg), but source 2 also states source 1/other context details differently or mixes up details. Actually, Source 2 says '25% of Muse's users shop via the agentic tool... and the average purchase price is over $200'. However, Source 3 states Instagram users in the United States will see pop-ups, while Source 1 says Muse launched in the UK. The draft says Muse launched in the UK and is added to Instagram. But Source 3 mentions US pop-ups, which introduces a slight regional contradiction/confusion in the draft's in_brief regarding where the Instagram integration rollout happens."
+  ],
+  "owners": 3
+ },
+ {
   "section": "science",
-  "title": "Webb Telescope Finds Evidence of Shell Merger Hours Before Cassiopeia A Supernova",
+  "title": "Hubble captures detailed image of nearby barred spiral galaxy NGC 4394",
   "verdict": "PUBLISH",
   "truth": 83,
   "reasons": [],
@@ -66,48 +96,70 @@
  },
  {
   "section": "science",
-  "title": "NASA awards $290.6 million contract to Northrop Grumman for NOAA satellite microwave sounders",
+  "title": "NASA+ documentary series begins theatrical screenings at Greenbelt Cinema",
   "verdict": "PUBLISH",
   "truth": 59,
   "reasons": [],
-  "edits": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: so_what contains unsupported speculation and extrapolation not found in the source text, such as specific claims about Artemis III details and potential models for future events."
+  ],
   "owners": 1
  },
  {
   "section": "money",
-  "title": "Nvidia Board Reinstates Jensen Huang as CEO",
+  "title": "Nvidia reinstates Jensen Huang as CEO, shares jump 31% amid bipartisan criticism",
   "verdict": "PUBLISH",
-  "truth": 52,
+  "truth": 72,
   "reasons": [],
-  "edits": [
-   "editor rewrote in_brief",
-   "editor rewrote so_what",
-   "editor: Draft states as fact that Huang resigned over an affair with a Chinese intelligence asset and potential export-control violations, whereas sources report these as allegations or context rather than proven facts for the resignation itself.",
-   "editor: Draft includes opinionated commentary and hype language ('biggest national security scandal in U.S. history', 'marks a rapid reversal')."
-  ],
-  "owners": 2
+  "edits": [],
+  "owners": 4
  },
  {
   "section": "money",
-  "title": "Capita shares tumble 70% after chief quits over civil service pension issues",
+  "title": "South Korea drafts bill to end 2017 ICO ban",
   "verdict": "PUBLISH",
-  "truth": 48,
+  "truth": 46,
   "reasons": [],
   "edits": [],
   "owners": 2
  },
  {
   "section": "scam",
-  "title": "Human Security disrupts BadBox 3.0 ad‑fraud botnet",
-  "verdict": "PUBLISH",
-  "truth": 55,
-  "reasons": [],
+  "title": "GlobeTopper breach leads to $70,000 gift‑card theft and up to $2.5 million revenue loss",
+  "verdict": "HOLD",
+  "truth": 32,
+  "reasons": [
+   "truth score 32 below publish bar 35"
+  ],
   "edits": [],
-  "owners": 2
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Human reviewers examine ChatGPT and Copilot prompts, raising privacy concerns",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "scam",
+  "title": "Human‑risk specialists warn of rising social‑engineering and AI threats",
+  "verdict": "HOLD",
+  "truth": 31,
+  "reasons": [
+   "truth score 31 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
  },
  {
   "section": "myth",
-  "title": "US banks warn customers they may be liable for AI agent mistakes",
+  "title": "Asda ‘Diwali Tree’ image proven AI‑edited, not a real product",
   "verdict": "HOLD",
   "truth": 33,
   "reasons": [
@@ -118,7 +170,7 @@
  },
  {
   "section": "myth",
-  "title": "White House ballroom not as large as viral comparison images claim",
+  "title": "AI‑generated video of Crimean Bridge damage debunked",
   "verdict": "HOLD",
   "truth": 33,
   "reasons": [
@@ -129,21 +181,13 @@
  },
  {
   "section": "myth",
-  "title": "Snopes Rates Claim True About Authentic Audio in Data Center Warning Video",
+  "title": "US banks warn customers they may be liable for third‑party AI agent transactions",
   "verdict": "HOLD",
   "truth": 33,
   "reasons": [
    "truth score 33 below publish bar 35"
   ],
-  "edits": [
-   "editor rewrote headline",
-   "editor rewrote in_brief",
-   "editor rewrote so_what",
-   "editor rewrote what_to_do",
-   "editor: Headline mentions a date or detail not fully supported simply as 'Snopes Confirms Data Center Sound Video Uses Real Recorded Audio' (source says Snopes rated the claim true because the caption accurately described authentic audio).",
-   "editor: So_what mentions 'June 4, 2026' but the source only states 'June 4' without a year.",
-   "editor: So_what mentions independent journalist Aya Miller corroborated the recording date, but the source says Miller *herself* recorded it on June 4."
-  ],
+  "edits": [],
   "owners": 1
  }
 ]
