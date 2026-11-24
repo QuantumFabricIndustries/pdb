@@ -1,0 +1,149 @@
+[
+ {
+  "section": "threat",
+  "title": "CISA flags Cisco Expressway CVE‑2026‑76466 as actively exploited",
+  "verdict": "PUBLISH",
+  "truth": 82,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "GL.iNet routers and KVM devices infected via compromised GoodCloud service",
+  "verdict": "PUBLISH",
+  "truth": 71,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Microsoft patches Azure API Management Classic flaw after credential theft reports",
+  "verdict": "PUBLISH",
+  "truth": 65,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "COP31 ends without consensus on cover decision amid fossil‑fuel dispute",
+  "verdict": "PUBLISH",
+  "truth": 86,
+  "reasons": [],
+  "edits": [],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Nvidia Board Reinstates Jensen Huang as CEO After 11‑Day Absence",
+  "verdict": "PUBLISH",
+  "truth": 69,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "ai",
+  "title": "Ladybird browser engine reaches alpha release for macOS and Linux",
+  "verdict": "PUBLISH",
+  "truth": 50,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Webb Telescope Finds Evidence of Shell Merger Hours Before Cassiopeia A Supernova",
+  "verdict": "PUBLISH",
+  "truth": 83,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA awards $290.6 million contract to Northrop Grumman for NOAA satellite microwave sounders",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Nvidia Board Reinstates Jensen Huang as CEO",
+  "verdict": "PUBLISH",
+  "truth": 52,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Draft states as fact that Huang resigned over an affair with a Chinese intelligence asset and potential export-control violations, whereas sources report these as allegations or context rather than proven facts for the resignation itself.",
+   "editor: Draft includes opinionated commentary and hype language ('biggest national security scandal in U.S. history', 'marks a rapid reversal')."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Capita shares tumble 70% after chief quits over civil service pension issues",
+  "verdict": "PUBLISH",
+  "truth": 48,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Human Security disrupts BadBox 3.0 ad‑fraud botnet",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "US banks warn customers they may be liable for AI agent mistakes",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "White House ballroom not as large as viral comparison images claim",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Snopes Rates Claim True About Authentic Audio in Data Center Warning Video",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Headline mentions a date or detail not fully supported simply as 'Snopes Confirms Data Center Sound Video Uses Real Recorded Audio' (source says Snopes rated the claim true because the caption accurately described authentic audio).",
+   "editor: So_what mentions 'June 4, 2026' but the source only states 'June 4' without a year.",
+   "editor: So_what mentions independent journalist Aya Miller corroborated the recording date, but the source says Miller *herself* recorded it on June 4."
+  ],
+  "owners": 1
+ }
+]

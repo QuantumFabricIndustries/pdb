@@ -7888,5 +7888,147 @@
   "also_covered_urls": [
    "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/"
   ]
+ },
+ {
+  "id": "2026-11-24-cisa-flags-cisco-expressway-cve-2026-76466-as-actively-explo-90aee",
+  "date": "2026-11-24",
+  "section": "threat",
+  "headline": "CISA flags Cisco Expressway CVE‑2026‑76466 as actively exploited",
+  "label": "Confirmed",
+  "score": 82,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
+   "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
+   "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+   "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/"
+  ]
+ },
+ {
+  "id": "2026-11-24-gl-inet-routers-and-kvm-devices-infected-via-compromised-goo-56cdc",
+  "date": "2026-11-24",
+  "section": "threat",
+  "headline": "GL.iNet routers and KVM devices infected via compromised GoodCloud service",
+  "label": "Well-sourced",
+  "score": 71,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+   "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+   "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/"
+  ]
+ },
+ {
+  "id": "2026-11-24-microsoft-patches-azure-api-management-classic-flaw-after-cr-f7272",
+  "date": "2026-11-24",
+  "section": "threat",
+  "headline": "Microsoft patches Azure API Management Classic flaw after credential theft reports",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+   "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+   "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+   "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
+  ]
+ },
+ {
+  "id": "2026-11-24-cop31-ends-without-consensus-on-cover-decision-amid-fossil-f-60c70",
+  "date": "2026-11-24",
+  "section": "ai",
+  "headline": "COP31 ends without consensus on cover decision amid fossil‑fuel dispute",
+  "label": "Confirmed",
+  "score": 86,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03827-0",
+   "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+   "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html"
+  ]
+ },
+ {
+  "id": "2026-11-24-nvidia-board-reinstates-jensen-huang-as-ceo-after-11-day-abs-ac4dd",
+  "date": "2026-11-24",
+  "section": "ai",
+  "headline": "Nvidia Board Reinstates Jensen Huang as CEO After 11‑Day Absence",
+  "label": "Well-sourced",
+  "score": 69,
+  "also_covered_urls": [
+   "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+   "https://www.theregister.com/systems/2026/11/23/nvidia-board-puts-jensen-huang-back-as-boss/5311674",
+   "https://decrypt.co/383797/nvidia-reinstates-jensen-huang-as-ceo-days-after-board-ruled-out-his-return",
+   "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/"
+  ]
+ },
+ {
+  "id": "2026-11-24-ladybird-browser-engine-reaches-alpha-release-for-macos-and-73951",
+  "date": "2026-11-24",
+  "section": "ai",
+  "headline": "Ladybird browser engine reaches alpha release for macOS and Linux",
+  "label": "Developing",
+  "score": 50,
+  "also_covered_urls": [
+   "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+   "https://ladybird.org/posts/alpha/"
+  ]
+ },
+ {
+  "id": "2026-11-24-webb-telescope-finds-evidence-of-shell-merger-hours-before-c-f0192",
+  "date": "2026-11-24",
+  "section": "science",
+  "headline": "Webb Telescope Finds Evidence of Shell Merger Hours Before Cassiopeia A Supernova",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+   "https://phys.org/news/2026-11-webb-evidence-star-layers-merged.html"
+  ]
+ },
+ {
+  "id": "2026-11-24-nasa-awards-290-6-million-contract-to-northrop-grumman-for-n-a9aed",
+  "date": "2026-11-24",
+  "section": "science",
+  "headline": "NASA awards $290.6 million contract to Northrop Grumman for NOAA satellite microwave sounders",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/"
+  ]
+ },
+ {
+  "id": "2026-11-24-nvidia-board-reinstates-jensen-huang-as-ceo-26e7e",
+  "date": "2026-11-24",
+  "section": "money",
+  "headline": "Nvidia Board Reinstates Jensen Huang as CEO",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&at_campaign=rss",
+   "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/"
+  ]
+ },
+ {
+  "id": "2026-11-24-capita-shares-tumble-70-after-chief-quits-over-civil-service-4b306",
+  "date": "2026-11-24",
+  "section": "money",
+  "headline": "Capita shares tumble 70% after chief quits over civil service pension issues",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
+   "https://www.theregister.com/public-sector/2026/11/23/capita-ceo-leaves-following-pensions-contract-disaster/5311585"
+  ]
+ },
+ {
+  "id": "2026-11-24-human-security-disrupts-badbox-3-0-ad-fraud-botnet-498ff",
+  "date": "2026-11-24",
+  "section": "scam",
+  "headline": "Human Security disrupts BadBox 3.0 ad‑fraud botnet",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+   "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/"
+  ]
  }
 ]

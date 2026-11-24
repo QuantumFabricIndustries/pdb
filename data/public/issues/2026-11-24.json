@@ -1,0 +1,1531 @@
+{
+ "date": "2026-11-24",
+ "built_at": "2026-11-24T01:01:43.614964+00:00",
+ "stories": [
+  {
+   "id": "2026-11-24-cisa-flags-cisco-expressway-cve-2026-76466-as-actively-explo-90aee",
+   "date": "2026-11-24",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "CISA flags Cisco Expressway CVE‑2026‑76466 as actively exploited",
+   "in_brief": "The U.S. Cybersecurity and Infrastructure Security Agency added Cisco Expressway vulnerability CVE‑2026‑76466 to its Known Exploited Vulnerabilities catalog, warning that attackers are using it to gain root access on internet‑exposed devices. The agency urges immediate patching and mitigation to protect both federal and private networks.",
+   "so_what": "CVE‑2026‑76466 is a critical flaw in Cisco Expressway‑C and Expressway‑E gateways that allows unauthenticated attackers to execute OS commands as root by exploiting hard‑coded credentials and insufficient client‑certificate validation. Russian security firm F6 reported that threat actors have already compromised perimeter devices, used them to infiltrate internal cluster nodes, and deployed custom Python scripts for lateral movement and data exfiltration. Although Cisco’s PSIRT says no public exploits were known, CISA’s designation of active exploitation signals a real‑world threat, prompting a three‑day patch deadline for federal agencies and a broader recommendation for all network defenders. Organizations should verify they run Cisco Expressway release X15.5.20 or later, monitor for the specific Erlang log entry, and restrict the vulnerable ports if immediate patching is not feasible.",
+   "what_to_do": "1. Apply Cisco Expressway update X15.5.20 or later. 2. Check logs for the Erlang entry \"nodeup ‘wombat@127.0.0.1’\" and for the staged Python scripts. 3. If patching cannot be done immediately, block TCP ports 4371‑4372 at the firewall, allowing access only from trusted cluster node IPs.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based agency alert and vendor patch information",
+   "claims": [
+    {
+     "claim": "The vulnerability allows unauthenticated attackers to execute arbitrary OS commands as root on clustered Expressway‑C and Expressway‑E devices.",
+     "source": 1,
+     "quote": "enabling unauthenticated attackers to remotely execute arbitrary operating system commands as root on affected Cisco Expressway-C and Cisco Expressway-E devices configured in a cluster.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "F6 observed attackers compromising two internet‑facing Expressway devices and using them to access internal cluster nodes.",
+     "source": 1,
+     "quote": "\"The attackers initially compromised two Cisco Expressway internet-facing devices. Through one of them, they gained access to two additional cluster nodes located on the organization’s internal network,\"",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Cisco released patches for the flaw on October 21 in Expressway Series release X15.5.20.",
+     "source": 2,
+     "quote": "was patched on October 21 in Expressway Series release X15.5.20.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "F6 recommends restricting firewall ports TCP/4371‑4372 to trusted cluster node IPs if immediate updating is not possible.",
+     "source": 4,
+     "quote": "F6 recommends restricting connections to ports TCP/4371–4372 at the firewall and allowing access only from the IP addresses of trusted cluster nodes",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "CISA added CVE‑2026‑76466 to its Known Exploited Vulnerabilities catalog and warned of active exploitation.",
+     "source": 1,
+     "quote": "CISA flagged it as actively exploited on Friday.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+     "published": "Mon, 23 Nov 2026 02:44:19 -0500",
+     "published_iso": "2026-11-23T07:44:19+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+     "published": "Mon, 23 Nov 2026 11:35:15 +0000",
+     "published_iso": "2026-11-23T11:35:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
+     "published": "Mon, 23 Nov 2026 18:56:56 +0100",
+     "published_iso": "2026-11-23T17:56:56+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+     "published": "Mon, 23 Nov 2026 12:26:10 +0000",
+     "published_iso": "2026-11-23T12:26:10+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+    "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
+    "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
+    "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+    "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-76466",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-76466"
+    },
+    {
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+     "type": "official record",
+     "verified": true,
+     "label": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+    }
+   ],
+   "truth": {
+    "total": 82,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      20,
+      25,
+      "4 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      4,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-24-gl-inet-routers-and-kvm-devices-infected-via-compromised-goo-56cdc",
+   "date": "2026-11-24",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "GL.iNet routers and KVM devices infected via compromised GoodCloud service",
+   "in_brief": "Hackers exploited a vulnerability in GL.iNet's cloud remote‑management platform to install malware on some routers and KVM devices. The company has patched the cloud flaw but advises users to install security firmware to remove existing infections.",
+   "so_what": "The incident highlights the risk of cloud‑based management interfaces being leveraged to gain remote access to network hardware. GL.iNet confirmed that the attackers could install backdoors and reverse shells, giving them control over compromised devices, though it has not disclosed the number of affected units or whether data was exfiltrated. The cloud‑side fix blocks further infections, but existing malware remains unless users apply the recommended security firmware updates. Security firms observing the breach report that many managed routers show signs of the attack or older backdoors dating back to 2025, underscoring the need for thorough detection. Stakeholders should monitor GL.iNet advisories for additional patches and watch for any reports of compromised downstream computers connected to infected KVMs.",
+   "what_to_do": "1. Update routers and KVM devices to the latest security firmware (e.g., version 1.10.3 or later for RM10, RM1, RM1V2, RM1PE, RM4PE; 1.10.3 beta+ for RM10RC; 1.8.7+ for RMQ1). 2. Run the community‑provided detection script or scanner to check for known malware indicators such as the crond -i /tmp/.log process. 3. Verify connected computers for unfamiliar programs, extensions, accounts, or scheduled tasks.",
+   "hype_flag": "low",
+   "hype_reason": "Fact‑based reporting with multiple sources",
+   "claims": [
+    {
+     "claim": "Hackers exploited a vulnerability in GL.iNet's cloud remote‑management service to install malware on routers and KVM devices.",
+     "source": 1,
+     "quote": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "GL.iNet fixed the cloud vulnerability on November 20, 2026, but the fix does not remove malware already present on devices.",
+     "source": 1,
+     "quote": "The attack path has been blocked. We fixed the cloud vulnerability and blocked the access used in this incident.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "GL.iNet recommends installing security firmware (e.g., version 1.10.3 or later for certain KVM models) to remove the malware.",
+     "source": 1,
+     "quote": "For KVM devices, customers can follow the company's firmware upgrade guidance, which recommends version 1.10.3 or later for the RM10, RM1, RM1V2, RM1PE, and RM4PE...",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "RemoteToHome Consulting found that most of the nearly 200 routers it checked showed signs of the November 20 attack or older backdoors.",
+     "source": 2,
+     "quote": "RemoteToHome reported that most of the nearly 200 routers it checked appeared to be impacted, either by this new attack or an older backdoor that appears to date back to September 2025.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A root‑level reverse shell was observed on a GL‑AXT1800 router connecting to an external IP address.",
+     "source": 3,
+     "quote": "RemoteToHome Consulting ... verified a root-level reverse shell on one of its GL-AXT1800 routers. The shell started on Friday evening and connected to 170.39.226[.]219.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+     "published": "Sun, 22 Nov 2026 13:45:37 -0500",
+     "published_iso": "2026-11-22T18:45:37+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+     "published": "Mon, 23 Nov 2026 13:26:22 +0000",
+     "published_iso": "2026-11-23T13:26:22+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+     "published": "Mon, 23 Nov 2026 14:34:08 +0530",
+     "published_iso": "2026-11-23T09:04:08+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+     "published": "Mon, 23 Nov 2026 15:05:50 +0000",
+     "published_iso": "2026-11-23T15:05:50+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+    "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+    "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+    "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 71,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: bleepingcomputer.com, helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      8,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-24-microsoft-patches-azure-api-management-classic-flaw-after-cr-f7272",
+   "date": "2026-11-24",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Microsoft patches Azure API Management Classic flaw after credential theft reports",
+   "in_brief": "Microsoft disclosed a vulnerability in Azure API Management Classic tiers that was exploited to steal stored API credentials, affecting several Norwegian energy firms. The company issued a mitigation on November 19 and urged customers to rotate exposed secrets.",
+   "so_what": "The flaw allowed unauthorized access to management functions in Azure API Management Classic instances that were not configured according to Microsoft’s security best practices, potentially exposing named values, client secrets, subscription keys and tokens. Norwegian authorities linked the issue to attacks on energy companies Equinor and Skagerak Energi, highlighting the risk to critical infrastructure. While Microsoft closed the access path and rotated its own keys, compromised customer credentials may remain valid, so organizations must treat all stored secrets as compromised. Immediate remediation includes rotating credentials, reviewing logs for suspicious activity, and updating APIM configurations to the newer v2 tier or applying the recommended hardening guidance. Ongoing monitoring will determine whether the vulnerability was exploited more broadly across other sectors.",
+   "what_to_do": "1. Rotate all API Management secrets, client IDs and tokens immediately. 2. Review Azure APIM logs for unauthorized management‑plane activity. 3. Verify that APIM instances are upgraded to v2 tiers or hardened per Microsoft’s security guidance.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Microsoft identified the vulnerability on November 18, 2026 and deployed a mitigation the following day.",
+     "source": 1,
+     "quote": "Microsoft said it identified the vulnerability on November 18, 2026, and deployed a mitigation the following day.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability affects Azure API Management Classic tiers but not v2 tiers.",
+     "source": 1,
+     "quote": "The vulnerability affects Azure API Management Classic tiers, while Microsoft said APIM v2 tiers are not impacted.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Norwegian energy firms Equinor and Skagerak Energi were impacted by the flaw.",
+     "source": 2,
+     "quote": "Norway’s National Security Authority (NSM) said ... the vulnerability had affected several organizations in the country, including energy companies Equinor and Skagerak Energi",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+     "published": "Mon, 23 Nov 2026 14:42:20 -0500",
+     "published_iso": "2026-11-23T19:42:20+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+     "published": "Mon, 23 Nov 2026 15:47:40 +0000",
+     "published_iso": "2026-11-23T15:47:40+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+     "published": "Mon, 23 Nov 2026 13:29:00 +0100",
+     "published_iso": "2026-11-23T12:29:00+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+    "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+    "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+    "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-24-cop31-ends-without-consensus-on-cover-decision-amid-fossil-f-60c70",
+   "date": "2026-11-24",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "COP31 ends without consensus on cover decision amid fossil‑fuel dispute",
+   "in_brief": "The United Nations climate summit in Antalya concluded without a cover decision for the first time since 2009, as delegates failed to agree on language about fossil fuels. The split highlights deep divisions over financing and transition measures for vulnerable nations.",
+   "so_what": "The lack of a cover decision—normally a unifying statement of global climate ambition—signals a setback for coordinated action on limiting warming to 1.5 °C. Without consensus, funding mechanisms for developing countries and plans to transition away from fossil fuels remain uncertain, increasing pressure on vulnerable nations that contribute minimally to emissions but face the greatest impacts. Observers note that the European Union and other blocs rejected the draft for omitting fossil‑fuel references, while island states refused to sign, underscoring the political challenges of aligning climate finance with scientific targets. Future negotiations will need to reconcile these divides before the next COP, as the absence of an agreed framework could delay implementation of adaptation and mitigation projects worldwide.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "COP31 ended without a consensus on a cover decision, the first time since 2009.",
+     "source": 2,
+     "quote": "For the first time since 2009, the conference ended without consensus on a cover decision, the concluding statement that typically signals global solidarity on how to confront the worsening climate crisis.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The European Union rejected the draft because it did not address fossil fuels.",
+     "source": 3,
+     "quote": "The EU said it rejected the deal because the text \"does not respond to the science\" of climate change. \"We will not accept a COP that greenwashes fossil fuels,\" it said in a statement Sunday.",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "More than 100,000 participants attended the conference.",
+     "source": 2,
+     "quote": "As cleaning crews cleared away the debris left by more than 100,000 participants, Murat Kurum, president of the Conference of the Parties and Turkey’s minister of environment, urbanization, and climate change, tried to tie together disparate parts of a draft climate deal with a shiny ribbon of multilateralism.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03827-0",
+     "published": "2026-11-23",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+     "published": "Mon, 23 Nov 2026 15:23:26 +0000",
+     "published_iso": "2026-11-23T15:23:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html",
+     "published": "Mon, 23 Nov 2026 13:16:38 GMT",
+     "published_iso": "2026-11-23T13:16:38+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03827-0",
+    "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+    "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html"
+   ],
+   "primary": [
+    {
+     "url": "https://unfccc.int/news/these-are-crucial-days-ahead-for-climate-cooperation-and-we-have-no-time-to-lose-un-climate-chief-at",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://unfccc.int/news/these-are-crucial-days-ahead-for-climate-cooperation-and-we-have-no-time-to-lose-un-climate-chief-at"
+    },
+    {
+     "url": "https://docs.unfccc.int/documents/10000406/files/en/dt_cma8_cover_decision.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://docs.unfccc.int/documents/10000406/files/en/dt_cma8_cover_decision.pdf"
+    },
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03827-0",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 86,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Comcast, Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-24-nvidia-board-reinstates-jensen-huang-as-ceo-after-11-day-abs-ac4dd",
+   "date": "2026-11-24",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Nvidia Board Reinstates Jensen Huang as CEO After 11‑Day Absence",
+   "in_brief": "Nvidia’s board voted unanimously to restore Jensen Huang as president and CEO, citing input from senior U.S. officials that his return poses no national‑security risk. The decision sent the company’s shares up roughly 26% in pre‑market trading.",
+   "so_what": "The reinstatement ends a brief leadership vacuum at the world’s leading AI‑chip maker and signals confidence from both the board and U.S. officials that Huang’s alleged ties to a suspected Chinese spy do not threaten national security. Investors responded positively, with a 26% pre‑market rally, suggesting market belief that Huang’s technical leadership remains critical to Nvidia’s growth. The board will continue an independent investigation into the alleged foreign‑intelligence involvement, and Huang is slated to testify before House committees on Dec. 1 and the Senate Banking Committee later. Stakeholders will watch the outcomes of those hearings and any further regulatory scrutiny that could affect Nvidia’s operations and stock performance.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Nvidia's board unanimously reinstated Jensen Huang as president, CEO and a director, effective immediately",
+     "source": 4,
+     "quote": "Nvidia's board unanimously reinstated Jensen Huang as president, CEO and a director, effective immediately",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The board said input from senior U.S. government officials left it confident his return poses no national security risk",
+     "source": 4,
+     "quote": "input from senior U.S. government officials left it confident his return poses no national security risk",
+     "status": "verified",
+     "corroborated_by": [
+      "Condé Nast",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nvidia shares jumped about 26% in premarket trading on Monday after the announcement",
+     "source": 4,
+     "quote": "Nvidia shares jumped about 26% in premarket trading on Monday",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+     "published": "Mon, 23 Nov 2026 15:46:18 +0000",
+     "published_iso": "2026-11-23T15:46:18+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/systems/2026/11/23/nvidia-board-puts-jensen-huang-back-as-boss/5311674",
+     "published": "Mon, 23 Nov 2026 14:35:50 +0000",
+     "published_iso": "2026-11-23T14:35:50+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+     "published": "Mon, 23 Nov 2026 16:39:10 +0000",
+     "published_iso": "2026-11-23T16:39:10+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383797/nvidia-reinstates-jensen-huang-as-ceo-days-after-board-ruled-out-his-return",
+     "published": "Mon, 23 Nov 2026 14:07:21 +0000",
+     "published_iso": "2026-11-23T14:07:21+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+    "https://www.theregister.com/systems/2026/11/23/nvidia-board-puts-jensen-huang-back-as-boss/5311674",
+    "https://decrypt.co/383797/nvidia-reinstates-jensen-huang-as-ceo-days-after-board-ruled-out-his-return",
+    "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 69,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Condé Nast, Situation Publishing, Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4,
+   "previously": {
+    "id": "2026-11-17-nvidia-board-says-no-plans-to-reinstate-ceo-jensen-huang-2795a",
+    "date": "2026-11-17",
+    "label": "Well-sourced",
+    "score": 72
+   }
+  },
+  {
+   "id": "2026-11-24-ladybird-browser-engine-reaches-alpha-release-for-macos-and-73951",
+   "date": "2026-11-24",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Ladybird browser engine reaches alpha release for macOS and Linux",
+   "in_brief": "The independent Ladybird browser entered alpha, offering a new engine on macOS and Linux. Its launch marks the first new browser engine in years, drawing attention from developers and privacy advocates.",
+   "so_what": "Ladybird’s alpha release introduces the first entirely new browser engine since the early 2000s, challenging the dominance of Gecko, Blink and WebKit. Backed by a nonprofit, the project aims to provide a fast, secure, and privacy‑respecting alternative, with its core written in Rust after an initial C++ implementation. The open‑alpha model invites users to report crashes and broken sites, and the developers plan regular automatic updates. While a Windows version is slated for a later stage, the current macOS and Linux builds allow developers to test compatibility and contribute to hardening the browser. Observers will watch adoption rates, the stability of the Rust‑based engine, and how the community’s feedback shapes future releases.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual announcement",
+   "claims": [
+    {
+     "claim": "Ladybird entered alpha and is available for macOS and Linux",
+     "source": 1,
+     "quote": "Ladybird, the first new browser engine in years, is now available to test... On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux",
+     "status": "verified",
+     "corroborated_by": [
+      "ladybird.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Ladybird uses a brand‑new engine built from the ground up, not a fork",
+     "source": 2,
+     "quote": "The engine is our own, built from the ground up, and not a fork",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The browser’s core is being ported to Rust using AI",
+     "source": 1,
+     "quote": "its developers eventually began porting the code to Rust using AI",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+     "published": "2026-11-23T17:38:09-05:00",
+     "published_iso": "2026-11-23T22:38:09+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "ladybird.org",
+     "url": "https://ladybird.org/posts/alpha/",
+     "published": "Mon, 23 Nov 2026 16:13:12 +0000",
+     "published_iso": "2026-11-23T16:13:12+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+    "https://ladybird.org/posts/alpha/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 50,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Vox Media, ladybird.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-24-webb-telescope-finds-evidence-of-shell-merger-hours-before-c-f0192",
+   "date": "2026-11-24",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Webb Telescope Finds Evidence of Shell Merger Hours Before Cassiopeia A Supernova",
+   "in_brief": "NASA’s James Webb Space Telescope observed dust in the Cassiopeia A remnant that suggests the star’s interior layers merged shortly before it exploded. The findings were reported in a study published Monday in The Astrophysical Journal Letters.",
+   "so_what": "The observation provides a rare glimpse into the final moments of a massive star, showing that internal shells can mix just hours before a supernova. This insight refines models of stellar evolution and supernova mechanisms, which are essential for understanding how elements are forged and dispersed across the galaxy. By linking specific dust compositions to shell mergers, astronomers can better interpret remnants of other supernovae and improve predictions of element distribution in future star‑forming regions. Future Webb observations of similar remnants will test whether such rapid shell mixing is common or unique to Cassiopeia A.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure scientific reporting",
+   "claims": [
+    {
+     "claim": "Webb data supports a scenario in which the interior of the star underwent a dramatic change, possibly just hours before its demise.",
+     "source": 1,
+     "quote": "The Webb data supports a scenario in which the interior of the star underwent a dramatic change, possibly just hours before its demise.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The study was published Monday in The Astrophysical Journal Letters.",
+     "source": 1,
+     "quote": "These results published Monday in The Astrophysical Journal Letters.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Lead author Tea Temim said material within shells can merge shortly before the supernova explosion.",
+     "source": 1,
+     "quote": "“Material within these shells churns and circulates, which can cause the shells to merge shortly before the supernova explosion,” said Tea Temim, lead author of the study",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+     "published": "Mon, 23 Nov 2026 15:00:00 +0000",
+     "published_iso": "2026-11-23T15:00:00+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-webb-evidence-star-layers-merged.html",
+     "published": "Mon, 23 Nov 2026 17:20:01 EST",
+     "published_iso": "2026-11-23T22:20:01+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+    "https://phys.org/news/2026-11-webb-evidence-star-layers-merged.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.spitzer.caltech.edu/image/ssc2005-14c-cassiopeia-a-death-becomes-her",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.spitzer.caltech.edu/image/ssc2005-14c-cassiopeia-a-death-becomes-her"
+    },
+    {
+     "url": "http://www.nasa.gov/home/index.html",
+     "type": "linked official page",
+     "verified": false,
+     "label": "http://www.nasa.gov/home/index.html"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 83,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-24-nasa-awards-290-6-million-contract-to-northrop-grumman-for-n-a9aed",
+   "date": "2026-11-24",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA awards $290.6 million contract to Northrop Grumman for NOAA satellite microwave sounders",
+   "in_brief": "NASA, on behalf of NOAA, awarded a $290.6 million contract to Northrop Grumman to build SMBA microwave sounders for the NEON satellite program. The instruments are intended to enhance medium‑range weather forecasts by measuring atmospheric temperature and moisture.",
+   "so_what": "The contract secures development, production, testing and mission support for three next‑generation microwave sounders that will fly on NOAA’s Near Earth Orbit Network (NEON) satellites. By improving measurements of atmospheric temperature and moisture, the SMBA instruments aim to boost the accuracy of medium‑range forecasts used by the National Weather Service, potentially benefiting agriculture, emergency management and daily planning across the United States. The agreement, managed by NASA’s Goddard Space Flight Center, runs from November 23, 2026 through April 1, 2042, reflecting a long‑term investment in climate and weather observation infrastructure. Stakeholders will watch the design and testing phases for schedule adherence and any early data performance indicators once the satellites are launched.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual contract announcement",
+   "claims": [
+    {
+     "claim": "NASA awarded a contract to Northrop Grumman for SMBA instruments on NOAA’s NEON satellites",
+     "source": 1,
+     "quote": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s Near Earth Orbit Network (NEON) satellites.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The contract is valued at $290.6 million",
+     "source": 1,
+     "quote": "The cost-plus-fixed-fee, firm-fixed-price, and time-and-materials hybrid contract has a value of $290.6 million.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Performance period runs from Nov. 23 through April 1, 2042",
+     "source": 1,
+     "quote": "The period of performance runs from Nov. 23 through April 1, 2042.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "SMBA instruments could improve medium‑range forecasts for NOAA’s National Weather Service",
+     "source": 1,
+     "quote": "The SMBA instruments could improve the medium-range forecasts for NOAA’s National Weather Service.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
+     "published": "Mon, 23 Nov 2026 21:10:03 +0000",
+     "published_iso": "2026-11-23T21:10:03+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nesdis.noaa.gov/our-satellites/future-programs/near-earth-orbit-network-neon",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nesdis.noaa.gov/our-satellites/future-programs/near-earth-orbit-network-neon"
+    },
+    {
+     "url": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-24-nvidia-board-reinstates-jensen-huang-as-ceo-26e7e",
+   "date": "2026-11-24",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Nvidia Board Reinstates Jensen Huang as CEO",
+   "in_brief": "Nvidia's board voted unanimously to reinstate Jensen Huang as chief executive effective immediately, following pressure from U.S. President Donald Trump. The announcement sent the company's shares up more than 30%.",
+   "so_what": "Jensen Huang returns to lead Nvidia following his resignation earlier in November amid controversy involving an alleged Chinese intelligence asset and export-control concerns. President Donald Trump praised the board's decision, stating he made it happen, while the board noted that senior government officials assured them Huang posed no national security risk. The over 30% jump in Nvidia's share price reflects a rebound from a week of poor performance following the initial scandal.",
+   "what_to_do": "",
+   "hype_flag": "medium",
+   "hype_reason": "relies on Trump’s self‑interest",
+   "claims": [
+    {
+     "claim": "Nvidia's board members unanimously voted to reinstate Jensen Huang as CEO effective immediately",
+     "source": 1,
+     "quote": "Nvidia's board members have announced that they unanimously voted to reinstate Jensen Huang as the company's boss \"effective immediately\"",
+     "status": "verified",
+     "corroborated_by": [
+      "foreignpolicy.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "President Donald Trump said he made the decision happen",
+     "source": 1,
+     "quote": "US President Donald Trump praised the decision, telling CNBC he made it happen",
+     "status": "verified",
+     "corroborated_by": [
+      "foreignpolicy.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Nvidia's share price rose more than 30% after the reinstatement",
+     "source": 1,
+     "quote": "Nvidia's share price shot up by more than 30% after a week of poor performance in the wake of the initial scandal",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The board said senior government officials promised Huang posed no national security risk",
+     "source": 2,
+     "quote": "Now, under pressure from U.S. President Donald Trump, Nvidia’s board has reinstated Jensen Huang, saying that senior government officials promised that he posed “no national security risk.”",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 23 Nov 2026 18:43:00 GMT",
+     "published_iso": "2026-11-23T18:43:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Hacker News",
+     "owner": "foreignpolicy.com",
+     "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+     "published": "Mon, 23 Nov 2026 23:11:38 +0000",
+     "published_iso": "2026-11-23T23:11:38+00:00",
+     "kind": "community",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&at_campaign=rss",
+    "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/"
+   ],
+   "primary": [
+    {
+     "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB365/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB365/"
+    },
+    {
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/"
+    }
+   ],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: BBC, foreignpolicy.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      5,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Draft states as fact that Huang resigned over an affair with a Chinese intelligence asset and potential export-control violations, whereas sources report these as allegations or context rather than proven facts for the resignation itself.",
+     "editor: Draft includes opinionated commentary and hype language ('biggest national security scandal in U.S. history', 'marks a rapid reversal')."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-18-nvidia-ceo-jensen-huang-resigns-open-source-ai-plan-affirmed-497cd",
+    "date": "2026-11-18",
+    "label": "Well-sourced",
+    "score": 70
+   }
+  },
+  {
+   "id": "2026-11-24-capita-shares-tumble-70-after-chief-quits-over-civil-service-4b306",
+   "date": "2026-11-24",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Capita shares tumble 70% after chief quits over civil service pension issues",
+   "in_brief": "Capita's share price fell about 70% following the resignation of CEO Adolfo Hernandez amid ongoing problems with the UK Civil Service pension scheme. The company plans a £190 million equity raise to stabilise its finances.",
+   "so_what": "The sharp decline reflects investor concern over Capita's handling of a pension contract that serves 1.7 million public‑sector workers, where delayed payments have caused hardship. The resignation of the chief executive and the appointment of CFO Pablo Andres signal a leadership overhaul, while a planned £190 million equity raise aims to shore up the firm’s balance sheet after cutting its profit forecast. The situation also draws scrutiny from the Public Accounts Committee, which has highlighted severe impacts on scheme members. Future developments will hinge on how quickly Capita can resolve the pension backlog, secure the new funding, and restore confidence among shareholders and the government.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "Capita shares fell about 70% after its chief executive stepped down.",
+     "source": 1,
+     "quote": "Shares in outsourcing business Capita have sunk 70% after its boss stepped down as the saga over public sector pensions drags on.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Adolfo Hernandez resigned with immediate effect, acknowledging the company had not delivered for pension members.",
+     "source": 1,
+     "quote": "Chief executive Adolfo Hernandez has agreed with the firm's board to leave with \"immediate effect\", admitting that the company had \"not delivered\" for members of the UK's Civil Service pension scheme.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Capita plans to raise £190 million in equity in the first half of next year.",
+     "source": 1,
+     "quote": "Capita said it was planning an equity raise of £190m in the first half of next year, in order for the company to \"move forward from a more stable foundation\".",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 23 Nov 2026 11:24:37 GMT",
+     "published_iso": "2026-11-23T11:24:37+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/public-sector/2026/11/23/capita-ceo-leaves-following-pensions-contract-disaster/5311585",
+     "published": "Mon, 23 Nov 2026 11:11:25 +0000",
+     "published_iso": "2026-11-23T11:11:25+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
+    "https://www.theregister.com/public-sector/2026/11/23/capita-ceo-leaves-following-pensions-contract-disaster/5311585"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: BBC, Situation Publishing"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-24-human-security-disrupts-badbox-3-0-ad-fraud-botnet-498ff",
+   "date": "2026-11-24",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "Human Security disrupts BadBox 3.0 ad‑fraud botnet",
+   "in_brief": "Human Security says it has disrupted BadBox 3.0, a botnet that used low‑cost Android TV boxes to generate about 40 billion ad bid requests per day. The operation also rented owners’ home internet to residential proxy networks, inflating ad spend and masking malicious traffic.",
+   "so_what": "The BadBox 3.0 botnet represented a significant portion of connected‑TV (CTV) traffic, accounting for roughly 4 % of all CTV bid requests observed by Human Security. By rendering video ads in hidden windows on infected devices, the fraud scheme caused advertisers to pay for impressions that never reached real viewers, while the same devices were enlisted in residential proxy networks that can be used to disguise other attacks. Disruption of the command‑and‑control domains by Google and the exposure of a publicly hosted catalog of fraud modules highlight the scale and sophistication of the operation. Stakeholders should monitor for similar backdoor‑based ad‑fraud activity on inexpensive Android hardware and consider tightening supply‑chain vetting, network monitoring, and ad‑verification controls to mitigate future abuse.",
+   "what_to_do": "1. Check your TV or set‑top box for unexpected firmware updates or unknown apps and reinstall the device’s official software if possible.\n2. Monitor your home internet traffic for unusual outbound connections, especially to unknown proxy services.\n3. Report suspicious devices to your ISP or a security firm and consider using a reputable ad‑verification service for CTV campaigns.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "BadBox 3.0 generated roughly 40 billion bid requests a day, about 4 % of all CTV traffic observed by Human Security",
+     "source": 1,
+     "quote": "At its height, BadBox 3.0 accounted for roughly 40 billion bid requests a day and more than 4% of all CTV traffic observed by the Human Defense Platform",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The botnet consists of low‑cost, uncertified Android devices infected with backdoors that render hidden video ads",
+     "source": 1,
+     "quote": "The botnet consists of low-cost, uncertified Android Open Source Project devices infected with backdoors delivering fraud modules designed to render hidden video ads",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Infected boxes rent out owners’ home internet to residential proxy networks",
+     "source": 2,
+     "quote": "The same boxes also rent out the owner’s home internet connection to residential proxy networks, which threat actors use to make attacks look like household traffic",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+     "published": "Mon, 23 Nov 2026 11:44:18 +0000",
+     "published_iso": "2026-11-23T11:44:18+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/",
+     "published": "Mon, 23 Nov 2026 08:06:18 +0000",
+     "published_iso": "2026-11-23T08:06:18+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+    "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 55,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: helpnetsecurity.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 418,
+  "stories_considered": 14,
+  "published": 11,
+  "outlets": 35
+ }
+}

@@ -460,5 +460,16 @@
   "from_score": 74,
   "to_score": 86,
   "note": "Rating changed from Well-sourced (74) to Confirmed (86) as new evidence came in."
+ },
+ {
+  "date": "2026-11-24",
+  "story_id": "2026-11-24-nvidia-board-reinstates-jensen-huang-as-ceo-26e7e",
+  "prior_id": "2026-11-18-nvidia-ceo-jensen-huang-resigns-open-source-ai-plan-affirmed-497cd",
+  "headline": "Nvidia Board Reinstates Jensen Huang as CEO",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 70,
+  "to_score": 52,
+  "note": "Rating changed from Well-sourced (70) to Developing (52) as new evidence came in."
  }
 ]
