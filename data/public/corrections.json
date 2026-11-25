@@ -471,5 +471,27 @@
   "from_score": 70,
   "to_score": 52,
   "note": "Rating changed from Well-sourced (70) to Developing (52) as new evidence came in."
+ },
+ {
+  "date": "2026-11-25",
+  "story_id": "2026-11-25-broadcom-releases-patches-for-23-vmware-vulnerabilities-incl-3f837",
+  "prior_id": "2026-11-21-broadcom-patches-critical-vmware-vcenter-zero-day-after-mont-b2c90",
+  "headline": "Broadcom releases patches for 23 VMware vulnerabilities including critical vCenter auth bypass",
+  "from": "Confirmed",
+  "to": "Well-sourced",
+  "from_score": 94,
+  "to_score": 65,
+  "note": "Rating changed from Confirmed (94) to Well-sourced (65) as new evidence came in."
+ },
+ {
+  "date": "2026-11-25",
+  "story_id": "2026-11-25-meta-launches-uk-ai-agent-muse-as-it-expands-shopping-and-ad-c275b",
+  "prior_id": "2026-11-24-meta-rolls-out-ai-agent-muse-in-the-uk-and-integrates-featur-101a2",
+  "headline": "Meta launches UK AI agent Muse as it expands shopping and ad capabilities",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 65,
+  "to_score": 52,
+  "note": "Rating changed from Well-sourced (65) to Developing (52) as new evidence came in."
  }
 ]

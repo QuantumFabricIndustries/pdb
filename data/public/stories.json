@@ -8151,5 +8151,149 @@
    "https://www.coindesk.com/policy/2026/11/24/south-korea-proposes-ending-2017-ico-ban-to-boost-jobs-and-onshore-crypto-investment",
    "https://decrypt.co/383905/south-korea-moves-lift-ico-ban-after-nearly-decade"
   ]
+ },
+ {
+  "id": "2026-11-25-fincen-takes-some-systems-offline-after-unauthorized-access-0dd16",
+  "date": "2026-11-25",
+  "section": "threat",
+  "headline": "FinCEN Takes Some Systems Offline After Unauthorized Access",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+   "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+   "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+   "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+  ]
+ },
+ {
+  "id": "2026-11-25-broadcom-releases-patches-for-23-vmware-vulnerabilities-incl-3f837",
+  "date": "2026-11-25",
+  "section": "threat",
+  "headline": "Broadcom releases patches for 23 VMware vulnerabilities including critical vCenter auth bypass",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+   "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+   "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+   "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+  ]
+ },
+ {
+  "id": "2026-11-25-microsoft-resolves-blank-dialog-bug-affecting-office-apps-in-800f1",
+  "date": "2026-11-25",
+  "section": "threat",
+  "headline": "Microsoft resolves blank dialog bug affecting Office apps in Microsoft 365",
+  "label": "Developing",
+  "score": 48,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+   "https://www.theregister.com/software/2026/11/25/microsoft-fixes-office-dialog-that-had-nothing-to-say-and-wouldnt-go-away/5312057"
+  ]
+ },
+ {
+  "id": "2026-11-25-fcc-authorizes-spacex-to-launch-up-to-1-million-ai-data-cent-4086a",
+  "date": "2026-11-25",
+  "section": "ai",
+  "headline": "FCC authorizes SpaceX to launch up to 1 million AI data‑center satellites",
+  "label": "Well-sourced",
+  "score": 65,
+  "also_covered_urls": [
+   "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+   "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+   "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+   "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space"
+  ]
+ },
+ {
+  "id": "2026-11-25-meta-launches-uk-ai-agent-muse-as-it-expands-shopping-and-ad-c275b",
+  "date": "2026-11-25",
+  "section": "ai",
+  "headline": "Meta launches UK AI agent Muse as it expands shopping and ad capabilities",
+  "label": "Developing",
+  "score": 52,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+   "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+   "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+  ]
+ },
+ {
+  "id": "2026-11-25-us-announces-plans-to-add-singapore-ai-firm-megaspeed-to-exp-58a75",
+  "date": "2026-11-25",
+  "section": "ai",
+  "headline": "US announces plans to add Singapore AI firm Megaspeed to export blacklist amid Nvidia controversy",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+   "https://www.theregister.com/systems/2026/11/24/us-blacklists-megaspeed-hours-after-jensen-huang-returns-to-nvidia/5311901",
+   "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+  ]
+ },
+ {
+  "id": "2026-11-25-mathematician-announces-ai-assisted-proof-of-riemann-hypothe-34dc8",
+  "date": "2026-11-25",
+  "section": "science",
+  "headline": "Mathematician Announces AI-Assisted Proof of Riemann Hypothesis",
+  "label": "Well-sourced",
+  "score": 74,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/d41586-026-03854-x",
+   "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
+  ]
+ },
+ {
+  "id": "2026-11-25-hubble-images-milky-way-bulge-to-prep-roman-telescope-s-exop-fa7d3",
+  "date": "2026-11-25",
+  "section": "science",
+  "headline": "Hubble images Milky Way bulge to prep Roman telescope’s exoplanet hunt",
+  "label": "Confirmed",
+  "score": 83,
+  "also_covered_urls": [
+   "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+   "https://phys.org/news/2026-11-nasa-hubble-views-ocean-stars.html"
+  ]
+ },
+ {
+  "id": "2026-11-25-trump-claims-role-in-jensen-huang-s-reinstatement-at-nvidia-f55fa",
+  "date": "2026-11-25",
+  "section": "money",
+  "headline": "Trump claims role in Jensen Huang's reinstatement at Nvidia",
+  "label": "Well-sourced",
+  "score": 62,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+   "https://decrypt.co/383853/trump-says-he-made-the-deal-to-reinstate-jensen-huang-sparking-bipartisan-backlash"
+  ]
+ },
+ {
+  "id": "2026-11-25-french-senate-rejects-crypto-wallet-declaration-and-tax-amen-44465",
+  "date": "2026-11-25",
+  "section": "money",
+  "headline": "French Senate Rejects Crypto Wallet Declaration and Tax Amendments",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk",
+   "https://decrypt.co/383944/french-senate-rejects-plan-to-make-crypto-holders-declare-self-custody-wallets"
+  ]
+ },
+ {
+  "id": "2026-11-25-1password-breach-exposes-user-names-and-emails-but-not-vault-323a8",
+  "date": "2026-11-25",
+  "section": "scam",
+  "headline": "1Password breach exposes user names and emails but not vault contents",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+   "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+   "https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
+   "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/"
+  ]
  }
 ]

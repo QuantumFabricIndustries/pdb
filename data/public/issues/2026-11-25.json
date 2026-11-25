@@ -1,0 +1,1541 @@
+{
+ "date": "2026-11-25",
+ "built_at": "2026-11-25T22:40:35.091292+00:00",
+ "stories": [
+  {
+   "id": "2026-11-25-fincen-takes-some-systems-offline-after-unauthorized-access-0dd16",
+   "date": "2026-11-25",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "FinCEN Takes Some Systems Offline After Unauthorized Access",
+   "in_brief": "FinCEN disclosed an intrusion that led to unauthorized access to a limited subset of its systems and temporarily took those systems offline. The agency extended filing deadlines to mitigate the impact on financial institutions.",
+   "so_what": "FinCEN’s role in collecting and analyzing Bank Secrecy Act filings makes any disruption significant for anti‑money‑laundering efforts. By disconnecting affected systems and extending deadlines, the agency aims to preserve data integrity while allowing filers to meet compliance obligations. The lack of details about the breach—such as when access began, what data was viewed, or who is responsible—leaves uncertainty for both regulators and the institutions that rely on timely reporting. Stakeholders should monitor FinCEN communications for updates on system restoration and any potential guidance on data security. The incident follows previous Treasury breaches, highlighting ongoing cyber risks to U.S. financial oversight infrastructure.",
+   "what_to_do": "1. Verify that your organization’s BSA filing processes are operational and adjust schedules to meet the new December 30 deadline. 2. Use the Financial Institutions Hotline (1‑866‑556‑3974) for urgent suspicious activity reports, as this channel remains unaffected. 3. Review internal security controls and ensure any automated batch submission tools are patched and monitored for anomalies.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "FinCEN experienced unauthorized access to a limited subset of its systems and took some systems offline as a precaution.",
+     "source": 1,
+     "quote": "FinCEN is investigating a cybersecurity incident that resulted in unauthorized access to a limited subset of its systems. As a proactive measure, FinCEN has taken some systems offline,",
+     "status": "verified",
+     "corroborated_by": [
+      "Situation Publishing",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "FinCEN extended filing deadlines for reports originally due between November 18 and December 29 to December 30.",
+     "source": 3,
+     "quote": "covered reports originally due between November 18 and December 29 can now be submitted until December 30.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The agency has not disclosed who was behind the attack or whether any data was accessed or stolen.",
+     "source": 1,
+     "quote": "It is unclear who was behind the attack and if any data was accessed or stolen.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+     "published": "Wed, 25 Nov 2026 13:39:21 +0000",
+     "published_iso": "2026-11-25T13:39:21+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+     "published": "Wed, 25 Nov 2026 17:40:16 +0100",
+     "published_iso": "2026-11-25T16:40:16+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+     "published": "Wed, 25 Nov 2026 18:00:08 +0530",
+     "published_iso": "2026-11-25T12:30:08+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+    "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+    "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+    "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+   ],
+   "primary": [
+    {
+     "url": "https://bsaefiling.fincen.gov/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://bsaefiling.fincen.gov/"
+    },
+    {
+     "url": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf"
+    }
+   ],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-25-broadcom-releases-patches-for-23-vmware-vulnerabilities-incl-3f837",
+   "date": "2026-11-25",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Broadcom releases patches for 23 VMware vulnerabilities including critical vCenter auth bypass",
+   "in_brief": "Broadcom announced patches for 23 flaws across VMware products, notably a critical CVE‑2026‑123903 authentication bypass in vCenter. The updates affect vCenter 8.0 U3m, 9.1.x, ESX hosts and related components.",
+   "so_what": "The disclosed vulnerabilities span authentication bypass, code execution, and denial‑of‑service issues, with several rated 9.8 on the CVSS scale, indicating a high potential for compromise. Attackers with network access to vCenter could bypass authentication and gain control of management infrastructure, while flaws in ESX could allow code execution on host systems. Although Broadcom does not confirm active exploitation, the severity and breadth of the bugs make prompt remediation essential for organizations relying on VMware's virtualization stack. Administrators should verify that the patched versions—vCenter 8.0 U3m, vCenter 9.1.x (fixed in 9.1.2), ESX updates, and related components—are deployed, and monitor for any future advisories. Continued vigilance will be needed as additional patches may follow.",
+   "what_to_do": "1. Apply the latest patches for vCenter (8.0 U3m or 9.1.2) and ESX hosts as soon as possible. 2. Verify that VMware Tools, Workstation, Fusion, and Avi Load Balancer are updated to the versions listed in Broadcom’s advisory. 3. Review network access controls to vCenter to limit exposure while patches are applied.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward security advisory",
+   "claims": [
+    {
+     "claim": "Broadcom released patches for 23 vulnerabilities across multiple VMware products, including a critical authentication bypass in vCenter (CVE‑2026‑123903).",
+     "source": 1,
+     "quote": "Broadcom on Tuesday announced the release of patches for 23 vulnerabilities across multiple VMware products, including critical-severity flaws in ESX and vCenter.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The vCenter authentication bypass flaw (CVE‑2026‑123903) is rated 9.8 on the CVSS scale.",
+     "source": 3,
+     "quote": "The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The patches fix vCenter 8.0 U3m and vCenter 9.1.x deployments, among others.",
+     "source": 1,
+     "quote": "vCenter version 8.0 U3m contained the fixes... vCenter 9.1.x deployments, however, as well as ESX, VMware Tools, Workstation, Fusion, and Avi Load Balancer instances, need to be updated.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+     "published": "Tue, 24 Nov 2026 16:32:56 +0000",
+     "published_iso": "2026-11-24T16:32:56+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+     "published": "Wed, 25 Nov 2026 06:15:08 +0100",
+     "published_iso": "2026-11-25T05:15:08+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+     "published": "Tue, 24 Nov 2026 18:58:26 +0530",
+     "published_iso": "2026-11-24T13:28:26+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+    "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+    "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+    "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Situation Publishing, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-21-broadcom-patches-critical-vmware-vcenter-zero-day-after-mont-b2c90",
+    "date": "2026-11-21",
+    "label": "Confirmed",
+    "score": 94
+   }
+  },
+  {
+   "id": "2026-11-25-microsoft-resolves-blank-dialog-bug-affecting-office-apps-in-800f1",
+   "date": "2026-11-25",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Microsoft resolves blank dialog bug affecting Office apps in Microsoft 365",
+   "in_brief": "A blank dialog box that blocked access to Outlook, Word, Excel, PowerPoint, OneNote and Access was fixed by Microsoft. The fix is delivered in Microsoft 365 Apps Version 2611 (Build 16.0.20625.20142).",
+   "so_what": "The issue prevented users from opening core Office applications, displaying an empty window that could not be dismissed and halting productivity for affected Microsoft 365 customers. Microsoft confirmed the problem and released a targeted update, continuing a series of fixes that have addressed multiple Office‑related bugs throughout 2026. Organizations should verify that their deployments have applied the latest version to avoid disruption, especially since the bug could affect users who cannot update automatically. The command‑line update method provides a fallback for environments with strict update policies. Monitoring Microsoft’s support channels for any further regressions is advisable as the company continues to roll out security and functionality updates for its cloud‑based suite.",
+   "what_to_do": "1. Ensure Office updates are applied to version 2611 (Build 16.0.20625.20142) through the standard update mechanism. 2. If automatic updates are blocked, open an elevated command prompt and run the ClickToRun client utility to force the update to version 16.0.20625.20142. 3. Restart Office applications to confirm the blank dialog is gone.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual fix report",
+   "claims": [
+    {
+     "claim": "Microsoft fixed a blank dialog box that prevented customers from opening Outlook, Word, Excel, PowerPoint, OneNote, and Access apps.",
+     "source": 1,
+     "quote": "The company confirmed in a support document updated Monday that a blank dialog box prevented customers from opening Microsoft 365 Outlook, Word, Excel, PowerPoint, OneNote, and Access apps.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The fix is included in Microsoft 365 Apps Version 2611 (Build 16.0.20625.20142).",
+     "source": 1,
+     "quote": "Microsoft says the issue is now fixed in Microsoft 365 Apps Version 2611 (Build 16.0.20625.20142), released last week.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Customers can apply the update via a command‑line procedure using officec2rclient.exe.",
+     "source": 1,
+     "quote": "Microsoft says that customers who can't update because of this bug can also upgrade to the latest version from the command line by ... Run the following command \"%programfiles%\\Common Files\\Microsoft Shared\\ClickToRun\\officec2rclient.exe\" /update user updatetoversion=16.0.20625.20142.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+     "published": "Wed, 25 Nov 2026 06:16:32 -0500",
+     "published_iso": "2026-11-25T11:16:32+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/software/2026/11/25/microsoft-fixes-office-dialog-that-had-nothing-to-say-and-wouldnt-go-away/5312057",
+     "published": "Wed, 25 Nov 2026 14:45:00 +0000",
+     "published_iso": "2026-11-25T14:45:00+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+    "https://www.theregister.com/software/2026/11/25/microsoft-fixes-office-dialog-that-had-nothing-to-say-and-wouldnt-go-away/5312057"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 48,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Situation Publishing, bleepingcomputer.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote what_to_do",
+     "editor: copied long word-for-word run from source in what_to_do"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-25-fcc-authorizes-spacex-to-launch-up-to-1-million-ai-data-cent-4086a",
+   "date": "2026-11-25",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "FCC authorizes SpaceX to launch up to 1 million AI data‑center satellites",
+   "in_brief": "The Federal Communications Commission granted SpaceX conditional approval to deploy a constellation of up to 1 million orbital data‑center satellites, known as Starmind. The decision sets deployment deadlines through 2040 and leaves key debris‑disposal rules unresolved.",
+   "so_what": "The approval marks the first U.S. regulatory green light for a satellite network built specifically to run artificial‑intelligence workloads in space, potentially reshaping how compute power is sourced and delivered. SpaceX must launch its first operational satellite within seven years and complete the full million‑satellite network by November 2040, while still needing to address how retired satellites above 600 km will be disposed of. Competitors such as Google and Blue Origin are pursuing similar orbital‑computing projects, indicating a nascent industry that could intensify concerns about orbital debris, radio‑frequency interference, and impacts on astronomy. Watch for further FCC rulings on debris mitigation, industry responses, and any technical milestones SpaceX announces as it moves toward operational satellites.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "The FCC authorized SpaceX to deploy up to 1 million satellites for its Starmind data‑center constellation.",
+     "source": 1,
+     "quote": "The FCC has authorized SpaceX to deploy 1 million satellites.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Vox Media",
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "SpaceX must have 100,000 operational satellites by November 2035 and the full constellation by November 2040.",
+     "source": 1,
+     "quote": "SpaceX has until November 2035 to deploy 100,000 operational satellites, and November 2040 for the full constellation.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The FCC deferred SpaceX’s request to dispose of satellites above 600 km in graveyard orbits, citing insufficient information.",
+     "source": 2,
+     "quote": "The FCC also deferred SpaceX’s request to dispose of satellites located above 600km in space “graveyard” orbits, rather than having them burn up in the Earth’s atmosphere, saying the company hasn’t provided “sufficient information” about its disposal process plans.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+     "published": "Wed, 25 Nov 2026 18:22:38 +0000",
+     "published_iso": "2026-11-25T18:22:38+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+     "published": "2026-11-25T12:44:51-05:00",
+     "published_iso": "2026-11-25T17:44:51+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+     "published": "Wed, 25 Nov 2026 19:52:47 GMT",
+     "published_iso": "2026-11-25T19:52:47+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+     "published": "Wed, 25 Nov 2026 20:56:44 +0000",
+     "published_iso": "2026-11-25T20:56:44+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space",
+     "published": "Wed, 25 Nov 2026 18:18:10 +0000",
+     "published_iso": "2026-11-25T18:18:10+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+    "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+    "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+    "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+    "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 65,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Condé Nast, Vox Media, Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5
+  },
+  {
+   "id": "2026-11-25-meta-launches-uk-ai-agent-muse-as-it-expands-shopping-and-ad-c275b",
+   "date": "2026-11-25",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Meta launches UK AI agent Muse as it expands shopping and ad capabilities",
+   "in_brief": "Meta's Muse AI agent went live in the UK on November 24, offering users task automation and shopping assistance. The rollout is drawing attention for its potential impact on advertising revenue and upcoming talks with Amazon over marketplace integration.",
+   "so_what": "Muse represents Meta's major push into agentic AI, a sector the company expects to become a primary interface for billions of users, similar to the role WhatsApp plays for messaging. Regulators, including the UK Information Commissioner’s Office, are monitoring its data‑privacy implications. Early data shows that about a quarter of Muse users make purchases through the agent, with average transaction values exceeding $200, providing Meta with a new revenue stream and valuable advertising insights on Instagram. In the week to 22 November, Muse accounted for 51% of all agentic e‑commerce orders, outpacing rivals such as SpaceX’s Grok and OpenAI’s ChatGPT. Ongoing negotiations with Amazon could further extend Muse’s reach by allowing direct purchases from the retailer’s catalog, pending approval from both CEOs.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "The ICO said agentic AI has significant potential to benefit people and businesses",
+     "source": 1,
+     "quote": "\"Agentic AI has significant potential to benefit people and businesses\", the Information Commissioner's Office (ICO) noted as Muse launched in the UK.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "25% of Muse users shop via the agent with an average purchase price over $200",
+     "source": 2,
+     "quote": "Mark Zuckerberg announced ... that 25% of Muse's users shop via the agentic tool — it's the most common use case for Muse — and the average purchase price is over $200.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "In the week ending 22 November, Muse handled 51% of all agentic orders",
+     "source": 2,
+     "quote": "In the week ending Nov. 22, 51% of all agentic orders were done by Meta's Muse, according to transactions measured by Forter Intelligence.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Meta and Amazon are in talks to allow Muse direct access to Amazon's store",
+     "source": 3,
+     "quote": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse... would allow Meta’s popular AI agent to connect directly to Amazon’s store.",
+     "status": "verified",
+     "corroborated_by": [
+      "BBC"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "Muse launched in the UK on 24 November 2026",
+     "source": 1,
+     "quote": "I've just spent a week using Muse, Meta's AI agent that rolls out in the UK today.",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 24"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+     "published": "Tue, 24 Nov 2026 09:33:00 GMT",
+     "published_iso": "2026-11-24T09:33:00+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+     "published": "Tue, 24 Nov 2026 20:37:40 GMT",
+     "published_iso": "2026-11-24T20:37:40+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+     "published": "Wed, 25 Nov 2026 14:10:18 +0000",
+     "published_iso": "2026-11-25T14:10:18+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+    "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 52,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Comcast, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      20,
+      25,
+      "4 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      4,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote in_brief",
+     "editor: Draft included an unsupported year (2026) in the in_brief."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3,
+   "previously": {
+    "id": "2026-11-24-meta-rolls-out-ai-agent-muse-in-the-uk-and-integrates-featur-101a2",
+    "date": "2026-11-24",
+    "label": "Well-sourced",
+    "score": 65
+   }
+  },
+  {
+   "id": "2026-11-25-us-announces-plans-to-add-singapore-ai-firm-megaspeed-to-exp-58a75",
+   "date": "2026-11-25",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "US announces plans to add Singapore AI firm Megaspeed to export blacklist amid Nvidia controversy",
+   "in_brief": "The U.S. Department of Commerce announced plans to place Singapore‑based Megaspeed Ltd on its trade blacklist, citing export‑control concerns. The move follows a 2024 investigation and coincides with Jensen Huang’s return to Nvidia’s leadership following recent controversies.",
+   "so_what": "The planned blacklist would bar Megaspeed and related entities from buying or selling items subject to U.S. export rules, tightening controls on advanced AI chips that have been a focal point of U.S.-China technology tensions since 2022. By targeting a firm linked to alleged Chinese espionage through a former executive, Washington signals heightened scrutiny of supply‑chain vulnerabilities in the AI sector. The action also underscores the broader geopolitical stakes surrounding Nvidia’s hardware. Observers will watch how the restriction affects Megaspeed’s Southeast Asian data‑center operations and how the U.S. and Singapore coordinate enforcement.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "The U.S. Department of Commerce announced it planned to add Megaspeed Ltd to a list of entities that are blacklisted from buying or selling goods in the US.",
+     "source": 1,
+     "quote": "The Department of Commerce announced it planned to add Megaspeed Ltd to a list of entities that are blacklisted from buying or selling goods in the US.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Commerce Department initiated an investigation into Megaspeed in 2024 for potential export control violations.",
+     "source": 3,
+     "quote": "The Commerce Department initiated an investigation into Megaspeed in 2024 for potential export control violations",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The blacklisting comes as Jensen Huang returns to the helm of Nvidia following his departure amid revelations of extramarital affairs.",
+     "source": 3,
+     "quote": "the blacklisting comes as Jensen Huang returns to the helm of Nvidia following his departure amid revelations of extramarital affairs",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+     "published": "Mon, 23 Nov 2026 23:16:08 GMT",
+     "published_iso": "2026-11-23T23:16:08+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/systems/2026/11/24/us-blacklists-megaspeed-hours-after-jensen-huang-returns-to-nvidia/5311901",
+     "published": "Tue, 24 Nov 2026 15:15:00 +0000",
+     "published_iso": "2026-11-24T15:15:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+     "published": "Tue, 24 Nov 2026 02:37:39 GMT",
+     "published_iso": "2026-11-24T02:37:39+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+    "https://www.theregister.com/systems/2026/11/24/us-blacklists-megaspeed-hours-after-jensen-huang-returns-to-nvidia/5311901",
+    "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+   ],
+   "primary": [
+    {
+     "url": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://public-inspection.federalregister.gov/2026-23999.pdf"
+    },
+    {
+     "url": "https://www.justice.gov/opa/media/1472536/dl",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/opa/media/1472536/dl"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: BBC, Comcast, Situation Publishing"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: The draft claims the US *placed* Megaspeed on the blacklist, but sources state the US *announced plans* to add or intends to ban them, and when it goes into effect was not specified.",
+     "editor: The draft states Jensen Huang 'resumes his role amid recent personal-conduct controversies' as if it's the only news, but the source explicitly notes he resigned and was reinstated after Trump intervened."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-25-mathematician-announces-ai-assisted-proof-of-riemann-hypothe-34dc8",
+   "date": "2026-11-25",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Mathematician Announces AI-Assisted Proof of Riemann Hypothesis",
+   "in_brief": "Mathematician Levent Alpöge announced a proof of the Riemann hypothesis generated with the help of Anthropic's Claude AI, though the mathematics community is still digesting the work and assessing its validity.",
+   "so_what": "The Riemann hypothesis is a central unsolved problem in number theory with implications for prime numbers and cryptography. While the announcement has sparked debate over the role of large language models in research, experts emphasize that it is too early to evaluate the proof, especially as questions remain regarding the announcement's tone and potential jests. The work is presented in a formal verification using the Lean programming language and a logical description, and it awaits rigorous peer review.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Levent Alpöge, a mathematician at Anthropic, announced a proof of the Riemann hypothesis that was generated using Claude AI.",
+     "source": 2,
+     "quote": "The proof of the hypothesis was announced by a mathematician named Levent Alpöge, who has been working at Anthropic, and, not surprisingly, used Claude to generate it.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The proof is presented in two forms: a formal verification in the Lean programming language and a logical description of the reasoning.",
+     "source": 2,
+     "quote": "One is a rigorous description of the proof using a programming language named Lean that has allowed the rapid verification that the proof is valid. The second is a description of the logic behind it",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Mathematicians are still reviewing the proof and its implications for the field.",
+     "source": 2,
+     "quote": "It’s too early to say much about the proof itself—mathematicians are still in the process of digesting it.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/d41586-026-03854-x",
+     "published": "2026-11-25",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+     "published": "Tue, 24 Nov 2026 20:34:53 +0000",
+     "published_iso": "2026-11-24T20:34:53+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/d41586-026-03854-x",
+    "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/d41586-026-03854-x",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 74,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, nature.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Attribution missing: The draft states the proof and AI generation as flat fact rather than attributing the claim to Levent Alpöge, and source 2 notes hints that some of it was meant in jest.",
+     "editor: Overstated certainty: The draft treats the proof as a realized breakthrough rather than a recent announcement currently under review and subject to questions about jest."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-20-anthropic-researcher-claims-ai-assisted-proof-of-riemann-hyp-cf572",
+    "date": "2026-11-20",
+    "label": "Well-sourced",
+    "score": 67
+   }
+  },
+  {
+   "id": "2026-11-25-hubble-images-milky-way-bulge-to-prep-roman-telescope-s-exop-fa7d3",
+   "date": "2026-11-25",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Hubble images Milky Way bulge to prep Roman telescope’s exoplanet hunt",
+   "in_brief": "NASA’s Hubble Space Telescope captured detailed images of the Milky Way’s galactic bulge, an area dense with stars. The data will serve as a reference for the upcoming Nancy Grace Roman Space Telescope’s search for exoplanets via microlensing.",
+   "so_what": "The galactic bulge contains a substantial portion of the Milky Way’s stellar mass, making it a prime laboratory for studying star formation, black holes, dark matter and potential planetary systems. By observing the bulge in wavelengths that overlap with the Roman telescope’s sensitivity, Hubble provides a baseline of stellar brightness, positions and motions that can be directly compared when Roman later records microlensing events. This synergy aims to improve the interpretation of those events, helping scientists identify distant exoplanets and refine models of galaxy evolution. Future observations by Roman, scheduled for the next few years, will rely on Hubble’s legacy data to calibrate measurements and confirm planetary detections, advancing our understanding of planetary populations in crowded stellar environments.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral scientific reporting",
+   "claims": [
+    {
+     "claim": "Hubble captured images of the Milky Way’s galactic bulge showing many stars.",
+     "source": 1,
+     "quote": "An expanse of stars gleams in a rainbow of colors in these NASA Hubble Space Telescope images of the Milky Way.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The galactic bulge holds nearly a quarter of the galaxy’s stellar mass.",
+     "source": 1,
+     "quote": "Astronomers study the Milky Way’s galactic bulge because it holds nearly a quarter of the galaxy’s stellar mass.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The observations are intended to support Roman’s future exoplanet microlensing searches.",
+     "source": 1,
+     "quote": "A key component of Roman’s future observations is the search for exoplanets by capturing microlensing events.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Hubble observes in ultraviolet, visible and near‑infrared, while Roman collects near‑infrared and some visible light.",
+     "source": 1,
+     "quote": "Hubble views the universe primarily in ultraviolet, visible, and near-infrared light, while Roman collects data in near-infrared light and some visible light.",
+     "status": "verified",
+     "corroborated_by": [
+      "phys.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+     "published": "Wed, 25 Nov 2026 14:56:54 +0000",
+     "published_iso": "2026-11-25T14:56:54+00:00",
+     "kind": "primary",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-nasa-hubble-views-ocean-stars.html",
+     "published": "Wed, 25 Nov 2026 13:50:01 EST",
+     "published_iso": "2026-11-25T18:50:01+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+    "https://phys.org/news/2026-11-nasa-hubble-views-ocean-stars.html"
+   ],
+   "primary": [
+    {
+     "url": "https://archive.stsci.edu/prepds/wfc3bulge/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://archive.stsci.edu/prepds/wfc3bulge/"
+    },
+    {
+     "url": "https://archive.stsci.edu/proposal_search.php?mission=hst&amp;id=17776",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://archive.stsci.edu/proposal_search.php?mission=hst&amp;id=17776"
+    },
+    {
+     "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 83,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nasa.gov, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "4 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-25-trump-claims-role-in-jensen-huang-s-reinstatement-at-nvidia-f55fa",
+   "date": "2026-11-25",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Trump claims role in Jensen Huang's reinstatement at Nvidia",
+   "in_brief": "President Donald Trump said he convinced Nvidia's board to restore Jensen Huang as CEO, prompting a sharp rise in the company's shares. Lawmakers from both parties have questioned the administration's involvement and assurances given to the board.",
+   "so_what": "Trump's claim of intervening in a major corporate personnel decision has drawn bipartisan scrutiny from lawmakers demanding transparency regarding national-security assurances. Nvidia's stock surged following Huang's return, adding significantly to its market value, while attention turns to upcoming congressional hearings and ongoing scrutiny surrounding the company.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced factual reporting",
+   "claims": [
+    {
+     "claim": "President Trump said he \"made the deal\" with Nvidia’s board to reinstate Jensen Huang",
+     "source": 1,
+     "quote": "Trump said he \"made the deal\" with the tech giant's board to get Huang his job back",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Jensen Huang was reinstated as CEO less than two weeks after resigning on 12 November",
+     "source": 1,
+     "quote": "Harvey Jones, chairman of Nvidia's board, said Huang's reinstatement after originally resigning on 12 November was in the \"best interests of our stockholders, employees, partners and customers\"",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Nvidia’s share price jumped 31%, adding almost $1 trillion to its market value after Huang’s return",
+     "source": 1,
+     "quote": "But his comeback added almost $1 trillion to Nvidia's market value as its share price jumped 31%",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Business",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+     "published": "Tue, 24 Nov 2026 10:53:37 GMT",
+     "published_iso": "2026-11-24T10:53:37+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383853/trump-says-he-made-the-deal-to-reinstate-jensen-huang-sparking-bipartisan-backlash",
+     "published": "Tue, 24 Nov 2026 11:35:13 +0000",
+     "published_iso": "2026-11-24T11:35:13+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+    "https://decrypt.co/383853/trump-says-he-made-the-deal-to-reinstate-jensen-huang-sparking-bipartisan-backlash"
+   ],
+   "primary": [
+    {
+     "url": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-jensen-huang-reinstatement-as-nvidia-ceo",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-jensen-huang-reinstatement-as-nvidia-ceo"
+    },
+    {
+     "url": "https://jeffries.house.gov/2026/11/23/speaker-designate-jeffries-statement-on-the-reinstatement-of-jensen-huang-as-ceo-of-nvidia/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://jeffries.house.gov/2026/11/23/speaker-designate-jeffries-statement-on-the-reinstatement-of-jensen-huang-as-ceo-of-nvidia/"
+    }
+   ],
+   "truth": {
+    "total": 62,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: BBC, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: The draft in_brief and so_what sections mention specific lawmakers (Cotton, Cornyn, Warren) and detailed background regarding Alice Huang and upcoming hearings that are not fully captured in the verified claims list, though present in sources. However, the draft prose is largely supported by the sources. Fixing minor attribution and ensuring strict alignment with sources."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2,
+   "previously": {
+    "id": "2026-11-24-nvidia-board-reinstates-jensen-huang-as-ceo-after-11-day-abs-ac4dd",
+    "date": "2026-11-24",
+    "label": "Well-sourced",
+    "score": 69
+   }
+  },
+  {
+   "id": "2026-11-25-french-senate-rejects-crypto-wallet-declaration-and-tax-amen-44465",
+   "date": "2026-11-25",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "French Senate Rejects Crypto Wallet Declaration and Tax Amendments",
+   "in_brief": "The Senate voted down proposals that would have required holders of self‑custodied crypto above €100,000 to declare their wallets and would have taxed crypto‑stablecoin swaps and extended the exit tax to large crypto holdings. The decision keeps France’s reporting rules unchanged, citing existing EU DAC8 requirements.",
+   "so_what": "The rejection means French taxpayers will continue to report only crypto held on platforms, not assets stored in personal wallets, preserving the status quo for crypto owners and the industry. Lawmakers argued that the EU’s DAC8 directive already provides sufficient transparency and that a simple declaration would not aid anti‑money‑laundering efforts. Critics had warned that a registry of large holders could become a target for criminal \"wrench\" attacks. The Senate’s move also signals resistance to expanding the tax base on crypto activities, despite earlier approval of similar measures by the National Assembly’s finance committee. Future monitoring will focus on whether the government pursues alternative reporting mechanisms or revisits the proposals in a later legislative session.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The Senate rejected amendments that would have required taxpayers to declare self‑custodied crypto wallets worth more than €100,000.",
+     "source": 1,
+     "quote": "France's Senate rejected amendments that would have required taxpayers to declare self-custodied crypto worth more than €100,000 ($110,000) during its 2027 budget debate.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Senators also rejected an amendment to tax swaps from crypto into stablecoins.",
+     "source": 1,
+     "quote": "On Tuesday, senators also rejected an amendment that would have made swaps from crypto into stablecoins a taxable event.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A proposal to extend France's exit tax to crypto holdings over €800,000 was defeated.",
+     "source": 1,
+     "quote": "A proposal to extend France's exit tax to crypto holdings worth more than €800,000 ($877,000) was also defeated.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Public accounts minister David Amiel said the EU DAC8 directive already provides transparency and a simple declaration would not help track money laundering.",
+     "source": 1,
+     "quote": "Minister for Public Action and Accounts David Amiel said the EU's DAC8 directive, which requires crypto service providers to report users' transactions to tax authorities, had already brought transparency.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383944/french-senate-rejects-plan-to-make-crypto-holders-declare-self-custody-wallets",
+     "published": "Wed, 25 Nov 2026 13:15:24 +0000",
+     "published_iso": "2026-11-25T13:15:24+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk",
+     "published": "Wed, 25 Nov 2026 18:24:47 +0000",
+     "published_iso": "2026-11-25T18:24:47+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk",
+    "https://decrypt.co/383944/french-senate-rejects-plan-to-make-crypto-holders-declare-self-custody-wallets"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-25-1password-breach-exposes-user-names-and-emails-but-not-vault-323a8",
+   "date": "2026-11-25",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "1Password breach exposes user names and emails but not vault contents",
+   "in_brief": "A hacker accessed 1Password's backend by compromising an employee's GitHub account and stole customer names, email addresses and metadata. The breach did not expose vault data, prompting warnings about phishing attempts.",
+   "so_what": "The incident shows that even well‑protected password managers can be vulnerable through supply‑chain attacks on developer accounts. While the encrypted vaults and Secret Keys remain safe, the leaked identifiers give threat actors a list of targets for credential‑phishing campaigns that could trick users into revealing passwords or recovery codes. Users should remain vigilant for unsolicited 1Password emails, especially those referencing invitations or account recovery, and verify any such communications through the official app or website. The breach also underscores the importance of multi‑factor authentication and robust monitoring of privileged accounts to limit the impact of similar attacks in the future.",
+   "what_to_do": "1. Treat any unexpected 1Password email, especially those about invitations or recovery, as suspicious and verify it in the app before responding. 2. Do not click links or provide passwords, Secret Keys, or verification codes to unsolicited messages. 3. Enable two‑factor authentication on your 1Password account and monitor your email for phishing attempts.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "The breach originated from a compromised employee GitHub account used to inject malicious code into backend services.",
+     "source": 1,
+     "quote": "1Password has disclosed a data breach after an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Stolen data included customer names, email addresses, account IDs and other non‑secret metadata.",
+     "source": 2,
+     "quote": "Along with customer names and emails, the leaked data included public keys, as well as account and user identifiers.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "bleepingcomputer.com",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Customer vaults and encryption keys were not compromised in the attack.",
+     "source": 4,
+     "quote": "Your vaults, the items in them, and the keys that protect them were not affected, according to the company.",
+     "status": "verified",
+     "corroborated_by": [
+      "Vox Media",
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+     "published": "Wed, 25 Nov 2026 16:33:33 -0500",
+     "published_iso": "2026-11-25T21:33:33+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+     "published": "2026-11-25T14:10:15-05:00",
+     "published_iso": "2026-11-25T19:10:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+     "published": "Wed, 25 Nov 2026 14:20:28 +0000",
+     "published_iso": "2026-11-25T14:20:28+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
+     "published": "Wed, 25 Nov 2026 21:16:02 +0000",
+     "published_iso": "2026-11-25T21:16:02+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+    "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+    "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+    "https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
+    "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Vox Media, Yahoo, bleepingcomputer.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 538,
+  "stories_considered": 17,
+  "published": 11,
+  "outlets": 36
+ }
+}
