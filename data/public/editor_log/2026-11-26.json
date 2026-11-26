@@ -1,0 +1,178 @@
+[
+ {
+  "section": "threat",
+  "title": "FinCEN Disconnects Systems After Cyber Intrusion, Extends Filing Deadlines",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "OpenAI fixes GPT-6.2 usage bug, adds free reset, and rolls out unified Chat-Work limits",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft hallucinated model names like GPT-6.2 Astra and Sol being counted 40% and 25% faster specifically due to a billing bug, mixing up details from Source 1 and Source 2/3. Also, the bug specifically affected GPT-6.2 Astra (40%) and Sol (25%), but the draft conflated details and introduced unverified specifics."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "threat",
+  "title": "Drupal installer flaws exploited; CISA adds vulnerability to KEV catalog",
+  "verdict": "PUBLISH",
+  "truth": 77,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "Early Black Friday tech discounts appear ahead of November sales",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Draft mentions AirPods Pro 3 having heart rate tracking and live translations which are not in the verified claims or explicitly supported as factual in a standard news context without speculation, and the source text mentions them as part of a review. Also need to ensure tone is professional without hype."
+  ],
+  "owners": 3
+ },
+ {
+  "section": "ai",
+  "title": "FCC grants SpaceX conditional approval for up to 1 million orbital data‑center satellites",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 7
+ },
+ {
+  "section": "ai",
+  "title": "U.S. Army detonates degraded lead azide at Iowa ammunition plant, prompting evacuations",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking",
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor: Headline uses 'lead‑azide barrels' but source says barrels containing lead azide. Minor, but needs exact alignment.",
+   "editor: So_what mixes up the Army's plume modeling with the viral USDA map: Source 1 says Army modeling showed airborne lead travel 100 miles southwest and dust deposition covering 200 square miles, whereas Source 2 clarifies that the viral USDA map showing agricultural concentration was separate and did not show the plume spread.",
+   "editor: In_brief mentions Nov 25, which matches source 2 date, but source 1 says 'Wednesday' without specifying date. Source 2 confirms Nov 25, 2026."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Redesigned CRISPR-associated transposase boosts DNA integration efficiency",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "Resolution Island in New Zealand serves as historic sanctuary for native birds",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Spain's Sepblac Gains Authority to Freeze Crypto Accounts Without Court Order",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "NY court orders NovaTech founders to pay $1.37 billion for crypto fraud",
+  "verdict": "PUBLISH",
+  "truth": 58,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "Florida ransomware recovery firm co-founder indicted for alleged wire fraud",
+  "verdict": "HOLD",
+  "truth": 84,
+  "reasons": [
+   "number '3' does not appear in any source"
+  ],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: Ensured all details strictly match the source texts without adding outside figures or assumptions."
+  ],
+  "owners": 4
+ },
+ {
+  "section": "scam",
+  "title": "1Password breach exposes customer data but not vault contents",
+  "verdict": "PUBLISH",
+  "truth": 73,
+  "reasons": [],
+  "edits": [],
+  "owners": 7
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated video of Saudi tower attack debunked as false",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "AI‑generated video of alleged British Army convoy debunked",
+  "verdict": "HOLD",
+  "truth": 33,
+  "reasons": [
+   "truth score 33 below publish bar 35"
+  ],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: AI‑Generated Video of Teacher Claiming Children Should Chant “Allahu Akbar” Is Fake",
+  "verdict": "HOLD",
+  "truth": 15,
+  "reasons": [
+   "only 1 verified claim(s); need 2"
+  ],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 1
+ }
+]

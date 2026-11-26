@@ -8295,5 +8295,160 @@
    "https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
    "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/"
   ]
+ },
+ {
+  "id": "2026-11-26-fincen-disconnects-systems-after-cyber-intrusion-extends-fil-31449",
+  "date": "2026-11-26",
+  "section": "threat",
+  "headline": "FinCEN Disconnects Systems After Cyber Intrusion, Extends Filing Deadlines",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+   "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+   "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+   "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+   "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/"
+  ]
+ },
+ {
+  "id": "2026-11-26-openai-fixes-gpt-6-2-usage-bug-adds-free-reset-and-rolls-out-01ff3",
+  "date": "2026-11-26",
+  "section": "threat",
+  "headline": "OpenAI fixes GPT-6.2 usage bug, adds free reset, and rolls out unified Chat-Work limits",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "https://decrypt.co/383963/openai-changes-chatgpt-drastically-cut-usage-limits"
+  ]
+ },
+ {
+  "id": "2026-11-26-drupal-installer-flaws-exploited-cisa-adds-vulnerability-to-c6760",
+  "date": "2026-11-26",
+  "section": "threat",
+  "headline": "Drupal installer flaws exploited; CISA adds vulnerability to KEV catalog",
+  "label": "Confirmed",
+  "score": 77,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+   "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+   "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+   "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/"
+  ]
+ },
+ {
+  "id": "2026-11-26-early-black-friday-tech-discounts-appear-ahead-of-november-s-2accd",
+  "date": "2026-11-26",
+  "section": "ai",
+  "headline": "Early Black Friday tech discounts appear ahead of November sales",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
+   "https://www.engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals/",
+   "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026"
+  ]
+ },
+ {
+  "id": "2026-11-26-fcc-grants-spacex-conditional-approval-for-up-to-1-million-o-fa67f",
+  "date": "2026-11-26",
+  "section": "ai",
+  "headline": "FCC grants SpaceX conditional approval for up to 1 million orbital data‑center satellites",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+   "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+   "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+   "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+   "https://phys.org/news/2026-11-fcc-spacex-deploy-million-satellites.html",
+   "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+   "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space",
+   "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+  ]
+ },
+ {
+  "id": "2026-11-26-u-s-army-detonates-degraded-lead-azide-at-iowa-ammunition-pl-906c7",
+  "date": "2026-11-26",
+  "section": "ai",
+  "headline": "U.S. Army detonates degraded lead azide at Iowa ammunition plant, prompting evacuations",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/",
+   "https://www.snopes.com/news/2026/11/25/redacted-memo-lead-azide-iowa/",
+   "https://www.wired.com/story/iowa-lead-detonation-real-monitoring-work-begins/",
+   "https://www.snopes.com/fact-check/army-lead-azide-food-supply/"
+  ]
+ },
+ {
+  "id": "2026-11-26-redesigned-crispr-associated-transposase-boosts-dna-integrat-d1573",
+  "date": "2026-11-26",
+  "section": "science",
+  "headline": "Redesigned CRISPR-associated transposase boosts DNA integration efficiency",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.nature.com/articles/s41586-026-11287-9",
+   "https://phys.org/news/2026-11-protein-redesign-boosts-dna-insertion.html"
+  ]
+ },
+ {
+  "id": "2026-11-26-resolution-island-in-new-zealand-serves-as-historic-sanctuar-12216",
+  "date": "2026-11-26",
+  "section": "science",
+  "headline": "Resolution Island in New Zealand serves as historic sanctuary for native birds",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/"
+  ]
+ },
+ {
+  "id": "2026-11-26-spain-s-sepblac-gains-authority-to-freeze-crypto-accounts-wi-76e79",
+  "date": "2026-11-26",
+  "section": "money",
+  "headline": "Spain's Sepblac Gains Authority to Freeze Crypto Accounts Without Court Order",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
+   "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order"
+  ]
+ },
+ {
+  "id": "2026-11-26-ny-court-orders-novatech-founders-to-pay-1-37-billion-for-cr-2bcbf",
+  "date": "2026-11-26",
+  "section": "money",
+  "headline": "NY court orders NovaTech founders to pay $1.37 billion for crypto fraud",
+  "label": "Well-sourced",
+  "score": 58,
+  "also_covered_urls": [
+   "https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
+   "https://decrypt.co/384025/new-york-wins-1-37b-judgment-against-novatech-founders-who-fled-the-us"
+  ]
+ },
+ {
+  "id": "2026-11-26-1password-breach-exposes-customer-data-but-not-vault-content-5b276",
+  "date": "2026-11-26",
+  "section": "scam",
+  "headline": "1Password breach exposes customer data but not vault contents",
+  "label": "Well-sourced",
+  "score": 73,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+   "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+   "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+   "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+   "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+   "https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
+   "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+   "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+   "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/"
+  ]
  }
 ]

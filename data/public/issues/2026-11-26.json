@@ -1,0 +1,1574 @@
+{
+ "date": "2026-11-26",
+ "built_at": "2026-11-26T22:27:20.634375+00:00",
+ "stories": [
+  {
+   "id": "2026-11-26-fincen-disconnects-systems-after-cyber-intrusion-extends-fil-31449",
+   "date": "2026-11-26",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "FinCEN Disconnects Systems After Cyber Intrusion, Extends Filing Deadlines",
+   "in_brief": "FinCEN confirmed unauthorized access to a limited subset of its systems and took some services offline. The agency extended filing deadlines to Dec 30 to mitigate the disruption.",
+   "so_what": "The intrusion at the Financial Crimes Enforcement Network, the Treasury’s financial intelligence unit, highlights ongoing vulnerabilities in U.S. government cyber defenses. By taking affected systems offline, FinCEN aims to contain any potential damage, but the move temporarily hampers banks and other institutions that file suspicious activity reports under the Bank Secrecy Act. Extending deadlines helps prevent compliance penalties while the agency works to restore full functionality. Stakeholders should watch for further updates on the scope of the breach, any data exposure, and additional guidance on alternative filing methods. The incident follows a pattern of recent federal breaches, underscoring the need for robust security and contingency planning across government and financial sectors.",
+   "what_to_do": "1. Verify that your organization’s BSA filings can be submitted via the Financial Institutions Hotline (1‑866‑556‑3974) as an alternative. 2. Monitor FinCEN’s official alerts for updates on system restoration and any recommended security measures. 3. Review and, if needed, adjust internal timelines to meet the extended filing deadline of Dec 30.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "FinCEN is investigating a cybersecurity incident that resulted in unauthorized access to a limited subset of its systems.",
+     "source": 1,
+     "quote": "FinCEN is investigating a cybersecurity incident that resulted in unauthorized access to a limited subset of its systems.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "FinCEN has taken some systems offline as a proactive measure.",
+     "source": 4,
+     "quote": "As a proactive measure, FinCEN has taken some systems offline.",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Filing deadlines for reports due between Nov 18 and Dec 29 have been extended to Dec 30.",
+     "source": 3,
+     "quote": "covered reports originally due between November 18 and December 29 can now be submitted until December 30.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+     "published": "Wed, 25 Nov 2026 13:39:21 +0000",
+     "published_iso": "2026-11-25T13:39:21+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+     "published": "Wed, 25 Nov 2026 17:40:16 +0100",
+     "published_iso": "2026-11-25T16:40:16+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+     "published": "Wed, 25 Nov 2026 18:00:08 +0530",
+     "published_iso": "2026-11-25T12:30:08+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+     "published": "Thu, 26 Nov 2026 11:05:01 +0000",
+     "published_iso": "2026-11-26T11:05:01+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+    "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+    "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+    "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+    "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/"
+   ],
+   "primary": [
+    {
+     "url": "https://bsaefiling.fincen.gov/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://bsaefiling.fincen.gov/"
+    },
+    {
+     "url": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf"
+    }
+   ],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Situation Publishing, helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4,
+   "previously": {
+    "id": "2026-11-25-fincen-takes-some-systems-offline-after-unauthorized-access-0dd16",
+    "date": "2026-11-25",
+    "label": "Well-sourced",
+    "score": 65
+   }
+  },
+  {
+   "id": "2026-11-26-openai-fixes-gpt-6-2-usage-bug-adds-free-reset-and-rolls-out-01ff3",
+   "date": "2026-11-26",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI fixes GPT-6.2 usage bug, adds free reset, and rolls out unified Chat-Work limits",
+   "in_brief": "OpenAI corrected a billing error that caused GPT-6.2 Astra and Sol usage to count 40% and 25% faster, respectively, and is granting a one-time banked usage reset to Go, Plus, Pro, and Business subscribers. The company is also beginning a phased rollout of a combined Chat and Work usage meter for Pro users, slated for broader release in December.",
+   "so_what": "The bug fix means users will hit usage limits faster for GPT-6.2 Astra and Sol, though OpenAI provided a free banked reset to mitigate the immediate impact. Meanwhile, the shift to a shared Chat-Work allowance consolidates two previously separate quotas for Plus, Pro, and Business plans, which some users fear could restrict access when balancing conversational and work tasks.",
+   "what_to_do": "1. Check your token usage and banked resets in ChatGPT Settings > Usage. 2. Monitor your consumption as OpenAI rolls out the shared Chat-Work allowance for Pro, Plus, and Business subscribers.",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "OpenAI fixed a bug that caused GPT‑6.2 Astra usage to reach limits 40% faster and Sol usage 25% faster.",
+     "source": 1,
+     "quote": "Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on Sol.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "OpenAI is granting one free usage reset to all Go, Plus, Pro and Business subscribers.",
+     "source": 1,
+     "quote": "As a small token to apologize for the mistake, we'll be adding one banked reset for everyone on Go, Plus, Pro, and Business.",
+     "status": "verified",
+     "corroborated_by": [
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "OpenAI began rolling out a unified Chat and Work experience with a shared usage allowance for Plus, Pro and Business plans, to be expanded in December.",
+     "source": 2,
+     "quote": "OpenAI has started rolling out a unified Chat and Work experience ... Starting in December, Plus, Pro, and Business subscribers will have a single usage allowance covering ChatGPT and Codex.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+     "published": "Thu, 26 Nov 2026 16:06:22 -0500",
+     "published_iso": "2026-11-26T21:06:22+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+     "published": "Wed, 25 Nov 2026 20:03:27 +0000",
+     "published_iso": "2026-11-25T20:03:27+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/383963/openai-changes-chatgpt-drastically-cut-usage-limits",
+     "published": "Wed, 25 Nov 2026 17:46:02 +0000",
+     "published_iso": "2026-11-25T17:46:02+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+    "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+    "https://decrypt.co/383963/openai-changes-chatgpt-drastically-cut-usage-limits"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 47,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Yahoo, bleepingcomputer.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Draft hallucinated model names like GPT-6.2 Astra and Sol being counted 40% and 25% faster specifically due to a billing bug, mixing up details from Source 1 and Source 2/3. Also, the bug specifically affected GPT-6.2 Astra (40%) and Sol (25%), but the draft conflated details and introduced unverified specifics."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-26-drupal-installer-flaws-exploited-cisa-adds-vulnerability-to-c6760",
+   "date": "2026-11-26",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Drupal installer flaws exploited; CISA adds vulnerability to KEV catalog",
+   "in_brief": "A critical remote‑code‑execution flaw in Drupal’s installer (CVE‑2026‑132165) has been exploited in the wild since mid‑November, prompting CISA to list it in its Known Exploited Vulnerabilities catalog and set a remediation deadline for federal agencies. A subsequent patch left a gap (CVE‑2026‑136716) that attackers are now leveraging to compromise sites that remain in an incomplete install state.",
+   "so_what": "The exploitation of Drupal’s installer allows unauthenticated actors to hijack websites by bypassing installation checks, potentially giving them full control over content‑management systems used by governments, universities and enterprises. CISA’s inclusion of the flaw in the KEV catalog underscores the risk to the federal enterprise and signals that agencies must remediate by 27 November, while private organizations are urged to follow risk‑based vulnerability management. Administrators should verify that the installer is blocked or removed, apply the latest Drupal core updates (including versions 11.4.14, 11.3.23 and 10.6.23), and audit logs for signs of compromise. The emergence of CVE‑2026‑136716 shows that partial patches can leave sites vulnerable, highlighting the need for thorough post‑update testing and the execution of any required update hooks.",
+   "what_to_do": "1. Upgrade Drupal to the latest patched version (e.g., 11.4.14, 11.3.23, or 10.6.23) and run the post‑upgrade update hook. 2. Block or remove /core/install.php via web‑server or .htaccess configuration. 3. Review server logs for unexpected installer activity and verify that no unauthorized admin accounts were created.",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "A critical Drupal vulnerability (CVE‑2026‑132165) has been actively exploited since at least 19 Nov 2026.",
+     "source": 1,
+     "quote": "exploited on live sites as early as 2026-11-19 19:00 UTC.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "CISA added the vulnerability to its KEV catalog and ordered federal agencies to secure systems by 27 Nov 2026.",
+     "source": 1,
+     "quote": "CISA has also added the vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog and ordered federal agencies to secure their systems against ongoing attacks by Friday, November 27.",
+     "status": "verified",
+     "corroborated_by": [
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "A patch released on 18 Nov did not fully remediate the issue, and a new exploit (CVE‑2026‑136716) is being used to compromise sites in incomplete install states.",
+     "source": 2,
+     "quote": "The new issue, tracked as CVE-2026-136716... was disclosed on November 25, exactly a week after Drupal announced the original patch... It is not apparent in the user interface if a site is in the affected vulnerable state, and sites that are already compromised may no longer be in the vulnerable state.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+     "published": "Wed, 25 Nov 2026 05:10:20 -0500",
+     "published_iso": "2026-11-25T10:10:20+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+     "published": "Thu, 26 Nov 2026 09:12:26 +0000",
+     "published_iso": "2026-11-26T09:12:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+     "published": "Wed, 25 Nov 2026 16:53:26 +0530",
+     "published_iso": "2026-11-25T11:23:26+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+    "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+    "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+    "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-132165 — Drupal Core Remote Code Execution Vulnerability"
+    },
+    {
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+     "type": "official record",
+     "verified": true,
+     "label": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+    },
+    {
+     "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?f%5B0%5D=vendor_project%3A807",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?f%5B0%5D=vendor_project%3A807"
+    }
+   ],
+   "truth": {
+    "total": 77,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: bleepingcomputer.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-26-early-black-friday-tech-discounts-appear-ahead-of-november-s-2accd",
+   "date": "2026-11-26",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "Early Black Friday tech discounts appear ahead of November sales",
+   "in_brief": "Retailers are rolling out early Black Friday discounts on a range of tech products before the official holiday. The deals include items such as Apple AirPods, a Disney Plus and Hulu bundle, and an Alienware Aurora desktop priced at $1,900.",
+   "so_what": "Early discounts give shoppers the chance to secure lower prices before the high-traffic Black Friday rush. Retailers are offering early deals on popular tech ahead of the holiday, while outlets like Engadget highlight a discount on an Alienware Aurora gaming PC, which retails for $1,900 on Amazon compared with roughly $2,600 on Dell's site.",
+   "what_to_do": "Compare component costs and price trends across retailers to determine if early discounts offer the best value before making a purchase.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Retailers are offering early Black Friday tech deals before the official holiday on November 27",
+     "source": 1,
+     "quote": "Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "An Alienware Aurora desktop is being sold for $1,900 on Amazon",
+     "source": 2,
+     "quote": "This $1,900 Alienware Aurora is one of the best early Black Friday PC deals.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The same Aurora configuration costs about $2,600 on Dell’s official site, a savings of roughly $700",
+     "source": 2,
+     "quote": "if you go to the official Dell/Alienware website, you can find an Aurora desktop with the exact same specs listed at around $2,600. This means we're looking at a potential savings of around $700 compared to its standard pricing.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Verge",
+     "owner": "Vox Media",
+     "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+     "published": "2026-11-26T11:55:00-05:00",
+     "published_iso": "2026-11-26T16:55:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals/",
+     "published": "Wed, 25 Nov 2026 17:54:07 +0000",
+     "published_iso": "2026-11-25T17:54:07+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "Wired",
+     "owner": "Condé Nast",
+     "url": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
+     "published": "Thu, 26 Nov 2026 18:49:47 +0000",
+     "published_iso": "2026-11-26T18:49:47+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
+    "https://www.engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals/",
+    "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      25,
+      30,
+      "3 independent owners: Condé Nast, Vox Media, Yahoo"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: Draft mentions AirPods Pro 3 having heart rate tracking and live translations which are not in the verified claims or explicitly supported as factual in a standard news context without speculation, and the source text mentions them as part of a review. Also need to ensure tone is professional without hype."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 3
+  },
+  {
+   "id": "2026-11-26-fcc-grants-spacex-conditional-approval-for-up-to-1-million-o-fa67f",
+   "date": "2026-11-26",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "FCC grants SpaceX conditional approval for up to 1 million orbital data‑center satellites",
+   "in_brief": "The U.S. Federal Communications Commission authorized SpaceX to deploy a constellation of up to one million Starmind satellites that would act as orbital data centers. The decision clears a major regulatory hurdle but draws skepticism from scientists and industry rivals.",
+   "so_what": "The approval marks the first regulatory green light for a commercial orbital data‑center network, positioning SpaceX to pursue an ambitious plan to power AI workloads with solar‑powered satellites. If realized, the constellation could dramatically increase the number of objects in low‑Earth orbit, raising concerns about orbital debris, radio‑frequency interference and impacts on astronomical observations. Opponents such as Amazon, Viasat and the American Astronomical Society have filed objections, citing environmental and scientific risks. The FCC’s ruling also gives SpaceX a 14‑year window to launch the full system, with the first operational satellite required within seven years. Watch for further filings on debris mitigation, financing challenges, and potential legal challenges as the project moves from regulatory approval to hardware development.",
+   "what_to_do": "",
+   "hype_flag": "medium",
+   "hype_reason": "Coverage relies heavily on statements from SpaceX and its opponents, reflecting self‑interested positions",
+   "claims": [
+    {
+     "claim": "The FCC granted SpaceX conditional authorization to deploy up to 1 million Starmind satellites for orbital data centers.",
+     "source": 1,
+     "quote": "The Federal Communications Commission on Wednesday granted SpaceX conditional authorization to deploy a constellation of up to 1 million Starmind satellites designed to serve as orbital data centers.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo",
+      "npr.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Scientists have called the plan a fantasy and doubt it will happen.",
+     "source": 2,
+     "quote": "Adam Becker, an astrophysicist and author, called the prospect of launching a million satellites into space to create data centers \"a fantasy.\"",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "SpaceX has seven years to launch its first operational Starmind satellite and a total of 14 years to deploy the full constellation.",
+     "source": 1,
+     "quote": "SpaceX has seven years to deploy a single operational Starmind satellite under the order... SpaceX therefore, has a 14‑year regulatory runway to deploy the most ambitious industrial project ever approved for spaceflight.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [1]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+     "published": "Wed, 25 Nov 2026 18:22:38 +0000",
+     "published_iso": "2026-11-25T18:22:38+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "NPR Technology",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+     "published": "Thu, 26 Nov 2026 01:53:09 -0500",
+     "published_iso": "2026-11-26T06:53:09+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+     "published": "Thu, 26 Nov 2026 09:27:44 GMT",
+     "published_iso": "2026-11-26T09:27:44+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+     "published": "Thu, 26 Nov 2026 02:35:39 GMT",
+     "published_iso": "2026-11-26T02:35:39+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "TechCrunch",
+     "owner": "Yahoo",
+     "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+     "published": "Wed, 25 Nov 2026 20:56:44 +0000",
+     "published_iso": "2026-11-25T20:56:44+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+    "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+    "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+    "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+    "https://phys.org/news/2026-11-fcc-spacex-deploy-million-satellites.html",
+    "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+    "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space",
+    "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+   ],
+   "primary": [
+    {
+     "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf"
+    }
+   ],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Condé Nast, Yahoo, npr.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 7,
+   "previously": {
+    "id": "2026-11-25-fcc-authorizes-spacex-to-launch-up-to-1-million-ai-data-cent-4086a",
+    "date": "2026-11-25",
+    "label": "Well-sourced",
+    "score": 65
+   }
+  },
+  {
+   "id": "2026-11-26-u-s-army-detonates-degraded-lead-azide-at-iowa-ammunition-pl-906c7",
+   "date": "2026-11-26",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "U.S. Army detonates degraded lead azide at Iowa ammunition plant, prompting evacuations",
+   "in_brief": "The Army exploded 68 barrels containing 9,700 pounds of lead azide at the Iowa Army Ammunition Plant, creating a large plume that prompted a 5-mile evacuation and shelter-in-place orders.",
+   "so_what": "The controlled detonation was performed to prevent a spontaneous explosion of an unstable compound, but it released lead, a persistent neurotoxin. Authorities advised residents within five miles to evacuate and others to shelter in place. Army modeling indicated the plume could travel about 100 miles southwest, while separate USDA data confirmed the plant is located in a major agricultural region, sparking online discussions regarding potential environmental impacts.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Residents within a 5‑mile radius were advised to evacuate, while those farther away were told to shelter in place and recirculate indoor air.",
+     "source": 1,
+     "quote": "Residents within a 5-mile area of the facility were advised to evacuate, while people farther out were told to shelter in place, close windows and doors tightly, turn off fans, and set indoor air systems to recirculate.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Snopes confirmed that the detonation site is located in a highly concentrated agricultural production area according to USDA mapping.",
+     "source": 2,
+     "quote": "Snopes previously confirmed reports that the U.S. Army planned the detonations at the Iowa Ammunition Plant in Middletown, Iowa, whose location appeared on the agriculture map as an area of high agricultural production.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The Army detonated 68 barrels containing 9,700 pounds of degraded lead azide at the Iowa Army Ammunition Plant on Nov. 25, 2026.",
+     "source": 1,
+     "quote": "The Army detonated 68 barrels containing 9,700 pounds (4.4 tons) of degraded lead azide on Wednesday at about 9 am CT",
+     "status": "number_mismatch",
+     "corroborated_by": [],
+     "problems": [
+      "not in source [1]: 25"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Ars Technica",
+     "owner": "Condé Nast",
+     "url": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/",
+     "published": "Wed, 25 Nov 2026 15:35:17 +0000",
+     "published_iso": "2026-11-25T15:35:17+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Snopes",
+     "owner": "snopes.com",
+     "url": "https://www.snopes.com/fact-check/army-lead-azide-food-supply/",
+     "published": "Wed, 25 Nov 2026 20:54:00 +0000",
+     "published_iso": "2026-11-25T20:54:00+00:00",
+     "kind": "factcheck",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/",
+    "https://www.snopes.com/news/2026/11/25/redacted-memo-lead-azide-iowa/",
+    "https://www.wired.com/story/iowa-lead-detonation-real-monitoring-work-begins/",
+    "https://www.snopes.com/fact-check/army-lead-azide-food-supply/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.army.mil/article/297086",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.army.mil/article/297086"
+    }
+   ],
+   "truth": {
+    "total": 47,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Condé Nast, snopes.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking",
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor: Headline uses 'lead‑azide barrels' but source says barrels containing lead azide. Minor, but needs exact alignment.",
+     "editor: So_what mixes up the Army's plume modeling with the viral USDA map: Source 1 says Army modeling showed airborne lead travel 100 miles southwest and dust deposition covering 200 square miles, whereas Source 2 clarifies that the viral USDA map showing agricultural concentration was separate and did not show the plume spread.",
+     "editor: In_brief mentions Nov 25, which matches source 2 date, but source 1 says 'Wednesday' without specifying date. Source 2 confirms Nov 25, 2026."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-26-redesigned-crispr-associated-transposase-boosts-dna-integrat-d1573",
+   "date": "2026-11-26",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Redesigned CRISPR-associated transposase boosts DNA integration efficiency",
+   "in_brief": "Scientists redesigned components of a type I-F3 CRISPR-associated transposase, achieving a 100‑fold increase in DNA insertion activity while retaining target specificity. The work, detailed in Nature, provides a mechanistic framework for future gene‑therapy tools.",
+   "so_what": "The enhanced activity of type I-F3 CASTs could make precise, RNA‑guided DNA integration more practical for therapeutic applications, addressing limitations of current gene‑editing methods that often target single mutations. By revealing how protein redesign and structural licensing improve function, the study offers a roadmap for engineering transposases that insert entire genes at desired genomic locations. This may accelerate development of gene‑replacement strategies, potentially expanding treatment options for genetic diseases. Researchers will likely explore the safety, delivery, and scalability of these engineered CASTs in cellular and animal models, and assess regulatory pathways for clinical use.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Redesigned TnsA and a holo complex enhance RNA‑guided DNA integration by type I‑F3 CASTs.",
+     "source": 1,
+     "quote": "RNA-guided DNA integration by type I-F3 CRISPR-associated transposases (CASTs) is enhanced by redesigned TnsA and a holo complex whose coordinated conformational licensing reveals a conserved mechanistic framework for engineering highly active CASTs.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Protein redesign improved type I‑F3 CAST activity by 100‑fold without losing on‑target specificity.",
+     "source": 2,
+     "quote": "We improved the activity of the type I-F3 CAST by 100-fold without compromising its on-target specificity,",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The researchers employed cryo‑electron microscopy and computational protein design to study the CAST system.",
+     "source": 2,
+     "quote": "The team used advanced techniques, such as cryo-electron microscopy (cryo-EM) and computational protein design.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Nature",
+     "owner": "nature.com",
+     "url": "https://www.nature.com/articles/s41586-026-11287-9",
+     "published": "2026-11-25",
+     "published_iso": null,
+     "kind": "research",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Phys.org",
+     "owner": "phys.org",
+     "url": "https://phys.org/news/2026-11-protein-redesign-boosts-dna-insertion.html",
+     "published": "Thu, 26 Nov 2026 10:40:02 EST",
+     "published_iso": "2026-11-26T15:40:02+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nature.com/articles/s41586-026-11287-9",
+    "https://phys.org/news/2026-11-protein-redesign-boosts-dna-insertion.html"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nature.com/articles/s41586-026-11287-9",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.nature.com/articles/s41586-026-11287-9"
+    },
+    {
+     "url": "https://dx.doi.org/10.1038/s41586-026-11287-9",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://dx.doi.org/10.1038/s41586-026-11287-9"
+    },
+    {
+     "url": "https://www.nature.com/articles/s41586-026-11287-9",
+     "type": "official record",
+     "verified": true,
+     "label": "Nature"
+    }
+   ],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: nature.com, phys.org"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-26-resolution-island-in-new-zealand-serves-as-historic-sanctuar-12216",
+   "date": "2026-11-26",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "Resolution Island in New Zealand serves as historic sanctuary for native birds",
+   "in_brief": "Resolution Island, the largest of about 90 Fiordland National Park islands, was designated a reserve in 1891 and later became the focus of a Department of Conservation stoat‑control program in 2008. The island’s varied habitats support kiwi, kākāpō and other endemic species, but mustelid predators have threatened these efforts since the early 1900s.",
+   "so_what": "Resolution Island’s long‑standing role as a refuge highlights the challenges of protecting New Zealand’s flightless birds from introduced predators. Early conservationists like Thomas Henry Potts and Richard Henry moved hundreds of birds to the island, yet stoats were observed as early as 1900, demonstrating the difficulty of maintaining predator‑free sanctuaries. The Department of Conservation’s 2008 program to control stoat populations reflects ongoing commitment to safeguard native fauna. Monitoring the effectiveness of this program will inform future island‑based conservation strategies across New Zealand and similar ecosystems worldwide. Continued satellite imaging, such as the Landsat 9 photo from December 2025, provides valuable data on habitat conditions and helps track conservation outcomes.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "purely factual reporting",
+   "claims": [
+    {
+     "claim": "Resolution Island is the largest of approximately 90 islands in Fiordland National Park.",
+     "source": 1,
+     "quote": "Resolution Island, located in the Fiordland region ... was one of the first eyed for this purpose. ... the largest of the approximately 90 islands in Fiordland National Park.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The island was designated a reserve in 1891.",
+     "source": 1,
+     "quote": "Pigeon Island was the onetime home of Richard Henry, who was named caretaker of Resolution Island after it was designated a reserve in 1891.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Stoats were first spotted on the island in 1900.",
+     "source": 1,
+     "quote": "In 1900, however, people began spotting mustelids on Resolution.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "A Department of Conservation program to control stoat populations began in 2008.",
+     "source": 1,
+     "quote": "A Department of Conservation program started in 2008 aims to control stoat populations and bolster native species on Resolution.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/",
+     "published": "Thu, 26 Nov 2026 05:01:00 +0000",
+     "published_iso": "2026-11-26T05:01:00+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "4 of 4 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-26-spain-s-sepblac-gains-authority-to-freeze-crypto-accounts-wi-76e79",
+   "date": "2026-11-26",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Spain's Sepblac Gains Authority to Freeze Crypto Accounts Without Court Order",
+   "in_brief": "Spain’s financial intelligence unit can now suspend crypto, bank and payment accounts it suspects of money‑laundering or terrorist financing without a judge. The measure aims to speed up action and bring Spain in line with international anti‑money‑laundering standards.",
+   "so_what": "The new powers allow Sepblac to act unilaterally, suspending accounts for up to five working days and transactions for up to ten, after which a court must review the action. This shift addresses concerns that digital transfers can move illicit funds faster than traditional investigations, aligning Spain with Financial Action Task Force (FATF) expectations and the EU’s sixth anti‑money‑laundering directive. Firms that ignore suspension orders face criminal liability, while compliance shields both the entities and Sepblac from legal risk. Observers will watch how frequently the tool is used, any legal challenges that arise, and whether other EU members adopt similar frameworks.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Sepblac can now freeze crypto accounts it suspects are linked to money laundering or terrorist financing without a court order",
+     "source": 1,
+     "quote": "Spain's financial intelligence unit will be able to freeze crypto accounts it suspects are linked to money laundering or terrorist financing on its own authority, under a royal decree-law published in the country's official gazette on Wednesday.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Account suspensions can last up to five working days and transaction suspensions up to ten working days",
+     "source": 1,
+     "quote": "Suspensions of transactions can last no more than 10 working days, and suspensions of accounts or business relationships no more than five.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The change brings Spain in line with FATF standards and transposes part of the EU's sixth anti‑money laundering directive",
+     "source": 1,
+     "quote": "The government said the change brings Spain in line with standards set by the Financial Action Task Force (FATF), and transposes part of the EU's sixth anti-money laundering directive.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
+     "published": "Thu, 26 Nov 2026 16:43:02 +0000",
+     "published_iso": "2026-11-26T16:43:02+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
+     "published": "Thu, 26 Nov 2026 14:05:58 +0000",
+     "published_iso": "2026-11-26T14:05:58+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
+    "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-26-ny-court-orders-novatech-founders-to-pay-1-37-billion-for-cr-2bcbf",
+   "date": "2026-11-26",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "NY court orders NovaTech founders to pay $1.37 billion for crypto fraud",
+   "in_brief": "A New York court ordered crypto platform NovaTech founders Cynthia and Eddy Petion to pay $1.37 billion for a Ponzi scheme that targeted Haitian communities. The judgment follows the founders' flight from the United States and a prior default ruling.",
+   "so_what": "The judgment represents one of the largest fraud awards against cryptocurrency operators in the United States, underscoring regulatory scrutiny of crypto schemes that exploit immigrant networks. By targeting Haitian immigrant groups through faith‑based gatherings and messaging apps, the scheme allegedly defrauded hundreds of thousands of investors, including about 11,000 New Yorkers. While the court has quantified damages, collection may be difficult because the founders are believed to be residing abroad. The case highlights the New York Attorney General's aggressive enforcement stance and may prompt tighter oversight of crypto offerings that use community‑based marketing channels. Observers will watch for any asset‑recovery actions and potential further legal actions against related entities.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "A New York court ordered NovaTech founders Cynthia and Eddy Petion to pay $1.37 billion over a crypto Ponzi scheme that targeted Haitian communities.",
+     "source": 1,
+     "quote": "A New York court ordered NovaTech founders Cynthia and Eddy Petion to pay $1.37 billion over a crypto Ponzi scheme that targeted Haitian communities.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The scheme drew in hundreds of thousands of investors worldwide, including 11,000 New Yorkers, often through prayer groups and WhatsApp chats.",
+     "source": 1,
+     "quote": "The scheme drew in hundreds of thousands of investors worldwide, including 11,000 New Yorkers, often through prayer groups and WhatsApp chats.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Petions fled the U.S. before a default judgment last year.",
+     "source": 1,
+     "quote": "The Petions fled the U.S. before a default judgment last year",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/384025/new-york-wins-1-37b-judgment-against-novatech-founders-who-fled-the-us",
+     "published": "Thu, 26 Nov 2026 11:25:58 +0000",
+     "published_iso": "2026-11-26T11:25:58+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
+     "published": "Thu, 26 Nov 2026 10:40:33 +0000",
+     "published_iso": "2026-11-26T10:40:33+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
+    "https://decrypt.co/384025/new-york-wins-1-37b-judgment-against-novatech-founders-who-fled-the-us"
+   ],
+   "primary": [
+    {
+     "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-wins-13-billion-judgment-against-crypto-scammers-who",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://ag.ny.gov/press-release/2026/attorney-general-james-wins-13-billion-judgment-against-crypto-scammers-who"
+    },
+    {
+     "url": "https://ag.ny.gov/sites/default/files/decisions/new-york-v-nova-tech-ltd-et-al-order-and-judgement-2026.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://ag.ny.gov/sites/default/files/decisions/new-york-v-nova-tech-ltd-et-al-order-and-judgement-2026.pdf"
+    }
+   ],
+   "truth": {
+    "total": 58,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-26-1password-breach-exposes-customer-data-but-not-vault-content-5b276",
+   "date": "2026-11-26",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "1Password breach exposes customer data but not vault contents",
+   "in_brief": "A hacker accessed an employee’s corporate GitHub account, injected malicious code into backend services and stole customer names, email addresses and other metadata. The breach did not compromise encrypted vaults, but users are urged to watch for phishing attempts.",
+   "so_what": "The incident shows that even well‑protected password managers can be vulnerable through third‑party developer accounts. While the stolen information does not include vault secrets, the exposure of names, emails, account IDs and invitation tokens gives attackers a list of targets for credential‑phishing campaigns. 1Password has disabled the compromised GitHub account, revoked the stolen token, rotated internal credentials and lengthened verification codes from six digits to ten alphanumeric characters. Independent security experts are reviewing the remediation. Users should remain vigilant for unsolicited emails that reference the breach, as threat actors may use the data to craft convincing phishing lures. Monitoring account activity and employing strong, unique passwords and two‑factor authentication remain essential defenses.",
+   "what_to_do": "1. Be skeptical of any email claiming to be from 1Password about account security; verify the sender and avoid clicking links.\n2. If you receive an unexpected invitation or recovery email, do not enter codes until you confirm the request through the official 1Password app or website.\n3. Enable two‑factor authentication on your 1Password account and consider changing your Master Password if you suspect any compromise.",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "A hacker accessed an employee’s corporate GitHub account and used it to inject malicious code into backend services to steal customer data.",
+     "source": 1,
+     "quote": "The attacker used the account to access private source code repositories and inject malicious code into backend services that downloaded customer account records.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Customer vaults and the encryption keys protecting them were not compromised in the attack.",
+     "source": 2,
+     "quote": "1Password highlighted that customer vaults and the cryptographic keys protecting them were not compromised.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "helpnetsecurity.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The stolen invitation and recovery tokens cannot be used on their own to access accounts; they require SSO authentication or a verification code.",
+     "source": 1,
+     "quote": "These tokens cannot be used on their own to access customer accounts, as completing the invitation or recovery process requires either single sign‑on (SSO) authentication or a six‑digit verification code sent to the user's registered email address.",
+     "status": "verified",
+     "corroborated_by": [
+      "helpnetsecurity.com",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+     "published": "Wed, 25 Nov 2026 16:33:33 -0500",
+     "published_iso": "2026-11-25T21:33:33+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+     "published": "Thu, 26 Nov 2026 08:32:10 +0000",
+     "published_iso": "2026-11-26T08:32:10+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+     "published": "Thu, 26 Nov 2026 12:02:00 +0100",
+     "published_iso": "2026-11-26T11:02:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+     "published": "Thu, 26 Nov 2026 16:27:25 +0530",
+     "published_iso": "2026-11-26T10:57:25+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "Help Net Security",
+     "owner": "helpnetsecurity.com",
+     "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+     "published": "Thu, 26 Nov 2026 08:42:32 +0000",
+     "published_iso": "2026-11-26T08:42:32+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+    "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+    "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+    "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+    "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+    "https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
+    "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+    "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+    "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 73,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Situation Publishing, bleepingcomputer.com, helpnetsecurity.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 7,
+   "previously": {
+    "id": "2026-11-25-1password-breach-exposes-user-names-and-emails-but-not-vault-323a8",
+    "date": "2026-11-25",
+    "label": "Well-sourced",
+    "score": 72
+   }
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 509,
+  "stories_considered": 15,
+  "published": 11,
+  "outlets": 34
+ }
+}

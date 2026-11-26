@@ -493,5 +493,16 @@
   "from_score": 65,
   "to_score": 52,
   "note": "Rating changed from Well-sourced (65) to Developing (52) as new evidence came in."
+ },
+ {
+  "date": "2026-11-26",
+  "story_id": "2026-11-26-fcc-grants-spacex-conditional-approval-for-up-to-1-million-o-fa67f",
+  "prior_id": "2026-11-25-fcc-authorizes-spacex-to-launch-up-to-1-million-ai-data-cent-4086a",
+  "headline": "FCC grants SpaceX conditional approval for up to 1 million orbital data‑center satellites",
+  "from": "Well-sourced",
+  "to": "Developing",
+  "from_score": 65,
+  "to_score": 53,
+  "note": "Rating changed from Well-sourced (65) to Developing (53) as new evidence came in."
  }
 ]
