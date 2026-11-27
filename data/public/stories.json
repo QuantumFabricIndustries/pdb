@@ -8450,5 +8450,164 @@
    "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
    "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/"
   ]
+ },
+ {
+  "id": "2026-11-27-us-air-force-cloud-one-platform-breached-during-upgrade-ea628",
+  "date": "2026-11-27",
+  "section": "threat",
+  "headline": "US Air Force Cloud One Platform Breached During Upgrade",
+  "label": "Well-sourced",
+  "score": 72,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
+   "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+   "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data"
+  ]
+ },
+ {
+  "id": "2026-11-27-drupal-warns-of-actively-exploited-site-takeover-flaw-cve-20-a8cdc",
+  "date": "2026-11-27",
+  "section": "threat",
+  "headline": "Drupal warns of actively exploited site‑takeover flaw (CVE‑2026‑136716)",
+  "label": "Confirmed",
+  "score": 98,
+  "also_covered_urls": [
+   "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+   "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+   "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+   "https://www.malwarebytes.com/blog/bugs/2026/11/drupal-sites-are-being-hijacked-and-a-follow-up-flaw-is-already-under-attack"
+  ]
+ },
+ {
+  "id": "2026-11-27-sap-and-1password-report-cyber-incidents-involving-source-co-834cf",
+  "date": "2026-11-27",
+  "section": "threat",
+  "headline": "SAP and 1Password report cyber incidents involving source code and customer data",
+  "label": "Well-sourced",
+  "score": 57,
+  "also_covered_urls": [
+   "https://therecord.media/sap-germany-cyberattack-github",
+   "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+   "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+   "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+   "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+   "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+   "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+   "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
+   "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
+  ]
+ },
+ {
+  "id": "2026-11-27-fcc-approves-spacex-plan-to-launch-up-to-1-million-ai-data-c-06f0a",
+  "date": "2026-11-27",
+  "section": "ai",
+  "headline": "FCC approves SpaceX plan to launch up to 1 million AI data‑center satellites",
+  "label": "Developing",
+  "score": 53,
+  "also_covered_urls": [
+   "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+   "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+   "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+   "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+   "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+   "https://www.theregister.com/off-prem/2026/11/25/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-elon-musk-launch-a-million-datacenter-satellites/5312268"
+  ]
+ },
+ {
+  "id": "2026-11-27-nvidia-reportedly-pauses-ai-server-shipments-to-four-southea-d9862",
+  "date": "2026-11-27",
+  "section": "ai",
+  "headline": "NVIDIA reportedly pauses AI server shipments to four Southeast Asian nations",
+  "label": "Developing",
+  "score": 47,
+  "also_covered_urls": [
+   "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+   "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure"
+  ]
+ },
+ {
+  "id": "2026-11-27-openai-files-countersuit-against-apple-alleging-trade-secret-748d5",
+  "date": "2026-11-27",
+  "section": "ai",
+  "headline": "OpenAI files countersuit against Apple alleging trade‑secret theft and supplier pressure",
+  "label": "Well-sourced",
+  "score": 56,
+  "also_covered_urls": [
+   "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
+   "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims"
+  ]
+ },
+ {
+  "id": "2026-11-27-nasa-astronaut-andre-douglas-tours-vehicle-assembly-building-647cc",
+  "date": "2026-11-27",
+  "section": "science",
+  "headline": "NASA astronaut Andre Douglas tours Vehicle Assembly Building ahead of Artemis III",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/"
+  ]
+ },
+ {
+  "id": "2026-11-27-nasa-launches-ng-25-mission-with-space-crop-and-brain-tissue-1d104",
+  "date": "2026-11-27",
+  "section": "science",
+  "headline": "NASA launches NG-25 mission with space crop and brain tissue experiments",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+  ]
+ },
+ {
+  "id": "2026-11-27-ethereum-advances-with-glamsterdam-testing-and-upcoming-hego-50a02",
+  "date": "2026-11-27",
+  "section": "money",
+  "headline": "Ethereum advances with Glamsterdam testing and upcoming Hegotá upgrade",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
+   "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+   "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
+  ]
+ },
+ {
+  "id": "2026-11-27-kalshi-markets-microinsurance-to-small-firms-as-legal-pressu-8b899",
+  "date": "2026-11-27",
+  "section": "money",
+  "headline": "Kalshi markets microinsurance to small firms as legal pressures rise",
+  "label": "Developing",
+  "score": 46,
+  "also_covered_urls": [
+   "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
+   "https://decrypt.co/384118/kalshi-courts-small-businesses-with-microinsurance-as-state-crackdowns-bite"
+  ]
+ },
+ {
+  "id": "2026-11-27-new-york-enacts-five-year-ban-on-ai-chatbot-toys-for-childre-fe1ec",
+  "date": "2026-11-27",
+  "section": "scam",
+  "headline": "New York Enacts Five-Year Ban on AI Chatbot Toys for Children",
+  "label": "Well-sourced",
+  "score": 59,
+  "also_covered_urls": [
+   "https://www.malwarebytes.com/blog/ai/2026/11/why-new-york-is-banning-ai-chatbot-toys",
+   "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/"
+  ]
+ },
+ {
+  "id": "2026-11-27-fact-check-ai-generated-video-of-prince-harry-shoving-meghan-0df39",
+  "date": "2026-11-27",
+  "section": "myth",
+  "headline": "Fact Check: AI‑Generated Video of Prince Harry Shoving Meghan Is Fake",
+  "label": "Well-sourced",
+  "score": 55,
+  "also_covered_urls": [
+   "https://fullfact.org/culture-and-society/ai-video-prince-harry-shoving-meghan/",
+   "https://leadstories.com/hoax-alert/2026/11/fact-check-fake-video-shows-harry-shoving-meghan-markle-while-holding-lilibet-is-ai-generated-no-reports-of-public-conflict.html"
+  ]
  }
 ]

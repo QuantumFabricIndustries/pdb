@@ -1,0 +1,1646 @@
+{
+ "date": "2026-11-27",
+ "built_at": "2026-11-27T22:04:56.876723+00:00",
+ "stories": [
+  {
+   "id": "2026-11-27-us-air-force-cloud-one-platform-breached-during-upgrade-ea628",
+   "date": "2026-11-27",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "US Air Force Cloud One Platform Breached During Upgrade",
+   "in_brief": "Hackers accessed the Air Force's Cloud One platform during a recent upgrade, prompting U.S. Cyber Command to assess the impact. The intrusion may have exposed sensitive data and has temporarily halted migrations and certain admin privileges.",
+   "so_what": "Cloud One is the Air Force’s central cloud environment, launched in 2017 using infrastructure from Amazon, Google, Oracle, and Microsoft. It supports critical applications including logistics, personnel management, and munitions tracking. The breach, discovered within the past month, highlights ongoing cybersecurity risks across federal networks. While U.S. Cyber Command evaluates the damage, the Air Force has paused migrations and restricted some administrator rights. Stakeholders should monitor official updates for remediation guidance.",
+   "what_to_do": "1. Review and tighten admin privileges on cloud platforms, revoking unnecessary rights. 2. Conduct a thorough audit of cloud access logs for suspicious activity. 3. Monitor official channels for further technical guidance.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "Hackers accessed the Air Force's Cloud One platform during a system upgrade discovered within the past month",
+     "source": 1,
+     "quote": "According to Reuters, the intrusion was discovered within the past month during an upgrade of the cloud platform",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "decrypt.co"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The breach may have exposed sensitive tactical, personnel and logistics data",
+     "source": 3,
+     "quote": "Hackers breached Cloud One, the U.S. Air Force’s flagship cloud computing platform, potentially jeopardizing a vast trove of sensitive tactical, personnel and logistics data",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "U.S. Cyber Command has been called in to assess the impact of the breach",
+     "source": 1,
+     "quote": "US Cyber Command has reportedly been called in to assess the impact",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo",
+      "decrypt.co"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+     "published": "Fri, 27 Nov 2026 10:09:40 -0500",
+     "published_iso": "2026-11-27T15:09:40+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
+     "published": "Fri, 27 Nov 2026 16:55:43 +0000",
+     "published_iso": "2026-11-27T16:55:43+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data",
+     "published": "Fri, 27 Nov 2026 17:43:29 +0000",
+     "published_iso": "2026-11-27T17:43:29+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "Hacker News",
+     "owner": "Comcast",
+     "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+     "published": "Fri, 27 Nov 2026 12:54:11 +0000",
+     "published_iso": "2026-11-27T12:54:11+00:00",
+     "kind": "community",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+    "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
+    "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+    "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 72,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: Comcast, Yahoo, bleepingcomputer.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote in_brief",
+     "editor rewrote so_what",
+     "editor rewrote what_to_do",
+     "editor: copied long word-for-word run from source",
+     "editor: included unverified speculation regarding AI tools",
+     "editor: missing necessary attribution for claims reported by sources"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4
+  },
+  {
+   "id": "2026-11-27-drupal-warns-of-actively-exploited-site-takeover-flaw-cve-20-a8cdc",
+   "date": "2026-11-27",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "Drupal warns of actively exploited site‑takeover flaw (CVE‑2026‑136716)",
+   "in_brief": "Drupal disclosed a new critical vulnerability, CVE‑2026‑136716, that attackers are exploiting to hijack sites that left the installer accessible. The flaw can be mitigated by updating to patched Drupal releases and securing the installer file.",
+   "so_what": "The vulnerability follows a prior remote‑code‑execution flaw (CVE‑2026‑132165) that was patched on November 18, but sites in unusual or incomplete install states remained exposed. Because the issue is not visible in the Drupal UI, compromised sites may appear clean, making detection difficult. CISA has added the flaw to its Known Exploited Vulnerabilities catalog, underscoring the risk to government and commercial sites that run Drupal. Administrators should verify that the installer (install.php) is blocked, update to a patched core version, and run the required update hook to close the bypass. Monitoring user 1 account activity and log files is essential to spot any unauthorized changes. Continued exploitation could lead to data theft, phishing, or ransomware deployment on compromised domains.",
+   "what_to_do": "1. Update Drupal to 10.6.23, 11.3.23, or 11.4.14 and run update.php. 2. Block remote access to /core/install.php via web‑server config or .htaccess. 3. Review site logs for unexpected changes to the user 1 account and reset its password if needed.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual reporting",
+   "claims": [
+    {
+     "claim": "Drupal says CVE‑2026‑136716 is being exploited in the wild.",
+     "source": 1,
+     "quote": "\"This is being exploited in the wild. Any site that left its installer remotely accessible following SA-CORE-2026-017 may still have been compromised.\"",
+     "status": "verified",
+     "corroborated_by": [
+      "malwarebytes.com",
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The vulnerability is fixed in Drupal versions 10.6.23, 11.3.23 and 11.4.14.",
+     "source": 1,
+     "quote": "Those who can't immediately upgrade to Drupal 10.6.23, 11.3.23, or 11.4.14 should secure the installer...",
+     "status": "verified",
+     "corroborated_by": [
+      "securityweek.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Sites that left the installer accessible remain vulnerable after the earlier patch.",
+     "source": 2,
+     "quote": "\"Any site that left its installer remotely accessible following SA-CORE-2026-017 may still have been compromised.\"",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "malwarebytes.com",
+      "thehackernews.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+     "published": "Fri, 27 Nov 2026 05:10:15 -0500",
+     "published_iso": "2026-11-27T10:10:15+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+     "published": "Thu, 26 Nov 2026 09:12:26 +0000",
+     "published_iso": "2026-11-26T09:12:26+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "The Hacker News",
+     "owner": "thehackernews.com",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+     "published": "Thu, 26 Nov 2026 12:32:34 +0530",
+     "published_iso": "2026-11-26T07:02:34+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 4,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/bugs/2026/11/drupal-sites-are-being-hijacked-and-a-follow-up-flaw-is-already-under-attack",
+     "published": "Fri, 27 Nov 2026 14:53:16 GMT",
+     "published_iso": "2026-11-27T14:53:16+00:00",
+     "kind": "vendor",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+    "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+    "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+    "https://www.malwarebytes.com/blog/bugs/2026/11/drupal-sites-are-being-hijacked-and-a-follow-up-flaw-is-already-under-attack"
+   ],
+   "primary": [
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-132165 — Drupal Core Remote Code Execution Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+     "type": "CISA KEV: actively exploited",
+     "verified": true,
+     "label": "CVE-2026-136716 — Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability"
+    },
+    {
+     "url": "https://nvd.nist.gov/vuln/detail/cve-2026-136716",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://nvd.nist.gov/vuln/detail/cve-2026-136716"
+    },
+    {
+     "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?f%5B0%5D=vendor_project%3A807",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?f%5B0%5D=vendor_project%3A807"
+    }
+   ],
+   "truth": {
+    "total": 98,
+    "label": "Confirmed",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "4 independent owners: bleepingcomputer.com, malwarebytes.com, securityweek.com, thehackernews.com"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (CISA KEV: actively exploited)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 4,
+   "previously": {
+    "id": "2026-11-26-drupal-installer-flaws-exploited-cisa-adds-vulnerability-to-c6760",
+    "date": "2026-11-26",
+    "label": "Confirmed",
+    "score": 77
+   }
+  },
+  {
+   "id": "2026-11-27-sap-and-1password-report-cyber-incidents-involving-source-co-834cf",
+   "date": "2026-11-27",
+   "section": "threat",
+   "verdict": "PUBLISH",
+   "headline": "SAP and 1Password report cyber incidents involving source code and customer data",
+   "in_brief": "SAP confirmed a security incident after suspicious GitHub activity that may have exposed source code, while 1Password disclosed a breach that leaked customer records and proprietary code. Both companies say customer data remains protected, but the events highlight supply‑chain risks.",
+   "so_what": "The SAP incident underscores the vulnerability of large enterprise software vendors to attacks on their development pipelines, especially when authentication tokens are compromised. Although SAP says it found no evidence of unauthorized access to customer business data, the breach could affect future software releases if altered code reaches customers. 1Password’s breach similarly shows how a compromised corporate GitHub account can expose both user metadata and internal source code, yet the firm asserts that encrypted vaults were not accessed. These events illustrate the growing importance of securing CI/CD environments and token management. Organizations should review access controls for development platforms, monitor for anomalous token use, and be prepared to rotate credentials quickly. Watch for follow‑up disclosures on whether any modified code was deployed and for any regulatory investigations into the handling of customer data.",
+   "what_to_do": "1. Rotate all GitHub authentication tokens and enforce multi‑factor authentication for developer accounts. 2. Review and tighten CI/CD pipeline permissions; limit token scopes to the minimum required. 3. Monitor for suspicious activity and be ready to revoke compromised credentials promptly.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "SAP confirmed a cybersecurity incident after detecting suspicious activity in its GitHub environment and said it found no evidence of unauthorized access to customer business data",
+     "source": 1,
+     "quote": "German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure... “Based on our investigation to date, we have found no evidence of unauthorized access to customer business data,” SAP said.",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "bleepingcomputer.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Hackers obtained employee authentication tokens and used them to copy and modify SAP’s source code on GitHub",
+     "source": 1,
+     "quote": "According to the magazine, hackers targeted SAP’s software development environment hosted on GitHub, obtaining employee authentication tokens that allowed them to copy and modify the company’s source code.",
+     "status": "verified",
+     "corroborated_by": [
+      "bleepingcomputer.com",
+      "securityweek.com"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "1Password disclosed that a hacker stole customer records and private source code, but said encrypted vaults were not compromised",
+     "source": 2,
+     "quote": "Password management and identity security company 1Password revealed... that a hacker stole customer information and proprietary source code... “We have no evidence that encrypted vaults were downloaded or accessed,” a 1Password community manager said.",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [2]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "The Record",
+     "owner": "Recorded Future",
+     "url": "https://therecord.media/sap-germany-cyberattack-github",
+     "published": "Fri, 27 Nov 2026 13:15:00 GMT",
+     "published_iso": "2026-11-27T13:15:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "SecurityWeek",
+     "owner": "securityweek.com",
+     "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+     "published": "Thu, 26 Nov 2026 08:32:10 +0000",
+     "published_iso": "2026-11-26T08:32:10+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 3,
+     "outlet": "BleepingComputer",
+     "owner": "bleepingcomputer.com",
+     "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+     "published": "Fri, 27 Nov 2026 04:56:36 -0500",
+     "published_iso": "2026-11-27T09:56:36+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Register — Security",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+     "published": "Thu, 26 Nov 2026 12:02:00 +0100",
+     "published_iso": "2026-11-26T11:02:00+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 5,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+     "published": "Fri, 27 Nov 2026 14:52:40 GMT",
+     "published_iso": "2026-11-27T14:52:40+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://therecord.media/sap-germany-cyberattack-github",
+    "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+    "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+    "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+    "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+    "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+    "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
+    "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 57,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: Comcast, Recorded Future, Situation Publishing, bleepingcomputer.com, securityweek.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 7,
+   "previously": {
+    "id": "2026-11-26-1password-breach-exposes-customer-data-but-not-vault-content-5b276",
+    "date": "2026-11-26",
+    "label": "Well-sourced",
+    "score": 73
+   }
+  },
+  {
+   "id": "2026-11-27-fcc-approves-spacex-plan-to-launch-up-to-1-million-ai-data-c-06f0a",
+   "date": "2026-11-27",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "FCC approves SpaceX plan to launch up to 1 million AI data‑center satellites",
+   "in_brief": "The U.S. Federal Communications Commission has authorized SpaceX to deploy up to one million low‑Earth‑orbit satellites for its Starmind orbital data‑center constellation. The approval sets deployment milestones through 2040 and has drawn criticism from scientists over technical and environmental challenges.",
+   "so_what": "The approval marks the first regulatory green light for a commercial satellite constellation intended to function as a space‑based data centre, a move the FCC says will bolster America’s AI leadership. SpaceX argues the solar‑powered satellites will meet growing AI compute demand more efficiently than terrestrial facilities. However, astrophysicists and industry observers warn that the concept faces significant engineering hurdles, heat‑dissipation limits, and risks of creating additional orbital debris. The timeline requires the first satellite by late 2033, 100,000 by 2035, 500,000 by 2028, and the full fleet by 2040, putting pressure on SpaceX to demonstrate feasibility. Watch for SpaceX’s launch schedule, further public comment periods, and any legal challenges from competitors or scientific groups.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting of regulatory approval and expert criticism",
+   "claims": [
+    {
+     "claim": "The FCC has authorized SpaceX to launch up to one million satellites for its Starmind orbital data‑center project.",
+     "source": 1,
+     "quote": "US regulators have given SpaceX the go-ahead to launch a million satellites into Earth's orbit to help build data centres in space",
+     "status": "verified",
+     "corroborated_by": [
+      "Comcast",
+      "Yahoo",
+      "npr.org"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Scientists have expressed skepticism, saying the plan is a \"fantasy\" and may not be technically feasible.",
+     "source": 2,
+     "quote": "Adam Becker, an astrophysicist and author, called the prospect of launching a million satellites into space to create data centers \"a fantasy.\"",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [
+    {
+     "claim": "The FCC’s order sets specific deployment milestones, requiring the first satellite by November 2033 and the full constellation by November 2040.",
+     "source": 5,
+     "quote": "The FCC expects the initiative, called Starmind, to deploy it first satellite by November 2033... All 1 million satellites must have already been placed in their assigned orbits no later than November 25, 2040",
+     "status": "quote_not_found",
+     "corroborated_by": [],
+     "problems": [
+      "quote not found in source [5]"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "BBC Technology",
+     "owner": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+     "published": "Thu, 26 Nov 2026 09:27:44 GMT",
+     "published_iso": "2026-11-26T09:27:44+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "NPR Technology",
+     "owner": "npr.org",
+     "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+     "published": "Thu, 26 Nov 2026 01:53:09 -0500",
+     "published_iso": "2026-11-26T06:53:09+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 3,
+     "outlet": "CNBC Tech",
+     "owner": "Comcast",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+     "published": "Thu, 26 Nov 2026 02:35:39 GMT",
+     "published_iso": "2026-11-26T02:35:39+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 4,
+     "outlet": "The Register",
+     "owner": "Situation Publishing",
+     "url": "https://www.theregister.com/off-prem/2026/11/25/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-elon-musk-launch-a-million-datacenter-satellites/5312268",
+     "published": "Wed, 25 Nov 2026 22:54:07 +0000",
+     "published_iso": "2026-11-25T22:54:07+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 5,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+     "published": "Thu, 26 Nov 2026 11:01:32 +0000",
+     "published_iso": "2026-11-26T11:01:32+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+    "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+    "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+    "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+    "https://www.theregister.com/off-prem/2026/11/25/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-elon-musk-launch-a-million-datacenter-satellites/5312268"
+   ],
+   "primary": [
+    {
+     "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf"
+    }
+   ],
+   "truth": {
+    "total": 53,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      30,
+      30,
+      "5 independent owners: BBC, Comcast, Situation Publishing, Yahoo, npr.org"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      17,
+      25,
+      "2 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      3,
+      10,
+      "1 claim also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ],
+     [
+      "Writer errors caught",
+      -5,
+      0,
+      "1 draft claim(s) failed checking and were removed"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "removed 1 claim(s) that failed fact-checking"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 5,
+   "previously": {
+    "id": "2026-11-26-fcc-grants-spacex-conditional-approval-for-up-to-1-million-o-fa67f",
+    "date": "2026-11-26",
+    "label": "Developing",
+    "score": 53
+   }
+  },
+  {
+   "id": "2026-11-27-nvidia-reportedly-pauses-ai-server-shipments-to-four-southea-d9862",
+   "date": "2026-11-27",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "NVIDIA reportedly pauses AI server shipments to four Southeast Asian nations",
+   "in_brief": "NVIDIA has reportedly stopped sending AI server hardware to Malaysia, Singapore, Thailand and Indonesia, according to manufacturing partners. The halt follows new U.S. export rules targeting companies like Megaspeed and could affect regional data‑center growth.",
+   "so_what": "The suspension of NVIDIA's AI server shipments disrupts supply chains for cloud providers and enterprises in Southeast Asia that have relied on the chips to serve Chinese customers. The move aligns with recent U.S. Commerce Department actions, including adding Megaspeed to the Entity List and imposing a 90‑day licensing window starting November 19 for data centers that continue to support restricted entities. NVIDIA's Singapore subsidiary recorded $104 billion in revenue in 2025, a 72 percent rise from the prior year, highlighting the region's importance to the company's growth. Observers will watch how quickly licensing guidance is issued and whether alternative suppliers fill the gap, as the pause could slow the data‑center construction boom driven by Chinese tech demand.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual reporting",
+   "claims": [
+    {
+     "claim": "NVIDIA halted AI server hardware shipments to Malaysia, Singapore, Thailand and Indonesia.",
+     "source": 1,
+     "quote": "NVIDIA has reportedly put a stop to shipments of AI server hardware to four Southeast Asian countries.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Dell and Supermicro told clients the chipmaker is not allowing their server orders to be sent to those countries.",
+     "source": 1,
+     "quote": "a handful of the company's manufacturing partners, including Dell and Supermicro, told clients in Malaysia, Singapore, Thailand and Indonesia that the chipmaker is not allowing their server orders to be sent to them.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The U.S. Commerce Department added Megaspeed to its Entity List, requiring a U.S. license for shipments.",
+     "source": 1,
+     "quote": "On Wednesday, the Commerce Department added Megaspeed to its \"Entity List.\" Companies, including NVIDIA, now need a US license to ship goods covered by US export rules to Megaspeed.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Data centers have 90 days from November 19 to obtain a license under the new rule.",
+     "source": 1,
+     "quote": "Under the new US rule, data centers that were already providing large amounts of computing power to companies ... have 90 days from November 19 to get a license if they want to keep doing so.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "NVIDIA booked $104 billion in revenue through its Singapore subsidiary in 2025, a 72 percent increase from the prior year.",
+     "source": 1,
+     "quote": "NVIDIA booked $104 billion in revenue through its Singapore subsidiary in 2025, representing a 72 percent increase from the year before.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+     "published": "Thu, 26 Nov 2026 18:09:18 +0000",
+     "published_iso": "2026-11-26T18:09:18+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure",
+     "published": "Thu, 26 Nov 2026 10:56:08 +0000",
+     "published_iso": "2026-11-26T10:56:08+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+    "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+    "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure"
+   ],
+   "primary": [
+    {
+     "url": "https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation"
+    }
+   ],
+   "truth": {
+    "total": 47,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Yahoo, coindesk.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "5 of 5 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote headline",
+     "editor rewrote in_brief",
+     "editor: Headline and text state the shipment pause as a definitive fact, whereas the source reports it as 'reportedly' and based on manufacturing partners telling clients."
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-27-openai-files-countersuit-against-apple-alleging-trade-secret-748d5",
+   "date": "2026-11-27",
+   "section": "ai",
+   "verdict": "PUBLISH",
+   "headline": "OpenAI files countersuit against Apple alleging trade‑secret theft and supplier pressure",
+   "in_brief": "OpenAI filed a countersuit in California federal court accusing Apple of stealing its trade secrets and pressuring shared hardware suppliers. The dispute follows Apple’s July lawsuit that claimed former Apple staff took confidential files to OpenAI.",
+   "so_what": "The legal clash highlights the intensifying competition between major technology firms to dominate AI‑driven hardware. OpenAI’s allegations that Apple engaged in trade‑secret theft and supplier intimidation suggest a broader strategy to limit OpenAI’s access to manufacturing partners, while Apple maintains its probe uncovered no OpenAI confidential information. The outcome could set precedents for how trade secrets and supplier relationships are protected in the fast‑moving AI market, influencing future collaborations and litigation between tech companies. Observers will watch how the courts address the counterclaims of trade‑secret theft, contract interference and unfair competition, and whether either side seeks injunctions before the July 2027 trial date set for Apple’s original suit.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "balanced reporting",
+   "claims": [
+    {
+     "claim": "OpenAI filed a countersuit in California federal court on Friday accusing Apple of stealing its trade secrets",
+     "source": 2,
+     "quote": "OpenAI countersued Apple on Friday in California federal court, accusing the iPhone maker of stealing its trade secrets and “coercing and threatening” hardware suppliers that work with both companies.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "The countersuit alleges Apple coerced and threatened hardware suppliers that work with both firms",
+     "source": 2,
+     "quote": "OpenAI ... accusing the iPhone maker of ... “coercing and threatening” hardware suppliers that work with both companies.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "Apple says its investigation found no OpenAI confidential information",
+     "source": 2,
+     "quote": "Apple says its probe found no OpenAI secrets, and its suit goes to trial in July 2027.",
+     "status": "verified",
+     "corroborated_by": [
+      "Yahoo"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
+     "published": "Fri, 27 Nov 2026 19:44:38 +0000",
+     "published_iso": "2026-11-27T19:44:38+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims",
+     "published": "Fri, 27 Nov 2026 21:46:03 +0000",
+     "published_iso": "2026-11-27T21:46:03+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
+    "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 56,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Yahoo, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      10,
+      10,
+      "3 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-27-nasa-astronaut-andre-douglas-tours-vehicle-assembly-building-647cc",
+   "date": "2026-11-27",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA astronaut Andre Douglas tours Vehicle Assembly Building ahead of Artemis III",
+   "in_brief": "Astronaut Andre Douglas visited NASA’s Vehicle Assembly Building on Nov. 17, 2026 to view an RS-25 engine test article. The tour highlights the RS-25 engines slated to power the Artemis III mission’s Space Launch System rocket.",
+   "so_what": "The visit highlights NASA's ongoing preparations for Artemis III. In this mission, the Space Launch System core stage will rely on four RS-25 engines to launch the Orion spacecraft. Orion will then carry out essential rendezvous and docking evaluations with lunar landers in low Earth orbit. These steps help build the necessary capabilities for Artemis IV, which plans to land astronauts back on the Moon. Keeping track of RS-25 engine testing and the Artemis III schedule remains important for those following U.S. deep-space exploration.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "straightforward factual report",
+   "claims": [
+    {
+     "claim": "Andre Douglas visited the Vehicle Assembly Building on Nov. 17, 2026 to view an RS-25 engine test article.",
+     "source": 1,
+     "quote": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. 17, 2026.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Four RS-25 engines will power the SLS rocket core stage for Artemis III.",
+     "source": 1,
+     "quote": "During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage to send the Orion spacecraft to conduct critical rendezvous and docking tests with lunar lander systems in low Earth orbit",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Artemis III tests are intended to advance capabilities needed before astronauts return to the lunar surface on Artemis IV.",
+     "source": 1,
+     "quote": "advancing the capabilities needed before astronauts return to the lunar surface on Artemis IV",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+     "published": "Fri, 27 Nov 2026 15:01:00 +0000",
+     "published_iso": "2026-11-27T15:01:00+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [
+     "editor rewrote so_what",
+     "editor: Copied 2 long word-for-word run(s) from a source"
+    ],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-27-nasa-launches-ng-25-mission-with-space-crop-and-brain-tissue-1d104",
+   "date": "2026-11-27",
+   "section": "science",
+   "verdict": "PUBLISH",
+   "headline": "NASA launches NG-25 mission with space crop and brain tissue experiments",
+   "in_brief": "NASA’s NG-25 Commercial Resupply Services mission is carrying a first‑of‑its‑kind space crop production system and a precision health study to the International Space Station. The work aims to inform future lunar and Martian habitats and advance human tissue research on Earth.",
+   "so_what": "The NG-25 payload marks a significant step toward sustainable food production for long‑duration spaceflight, addressing the challenge of providing astronauts with reliable nutrition on missions beyond low Earth orbit. By testing a prototype growth chamber that validates water delivery and volume optimization in microgravity, researchers hope to translate findings to terrestrial vertical farming and indoor agriculture, potentially improving food security. Simultaneously, the precision health investigation will evaluate a miniature fluid‑handling system that supports lab‑grown brain tissue models (miBrains) in space, offering insights into neurological risks of space travel and advancing disease modeling on Earth. Together, these experiments could shape the design of Moon base habitats, inform Mars mission planning, and spur innovations in Earth‑based agriculture and biomedical research. Future monitoring will focus on experiment results from the ISS and any subsequent technology transfers to commercial or governmental programs.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "factual report",
+   "claims": [
+    {
+     "claim": "NASA’s NG-25 Mission will carry a pioneering space crops research payload to the ISS",
+     "source": 1,
+     "quote": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The investigation will validate the system’s water delivery and volume optimization technology aboard the space station",
+     "source": 1,
+     "quote": "Researchers will use this investigation to validate the system’s water delivery and volume optimization technology aboard the space station.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The precision health study builds on prior work that sent lab‑grown brain models called miBrains to the station",
+     "source": 1,
+     "quote": "The research builds on a previous investigation that sent small, lab-grown models of the human brain, called miBrains, to the space station.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "NASA",
+     "owner": "nasa.gov",
+     "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+     "published": "Fri, 27 Nov 2026 14:22:00 +0000",
+     "published_iso": "2026-11-27T14:22:00+00:00",
+     "kind": "primary",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+   ],
+   "primary": [
+    {
+     "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+     "type": "official record",
+     "verified": true,
+     "label": "NASA"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      0,
+      30,
+      "1 independent owner: nasa.gov"
+     ],
+     [
+      "Primary evidence",
+      25,
+      25,
+      "Official record matching this story (official record)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      9,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 1
+  },
+  {
+   "id": "2026-11-27-ethereum-advances-with-glamsterdam-testing-and-upcoming-hego-50a02",
+   "date": "2026-11-27",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Ethereum advances with Glamsterdam testing and upcoming Hegotá upgrade",
+   "in_brief": "Ethereum is testing the Glamsterdam upgrade ahead of a mainnet launch, while the Hegotá upgrade is slated for 2027. The network has completed four major upgrades since the 2022 Merge, aiming to improve speed, cost and usability.",
+   "so_what": "Ethereum’s development roadmap continues to shape the broader blockchain ecosystem by targeting scalability, lower transaction fees and reduced energy consumption. The recent testing of the Glamsterdam upgrade signals progress toward the network’s next major feature set, while the planned Hegotá upgrade in 2027 underscores a multi‑year commitment to enhancing base‑layer capacity. Since the September 2022 Merge, Ethereum has shifted from proof‑of‑work mining to proof‑of‑stake, cutting energy use by about 99.95%, and has pursued a rollup‑focused scaling strategy that relies on layer‑2 solutions. Observers will watch the outcomes of Glamsterdam testing and the timeline for Hegotá to gauge how quickly the network can deliver on its roadmap goals.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "Ethereum has completed four major upgrades since the Merge moved it to proof‑of‑stake in 2022.",
+     "source": 1,
+     "quote": "Ethereum has completed four major upgrades since the Merge moved it to proof-of-stake in 2022.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Glamsterdam is in testing ahead of a mainnet launch, with Hegotá expected to follow in 2027.",
+     "source": 1,
+     "quote": "Glamsterdam is in testing ahead of a mainnet launch, with Hegotá expected to follow in 2027.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "The Merge cut Ethereum’s energy use by roughly 99.95%.",
+     "source": 1,
+     "quote": "The Merge: Completed. Ethereum moved from mining to staking, cutting energy use by roughly 99.95%.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+     "published": "Fri, 27 Nov 2026 13:50:04 +0000",
+     "published_iso": "2026-11-27T13:50:04+00:00",
+     "kind": "news",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
+     "published": "Fri, 27 Nov 2026 04:29:47 +0000",
+     "published_iso": "2026-11-27T04:29:47+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
+    "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+    "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
+   ],
+   "primary": [],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-27-kalshi-markets-microinsurance-to-small-firms-as-legal-pressu-8b899",
+   "date": "2026-11-27",
+   "section": "money",
+   "verdict": "PUBLISH",
+   "headline": "Kalshi markets microinsurance to small firms as legal pressures rise",
+   "in_brief": "Kalshi says roughly 500 small businesses have used its platform to hedge risks, and the company withdrew from Utah prompting the state to consider dropping criminal charges. The move comes as sports contracts still dominate its $39.7 billion trading volume.",
+   "so_what": "Kalshi is positioning its prediction‑market platform as a form of microinsurance for small enterprises, offering contracts that cover commodity price swings, extreme weather and power outages. The strategy seeks to diversify revenue beyond sports betting, which accounted for about 87% of the $39.7 billion traded through February 2026, according to a Congressional Research Service report. Kalshi’s recent exit from Utah led state officials to move toward dismissing criminal charges against the firm and its founders, highlighting the regulatory scrutiny the company faces in more than 20 states. The shift toward business‑focused contracts may test the platform’s ability to attract liquidity, as insurers and brokers have reported limited uptake so far. Observers will watch whether Kalshi can scale its microinsurance offering and how ongoing legal challenges affect its broader market participation.",
+   "what_to_do": "",
+   "hype_flag": "low",
+   "hype_reason": "neutral reporting",
+   "claims": [
+    {
+     "claim": "About 500 businesses have used Kalshi to hedge risks ranging from commodity price swings to extreme weather and power outages",
+     "source": 1,
+     "quote": "About 500 businesses have used Kalshi to hedge risks ranging from commodity price swings to extreme weather and power outages, the prediction market told the Financial Times.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Kalshi pulled out of Utah, prompting the state to move to drop criminal charges against the company and its co‑founders",
+     "source": 1,
+     "quote": "This week, Kalshi pulled out of Utah, prompting the state to move to drop criminal charges against the company and its co‑founders.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Sports contracts made up about 87% of the $39.7 billion traded on the platform in the year to February 2026",
+     "source": 1,
+     "quote": "About 87% of the $39.7 billion traded on the platform in the year to February 2026 was on sports, according to a Congressional Research Service report.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Decrypt",
+     "owner": "decrypt.co",
+     "url": "https://decrypt.co/384118/kalshi-courts-small-businesses-with-microinsurance-as-state-crackdowns-bite",
+     "published": "Fri, 27 Nov 2026 11:19:47 +0000",
+     "published_iso": "2026-11-27T11:19:47+00:00",
+     "kind": "news",
+     "first": true
+    },
+    {
+     "n": 2,
+     "outlet": "CoinDesk",
+     "owner": "coindesk.com",
+     "url": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
+     "published": "Fri, 27 Nov 2026 13:19:10 +0000",
+     "published_iso": "2026-11-27T13:19:10+00:00",
+     "kind": "news",
+     "first": false
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
+    "https://decrypt.co/384118/kalshi-courts-small-businesses-with-microinsurance-as-state-crackdowns-bite"
+   ],
+   "primary": [
+    {
+     "url": "https://attorneygeneral.utah.gov/utah-dismiss-kalshi-criminal-case/",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://attorneygeneral.utah.gov/utah-dismiss-kalshi-criminal-case/"
+    }
+   ],
+   "truth": {
+    "total": 46,
+    "label": "Developing",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: coindesk.com, decrypt.co"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      6,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-27-new-york-enacts-five-year-ban-on-ai-chatbot-toys-for-childre-fe1ec",
+   "date": "2026-11-27",
+   "section": "scam",
+   "verdict": "PUBLISH",
+   "headline": "New York Enacts Five-Year Ban on AI Chatbot Toys for Children",
+   "in_brief": "New York Governor Kathy Hochul signed a law banning the manufacture, distribution and sale of AI‑powered chatbot toys, taking effect on Feb. 22, 2027. The ban aims to prevent exposure of children to inappropriate content and privacy risks.",
+   "so_what": "The legislation responds to testing by the US Public Interest Research Group Education Fund that found several AI toys could discuss sexually explicit topics, give unsafe advice and weaken safety limits over time. By prohibiting these products for five years, the state seeks to protect children’s mental health and privacy while giving manufacturers time to improve safeguards. Companies that violate the ban face civil penalties of up to $15,000 per day per violation, providing strong enforcement leverage. The rule applies to any toy with a built‑in AI companion, such as talking plushies, dolls and robots that connect to the internet. Parents should verify safety reviews, use parental controls and review privacy policies before purchasing or using such toys. Watch for compliance actions by the attorney general’s office and potential adjustments to the law as technology evolves.",
+   "what_to_do": "1. Check independent safety reviews before buying any AI‑enabled toy. 2. Test the toy yourself and supervise its use, turning on parental controls or disabling the chatbot when not watching. 3. Read the toy’s privacy policy to understand what data is collected and how it is used.",
+   "hype_flag": "low",
+   "hype_reason": "neutral factual reporting",
+   "claims": [
+    {
+     "claim": "New York’s five‑year ban on AI chatbot toys takes effect on February 22, 2027.",
+     "source": 1,
+     "quote": "New York’s five-year ban on AI chatbot toys takes effect February 22, 2027",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Governor Kathy Hochul signed the law on November 24, 2026.",
+     "source": 1,
+     "quote": "Governor Kathy Hochul signed the law on November 24, as the holiday shopping season began",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Violators of the ban face civil penalties of up to $15,000 per day per violation.",
+     "source": 2,
+     "quote": "Companies violating the five year ban will face a $15,000 per day fine",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Malwarebytes Labs",
+     "owner": "malwarebytes.com",
+     "url": "https://www.malwarebytes.com/blog/ai/2026/11/why-new-york-is-banning-ai-chatbot-toys",
+     "published": "Thu, 26 Nov 2026 12:20:27 GMT",
+     "published_iso": "2026-11-26T12:20:27+00:00",
+     "kind": "vendor",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Engadget",
+     "owner": "Yahoo",
+     "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
+     "published": "Thu, 26 Nov 2026 06:02:48 +0000",
+     "published_iso": "2026-11-26T06:02:48+00:00",
+     "kind": "news",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://www.malwarebytes.com/blog/ai/2026/11/why-new-york-is-banning-ai-chatbot-toys",
+    "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/"
+   ],
+   "primary": [
+    {
+     "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+     "type": "related official record",
+     "verified": true,
+     "label": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+    }
+   ],
+   "truth": {
+    "total": 59,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: Yahoo, malwarebytes.com"
+     ],
+     [
+      "Primary evidence",
+      12,
+      25,
+      "Related official record (on the same subject, not this specific event)"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      0,
+      10,
+      "0 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      7,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  },
+  {
+   "id": "2026-11-27-fact-check-ai-generated-video-of-prince-harry-shoving-meghan-0df39",
+   "date": "2026-11-27",
+   "section": "myth",
+   "verdict": "PUBLISH",
+   "headline": "Fact Check: AI‑Generated Video of Prince Harry Shoving Meghan Is Fake",
+   "in_brief": "A video circulating online claimed to show Prince Harry shoving Meghan Markle while holding their daughter Lilibet. Fact‑checkers determined the clip was created with artificial intelligence and no real incident occurred.",
+   "so_what": "The claim spread on social media, prompting thousands of likes and comments that treated it as genuine. Both Full Fact and Lead Stories identified visual anomalies—such as elongated hands, unnatural arm bends, and a child appearing too young—to conclude the footage was AI‑generated. No reputable news outlet reported any public dispute between the Duke and Duchess of Sussex, nor any talent contract involving their daughter. The misinformation illustrates how AI tools can fabricate realistic‑looking videos that exploit public interest in high‑profile figures, potentially eroding trust in authentic media. Audiences should scrutinize source credibility, look for technical glitches, and verify stories against established news outlets before sharing. Monitoring future AI‑deepfake detections and platform policies will be key to limiting similar disinformation.",
+   "what_to_do": "Check the source, look for visual glitches, and verify with reputable fact‑checkers before sharing suspicious videos.",
+   "hype_flag": "low",
+   "hype_reason": "pure factual verification",
+   "claims": [
+    {
+     "claim": "The video showing Prince Harry shoving Meghan and holding Lilibet was created with AI and is not real.",
+     "source": 1,
+     "quote": "This video isn’t real and was made with AI.",
+     "status": "verified",
+     "corroborated_by": [
+      "leadstories.com"
+     ],
+     "problems": []
+    },
+    {
+     "claim": "No credible reports exist of a public conflict between Prince Harry and Meghan or a talent contract for their daughter.",
+     "source": 1,
+     "quote": "We haven’t found any credible reports about any such public disagreement between the Duke and Duchess of Sussex, or an official talent contract for the princess.",
+     "status": "verified",
+     "corroborated_by": [],
+     "problems": []
+    },
+    {
+     "claim": "Visual glitches such as elongated hands and unnatural movements indicate the video is AI‑generated.",
+     "source": 2,
+     "quote": "Several visual glitches reveal that the video is AI-generated.",
+     "status": "verified",
+     "corroborated_by": [
+      "fullfact.org"
+     ],
+     "problems": []
+    }
+   ],
+   "rejected_claims": [],
+   "sources": [
+    {
+     "n": 1,
+     "outlet": "Full Fact",
+     "owner": "fullfact.org",
+     "url": "https://fullfact.org/culture-and-society/ai-video-prince-harry-shoving-meghan/",
+     "published": "Fri, 27 Nov 2026 15:13:19 +0000",
+     "published_iso": "2026-11-27T15:13:19+00:00",
+     "kind": "factcheck",
+     "first": false
+    },
+    {
+     "n": 2,
+     "outlet": "Lead Stories",
+     "owner": "leadstories.com",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-fake-video-shows-harry-shoving-meghan-markle-while-holding-lilibet-is-ai-generated-no-reports-of-public-conflict.html",
+     "published": "2026-11-26T00:28:09Z",
+     "published_iso": "2026-11-26T00:28:09+00:00",
+     "kind": "factcheck",
+     "first": true
+    }
+   ],
+   "also_covered_urls": [
+    "https://fullfact.org/culture-and-society/ai-video-prince-harry-shoving-meghan/",
+    "https://leadstories.com/hoax-alert/2026/11/fact-check-fake-video-shows-harry-shoving-meghan-markle-while-holding-lilibet-is-ai-generated-no-reports-of-public-conflict.html"
+   ],
+   "primary": [
+    {
+     "url": "https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1158683&subId=0",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://register-of-charities.charitycommission.gov.uk/charity-details/?regId=1158683&subId=0"
+    },
+    {
+     "url": "https://find-and-update.company-information.service.gov.uk/company/06975984",
+     "type": "linked official page",
+     "verified": false,
+     "label": "https://find-and-update.company-information.service.gov.uk/company/06975984"
+    }
+   ],
+   "truth": {
+    "total": 55,
+    "label": "Well-sourced",
+    "parts": [
+     [
+      "Independent outlets",
+      15,
+      30,
+      "2 independent owners: fullfact.org, leadstories.com"
+     ],
+     [
+      "Primary evidence",
+      0,
+      25,
+      "No primary or official source found for this specific story yet"
+     ],
+     [
+      "Claims verified",
+      25,
+      25,
+      "3 of 3 claims matched their cited source"
+     ],
+     [
+      "Claims confirmed elsewhere",
+      7,
+      10,
+      "2 claims also supported by another independent outlet"
+     ],
+     [
+      "Outlet track record",
+      8,
+      10,
+      "Average reliability rating of the outlets"
+     ]
+    ]
+   },
+   "editor": {
+    "reasons": [],
+    "edits": [],
+    "disputed": false,
+    "dispute_note": "",
+    "model": "gemini/gemini-flash-lite-latest"
+   },
+   "writer_model": "groq/openai/gpt-oss-120b",
+   "owners_count": 2
+  }
+ ],
+ "sections": [
+  "threat",
+  "ai",
+  "science",
+  "money",
+  "scam",
+  "myth"
+ ],
+ "section_names": {
+  "threat": "Threat Watch",
+  "ai": "AI & Tech",
+  "science": "Science & Space",
+  "money": "Money & Markets",
+  "scam": "Scam Alert",
+  "myth": "Myth Busted"
+ },
+ "editor_note": "",
+ "stats": {
+  "items_scanned": 433,
+  "stories_considered": 12,
+  "published": 12,
+  "outlets": 33
+ }
+}

@@ -1,0 +1,128 @@
+[
+ {
+  "section": "threat",
+  "title": "US Air Force Cloud One Platform Breached During Upgrade",
+  "verdict": "PUBLISH",
+  "truth": 72,
+  "reasons": [],
+  "edits": [
+   "editor rewrote in_brief",
+   "editor rewrote so_what",
+   "editor rewrote what_to_do",
+   "editor: copied long word-for-word run from source",
+   "editor: included unverified speculation regarding AI tools",
+   "editor: missing necessary attribution for claims reported by sources"
+  ],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "Drupal warns of actively exploited site‑takeover flaw (CVE‑2026‑136716)",
+  "verdict": "PUBLISH",
+  "truth": 98,
+  "reasons": [],
+  "edits": [],
+  "owners": 4
+ },
+ {
+  "section": "threat",
+  "title": "SAP and 1Password report cyber incidents involving source code and customer data",
+  "verdict": "PUBLISH",
+  "truth": 57,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 7
+ },
+ {
+  "section": "ai",
+  "title": "FCC approves SpaceX plan to launch up to 1 million AI data‑center satellites",
+  "verdict": "PUBLISH",
+  "truth": 53,
+  "reasons": [],
+  "edits": [
+   "removed 1 claim(s) that failed fact-checking"
+  ],
+  "owners": 5
+ },
+ {
+  "section": "ai",
+  "title": "NVIDIA reportedly pauses AI server shipments to four Southeast Asian nations",
+  "verdict": "PUBLISH",
+  "truth": 47,
+  "reasons": [],
+  "edits": [
+   "editor rewrote headline",
+   "editor rewrote in_brief",
+   "editor: Headline and text state the shipment pause as a definitive fact, whereas the source reports it as 'reportedly' and based on manufacturing partners telling clients."
+  ],
+  "owners": 2
+ },
+ {
+  "section": "ai",
+  "title": "OpenAI files countersuit against Apple alleging trade‑secret theft and supplier pressure",
+  "verdict": "PUBLISH",
+  "truth": 56,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "science",
+  "title": "NASA astronaut Andre Douglas tours Vehicle Assembly Building ahead of Artemis III",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [
+   "editor rewrote so_what",
+   "editor: Copied 2 long word-for-word run(s) from a source"
+  ],
+  "owners": 1
+ },
+ {
+  "section": "science",
+  "title": "NASA launches NG-25 mission with space crop and brain tissue experiments",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 1
+ },
+ {
+  "section": "money",
+  "title": "Ethereum advances with Glamsterdam testing and upcoming Hegotá upgrade",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "money",
+  "title": "Kalshi markets microinsurance to small firms as legal pressures rise",
+  "verdict": "PUBLISH",
+  "truth": 46,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "scam",
+  "title": "New York Enacts Five-Year Ban on AI Chatbot Toys for Children",
+  "verdict": "PUBLISH",
+  "truth": 59,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ },
+ {
+  "section": "myth",
+  "title": "Fact Check: AI‑Generated Video of Prince Harry Shoving Meghan Is Fake",
+  "verdict": "PUBLISH",
+  "truth": 55,
+  "reasons": [],
+  "edits": [],
+  "owners": 2
+ }
+]
